@@ -86,3 +86,7 @@ export PATH=$PATH:${JAVA_HOME}/bin
 
 # HADOOP HDFS CPLUS
 export HADOOP_DIR=/home/wm/work/hadoop/hadoop-1.0.4
+export LD_LIBRARY_PATH=${JAVA_HOME}/jre/lib/amd64/server
+export CLASSPATH=$CLASSPATH:${HADOOP_DIR}/lib/commons-lang-2.4.jar:${HADOOP_DIR}/lib/commons-logging-api-1.0.4.jar:${HADOOP_DIR}/lib/commons-configuration-1.6.jar:${HADOOP_DIR}/hadoop-core-1.0.4.jar:${HADOOP_DIR}/contrib/streaming/hadoop-streaming-1.0.4.jar
+
+# glog
