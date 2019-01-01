@@ -79,3 +79,5 @@ unset pathmunge
 
 # User specific aliases and functions
 # JAVA
+export JAVA_HOME=/usr/lib/java/jdk1.7.0_40
+export JRE_HOME=${JAVA_HOME}/jre
