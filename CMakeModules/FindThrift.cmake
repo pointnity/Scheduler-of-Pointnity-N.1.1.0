@@ -30,3 +30,5 @@ IF (THRIFT_LIBRARY_PATH)
     MESSAGE(STATUS "thrift libraray directory: ${THRIFT_LIBRARY_PATH}")
 ELSE()
     MESSAGE(FATAL_ERROR "thrift library not found")
+ENDIF(THRIFT_LIBRARY_PATH)
+
