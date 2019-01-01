@@ -71,3 +71,5 @@ for i in /etc/profile.d/*.sh ; do
         else
             . "$i" >/dev/null 2>&1
         fi
+    fi
+done
