@@ -8,3 +8,6 @@
 
 FIND_PROGRAM(THRIFT_EXECUTABLE thrift DOC "path to the thrift program")
 MARK_AS_ADVANCED(THRIFT_EXECUTABLE)
+
+IF (THRIFT_EXECUTABLE)
+    MESSAGE(STATUS "check thrift....... yes")
