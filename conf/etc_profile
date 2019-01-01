@@ -28,3 +28,7 @@ if [ -x /usr/bin/id ]; then
         EUID=`id -u`
         UID=`id -ru`
     fi
+    USER="`id -un`"
+    LOGNAME=$USER
+    MAIL="/var/spool/mail/$USER"
+fi
