@@ -63,3 +63,6 @@ if [ $UID -gt 199 ] && [ "`id -gn`" = "`id -un`" ]; then
 else
     umask 022
 fi
+
+for i in /etc/profile.d/*.sh ; do
+    if [ -r "$i" ]; then
