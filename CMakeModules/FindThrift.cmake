@@ -14,3 +14,6 @@ IF (THRIFT_EXECUTABLE)
 ELSE()
     MESSAGE(FATAL_ERROR "thrift executable not found")
 ENDIF(THRIFT_EXECUTABLE)
+
+FIND_PATH(THRIFT_INCLUDE_PATH thrift/config.h)
+
