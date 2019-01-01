@@ -6,3 +6,12 @@
 # It's NOT a good idea to change this file unless you know what you
 # are doing. It's much better to create a custom.sh shell script in
 # /etc/profile.d/ to make custom changes to your environment, as this
+# will prevent the need for merging in future updates.
+
+pathmunge () {
+    case ":${PATH}:" in
+        *:"$1":*)
+            ;;
+        *)
+            if [ "$2" = "after" ] ; then
+                PATH=$PATH:$1
