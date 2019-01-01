@@ -15,3 +15,11 @@ pathmunge () {
         *)
             if [ "$2" = "after" ] ; then
                 PATH=$PATH:$1
+            else
+                PATH=$1:$PATH
+            fi
+    esac
+}
+
+
+if [ -x /usr/bin/id ]; then
