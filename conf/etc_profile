@@ -32,3 +32,10 @@ if [ -x /usr/bin/id ]; then
     LOGNAME=$USER
     MAIL="/var/spool/mail/$USER"
 fi
+
+# Path manipulation
+if [ "$EUID" = "0" ]; then
+    pathmunge /sbin
+    pathmunge /usr/sbin
+    pathmunge /usr/local/sbin
+else
