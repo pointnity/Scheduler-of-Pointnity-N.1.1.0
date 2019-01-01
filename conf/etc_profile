@@ -73,3 +73,6 @@ for i in /etc/profile.d/*.sh ; do
         fi
     fi
 done
+
+unset i
+unset pathmunge
