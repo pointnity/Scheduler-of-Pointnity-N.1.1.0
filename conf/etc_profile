@@ -46,3 +46,6 @@ fi
 
 HOSTNAME=`/bin/hostname 2>/dev/null`
 HISTSIZE=1000
+if [ "$HISTCONTROL" = "ignorespace" ] ; then
+    export HISTCONTROL=ignoreboth
+else
