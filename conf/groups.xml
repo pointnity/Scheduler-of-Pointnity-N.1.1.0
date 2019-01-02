@@ -7,3 +7,4 @@
     </group>
     <group>
         <name>Group B</name>
+        <quota_shares>100</quota_shares>
