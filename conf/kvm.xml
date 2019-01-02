@@ -31,3 +31,4 @@
         </interface>
 	<interface type = 'network'>
             <source network = 'default'/>
+        </interface>
