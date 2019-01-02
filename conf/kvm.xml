@@ -30,3 +30,4 @@
             <source bridge = 'br0'/>
         </interface>
 	<interface type = 'network'>
+            <source network = 'default'/>
