@@ -3,3 +3,4 @@
     <privilege_factor>3</privilege_factor>
     <group>
         <name>common</name>
+        <quota_shares>200</quota_shares>
