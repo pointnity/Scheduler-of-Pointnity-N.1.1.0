@@ -11,3 +11,4 @@
         <apic/>
         <pae/>
     </features>
+    <clock offset = 'localtime'/>
