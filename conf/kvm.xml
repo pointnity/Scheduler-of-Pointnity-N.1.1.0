@@ -32,3 +32,4 @@
 	<interface type = 'network'>
             <source network = 'default'/>
         </interface>
+        <input type ='tablet' bus='usb'/>
