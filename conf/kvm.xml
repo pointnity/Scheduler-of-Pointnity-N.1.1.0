@@ -16,3 +16,5 @@
     <on_reboot>restart</on_reboot>
     <on_crash>destroy</on_crash>
     <devices>
+        <emulator>/usr/bin/kvm</emulator>
+        <disk type = 'file' device = 'disk'>
