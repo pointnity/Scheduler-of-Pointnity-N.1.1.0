@@ -1,2 +1,3 @@
 <domain type = 'kvm'>
     <name>T_NAME</name>
+    <memory>T_MEMORY</memory>
