@@ -9,3 +9,5 @@
     <features>
         <acpi/>
         <apic/>
+        <pae/>
+    </features>
