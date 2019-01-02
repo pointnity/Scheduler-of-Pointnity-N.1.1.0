@@ -22,3 +22,4 @@
             <source file = 'T_IMG_LOCATION'/>
             <target dev = 'hda' bus = 'ide'/>
         </disk>
+        <disk type = 'file' device = 'cdrom'>
