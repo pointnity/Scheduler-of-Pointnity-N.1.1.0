@@ -12,3 +12,4 @@
     </group>
     <group>
         <name>Group C</name>
+        <quota_shares>100</quota_shares>
