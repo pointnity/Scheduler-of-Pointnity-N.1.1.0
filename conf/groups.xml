@@ -4,3 +4,4 @@
     <group>
         <name>common</name>
         <quota_shares>200</quota_shares>
+    </group>
