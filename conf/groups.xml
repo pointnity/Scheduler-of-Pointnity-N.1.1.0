@@ -2,3 +2,4 @@
 <groups>
     <privilege_factor>3</privilege_factor>
     <group>
+        <name>common</name>
