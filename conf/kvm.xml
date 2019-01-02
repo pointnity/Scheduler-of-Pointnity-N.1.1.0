@@ -20,3 +20,4 @@
         <disk type = 'file' device = 'disk'>
             <driver name = 'qemu' type = 'qcow2'/>
             <source file = 'T_IMG_LOCATION'/>
+            <target dev = 'hda' bus = 'ide'/>
