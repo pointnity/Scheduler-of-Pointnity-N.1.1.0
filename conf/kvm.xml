@@ -28,3 +28,4 @@
         </disk> 
         <interface type = 'bridge'>
             <source bridge = 'br0'/>
+        </interface>
