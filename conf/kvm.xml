@@ -26,3 +26,4 @@
             <source file = 'T_ISO_LOCATION'/>
             <target dev = 'hdb' bus = 'ide'/>
         </disk> 
+        <interface type = 'bridge'>
