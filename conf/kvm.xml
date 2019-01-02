@@ -24,3 +24,5 @@
         </disk>
         <disk type = 'file' device = 'cdrom'>
             <source file = 'T_ISO_LOCATION'/>
+            <target dev = 'hdb' bus = 'ide'/>
+        </disk> 
