@@ -33,3 +33,4 @@
             <source network = 'default'/>
         </interface>
         <input type ='tablet' bus='usb'/>
+        <input type = 'mouse' bus = 'ps2'/>
