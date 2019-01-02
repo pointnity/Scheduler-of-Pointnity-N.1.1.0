@@ -27,3 +27,4 @@
             <target dev = 'hdb' bus = 'ide'/>
         </disk> 
         <interface type = 'bridge'>
+            <source bridge = 'br0'/>
