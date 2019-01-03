@@ -8,3 +8,4 @@
         <task_num>4</task_num>
         <task>
             <task_id>1</task_id>
+            <need_cpu>1</need_cpu>
