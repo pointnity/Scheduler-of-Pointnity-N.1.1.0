@@ -4,3 +4,4 @@
   <user>common</user>
   <name>ubuntu.qcow2</name>
   <size>10</size>
+  <is_update_all>false</is_update_all>
