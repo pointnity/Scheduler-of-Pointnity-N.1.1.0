@@ -60,3 +60,4 @@
         <edge>
             <start>3</start>
             <end>4</end>
+            <weight>-100</weight>
