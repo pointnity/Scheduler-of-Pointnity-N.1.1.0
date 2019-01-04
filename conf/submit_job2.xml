@@ -30,3 +30,5 @@
             <need_memory>200</need_memory>
             <exe_path>my_loop</exe_path>
         </task> 
+    </tasks>
+    <constraints>
