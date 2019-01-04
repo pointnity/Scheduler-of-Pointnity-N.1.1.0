@@ -38,3 +38,5 @@
             <weight>-100</weight>
         <edge>
         <edge>
+            <start>1</start>
+            <end>3</end>
