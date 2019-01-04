@@ -27,3 +27,4 @@
         <task>
             <task_id>4</task_id>
             <need_cpu>1</need_cpu>
+            <need_memory>200</need_memory>
