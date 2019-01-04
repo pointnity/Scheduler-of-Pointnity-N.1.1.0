@@ -9,3 +9,6 @@
         <task>
             <task_id>1</task_id>
             <need_cpu>1</need_cpu>
+            <need_memory>200</need_memory>
+            <exe_path>my_loop</exe_path>
+        </task>
