@@ -11,3 +11,4 @@
             <vm_type>LXC</vm_type>
             <exe_path>exe2</exe_path>
         </task> 
+    </tasks>
