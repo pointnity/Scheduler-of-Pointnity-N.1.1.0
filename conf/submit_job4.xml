@@ -5,3 +5,4 @@
     <job_type>batch</job_type>
 
    <tasks>
+        <task_num>4</task_num>
