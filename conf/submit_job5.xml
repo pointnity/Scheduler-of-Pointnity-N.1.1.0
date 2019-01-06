@@ -12,3 +12,5 @@
             <vm_type>KVM</vm_type>
             <img_template>ubuntu.qco</img_template>
             <exe_path>exe1</exe_path>
+            <hard_requirement>MachineType == &quot;A&quot;</hard_reqirement>
+            <soft_requirement value="20">LoadAvg &lt;= 0.7</soft_requirement>
