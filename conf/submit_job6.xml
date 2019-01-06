@@ -16,3 +16,4 @@
             <soft_requirement value="20">LoadAvg &lt;= 0.7</soft_requirement>
             <soft_requirement value="20">LoadAvg &gt;= 0.2</soft_requirement>
         </task>
+        <task>
