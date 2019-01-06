@@ -1,2 +1,3 @@
 <job>
     <xml_type>heterogeneous</xml_type>
+    <group>common</group>
