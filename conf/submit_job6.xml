@@ -18,3 +18,4 @@
         </task>
         <task>
             <task_id>3,4</task_id>
+            <need_cpu>1</need_cpu>
