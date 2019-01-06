@@ -29,3 +29,5 @@
         <edge>
             <start>1</start>
             <end>2</end>
+            <weight>50</weight>
+        </edge>
