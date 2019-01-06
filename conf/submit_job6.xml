@@ -3,3 +3,6 @@
     <group>common</group>
     <priority>high</priority>
     <job_type>batch</job_type>
+
+    <tasks>
+        <task>
