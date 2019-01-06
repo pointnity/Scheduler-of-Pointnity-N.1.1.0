@@ -7,3 +7,4 @@
     <tasks>
         <task>
             <task_id>1,2</task_id>
+            <need_cpu>1</need_cpu>
