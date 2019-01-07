@@ -5,3 +5,4 @@
     <job_type>batch</job_type>
 
     <need_cpu>1</need_cpu>
+    <need_memory>512</need_memory>
