@@ -11,3 +11,5 @@
     <size>10</size>
     <app_name>getURL</app_name>
     <timeout>20</timeout>   
+
+    <tasks>
