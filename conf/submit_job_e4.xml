@@ -11,3 +11,4 @@
     <img_template>ubuntu.qcow2</img_template>
     <size>10</size>
     <app_name>getURL</app_name>
+    <app_file>getURL</app_file>
