@@ -22,3 +22,4 @@
         <task>
             <exe_path>getURL -b</exe_path>
             <task_num>2</task_num>
+        </task>
