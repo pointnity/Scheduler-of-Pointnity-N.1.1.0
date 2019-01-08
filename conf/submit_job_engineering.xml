@@ -8,3 +8,4 @@
     <tasks>
         <task>
             <need_cpu>1</need_cpu>
+            <need_memory>200</need_memory>
