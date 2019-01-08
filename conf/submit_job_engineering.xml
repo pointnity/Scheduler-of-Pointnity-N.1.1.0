@@ -17,3 +17,4 @@
             <need_memory>300</need_memory>
             <exe_path>my_loop</exe_path>
             <num>5</num>
+        </task>
