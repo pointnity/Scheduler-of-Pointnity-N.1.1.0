@@ -15,3 +15,4 @@
         <task>
             <need_cpu>2</need_cpu>
             <need_memory>300</need_memory>
+            <exe_path>my_loop</exe_path>
