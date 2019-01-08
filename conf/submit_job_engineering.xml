@@ -13,3 +13,4 @@
             <num>5</num>
         </task>
         <task>
+            <need_cpu>2</need_cpu>
