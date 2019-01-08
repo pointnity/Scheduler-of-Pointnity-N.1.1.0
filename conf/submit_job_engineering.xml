@@ -14,3 +14,4 @@
         </task>
         <task>
             <need_cpu>2</need_cpu>
+            <need_memory>300</need_memory>
