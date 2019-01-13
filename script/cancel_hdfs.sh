@@ -14,3 +14,4 @@ HADOOP_DIR=$2 # /home/wm/work/hadoop/hadoop-1.0.4/
 
 # java .h
 # cp ${JAVA_HOME}/include/* /usr/include/
+# cp ${JAVA_HOME}/include/linux/* /usr/include/
