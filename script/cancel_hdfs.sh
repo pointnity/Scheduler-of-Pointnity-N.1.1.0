@@ -21,3 +21,4 @@ HADOOP_DIR=$2 # /home/wm/work/hadoop/hadoop-1.0.4/
 # rm -rf /usr/local/lib/libjvm.so
 
 # hdfs .h
+# cp -r ${HADOOP_DIR}/src/c++/libhdfs /usr/local/include/hdfs
