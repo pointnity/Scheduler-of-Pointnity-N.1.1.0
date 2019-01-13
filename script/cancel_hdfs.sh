@@ -11,3 +11,5 @@
 
 JAVA_HOME=$1 # /usr/lib/java/jdk1.7.0_40/ 
 HADOOP_DIR=$2 # /home/wm/work/hadoop/hadoop-1.0.4/
+
+# java .h
