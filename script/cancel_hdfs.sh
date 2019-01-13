@@ -18,3 +18,4 @@ HADOOP_DIR=$2 # /home/wm/work/hadoop/hadoop-1.0.4/
 
 # java .so
 # cp ${JAVA_HOME}/jre/lib/amd64/server/libjvm.so /usr/local/lib/
+# rm -rf /usr/local/lib/libjvm.so
