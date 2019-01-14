@@ -13,4 +13,4 @@
 cp -r ../third_party/hdfs/include /usr/local/include/hdfs
 
 # hdfs .so
-
+cp ../third_party/hdfs/lib64/libhdfs.* /usr/local/lib/
