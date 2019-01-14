@@ -12,4 +12,5 @@
 # hdfs .h
 cp -r ../third_party/hdfs/include /usr/local/include/hdfs
 
-# hdfs .socp ../third_party/hdfs/lib64/libhdfs.* /usr/local/lib/
+# hdfs .so
+
