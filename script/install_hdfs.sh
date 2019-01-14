@@ -10,3 +10,4 @@
 #######################################
 
 # hdfs .h
+cp -r ../third_party/hdfs/include /usr/local/include/hdfs
