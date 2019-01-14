@@ -4,3 +4,4 @@ rm -rf ../build/* ../bin/* ../log/* ../test/*
 rm -f ../src/tags
 ./clean_proxy.sh
 ./clean_zk.sh
+exit 0
