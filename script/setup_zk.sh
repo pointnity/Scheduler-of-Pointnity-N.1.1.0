@@ -19,3 +19,5 @@ tar -xvzf zookeeper-3.4.5.tar.gz
 cp -r zookeeper-3.4.5 server1
 cp -r zookeeper-3.4.5 server2
 cp -r zookeeper-3.4.5 server3
+
+echo "tickTime=2000
