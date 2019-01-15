@@ -21,3 +21,4 @@ cp -r zookeeper-3.4.5 server2
 cp -r zookeeper-3.4.5 server3
 
 echo "tickTime=2000
+initLimit=5
