@@ -39,3 +39,4 @@ echo "clientPort=2182" >> server2/zookeeper-3.4.5/conf/zoo.cfg
 cp zoo.cfg server3/zookeeper-3.4.5/conf/zoo.cfg
 echo "dataDir=./server3/data" >> server3/zookeeper-3.4.5/conf/zoo.cfg
 echo "dataLogDir=./server3/dataLog" >> server3/zookeeper-3.4.5/conf/zoo.cfg
+echo "clientPort=2183" >> server3/zookeeper-3.4.5/conf/zoo.cfg
