@@ -16,3 +16,4 @@ mkdir -p server2/data server2/dataLog server2/logs
 mkdir -p server3/data server3/dataLog server3/logs
 
 tar -xvzf zookeeper-3.4.5.tar.gz
+cp -r zookeeper-3.4.5 server1
