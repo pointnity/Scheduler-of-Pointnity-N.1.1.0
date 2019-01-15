@@ -43,3 +43,4 @@ echo "clientPort=2183" >> server3/zookeeper-3.4.5/conf/zoo.cfg
 
 echo 1 >> server1/data/myid
 echo 2 >> server2/data/myid
+echo 3 >> server3/data/myid
