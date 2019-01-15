@@ -31,3 +31,4 @@ server.3=127.0.0.1:2890:3890"
 cp zoo.cfg server1/zookeeper-3.4.5/conf/zoo.cfg
 echo "dataDir=./server1/data" >> server1/zookeeper-3.4.5/conf/zoo.cfg
 echo "dataLogDir=./server1/dataLog" >> server1/zookeeper-3.4.5/conf/zoo.cfg
+echo "clientPort=2181" >> server1/zookeeper-3.4.5/conf/zoo.cfg
