@@ -29,3 +29,4 @@ server.3=127.0.0.1:2890:3890"
 >> zoo.cfg
 
 cp zoo.cfg server1/zookeeper-3.4.5/conf/zoo.cfg
+echo "dataDir=./server1/data" >> server1/zookeeper-3.4.5/conf/zoo.cfg
