@@ -11,3 +11,4 @@ if [ $# -ne 1 ]; then
 fi
 
 cd ../zookeeper
+mkdir -p server1/data server1/dataLog server1/logs
