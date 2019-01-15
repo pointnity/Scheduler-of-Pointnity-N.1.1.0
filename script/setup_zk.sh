@@ -13,3 +13,4 @@ fi
 cd ../zookeeper
 mkdir -p server1/data server1/dataLog server1/logs
 mkdir -p server2/data server2/dataLog server2/logs
+mkdir -p server3/data server3/dataLog server3/logs
