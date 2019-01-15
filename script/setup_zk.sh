@@ -6,3 +6,4 @@ function usage()
 }
 
 if [ $# -ne 1 ]; then
+    usage
