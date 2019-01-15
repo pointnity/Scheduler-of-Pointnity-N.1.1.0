@@ -23,3 +23,4 @@ cp -r zookeeper-3.4.5 server3
 echo "tickTime=2000
 initLimit=5
 syncLimit=2
+server.1=127.0.0.1:2888:3888
