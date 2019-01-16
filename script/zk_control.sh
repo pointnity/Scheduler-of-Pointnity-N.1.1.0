@@ -23,3 +23,4 @@ elif [ $1 == "stop" ]; then
    ./server3/zookeeper-3.4.5/bin/zkServer.sh stop
 elif [ $1 == "client" ]; then
    cd ../zookeeper
+   ./server1/zookeeper-3.4.5/bin/zkCli.sh -server 127.0.0.1:2182
