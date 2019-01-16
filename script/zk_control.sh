@@ -19,3 +19,4 @@ if [ $1 == "start" ]; then
 elif [ $1 == "stop" ]; then
    cd ../zookeeper
    ./server1/zookeeper-3.4.5/bin/zkServer.sh stop
+   ./server2/zookeeper-3.4.5/bin/zkServer.sh stop
