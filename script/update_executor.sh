@@ -6,3 +6,4 @@ cd /root/lynn-2.0.0/bin
 killall executor
 rm -rf executor
 hadoop dfs -copyToLocal /lynn/bin/executor  .
+chmod +x executor
