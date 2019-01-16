@@ -8,3 +8,4 @@ rm -rf executor
 hadoop dfs -copyToLocal /lynn/bin/executor  .
 chmod +x executor
 nohup ./executor  >/dev/null 2>&1 &
+exit
