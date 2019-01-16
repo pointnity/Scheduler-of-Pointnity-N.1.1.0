@@ -16,3 +16,4 @@ if [ $1 == "start" ]; then
    ./server1/zookeeper-3.4.5/bin/zkServer.sh start
    ./server2/zookeeper-3.4.5/bin/zkServer.sh start
    ./server3/zookeeper-3.4.5/bin/zkServer.sh start
+elif [ $1 == "stop" ]; then
