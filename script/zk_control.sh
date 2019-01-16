@@ -5,3 +5,5 @@ function usage()
     echo "op start/stop"
     exit 1
 }
+
+if [ $# -ne 1 ]; then
