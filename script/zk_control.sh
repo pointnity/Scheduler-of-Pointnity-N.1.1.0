@@ -10,3 +10,5 @@ if [ $# -ne 1 ]; then
     usage
     exit 1
 fi
+
+if [ $1 == "start" ]; then
