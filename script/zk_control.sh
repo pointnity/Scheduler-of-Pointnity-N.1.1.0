@@ -21,3 +21,4 @@ elif [ $1 == "stop" ]; then
    ./server1/zookeeper-3.4.5/bin/zkServer.sh stop
    ./server2/zookeeper-3.4.5/bin/zkServer.sh stop
    ./server3/zookeeper-3.4.5/bin/zkServer.sh stop
+elif [ $1 == "client" ]; then
