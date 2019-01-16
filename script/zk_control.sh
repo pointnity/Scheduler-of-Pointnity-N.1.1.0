@@ -28,3 +28,5 @@ else
     echo "unknown op $1"
     exit 1
 fi
+
+exit 0
