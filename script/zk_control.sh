@@ -27,3 +27,4 @@ elif [ $1 == "client" ]; then
 else 
     echo "unknown op $1"
     exit 1
+fi
