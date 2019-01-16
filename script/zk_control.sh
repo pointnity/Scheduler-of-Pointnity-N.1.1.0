@@ -26,3 +26,4 @@ elif [ $1 == "client" ]; then
    ./server1/zookeeper-3.4.5/bin/zkCli.sh -server 127.0.0.1:2182
 else 
     echo "unknown op $1"
+    exit 1
