@@ -12,3 +12,4 @@ if [ $# -ne 1 ]; then
 fi
 
 if [ $1 == "start" ]; then
+   cd ../zookeeper
