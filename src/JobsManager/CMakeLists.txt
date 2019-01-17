@@ -59,3 +59,4 @@ SET(SRC
     job_pool.cpp
     group.cpp
     group_pool.cpp
+    job_parser.cpp
