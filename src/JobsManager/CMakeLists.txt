@@ -57,3 +57,4 @@ SET(SRC
     job.cpp
     batch_job.cpp
     job_pool.cpp
+    group.cpp
