@@ -5,3 +5,4 @@ SET(JOBS_MANAGER_THRIFT_SOURCE
     ${THRIFT_SOURCE_PREFIX}/JobsManager/gen-cpp/jobs_manager_constants.cpp
     ${THRIFT_SOURCE_PREFIX}/JobsManager/gen-cpp/jobs_manager_types.h
     ${THRIFT_SOURCE_PREFIX}/JobsManager/gen-cpp/jobs_manager_types.cpp
+    ${THRIFT_SOURCE_PREFIX}/JobsManager/gen-cpp/JobsManager.h
