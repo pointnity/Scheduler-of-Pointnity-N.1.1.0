@@ -65,3 +65,4 @@ SET(SRC
     wd_scheduler.cpp
     job_master.cpp
     image_manager.cpp
+    app_manager.cpp
