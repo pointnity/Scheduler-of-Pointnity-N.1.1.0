@@ -66,3 +66,4 @@ SET(SRC
     job_master.cpp
     image_manager.cpp
     app_manager.cpp
+    handler.cpp
