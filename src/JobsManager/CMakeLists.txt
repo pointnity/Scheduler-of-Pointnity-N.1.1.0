@@ -71,3 +71,4 @@ SET(SRC
     dispatcher.cpp
     work_thread.cpp
     jobs_manager_service.cpp
+   jobs_manager_main.cpp)
