@@ -52,3 +52,4 @@ SET(SRC
     ${RESOURCE_JOBS_MANAGER_THRIFT_SOURCE}
     ${EXECUTOR_THRIFT_SOURCE}
     config.cpp
+    task.cpp
