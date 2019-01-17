@@ -61,3 +61,4 @@ SET(SRC
     group_pool.cpp
     job_parser.cpp
     job_scheduler.cpp
+    default_scheduler.cpp
