@@ -25,3 +25,6 @@ ADD_CUSTOM_COMMAND (
     OUTPUT ${RESOURCE_JOBS_MANAGER_THRIFT_SOURCE}
     COMMAND thrift --gen cpp -r -o ${CMAKE_SOURCE_DIR}/src/proxy/ResourceScheduler
     ${CMAKE_SOURCE_DIR}/src/proxy/ResourceScheduler/resource_scheduler.thrift
+)
+
+SET(EXECUTOR_THRIFT_SOURCE
