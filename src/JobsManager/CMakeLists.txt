@@ -81,3 +81,6 @@ TARGET_LINK_LIBRARIES(JobsManager log4cplus)
 TARGET_LINK_LIBRARIES(JobsManager classad)
 TARGET_LINK_LIBRARIES(JobsManager gflags)
 #TARGET_LINK_LIBRARIES(JobsManager zookeeper_mt)
+
+
+INSTALL(TARGETS JobsManager RUNTIME DESTINATION bin)
