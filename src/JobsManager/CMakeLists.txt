@@ -70,3 +70,4 @@ SET(SRC
     event.cpp
     dispatcher.cpp
     work_thread.cpp
+    jobs_manager_service.cpp
