@@ -47,3 +47,5 @@ ADD_CUSTOM_COMMAND (
 #    ../proxy/resource_scheduler_wrapper.cpp)
 
 SET(SRC 
+    # ${COMMON_SOURCE}
+    ${JOBS_MANAGER_THRIFT_SOURCE}
