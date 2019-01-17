@@ -55,3 +55,4 @@ SET(SRC
     task.cpp
     batch_task.cpp
     job.cpp
+    batch_job.cpp
