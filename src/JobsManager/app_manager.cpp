@@ -28,3 +28,4 @@ bool AppManager::CreateApp(const string& user, const string& name) {
 
     if(it != app_name_to_user.end()) {
         it->second = user;
+	std::cout<<"user:"<<user<<"\nname:"<<name<<std::endl;
