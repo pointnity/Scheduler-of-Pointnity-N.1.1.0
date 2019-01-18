@@ -30,3 +30,4 @@ bool AppManager::CreateApp(const string& user, const string& name) {
         it->second = user;
 	std::cout<<"user:"<<user<<"\nname:"<<name<<std::endl;
         return true;
+    }
