@@ -24,3 +24,4 @@ public:
     bool CreateApp(const string& user, const string& name);
 
 private:
+   RWLock app_name_to_user_lock;
