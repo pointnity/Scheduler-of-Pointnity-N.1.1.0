@@ -8,3 +8,5 @@
 
 #ifndef JOB_MANAGER_APP_MANAGER_H
 #define JOB_MANAGER_APP_MANAGER_H
+
+#include <string>
