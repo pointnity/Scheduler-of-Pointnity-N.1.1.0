@@ -18,3 +18,4 @@
 using log4cplus::Logger;
 using namespace std;
 using clynn::ReadLocker;
+using clynn::WriteLocker;
