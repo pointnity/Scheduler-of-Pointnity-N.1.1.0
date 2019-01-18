@@ -25,3 +25,5 @@ static Logger logger = Logger::getInstance("JobsManager");
 bool AppManager::CreateApp(const string& user, const string& name) {
     ReadLocker lock(app_name_to_user_lock);
     map<string, string>::iterator it = app_name_to_user.find(name);
+
+    if(it != app_name_to_user.end()) {
