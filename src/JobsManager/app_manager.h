@@ -20,3 +20,4 @@ using std::map;
 using clynn::RWLock;
 
 class AppManager {
+public:
