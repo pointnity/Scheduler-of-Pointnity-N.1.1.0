@@ -13,3 +13,4 @@
 
 #include "JobsManager/app_manager.h"
 #include "common/clynn/rpc.h"
+#include "include/proxy.h"
