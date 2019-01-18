@@ -34,3 +34,4 @@ bool AppManager::CreateApp(const string& user, const string& name) {
     app_name_to_user[name] = user;
     std::cout<<"user:"<<user<<"\nname:"<<name<<std::endl;
     return true;
+}
