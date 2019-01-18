@@ -9,3 +9,4 @@
 #include <log4cplus/loggingmacros.h>
 #include <gflags/gflags.h>
 #include <iostream>
+#include <string>
