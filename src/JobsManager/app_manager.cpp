@@ -16,3 +16,4 @@
 #include "include/proxy.h"
 
 using log4cplus::Logger;
+using namespace std;
