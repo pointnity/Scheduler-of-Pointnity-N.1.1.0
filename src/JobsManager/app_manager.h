@@ -21,3 +21,4 @@ using clynn::RWLock;
 
 class AppManager {
 public:
+    bool CreateApp(const string& user, const string& name);
