@@ -19,3 +19,5 @@ using log4cplus::Logger;
 using namespace std;
 using clynn::ReadLocker;
 using clynn::WriteLocker;
+
+static Logger logger = Logger::getInstance("JobsManager");
