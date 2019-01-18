@@ -21,3 +21,5 @@ using clynn::ReadLocker;
 using clynn::WriteLocker;
 
 static Logger logger = Logger::getInstance("JobsManager");
+
+bool AppManager::CreateApp(const string& user, const string& name) {
