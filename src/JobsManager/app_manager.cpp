@@ -27,3 +27,4 @@ bool AppManager::CreateApp(const string& user, const string& name) {
     map<string, string>::iterator it = app_name_to_user.find(name);
 
     if(it != app_name_to_user.end()) {
+        it->second = user;
