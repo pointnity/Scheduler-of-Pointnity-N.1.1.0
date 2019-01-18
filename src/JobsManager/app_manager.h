@@ -17,3 +17,4 @@
 #include "common/clynn/rwlock.h"
 
 using std::map;
+using clynn::RWLock;
