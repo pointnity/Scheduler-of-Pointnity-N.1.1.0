@@ -25,3 +25,4 @@ public:
 
 private:
    RWLock app_name_to_user_lock;
+   map<string, string> app_name_to_user;
