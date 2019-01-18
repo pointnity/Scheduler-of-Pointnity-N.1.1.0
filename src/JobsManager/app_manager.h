@@ -29,3 +29,5 @@ private:
 };
 
 typedef Singleton<AppManager> AppMgrI;
+
+#endif  
