@@ -27,3 +27,4 @@ bool BatchJob::IsScheduling() {
         if((*it)->GetTaskState() == TASK_WAITING) {
             have_scheduling_task = true;
         }
+        if ((*it)->GetTaskState() != TASK_STARTING &&
