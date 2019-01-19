@@ -13,3 +13,4 @@ bool BatchJob::HaveWaitingTasks() {
         if((*it)->GetTaskState() == TASK_WAITING) {
             return true;
         }
+    }
