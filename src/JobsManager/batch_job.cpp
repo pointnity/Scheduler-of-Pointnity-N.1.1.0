@@ -22,3 +22,4 @@ bool BatchJob::IsScheduling() {
     bool is_all_scheduling = false;
     bool have_scheduling_task = false;
     
+    for(list<TaskPtr>::const_iterator it = m_task_list.begin();
