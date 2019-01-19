@@ -49,3 +49,4 @@ bool BatchJob::IsRunning() {
         if((*it)->GetTaskState() != TASK_RUNNING && 
            (*it)->GetTaskState() != TASK_FINISHED &&
           (*it)->GetTaskState() != TASK_FAILED) {
+           is_all_running = false;
