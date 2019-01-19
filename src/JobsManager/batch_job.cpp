@@ -42,3 +42,4 @@ bool BatchJob::IsRunning() {
     bool is_all_running = false; 
     bool have_run_task = false;
     for(list<TaskPtr>::const_iterator it = m_task_list.begin();
+        it != m_task_list.end(); ++it) {
