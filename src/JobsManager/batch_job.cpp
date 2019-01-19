@@ -34,3 +34,5 @@ bool BatchJob::IsScheduling() {
             is_all_scheduling = false;
             break;
         } 
+    }
+    return is_all_scheduling && have_scheduling_task; 
