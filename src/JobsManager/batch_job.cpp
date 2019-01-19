@@ -53,3 +53,4 @@ bool BatchJob::IsRunning() {
            break;
         }
     }
+    return is_all_running && have_run_task;
