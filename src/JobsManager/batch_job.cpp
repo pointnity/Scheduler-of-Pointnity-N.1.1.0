@@ -45,3 +45,4 @@ bool BatchJob::IsRunning() {
         it != m_task_list.end(); ++it) {
         if((*it)->GetTaskState() == TASK_RUNNING) {
             have_run_task = true;
+        } 
