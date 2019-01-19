@@ -16,3 +16,5 @@ bool BatchJob::HaveWaitingTasks() {
     }
     return false;
 }
+
+// @brief: Whether it is in a issued state
