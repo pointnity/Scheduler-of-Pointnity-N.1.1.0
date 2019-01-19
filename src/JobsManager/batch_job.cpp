@@ -36,3 +36,6 @@ bool BatchJob::IsScheduling() {
         } 
     }
     return is_all_scheduling && have_scheduling_task; 
+}
+
+bool BatchJob::IsRunning() {
