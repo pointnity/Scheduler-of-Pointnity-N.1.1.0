@@ -9,3 +9,4 @@ TaskPtr BatchJob::NewTask() const {
 
 bool BatchJob::HaveWaitingTasks() {
     for(list<TaskPtr>::const_iterator it = m_task_list.begin();
+        it != m_task_list.end(); ++it) {
