@@ -29,3 +29,4 @@ bool BatchJob::IsScheduling() {
         }
         if ((*it)->GetTaskState() != TASK_STARTING &&
             (*it)->GetTaskState() != TASK_RUNNING &&
+            (*it)->GetTaskState() != TASK_FINISHED &&
