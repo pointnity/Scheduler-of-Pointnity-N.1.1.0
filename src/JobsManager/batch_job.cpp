@@ -47,3 +47,4 @@ bool BatchJob::IsRunning() {
             have_run_task = true;
         } 
         if((*it)->GetTaskState() != TASK_RUNNING && 
+           (*it)->GetTaskState() != TASK_FINISHED &&
