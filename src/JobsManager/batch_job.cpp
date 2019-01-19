@@ -52,3 +52,4 @@ bool BatchJob::IsRunning() {
            is_all_running = false;
            break;
         }
+    }
