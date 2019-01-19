@@ -19,3 +19,4 @@ bool BatchJob::HaveWaitingTasks() {
 
 // @brief: Whether it is in a issued state
 bool BatchJob::IsScheduling() {
+    bool is_all_scheduling = false;
