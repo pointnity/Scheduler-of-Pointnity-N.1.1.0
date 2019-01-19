@@ -14,3 +14,4 @@ bool BatchJob::HaveWaitingTasks() {
             return true;
         }
     }
+    return false;
