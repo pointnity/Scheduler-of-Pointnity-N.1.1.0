@@ -25,3 +25,4 @@ bool BatchJob::IsScheduling() {
     for(list<TaskPtr>::const_iterator it = m_task_list.begin();
         it != m_task_list.end(); ++it) {
         if((*it)->GetTaskState() == TASK_WAITING) {
+            have_scheduling_task = true;
