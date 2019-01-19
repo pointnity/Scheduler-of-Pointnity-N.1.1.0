@@ -4,3 +4,4 @@
 //Some of the following functions are locked when called
 
 TaskPtr BatchJob::NewTask() const {
+     return TaskPtr(new BatchTask());
