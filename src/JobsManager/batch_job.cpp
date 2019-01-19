@@ -5,3 +5,6 @@
 
 TaskPtr BatchJob::NewTask() const {
      return TaskPtr(new BatchTask());
+}
+
+bool BatchJob::HaveWaitingTasks() {
