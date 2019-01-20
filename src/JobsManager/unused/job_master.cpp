@@ -140,7 +140,7 @@ int32_t JobMaster::MakeMatchWideDistribution() {
     for (list<TaskPtr>::const_iterator it = task_list.begin();
         it != task_list.end(); ++it)
     {
-        // 只匹配等待状态的task
+        // Task that matches only the waiting state
         if((*it)->GetTaskState() != TASK_WAITING) {
             continue;
         }
@@ -162,7 +162,7 @@ int32_t JobMaster::MakeMatchOneTaskDefault(const TaskPtr& task_ptr) {
     ExprTree* rank_expr = taskad_hard_constraint->Lookup(ATTR_JOB_RANK);
     if (NULL == rank_expr) {
         // add attr_job_rank 
-        // 这个值可能为负数
+        // This value may be negative
         rank_expr = parser.ParseExpression("1-" + ATTR_LOAD_AVG);
         taskad_hard_constraint->Insert(ATTR_JOB_RANK, rank_expr);
     }
@@ -243,7 +243,7 @@ int32_t JobMaster::MakeMatchOneTaskWD(const TaskPtr& task_ptr) {
     ExprTree* rank_expr = taskad_hard_constraint->Lookup(ATTR_JOB_RANK);
     if (NULL == rank_expr) {
         // add attr_job_rank 
-        // 这个值可能为负数
+        // This value may be negative
         rank_expr = parser.ParseExpression("1-" + ATTR_LOAD_AVG);
         taskad_hard_constraint->Insert(ATTR_JOB_RANK, rank_expr);
     }
@@ -340,7 +340,7 @@ int32_t JobMaster::GetTaskMatchList(list<TaskMatchInfo>& task_match_list) {
     for (list<TaskPtr>::const_iterator it = task_list.begin(); 
         it != task_list.end(); ++it)
     {
-        // 只匹配等待状态的task
+        // Task that matches only the waiting state
         if((*it)->GetTaskState() != TASK_WAITING) {
             continue;         
         } 
@@ -363,7 +363,7 @@ int32_t JobMaster::GetOneTaskMatchInfo(const TaskPtr& task, TaskMatchInfo& task_
     ExprTree* rank_expr = taskad_hard_constraint->Lookup(ATTR_JOB_RANK);
     if (NULL == rank_expr) {
         // add attr_job_rank 
-        // 这个值可能为负数
+        // This value may be negative
         rank_expr = parser.ParseExpression("1-" + ATTR_LOAD_AVG);
         taskad_hard_constraint->Insert(ATTR_JOB_RANK, rank_expr);
     }
