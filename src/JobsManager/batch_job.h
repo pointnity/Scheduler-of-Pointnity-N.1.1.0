@@ -9,3 +9,4 @@ public:
     bool IsScheduling();
     bool IsRunning();
 private:
+    virtual TaskPtr NewTask() const;
