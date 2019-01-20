@@ -12,3 +12,4 @@
 #include "include/proxy.h"
 #include "include/classad_attr.h"
 #include "common/clynn/rpc.h"
+#include "common/clynn/rwlock.h"
