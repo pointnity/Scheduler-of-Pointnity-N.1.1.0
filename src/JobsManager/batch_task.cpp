@@ -16,3 +16,4 @@ using clynn::WriteLocker;
        return false;
     }   
     m_task_state = TASK_RUNNING;
+    m_taskad_hard_constraint->InsertAttr(ATTR_TASK_STATUS, m_task_state);
