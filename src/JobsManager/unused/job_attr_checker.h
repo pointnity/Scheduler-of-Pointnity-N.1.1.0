@@ -12,3 +12,4 @@ public:
     int GetErrorNum() {
         return m_errnum;
     }
+private:
