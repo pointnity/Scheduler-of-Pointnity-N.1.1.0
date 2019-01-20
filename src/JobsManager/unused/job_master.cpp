@@ -33,3 +33,5 @@ static Logger logger = Logger::getInstance("JobsManager");
 
 int32_t JobMaster::MakeMatch() {
     printf("Making match.\n");
+
+    if (NULL == m_navigating_job) { 
