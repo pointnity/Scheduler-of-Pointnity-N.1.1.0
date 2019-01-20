@@ -65,3 +65,7 @@ int32_t JobMaster::MakeMatchOneTask(const TaskPtr& task_ptr) {
      if (WIDE_DISTRIBUTION == sched_model) {
         rc = MakeMatchOneTaskWD(task_ptr);
     } else {
+        rc = MakeMatchOneTaskDefault(task_ptr);
+    }
+
+    return rc;
