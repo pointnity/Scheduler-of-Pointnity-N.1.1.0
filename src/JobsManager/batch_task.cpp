@@ -8,3 +8,6 @@ using clynn::WriteLocker;
                              int32_t task_id, int32_t submit_time) {
 
 } */
+
+/* bool BatchTask::SetTaskStartSuccess() {
+    WriteLocker locker(m_lock);
