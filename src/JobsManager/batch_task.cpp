@@ -12,3 +12,4 @@ using clynn::WriteLocker;
 /* bool BatchTask::SetTaskStartSuccess() {
     WriteLocker locker(m_lock);
     if(m_task_state != TASK_STARTING && 
+       m_task_state != TASK_WAITING) {
