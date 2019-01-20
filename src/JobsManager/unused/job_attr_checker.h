@@ -5,3 +5,4 @@
 
 class JobAttrChecker {
 public:
+    JobAttrChecker() {
