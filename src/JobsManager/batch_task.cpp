@@ -2,3 +2,4 @@
 #include "JobsManager/batch_task.h"
 
 using clynn::ReadLocker;
+using clynn::WriteLocker;
