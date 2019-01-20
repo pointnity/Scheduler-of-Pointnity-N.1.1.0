@@ -69,3 +69,7 @@ int32_t JobMaster::MakeMatchOneTask(const TaskPtr& task_ptr) {
     }
 
     return rc;
+}
+
+int32_t JobMaster::StartTasks() {
+    for (list<TaskMatchInfo>::iterator it = m_match_list.begin();
