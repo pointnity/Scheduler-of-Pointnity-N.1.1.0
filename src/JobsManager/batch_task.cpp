@@ -3,3 +3,5 @@
 
 using clynn::ReadLocker;
 using clynn::WriteLocker;
+
+/* void BatchTask::InitTaskInfo(TaskAdPtr ads, int32_t job_id,
