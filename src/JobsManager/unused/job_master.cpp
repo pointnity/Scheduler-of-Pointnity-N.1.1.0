@@ -32,3 +32,4 @@ using log4cplus::Logger;
 static Logger logger = Logger::getInstance("JobsManager");
 
 int32_t JobMaster::MakeMatch() {
+    printf("Making match.\n");
