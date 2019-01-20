@@ -26,3 +26,5 @@
 #include "JobsManager/dispatcher.h"
 
 using clynn::ReadLocker;
+using clynn::WriteLocker;
+using log4cplus::Logger;
