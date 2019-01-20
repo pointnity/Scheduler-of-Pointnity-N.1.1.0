@@ -14,3 +14,5 @@ using clynn::WriteLocker;
     if(m_task_state != TASK_STARTING && 
        m_task_state != TASK_WAITING) {
        return false;
+    }   
+    m_task_state = TASK_RUNNING;
