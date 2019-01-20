@@ -2,3 +2,5 @@
 
 int JobAttrChecker::CheckJobAttr(ClassAdPtr ad_ptr){
     return 0;
+}
+
