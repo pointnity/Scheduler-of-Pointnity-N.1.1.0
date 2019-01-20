@@ -19,3 +19,5 @@ using clynn::WriteLocker;
     m_taskad_hard_constraint->InsertAttr(ATTR_TASK_STATUS, m_task_state);
     m_run_time = time(0);
     m_taskad_hard_constraint->InsertAttr(ATTR_TASK_START_TIME, static_cast<int>(m_run_time));
+    return true; 
+} */
