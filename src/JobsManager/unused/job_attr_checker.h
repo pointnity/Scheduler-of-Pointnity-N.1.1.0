@@ -6,3 +6,4 @@
 class JobAttrChecker {
 public:
     JobAttrChecker() {
+        m_errnum = 0;
