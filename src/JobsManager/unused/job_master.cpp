@@ -80,3 +80,6 @@ int32_t JobMaster::StartTasks() {
         EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
 
         // state
+        JobPtr job_ptr = JobPoolI::Instance()->GetJobPtr(it->job_id);
+        if (NULL == job_ptr) {
+            return -1;
