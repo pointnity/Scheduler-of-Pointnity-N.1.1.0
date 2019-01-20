@@ -77,3 +77,6 @@ int32_t JobMaster::StartTasks() {
     {
         EventPtr event(new StartTaskEvent(it->job_id, it->task_id, it->es_address, it->taskad_hard_constraint));
         // Push event into Queue
+        EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
+
+        // state
