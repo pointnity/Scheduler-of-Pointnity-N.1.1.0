@@ -24,3 +24,5 @@
 #include "JobsManager/job_match_data_type.h"
 #include "JobsManager/event.h"
 #include "JobsManager/dispatcher.h"
+
+using clynn::ReadLocker;
