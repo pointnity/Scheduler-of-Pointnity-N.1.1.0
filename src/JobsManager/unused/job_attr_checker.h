@@ -4,3 +4,4 @@
 #include "common/classad/classad_complement.h"
 
 class JobAttrChecker {
+public:
