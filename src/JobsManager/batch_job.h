@@ -10,3 +10,4 @@ public:
     bool IsRunning();
 private:
     virtual TaskPtr NewTask() const;
+};
