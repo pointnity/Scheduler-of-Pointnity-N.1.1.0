@@ -87,3 +87,7 @@ int32_t JobMaster::StartTasks() {
         TaskPtr task_ptr = job_ptr->GetTaskPtr(it->task_id);
         if (NULL == task_ptr) {
             return -1;
+        }
+        task_ptr->TaskStarting();
+    }
+    return 0;
