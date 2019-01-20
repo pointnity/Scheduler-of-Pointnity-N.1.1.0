@@ -83,3 +83,7 @@ int32_t JobMaster::StartTasks() {
         JobPtr job_ptr = JobPoolI::Instance()->GetJobPtr(it->job_id);
         if (NULL == job_ptr) {
             return -1;
+        }
+        TaskPtr task_ptr = job_ptr->GetTaskPtr(it->task_id);
+        if (NULL == task_ptr) {
+            return -1;
