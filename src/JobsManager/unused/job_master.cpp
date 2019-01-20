@@ -73,3 +73,7 @@ int32_t JobMaster::MakeMatchOneTask(const TaskPtr& task_ptr) {
 
 int32_t JobMaster::StartTasks() {
     for (list<TaskMatchInfo>::iterator it = m_match_list.begin();
+        it != m_match_list.end(); ++it)
+    {
+        EventPtr event(new StartTaskEvent(it->job_id, it->task_id, it->es_address, it->taskad_hard_constraint));
+        // Push event into Queue
