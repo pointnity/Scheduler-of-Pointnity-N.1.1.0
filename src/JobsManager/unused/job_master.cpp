@@ -22,3 +22,5 @@
 #include "JobsManager/group.h"
 #include "JobsManager/group_pool.h"
 #include "JobsManager/job_match_data_type.h"
+#include "JobsManager/event.h"
+#include "JobsManager/dispatcher.h"
