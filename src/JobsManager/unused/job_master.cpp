@@ -91,3 +91,9 @@ int32_t JobMaster::StartTasks() {
         task_ptr->TaskStarting();
     }
     return 0;
+}
+ 
+int32_t JobMaster::MakeMatchAsTasks() {
+    int32_t rc = GetTaskMatchList(m_match_list);
+    if (rc != 0) {
+        return rc;
