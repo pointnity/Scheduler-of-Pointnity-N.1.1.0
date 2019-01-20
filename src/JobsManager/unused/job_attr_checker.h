@@ -8,3 +8,4 @@ public:
     JobAttrChecker() {
         m_errnum = 0;
     }
+    int CheckJobAttr(ClassAdPtr ad_ptr);
