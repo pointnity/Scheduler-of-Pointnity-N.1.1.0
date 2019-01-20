@@ -49,3 +49,13 @@ int32_t JobMaster::MakeMatch() {
             rc = MakeMatchAsTasks();
         } else {
             rc = MakeMatchAsWhole();
+        }
+    }
+
+    return rc;
+}
+
+int32_t JobMaster::MakeMatchOneTask(const TaskPtr& task_ptr) {
+    printf("Making match One Task.\n");
+
+    int32_t rc;
