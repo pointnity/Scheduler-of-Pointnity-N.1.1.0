@@ -11,3 +11,4 @@ public:
 private:
     virtual TaskPtr NewTask() const;
 };
+#endif
