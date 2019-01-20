@@ -59,3 +59,9 @@ int32_t JobMaster::MakeMatchOneTask(const TaskPtr& task_ptr) {
     printf("Making match One Task.\n");
 
     int32_t rc;
+    int32_t sched_model = task_ptr->GetSchedModel();
+
+
+     if (WIDE_DISTRIBUTION == sched_model) {
+        rc = MakeMatchOneTaskWD(task_ptr);
+    } else {
