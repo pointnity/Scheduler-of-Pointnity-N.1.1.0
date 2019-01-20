@@ -36,3 +36,16 @@ int32_t JobMaster::MakeMatch() {
 
     if (NULL == m_navigating_job) { 
         // Error code TODO
+        return -1;
+    }
+
+    int32_t rc;
+    int32_t sched_model = m_navigating_job->GetSchedModel();
+ 
+    if (WIDE_DISTRIBUTION == sched_model) {
+        rc = MakeMatchWideDistribution();
+    } else {
+        if (false == m_navigating_job->GetConstraintsAmongTasks()) {
+            rc = MakeMatchAsTasks();
+        } else {
+            rc = MakeMatchAsWhole();
