@@ -10,3 +10,5 @@ public:
     }
     int CheckJobAttr(ClassAdPtr ad_ptr);
     int GetErrorNum() {
+        return m_errnum;
+    }
