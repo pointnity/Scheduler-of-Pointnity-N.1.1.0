@@ -2,3 +2,5 @@
 #define JOBS_MANAGER_BATCH_JOB_H
 
 #include "JobsManager/job.h"
+
+class BatchJob : public Job {
