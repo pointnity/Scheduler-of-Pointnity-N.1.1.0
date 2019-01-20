@@ -18,3 +18,5 @@
 
 #include "JobsManager/job_enum.h"
 #include "JobsManager/job_master.h"
+#include "JobsManager/job_pool.h"
+#include "JobsManager/group.h"
