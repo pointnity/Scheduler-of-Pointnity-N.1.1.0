@@ -6,3 +6,4 @@
 class BatchJob : public Job {
 public:
     bool HaveWaitingTasks();
+    bool IsScheduling();
