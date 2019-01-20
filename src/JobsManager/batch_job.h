@@ -8,3 +8,4 @@ public:
     bool HaveWaitingTasks();
     bool IsScheduling();
     bool IsRunning();
+private:
