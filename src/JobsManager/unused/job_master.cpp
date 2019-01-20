@@ -10,3 +10,4 @@
 #include <log4cplus/loggingmacros.h>
 
 #include "include/proxy.h"
+#include "include/classad_attr.h"
