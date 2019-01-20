@@ -13,3 +13,4 @@ public:
         return m_errnum;
     }
 private:
+    int m_errnum;
