@@ -14,3 +14,4 @@ public:
     }
 private:
     int m_errnum;
+};
