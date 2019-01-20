@@ -4,3 +4,4 @@
 #include "JobsManager/job.h"
 
 class BatchJob : public Job {
+public:
