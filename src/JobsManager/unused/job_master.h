@@ -44,3 +44,4 @@ private:
     list<TaskMatchInfo> m_match_list;
 
     // constraints among tasks
+    // list<TaskClusterPtr> m_task_cluster_list;
