@@ -15,3 +15,5 @@
 #include "JobsManager/job_matcher.h"
 
 using std::list;
+
+class JobMaster {
