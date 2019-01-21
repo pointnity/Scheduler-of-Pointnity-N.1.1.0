@@ -13,3 +13,4 @@ struct TaskMatchInfo {
     list<string> soft_constraint_list;
     string es_name;
     string es_address;
+    TaskMatchInfo(): job_id(0), task_id(0) {}
