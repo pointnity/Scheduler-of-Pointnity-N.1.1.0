@@ -39,3 +39,4 @@ private:
     int ScheduleNavigatingJobAsWhole();
 
 private:
+    JobMatcher m_job_matcher; // scheduling agent
