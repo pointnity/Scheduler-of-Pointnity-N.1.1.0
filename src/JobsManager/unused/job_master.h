@@ -12,3 +12,4 @@
 #include <list>
 #include "JobsManager/job_match_data_type.h"
 #include "JobsManager/job.h"
+#include "JobsManager/job_matcher.h"
