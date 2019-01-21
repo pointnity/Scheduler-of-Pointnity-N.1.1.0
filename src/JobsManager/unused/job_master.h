@@ -17,3 +17,4 @@
 using std::list;
 
 class JobMaster {
+public:
