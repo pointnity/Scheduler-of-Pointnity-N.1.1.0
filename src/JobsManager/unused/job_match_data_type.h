@@ -10,3 +10,4 @@ struct TaskMatchInfo {
     int32_t job_id;
     int32_t task_id;
     string taskad_hard_constraint;
+    list<string> soft_constraint_list;
