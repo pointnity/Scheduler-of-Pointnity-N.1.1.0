@@ -29,3 +29,4 @@ private:
     int32_t MakeMatchAsTasks();
     int32_t MakeMatchOneTaskDefault(const TaskPtr& task_ptr);
     int32_t MakeMatchAsWhole();
+    int32_t MakeMatchWideDistribution();
