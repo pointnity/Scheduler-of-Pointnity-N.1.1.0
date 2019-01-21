@@ -37,3 +37,5 @@ private:
  
     int ScheduleNavigatingJobAsTask();
     int ScheduleNavigatingJobAsWhole();
+
+private:
