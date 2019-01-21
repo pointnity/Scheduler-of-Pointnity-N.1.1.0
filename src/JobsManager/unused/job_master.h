@@ -21,3 +21,4 @@ public:
     JobMaster(const JobPtr& job_ptr) : m_navigating_job(job_ptr) {}
     JobMaster() {}
     int32_t MakeMatch();
+    int32_t MakeMatchOneTask(const TaskPtr& task_ptr);
