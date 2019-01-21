@@ -47,3 +47,4 @@ private:
     // list<TaskClusterPtr> m_task_cluster_list;
     // <task_id, endpoint>   
    //map<int32_t, string> m_id_to_ip_map;
+};
