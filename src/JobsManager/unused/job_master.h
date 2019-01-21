@@ -31,3 +31,5 @@ private:
     int32_t MakeMatchAsWhole();
     int32_t MakeMatchWideDistribution();
     int32_t MakeMatchOneTaskWD(const TaskPtr& task_ptr);
+
+    int32_t GetTaskMatchList(list<TaskMatchInfo>& task_match_list);
