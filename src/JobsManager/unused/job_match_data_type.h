@@ -5,3 +5,5 @@
 
 using std::string;
 using std::list;
+
+struct TaskMatchInfo {
