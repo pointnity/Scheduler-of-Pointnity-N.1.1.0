@@ -12,3 +12,4 @@ struct TaskMatchInfo {
     string taskad_hard_constraint;
     list<string> soft_constraint_list;
     string es_name;
+    string es_address;
