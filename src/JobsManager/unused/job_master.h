@@ -27,3 +27,4 @@ public:
 
 private:
     int32_t MakeMatchAsTasks();
+    int32_t MakeMatchOneTaskDefault(const TaskPtr& task_ptr);
