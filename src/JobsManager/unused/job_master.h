@@ -40,3 +40,4 @@ private:
 
 private:
     JobMatcher m_job_matcher; // scheduling agent
+    JobPtr m_navigating_job;
