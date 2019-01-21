@@ -14,3 +14,4 @@ struct TaskMatchInfo {
     string es_name;
     string es_address;
     TaskMatchInfo(): job_id(0), task_id(0) {}
+};
