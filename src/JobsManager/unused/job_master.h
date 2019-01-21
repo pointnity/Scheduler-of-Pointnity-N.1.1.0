@@ -18,3 +18,4 @@ using std::list;
 
 class JobMaster {
 public:
+    JobMaster(const JobPtr& job_ptr) : m_navigating_job(job_ptr) {}
