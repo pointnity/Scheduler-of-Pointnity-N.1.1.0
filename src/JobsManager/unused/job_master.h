@@ -45,3 +45,4 @@ private:
 
     // constraints among tasks
     // list<TaskClusterPtr> m_task_cluster_list;
+    // <task_id, endpoint>   
