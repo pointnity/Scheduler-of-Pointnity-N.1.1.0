@@ -3,3 +3,5 @@
  
  
  Version:  0.1
+ Description: master of navigating job, making resource request for job
+*********************************/
