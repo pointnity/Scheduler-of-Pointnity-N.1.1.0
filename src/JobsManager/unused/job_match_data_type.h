@@ -8,3 +8,4 @@ using std::list;
 
 struct TaskMatchInfo {
     int32_t job_id;
+    int32_t task_id;
