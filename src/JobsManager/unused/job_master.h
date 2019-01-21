@@ -36,3 +36,4 @@ private:
     int32_t GetOneTaskMatchInfo(const TaskPtr& task_info, TaskMatchInfo& task_match);
  
     int ScheduleNavigatingJobAsTask();
+    int ScheduleNavigatingJobAsWhole();
