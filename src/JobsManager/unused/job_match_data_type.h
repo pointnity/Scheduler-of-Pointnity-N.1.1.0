@@ -7,3 +7,4 @@ using std::string;
 using std::list;
 
 struct TaskMatchInfo {
+    int32_t job_id;
