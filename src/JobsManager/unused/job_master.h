@@ -26,3 +26,4 @@ public:
     // int ScheduleNavigatingJobAutoLock();
 
 private:
+    int32_t MakeMatchAsTasks();
