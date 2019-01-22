@@ -17,3 +17,5 @@ int32_t JobMatcher::MatchTaskList(list<TaskMatchInfo>& task_match_list) {
     if(task_match_list.empty()) {
         return 1;
     }
+
+    bool match_one_task = false;
