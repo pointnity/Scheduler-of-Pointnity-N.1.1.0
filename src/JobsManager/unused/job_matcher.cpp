@@ -42,3 +42,4 @@ int32_t JobMatcher::MatchTaskList(list<TaskMatchInfo>& task_match_list) {
         if ("" == result) {
             // TODO
             return -1;
+        }
