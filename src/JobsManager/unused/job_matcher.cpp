@@ -31,3 +31,4 @@ int32_t JobMatcher::MatchTaskList(list<TaskMatchInfo>& task_match_list) {
              soft_it != it->soft_constraint_list.end(); ++ soft_it) 
         {
             soft_list.push_back(*soft_it);
+        }
