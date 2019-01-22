@@ -28,3 +28,4 @@ int32_t JobMatcher::MatchTaskList(list<TaskMatchInfo>& task_match_list) {
         }
         vector<string> soft_list;
         for (list<string>::iterator soft_it = it->soft_constraint_list.begin();
+             soft_it != it->soft_constraint_list.end(); ++ soft_it) 
