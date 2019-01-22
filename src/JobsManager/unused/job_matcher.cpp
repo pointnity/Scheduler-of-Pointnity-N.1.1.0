@@ -49,3 +49,5 @@ int32_t JobMatcher::MatchTaskList(list<TaskMatchInfo>& task_match_list) {
         if(result.size() <= 1) {
            
         } */
+    }
+    return 0;
