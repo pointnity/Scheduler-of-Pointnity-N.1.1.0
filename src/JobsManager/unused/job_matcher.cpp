@@ -81,3 +81,5 @@ int32_t JobMatcher::SendRequestConstraint(const string& classad, const vector<st
     }
     LOG4CPLUS_INFO(logger, "match time: " << timer.ElapsedSeconds() << " s");
     return 0;
+}
+ 
