@@ -8,3 +8,5 @@
 #include "proxy/ResourceScheduler/gen-cpp/ResourceScheduler.h"
 
 DECLARE_string(resource_scheduler_endpoint);
+
+using log4cplus::Logger;
