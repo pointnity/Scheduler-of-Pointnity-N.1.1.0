@@ -44,3 +44,5 @@ int32_t JobMatcher::MatchTaskList(list<TaskMatchInfo>& task_match_list) {
             return -1;
         }
         it->es_address = result;
+        printf("Match result:\n job_id: %d, task_id: %d, result: %s\n", it->job_id, it->task_id, it->es_address.c_str());
+        /* match_one_task = true;
