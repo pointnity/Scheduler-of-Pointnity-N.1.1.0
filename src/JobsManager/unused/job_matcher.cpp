@@ -72,3 +72,4 @@ int32_t JobMatcher::SendRequestConstraint(const string& classad, const vector<st
     LOG4CPLUS_INFO(logger, "SendRequest " << classad);
     //Start timing
     Timer timer;
+    try {
