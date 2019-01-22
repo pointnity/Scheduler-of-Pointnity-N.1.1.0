@@ -75,3 +75,4 @@ int32_t JobMatcher::SendRequestConstraint(const string& classad, const vector<st
     try {
         Proxy<ResourceSchedulerClient> proxy = RpcClient<ResourceSchedulerClient>::GetProxy(FLAGS_resource_scheduler_endpoint);
         proxy().MatchMachineConstraint(match_result, classad, soft_list);
+    } catch (TException &tx) {
