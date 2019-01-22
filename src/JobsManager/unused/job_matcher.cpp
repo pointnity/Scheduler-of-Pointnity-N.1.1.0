@@ -60,3 +60,4 @@ int32_t JobMatcher::SendRequest(const string& classad, string& match_result) {
     try {
         Proxy<ResourceSchedulerClient> proxy = RpcClient<ResourceSchedulerClient>::GetProxy(FLAGS_resource_scheduler_endpoint);
         proxy().MatchMachine(match_result, classad); 
+    } catch (TException &tx) {
