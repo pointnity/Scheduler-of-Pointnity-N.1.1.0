@@ -22,3 +22,4 @@ int32_t JobMatcher::MatchTaskList(list<TaskMatchInfo>& task_match_list) {
     for (list<TaskMatchInfo>::iterator it = task_match_list.begin();
         it != task_match_list.end(); ++it) {
         // hard constraint
+        string taskad_hard = it->taskad_hard_constraint;
