@@ -7,3 +7,4 @@
 #include "JobsManager/job_matcher.h"
 #include "proxy/ResourceScheduler/gen-cpp/ResourceScheduler.h"
 
+DECLARE_string(resource_scheduler_endpoint);
