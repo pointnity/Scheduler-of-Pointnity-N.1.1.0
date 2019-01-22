@@ -23,3 +23,4 @@ int32_t JobMatcher::MatchTaskList(list<TaskMatchInfo>& task_match_list) {
         it != task_match_list.end(); ++it) {
         // hard constraint
         string taskad_hard = it->taskad_hard_constraint;
+        if (taskad_hard.empty()) { 
