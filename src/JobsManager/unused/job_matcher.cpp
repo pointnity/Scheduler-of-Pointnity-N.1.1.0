@@ -63,3 +63,5 @@ int32_t JobMatcher::SendRequest(const string& classad, string& match_result) {
     } catch (TException &tx) {
         LOG4CPLUS_ERROR(logger, "MatchUnSuccess");
         return 1;
+    } 
+    LOG4CPLUS_INFO(logger, "match time: " << timer.ElapsedSeconds() << " s");
