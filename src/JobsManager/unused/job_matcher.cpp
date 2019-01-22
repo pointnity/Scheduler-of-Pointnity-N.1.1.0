@@ -37,3 +37,4 @@ int32_t JobMatcher::MatchTaskList(list<TaskMatchInfo>& task_match_list) {
         if (SendRequestConstraint(taskad_hard, soft_list, result) != 0) {
             // TODO
             // continue;
+            return -1;
