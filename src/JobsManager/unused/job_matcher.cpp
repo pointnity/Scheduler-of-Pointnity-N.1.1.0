@@ -26,3 +26,4 @@ int32_t JobMatcher::MatchTaskList(list<TaskMatchInfo>& task_match_list) {
         if (taskad_hard.empty()) { 
            continue;
         }
+        vector<string> soft_list;
