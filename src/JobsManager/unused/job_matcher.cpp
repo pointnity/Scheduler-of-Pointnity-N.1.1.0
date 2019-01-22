@@ -2,3 +2,4 @@
 #include <log4cplus/loggingmacros.h>
 #include <gflags/gflags.h>
 #include "common/clynn/timer.h"
+#include "common/clynn/rpc.h"
