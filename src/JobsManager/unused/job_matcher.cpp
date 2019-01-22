@@ -51,3 +51,4 @@ int32_t JobMatcher::MatchTaskList(list<TaskMatchInfo>& task_match_list) {
         } */
     }
     return 0;
+}
