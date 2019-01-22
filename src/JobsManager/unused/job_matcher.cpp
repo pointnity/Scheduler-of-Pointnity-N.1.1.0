@@ -14,3 +14,4 @@ using clynn::Timer;
 static Logger logger = Logger::getInstance("JobsManager");
 
 int32_t JobMatcher::MatchTaskList(list<TaskMatchInfo>& task_match_list) {
+    if(task_match_list.empty()) {
