@@ -62,3 +62,4 @@ int32_t JobMatcher::SendRequest(const string& classad, string& match_result) {
         proxy().MatchMachine(match_result, classad); 
     } catch (TException &tx) {
         LOG4CPLUS_ERROR(logger, "MatchUnSuccess");
+        return 1;
