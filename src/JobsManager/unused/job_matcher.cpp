@@ -56,3 +56,4 @@ int32_t JobMatcher::MatchTaskList(list<TaskMatchInfo>& task_match_list) {
 int32_t JobMatcher::SendRequest(const string& classad, string& match_result) {
     LOG4CPLUS_INFO(logger, "SendRequest " << classad);
     //Start timing
+    Timer timer;
