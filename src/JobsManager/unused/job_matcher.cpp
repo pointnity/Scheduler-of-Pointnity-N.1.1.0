@@ -36,3 +36,4 @@ int32_t JobMatcher::MatchTaskList(list<TaskMatchInfo>& task_match_list) {
         string result = "Unscheduled";
         if (SendRequestConstraint(taskad_hard, soft_list, result) != 0) {
             // TODO
+            // continue;
