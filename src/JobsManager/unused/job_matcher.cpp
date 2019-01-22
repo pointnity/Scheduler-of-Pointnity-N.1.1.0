@@ -77,3 +77,4 @@ int32_t JobMatcher::SendRequestConstraint(const string& classad, const vector<st
         proxy().MatchMachineConstraint(match_result, classad, soft_list);
     } catch (TException &tx) {
         LOG4CPLUS_ERROR(logger, "MatchUnSuccess");
+        return -1;
