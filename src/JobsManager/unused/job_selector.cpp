@@ -46,3 +46,4 @@ bool JobSelector::SelectJob() {
 
     // TODO
     // move navigating job to run queue
+    GroupPoolI::Instance()->MoveNavigatingJobToRunQueue(); 
