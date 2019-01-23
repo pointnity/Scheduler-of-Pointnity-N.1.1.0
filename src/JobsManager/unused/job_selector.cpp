@@ -12,3 +12,5 @@
 #include "JobsManager/job_selector.h"
 #include "JobsManager/group.h"
 #include "JobsManager/group_pool.h"
+
+using log4cplus::Logger;
