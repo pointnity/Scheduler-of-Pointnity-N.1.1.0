@@ -24,3 +24,4 @@ bool JobSelector::SelectJob() {
     if (!GroupPoolI::Instance()->SelectJobToNavigatingJob()) {
         // no job        
         return false;
+    }
