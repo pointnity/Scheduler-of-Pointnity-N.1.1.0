@@ -11,3 +11,4 @@ using std::vector;
 
 class JobMatcher {
     public:
+        int32_t MatchTaskList(list<TaskMatchInfo>& task_match_list);
