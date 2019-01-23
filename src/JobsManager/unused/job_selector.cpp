@@ -35,3 +35,4 @@ bool JobSelector::SelectJob() {
     // make resource request for navigating job 
     if (job_master.MakeMatch() != 0) { 
         LOG4CPLUS_ERROR(logger, "Failed to Make Resource Request.");
+        GroupPoolI::Instance()->MoveNavigatingJobToWaitQueue();
