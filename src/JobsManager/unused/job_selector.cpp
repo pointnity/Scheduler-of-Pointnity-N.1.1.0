@@ -20,3 +20,4 @@ using clynn::WriteLocker;
 static Logger logger = Logger::getInstance("JobsManager");
 
 bool JobSelector::SelectJob() {
+    // select one job -> navigating job
