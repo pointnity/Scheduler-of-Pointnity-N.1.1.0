@@ -32,3 +32,5 @@ bool JobSelector::SelectJob() {
     // new JobMaster
     JobMaster job_master(GroupPoolI::Instance()->GetNavigatingJob());     
 
+    // make resource request for navigating job 
+    if (job_master.MakeMatch() != 0) { 
