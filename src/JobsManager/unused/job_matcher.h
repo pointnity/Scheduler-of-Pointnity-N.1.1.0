@@ -12,3 +12,4 @@ using std::vector;
 class JobMatcher {
     public:
         int32_t MatchTaskList(list<TaskMatchInfo>& task_match_list);
+        int32_t SendRequest(const string& classad, string& match_result);
