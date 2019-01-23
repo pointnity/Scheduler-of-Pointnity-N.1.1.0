@@ -10,3 +10,4 @@
 #include <log4cplus/loggingmacros.h>
 
 #include "JobsManager/job_selector.h"
+#include "JobsManager/group.h"
