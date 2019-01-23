@@ -49,3 +49,4 @@ bool JobSelector::SelectJob() {
     GroupPoolI::Instance()->MoveNavigatingJobToRunQueue(); 
 
     return true;
+} 
