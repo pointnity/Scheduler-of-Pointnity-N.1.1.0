@@ -27,3 +27,4 @@ bool JobSelector::SelectJob() {
     }
     GroupPoolI::Instance()->AddUsedResource();
     // test TODO
+    GroupPoolI::Instance()->PrintAll();
