@@ -18,3 +18,5 @@ using clynn::ReadLocker;
 using clynn::WriteLocker;
 
 static Logger logger = Logger::getInstance("JobsManager");
+
+bool JobSelector::SelectJob() {
