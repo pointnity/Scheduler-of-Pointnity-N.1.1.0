@@ -45,3 +45,4 @@ bool JobSelector::SelectJob() {
     } 
 
     // TODO
+    // move navigating job to run queue
