@@ -4,3 +4,6 @@
  
  Version:  0.1
  Description: selector one job from Queues, then make resource request
+*********************************/
+
+#include <log4cplus/logger.h>
