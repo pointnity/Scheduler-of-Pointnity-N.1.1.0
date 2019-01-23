@@ -41,3 +41,4 @@ bool JobSelector::SelectJob() {
 
     if (job_master.StartTasks() != 0) {
         LOG4CPLUS_ERROR(logger, "Failed to start tasks.");
+       return false;
