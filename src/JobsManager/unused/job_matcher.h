@@ -6,3 +6,4 @@
 #include "JobsManager/job_match_data_type.h"
 
 using std::string;
+using std::list;
