@@ -3,3 +3,4 @@
 
 #include <string>
 #include <list>
+#include "JobsManager/job_match_data_type.h"
