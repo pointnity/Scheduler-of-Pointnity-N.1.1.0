@@ -30,3 +30,5 @@ bool JobSelector::SelectJob() {
     GroupPoolI::Instance()->PrintAll();
 
     // new JobMaster
+    JobMaster job_master(GroupPoolI::Instance()->GetNavigatingJob());     
+
