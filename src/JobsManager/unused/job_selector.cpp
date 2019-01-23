@@ -25,3 +25,4 @@ bool JobSelector::SelectJob() {
         // no job        
         return false;
     }
+    GroupPoolI::Instance()->AddUsedResource();
