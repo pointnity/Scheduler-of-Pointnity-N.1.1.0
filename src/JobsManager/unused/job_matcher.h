@@ -10,3 +10,4 @@ using std::list;
 using std::vector;
 
 class JobMatcher {
+    public:
