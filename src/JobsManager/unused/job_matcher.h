@@ -16,3 +16,4 @@ class JobMatcher {
         int32_t SendRequestConstraint(const string& taskad_hard, const vector<string>& soft_list, string& match_result);
 };
 
+#endif
