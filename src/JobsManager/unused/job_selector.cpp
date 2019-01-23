@@ -39,3 +39,4 @@ bool JobSelector::SelectJob() {
         return false;    
     }
 
+    if (job_master.StartTasks() != 0) {
