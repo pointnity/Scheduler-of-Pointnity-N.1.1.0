@@ -7,3 +7,4 @@
 
 using std::string;
 using std::list;
+using std::vector;
