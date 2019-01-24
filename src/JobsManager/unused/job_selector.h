@@ -8,3 +8,5 @@
 
 #ifndef JOBS_MANAGER_JOB_SELECTOR_H
 #define JOBS_MANAGER_JOB_SELECTOR_H
+
+#include <set>
