@@ -16,3 +16,5 @@
 using std::set;
 
 class JobSelector {
+
+public
