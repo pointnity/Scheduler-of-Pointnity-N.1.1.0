@@ -4,3 +4,4 @@
 #include <string>
 
 #include "JobsManager/task.h"
+#include "common/classad/classad_complement.h"
