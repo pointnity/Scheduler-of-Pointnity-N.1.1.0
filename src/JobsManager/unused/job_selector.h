@@ -5,3 +5,5 @@
  Version:  0.1
  Description: selector one job from Queues, then make resource request
 *********************************/
+
+#ifndef JOBS_MANAGER_JOB_SELECTOR_H
