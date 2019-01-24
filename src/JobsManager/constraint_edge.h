@@ -26,3 +26,5 @@ public:
     int32_t GetWeight() { return m_weight; }
 
 private:
+    int32_t m_start;
+    int32_t m_end;
