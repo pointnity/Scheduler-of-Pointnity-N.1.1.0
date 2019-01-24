@@ -1,0 +1,1 @@
+#ifndef JOBS_MANAGER_BATCH_TASK_H
