@@ -14,3 +14,5 @@
 #include "JobsManager/job_master.h"
 
 using std::set;
+
+class JobSelector {
