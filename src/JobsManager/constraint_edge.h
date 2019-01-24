@@ -32,3 +32,5 @@ private:
 };
 
 typedef shared_ptr<ConstraintEdge> EdgePtr;
+
+#endif
