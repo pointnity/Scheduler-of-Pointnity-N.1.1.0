@@ -20,3 +20,6 @@ public:
         m_end = e;
         m_weight = w; 
     }
+
+    int32_t GetStart() { return m_start; }
+    int32_t GetEnd() { return m_end; }
