@@ -16,5 +16,5 @@
 using std::set;
 
 class JobSelector {
-
 public
+    bool SelectJob();    
