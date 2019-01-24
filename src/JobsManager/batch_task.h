@@ -5,3 +5,5 @@
 
 #include "JobsManager/task.h"
 #include "common/classad/classad_complement.h"
+
+using std::string;
