@@ -2,3 +2,5 @@
 #define JOBS_MANAGER_BATCH_TASK_H
 
 #include <string>
+
+#include "JobsManager/task.h"
