@@ -7,3 +7,5 @@
 #include "common/classad/classad_complement.h"
 
 using std::string;
+
+class BatchTask : public Task {
