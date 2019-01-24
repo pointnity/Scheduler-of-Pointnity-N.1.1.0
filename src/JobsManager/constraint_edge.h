@@ -28,3 +28,4 @@ public:
 private:
     int32_t m_start;
     int32_t m_end;
+    int32_t m_weight;
