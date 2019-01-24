@@ -13,3 +13,4 @@
 #include "JobsManager/job_enum.h"
 #include "JobsManager/job_master.h"
 
+using std::set;
