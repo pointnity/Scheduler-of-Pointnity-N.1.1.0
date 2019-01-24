@@ -16,3 +16,5 @@ using boost::shared_ptr;
 class ConstraintEdge {
 public:
     ConstraintEdge(int32_t s, int32_t e, int32_t w) {
+        m_start = s;
+        m_end = e;
