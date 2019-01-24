@@ -19,3 +19,4 @@ class JobSelector {
 public
     bool SelectJob();    
 private:
+    // JobMaster m_job_master;
