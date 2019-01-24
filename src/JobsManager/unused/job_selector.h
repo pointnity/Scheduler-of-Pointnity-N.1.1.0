@@ -10,3 +10,4 @@
 #define JOBS_MANAGER_JOB_SELECTOR_H
 
 #include <set>
+#include "JobsManager/job_enum.h"
