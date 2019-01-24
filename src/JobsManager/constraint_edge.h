@@ -10,3 +10,5 @@
 #define JOBS_MANAGER_CONSTRAINT_EDGE_H
 
 #include <boost/shared_ptr.hpp>
+
+using boost::shared_ptr;
