@@ -9,3 +9,4 @@
 using std::string;
 
 class BatchTask : public Task {
+public:
