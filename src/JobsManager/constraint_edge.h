@@ -23,3 +23,6 @@ public:
 
     int32_t GetStart() { return m_start; }
     int32_t GetEnd() { return m_end; }
+    int32_t GetWeight() { return m_weight; }
+
+private:
