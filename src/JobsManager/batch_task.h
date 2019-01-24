@@ -12,3 +12,5 @@ class BatchTask : public Task {
 public:
     // void InitTaskInfo(TaskAdPtr ad, int32_t job_id, int32_t task_id, int32_t submit_time = 0);
     // bool SetTaskStartSuccess();
+};
+#endif
