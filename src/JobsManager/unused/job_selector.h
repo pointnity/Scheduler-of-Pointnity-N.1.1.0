@@ -22,3 +22,4 @@ private:
     // JobMaster m_job_master;
 };
 
+#endif
