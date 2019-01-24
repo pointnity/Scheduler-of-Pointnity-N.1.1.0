@@ -10,3 +10,4 @@
 
 DEFINE_int32(jobs_manager_port, 9997, "JobsManager rpc port");
 DEFINE_string(resource_scheduler_endpoint, "127.0.0.1:9998", "resource_scheduler endpoint");
+DEFINE_string(groups_xml, "../conf/groups.xml", "groups config file with xml format");
