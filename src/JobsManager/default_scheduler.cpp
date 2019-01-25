@@ -59,3 +59,7 @@ int32_t DefaultScheduler::ScheduleOneJob(JobPtr& job_ptr) {
          return -2;
     }
     return 0;
+
+}
+
+int32_t DefaultScheduler::ScheduleOneTask(const TaskPtr& task_ptr) {
