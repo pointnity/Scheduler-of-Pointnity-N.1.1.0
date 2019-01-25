@@ -99,3 +99,4 @@ int32_t DefaultScheduler::ScheduleOneTask(const TaskPtr& task_ptr) {
     EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
  
     // write map & task
+    vector<string> vec_ip_port;
