@@ -101,3 +101,4 @@ int32_t DefaultScheduler::ScheduleOneTask(const TaskPtr& task_ptr) {
     // write map & task
     vector<string> vec_ip_port;
     StringUtility::Split(result.c_str(), vec_ip_port, ":");
+    if (vec_ip_port.size() != 2) {
