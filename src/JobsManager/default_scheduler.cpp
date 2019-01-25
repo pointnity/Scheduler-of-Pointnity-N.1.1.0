@@ -63,3 +63,4 @@ int32_t DefaultScheduler::ScheduleOneJob(JobPtr& job_ptr) {
 }
 
 int32_t DefaultScheduler::ScheduleOneTask(const TaskPtr& task_ptr) {
+    // set task_ad & hard constraints
