@@ -25,3 +25,4 @@ using clynn::Timer;
 static Logger logger = Logger::getInstance("JobsManager");
 
 int32_t DefaultScheduler::ScheduleOneJob(JobPtr& job_ptr) {
+    printf("Default Scheduler\n");
