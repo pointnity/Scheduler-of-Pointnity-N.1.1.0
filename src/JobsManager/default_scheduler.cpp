@@ -106,3 +106,4 @@ int32_t DefaultScheduler::ScheduleOneTask(const TaskPtr& task_ptr) {
         return -1;
     }
     job_ptr->WriteMap(task_id, vec_ip_port[0]);
+    task_ptr->SetEsIp(vec_ip_port[0]);
