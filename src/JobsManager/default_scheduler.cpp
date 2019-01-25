@@ -111,3 +111,6 @@ int32_t DefaultScheduler::ScheduleOneTask(const TaskPtr& task_ptr) {
     // add used resource
     GroupPoolI::Instance()->AddUsedResource(task_ptr);
     task_ptr->TaskStarting();
+
+    return 0;
+}
