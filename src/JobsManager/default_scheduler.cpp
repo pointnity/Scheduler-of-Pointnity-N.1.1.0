@@ -79,3 +79,4 @@ int32_t DefaultScheduler::ScheduleOneTask(const TaskPtr& task_ptr) {
     
     // match
     string result;
+    if (SendRequestConstraint(taskad_hard, soft_list, result) != 0) {
