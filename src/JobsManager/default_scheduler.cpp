@@ -78,3 +78,4 @@ int32_t DefaultScheduler::ScheduleOneTask(const TaskPtr& task_ptr) {
     }
     
     // match
+    string result;
