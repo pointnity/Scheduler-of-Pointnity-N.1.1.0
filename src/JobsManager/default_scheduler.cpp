@@ -68,3 +68,4 @@ int32_t DefaultScheduler::ScheduleOneTask(const TaskPtr& task_ptr) {
     string taskad_hard = ClassAdComplement::AdTostring(taskad_hard_constraint);
 
     // set soft constraints
+    vector<string> soft_list;
