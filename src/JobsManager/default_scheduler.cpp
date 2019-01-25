@@ -97,3 +97,5 @@ int32_t DefaultScheduler::ScheduleOneTask(const TaskPtr& task_ptr) {
     EventPtr event(new StartTaskEvent(job_id, task_id, result, taskad_hard));
     // Push event into Queue
     EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
+ 
+    // write map & task
