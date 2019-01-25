@@ -104,3 +104,5 @@ int32_t DefaultScheduler::ScheduleOneTask(const TaskPtr& task_ptr) {
     if (vec_ip_port.size() != 2) {
         LOG4CPLUS_ERROR(logger, "result is illegal" << result);
         return -1;
+    }
+    job_ptr->WriteMap(task_id, vec_ip_port[0]);
