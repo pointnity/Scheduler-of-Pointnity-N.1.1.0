@@ -74,3 +74,4 @@ int32_t DefaultScheduler::ScheduleOneTask(const TaskPtr& task_ptr) {
          it != classad_soft_list.end(); ++it)
     {
         string soft_constraint = ClassAdComplement::AdTostring(*it);
+        soft_list.push_back(soft_constraint);
