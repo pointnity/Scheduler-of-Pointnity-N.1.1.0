@@ -14,3 +14,7 @@
 #include "common/clynn/rpc.h"
 #include "common/classad/classad_complement.h"
 #include "include/classad_attr.h"
+
+#include "JobsManager/default_scheduler.h"
+
+DECLARE_string(resource_scheduler_endpoint);
