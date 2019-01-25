@@ -29,3 +29,5 @@ int32_t DefaultScheduler::ScheduleOneJob(JobPtr& job_ptr) {
 
     bool has_success = false;
     bool has_no_success = false;
+
+    list<TaskPtr> task_list = job_ptr->GetTaskList();
