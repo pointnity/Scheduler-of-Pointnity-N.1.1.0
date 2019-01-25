@@ -109,3 +109,5 @@ int32_t DefaultScheduler::ScheduleOneTask(const TaskPtr& task_ptr) {
     task_ptr->SetEsIp(vec_ip_port[0]);
 
     // add used resource
+    GroupPoolI::Instance()->AddUsedResource(task_ptr);
+    task_ptr->TaskStarting();
