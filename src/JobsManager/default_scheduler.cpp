@@ -28,3 +28,4 @@ int32_t DefaultScheduler::ScheduleOneJob(JobPtr& job_ptr) {
     printf("Default Scheduler\n");
 
     bool has_success = false;
+    bool has_no_success = false;
