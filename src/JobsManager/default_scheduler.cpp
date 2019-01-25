@@ -88,3 +88,5 @@ int32_t DefaultScheduler::ScheduleOneTask(const TaskPtr& task_ptr) {
         // TODO
         return -1;
     }
+    int32_t task_id = task_ptr->GetTaskId();
+    int32_t job_id = task_ptr->GetJobId();
