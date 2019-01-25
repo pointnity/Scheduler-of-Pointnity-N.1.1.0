@@ -37,3 +37,6 @@ int32_t DefaultScheduler::ScheduleOneJob(JobPtr& job_ptr) {
         // only schedule waiting task
         if((*it)->GetTaskState() != TASK_WAITING) {
             continue;
+        }
+
+        if (ScheduleOneTask(*it) != 0) {
