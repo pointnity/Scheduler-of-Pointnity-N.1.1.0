@@ -86,3 +86,5 @@ int32_t DefaultScheduler::ScheduleOneTask(const TaskPtr& task_ptr) {
     }
     if ("" == result) {
         // TODO
+        return -1;
+    }
