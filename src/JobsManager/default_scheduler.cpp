@@ -55,3 +55,4 @@ int32_t DefaultScheduler::ScheduleOneJob(JobPtr& job_ptr) {
         job_ptr->SetState(JOB_SCHEDULING);
         return -1;
     } else {
+        // all tasks no success
