@@ -49,3 +49,4 @@ int32_t DefaultScheduler::ScheduleOneJob(JobPtr& job_ptr) {
      if (!has_no_success) {
         // all tasks success
         job_ptr->SetState(JOB_RUNNING);
+        return 0;
