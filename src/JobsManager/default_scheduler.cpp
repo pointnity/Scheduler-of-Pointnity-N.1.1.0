@@ -92,3 +92,5 @@ int32_t DefaultScheduler::ScheduleOneTask(const TaskPtr& task_ptr) {
     int32_t job_id = task_ptr->GetJobId();
     JobPtr job_ptr = JobPoolI::Instance()->GetJobPtr(job_id);
     printf("Match result:\n job_id: %d, task_id: %d, result: %s\n", job_id, task_id, result.c_str());  
+
+    // new action event
