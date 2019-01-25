@@ -82,3 +82,4 @@ int32_t DefaultScheduler::ScheduleOneTask(const TaskPtr& task_ptr) {
     if (SendRequestConstraint(taskad_hard, soft_list, result) != 0) {
         // TODO
         // continue;
+        return -1;
