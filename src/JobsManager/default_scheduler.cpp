@@ -102,3 +102,4 @@ int32_t DefaultScheduler::ScheduleOneTask(const TaskPtr& task_ptr) {
     vector<string> vec_ip_port;
     StringUtility::Split(result.c_str(), vec_ip_port, ":");
     if (vec_ip_port.size() != 2) {
+        LOG4CPLUS_ERROR(logger, "result is illegal" << result);
