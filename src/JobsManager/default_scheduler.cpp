@@ -40,3 +40,4 @@ int32_t DefaultScheduler::ScheduleOneJob(JobPtr& job_ptr) {
         }
 
         if (ScheduleOneTask(*it) != 0) {
+            has_no_success = true; // has task no success
