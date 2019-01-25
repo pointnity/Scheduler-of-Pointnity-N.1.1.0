@@ -94,3 +94,5 @@ int32_t DefaultScheduler::ScheduleOneTask(const TaskPtr& task_ptr) {
     printf("Match result:\n job_id: %d, task_id: %d, result: %s\n", job_id, task_id, result.c_str());  
 
     // new action event
+    EventPtr event(new StartTaskEvent(job_id, task_id, result, taskad_hard));
+    // Push event into Queue
