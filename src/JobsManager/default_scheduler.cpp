@@ -71,3 +71,4 @@ int32_t DefaultScheduler::ScheduleOneTask(const TaskPtr& task_ptr) {
     vector<string> soft_list;
     list<ClassAdPtr> classad_soft_list = task_ptr->GetTaskSoftList();
     for (list<ClassAdPtr>::iterator it = classad_soft_list.begin();
+         it != classad_soft_list.end(); ++it)
