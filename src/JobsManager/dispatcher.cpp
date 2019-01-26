@@ -7,3 +7,5 @@
 *********************************/
 
 #include "JobsManager/dispatcher.h"
+
+// register <JMEventType, Handler*>
