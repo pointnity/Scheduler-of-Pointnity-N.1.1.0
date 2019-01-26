@@ -5,3 +5,5 @@
  Version:  0.1
  Description: default Scheduler, inherit from JobScheduler
 *********************************/
+
+#ifndef JOBS_MANAGER_DEFAULT_SCHEDULER_H
