@@ -10,3 +10,5 @@
 #define JOBS_MANAGER_DEFAULT_SCHEDULER_H
 
 #include "JobsManager/job_scheduler.h"
+
+class DefaultScheduler : public JobScheduler{
