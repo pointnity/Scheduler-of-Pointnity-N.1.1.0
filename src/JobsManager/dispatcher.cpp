@@ -9,3 +9,4 @@
 #include "JobsManager/dispatcher.h"
 
 // register <JMEventType, Handler*>
+void Dispatcher::Register(JMEventType type, Handler* handler) {
