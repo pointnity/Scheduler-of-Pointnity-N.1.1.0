@@ -12,3 +12,4 @@
 #include "JobsManager/job_scheduler.h"
 
 class DefaultScheduler : public JobScheduler{
+public:
