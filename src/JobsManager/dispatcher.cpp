@@ -10,3 +10,4 @@
 
 // register <JMEventType, Handler*>
 void Dispatcher::Register(JMEventType type, Handler* handler) {
+    m_handler_map[type] = handler;
