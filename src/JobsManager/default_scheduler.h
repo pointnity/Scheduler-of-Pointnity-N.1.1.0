@@ -14,3 +14,4 @@
 class DefaultScheduler : public JobScheduler{
 public:
     DefaultScheduler() : JobScheduler(DEFAULT_MODEL) {}
+    int32_t ScheduleOneJob(JobPtr& job_ptr);
