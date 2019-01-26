@@ -13,3 +13,4 @@
 
 class DefaultScheduler : public JobScheduler{
 public:
+    DefaultScheduler() : JobScheduler(DEFAULT_MODEL) {}
