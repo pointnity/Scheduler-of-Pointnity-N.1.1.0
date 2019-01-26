@@ -16,3 +16,4 @@ public:
     DefaultScheduler() : JobScheduler(DEFAULT_MODEL) {}
     int32_t ScheduleOneJob(JobPtr& job_ptr);
     int32_t ScheduleOneTask(const TaskPtr& task_ptr);
+};
