@@ -7,3 +7,4 @@
 *********************************/
 
 #ifndef JOBS_MANAGER_DEFAULT_SCHEDULER_H
+#define JOBS_MANAGER_DEFAULT_SCHEDULER_H
