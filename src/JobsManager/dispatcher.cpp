@@ -15,3 +15,4 @@ void Dispatcher::Register(JMEventType type, Handler* handler) {
 
 Handler* Dispatcher::Dispatch(JMEventType type) {
     return m_handler_map[type];
+}
