@@ -11,3 +11,5 @@
 
 #include <map>
 #include "common/clynn/singleton.h"
+#include "JobsManager/handler.h"
+
