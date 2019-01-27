@@ -68,3 +68,4 @@ bool TaskStartedEvent::Handle() {
     task_ptr->TaskStarted();
 
     /* if (job->GetRunTaskNum() == 1) {
+        job->SetRunTime();
