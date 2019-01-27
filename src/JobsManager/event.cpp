@@ -30,3 +30,4 @@ bool ImageEvent::Handle() {
 }
 
 // Create app
+bool AppEvent::Handle() {
