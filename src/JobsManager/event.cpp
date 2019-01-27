@@ -101,3 +101,39 @@ bool TaskFailedEvent::Handle() {
     if (NULL == task_ptr) {
         return false;
     }
+    task_ptr->TaskFailed();
+
+    return true;
+}
+
+// task timeout
+bool TaskTimeoutEvent::Handle() {
+    JobPtr job_ptr = JobPoolI::Instance()->GetJobPtr(m_job_id);
+    if (NULL == job_ptr) {
+        return false;
+    }
+
+    TaskPtr task_ptr = job_ptr->GetTaskPtr(m_task_id);
+    if (NULL == task_ptr) {
+        return false;
+    }
+    task_ptr->TaskTimeout();
+
+    return true;
+}
+
+// task missed
+bool TaskMissedEvent::Handle() {
+    JobPtr job_ptr = JobPoolI::Instance()->GetJobPtr(m_job_id);
+    if (NULL == job_ptr) {
+        return false;
+    }
+
+    TaskPtr task_ptr = job_ptr->GetTaskPtr(m_task_id);
+    if (NULL == task_ptr) {
+        return false;
+    }
+    task_ptr->TaskMissed();
+
+    return true;
+}
