@@ -91,3 +91,4 @@ bool TaskFinishedEvent::Handle() {
 }
 
 // task failed
+bool TaskFailedEvent::Handle() {
