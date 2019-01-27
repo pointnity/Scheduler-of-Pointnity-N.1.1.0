@@ -22,3 +22,5 @@ public:
 private:
     map<JMEventType, Handler*> m_handler_map;
 };
+
+typedef Singleton<Dispatcher> EventDispatcherI;
