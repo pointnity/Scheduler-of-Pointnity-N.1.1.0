@@ -63,3 +63,4 @@ bool TaskStartedEvent::Handle() {
 
     TaskPtr task_ptr = job_ptr->GetTaskPtr(m_task_id);
     if (NULL == task_ptr) {
+        return false;
