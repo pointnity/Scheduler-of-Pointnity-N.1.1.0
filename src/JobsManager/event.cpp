@@ -28,3 +28,5 @@ bool ImageEvent::Handle() {
     bool is_update_all = GetIs_update_all();
     return ImageMgrI::Instance()->UpdateImage(user, name, size, is_update_all);
 }
+
+// Create app
