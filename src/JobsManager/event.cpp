@@ -34,3 +34,6 @@ bool AppEvent::Handle() {
     string name = GetName();
     string user = GetUser();
     return AppMgrI::Instance()->CreateApp(user, name);
+}
+
+// start task
