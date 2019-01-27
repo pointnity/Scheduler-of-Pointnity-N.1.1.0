@@ -32,3 +32,4 @@ bool ImageEvent::Handle() {
 // Create app
 bool AppEvent::Handle() {
     string name = GetName();
+    string user = GetUser();
