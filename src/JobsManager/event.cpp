@@ -53,3 +53,4 @@ bool StartTaskEvent::Handle() {
 }
 
 // task started
+bool TaskStartedEvent::Handle() {
