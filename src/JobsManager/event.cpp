@@ -25,3 +25,4 @@ bool ImageEvent::Handle() {
     string name = GetName();
     string user = GetUser();
     int32_t size = GetSize();
+    bool is_update_all = GetIs_update_all();
