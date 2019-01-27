@@ -11,3 +11,4 @@
 #include <gflags/gflags.h>
 
 #include "JobsManager/event.h"
+#include "JobsManager/image_manager.h"
