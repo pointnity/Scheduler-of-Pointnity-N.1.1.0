@@ -24,3 +24,4 @@ static Logger logger = Logger::getInstance("JobsManager");
 bool ImageEvent::Handle() {
     string name = GetName();
     string user = GetUser();
+    int32_t size = GetSize();
