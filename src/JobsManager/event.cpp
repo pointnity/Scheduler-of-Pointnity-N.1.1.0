@@ -50,3 +50,6 @@ bool StartTaskEvent::Handle() {
     }
 
     return task_ptr->StartTask(m_executor_endpoint, m_taskad);
+}
+
+// task started
