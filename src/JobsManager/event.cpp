@@ -23,3 +23,4 @@ static Logger logger = Logger::getInstance("JobsManager");
 // update image
 bool ImageEvent::Handle() {
     string name = GetName();
+    string user = GetUser();
