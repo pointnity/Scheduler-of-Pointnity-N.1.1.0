@@ -73,3 +73,6 @@ bool TaskStartedEvent::Handle() {
     } */
     return true;
 }
+
+// task finished
+bool TaskFinishedEvent::Handle() {
