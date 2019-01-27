@@ -13,3 +13,4 @@
 #include "JobsManager/event.h"
 #include "JobsManager/image_manager.h"
 #include "JobsManager/app_manager.h"
+#include "JobsManager/job_pool.h"
