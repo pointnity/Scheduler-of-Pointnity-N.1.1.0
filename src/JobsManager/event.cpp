@@ -88,3 +88,6 @@ bool TaskFinishedEvent::Handle() {
     task_ptr->TaskFinished();
 
     return true;
+}
+
+// task failed
