@@ -20,3 +20,4 @@ using log4cplus::Logger;
 
 static Logger logger = Logger::getInstance("JobsManager");
 
+// update image
