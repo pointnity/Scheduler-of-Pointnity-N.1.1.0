@@ -38,3 +38,4 @@ bool AppEvent::Handle() {
 
 // start task
 bool StartTaskEvent::Handle() {
+    // TaskPtr task_ptr = JobPoolI::Instance()->GetTask(m_job_id, m_task_id);
