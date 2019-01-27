@@ -33,3 +33,4 @@ bool ImageEvent::Handle() {
 bool AppEvent::Handle() {
     string name = GetName();
     string user = GetUser();
+    return AppMgrI::Instance()->CreateApp(user, name);
