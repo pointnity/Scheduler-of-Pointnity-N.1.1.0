@@ -26,3 +26,5 @@ bool ImageEvent::Handle() {
     string user = GetUser();
     int32_t size = GetSize();
     bool is_update_all = GetIs_update_all();
+    return ImageMgrI::Instance()->UpdateImage(user, name, size, is_update_all);
+}
