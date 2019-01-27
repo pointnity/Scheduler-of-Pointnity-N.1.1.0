@@ -18,3 +18,4 @@ using std::map;
 class Dispatcher {
 public:
     void Register(JMEventType type, Handler* handler);
+    Handler* Dispatch(JMEventType type);
