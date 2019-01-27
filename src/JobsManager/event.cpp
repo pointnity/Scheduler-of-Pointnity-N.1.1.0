@@ -66,3 +66,5 @@ bool TaskStartedEvent::Handle() {
         return false;
     }
     task_ptr->TaskStarted();
+
+    /* if (job->GetRunTaskNum() == 1) {
