@@ -94,3 +94,4 @@ bool TaskFinishedEvent::Handle() {
 bool TaskFailedEvent::Handle() {
     JobPtr job_ptr = JobPoolI::Instance()->GetJobPtr(m_job_id);
     if (NULL == job_ptr) {
+        return false;
