@@ -21,3 +21,4 @@ public:
     Handler* Dispatch(JMEventType type);
 private:
     map<JMEventType, Handler*> m_handler_map;
+};
