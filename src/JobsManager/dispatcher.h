@@ -13,3 +13,4 @@
 #include "common/clynn/singleton.h"
 #include "JobsManager/handler.h"
 
+using std::map;
