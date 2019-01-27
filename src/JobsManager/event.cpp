@@ -71,3 +71,5 @@ bool TaskStartedEvent::Handle() {
         job->SetRunTime();
         job->UpdateTimeByState(TASK_WAITING);
     } */
+    return true;
+}
