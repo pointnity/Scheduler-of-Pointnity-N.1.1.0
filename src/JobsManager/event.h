@@ -45,3 +45,4 @@ public:
         return m_user;
     }
     int32_t GetSize() const {
+        return m_size;
