@@ -132,3 +132,4 @@ public:
 };
 
 class TaskTimeoutEvent : public TaskStateEvent {
+public:
