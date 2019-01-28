@@ -120,3 +120,4 @@ public:
 };
 
 class TaskFailedEvent : public TaskStateEvent {
+public:
