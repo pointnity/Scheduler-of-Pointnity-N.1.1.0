@@ -37,3 +37,4 @@ public:
              m_name(name), m_user(user), m_size(size), m_is_update_all(is_update_all) {}
     
     ~ImageEvent() {}
+    bool Handle();
