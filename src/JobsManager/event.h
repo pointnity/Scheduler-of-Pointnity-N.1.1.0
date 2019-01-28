@@ -72,3 +72,4 @@ public:
         return m_user;
     }
 private:
+    string m_name;
