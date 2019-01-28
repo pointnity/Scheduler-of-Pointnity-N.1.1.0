@@ -33,3 +33,5 @@ private:
 
 class ImageEvent : public Event {
 public:
+    ImageEvent(const string& user, const string& name, const int32_t size, bool is_update_all) : Event(JMEventType::IMAGE_EVENT),
+             m_name(name), m_user(user), m_size(size), m_is_update_all(is_update_all) {}
