@@ -77,3 +77,4 @@ private:
 };
 
 class TaskEvent : public Event {
+public:
