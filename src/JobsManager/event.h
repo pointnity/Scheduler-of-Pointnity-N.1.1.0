@@ -69,3 +69,4 @@ public:
         return m_name;
     }
     string GetUser() const {
+        return m_user;
