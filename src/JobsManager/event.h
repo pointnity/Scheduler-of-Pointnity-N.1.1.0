@@ -14,3 +14,5 @@
 
 #include "common/clynn/block_queue.h"
 #include "JobsManager/job_enum.h"
+
+using std::string;
