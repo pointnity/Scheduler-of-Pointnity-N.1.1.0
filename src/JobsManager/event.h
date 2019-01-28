@@ -81,3 +81,5 @@ public:
     explicit TaskEvent(int32_t job_id, int32_t task_id, JMEventType type) : Event(type), m_job_id(job_id), m_task_id(task_id) {}
     virtual ~TaskEvent() {}
 protected:
+    int32_t m_job_id;
+    int32_t m_task_id;
