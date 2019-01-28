@@ -73,3 +73,5 @@ public:
     }
 private:
     string m_name;
+    string m_user;
+};
