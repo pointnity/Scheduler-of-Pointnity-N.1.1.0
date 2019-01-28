@@ -86,3 +86,4 @@ protected:
 };
 
 class TaskStateEvent : public TaskEvent {
+public:
