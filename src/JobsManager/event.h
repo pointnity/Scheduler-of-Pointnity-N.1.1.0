@@ -95,3 +95,6 @@ class TaskActionEvent : public TaskEvent {
 public:
     explicit TaskActionEvent(int32_t job_id, int32_t task_id) : TaskEvent(job_id, task_id, JMEventType::TASK_ACTION_EVENT) {}
     virtual ~TaskActionEvent() {}
+};
+
+class StartTaskEvent : public TaskActionEvent {
