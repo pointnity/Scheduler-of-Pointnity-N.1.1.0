@@ -65,3 +65,4 @@ public:
 
     ~AppEvent() {}
     bool Handle();
+    string GetName() const {
