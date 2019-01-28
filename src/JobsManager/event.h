@@ -48,3 +48,4 @@ public:
         return m_size;
     }
     bool GetIs_update_all() const {
+	return m_is_update_all;
