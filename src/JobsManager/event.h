@@ -30,3 +30,5 @@ public:
 private:
     JMEventType m_type;
 };
+
+class ImageEvent : public Event {
