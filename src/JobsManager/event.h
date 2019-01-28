@@ -60,3 +60,6 @@ private:
 
 class AppEvent : public Event {
 public:
+    AppEvent(const string& user, const string& name) : Event(JMEventType::APP_EVENT),
+             m_name(name), m_user(user) {}
+
