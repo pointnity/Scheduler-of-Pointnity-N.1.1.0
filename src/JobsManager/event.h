@@ -66,3 +66,4 @@ public:
     ~AppEvent() {}
     bool Handle();
     string GetName() const {
+        return m_name;
