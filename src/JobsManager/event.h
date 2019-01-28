@@ -38,3 +38,4 @@ public:
     
     ~ImageEvent() {}
     bool Handle();
+    string GetName() const {
