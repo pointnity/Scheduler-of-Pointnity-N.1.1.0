@@ -27,3 +27,4 @@ public:
     JMEventType GetType() const {
         return m_type;
     }
+private:
