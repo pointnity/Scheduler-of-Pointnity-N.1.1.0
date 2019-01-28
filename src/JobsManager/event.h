@@ -26,3 +26,4 @@ public:
     virtual bool Handle() = 0;
     JMEventType GetType() const {
         return m_type;
+    }
