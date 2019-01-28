@@ -64,3 +64,4 @@ public:
              m_name(name), m_user(user) {}
 
     ~AppEvent() {}
+    bool Handle();
