@@ -24,3 +24,4 @@ public:
     Event(JMEventType type) : m_type(type) {}
     virtual ~Event() {}
     virtual bool Handle() = 0;
+    JMEventType GetType() const {
