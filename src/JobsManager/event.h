@@ -10,3 +10,4 @@
 #define SRC_JOBS_MANAGER_EVENT_H
 
 #include <string>
+#include <boost/shared_ptr.hpp>
