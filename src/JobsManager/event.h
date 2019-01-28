@@ -55,3 +55,7 @@ private:
     string m_user;
     int32_t m_size;
     bool m_is_update_all;
+};
+
+
+class AppEvent : public Event {
