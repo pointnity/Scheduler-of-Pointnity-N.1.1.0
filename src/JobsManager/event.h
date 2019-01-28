@@ -59,3 +59,4 @@ private:
 
 
 class AppEvent : public Event {
+public:
