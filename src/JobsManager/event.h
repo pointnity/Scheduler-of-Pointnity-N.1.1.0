@@ -67,3 +67,4 @@ public:
     bool Handle();
     string GetName() const {
         return m_name;
+    }
