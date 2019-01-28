@@ -99,3 +99,4 @@ public:
 
 class StartTaskEvent : public TaskActionEvent {
 public:
+    StartTaskEvent(int32_t job_id, int32_t task_id, const string& endpoint, const string& taskad) 
