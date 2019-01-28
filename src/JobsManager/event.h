@@ -121,3 +121,5 @@ public:
 
 class TaskFailedEvent : public TaskStateEvent {
 public:
+    TaskFailedEvent(int32_t job_id, int32_t task_id) : TaskStateEvent(job_id, task_id) {}
+    bool Handle();
