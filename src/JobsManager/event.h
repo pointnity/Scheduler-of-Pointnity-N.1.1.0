@@ -23,3 +23,4 @@ class Event {
 public:
     Event(JMEventType type) : m_type(type) {}
     virtual ~Event() {}
+    virtual bool Handle() = 0;
