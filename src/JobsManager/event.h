@@ -28,3 +28,5 @@ public:
         return m_type;
     }
 private:
+    JMEventType m_type;
+};
