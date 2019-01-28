@@ -16,3 +16,4 @@
 #include "JobsManager/job_enum.h"
 
 using std::string;
+using boost::shared_ptr;
