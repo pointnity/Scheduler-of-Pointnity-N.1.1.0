@@ -101,3 +101,5 @@ class StartTaskEvent : public TaskActionEvent {
 public:
     StartTaskEvent(int32_t job_id, int32_t task_id, const string& endpoint, const string& taskad) 
         : TaskActionEvent(job_id, task_id), m_executor_endpoint(endpoint), m_taskad(taskad) {}
+    bool Handle();
+private:
