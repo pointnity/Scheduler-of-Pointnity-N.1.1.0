@@ -51,3 +51,4 @@ public:
 	return m_is_update_all;
     }
 private:
+    string m_name;
