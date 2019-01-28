@@ -89,3 +89,6 @@ class TaskStateEvent : public TaskEvent {
 public:
     explicit TaskStateEvent(int32_t job_id, int32_t task_id) : TaskEvent(job_id, task_id, JMEventType::TASK_STATE_EVENT) {}
     virtual ~TaskStateEvent() {}
+};
+
+class TaskActionEvent : public TaskEvent {
