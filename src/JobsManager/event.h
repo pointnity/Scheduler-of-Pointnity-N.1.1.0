@@ -103,3 +103,5 @@ public:
         : TaskActionEvent(job_id, task_id), m_executor_endpoint(endpoint), m_taskad(taskad) {}
     bool Handle();
 private:
+    string m_executor_endpoint;
+    string m_taskad;
