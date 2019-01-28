@@ -135,3 +135,6 @@ class TaskTimeoutEvent : public TaskStateEvent {
 public:
     TaskTimeoutEvent(int32_t job_id, int32_t task_id) : TaskStateEvent(job_id, task_id) {}
     bool Handle();
+};
+
+typedef shared_ptr<Event> EventPtr;
