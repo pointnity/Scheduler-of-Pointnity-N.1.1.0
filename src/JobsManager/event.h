@@ -108,3 +108,4 @@ private:
 };
 
 class TaskStartedEvent : public TaskStateEvent {
+public:
