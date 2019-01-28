@@ -46,3 +46,5 @@ public:
     }
     int32_t GetSize() const {
         return m_size;
+    }
+    bool GetIs_update_all() const {
