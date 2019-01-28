@@ -138,3 +138,4 @@ public:
 };
 
 typedef shared_ptr<Event> EventPtr;
+typedef BlockQueue<EventPtr> EventQueue;
