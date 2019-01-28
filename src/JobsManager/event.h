@@ -105,3 +105,6 @@ public:
 private:
     string m_executor_endpoint;
     string m_taskad;
+};
+
+class TaskStartedEvent : public TaskStateEvent {
