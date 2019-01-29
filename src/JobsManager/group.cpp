@@ -52,3 +52,6 @@ bool Group::AddJobToWaitQueue(const JobPtr& job, bool push_front) {
         return false;
     }
     return true;
+}
+
+// Add Job to Wait Queue Bu Queue Num
