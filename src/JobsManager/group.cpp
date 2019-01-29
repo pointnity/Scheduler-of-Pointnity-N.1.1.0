@@ -137,3 +137,30 @@ bool Group::MoveJobToNavigatingJobByQueueNum(const JobQueueNum& num) {
                // delete job from queue
                m_high_wait_job_queue.pop_front();
                return true;
+           }
+           break;
+        case JOB_QUEUE_ORDINARY_WAIT:
+           if (m_ordinary_wait_job_queue.empty()) {
+               return false;
+           } else {
+               WriteLocker navi_locker(m_navigating_job_lock);
+               WriteLocker locker(m_ordinary_wait_job_queue_lock);
+               // set navigating job
+               m_navigating_job = *m_ordinary_wait_job_queue.begin();
+               // delete job from queue
+               m_ordinary_wait_job_queue.pop_front();
+                return true;
+           }
+           break;
+        case JOB_QUEUE_LOW_WAIT:
+           if (m_low_wait_job_queue.empty()) {
+               return false;
+           } else {
+               WriteLocker navi_locker(m_navigating_job_lock);
+               WriteLocker locker(m_low_wait_job_queue_lock);
+               // set navigating job
+               m_navigating_job = *m_low_wait_job_queue.begin();
+               // delete job from queue
+               m_low_wait_job_queue.pop_front();
+               return true;
+           }
