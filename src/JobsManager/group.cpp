@@ -43,3 +43,4 @@ string Group::GetGroupName() {
 bool Group::AddJobToWaitQueue(const JobPtr& job, bool push_front) {
     JobQueueNum job_queue_num;
     if (!GetNewJobWaitQueueNum(job, job_queue_num)) {
+        LOG4CPLUS_ERROR(logger, "No this priority.");
