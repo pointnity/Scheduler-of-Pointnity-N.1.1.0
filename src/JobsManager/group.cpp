@@ -40,3 +40,5 @@ string Group::GetGroupName() {
 }
 
 // Add Job to Wait Queue
+bool Group::AddJobToWaitQueue(const JobPtr& job, bool push_front) {
+    JobQueueNum job_queue_num;
