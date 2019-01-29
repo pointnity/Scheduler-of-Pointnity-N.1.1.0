@@ -77,3 +77,4 @@ bool Group::AddJobToQueueByQueueNum(const JobPtr& job, const JobQueueNum& num, b
                 m_ordinary_wait_job_queue.push_back(job);
                 printf("%s, Ordinary\n", GetGroupName().c_str());
             }
+            return true;
