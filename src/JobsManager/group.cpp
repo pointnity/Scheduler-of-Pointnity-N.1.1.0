@@ -55,3 +55,5 @@ bool Group::AddJobToWaitQueue(const JobPtr& job, bool push_front) {
 }
 
 // Add Job to Wait Queue Bu Queue Num
+bool Group::AddJobToQueueByQueueNum(const JobPtr& job, const JobQueueNum& num, bool push_front){
+    switch (num) {
