@@ -22,3 +22,5 @@ static Logger logger = Logger::getInstance("JobsManager");
 
 // gflag
 DECLARE_string(resource_scheduler_endpoint);
+
+// static data member
