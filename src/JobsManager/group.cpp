@@ -66,3 +66,5 @@ bool Group::AddJobToQueueByQueueNum(const JobPtr& job, const JobQueueNum& num, b
                 m_high_wait_job_queue.push_back(job);
                 // TODO test
                 printf("%s, High\n", GetGroupName().c_str());
+            }
+            return true;
