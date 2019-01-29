@@ -19,3 +19,5 @@ using clynn::WriteLocker;
 using clynn::ReadLocker;
 
 static Logger logger = Logger::getInstance("JobsManager");
+
+// gflag
