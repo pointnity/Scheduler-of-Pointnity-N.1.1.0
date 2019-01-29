@@ -25,3 +25,4 @@ DECLARE_string(resource_scheduler_endpoint);
 
 // static data member
 double Group::s_total_cpu = 1; // Prevention for 0
+double Group::s_total_memory = 1;
