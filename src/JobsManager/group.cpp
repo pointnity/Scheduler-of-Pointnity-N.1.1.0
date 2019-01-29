@@ -13,3 +13,5 @@ Description: group: quota & queues
 #include "proxy/ResourceScheduler/gen-cpp/ResourceScheduler.h"
 #include "common/clynn/rpc.h"
 #include "JobsManager/group.h"
+
+using log4cplus::Logger;
