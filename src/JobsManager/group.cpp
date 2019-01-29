@@ -59,3 +59,5 @@ bool Group::AddJobToQueueByQueueNum(const JobPtr& job, const JobQueueNum& num, b
     switch (num) {
         case JOB_QUEUE_HIGH_WAIT:
             if (push_front) {
+                WriteLocker locker(m_high_wait_job_queue_lock);
+                m_high_wait_job_queue.push_front(job);
