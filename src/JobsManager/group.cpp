@@ -75,3 +75,5 @@ bool Group::AddJobToQueueByQueueNum(const JobPtr& job, const JobQueueNum& num, b
             } else {
                 WriteLocker locker(m_ordinary_wait_job_queue_lock);
                 m_ordinary_wait_job_queue.push_back(job);
+                printf("%s, Ordinary\n", GetGroupName().c_str());
+            }
