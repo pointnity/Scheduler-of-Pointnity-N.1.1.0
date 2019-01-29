@@ -24,3 +24,4 @@ static Logger logger = Logger::getInstance("JobsManager");
 DECLARE_string(resource_scheduler_endpoint);
 
 // static data member
+double Group::s_total_cpu = 1; // Prevention for 0
