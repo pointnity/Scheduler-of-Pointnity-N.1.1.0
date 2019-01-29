@@ -33,3 +33,6 @@ Group::Group(const string& name) {
 
 void Group::Init(const string& name) {
     m_group_name = name;
+}
+
+string Group::GetGroupName() {
