@@ -36,3 +36,4 @@ void Group::Init(const string& name) {
 }
 
 string Group::GetGroupName() {
+    return m_group_name;
