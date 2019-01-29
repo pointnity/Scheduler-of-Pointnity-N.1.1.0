@@ -29,3 +29,6 @@ double Group::s_total_memory = 1;
 
 Group::Group(const string& name) {
     Init(name);
+}
+
+void Group::Init(const string& name) {
