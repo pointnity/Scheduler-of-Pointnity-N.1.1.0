@@ -107,3 +107,33 @@ bool Group::GetNewJobWaitQueueNum(const JobPtr& job, JobQueueNum& queue_num) {
         return true;
     }
     return false;
+}
+
+// select a job to navigating job
+bool Group::SelectJobToNavigatingJob() {
+    if (MoveJobToNavigatingJobByQueueNum(JOB_QUEUE_HIGH_WAIT)) {
+        return true;
+    }
+    if (MoveJobToNavigatingJobByQueueNum(JOB_QUEUE_ORDINARY_WAIT)) {
+        return true;
+    }
+    if (MoveJobToNavigatingJobByQueueNum(JOB_QUEUE_LOW_WAIT)) {
+        return true;
+    }
+    return false;
+}
+
+// get first job -> navigating job, then delete the job from queue
+bool Group::MoveJobToNavigatingJobByQueueNum(const JobQueueNum& num) {
+    switch (num) {
+        case JOB_QUEUE_HIGH_WAIT:
+           if (m_high_wait_job_queue.empty()) {
+               return false;
+           } else {
+               WriteLocker navi_locker(m_navigating_job_lock);
+               WriteLocker locker(m_high_wait_job_queue_lock);
+               // set navigating job
+               m_navigating_job = *m_high_wait_job_queue.begin();
+               // delete job from queue
+               m_high_wait_job_queue.pop_front();
+               return true;
