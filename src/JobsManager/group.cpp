@@ -48,3 +48,4 @@ bool Group::AddJobToWaitQueue(const JobPtr& job, bool push_front) {
     }
 
     if (!AddJobToQueueByQueueNum(job, job_queue_num, push_front)) {
+        LOG4CPLUS_ERROR(logger, "No this queue num.");
