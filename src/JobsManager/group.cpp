@@ -15,3 +15,4 @@ Description: group: quota & queues
 #include "JobsManager/group.h"
 
 using log4cplus::Logger;
+using clynn::WriteLocker;
