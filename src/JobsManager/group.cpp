@@ -82,3 +82,28 @@ bool Group::AddJobToQueueByQueueNum(const JobPtr& job, const JobQueueNum& num, b
             if (push_front) {
                 WriteLocker locker(m_low_wait_job_queue_lock);
                 m_low_wait_job_queue.push_front(job);
+            } else {
+                WriteLocker locker(m_low_wait_job_queue_lock);
+                m_low_wait_job_queue.push_back(job);
+                printf("%s, Low\n", GetGroupName().c_str());
+            }
+            return true;
+        default:
+            return false;
+    }
+}
+
+// Get Job Queue Num -> queue_num
+bool Group::GetNewJobWaitQueueNum(const JobPtr& job, JobQueueNum& queue_num) {
+    int priority = job->GetRawPriority();
+    if (priority == JOB_RAW_PRIO_HIGH) {
+        queue_num = JOB_QUEUE_HIGH_WAIT;
+        return true;
+    } else if (priority == JOB_RAW_PRIO_ORDINARY) {
+        queue_num = JOB_QUEUE_ORDINARY_WAIT;
+        return true;
+    } else if (priority == JOB_RAW_PRIO_LOW) {
+        queue_num = JOB_QUEUE_LOW_WAIT;
+        return true;
+    }
+    return false;
