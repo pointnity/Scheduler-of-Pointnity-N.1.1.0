@@ -71,3 +71,4 @@ bool Group::AddJobToQueueByQueueNum(const JobPtr& job, const JobQueueNum& num, b
         case JOB_QUEUE_ORDINARY_WAIT:
             if (push_front) {
                 WriteLocker locker(m_ordinary_wait_job_queue_lock);
+                m_ordinary_wait_job_queue.push_front(job);
