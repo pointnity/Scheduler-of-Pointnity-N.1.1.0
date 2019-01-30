@@ -114,3 +114,4 @@ typedef shared_ptr<Group> GroupPtr;
 // typedef Singleton<JobGroup> MainJobGroup;
 
 bool SetTotalResource();
+#endif
