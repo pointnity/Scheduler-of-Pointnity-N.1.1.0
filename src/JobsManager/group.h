@@ -10,3 +10,4 @@
 #define JOBS_MANAGER_GROUP_H
 
 #include <list>
+#include <boost/shared_ptr.hpp>
