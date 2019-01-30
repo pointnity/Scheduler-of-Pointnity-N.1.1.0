@@ -65,3 +65,4 @@ public:
     // set usage(percent) of dominant resource
     void SetDominantPct();
     bool IsOverLimit();
+    // calculate relative ratio
