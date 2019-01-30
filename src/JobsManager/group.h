@@ -67,3 +67,44 @@ public:
     bool IsOverLimit();
     // calculate relative ratio
     void SetRelativeRatio();
+    double GetRelativeRatio();
+    void SetUsedCPU(const double delta_cpu, bool minus = false);
+    void SetUsedMemory(const double delta_memory, bool minus = false);
+
+    // get cluster global resource view
+    double GetTotalCPU();
+    double GetTotalMemory();
+
+    // total resource of cluster 
+    static double s_total_cpu;
+    static double s_total_memory;
+
+private:
+    RWLock m_navigating_job_lock;
+    RWLock m_high_wait_job_queue_lock;
+    RWLock m_ordinary_wait_job_queue_lock;
+    RWLock m_low_wait_job_queue_lock;
+    RWLock m_run_job_queue_lock;
+
+private:
+    void Init(const string& name);
+    string m_group_name;
+    //正在匹配的作业 & queues
+    JobPtr m_navigating_job;
+    list<JobPtr> m_high_wait_job_queue;
+    list<JobPtr> m_ordinary_wait_job_queue;
+    list<JobPtr> m_low_wait_job_queue;
+    list<JobPtr> m_run_job_queue;
+
+    // quota & max limit
+    int32_t m_quota_shares;
+    // int32_t m_maxlimit_shares;
+    double m_quota_pct;
+    double m_maxlimit_pct;
+    double m_dominant_pct;
+
+    double m_used_cpu; 
+    double m_used_memory;
+    double m_relative_ratio;
+ 
+    RWLock m_quota_lock;
