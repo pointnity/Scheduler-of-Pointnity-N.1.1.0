@@ -8,3 +8,5 @@
 
 #ifndef JOBS_MANAGER_GROUP_H
 #define JOBS_MANAGER_GROUP_H
+
+#include <list>
