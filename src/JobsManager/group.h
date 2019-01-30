@@ -19,3 +19,4 @@
 using boost::shared_ptr;
 using std::list;
 using clynn::RWLock;
+using std::string;
