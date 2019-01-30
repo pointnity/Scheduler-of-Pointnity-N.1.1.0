@@ -48,3 +48,5 @@ public:
     bool MoveNavigatingJobToWaitQueue(bool push_front = false);
     bool MoveNavigatingJobToRunQueue();
     bool MoveJobToRunQueue(const JobPtr& job_ptr);
+    
+    // others
