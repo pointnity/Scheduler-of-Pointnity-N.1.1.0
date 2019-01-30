@@ -42,3 +42,4 @@ public:
     // get Waiting Job Number
     int32_t GetWaitingJobNum();
     // get group state info
+    GroupStateInfo GetGroupStateInfo();
