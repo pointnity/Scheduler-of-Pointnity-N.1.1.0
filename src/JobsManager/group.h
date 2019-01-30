@@ -43,3 +43,5 @@ public:
     int32_t GetWaitingJobNum();
     // get group state info
     GroupStateInfo GetGroupStateInfo();
+
+    // Move navigating job -> queue
