@@ -25,3 +25,5 @@ class Group {
 public:
     Group(const string& name);
     string GetGroupName();
+    // string GetGroupName(const JobQueueNum& queue_num);
+    
