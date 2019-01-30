@@ -11,3 +11,4 @@
 
 #include <list>
 #include <boost/shared_ptr.hpp>
+#include "common/clynn/singleton.h"
