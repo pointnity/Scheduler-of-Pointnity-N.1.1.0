@@ -28,3 +28,4 @@ public:
     // string GetGroupName(const JobQueueNum& queue_num);
     
     // Add Job -> Queue
+    bool AddJobToWaitQueue(const JobPtr& job, bool push_front = false);
