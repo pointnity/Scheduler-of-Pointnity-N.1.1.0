@@ -40,3 +40,4 @@ public:
     JobPtr GetNavigatingJob();
 
     // get Waiting Job Number
+    int32_t GetWaitingJobNum();
