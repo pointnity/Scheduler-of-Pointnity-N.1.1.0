@@ -13,3 +13,4 @@
 #include <boost/shared_ptr.hpp>
 #include "common/clynn/singleton.h"
 #include "common/clynn/rwlock.h"
+#include "proxy/JobsManager/gen-cpp/JobsManager.h"
