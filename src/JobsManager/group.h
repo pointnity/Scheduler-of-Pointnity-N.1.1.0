@@ -22,3 +22,4 @@ using clynn::RWLock;
 using std::string;
 
 class Group {
+public:
