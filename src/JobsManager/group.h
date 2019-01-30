@@ -108,3 +108,6 @@ private:
     double m_relative_ratio;
  
     RWLock m_quota_lock;
+};
+
+typedef shared_ptr<Group> GroupPtr;
