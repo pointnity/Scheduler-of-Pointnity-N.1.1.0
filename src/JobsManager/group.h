@@ -34,3 +34,5 @@ public:
 
     // Select Job From Queue -> Navigating Job
     bool SelectJobToNavigatingJob();
+    bool MoveJobToNavigatingJobByQueueNum(const JobQueueNum& num);
+
