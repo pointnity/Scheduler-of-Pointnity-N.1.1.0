@@ -38,3 +38,5 @@ public:
 
     // get Navigating job
     JobPtr GetNavigatingJob();
+
+    // get Waiting Job Number
