@@ -33,3 +33,4 @@ public:
     bool AddJobToQueueByQueueNum(const JobPtr& job, const JobQueueNum& num, bool push_front);
 
     // Select Job From Queue -> Navigating Job
+    bool SelectJobToNavigatingJob();
