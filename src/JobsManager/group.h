@@ -66,3 +66,4 @@ public:
     void SetDominantPct();
     bool IsOverLimit();
     // calculate relative ratio
+    void SetRelativeRatio();
