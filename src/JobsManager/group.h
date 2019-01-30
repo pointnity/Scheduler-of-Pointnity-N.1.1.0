@@ -64,3 +64,4 @@ public:
     void InitQuotaPct(const int32_t total_quota);
     // set usage(percent) of dominant resource
     void SetDominantPct();
+    bool IsOverLimit();
