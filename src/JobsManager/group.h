@@ -29,3 +29,4 @@ public:
     
     // Add Job -> Queue
     bool AddJobToWaitQueue(const JobPtr& job, bool push_front = false);
+    bool GetNewJobWaitQueueNum(const JobPtr& job, JobQueueNum& job_queue_num);
