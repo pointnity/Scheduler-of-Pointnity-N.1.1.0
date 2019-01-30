@@ -45,3 +45,4 @@ public:
     GroupStateInfo GetGroupStateInfo();
 
     // Move navigating job -> queue
+    bool MoveNavigatingJobToWaitQueue(bool push_front = false);
