@@ -37,3 +37,4 @@ public:
     bool MoveJobToNavigatingJobByQueueNum(const JobQueueNum& num);
 
     // get Navigating job
+    JobPtr GetNavigatingJob();
