@@ -16,3 +16,4 @@
 #include "proxy/JobsManager/gen-cpp/JobsManager.h"
 #include "JobsManager/job.h"
 
+using boost::shared_ptr;
