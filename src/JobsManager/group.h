@@ -50,3 +50,4 @@ public:
     bool MoveJobToRunQueue(const JobPtr& job_ptr);
     
     // others
+    bool CheckJobQueueIsEmptyByQueueNum(const JobQueueNum& num);
