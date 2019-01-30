@@ -51,3 +51,4 @@ public:
     
     // others
     bool CheckJobQueueIsEmptyByQueueNum(const JobQueueNum& num);
+    void EmptyNavigatingJob();
