@@ -60,3 +60,4 @@ public:
     // init quota with shares format
     void InitQuotaShares(const int32_t quota, const double max_limit);
     int32_t GetQuotaShares();
+    // init quota with percent format
