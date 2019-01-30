@@ -23,3 +23,4 @@ using std::string;
 
 class Group {
 public:
+    Group(const string& name);
