@@ -27,3 +27,4 @@ public:
     string GetGroupName();
     // string GetGroupName(const JobQueueNum& queue_num);
     
+    // Add Job -> Queue
