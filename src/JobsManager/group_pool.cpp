@@ -30,3 +30,4 @@ struct sGroup {
 };
 
 // TODO just for test
+void GroupPool::PrintAll() {
