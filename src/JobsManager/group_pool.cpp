@@ -72,3 +72,7 @@ bool GroupPool::InitGroups(const string& conf) {
     if (m_privilege_factor <= 1) {
          LOG4CPLUS_ERROR(logger, "Privilege_factor is illegal.");
          m_privilege_factor = 3;
+    }
+
+    // traversal(bian li) all groups
+    vector<sGroup> tmp_groups;
