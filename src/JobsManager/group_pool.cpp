@@ -57,3 +57,5 @@ bool GroupPool::InitGroups(const string& conf) {
     }
  
     // xml_root groups
+    xml_node<> *root_node = doc.first_node("groups");
+    if (!root_node) {
