@@ -76,3 +76,5 @@ bool GroupPool::InitGroups(const string& conf) {
 
     // traversal(bian li) all groups
     vector<sGroup> tmp_groups;
+    for (xml_node<char> *group_node = root_node->first_node("group");
+        group_node != NULL;  
