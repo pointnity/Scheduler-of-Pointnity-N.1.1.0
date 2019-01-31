@@ -11,3 +11,4 @@
 
 #include "common/rapidxml/rapidxml.hpp"
 #include "common/rapidxml/rapidxml_utils.hpp"
+#include "common/rapidxml/rapidxml_print.hpp"
