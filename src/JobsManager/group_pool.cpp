@@ -67,3 +67,6 @@ bool GroupPool::InitGroups(const string& conf) {
     if (!factor_node) {
         LOG4CPLUS_ERROR(logger, "Failed to parse group privilege_factor ");
         return false;
+    }
+    m_privilege_factor = atof(factor_node->value()); // illegal -> 0
+    if (m_privilege_factor <= 1) {
