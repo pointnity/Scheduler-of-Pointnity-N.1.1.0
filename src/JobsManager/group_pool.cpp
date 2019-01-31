@@ -15,3 +15,4 @@
 #include "JobsManager/group_pool.h"
 
 using std::vector;
+using log4cplus::Logger;
