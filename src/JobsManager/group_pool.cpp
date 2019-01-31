@@ -46,3 +46,4 @@ bool GroupPool::InitGroups(const string& conf) {
     // init xml file
     xml_document<> doc;
     try {
+        file<> fdoc  (conf.c_str());
