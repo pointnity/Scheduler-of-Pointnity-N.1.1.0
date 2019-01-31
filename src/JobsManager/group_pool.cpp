@@ -70,3 +70,5 @@ bool GroupPool::InitGroups(const string& conf) {
     }
     m_privilege_factor = atof(factor_node->value()); // illegal -> 0
     if (m_privilege_factor <= 1) {
+         LOG4CPLUS_ERROR(logger, "Privilege_factor is illegal.");
+         m_privilege_factor = 3;
