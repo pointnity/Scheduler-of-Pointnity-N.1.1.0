@@ -10,3 +10,4 @@
 #include <log4cplus/loggingmacros.h>
 
 #include "common/rapidxml/rapidxml.hpp"
+#include "common/rapidxml/rapidxml_utils.hpp"
