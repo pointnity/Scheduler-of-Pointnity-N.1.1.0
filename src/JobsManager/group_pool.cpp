@@ -27,3 +27,6 @@ struct sGroup {
     string name;
     int32_t quota;
     double maxlimit; 
+};
+
+// TODO just for test
