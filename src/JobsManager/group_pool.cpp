@@ -47,3 +47,4 @@ bool GroupPool::InitGroups(const string& conf) {
     xml_document<> doc;
     try {
         file<> fdoc  (conf.c_str());
+        doc.parse<0>(fdoc.data());
