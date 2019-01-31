@@ -53,3 +53,5 @@ bool GroupPool::InitGroups(const string& conf) {
         return false;
     } catch (std::runtime_error& ex) {
         LOG4CPLUS_ERROR(logger, "task xml error:" << ex.what() << ".");
+        return false;
+    }
