@@ -39,3 +39,5 @@ void GroupPool::PrintAll() {
          it != m_group_map.end(); ++it) {
         (it->second)->Print();
     }
+    printf("********************************\n");
+}
