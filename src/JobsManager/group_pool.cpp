@@ -52,3 +52,4 @@ bool GroupPool::InitGroups(const string& conf) {
         LOG4CPLUS_ERROR(logger, "synex error in " << ex.what() << ".");
         return false;
     } catch (std::runtime_error& ex) {
+        LOG4CPLUS_ERROR(logger, "task xml error:" << ex.what() << ".");
