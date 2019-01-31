@@ -78,3 +78,5 @@ bool GroupPool::InitGroups(const string& conf) {
     vector<sGroup> tmp_groups;
     for (xml_node<char> *group_node = root_node->first_node("group");
         group_node != NULL;  
+        group_node = group_node->next_sibling())  
+    { 
