@@ -48,3 +48,4 @@ bool GroupPool::InitGroups(const string& conf) {
     try {
         file<> fdoc  (conf.c_str());
         doc.parse<0>(fdoc.data());
+    } catch (parse_error& ex) {
