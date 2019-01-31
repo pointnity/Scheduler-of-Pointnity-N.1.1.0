@@ -35,3 +35,5 @@ void GroupPool::PrintAll() {
     printf("job_group_pool.cpp\n");
     printf("************ Groups ************\n");
     printf("privilege factor: %f\n", m_privilege_factor);
+    for (map<string, GroupPtr>::iterator it = m_group_map.begin();
+         it != m_group_map.end(); ++it) {
