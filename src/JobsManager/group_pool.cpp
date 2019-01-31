@@ -61,3 +61,7 @@ bool GroupPool::InitGroups(const string& conf) {
     if (!root_node) {
         LOG4CPLUS_ERROR(logger, "no groups specified.");
         return false;
+    }
+
+    xml_node<char> *factor_node = root_node->first_node("privilege_factor");
+    if (!factor_node) {
