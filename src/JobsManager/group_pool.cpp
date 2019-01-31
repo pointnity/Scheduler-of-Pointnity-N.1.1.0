@@ -5,3 +5,5 @@
  Version:  0.1
  Description: Pool of Groups
 *********************************/
+
+#include <log4cplus/logger.h>
