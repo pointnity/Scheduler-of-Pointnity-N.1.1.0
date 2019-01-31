@@ -34,3 +34,4 @@ void GroupPool::PrintAll() {
     ReadLocker locker(m_map_lock);
     printf("job_group_pool.cpp\n");
     printf("************ Groups ************\n");
+    printf("privilege factor: %f\n", m_privilege_factor);
