@@ -55,3 +55,5 @@ bool GroupPool::InitGroups(const string& conf) {
         LOG4CPLUS_ERROR(logger, "task xml error:" << ex.what() << ".");
         return false;
     }
+ 
+    // xml_root groups
