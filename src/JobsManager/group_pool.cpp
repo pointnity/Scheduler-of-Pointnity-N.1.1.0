@@ -23,5 +23,5 @@ using namespace rapidxml;
 static Logger logger = Logger::getInstance("JobsManager");
 
 // In the Rapidxml process, you cannot operate to store other pointers, although they do not appear to be connected.To avoid strange bugs,
-
 struct sGroup {
+    string name;
