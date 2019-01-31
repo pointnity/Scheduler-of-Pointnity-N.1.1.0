@@ -65,3 +65,5 @@ bool GroupPool::InitGroups(const string& conf) {
 
     xml_node<char> *factor_node = root_node->first_node("privilege_factor");
     if (!factor_node) {
+        LOG4CPLUS_ERROR(logger, "Failed to parse group privilege_factor ");
+        return false;
