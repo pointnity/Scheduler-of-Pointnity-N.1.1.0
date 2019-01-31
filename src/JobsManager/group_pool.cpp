@@ -26,3 +26,4 @@ static Logger logger = Logger::getInstance("JobsManager");
 struct sGroup {
     string name;
     int32_t quota;
+    double maxlimit; 
