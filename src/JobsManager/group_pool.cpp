@@ -43,3 +43,4 @@ void GroupPool::PrintAll() {
 }
 
 bool GroupPool::InitGroups(const string& conf) {
+    // init xml file
