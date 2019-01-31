@@ -31,3 +31,4 @@ struct sGroup {
 
 // TODO just for test
 void GroupPool::PrintAll() {
+    ReadLocker locker(m_map_lock);
