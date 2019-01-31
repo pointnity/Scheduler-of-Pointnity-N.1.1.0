@@ -41,3 +41,5 @@ void GroupPool::PrintAll() {
     }
     printf("********************************\n");
 }
+
+bool GroupPool::InitGroups(const string& conf) {
