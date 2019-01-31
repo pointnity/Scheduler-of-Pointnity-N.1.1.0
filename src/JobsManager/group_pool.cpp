@@ -14,3 +14,4 @@
 #include "common/rapidxml/rapidxml_print.hpp"
 #include "JobsManager/group_pool.h"
 
+using std::vector;
