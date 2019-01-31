@@ -37,3 +37,5 @@ void GroupPool::PrintAll() {
     printf("privilege factor: %f\n", m_privilege_factor);
     for (map<string, GroupPtr>::iterator it = m_group_map.begin();
          it != m_group_map.end(); ++it) {
+        (it->second)->Print();
+    }
