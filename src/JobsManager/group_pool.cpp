@@ -49,3 +49,5 @@ bool GroupPool::InitGroups(const string& conf) {
         file<> fdoc  (conf.c_str());
         doc.parse<0>(fdoc.data());
     } catch (parse_error& ex) {
+        LOG4CPLUS_ERROR(logger, "synex error in " << ex.what() << ".");
+        return false;
