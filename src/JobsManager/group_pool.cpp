@@ -19,3 +19,6 @@ using log4cplus::Logger;
 using clynn::ReadLocker;
 using clynn::WriteLocker;
 using namespace rapidxml;
+
+static Logger logger = Logger::getInstance("JobsManager");
+
