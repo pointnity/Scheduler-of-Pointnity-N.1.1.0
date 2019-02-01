@@ -8,3 +8,5 @@
 
 #ifndef JOBS_MANAGER_GROUP_POOL_H
 #define JOBS_MANAGER_GROUP_POOL_H
+
+#include <map>
