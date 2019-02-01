@@ -78,3 +78,4 @@ private:
     bool MoveJobToNavigatingJobFromGroup(const string& name);
 
     // move navigating job -> queue
+    bool MoveNavigatingJobToPrivilegeQueue(bool push_front = false);
