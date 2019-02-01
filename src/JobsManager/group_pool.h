@@ -54,3 +54,5 @@ public:
     // Move navigating job -> queue
     bool MoveNavigatingJobToWaitQueue(bool push_front = false);
     bool MoveNavigatingJobToRunQueue();
+
+    JobPtr GetNavigatingJob();
