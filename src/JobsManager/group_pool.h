@@ -22,3 +22,5 @@ class GroupPool {
 public:
     // TODO print all for test
     void PrintAll();
+
+    // quota
