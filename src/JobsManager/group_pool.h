@@ -36,3 +36,4 @@ public:
     bool InsertIfAbsent(const GroupPtr& ptr);
 
     // @brief: delete a group from map by name 
+    void Delete(const string& name);
