@@ -19,3 +19,4 @@ using std::map;
 using clynn::RWLock;
 
 class GroupPool {
+public:
