@@ -62,3 +62,4 @@ public:
     GroupStateInfo GetGroupStateInfo(const string& group);
 
 private:
+    // @brief: find a group in map
