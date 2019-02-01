@@ -45,3 +45,5 @@ public:
 
     // select job to navigating job
     bool SelectJobToNavigatingJob();
+
+    // Set used resource
