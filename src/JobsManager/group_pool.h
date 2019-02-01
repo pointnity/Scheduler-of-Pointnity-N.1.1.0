@@ -10,3 +10,5 @@
 #define JOBS_MANAGER_GROUP_POOL_H
 
 #include <map>
+
+#include "common/clynn/rwlock.h"
