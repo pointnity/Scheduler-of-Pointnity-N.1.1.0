@@ -56,3 +56,4 @@ public:
     bool MoveNavigatingJobToRunQueue();
 
     JobPtr GetNavigatingJob();
+    void EmptyNavigatingJob();
