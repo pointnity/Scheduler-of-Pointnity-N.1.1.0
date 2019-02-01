@@ -33,3 +33,4 @@ public:
     bool IsExistByName(const string& name);
 
     // @brief: insert a group in map
+    bool InsertIfAbsent(const GroupPtr& ptr);
