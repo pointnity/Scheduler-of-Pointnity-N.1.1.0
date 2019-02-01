@@ -42,3 +42,5 @@ public:
 
     // add job to wait queue
     bool AddJobToWaitQueue(const JobPtr& job);
+
+    // select job to navigating job
