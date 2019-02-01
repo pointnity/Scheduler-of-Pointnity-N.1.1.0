@@ -25,3 +25,5 @@ public:
 
     // quota
     bool InitGroups(const string& conf);
+
+    void SetTotalQuotaShares();
