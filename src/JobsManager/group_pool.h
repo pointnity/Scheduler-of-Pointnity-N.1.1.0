@@ -67,3 +67,5 @@ private:
     bool FindByName(const string& name);
     // @brief: insert a group in map
     void Insert(const GroupPtr& ptr);
+
+private:
