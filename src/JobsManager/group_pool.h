@@ -57,3 +57,6 @@ public:
 
     JobPtr GetNavigatingJob();
     void EmptyNavigatingJob();
+
+    int32_t GetWaitingJobNumByGroup(const string& group);
+    GroupStateInfo GetGroupStateInfo(const string& group);
