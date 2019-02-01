@@ -85,3 +85,5 @@ private:
     static bool GroupCompare(const GroupPtr first, const GroupPtr second) {
         return first->GetRelativeRatio() <= second->GetRelativeRatio();
     }
+
+private:
