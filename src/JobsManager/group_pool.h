@@ -31,3 +31,5 @@ public:
     void UpdateGroupsQuotaPct();
 
     bool IsExistByName(const string& name);
+
+    // @brief: insert a group in map
