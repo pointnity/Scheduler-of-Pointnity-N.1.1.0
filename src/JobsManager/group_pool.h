@@ -65,3 +65,4 @@ private:
     // @brief: find a group in map
     bool Find(const GroupPtr& ptr);
     bool FindByName(const string& name);
+    // @brief: insert a group in map
