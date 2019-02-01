@@ -90,3 +90,17 @@ private:
     // <group_name, group ptr>
     map<string, GroupPtr> m_group_map;
     int32_t m_total_quota;
+    double m_privilege_factor;
+    list<JobPtr> m_privilege_wait_job_queue;
+    list<GroupPtr> m_group_sort_list;
+    JobPtr m_navigating_job;
+
+    RWLock m_map_lock;
+    RWLock m_privilege_job_queue_lock;
+    RWLock m_group_sort_lock;
+    RWLock m_navigating_job_lock;
+};
+
+typedef Singleton<GroupPool> GroupPoolI;
+
+#endif
