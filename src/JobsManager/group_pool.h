@@ -60,3 +60,5 @@ public:
 
     int32_t GetWaitingJobNumByGroup(const string& group);
     GroupStateInfo GetGroupStateInfo(const string& group);
+
+private:
