@@ -49,3 +49,4 @@ public:
     // Set used resource
     bool AddUsedResource();
     bool AddUsedResource(const TaskPtr& task_ptr);
+    bool ReleaseUsedResource(const TaskPtr& task_ptr);
