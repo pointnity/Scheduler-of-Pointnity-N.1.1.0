@@ -82,3 +82,6 @@ private:
     bool MoveNavigatingJobToGroupWaitQueue(const string& name, bool push_front = false);
 
     // sort 
+    static bool GroupCompare(const GroupPtr first, const GroupPtr second) {
+        return first->GetRelativeRatio() <= second->GetRelativeRatio();
+    }
