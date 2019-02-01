@@ -37,3 +37,5 @@ public:
 
     // @brief: delete a group from map by name 
     void Delete(const string& name);
+
+    GroupPtr GetGroupPtr(const string& name);
