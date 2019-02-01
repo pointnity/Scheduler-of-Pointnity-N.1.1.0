@@ -29,3 +29,5 @@ public:
     void SetTotalQuotaShares();
 
     void UpdateGroupsQuotaPct();
+
+    bool IsExistByName(const string& name);
