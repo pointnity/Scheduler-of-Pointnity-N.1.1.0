@@ -41,3 +41,4 @@ public:
     GroupPtr GetGroupPtr(const string& name);
 
     // add job to wait queue
+    bool AddJobToWaitQueue(const JobPtr& job);
