@@ -87,3 +87,6 @@ private:
     }
 
 private:
+    // <group_name, group ptr>
+    map<string, GroupPtr> m_group_map;
+    int32_t m_total_quota;
