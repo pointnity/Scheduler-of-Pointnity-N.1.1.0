@@ -52,3 +52,4 @@ public:
     bool ReleaseUsedResource(const TaskPtr& task_ptr);
 
     // Move navigating job -> queue
+    bool MoveNavigatingJobToWaitQueue(bool push_front = false);
