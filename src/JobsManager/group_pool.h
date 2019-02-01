@@ -34,3 +34,5 @@ public:
 
     // @brief: insert a group in map
     bool InsertIfAbsent(const GroupPtr& ptr);
+
+    // @brief: delete a group from map by name 
