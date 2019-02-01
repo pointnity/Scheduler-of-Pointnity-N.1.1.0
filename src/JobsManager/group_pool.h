@@ -47,3 +47,4 @@ public:
     bool SelectJobToNavigatingJob();
 
     // Set used resource
+    bool AddUsedResource();
