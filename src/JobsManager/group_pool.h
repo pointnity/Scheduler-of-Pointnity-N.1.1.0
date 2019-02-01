@@ -69,3 +69,4 @@ private:
     void Insert(const GroupPtr& ptr);
 
 private:
+    // add job to wait queue
