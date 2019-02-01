@@ -74,3 +74,7 @@ private:
     bool AddJobToWaitQueueByGroup(const JobPtr& job);
 
     // select job to navigating job
+    bool MoveJobToNavigatingJobFromPrivilege();
+    bool MoveJobToNavigatingJobFromGroup(const string& name);
+
+    // move navigating job -> queue
