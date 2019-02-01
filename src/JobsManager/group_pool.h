@@ -72,3 +72,5 @@ private:
     // add job to wait queue
     bool AddJobToPrivilegeQueue(const JobPtr& job, bool push_front = false);
     bool AddJobToWaitQueueByGroup(const JobPtr& job);
+
+    // select job to navigating job
