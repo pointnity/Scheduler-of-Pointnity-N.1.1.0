@@ -39,3 +39,5 @@ public:
     void Delete(const string& name);
 
     GroupPtr GetGroupPtr(const string& name);
+
+    // add job to wait queue
