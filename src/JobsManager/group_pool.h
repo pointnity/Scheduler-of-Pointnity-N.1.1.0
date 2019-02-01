@@ -15,3 +15,4 @@
 #include "common/clynn/singleton.h"
 #include "JobsManager/group.h"
 
+using std::map;
