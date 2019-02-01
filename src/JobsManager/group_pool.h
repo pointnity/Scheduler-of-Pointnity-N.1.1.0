@@ -16,3 +16,4 @@
 #include "JobsManager/group.h"
 
 using std::map;
+using clynn::RWLock;
