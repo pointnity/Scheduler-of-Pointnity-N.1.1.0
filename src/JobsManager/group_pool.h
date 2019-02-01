@@ -63,3 +63,4 @@ public:
 
 private:
     // @brief: find a group in map
+    bool Find(const GroupPtr& ptr);
