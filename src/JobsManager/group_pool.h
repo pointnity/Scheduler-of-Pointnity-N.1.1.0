@@ -13,3 +13,5 @@
 
 #include "common/clynn/rwlock.h"
 #include "common/clynn/singleton.h"
+#include "JobsManager/group.h"
+
