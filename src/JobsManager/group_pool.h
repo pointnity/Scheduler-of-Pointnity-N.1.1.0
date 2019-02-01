@@ -79,3 +79,6 @@ private:
 
     // move navigating job -> queue
     bool MoveNavigatingJobToPrivilegeQueue(bool push_front = false);
+    bool MoveNavigatingJobToGroupWaitQueue(const string& name, bool push_front = false);
+
+    // sort 
