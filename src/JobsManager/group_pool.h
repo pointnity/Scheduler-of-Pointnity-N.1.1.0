@@ -24,3 +24,4 @@ public:
     void PrintAll();
 
     // quota
+    bool InitGroups(const string& conf);
