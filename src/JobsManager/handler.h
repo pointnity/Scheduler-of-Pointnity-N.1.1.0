@@ -30,3 +30,4 @@ public:
 private:
     // BlockQueue of EventPtr
     EventQueue m_event_queue;
+    clynn::Thread* m_work_thread;
