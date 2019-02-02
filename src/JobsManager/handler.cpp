@@ -11,3 +11,4 @@
 using std::tr1::bind;
 
 Handler::~Handler() {
+    delete m_work_thread;
