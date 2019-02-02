@@ -26,3 +26,5 @@ public:
 
     void Handle();
     void PushBack(const EventPtr& ptr);
+
+private:
