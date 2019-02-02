@@ -19,3 +19,6 @@ void Handler::Start() {
     Thread::ThreadFunc func = bind(&Handler::Handle, this);
     m_work_thread = new Thread(func);
     m_work_thread->Start();
+}
+
+void Handler::Handle() {
