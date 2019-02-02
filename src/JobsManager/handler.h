@@ -29,3 +29,4 @@ public:
 
 private:
     // BlockQueue of EventPtr
+    EventQueue m_event_queue;
