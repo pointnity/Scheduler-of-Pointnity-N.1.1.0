@@ -30,3 +30,5 @@ void Handler::Handle() {
         event->Handle();
     }
 }
+
+void Handler::PushBack(const EventPtr& ptr) {
