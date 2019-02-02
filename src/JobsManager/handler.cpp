@@ -9,3 +9,5 @@
 #include "JobsManager/handler.h"
 
 using std::tr1::bind;
+
+Handler::~Handler() {
