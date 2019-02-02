@@ -27,3 +27,5 @@ void Handler::Handle() {
         EventPtr event;      
         m_event_queue.PopFront(&event);
         // virtual func
+        event->Handle();
+    }
