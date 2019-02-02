@@ -17,3 +17,4 @@ Handler::~Handler() {
 // start the thread
 void Handler::Start() {
     Thread::ThreadFunc func = bind(&Handler::Handle, this);
+    m_work_thread = new Thread(func);
