@@ -50,3 +50,5 @@ bool ImageManager::UpdateImage(const string& user, const string& name, const int
             } catch (TException &tx) {
                  LOG4CPLUS_ERROR(logger, "can't update image on executor:"+ *it);
                  continue;
+             }
+    }
