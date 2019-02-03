@@ -5,3 +5,4 @@
  Version:  0.1
  Description: image maneger
 *********************************/
+#include <log4cplus/logger.h>
