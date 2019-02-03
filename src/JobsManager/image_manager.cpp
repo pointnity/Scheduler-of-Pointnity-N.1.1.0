@@ -36,3 +36,4 @@ bool ImageManager::UpdateImage(const string& user, const string& name, const int
     	  }
     if(executor_endpoint_list.size() == 0) {
 	LOG4CPLUS_INFO(logger, "no machine need update the image");
+        return true;
