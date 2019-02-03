@@ -25,3 +25,4 @@ static Logger logger = Logger::getInstance("JobsManager");
 
 bool ImageManager::UpdateImage(const string& user, const string& name, const int32_t size, bool is_update_all) {
     vector<string> executor_endpoint_list;
+    //test
