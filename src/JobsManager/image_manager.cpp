@@ -28,3 +28,5 @@ bool ImageManager::UpdateImage(const string& user, const string& name, const int
     //test
     //executor_endpoint.push_back("192.168.11.51:9997");
     try {
+    	Proxy<ResourceSchedulerClient> proxy = Rpc<ResourceSchedulerClient, ResourceSchedulerClient>::GetProxy(FLAGS_resource_scheduler_endpoint);
+    	proxy().GetMachineListByImageInfo(executor_endpoint_list, user, name, size, is_update_all);
