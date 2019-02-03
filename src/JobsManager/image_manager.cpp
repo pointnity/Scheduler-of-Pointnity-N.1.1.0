@@ -34,3 +34,4 @@ bool ImageManager::UpdateImage(const string& user, const string& name, const int
         	LOG4CPLUS_ERROR(logger, "can't get machine by image info");
         	return false;
     	  }
+    if(executor_endpoint_list.size() == 0) {
