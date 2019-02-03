@@ -39,3 +39,6 @@ bool ImageManager::UpdateImage(const string& user, const string& name, const int
         return true;
 
     }
+
+    for(vector<string>::iterator it = executor_endpoint_list.begin(); it != executor_endpoint_list.end(); ++it) {
+        try {
