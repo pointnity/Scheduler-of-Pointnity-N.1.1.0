@@ -53,3 +53,4 @@ bool ImageManager::UpdateImage(const string& user, const string& name, const int
              }
     }
     return true;
+}
