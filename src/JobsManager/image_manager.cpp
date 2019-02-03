@@ -18,3 +18,4 @@
 
 DECLARE_string(image_path);
 DECLARE_string(resource_scheduler_endpoint);
+using log4cplus::Logger;
