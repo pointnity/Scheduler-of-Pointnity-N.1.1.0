@@ -31,3 +31,4 @@ bool ImageManager::UpdateImage(const string& user, const string& name, const int
     	Proxy<ResourceSchedulerClient> proxy = Rpc<ResourceSchedulerClient, ResourceSchedulerClient>::GetProxy(FLAGS_resource_scheduler_endpoint);
     	proxy().GetMachineListByImageInfo(executor_endpoint_list, user, name, size, is_update_all);
     	} catch (TException &tx) {
+        	LOG4CPLUS_ERROR(logger, "can't get machine by image info");
