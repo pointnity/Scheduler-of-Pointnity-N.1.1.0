@@ -11,3 +11,6 @@
 #include <iostream>
 #include <vector>
 #include <string>
+
+#include "JobsManager/image_manager.h"
+#include "common/clynn/rpc.h"
