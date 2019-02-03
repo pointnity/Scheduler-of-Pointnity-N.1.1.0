@@ -45,3 +45,4 @@ bool ImageManager::UpdateImage(const string& user, const string& name, const int
               Proxy<ExecutorClient> proxy = Rpc<ExecutorClient, ExecutorClient>::GetProxy(*it);
               if(!proxy().UpdateImage(user, name, size)) {
 		  LOG4CPLUS_ERROR(logger, "can't update image on executor:"+ *it);
+                  continue;
