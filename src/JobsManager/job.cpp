@@ -89,3 +89,5 @@ void Job::InitTasks(const list<TaskAdPtr>& task_ad_list) {
             TaskPtr task_ptr = NewTask();
             task_ptr->InitTaskInfo(*it, m_job_id, m_next_task_id, m_submit_time);
             m_next_task_id++;
+            m_task_list.push_back(task_ptr);
+    }
