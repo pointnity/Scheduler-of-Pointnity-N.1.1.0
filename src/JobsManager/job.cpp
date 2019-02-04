@@ -9,3 +9,4 @@ using clynn::WriteLocker;
 
 Job::Job() {
     m_next_task_id = 0;
+    m_job_id = 0;
