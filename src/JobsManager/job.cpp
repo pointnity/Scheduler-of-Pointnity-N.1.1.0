@@ -94,3 +94,11 @@ void Job::InitTasks(const list<TaskAdPtr>& task_ad_list) {
     m_task_num = task_ad_list.size();
     m_job_classad_ptr->InsertAttr(ATTR_TOTAL_TASKS, m_task_num);
 }
+
+void Job::InitTasks(const list<TaskAdPtr>& task_ad_list, const list<EdgePtr>& edge_list) {
+    WriteLocker locker(m_lock);
+    for (list<TaskAdPtr>::const_iterator it = task_ad_list.begin();
+         it != task_ad_list.end(); ++it) 
+    {
+            //TaskPtr task_ptr(new BatchTask());
+            TaskPtr task_ptr = NewTask();
