@@ -87,3 +87,5 @@ void Job::InitTasks(const list<TaskAdPtr>& task_ad_list) {
             //Make a press TASKG factory class TODO
             //TaskPtr task_ptr(new BatchTask());
             TaskPtr task_ptr = NewTask();
+            task_ptr->InitTaskInfo(*it, m_job_id, m_next_task_id, m_submit_time);
+            m_next_task_id++;
