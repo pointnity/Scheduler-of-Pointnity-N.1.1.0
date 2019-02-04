@@ -83,3 +83,4 @@ void Job::InitTasks(const list<TaskAdPtr>& task_ad_list) {
     for (list<TaskAdPtr>::const_iterator it = task_ad_list.begin();
          it != task_ad_list.end(); ++it)
     {
+            //This is a direct batchtask.
