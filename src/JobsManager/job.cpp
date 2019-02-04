@@ -54,3 +54,6 @@ void Job::SetState(int state) {
 int32_t Job::GetJobId(){
     return m_job_id;
 }
+
+double Job::GetNeedCpu() {
+    return m_need_cpu;
