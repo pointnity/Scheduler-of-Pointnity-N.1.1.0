@@ -17,3 +17,6 @@ Job::Job() {
 
 void Job::SetWaitTime() {
     m_wait_time = time(NULL);
+}
+
+void Job::SetRunTime() {
