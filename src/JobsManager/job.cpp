@@ -30,3 +30,5 @@ void Job::UpdateTimeByState(const TaskState& state){
         m_total_waiting_time += (time(NULL) - m_wait_time);
     }
 }
+
+string Job::GetGroupName() {
