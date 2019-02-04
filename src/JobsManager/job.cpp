@@ -49,3 +49,6 @@ int32_t Job::GetState() {
 
 void Job::SetState(int state) {
     m_state = state;
+}
+
+int32_t Job::GetJobId(){
