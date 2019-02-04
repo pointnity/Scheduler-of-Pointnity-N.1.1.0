@@ -61,3 +61,7 @@ double Job::GetNeedCpu() {
 
 int32_t Job::GetNeedMemory() {
     return m_need_memory;
+}
+
+void Job::Init(const ClassAdPtr& classad_ptr, bool constraints_among_tasks) {
+    WriteLocker locker(m_lock);
