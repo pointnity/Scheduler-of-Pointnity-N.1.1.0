@@ -57,3 +57,7 @@ int32_t Job::GetJobId(){
 
 double Job::GetNeedCpu() {
     return m_need_cpu;
+}
+
+int32_t Job::GetNeedMemory() {
+    return m_need_memory;
