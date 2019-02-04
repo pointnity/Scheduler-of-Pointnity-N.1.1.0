@@ -44,3 +44,5 @@ int32_t Job::GetSchedModel() {
 }
 
 int32_t Job::GetState() {
+    return m_state;
+}
