@@ -6,3 +6,5 @@
 
 using clynn::ReadLocker;
 using clynn::WriteLocker;
+
+Job::Job() {
