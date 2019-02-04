@@ -19,3 +19,5 @@ public:
     bool UpdateImage(const string& user, const string& name, const int32_t size, bool is_update_all);
 
 };
+
+typedef Singleton<ImageManager> ImageMgrI;
