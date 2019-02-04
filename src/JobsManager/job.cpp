@@ -84,3 +84,4 @@ void Job::InitTasks(const list<TaskAdPtr>& task_ad_list) {
          it != task_ad_list.end(); ++it)
     {
             //This is a direct batchtask.
+            //Make a press TASKG factory class TODO
