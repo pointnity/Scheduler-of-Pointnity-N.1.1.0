@@ -72,3 +72,7 @@ void Job::Init(const ClassAdPtr& classad_ptr, bool constraints_among_tasks) {
     m_job_classad_ptr->EvaluateAttrNumber(ATTR_PRIO, m_raw_priority);
     if (m_raw_priority > 3)
         m_raw_priority = 2;
+    m_job_classad_ptr->EvaluateAttrNumber(ATTR_SCHED_MODEL, m_sched_model);
+    m_job_classad_ptr->EvaluateAttrNumber(ATTR_NEED_CPU, m_need_cpu);
+    m_job_classad_ptr->EvaluateAttrNumber(ATTR_NEED_MEMORY, m_need_memory);
+    m_constraints_among_tasks = constraints_among_tasks;
