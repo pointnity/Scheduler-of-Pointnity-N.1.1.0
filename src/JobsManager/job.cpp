@@ -33,3 +33,6 @@ void Job::UpdateTimeByState(const TaskState& state){
 
 string Job::GetGroupName() {
     return m_group_name;
+}
+
+int32_t Job::GetRawPriority() {
