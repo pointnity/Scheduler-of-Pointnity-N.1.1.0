@@ -22,3 +22,6 @@ void Job::SetWaitTime() {
 void Job::SetRunTime() {
     m_run_time = time(NULL);
 }
+
+void Job::UpdateTimeByState(const TaskState& state){
+    if (state == TASK_RUNNING) {
