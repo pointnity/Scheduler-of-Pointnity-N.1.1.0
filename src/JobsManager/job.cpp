@@ -70,3 +70,5 @@ void Job::Init(const ClassAdPtr& classad_ptr, bool constraints_among_tasks) {
     m_job_classad_ptr->InsertAttr(ATTR_JOB_ID, m_job_id);
     m_job_classad_ptr->EvaluateAttrString(ATTR_GROUP, m_group_name);
     m_job_classad_ptr->EvaluateAttrNumber(ATTR_PRIO, m_raw_priority);
+    if (m_raw_priority > 3)
+        m_raw_priority = 2;
