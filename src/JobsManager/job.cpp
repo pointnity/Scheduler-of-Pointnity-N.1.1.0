@@ -5,3 +5,4 @@
 #include "common/classad/classad_complement.h"
 
 using clynn::ReadLocker;
+using clynn::WriteLocker;
