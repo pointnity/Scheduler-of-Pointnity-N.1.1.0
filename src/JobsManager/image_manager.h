@@ -10,3 +10,4 @@
 #define JOB_MANAGER_IMAGE_MANAGER_H
 
 #include <string>
+#include <boost/shared_ptr.hpp>
