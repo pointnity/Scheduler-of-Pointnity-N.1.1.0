@@ -12,3 +12,4 @@ Job::Job() {
     m_job_id = 0;
     m_raw_priority = JOB_RAW_PRIO_ORDINARY;
     m_total_running_time = 0; 
+    m_total_waiting_time = 0;
