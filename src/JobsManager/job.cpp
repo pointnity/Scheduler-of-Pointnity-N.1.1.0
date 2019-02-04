@@ -8,3 +8,4 @@ using clynn::ReadLocker;
 using clynn::WriteLocker;
 
 Job::Job() {
+    m_next_task_id = 0;
