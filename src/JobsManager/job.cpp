@@ -76,3 +76,10 @@ void Job::Init(const ClassAdPtr& classad_ptr, bool constraints_among_tasks) {
     m_job_classad_ptr->EvaluateAttrNumber(ATTR_NEED_CPU, m_need_cpu);
     m_job_classad_ptr->EvaluateAttrNumber(ATTR_NEED_MEMORY, m_need_memory);
     m_constraints_among_tasks = constraints_among_tasks;
+}
+
+void Job::InitTasks(const list<TaskAdPtr>& task_ad_list) {
+    WriteLocker locker(m_lock);
+    for (list<TaskAdPtr>::const_iterator it = task_ad_list.begin();
+         it != task_ad_list.end(); ++it)
+    {
