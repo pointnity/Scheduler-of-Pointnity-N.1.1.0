@@ -20,3 +20,5 @@ void Job::SetWaitTime() {
 }
 
 void Job::SetRunTime() {
+    m_run_time = time(NULL);
+}
