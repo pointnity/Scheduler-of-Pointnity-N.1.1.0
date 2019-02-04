@@ -91,3 +91,6 @@ void Job::InitTasks(const list<TaskAdPtr>& task_ad_list) {
             m_next_task_id++;
             m_task_list.push_back(task_ptr);
     }
+    m_task_num = task_ad_list.size();
+    m_job_classad_ptr->InsertAttr(ATTR_TOTAL_TASKS, m_task_num);
+}
