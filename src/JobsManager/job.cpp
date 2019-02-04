@@ -41,4 +41,6 @@ int32_t Job::GetRawPriority() {
 
 int32_t Job::GetSchedModel() {
     return m_sched_model;
+}
 
+int32_t Job::GetState() {
