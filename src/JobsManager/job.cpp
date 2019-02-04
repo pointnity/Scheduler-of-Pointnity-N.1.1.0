@@ -36,3 +36,6 @@ string Job::GetGroupName() {
 }
 
 int32_t Job::GetRawPriority() {
+    return m_raw_priority;
+}
+
