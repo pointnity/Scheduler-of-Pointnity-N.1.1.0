@@ -21,3 +21,5 @@ public:
 };
 
 typedef Singleton<ImageManager> ImageMgrI;
+
+#endif  
