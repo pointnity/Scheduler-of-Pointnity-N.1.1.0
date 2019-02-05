@@ -17,3 +17,4 @@
 #include "common/clynn/singleton.h"
 #include "common/clynn/rwlock.h"
 #include "JobsManager/task.h"
+#include "JobsManager/job_enum.h"
