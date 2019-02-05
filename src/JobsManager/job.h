@@ -23,3 +23,5 @@
 using std::string;
 using std::list;
 using std::vector;
+using std::map;
+using boost::shared_ptr;
