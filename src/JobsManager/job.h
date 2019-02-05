@@ -21,3 +21,4 @@
 #include "JobsManager/constraint_edge.h"
 
 using std::string;
+using std::list;
