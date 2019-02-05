@@ -95,3 +95,5 @@ protected:
     JobQueueNum m_job_queue_num;
    
     // constraints among tasks
+    bool m_constraints_among_tasks;
+    // <task_id, ip>   
