@@ -54,3 +54,4 @@ public:
     int32_t GetRunTaskNum();
     int32_t GetTaskNum();
     void CheckTasks();
+    void UpdateState();
