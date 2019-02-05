@@ -87,3 +87,5 @@ protected:
     int m_task_num;
     // int m_machine_num;
     string m_group_name;
+    int32_t m_sched_model;
+    int32_t m_raw_priority;
