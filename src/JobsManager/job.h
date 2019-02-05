@@ -10,3 +10,5 @@
 #else
 #include <cstdatomic> // for centos
 #endif
+
+#include <boost/shared_ptr.hpp>
