@@ -105,3 +105,4 @@ typedef shared_ptr<Job> JobPtr;
 // Because it is a singleton pattern, the following two variables are in fact a blocking queue, although the names are different.
 // HistoryJobList The new implementation is written in Job_map.H, becomes a member variable
 typedef Singleton<BlockQueue<JobPtr> > NewJobList;
+// BlockQueue<JobPtr> NewJobList;Wrong return multi definition of ' newjoblist '
