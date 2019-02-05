@@ -69,3 +69,5 @@ public:
 
     // constraints among tasks
     string ReadMap(const int32_t task_id);
+    list<string> ReadMapAndGetSoftList();
+    list<string> ReadMapAndGetSoftList(int32_t task_id);
