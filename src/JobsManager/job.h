@@ -51,3 +51,6 @@ public:
     double GetNeedCpu();
     int32_t GetNeedMemory(); 
     TaskPtr GetTaskPtr(int32_t task_id);
+    int32_t GetRunTaskNum();
+    int32_t GetTaskNum();
+    void CheckTasks();
