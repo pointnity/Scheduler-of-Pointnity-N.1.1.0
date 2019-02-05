@@ -74,3 +74,5 @@ public:
     void WriteMap(const int32_t task_id, const string& ip);
 
 protected:
+    atomic_int m_next_task_id;
+    atomic_int m_state;
