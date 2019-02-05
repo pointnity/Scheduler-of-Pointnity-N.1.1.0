@@ -16,3 +16,4 @@
 #include "common/clynn/block_queue.h"
 #include "common/clynn/singleton.h"
 #include "common/clynn/rwlock.h"
+#include "JobsManager/task.h"
