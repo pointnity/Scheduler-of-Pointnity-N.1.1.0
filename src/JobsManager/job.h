@@ -29,3 +29,4 @@ using clynn::BlockQueue;
 using clynn::RWLock;
 using std::atomic_int;
 
+class Job {
