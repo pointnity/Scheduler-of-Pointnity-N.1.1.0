@@ -76,3 +76,6 @@ public:
 protected:
     atomic_int m_next_task_id;
     atomic_int m_state;
+    ClassAdPtr m_job_classad_ptr;
+    list<TaskPtr> m_task_list;
+    time_t m_submit_time;
