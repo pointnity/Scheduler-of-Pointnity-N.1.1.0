@@ -102,3 +102,4 @@ protected:
 };
 
 typedef shared_ptr<Job> JobPtr;
+// Because it is a singleton pattern, the following two variables are in fact a blocking queue, although the names are different.
