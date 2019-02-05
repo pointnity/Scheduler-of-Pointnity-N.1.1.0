@@ -25,3 +25,5 @@ using std::list;
 using std::vector;
 using std::map;
 using boost::shared_ptr;
+using clynn::BlockQueue;
+using clynn::RWLock;
