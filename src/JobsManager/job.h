@@ -46,3 +46,5 @@ public:
     int32_t GetRawPriority();
     int32_t GetSchedModel();
     int32_t GetState(); 
+    void SetState(int32_t state);
+    int32_t GetJobId();
