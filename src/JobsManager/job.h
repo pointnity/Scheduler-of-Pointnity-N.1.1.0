@@ -32,3 +32,4 @@ using std::atomic_int;
 class Job {
 public:
     Job();
+    void Init(const ClassAdPtr& classad, bool constraints_among_tasks = false);
