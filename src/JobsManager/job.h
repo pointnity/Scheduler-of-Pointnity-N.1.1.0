@@ -83,3 +83,4 @@ protected:
     time_t m_run_time;
     time_t m_total_running_time;
     time_t m_total_waiting_time;
+    int m_job_id;
