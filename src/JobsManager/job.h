@@ -86,3 +86,4 @@ protected:
     int m_job_id;
     int m_task_num;
     // int m_machine_num;
+    string m_group_name;
