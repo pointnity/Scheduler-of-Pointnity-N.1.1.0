@@ -99,3 +99,6 @@ protected:
     // <task_id, ip>   
     map<int32_t, string> m_id_to_ip_map;
     RWLock m_map_lock;
+};
+
+typedef shared_ptr<Job> JobPtr;
