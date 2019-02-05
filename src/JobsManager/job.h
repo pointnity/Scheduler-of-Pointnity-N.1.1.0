@@ -55,3 +55,6 @@ public:
     int32_t GetTaskNum();
     void CheckTasks();
     void UpdateState();
+
+    //is a similar mechanism implemented?
+    JobQueueNum GetJobQueueNum();
