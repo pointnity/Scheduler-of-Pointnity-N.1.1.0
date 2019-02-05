@@ -39,3 +39,6 @@ public:
     void SetRunTime();
     void UpdateTimeByState(const TaskState& state);
     virtual TaskPtr NewTask() const = 0;
+    virtual bool HaveWaitingTasks() = 0;    
+    virtual bool IsScheduling() = 0;
+    virtual bool IsRunning() = 0;
