@@ -62,3 +62,6 @@ public:
     list<TaskPtr> GetTaskList();
   
     bool GetConstraintsAmongTasks();
+
+    void GetTaskStateInfo(vector<TaskStateInfo>& task_state_info_list);
+    // test & TODO
