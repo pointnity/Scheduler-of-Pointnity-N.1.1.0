@@ -106,3 +106,6 @@ typedef shared_ptr<Job> JobPtr;
 // HistoryJobList The new implementation is written in Job_map.H, becomes a member variable
 typedef Singleton<BlockQueue<JobPtr> > NewJobList;
 // BlockQueue<JobPtr> NewJobList;Wrong return multi definition of ' newjoblist '
+// typedef Singleton<BlockQueue<JobPtr> > HistoryJobList;
+
+#endif
