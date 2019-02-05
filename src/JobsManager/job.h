@@ -89,3 +89,4 @@ protected:
     string m_group_name;
     int32_t m_sched_model;
     int32_t m_raw_priority;
+    double m_need_cpu;
