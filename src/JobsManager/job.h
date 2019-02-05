@@ -48,3 +48,6 @@ public:
     int32_t GetState(); 
     void SetState(int32_t state);
     int32_t GetJobId();
+    double GetNeedCpu();
+    int32_t GetNeedMemory(); 
+    TaskPtr GetTaskPtr(int32_t task_id);
