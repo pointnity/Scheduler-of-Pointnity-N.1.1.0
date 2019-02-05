@@ -72,3 +72,5 @@ public:
     list<string> ReadMapAndGetSoftList();
     list<string> ReadMapAndGetSoftList(int32_t task_id);
     void WriteMap(const int32_t task_id, const string& ip);
+
+protected:
