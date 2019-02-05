@@ -84,3 +84,5 @@ protected:
     time_t m_total_running_time;
     time_t m_total_waiting_time;
     int m_job_id;
+    int m_task_num;
+    // int m_machine_num;
