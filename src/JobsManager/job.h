@@ -66,3 +66,6 @@ public:
     void GetTaskStateInfo(vector<TaskStateInfo>& task_state_info_list);
     // test & TODO
     void PrintAllTasks();
+
+    // constraints among tasks
+    string ReadMap(const int32_t task_id);
