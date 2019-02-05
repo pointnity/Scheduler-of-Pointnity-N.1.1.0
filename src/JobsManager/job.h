@@ -31,3 +31,4 @@ using std::atomic_int;
 
 class Job {
 public:
+    Job();
