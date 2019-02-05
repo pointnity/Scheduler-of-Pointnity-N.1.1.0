@@ -79,3 +79,5 @@ protected:
     ClassAdPtr m_job_classad_ptr;
     list<TaskPtr> m_task_list;
     time_t m_submit_time;
+    time_t m_wait_time;
+    time_t m_run_time;
