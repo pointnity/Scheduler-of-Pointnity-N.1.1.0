@@ -18,3 +18,5 @@
 #include "common/clynn/rwlock.h"
 #include "JobsManager/task.h"
 #include "JobsManager/job_enum.h"
+#include "JobsManager/constraint_edge.h"
+
