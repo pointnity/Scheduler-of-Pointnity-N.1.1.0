@@ -44,3 +44,5 @@ public:
     virtual bool IsRunning() = 0;
     string GetGroupName();
     int32_t GetRawPriority();
+    int32_t GetSchedModel();
+    int32_t GetState(); 
