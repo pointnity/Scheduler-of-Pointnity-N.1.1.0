@@ -2,3 +2,4 @@
 #define JOBS_MANAGER_JOB_H
 
 #include <string>
+#include <list>
