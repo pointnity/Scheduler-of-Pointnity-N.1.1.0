@@ -58,3 +58,5 @@ public:
 
     //is a similar mechanism implemented?
     JobQueueNum GetJobQueueNum();
+
+    list<TaskPtr> GetTaskList();
