@@ -33,3 +33,4 @@ class Job {
 public:
     Job();
     void Init(const ClassAdPtr& classad, bool constraints_among_tasks = false);
+    void InitTasks(const list<TaskAdPtr>& task_ad_list);
