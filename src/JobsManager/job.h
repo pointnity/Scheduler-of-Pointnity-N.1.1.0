@@ -81,3 +81,5 @@ protected:
     time_t m_submit_time;
     time_t m_wait_time;
     time_t m_run_time;
+    time_t m_total_running_time;
+    time_t m_total_waiting_time;
