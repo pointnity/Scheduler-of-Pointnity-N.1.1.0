@@ -27,3 +27,5 @@ using std::map;
 using boost::shared_ptr;
 using clynn::BlockQueue;
 using clynn::RWLock;
+using std::atomic_int;
+
