@@ -93,3 +93,5 @@ protected:
     int32_t m_need_memory;
     RWLock m_lock;
     JobQueueNum m_job_queue_num;
+   
+    // constraints among tasks
