@@ -65,3 +65,4 @@ public:
 
     void GetTaskStateInfo(vector<TaskStateInfo>& task_state_info_list);
     // test & TODO
+    void PrintAllTasks();
