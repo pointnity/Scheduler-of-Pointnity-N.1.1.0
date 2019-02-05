@@ -42,3 +42,5 @@ public:
     virtual bool HaveWaitingTasks() = 0;    
     virtual bool IsScheduling() = 0;
     virtual bool IsRunning() = 0;
+    string GetGroupName();
+    int32_t GetRawPriority();
