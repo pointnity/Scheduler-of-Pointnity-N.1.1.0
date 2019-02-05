@@ -37,3 +37,5 @@ public:
     void InitTasks(const list<TaskAdPtr>& task_ad_list, const list<EdgePtr>& edge_list);
     void SetWaitTime();
     void SetRunTime();
+    void UpdateTimeByState(const TaskState& state);
+    virtual TaskPtr NewTask() const = 0;
