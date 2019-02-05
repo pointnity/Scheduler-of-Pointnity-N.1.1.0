@@ -60,3 +60,5 @@ public:
     JobQueueNum GetJobQueueNum();
 
     list<TaskPtr> GetTaskList();
+  
+    bool GetConstraintsAmongTasks();
