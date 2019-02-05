@@ -92,3 +92,4 @@ protected:
     double m_need_cpu;
     int32_t m_need_memory;
     RWLock m_lock;
+    JobQueueNum m_job_queue_num;
