@@ -3,3 +3,4 @@
 
 enum JobType {
    JOB_TYPE_BATCH,
+   JOB_TYPE_SERVICE,
