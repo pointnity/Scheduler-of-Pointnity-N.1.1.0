@@ -55,3 +55,6 @@ enum JobError {
     E_JOB_ATTR = 1,
     E_JOB_NO_CLASSAD,
     E_JOB_TYPE,
+};
+
+#endif
