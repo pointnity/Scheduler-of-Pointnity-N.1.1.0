@@ -30,3 +30,4 @@ enum JobQueueNum {
 enum JobState {
    JOB_WAITING,
    JOB_SCHEDULING,
+   JOB_RUNNING,
