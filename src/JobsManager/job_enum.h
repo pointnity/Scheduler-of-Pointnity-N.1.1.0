@@ -33,3 +33,6 @@ enum JobState {
    JOB_RUNNING,
    JOB_FINISHED,
    JOB_FAILED,
+};
+
+enum TaskState {
