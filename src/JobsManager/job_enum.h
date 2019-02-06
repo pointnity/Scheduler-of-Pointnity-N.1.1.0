@@ -39,3 +39,4 @@ enum TaskState {
    TASK_WAITING,
    TASK_STARTING,
    TASK_RUNNING,
+   TASK_FINISHED,
