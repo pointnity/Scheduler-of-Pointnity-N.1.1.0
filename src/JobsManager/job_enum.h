@@ -12,3 +12,6 @@ enum JobRawPrio {
    JOB_RAW_PRIO_HIGH,
    JOB_RAW_PRIO_ORDINARY,
    JOB_RAW_PRIO_LOW,
+};
+
+enum SchedModel {
