@@ -37,3 +37,4 @@ enum JobState {
 
 enum TaskState {
    TASK_WAITING,
+   TASK_STARTING,
