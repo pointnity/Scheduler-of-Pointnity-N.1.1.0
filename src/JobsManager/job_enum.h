@@ -45,3 +45,4 @@ enum TaskState {
 };
 
 enum JMEventType {
+    TASK_STATE_EVENT,
