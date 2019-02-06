@@ -9,3 +9,4 @@ enum JobType {
 
 enum JobRawPrio {
    JOB_RAW_PRIO_PRIVILEGE,
+   JOB_RAW_PRIO_HIGH,
