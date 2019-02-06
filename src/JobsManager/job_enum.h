@@ -16,3 +16,4 @@ enum JobRawPrio {
 
 enum SchedModel {
     DEFAULT_MODEL,
+    WIDE_DISTRIBUTION,
