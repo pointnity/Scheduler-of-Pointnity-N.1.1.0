@@ -43,3 +43,5 @@ enum TaskState {
    TASK_FAILED,
    TASK_MISSED,
 };
+
+enum JMEventType {
