@@ -21,3 +21,5 @@ enum SchedModel {
 
 enum JobQueueNum {
    JOB_QUEUE_NAVIGATING,
+   JOB_QUEUE_PRIVILEGE_WAIT,
+   JOB_QUEUE_HIGH_WAIT,
