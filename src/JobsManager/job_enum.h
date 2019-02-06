@@ -26,3 +26,6 @@ enum JobQueueNum {
    JOB_QUEUE_ORDINARY_WAIT,
    JOB_QUEUE_LOW_WAIT,
 };
+
+enum JobState {
+   JOB_WAITING,
