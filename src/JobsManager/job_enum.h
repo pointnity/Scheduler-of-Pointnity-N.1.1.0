@@ -41,3 +41,5 @@ enum TaskState {
    TASK_RUNNING,
    TASK_FINISHED,
    TASK_FAILED,
+   TASK_MISSED,
+};
