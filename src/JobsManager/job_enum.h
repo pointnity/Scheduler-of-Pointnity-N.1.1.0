@@ -46,3 +46,4 @@ enum TaskState {
 
 enum JMEventType {
     TASK_STATE_EVENT,
+    TASK_ACTION_EVENT,
