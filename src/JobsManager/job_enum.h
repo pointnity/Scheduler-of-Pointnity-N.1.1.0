@@ -20,3 +20,4 @@ enum SchedModel {
 };
 
 enum JobQueueNum {
+   JOB_QUEUE_NAVIGATING,
