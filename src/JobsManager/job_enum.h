@@ -52,3 +52,4 @@ enum JMEventType {
 }; 
 
 enum JobError {
+    E_JOB_ATTR = 1,
