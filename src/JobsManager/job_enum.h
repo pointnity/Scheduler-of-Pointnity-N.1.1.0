@@ -32,3 +32,4 @@ enum JobState {
    JOB_SCHEDULING,
    JOB_RUNNING,
    JOB_FINISHED,
+   JOB_FAILED,
