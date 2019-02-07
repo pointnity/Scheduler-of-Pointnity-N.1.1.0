@@ -15,3 +15,6 @@
 #include "common/clynn/rwlock.h"
 #include "common/clynn/string_utility.h"
 #include "common/classad/classad_complement.h"
+
+#include "JobsManager/job_enum.h"
+#include "JobsManager/job_master.h"
