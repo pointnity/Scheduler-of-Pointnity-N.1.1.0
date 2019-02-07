@@ -38,3 +38,4 @@ JobMaster::JobMaster(const JobPtr& job_ptr) : m_navigating_job(job_ptr) {
         case WIDE_DISTRIBUTION:
             m_scheduler = SchedulerPtr(new WDScheduler());
             break;
+        default:
