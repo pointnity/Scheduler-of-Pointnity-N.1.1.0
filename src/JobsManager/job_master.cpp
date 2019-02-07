@@ -32,3 +32,4 @@ static Logger logger = Logger::getInstance("JobsManager");
 
 JobMaster::JobMaster(const JobPtr& job_ptr) : m_navigating_job(job_ptr) {
     switch (m_navigating_job->GetSchedModel()) {
+        case DEFAULT_MODEL:
