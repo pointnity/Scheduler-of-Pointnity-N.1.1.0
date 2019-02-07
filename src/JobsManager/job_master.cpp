@@ -26,3 +26,4 @@
 
 using clynn::ReadLocker;
 using clynn::WriteLocker;
+using log4cplus::Logger;
