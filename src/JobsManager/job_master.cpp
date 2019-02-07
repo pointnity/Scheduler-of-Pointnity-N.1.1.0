@@ -44,3 +44,4 @@ JobMaster::JobMaster(const JobPtr& job_ptr) : m_navigating_job(job_ptr) {
 }
 
 int32_t JobMaster::Schedule() {
+    return m_scheduler->ScheduleOneJob(m_navigating_job);
