@@ -40,3 +40,5 @@ JobMaster::JobMaster(const JobPtr& job_ptr) : m_navigating_job(job_ptr) {
             break;
         default:
             m_scheduler = SchedulerPtr(new DefaultScheduler());
+    }
+}
