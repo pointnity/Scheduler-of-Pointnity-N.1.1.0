@@ -27,3 +27,5 @@
 using clynn::ReadLocker;
 using clynn::WriteLocker;
 using log4cplus::Logger;
+
+static Logger logger = Logger::getInstance("JobsManager");
