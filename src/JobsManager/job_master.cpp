@@ -39,3 +39,4 @@ JobMaster::JobMaster(const JobPtr& job_ptr) : m_navigating_job(job_ptr) {
             m_scheduler = SchedulerPtr(new WDScheduler());
             break;
         default:
+            m_scheduler = SchedulerPtr(new DefaultScheduler());
