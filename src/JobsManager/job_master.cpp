@@ -35,3 +35,4 @@ JobMaster::JobMaster(const JobPtr& job_ptr) : m_navigating_job(job_ptr) {
         case DEFAULT_MODEL:
             m_scheduler = SchedulerPtr(new DefaultScheduler());
             break;
+        case WIDE_DISTRIBUTION:
