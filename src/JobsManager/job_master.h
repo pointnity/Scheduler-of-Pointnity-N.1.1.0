@@ -29,3 +29,4 @@ public:
     int32_t StartTasks();
 
 private:
+    int32_t MakeMatchAsTasks();
