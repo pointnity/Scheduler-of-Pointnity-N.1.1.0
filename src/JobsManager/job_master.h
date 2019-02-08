@@ -10,3 +10,4 @@
 #define JOBS_MANAGER_JOB_MASTER_H
 
 #include <list>
+#include "JobsManager/job.h"
