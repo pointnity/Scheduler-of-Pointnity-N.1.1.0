@@ -22,3 +22,4 @@ public:
     JobMaster(const JobPtr& job_ptr);
     // JobMaster();
     int32_t Schedule();
+   // int32_t ScheduleOneTask(const TaskPtr& task_ptr);
