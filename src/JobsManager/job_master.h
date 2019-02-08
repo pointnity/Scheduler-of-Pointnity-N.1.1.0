@@ -11,3 +11,4 @@
 
 #include <list>
 #include "JobsManager/job.h"
+#include "JobsManager/job_scheduler.h"
