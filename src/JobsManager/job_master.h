@@ -7,3 +7,4 @@
 *********************************/
 
 #ifndef JOBS_MANAGER_JOB_MASTER_H
+#define JOBS_MANAGER_JOB_MASTER_H
