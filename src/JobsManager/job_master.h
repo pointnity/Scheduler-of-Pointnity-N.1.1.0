@@ -16,3 +16,5 @@
 #include "JobsManager/wd_scheduler.h"
 
 using std::list;
+
+class JobMaster {
