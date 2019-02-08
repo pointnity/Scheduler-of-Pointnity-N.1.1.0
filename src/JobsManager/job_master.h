@@ -13,3 +13,4 @@
 #include "JobsManager/job.h"
 #include "JobsManager/job_scheduler.h"
 #include "JobsManager/default_scheduler.h"
+#include "JobsManager/wd_scheduler.h"
