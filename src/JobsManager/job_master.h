@@ -42,3 +42,5 @@ private:
     int ScheduleNavigatingJobAsWhole();*/
 
 private:
+    SchedulerPtr m_scheduler; // scheduling agent
+    JobPtr m_navigating_job;
