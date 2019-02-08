@@ -21,3 +21,4 @@ class JobMaster {
 public:
     JobMaster(const JobPtr& job_ptr);
     // JobMaster();
+    int32_t Schedule();
