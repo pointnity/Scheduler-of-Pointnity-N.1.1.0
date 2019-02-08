@@ -25,3 +25,4 @@ public:
    // int32_t ScheduleOneTask(const TaskPtr& task_ptr);
 
 /*     int32_t MakeMatch();
+    int32_t MakeMatchOneTask(const TaskPtr& task_ptr);
