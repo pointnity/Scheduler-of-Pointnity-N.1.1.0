@@ -6,3 +6,6 @@
 #else
 #include <cstdatomic> // for centos
 #endif
+
+using std::atomic_int;
+
