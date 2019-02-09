@@ -25,3 +25,6 @@
 #include "JobsManager/job_pool.h"
 #include "JobsManager/group_pool.h"
 #include "JobsManager/batch_job.h"
+
+using log4cplus::Logger;
+using namespace rapidxml;
