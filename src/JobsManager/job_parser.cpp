@@ -22,3 +22,4 @@
 #include "JobsManager/jobs_manager_service.h"
 #include "JobsManager/job_enum.h"
 #include "JobsManager/job_parser.h"
+#include "JobsManager/job_pool.h"
