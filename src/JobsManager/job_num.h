@@ -19,3 +19,5 @@ class JobNum {
     private:
         atomic_int m_job_id;
 };
+
+typedef Singleton<JobNum> JobNumI;
