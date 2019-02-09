@@ -71,3 +71,30 @@ int32_t JobParser::SubmitNewJob(const string& job_xml, int32_t job_id) {
 
 void JobParser::PrintAllTasks() {
     printf("-------- tasks --------\n");
+    string str_classad = ClassAdComplement::AdTostring(m_job_classad_ptr);
+    printf("job classad: %s\n", str_classad.c_str());
+
+    for (list<TaskAdPtr>::iterator it = m_taskad_list.begin();
+         it != m_taskad_list.end(); ++it)
+    {
+         // hard constraint
+         ClassAdPtr hard_ptr = (*it)->taskad_hard_constraint;
+         string str_hard_classad = ClassAdComplement::AdTostring(hard_ptr);
+         printf("task hard classad: %s\n", str_hard_classad.c_str());
+         // soft constraint list
+         for (list<ClassAdPtr>::iterator inner_it = (*it)->soft_constraint_list.begin();
+              inner_it != (*it)->soft_constraint_list.end(); ++ inner_it)
+         {
+             ClassAdPtr soft_ptr = *inner_it;
+             string str_soft_classad = ClassAdComplement::AdTostring(soft_ptr);
+             printf("task soft classad: %s\n", str_soft_classad.c_str());
+         }
+    }
+
+    // constraints among tasks
+    for (list<EdgePtr>::iterator it = m_edge_list.begin();
+         it != m_edge_list.end(); ++it)
+    {
+        printf("start: %d, end: %d, weight: %d\n", (*it)->GetStart(), (*it)->GetEnd(), (*it)->GetWeight());
+    }
+    printf("---------------------\n");
