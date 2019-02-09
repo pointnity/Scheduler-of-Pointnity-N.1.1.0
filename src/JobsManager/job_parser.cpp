@@ -19,3 +19,4 @@
 
 #include "iostream"
 #include "include/classad_attr.h"
+#include "JobsManager/jobs_manager_service.h"
