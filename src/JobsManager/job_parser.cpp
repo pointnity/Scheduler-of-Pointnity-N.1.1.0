@@ -52,3 +52,22 @@ int32_t JobParser::SubmitNewJob(const string& job_xml, int32_t job_id) {
     if (!ParseJobAd(job_xml)) {
         LOG4CPLUS_ERROR(logger, "Failed to submit a new job:" << job_xml);
         return m_errno;
+    }
+
+    JobPtr job_ptr = CreateJobPtr();
+    if (NULL == job_ptr) {
+        return m_errno;
+    }
+
+    // test TODO 
+    job_ptr->PrintAllTasks();
+
+    JobPoolI::Instance()->InsertIfAbsent(job_ptr);
+    // test TODO
+    JobPoolI::Instance()->PrintAll();
+    NewJobList::Instance()->PushBack(job_ptr);
+    return 0;
+}
+
+void JobParser::PrintAllTasks() {
+    printf("-------- tasks --------\n");
