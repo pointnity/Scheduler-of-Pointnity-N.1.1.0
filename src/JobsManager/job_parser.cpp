@@ -28,3 +28,4 @@
 
 using log4cplus::Logger;
 using namespace rapidxml;
+using std::cout;
