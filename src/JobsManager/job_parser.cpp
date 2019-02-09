@@ -43,3 +43,10 @@ JobParser::JobParser() {
 
 JobParser::~JobParser() {
    //Empty the generated task Classad
+   m_taskad_list.clear();
+}
+
+int32_t JobParser::SubmitNewJob(const string& job_xml, int32_t job_id) {
+    LOG4CPLUS_INFO(logger, "submitting a new job:" << std::endl << job_xml);
+
+    if (!ParseJobAd(job_xml)) {
