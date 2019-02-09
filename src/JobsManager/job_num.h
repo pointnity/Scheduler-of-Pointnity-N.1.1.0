@@ -17,3 +17,5 @@ class JobNum {
             return m_job_id++;
         }
     private:
+        atomic_int m_job_id;
+};
