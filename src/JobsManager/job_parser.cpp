@@ -23,3 +23,5 @@
 #include "JobsManager/job_enum.h"
 #include "JobsManager/job_parser.h"
 #include "JobsManager/job_pool.h"
+#include "JobsManager/group_pool.h"
+#include "JobsManager/batch_job.h"
