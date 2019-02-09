@@ -16,3 +16,4 @@ class JobNum {
         int GetNewJobId() {
             return m_job_id++;
         }
+    private:
