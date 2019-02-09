@@ -14,3 +14,4 @@ class JobNum {
         JobNum(): m_job_id(0) {}
         //The default is inline's
         int GetNewJobId() {
+            return m_job_id++;
