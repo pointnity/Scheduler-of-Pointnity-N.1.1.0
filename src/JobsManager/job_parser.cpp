@@ -20,3 +20,5 @@
 #include "iostream"
 #include "include/classad_attr.h"
 #include "JobsManager/jobs_manager_service.h"
+#include "JobsManager/job_enum.h"
+#include "JobsManager/job_parser.h"
