@@ -34,3 +34,5 @@ static Logger logger = Logger::getInstance("JobsManager");
 
 #define MAX_WEIGHT 100
 #define MAX_WEIGHT_N -100
+
+JobParser::JobParser() {
