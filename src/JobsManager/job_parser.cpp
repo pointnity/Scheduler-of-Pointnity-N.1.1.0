@@ -715,14 +715,14 @@ JobPtr JobParser::CreateJobPtr() {
     m_job_classad_ptr->EvaluateAttrNumber(ATTR_JOB_TYPE, i_job_type);
     JobType job_type = JobType(i_job_type);
 
-    // TODO 改为JobFactory类
-    // 目前仅支持Batch Job
+    //TODO changed to Jobfactory class
+    // Only batch Job is currently supported
     JobPtr job_ptr;
     switch (job_type) {
         case JOB_TYPE_BATCH:
             job_ptr = JobPtr(new BatchJob());
             break;
-        //缺省
+        //Default
         default:
             job_ptr = JobPtr(new BatchJob());
             break;
