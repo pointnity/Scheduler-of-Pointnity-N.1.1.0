@@ -50,3 +50,5 @@ int32_t JobParser::SubmitNewJob(const string& job_xml, int32_t job_id) {
     LOG4CPLUS_INFO(logger, "submitting a new job:" << std::endl << job_xml);
 
     if (!ParseJobAd(job_xml)) {
+        LOG4CPLUS_ERROR(logger, "Failed to submit a new job:" << job_xml);
+        return m_errno;
