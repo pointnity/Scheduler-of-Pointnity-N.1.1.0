@@ -1,1 +1,2 @@
 #ifndef JOBS_MANAGER_JOB_NUM_H
+#define JOBS_MANAGER_JOB_NUM_H
