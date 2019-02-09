@@ -21,3 +21,4 @@ class JobNum {
 };
 
 typedef Singleton<JobNum> JobNumI;
+#endif
