@@ -29,3 +29,8 @@
 using log4cplus::Logger;
 using namespace rapidxml;
 using std::cout;
+
+static Logger logger = Logger::getInstance("JobsManager");
+
+#define MAX_WEIGHT 100
+#define MAX_WEIGHT_N -100
