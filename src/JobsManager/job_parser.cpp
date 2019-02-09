@@ -36,3 +36,6 @@ static Logger logger = Logger::getInstance("JobsManager");
 #define MAX_WEIGHT_N -100
 
 JobParser::JobParser() {
+    m_job_classad_ptr = ClassAdPtr(new ClassAd());
+    m_job_id = 0;
+    m_errno = 0;
