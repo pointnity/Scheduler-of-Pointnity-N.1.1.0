@@ -9,3 +9,4 @@
 
 using std::atomic_int;
 
+class JobNum {
