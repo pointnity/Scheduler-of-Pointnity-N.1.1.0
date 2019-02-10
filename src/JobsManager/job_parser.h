@@ -7,3 +7,5 @@
 *********************************/
 
 #ifndef JOBS_MANAGER_JOB_PARSER_H
+#define JOBS_MANAGER_JOB_PAESER_H
+
