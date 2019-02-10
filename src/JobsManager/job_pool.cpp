@@ -9,3 +9,4 @@
 #include "JobsManager/job_pool.h"
 
 using clynn::ReadLocker;
+using clynn::WriteLocker;
