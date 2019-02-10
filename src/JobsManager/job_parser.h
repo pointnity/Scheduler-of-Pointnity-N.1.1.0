@@ -12,3 +12,4 @@
 #include <string>
 #include <list>
 #include <algorithm>
+#include "common/classad/classad_complement.h"
