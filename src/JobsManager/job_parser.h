@@ -37,3 +37,4 @@ private:
     bool ParseJobAdHe(const string& job_xml);
     // bool ParseJobAdByAdString(const string& job_ad);
     JobPtr CreateJobPtr();
+    bool GetJobPrio(const string& str_job_prio, JobRawPrio& prio_type);
