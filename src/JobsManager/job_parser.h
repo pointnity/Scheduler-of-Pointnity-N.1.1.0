@@ -43,3 +43,5 @@ private:
     void InsertId(int32_t task_id);
     bool FindId(int32_t task_id);
     bool ConstraintsAmongTasks();
+
+private:
