@@ -16,3 +16,5 @@
 #include "JobsManager/job_enum.h"
 #include "JobsManager/job.h"
 #include "JobsManager/constraint_edge.h"
+
+using std::list;
