@@ -36,3 +36,6 @@ bool JobPool::IsExist(int32_t job_id) {
 
 void JobPool::Insert(const JobPtr& job_ptr) {
     m_id_map.insert(make_pair(job_ptr->GetJobId(), job_ptr));
+}
+
+bool JobPool::FindById(int32_t job_id) {
