@@ -41,3 +41,4 @@ private:
     bool GetJobType(const string& str_job_type, JobType& job_type);
     bool GetSchedModel(const string& str_sched_model, SchedModel& sched_model);
     void InsertId(int32_t task_id);
+    bool FindId(int32_t task_id);
