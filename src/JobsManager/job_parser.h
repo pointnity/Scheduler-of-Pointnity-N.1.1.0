@@ -23,3 +23,4 @@ using std::vector;
 
 class JobParser {
 public:
+    JobParser();
