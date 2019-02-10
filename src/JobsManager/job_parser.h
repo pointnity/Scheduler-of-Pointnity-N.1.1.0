@@ -45,3 +45,4 @@ private:
     bool ConstraintsAmongTasks();
 
 private:
+    ClassAdPtr m_job_classad_ptr; 
