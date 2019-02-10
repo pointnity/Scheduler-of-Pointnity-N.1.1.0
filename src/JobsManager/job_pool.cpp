@@ -19,3 +19,8 @@ bool JobPool::InsertIfAbsent(const JobPtr& job_ptr) {
     Insert(job_ptr);
     return true;    
 }
+
+JobPtr JobPool::GetJobPtr(int32_t job_id) {
+    ReadLocker locker(m_map_lock);
+    map<int, JobPtr>::iterator it = m_id_map.find(job_id);
+    if (it != m_id_map.end()) {
