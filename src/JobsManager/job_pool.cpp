@@ -87,3 +87,18 @@ JobPtr JobPool::HistoryJobListPopFront() {
     if (m_history_job_list.empty())
         return job_ptr;
     job_ptr = m_history_job_list.front();
+    m_history_job_list.pop_front();
+    return job_ptr;
+}
+
+void JobPool::GetJobIdList(vector<int32_t>& job_id_list) {
+    ReadLocker locker(m_map_lock);
+    for(map<int, JobPtr>::iterator it = m_id_map.begin(); it != m_id_map.end(); ++it) {
+	job_id_list.push_back(it->first);
+    }
+}
+
+void JobPool::GetTaskStateInfo(vector<TaskStateInfo>& task_state_info_list, int32_t job_id) {
+    JobPtr job_ptr = GetJobPtr(job_id);
+    job_ptr->GetTaskStateInfo(task_state_info_list);	    
+}
