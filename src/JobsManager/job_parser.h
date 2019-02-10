@@ -53,3 +53,5 @@ private:
 
     int32_t m_errno;
 };
+
+#endif
