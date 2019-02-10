@@ -47,3 +47,8 @@ void JobPool::CheckJobs() {
     ReadLocker locker(m_map_lock);
     for (map<int, JobPtr>::iterator it = m_id_map.begin();
          it != m_id_map.end(); ++it)
+    {
+        int32_t state = (it->second)->GetState();
+        if (state == JOB_SCHEDULING || state == JOB_RUNNING)
+            (it->second)->CheckTasks();
+    }
