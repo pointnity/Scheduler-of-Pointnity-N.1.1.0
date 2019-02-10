@@ -49,4 +49,5 @@ private:
     list<TaskAdPtr> m_taskad_list; // struct TaskAdPtr(TaskAd) from task.h 
     vector<int32_t> m_task_ids;
     list<EdgePtr> m_edge_list;
- 
+     int32_t m_job_id;
+
