@@ -13,3 +13,5 @@
 #include <list>
 #include <algorithm>
 #include "common/classad/classad_complement.h"
+#include "JobsManager/job_enum.h"
+#include "JobsManager/job.h"
