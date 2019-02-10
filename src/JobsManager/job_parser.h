@@ -29,3 +29,5 @@ public:
     // TODO test
     void PrintAllTasks();
     // int SubmitNewJobByAdString(const string& job_ad, int& job_id);
+
+private:
