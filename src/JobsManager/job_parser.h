@@ -31,3 +31,4 @@ public:
     // int SubmitNewJobByAdString(const string& job_ad, int& job_id);
 
 private:
+    // After the XML parsing + function is nested, the XML string itself changes, so it is changed to an outer function
