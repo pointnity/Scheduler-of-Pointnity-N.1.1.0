@@ -17,3 +17,5 @@ bool JobPool::InsertIfAbsent(const JobPtr& job_ptr) {
     if (FindById(job_ptr->GetJobId()))
         return false;
     Insert(job_ptr);
+    return true;    
+}
