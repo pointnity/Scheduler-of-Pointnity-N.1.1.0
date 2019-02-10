@@ -41,3 +41,6 @@ void JobPool::Insert(const JobPtr& job_ptr) {
 bool JobPool::FindById(int32_t job_id) {
     map<int, JobPtr>::iterator it = m_id_map.find(job_id);
     return it != m_id_map.end();
+}
+
+void JobPool::CheckJobs() {
