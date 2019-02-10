@@ -61,3 +61,29 @@ void JobPool::UpdateJobState() {
     {
         int32_t state = (it->second)->GetState();
         if (state == JOB_RUNNING)
+            (it->second)->UpdateState();
+    }
+}
+
+
+void JobPool::PrintAll() {
+    printf("-------- JobMap --------\n");
+    for (map<int, JobPtr>::iterator it = m_id_map.begin();
+         it != m_id_map.end(); ++it)
+    {
+        printf("jod_id: %d\n", it->first);
+    }
+    printf("------------------------\n");
+}
+
+void JobPool::HistoryJobListPushBack(const JobPtr& job_ptr) {
+    WriteLocker locker(m_history_lock);
+    m_history_job_list.push_back(job_ptr);
+}
+
+JobPtr JobPool::HistoryJobListPopFront() {
+    WriteLocker locker(m_history_lock);
+    JobPtr job_ptr;
+    if (m_history_job_list.empty())
+        return job_ptr;
+    job_ptr = m_history_job_list.front();
