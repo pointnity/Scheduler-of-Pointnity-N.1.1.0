@@ -51,3 +51,4 @@ private:
     list<EdgePtr> m_edge_list;
      int32_t m_job_id;
 
+    int32_t m_errno;
