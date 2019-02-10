@@ -11,3 +11,5 @@
 using clynn::ReadLocker;
 using clynn::WriteLocker;
 using std::make_pair;
+
+bool JobPool::InsertIfAbsent(const JobPtr& job_ptr) {
