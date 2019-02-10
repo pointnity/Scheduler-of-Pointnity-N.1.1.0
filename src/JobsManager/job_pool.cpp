@@ -10,3 +10,4 @@
 
 using clynn::ReadLocker;
 using clynn::WriteLocker;
+using std::make_pair;
