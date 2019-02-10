@@ -25,3 +25,5 @@ class JobParser {
 public:
     JobParser();
     ~JobParser();
+    int32_t SubmitNewJob(const string& job_xml, int32_t job_id);
+    // TODO test
