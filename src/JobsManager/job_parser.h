@@ -28,3 +28,4 @@ public:
     int32_t SubmitNewJob(const string& job_xml, int32_t job_id);
     // TODO test
     void PrintAllTasks();
+    // int SubmitNewJobByAdString(const string& job_ad, int& job_id);
