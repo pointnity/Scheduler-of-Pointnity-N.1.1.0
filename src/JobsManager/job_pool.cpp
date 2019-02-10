@@ -24,3 +24,7 @@ JobPtr JobPool::GetJobPtr(int32_t job_id) {
     ReadLocker locker(m_map_lock);
     map<int, JobPtr>::iterator it = m_id_map.find(job_id);
     if (it != m_id_map.end()) {
+        return it->second;
+    }
+    return JobPtr();
+}
