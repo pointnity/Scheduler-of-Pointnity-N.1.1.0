@@ -44,3 +44,6 @@ bool JobPool::FindById(int32_t job_id) {
 }
 
 void JobPool::CheckJobs() {
+    ReadLocker locker(m_map_lock);
+    for (map<int, JobPtr>::iterator it = m_id_map.begin();
+         it != m_id_map.end(); ++it)
