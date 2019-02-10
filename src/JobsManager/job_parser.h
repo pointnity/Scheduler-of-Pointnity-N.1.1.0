@@ -5,3 +5,5 @@
  Version:  0.1
  Description: parse job from xml file, init job and tasks
 *********************************/
+
+#ifndef JOBS_MANAGER_JOB_PARSER_H
