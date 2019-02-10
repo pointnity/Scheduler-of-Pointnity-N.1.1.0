@@ -36,3 +36,4 @@ private:
     bool ParseJobAdHo(const string& job_xml);
     bool ParseJobAdHe(const string& job_xml);
     // bool ParseJobAdByAdString(const string& job_ad);
+    JobPtr CreateJobPtr();
