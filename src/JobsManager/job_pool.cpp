@@ -33,3 +33,6 @@ bool JobPool::IsExist(int32_t job_id) {
     ReadLocker locker(m_map_lock);
     return FindById(job_id);
 }
+
+void JobPool::Insert(const JobPtr& job_ptr) {
+    m_id_map.insert(make_pair(job_ptr->GetJobId(), job_ptr));
