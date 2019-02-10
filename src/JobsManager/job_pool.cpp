@@ -28,3 +28,6 @@ JobPtr JobPool::GetJobPtr(int32_t job_id) {
     }
     return JobPtr();
 }
+
+bool JobPool::IsExist(int32_t job_id) {
+    ReadLocker locker(m_map_lock);
