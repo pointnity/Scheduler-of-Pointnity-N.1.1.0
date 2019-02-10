@@ -27,3 +27,4 @@ public:
     ~JobParser();
     int32_t SubmitNewJob(const string& job_xml, int32_t job_id);
     // TODO test
+    void PrintAllTasks();
