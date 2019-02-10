@@ -15,3 +15,5 @@ using std::make_pair;
 bool JobPool::InsertIfAbsent(const JobPtr& job_ptr) {
     WriteLocker locker(m_map_lock);
     if (FindById(job_ptr->GetJobId()))
+        return false;
+    Insert(job_ptr);
