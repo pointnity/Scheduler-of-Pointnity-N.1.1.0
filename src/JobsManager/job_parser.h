@@ -46,3 +46,5 @@ private:
 
 private:
     ClassAdPtr m_job_classad_ptr; 
+    list<TaskAdPtr> m_taskad_list; // struct TaskAdPtr(TaskAd) from task.h 
+    vector<int32_t> m_task_ids;
