@@ -10,3 +10,4 @@
 #define JOBS_MANAGER_JOB_PAESER_H
 
 #include <string>
+#include <list>
