@@ -23,3 +23,5 @@ using log4cplus::Logger;
 using clynn::Timer;
 
 static Logger logger = Logger::getInstance("JobsManager");
+
+int32_t JobScheduler::SendRequest(const string& classad, string& match_result) {
