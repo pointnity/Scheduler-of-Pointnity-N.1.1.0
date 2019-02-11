@@ -48,3 +48,4 @@ int32_t JobScheduler::SendRequestConstraint(const string& classad, const vector<
     } catch (TException &tx) {
         return -1;
     }
+    LOG4CPLUS_INFO(logger, "match time: " << timer.ElapsedSeconds() << "s");
