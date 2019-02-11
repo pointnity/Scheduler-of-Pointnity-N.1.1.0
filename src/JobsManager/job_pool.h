@@ -43,3 +43,4 @@ private:
     bool FindById(int32_t job_id);
 
 private: 
+    map<int, JobPtr> m_id_map;
