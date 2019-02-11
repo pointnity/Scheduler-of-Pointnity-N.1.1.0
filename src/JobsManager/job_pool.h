@@ -48,3 +48,4 @@ private:
 
     RWLock m_map_lock;
     RWLock m_history_lock;
+};
