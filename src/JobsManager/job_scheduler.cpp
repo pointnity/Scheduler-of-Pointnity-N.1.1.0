@@ -15,3 +15,4 @@
 #include "common/classad/classad_complement.h"
 #include "proxy/ResourceScheduler/gen-cpp/ResourceScheduler.h"
 
+#include "JobsManager/job_scheduler.h"
