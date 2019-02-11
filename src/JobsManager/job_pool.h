@@ -22,3 +22,4 @@ using clynn::RWLock;
 
 class JobPool {
 public:
+    bool InsertIfAbsent(const JobPtr& job_ptr);
