@@ -31,3 +31,4 @@ int32_t JobScheduler::SendRequest(const string& classad, string& match_result) {
         Proxy<ResourceSchedulerClient> proxy = RpcClient<ResourceSchedulerClient>::GetProxy(FLAGS_resource_scheduler_endpoint);
         proxy().MatchMachine(match_result, classad); 
     } catch (TException &tx) {
+        LOG4CPLUS_ERROR(logger, "Send Request UnSuccess.");
