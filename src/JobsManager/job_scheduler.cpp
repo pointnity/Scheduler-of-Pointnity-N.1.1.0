@@ -37,6 +37,7 @@ int32_t JobScheduler::SendRequest(const string& classad, string& match_result) {
     LOG4CPLUS_INFO(logger, "match time: " << timer.ElapsedSeconds() << "s");
     return 0; 
 }
+        LOG4CPLUS_ERROR(logger, "Send Request UnSuccess.");
 
 int32_t JobScheduler::SendRequestConstraint(const string& classad, const vector<string>& soft_list, string& match_result) {
     LOG4CPLUS_INFO(logger, "SendRequest " << classad);
