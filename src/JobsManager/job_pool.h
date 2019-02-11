@@ -51,3 +51,5 @@ private:
 };
 
 typedef Singleton<JobPool> JobPoolI;
+
+#endif
