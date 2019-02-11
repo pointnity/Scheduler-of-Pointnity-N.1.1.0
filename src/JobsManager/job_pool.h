@@ -27,3 +27,4 @@ public:
     bool IsExist(int32_t job_id);
 
     void HistoryJobListPushBack(const JobPtr& job_ptr);
+    JobPtr HistoryJobListPopFront();
