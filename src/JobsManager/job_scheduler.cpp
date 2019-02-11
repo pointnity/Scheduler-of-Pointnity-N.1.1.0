@@ -28,3 +28,5 @@ int32_t JobScheduler::SendRequest(const string& classad, string& match_result) {
     LOG4CPLUS_INFO(logger, "SendRequest " << classad);
     Timer timer;
     try {
+        Proxy<ResourceSchedulerClient> proxy = RpcClient<ResourceSchedulerClient>::GetProxy(FLAGS_resource_scheduler_endpoint);
+        proxy().MatchMachine(match_result, classad); 
