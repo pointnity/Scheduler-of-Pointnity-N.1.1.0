@@ -19,3 +19,5 @@ using std::map;
 using std::list;
 using std::pair;
 using clynn::RWLock;
+
+class JobPool {
