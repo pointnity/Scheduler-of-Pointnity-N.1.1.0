@@ -13,3 +13,4 @@
 #include "common/clynn/rwlock.h"
 #include "common/clynn/singleton.h"
 #include "include/proxy.h"
+#include "JobsManager/job.h"
