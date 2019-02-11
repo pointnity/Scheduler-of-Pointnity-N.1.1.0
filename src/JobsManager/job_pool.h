@@ -7,3 +7,4 @@
 *********************************/
 
 #ifndef JOB_POOL_H
+#define JOB_POOL_H
