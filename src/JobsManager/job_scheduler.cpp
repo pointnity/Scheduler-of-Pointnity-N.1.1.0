@@ -13,3 +13,5 @@
 #include "common/clynn/timer.h"
 #include "common/clynn/rpc.h"
 #include "common/classad/classad_complement.h"
+#include "proxy/ResourceScheduler/gen-cpp/ResourceScheduler.h"
+
