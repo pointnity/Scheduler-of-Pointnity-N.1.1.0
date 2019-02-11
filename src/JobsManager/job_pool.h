@@ -47,3 +47,4 @@ private:
     list<JobPtr> m_history_job_list;
 
     RWLock m_map_lock;
+    RWLock m_history_lock;
