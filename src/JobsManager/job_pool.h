@@ -39,3 +39,4 @@ public:
     void PrintAll();
 
 private:
+    void Insert(const JobPtr& job_ptr);
