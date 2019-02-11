@@ -30,3 +30,6 @@ public:
     JobPtr HistoryJobListPopFront();
 
     void GetJobIdList(vector<int32_t>& job_id_list);
+    void GetTaskStateInfo(vector<TaskStateInfo>& task_state_info_list, int32_t job_id);
+    
+    void CheckJobs();
