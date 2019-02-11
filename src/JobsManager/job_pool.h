@@ -24,3 +24,4 @@ class JobPool {
 public:
     bool InsertIfAbsent(const JobPtr& job_ptr);
     JobPtr GetJobPtr(int32_t job_id);
+    bool IsExist(int32_t job_id);
