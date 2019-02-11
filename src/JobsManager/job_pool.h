@@ -41,3 +41,5 @@ public:
 private:
     void Insert(const JobPtr& job_ptr);
     bool FindById(int32_t job_id);
+
+private: 
