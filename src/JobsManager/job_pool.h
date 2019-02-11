@@ -44,3 +44,4 @@ private:
 
 private: 
     map<int, JobPtr> m_id_map;
+    list<JobPtr> m_history_job_list;
