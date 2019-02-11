@@ -27,3 +27,4 @@ static Logger logger = Logger::getInstance("JobsManager");
 int32_t JobScheduler::SendRequest(const string& classad, string& match_result) {
     LOG4CPLUS_INFO(logger, "SendRequest " << classad);
     Timer timer;
+    try {
