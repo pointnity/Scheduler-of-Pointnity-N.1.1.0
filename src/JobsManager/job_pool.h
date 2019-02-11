@@ -33,3 +33,4 @@ public:
     void GetTaskStateInfo(vector<TaskStateInfo>& task_state_info_list, int32_t job_id);
     
     void CheckJobs();
+    void UpdateJobState();
