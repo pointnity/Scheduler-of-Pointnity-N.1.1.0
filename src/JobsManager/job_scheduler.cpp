@@ -16,3 +16,5 @@
 #include "proxy/ResourceScheduler/gen-cpp/ResourceScheduler.h"
 
 #include "JobsManager/job_scheduler.h"
+
+DECLARE_string(resource_scheduler_endpoint);
