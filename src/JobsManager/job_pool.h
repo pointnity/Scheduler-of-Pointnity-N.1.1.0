@@ -21,3 +21,4 @@ using std::pair;
 using clynn::RWLock;
 
 class JobPool {
+public:
