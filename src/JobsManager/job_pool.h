@@ -37,3 +37,5 @@ public:
 
     // test & TODO
     void PrintAll();
+
+private:
