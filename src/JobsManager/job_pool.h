@@ -16,3 +16,4 @@
 #include "JobsManager/job.h"
 
 using std::map;
+using std::list;
