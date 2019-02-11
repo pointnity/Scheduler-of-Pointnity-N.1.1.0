@@ -35,3 +35,4 @@ int32_t JobScheduler::SendRequest(const string& classad, string& match_result) {
         return 1;
     } 
     LOG4CPLUS_INFO(logger, "match time: " << timer.ElapsedSeconds() << "s");
+    return 0; 
