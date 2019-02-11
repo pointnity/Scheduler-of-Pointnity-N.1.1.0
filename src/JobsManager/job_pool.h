@@ -28,3 +28,5 @@ public:
 
     void HistoryJobListPushBack(const JobPtr& job_ptr);
     JobPtr HistoryJobListPopFront();
+
+    void GetJobIdList(vector<int32_t>& job_id_list);
