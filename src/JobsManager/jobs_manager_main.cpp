@@ -58,3 +58,9 @@ int main(int argc, char **argv){
             return EXIT_FAILURE;
         }
     } else {
+        if(!(google::ReadFromFlagsFile("../conf/jobs_manager.conf", argv[0], true))) {
+            LOG4CPLUS_ERROR(logger, "Error happens when parsing flags from file");
+            return EXIT_FAILURE;
+        }
+    }
+   
