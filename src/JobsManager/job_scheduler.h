@@ -36,3 +36,5 @@ public:
 protected:
     // int32_t MatchTaskList(list<TaskMatchInfo>& task_match_list);
     int32_t SendRequest(const string& classad, string& match_result);
+    int32_t SendRequestConstraint(const string& taskad_hard, const vector<string>& soft_list, string& match_result);
+    SchedModel m_model;
