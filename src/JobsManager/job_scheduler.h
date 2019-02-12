@@ -5,3 +5,5 @@
  Version:  0.2
  Description: scheduler of navigating job, making resource request for job
 *********************************/
+
+#ifndef JOBS_MANAGER_JOB_SCHEDULER_H
