@@ -32,3 +32,5 @@ class JobScheduler {
 public:
     JobScheduler(SchedModel model) : m_model(model) {}
     virtual int32_t ScheduleOneJob(JobPtr& job_ptr) = 0;
+    virtual int32_t ScheduleOneTask(const TaskPtr& task_ptr) = 0;
+protected:
