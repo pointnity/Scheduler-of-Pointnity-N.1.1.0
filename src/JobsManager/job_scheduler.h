@@ -12,3 +12,5 @@
 #include <string>
 #include <list>
 #include <boost/shared_ptr.hpp>
+
+#include "JobsManager/job.h"
