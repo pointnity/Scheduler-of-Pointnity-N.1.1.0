@@ -18,3 +18,4 @@
 #include "include/proxy.h"
 #include "common/clynn/rpc.h"
 #include "JobsManager/group_pool.h"
+#include "JobsManager/jobs_manager_service.h"
