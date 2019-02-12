@@ -46,3 +46,5 @@ extern void* JobStateUpdaterThread(void* unused);
 int main(int argc, char **argv){
     SharedObjectPtr<Appender> append(new FileAppender("../log/JobsManager.log"));
     append->setName(LOG4CPLUS_TEXT("append for JobsManager"));
+    auto_ptr<Layout> layout(new PatternLayout(LOG4CPLUS_TEXT("%d{%m/%d/%y %H:%M:%S} %p %l:%m %n")));
+    append->setLayout(layout);
