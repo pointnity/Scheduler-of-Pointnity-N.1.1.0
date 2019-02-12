@@ -20,3 +20,6 @@
 #include "JobsManager/group_pool.h"
 #include "JobsManager/jobs_manager_service.h"
 #include "JobsManager/dispatcher.h"
+
+using std::string;
+using std::cout;
