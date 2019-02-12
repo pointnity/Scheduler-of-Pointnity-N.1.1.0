@@ -29,3 +29,4 @@ using std::vector;
 using boost::shared_ptr;
 
 class JobScheduler {
+public:
