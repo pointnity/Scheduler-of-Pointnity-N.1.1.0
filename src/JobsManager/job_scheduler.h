@@ -10,3 +10,4 @@
 #define JOBS_MANAGER_JOB_SCHEDULER_H
 
 #include <string>
+#include <list>
