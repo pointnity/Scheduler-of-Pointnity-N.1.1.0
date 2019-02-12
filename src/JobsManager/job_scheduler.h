@@ -17,3 +17,4 @@
 #include "JobsManager/task.h"
 
 // used in child class
+#include "common/clynn/string_utility.h"
