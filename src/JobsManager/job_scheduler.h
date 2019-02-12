@@ -26,3 +26,4 @@
 
 using std::string;
 using std::vector;
+using boost::shared_ptr;
