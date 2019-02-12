@@ -41,3 +41,5 @@ protected:
 };
 
 typedef shared_ptr<JobScheduler> SchedulerPtr;
+
+#endif
