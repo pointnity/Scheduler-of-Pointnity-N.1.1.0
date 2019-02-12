@@ -44,3 +44,5 @@ extern void* TaskCheckerThread(void* unused);
 extern void* JobStateUpdaterThread(void* unused);
 
 int main(int argc, char **argv){
+    SharedObjectPtr<Appender> append(new FileAppender("../log/JobsManager.log"));
+    append->setName(LOG4CPLUS_TEXT("append for JobsManager"));
