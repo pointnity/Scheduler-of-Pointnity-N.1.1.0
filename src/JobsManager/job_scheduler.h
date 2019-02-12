@@ -18,3 +18,4 @@
 
 // used in child class
 #include "common/clynn/string_utility.h"
+#include "JobsManager/job_enum.h"
