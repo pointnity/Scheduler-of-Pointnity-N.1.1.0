@@ -30,3 +30,4 @@ using boost::shared_ptr;
 
 class JobScheduler {
 public:
+    JobScheduler(SchedModel model) : m_model(model) {}
