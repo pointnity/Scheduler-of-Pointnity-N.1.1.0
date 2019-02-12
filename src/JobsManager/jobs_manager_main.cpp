@@ -64,3 +64,16 @@ int main(int argc, char **argv){
         }
     }
    
+    LOG4CPLUS_INFO(logger, argv[0] << "daemon begin");
+
+    if (!GroupPoolI::Instance()->InitGroups(FLAGS_groups_xml)) {
+        LOG4CPLUS_ERROR(logger, "Failed to initialize groups by config file: " << FLAGS_groups_xml);
+        return EXIT_FAILURE;
+    }
+    // test TODO
+    GroupPoolI::Instance()->PrintAll();
+    
+    pthread_t new_job_thread_tid;
+    pthread_create(&new_job_thread_tid, NULL, NewJobThread, NULL);
+
+    pthread_t job_processor_tid;
