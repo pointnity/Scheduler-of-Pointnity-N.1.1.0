@@ -15,3 +15,5 @@
 
 #include "JobsManager/job.h"
 #include "JobsManager/task.h"
+
+// used in child class
