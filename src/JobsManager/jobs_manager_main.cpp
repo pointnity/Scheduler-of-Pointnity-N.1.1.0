@@ -92,3 +92,21 @@ int main(int argc, char **argv){
 
     //app event
     Handler* app_event_handler = new Handler;
+    app_event_handler->Start();
+    EventDispatcherI::Instance()->Register(JMEventType::APP_EVENT, app_event_handler);
+
+    // task action event 
+    Handler* task_action_event_handler = new Handler;
+    task_action_event_handler->Start();
+    EventDispatcherI::Instance()->Register(JMEventType::TASK_ACTION_EVENT, task_action_event_handler);
+
+    // task state event 
+    Handler* task_state_event_handler = new Handler;
+    task_state_event_handler->Start();
+    EventDispatcherI::Instance()->Register(JMEventType::TASK_STATE_EVENT, task_state_event_handler);
+
+    cout << "JobsManager is OK." << endl;
+
+    RpcServer<JobsManagerService, JobsManagerProcessor>::Listen(FLAGS_jobs_manager_port);
+    return EXIT_SUCCESS;
+}
