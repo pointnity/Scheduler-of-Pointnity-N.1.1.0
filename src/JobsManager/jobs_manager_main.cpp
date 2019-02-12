@@ -37,3 +37,5 @@ using log4cplus::helpers::SharedObjectPtr;
 DECLARE_int32(jobs_manager_port);
 DECLARE_string(resource_scheduler_endpoint);
 DECLARE_string(groups_xml);
+
+extern void* NewJobThread(void* unused);
