@@ -39,3 +39,4 @@ DECLARE_string(resource_scheduler_endpoint);
 DECLARE_string(groups_xml);
 
 extern void* NewJobThread(void* unused);
+extern void* JobProcessorThread(void* unused);
