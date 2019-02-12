@@ -42,3 +42,5 @@ extern void* NewJobThread(void* unused);
 extern void* JobProcessorThread(void* unused);
 extern void* TaskCheckerThread(void* unused);
 extern void* JobStateUpdaterThread(void* unused);
+
+int main(int argc, char **argv){
