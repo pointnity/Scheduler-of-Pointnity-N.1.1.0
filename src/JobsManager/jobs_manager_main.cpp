@@ -33,3 +33,6 @@ using log4cplus::Appender;
 using log4cplus::Layout;
 using log4cplus::PatternLayout;
 using log4cplus::helpers::SharedObjectPtr;
+
+DECLARE_int32(jobs_manager_port);
+DECLARE_string(resource_scheduler_endpoint);
