@@ -21,3 +21,4 @@
 #include "JobsManager/job_enum.h"
 #include "JobsManager/job_pool.h"
 #include "JobsManager/group_pool.h"
+#include "JobsManager/event.h"
