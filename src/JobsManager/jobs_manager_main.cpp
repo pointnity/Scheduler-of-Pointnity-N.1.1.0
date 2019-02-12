@@ -40,3 +40,4 @@ DECLARE_string(groups_xml);
 
 extern void* NewJobThread(void* unused);
 extern void* JobProcessorThread(void* unused);
+extern void* TaskCheckerThread(void* unused);
