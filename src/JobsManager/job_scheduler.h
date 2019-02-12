@@ -14,3 +14,4 @@
 #include <boost/shared_ptr.hpp>
 
 #include "JobsManager/job.h"
+#include "JobsManager/task.h"
