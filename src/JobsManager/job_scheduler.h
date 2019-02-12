@@ -25,3 +25,4 @@
 #include "JobsManager/dispatcher.h"
 
 using std::string;
+using std::vector;
