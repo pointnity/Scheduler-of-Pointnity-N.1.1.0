@@ -77,3 +77,18 @@ int main(int argc, char **argv){
     pthread_create(&new_job_thread_tid, NULL, NewJobThread, NULL);
 
     pthread_t job_processor_tid;
+    pthread_create(&job_processor_tid, NULL, JobProcessorThread, NULL);
+
+    pthread_t task_checker_tid;
+    pthread_create(&task_checker_tid, NULL, TaskCheckerThread, NULL);
+
+    pthread_t job_updater_tid;
+    pthread_create(&job_updater_tid, NULL, JobStateUpdaterThread, NULL);
+
+    //image event
+    Handler* image_event_handler = new Handler;
+    image_event_handler->Start();
+    EventDispatcherI::Instance()->Register(JMEventType::IMAGE_EVENT, image_event_handler);
+
+    //app event
+    Handler* app_event_handler = new Handler;
