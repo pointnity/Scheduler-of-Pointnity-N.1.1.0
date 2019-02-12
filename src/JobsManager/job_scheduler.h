@@ -35,3 +35,4 @@ public:
     virtual int32_t ScheduleOneTask(const TaskPtr& task_ptr) = 0;
 protected:
     // int32_t MatchTaskList(list<TaskMatchInfo>& task_match_list);
+    int32_t SendRequest(const string& classad, string& match_result);
