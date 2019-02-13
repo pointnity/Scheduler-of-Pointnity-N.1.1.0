@@ -70,3 +70,5 @@ bool JobsManagerService::TaskTimeout(int32_t job_id, int32_t task_id) {
         return false;
     }
     // new TaskFailedEvent
+    EventPtr event(new TaskTimeoutEvent(job_id, task_id));
+    // Push event into Queue
