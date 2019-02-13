@@ -31,3 +31,6 @@ void JobsManagerService::GetJobId(vector<int32_t>& job_id_list) {
 
 void JobsManagerService::GetTaskStateInfo(vector<TaskStateInfo>& task_state_info_list, int32_t job_id) {
     return JobPoolI::Instance()->GetTaskStateInfo(task_state_info_list, job_id);
+}
+
+bool JobsManagerService::TaskStarted(int32_t job_id, int32_t task_id) {
