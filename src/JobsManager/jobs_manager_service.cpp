@@ -83,3 +83,5 @@ bool JobsManagerService::TaskMissed(int32_t job_id, int32_t task_id) {
     // new TaskMissedEvent
     EventPtr event(new TaskMissedEvent(job_id, task_id));
     // Push event into Queue
+    EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
+    return true;
