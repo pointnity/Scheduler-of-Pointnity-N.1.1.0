@@ -15,3 +15,6 @@
 #include "JobsManager/group_pool.h"
 
 using log4cplus::Logger;
+
+static Logger logger = Logger::getInstance("JobsManager");
+
