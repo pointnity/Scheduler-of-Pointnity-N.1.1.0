@@ -101,3 +101,5 @@ bool JobsManagerService::UpdateImage(const string& user, const string& name, int
 
 bool JobsManagerService::CreateApp(const string& user, const string& name) {
     // new CreateAppEvent
+    EventPtr event(new AppEvent(user, name));
+    // Push event into Queue
