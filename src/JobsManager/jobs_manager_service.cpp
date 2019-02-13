@@ -49,3 +49,4 @@ bool JobsManagerService::TaskFinished(int32_t job_id, int32_t task_id) {
         return false;
     }
     EventPtr event(new TaskFinishedEvent(job_id, task_id));
+    // Push event into Queue
