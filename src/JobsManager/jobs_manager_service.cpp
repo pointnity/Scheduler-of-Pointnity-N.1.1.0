@@ -95,3 +95,5 @@ bool JobsManagerService::UpdateImage(const string& user, const string& name, int
     // new UpdateImageEvent
     EventPtr event(new ImageEvent(user, name, size, is_update_all));
     // Push event into Queue
+    EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
+    return true;
