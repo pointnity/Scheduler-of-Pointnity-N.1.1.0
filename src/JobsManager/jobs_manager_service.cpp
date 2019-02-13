@@ -108,3 +108,5 @@ bool JobsManagerService::CreateApp(const string& user, const string& name) {
 }
 
 int32_t JobsManagerService::GetWaitJobNumByGroupName(const string& group) {
+    return GroupPoolI::Instance()->GetWaitingJobNumByGroup(group);
+}
