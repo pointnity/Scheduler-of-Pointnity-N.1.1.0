@@ -105,3 +105,6 @@ bool JobsManagerService::CreateApp(const string& user, const string& name) {
     // Push event into Queue
     EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
     return true;
+}
+
+int32_t JobsManagerService::GetWaitJobNumByGroupName(const string& group) {
