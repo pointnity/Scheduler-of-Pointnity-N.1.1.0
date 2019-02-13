@@ -85,3 +85,7 @@ bool JobsManagerService::TaskMissed(int32_t job_id, int32_t task_id) {
     // Push event into Queue
     EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
     return true;
+}
+
+bool JobsManagerService::TaskStartError(int job_id, int task_id, int err_num) {
+    return true;
