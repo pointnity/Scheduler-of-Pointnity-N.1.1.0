@@ -28,3 +28,6 @@ void JobsManagerService::SubmitJob(SubmitJobResult& result, const string& job_xm
 void JobsManagerService::GetJobId(vector<int32_t>& job_id_list) {
     return JobPoolI::Instance()->GetJobIdList(job_id_list);
 }
+
+void JobsManagerService::GetTaskStateInfo(vector<TaskStateInfo>& task_state_info_list, int32_t job_id) {
+    return JobPoolI::Instance()->GetTaskStateInfo(task_state_info_list, job_id);
