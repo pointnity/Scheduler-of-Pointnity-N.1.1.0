@@ -11,3 +11,4 @@
 #include "JobsManager/task.h"
 #include "JobsManager/event.h"
 #include "JobsManager/dispatcher.h"
+#include "JobsManager/job_pool.h"
