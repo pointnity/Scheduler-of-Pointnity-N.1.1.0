@@ -21,3 +21,5 @@ static Logger logger = Logger::getInstance("JobsManager");
 
 void JobsManagerService::SubmitJob(SubmitJobResult& result, const string& job_xml) {
     JobParser job_parser;
+    int32_t ret = job_parser.SubmitNewJob(job_xml, result.job_id); 
+    result.error_num = ret;
