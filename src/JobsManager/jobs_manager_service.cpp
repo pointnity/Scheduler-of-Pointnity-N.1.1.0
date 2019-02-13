@@ -18,3 +18,6 @@
 using log4cplus::Logger;
 
 static Logger logger = Logger::getInstance("JobsManager");
+
+void JobsManagerService::SubmitJob(SubmitJobResult& result, const string& job_xml) {
+    JobParser job_parser;
