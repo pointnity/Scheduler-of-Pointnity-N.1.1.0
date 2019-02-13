@@ -40,3 +40,5 @@ bool JobsManagerService::TaskStarted(int32_t job_id, int32_t task_id) {
     // new TaskStartedEvent
     EventPtr event(new TaskStartedEvent(job_id, task_id));
     // Push event into Queue
+    EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
+    return true;
