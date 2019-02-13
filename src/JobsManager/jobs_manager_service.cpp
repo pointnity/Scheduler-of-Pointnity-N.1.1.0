@@ -23,3 +23,6 @@ void JobsManagerService::SubmitJob(SubmitJobResult& result, const string& job_xm
     JobParser job_parser;
     int32_t ret = job_parser.SubmitNewJob(job_xml, result.job_id); 
     result.error_num = ret;
+}
+
+void JobsManagerService::GetJobId(vector<int32_t>& job_id_list) {
