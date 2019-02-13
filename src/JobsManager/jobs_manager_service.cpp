@@ -35,3 +35,5 @@ void JobsManagerService::GetTaskStateInfo(vector<TaskStateInfo>& task_state_info
 
 bool JobsManagerService::TaskStarted(int32_t job_id, int32_t task_id) {
     if (job_id < 0 || task_id < 0) {
+        return false;
+    }
