@@ -97,3 +97,7 @@ bool JobsManagerService::UpdateImage(const string& user, const string& name, int
     // Push event into Queue
     EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
     return true;
+}
+
+bool JobsManagerService::CreateApp(const string& user, const string& name) {
+    // new CreateAppEvent
