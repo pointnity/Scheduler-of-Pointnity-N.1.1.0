@@ -93,3 +93,5 @@ bool JobsManagerService::TaskStartError(int job_id, int task_id, int err_num) {
 
 bool JobsManagerService::UpdateImage(const string& user, const string& name, int size, bool is_update_all) {
     // new UpdateImageEvent
+    EventPtr event(new ImageEvent(user, name, size, is_update_all));
+    // Push event into Queue
