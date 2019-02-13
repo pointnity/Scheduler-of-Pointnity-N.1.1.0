@@ -14,3 +14,5 @@
 #include "JobsManager/dispatcher.h"
 #include "JobsManager/job_pool.h"
 #include "JobsManager/group_pool.h"
+
+using log4cplus::Logger;
