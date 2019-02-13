@@ -59,3 +59,5 @@ bool JobsManagerService::TaskFailed(int32_t job_id, int32_t task_id) {
         return false;
     }
     // new TaskFailedEvent
+    EventPtr event(new TaskFailedEvent(job_id, task_id));
+    // Push event into Queue
