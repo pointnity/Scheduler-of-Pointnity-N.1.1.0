@@ -63,3 +63,7 @@ bool JobsManagerService::TaskFailed(int32_t job_id, int32_t task_id) {
     // Push event into Queue
     EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
     return true;
+}
+
+bool JobsManagerService::TaskTimeout(int32_t job_id, int32_t task_id) {
+    if (job_id < 0 || task_id < 0) {
