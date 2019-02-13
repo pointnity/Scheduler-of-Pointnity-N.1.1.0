@@ -89,3 +89,7 @@ bool JobsManagerService::TaskMissed(int32_t job_id, int32_t task_id) {
 
 bool JobsManagerService::TaskStartError(int job_id, int task_id, int err_num) {
     return true;
+}
+
+bool JobsManagerService::UpdateImage(const string& user, const string& name, int size, bool is_update_all) {
+    // new UpdateImageEvent
