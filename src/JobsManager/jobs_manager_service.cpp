@@ -110,3 +110,6 @@ bool JobsManagerService::CreateApp(const string& user, const string& name) {
 int32_t JobsManagerService::GetWaitJobNumByGroupName(const string& group) {
     return GroupPoolI::Instance()->GetWaitingJobNumByGroup(group);
 }
+
+void JobsManagerService::GetGroupStateInfo(GroupStateInfo& group_info, const string& group_name) {
+    group_info = GroupPoolI::Instance()->GetGroupStateInfo(group_name);
