@@ -15,3 +15,4 @@
 #include "include/classad_attr.h"
 #include "JobsManager/task.h"
 #include "JobsManager/group_pool.h"
+#include "JobsManager/job_master.h"
