@@ -26,3 +26,6 @@ static Logger logger = Logger::getInstance("JobsManager");
 DECLARE_int32(max_restart_times);
 
 int32_t Task::s_max_times = 3;
+
+void Task::InitTaskInfo(TaskAdPtr ads, int32_t job_id, int32_t 
+                             task_id, int32_t submit_time) {
