@@ -32,3 +32,6 @@ void Task::InitTaskInfo(TaskAdPtr ads, int32_t job_id, int32_t
     // static init
     /* if (m_max_times = -1)
          m_max_times = FLAGS_max_restart_times;*/
+    // hard constraint   
+    m_taskad_hard_constraint = ads->taskad_hard_constraint;
+    m_job_id = job_id;
