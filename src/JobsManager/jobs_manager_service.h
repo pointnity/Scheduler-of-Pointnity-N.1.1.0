@@ -21,3 +21,5 @@ public:
     void GetJobId(vector<int32_t>& job_id_list);
     void GetTaskStateInfo(vector<TaskStateInfo>& task_state_info_list, int32_t job_id);
     int32_t GetWaitJobNumByGroupName(const string& group);
+    void GetGroupStateInfo(GroupStateInfo& group_info, const string& group_name); 
+
