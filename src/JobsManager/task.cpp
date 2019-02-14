@@ -11,3 +11,4 @@
 #include <gflags/gflags.h>
 
 #include "common/clynn/rpc.h"
+#include "include/proxy.h"
