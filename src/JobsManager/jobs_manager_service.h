@@ -18,3 +18,4 @@ using std::vector;
 class JobsManagerService : public JobsManagerIf {
 public:
     void SubmitJob(SubmitJobResult& result, const string& job_xml);
+    void GetJobId(vector<int32_t>& job_id_list);
