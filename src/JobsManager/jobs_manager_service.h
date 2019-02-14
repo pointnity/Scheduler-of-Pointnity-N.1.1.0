@@ -17,3 +17,4 @@ using std::vector;
 
 class JobsManagerService : public JobsManagerIf {
 public:
+    void SubmitJob(SubmitJobResult& result, const string& job_xml);
