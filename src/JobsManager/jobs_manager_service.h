@@ -32,3 +32,6 @@ public:
 
     bool UpdateImage(const string& user, const string& name, int size, bool is_update_all);
     bool CreateApp(const string& user, const string& name);
+};
+
+#endif
