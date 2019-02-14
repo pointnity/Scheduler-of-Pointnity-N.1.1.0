@@ -27,3 +27,4 @@ public:
     bool TaskFinished(int32_t job_id, int32_t task_id);
     bool TaskFailed(int32_t job_id, int32_t task_id);
     bool TaskMissed(int32_t job_id, int32_t task_id);
+    bool TaskTimeout(int32_t job_id, int32_t task_id);
