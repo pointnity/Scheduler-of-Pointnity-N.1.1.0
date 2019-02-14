@@ -19,3 +19,4 @@
 
 using log4cplus::Logger;
 using clynn::ReadLocker;
+using clynn::WriteLocker;
