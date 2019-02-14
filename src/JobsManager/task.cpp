@@ -16,3 +16,6 @@
 #include "JobsManager/task.h"
 #include "JobsManager/group_pool.h"
 #include "JobsManager/job_master.h"
+
+using log4cplus::Logger;
+using clynn::ReadLocker;
