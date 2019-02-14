@@ -37,3 +37,7 @@ void Task::InitTaskInfo(TaskAdPtr ads, int32_t job_id, int32_t
     m_job_id = job_id;
     m_taskad_hard_constraint->InsertAttr(ATTR_JOB_ID, job_id);
     // TODO 
+    // m_task_id = task_id;
+    // m_taskad_hard_constraint->InsertAttr(ATTR_TASK_ID, task_id);
+    m_taskad_hard_constraint->EvaluateAttrNumber(ATTR_TASK_ID, m_task_id);
+    m_taskad_hard_constraint->EvaluateAttrString(ATTR_GROUP, m_group_name);
