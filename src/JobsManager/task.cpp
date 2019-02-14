@@ -14,3 +14,4 @@
 #include "include/proxy.h"
 #include "include/classad_attr.h"
 #include "JobsManager/task.h"
+#include "JobsManager/group_pool.h"
