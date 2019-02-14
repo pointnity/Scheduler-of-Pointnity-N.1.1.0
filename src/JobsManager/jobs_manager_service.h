@@ -24,3 +24,4 @@ public:
     void GetGroupStateInfo(GroupStateInfo& group_info, const string& group_name); 
 
     bool TaskStarted(int32_t job_id, int32_t task_id);
+    bool TaskFinished(int32_t job_id, int32_t task_id);
