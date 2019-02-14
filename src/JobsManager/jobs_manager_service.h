@@ -10,3 +10,4 @@
 #define SRC_JOBS_MANAGER_SERVICE_H
 
 #include <vector>
+#include "proxy/JobsManager/gen-cpp/JobsManager.h"
