@@ -13,3 +13,4 @@
 #include "proxy/JobsManager/gen-cpp/JobsManager.h"
 
 using std::string;
+using std::vector;
