@@ -24,3 +24,5 @@ using clynn::WriteLocker;
 static Logger logger = Logger::getInstance("JobsManager");
 
 DECLARE_int32(max_restart_times);
+
+int32_t Task::s_max_times = 3;
