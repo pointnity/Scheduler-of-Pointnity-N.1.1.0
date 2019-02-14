@@ -20,3 +20,4 @@ public:
     void SubmitJob(SubmitJobResult& result, const string& job_xml);
     void GetJobId(vector<int32_t>& job_id_list);
     void GetTaskStateInfo(vector<TaskStateInfo>& task_state_info_list, int32_t job_id);
+    int32_t GetWaitJobNumByGroupName(const string& group);
