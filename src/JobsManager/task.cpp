@@ -22,3 +22,5 @@ using clynn::ReadLocker;
 using clynn::WriteLocker;
 
 static Logger logger = Logger::getInstance("JobsManager");
+
+DECLARE_int32(max_restart_times);
