@@ -29,3 +29,5 @@ public:
     bool TaskMissed(int32_t job_id, int32_t task_id);
     bool TaskTimeout(int32_t job_id, int32_t task_id);
     bool TaskStartError(int job_id, int task_id, int err_num);
+
+    bool UpdateImage(const string& user, const string& name, int size, bool is_update_all);
