@@ -45,3 +45,5 @@ void Task::InitTaskInfo(TaskAdPtr ads, int32_t job_id, int32_t
     m_taskad_hard_constraint->EvaluateAttrNumber(ATTR_SCHED_MODEL, m_sched_model);
     m_taskad_hard_constraint->EvaluateAttrNumber(ATTR_NEED_CPU, m_need_cpu);
     m_taskad_hard_constraint->EvaluateAttrNumber(ATTR_NEED_MEMORY, m_need_memory);
+    m_taskad_hard_constraint->EvaluateAttrNumber(ATTR_NEED_MEMORY, m_timeout);
+    m_timeout = m_timeout * 60;
