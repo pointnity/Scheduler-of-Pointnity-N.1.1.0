@@ -25,3 +25,4 @@ public:
 
     bool TaskStarted(int32_t job_id, int32_t task_id);
     bool TaskFinished(int32_t job_id, int32_t task_id);
+    bool TaskFailed(int32_t job_id, int32_t task_id);
