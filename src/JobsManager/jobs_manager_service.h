@@ -7,3 +7,4 @@
 *********************************/
 
 #ifndef SRC_JOBS_MANAGER_SERVICE_H
+#define SRC_JOBS_MANAGER_SERVICE_H
