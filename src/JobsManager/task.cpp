@@ -47,3 +47,8 @@ void Task::InitTaskInfo(TaskAdPtr ads, int32_t job_id, int32_t
     m_taskad_hard_constraint->EvaluateAttrNumber(ATTR_NEED_MEMORY, m_need_memory);
     m_taskad_hard_constraint->EvaluateAttrNumber(ATTR_NEED_MEMORY, m_timeout);
     m_timeout = m_timeout * 60;
+
+    m_restart_times = 0;
+    m_failed_times = 0;
+    m_timeout_times = 0;
+    m_missed_times = 0;
