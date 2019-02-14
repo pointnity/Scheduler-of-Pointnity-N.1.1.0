@@ -29,3 +29,6 @@ int32_t Task::s_max_times = 3;
 
 void Task::InitTaskInfo(TaskAdPtr ads, int32_t job_id, int32_t 
                              task_id, int32_t submit_time) {
+    // static init
+    /* if (m_max_times = -1)
+         m_max_times = FLAGS_max_restart_times;*/
