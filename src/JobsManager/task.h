@@ -22,3 +22,4 @@ using boost::enable_shared_from_this;
 using clynn::RWLock;
 
 class TaskAd {
+public:
