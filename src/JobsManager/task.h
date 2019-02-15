@@ -15,3 +15,5 @@
 #include "common/clynn/rwlock.h"
 #include "include/proxy.h"
 #include "JobsManager/job_enum.h"
+
+using std::list;
