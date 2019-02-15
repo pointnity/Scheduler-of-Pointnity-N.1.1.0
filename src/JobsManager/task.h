@@ -37,3 +37,5 @@ public:
         {
             ClassAdPtr soft_ad = ClassAdPtr(new ClassAd(*(*it)));
             soft_constraint_list.push_back(soft_ad);  
+        } 
+    }
