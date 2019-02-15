@@ -7,3 +7,4 @@
 *********************************/
 
 #ifndef JOBS_MANAGER_TASK_H
+#define JOBS_MANAGER_TASK_H
