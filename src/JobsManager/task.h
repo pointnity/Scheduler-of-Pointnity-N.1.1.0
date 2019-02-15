@@ -104,3 +104,4 @@ protected:
 
     list<AdjEdgePtr> m_adj_edge_list;
     int m_job_id;
+    int m_task_id;
