@@ -92,3 +92,5 @@ public:
     void GetTaskStateInfo(TaskStateInfo& task_state_info);
 
     void SetEsIp(const string& es_ip);
+
+    // TODO test
