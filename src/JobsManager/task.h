@@ -118,3 +118,8 @@ protected:
     int32_t m_raw_priority;
     int32_t m_sched_model;
     double m_need_cpu;
+    int32_t m_need_memory;   
+};
+
+typedef shared_ptr<Task> TaskPtr;
+#endif
