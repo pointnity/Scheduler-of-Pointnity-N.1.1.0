@@ -62,3 +62,5 @@ class Task : public enable_shared_from_this<Task> {
 public:
     virtual void InitTaskInfo(TaskAdPtr ad, int32_t job_id, int32_t task_id, int32_t submit_time = 0);
     void SetTaskHardClassAd();
+
+    TaskState GetTaskState();
