@@ -78,3 +78,5 @@ public:
     bool KillforFT();
     int32_t GetTaskId();
     int32_t GetJobId();
+    string GetGroupName();
+    int32_t GetRawPriority();
