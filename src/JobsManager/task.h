@@ -67,7 +67,7 @@ public:
     void SetTaskState(int32_t state);
     //void GetTaskStateInfo(const TaskStateInfo& task_state_info);
     bool StartTask(const string& endpoint, const string& taskad);
-    void TaskStarting();
+     void TaskStarting();
     void TaskStarted();
     void TaskFinished();
     void TaskFailed();
@@ -83,11 +83,3 @@ public:
     int32_t GetSchedModel();
     double GetNeedCpu();
     int32_t GetNeedMemory();
-    int32_t GetNeedMemory();
-
-    ClassAdPtr GetTaskHardClassAd();
-    list<ClassAdPtr> GetTaskSoftList();
-
-    void AdjEdgeListPushBack(const AdjEdgePtr& edge); 
-
-    void GetTaskStateInfo(TaskStateInfo& task_state_info);
