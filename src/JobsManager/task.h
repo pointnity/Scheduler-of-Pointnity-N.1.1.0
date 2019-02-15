@@ -45,3 +45,5 @@ public:
 };
 
 typedef shared_ptr<TaskAd> TaskAdPtr;
+
+class AdjEdge {
