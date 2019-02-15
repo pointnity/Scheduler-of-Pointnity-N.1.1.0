@@ -110,3 +110,6 @@ protected:
     int32_t m_restart_times;
     int32_t m_failed_times;   
     int32_t m_timeout_times;
+    int32_t m_missed_times;
+    static int32_t s_max_times;
+    string m_es_ip;
