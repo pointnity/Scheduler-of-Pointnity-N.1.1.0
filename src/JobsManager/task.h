@@ -69,3 +69,6 @@ public:
     bool StartTask(const string& endpoint, const string& taskad);
     void TaskStarting();
     void TaskStarted();
+    void TaskFinished();
+    void TaskFailed();
+    void TaskTimeout();
