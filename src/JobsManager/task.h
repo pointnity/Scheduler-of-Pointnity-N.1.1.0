@@ -87,3 +87,5 @@ public:
 
     ClassAdPtr GetTaskHardClassAd();
     list<ClassAdPtr> GetTaskSoftList();
+
+    void AdjEdgeListPushBack(const AdjEdgePtr& edge); 
