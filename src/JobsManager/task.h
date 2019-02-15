@@ -50,3 +50,5 @@ class AdjEdge {
 public:
     AdjEdge(int32_t e, int32_t w) {
         end = e;
+        weight = w;
+    }
