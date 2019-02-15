@@ -64,3 +64,4 @@ public:
     void SetTaskHardClassAd();
 
     TaskState GetTaskState();
+    void SetTaskState(int32_t state);
