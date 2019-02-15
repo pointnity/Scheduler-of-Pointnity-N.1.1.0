@@ -23,3 +23,4 @@ using clynn::RWLock;
 
 class TaskAd {
 public:
+    TaskAd() {
