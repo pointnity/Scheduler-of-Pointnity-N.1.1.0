@@ -84,3 +84,5 @@ public:
     double GetNeedCpu();
     int32_t GetNeedMemory();
     int32_t GetNeedMemory();
+
+    ClassAdPtr GetTaskHardClassAd();
