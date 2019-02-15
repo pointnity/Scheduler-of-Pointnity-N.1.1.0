@@ -80,3 +80,5 @@ public:
     int32_t GetJobId();
     string GetGroupName();
     int32_t GetRawPriority();
+    int32_t GetSchedModel();
+    double GetNeedCpu();
