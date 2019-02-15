@@ -85,3 +85,4 @@ public:
     int32_t GetNeedMemory();
 
     ClassAdPtr GetTaskHardClassAd();
+    list<ClassAdPtr> GetTaskSoftList();
