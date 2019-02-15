@@ -76,3 +76,5 @@ public:
     void RestartTask();
     bool IsTimeout();
     bool KillforFT();
+    int32_t GetTaskId();
+    int32_t GetJobId();
