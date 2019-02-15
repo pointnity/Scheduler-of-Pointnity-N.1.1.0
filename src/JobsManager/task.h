@@ -74,3 +74,5 @@ public:
     void TaskTimeout();
     void TaskMissed();
     void RestartTask();
+    bool IsTimeout();
+    bool KillforFT();
