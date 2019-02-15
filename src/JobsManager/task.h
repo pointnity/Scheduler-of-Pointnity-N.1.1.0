@@ -82,3 +82,4 @@ public:
     int32_t GetRawPriority();
     int32_t GetSchedModel();
     double GetNeedCpu();
+    int32_t GetNeedMemory();
