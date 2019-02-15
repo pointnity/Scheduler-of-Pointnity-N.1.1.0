@@ -35,3 +35,4 @@ public:
         for (list<ClassAdPtr>::const_iterator it = ads.soft_constraint_list.begin();  
              it != ads.soft_constraint_list.end(); ++it) 
         {
+            ClassAdPtr soft_ad = ClassAdPtr(new ClassAd(*(*it)));
