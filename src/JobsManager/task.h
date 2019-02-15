@@ -99,3 +99,6 @@ public:
 protected:
     ClassAdPtr m_taskad_hard_constraint;      // Task properties, including hard constraint requirements
     list<ClassAdPtr> m_soft_constraint_list;  // Soft constraint list
+    TaskState m_task_state;
+    RWLock m_lock; 
+
