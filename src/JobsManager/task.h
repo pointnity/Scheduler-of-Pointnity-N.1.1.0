@@ -73,3 +73,4 @@ public:
     void TaskFailed();
     void TaskTimeout();
     void TaskMissed();
+    void RestartTask();
