@@ -102,3 +102,5 @@ protected:
     TaskState m_task_state;
     RWLock m_lock; 
 
+    list<AdjEdgePtr> m_adj_edge_list;
+    int m_job_id;
