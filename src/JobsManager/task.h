@@ -39,3 +39,5 @@ public:
             soft_constraint_list.push_back(soft_ad);  
         } 
     }
+
+    ClassAdPtr taskad_hard_constraint;  //Task properties, including hard constraint requirements
