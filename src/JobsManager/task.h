@@ -105,3 +105,5 @@ protected:
     list<AdjEdgePtr> m_adj_edge_list;
     int m_job_id;
     int m_task_id;
+    time_t m_start_time;
+    int32_t m_timeout;
