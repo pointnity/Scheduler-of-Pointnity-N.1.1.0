@@ -30,3 +30,5 @@ public:
     // deep copy
     TaskAd(const TaskAd& ads) {
         // hard constraint
+        taskad_hard_constraint = ClassAdPtr(new ClassAd(*ads.taskad_hard_constraint));
+        // soft constraint list
