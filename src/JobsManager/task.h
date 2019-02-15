@@ -32,3 +32,5 @@ public:
         // hard constraint
         taskad_hard_constraint = ClassAdPtr(new ClassAd(*ads.taskad_hard_constraint));
         // soft constraint list
+        for (list<ClassAdPtr>::const_iterator it = ads.soft_constraint_list.begin();  
+             it != ads.soft_constraint_list.end(); ++it) 
