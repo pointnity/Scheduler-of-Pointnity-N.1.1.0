@@ -97,3 +97,4 @@ public:
     void PrintClassAds();
 
 protected:
+    ClassAdPtr m_taskad_hard_constraint;      // Task properties, including hard constraint requirements
