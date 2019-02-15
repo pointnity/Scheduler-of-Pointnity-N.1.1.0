@@ -94,3 +94,4 @@ public:
     void SetEsIp(const string& es_ip);
 
     // TODO test
+    void PrintClassAds();
