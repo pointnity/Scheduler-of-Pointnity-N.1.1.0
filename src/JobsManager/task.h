@@ -24,3 +24,4 @@ using clynn::RWLock;
 class TaskAd {
 public:
     TaskAd() {
+        taskad_hard_constraint = ClassAdPtr(new ClassAd());
