@@ -95,3 +95,5 @@ public:
 
     // TODO test
     void PrintClassAds();
+
+protected:
