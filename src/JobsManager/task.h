@@ -83,3 +83,4 @@ public:
     int32_t GetSchedModel();
     double GetNeedCpu();
     int32_t GetNeedMemory();
+    int32_t GetNeedMemory();
