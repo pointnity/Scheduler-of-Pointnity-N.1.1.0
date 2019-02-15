@@ -52,3 +52,4 @@ public:
         end = e;
         weight = w;
     }
+    int32_t end;
