@@ -18,3 +18,4 @@
 
 using std::list;
 using boost::shared_ptr;
+using boost::enable_shared_from_this;
