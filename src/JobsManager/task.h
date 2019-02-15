@@ -107,3 +107,6 @@ protected:
     int m_task_id;
     time_t m_start_time;
     int32_t m_timeout;
+    int32_t m_restart_times;
+    int32_t m_failed_times;   
+    int32_t m_timeout_times;
