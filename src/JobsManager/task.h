@@ -11,3 +11,4 @@
 
 #include <boost/shared_ptr.hpp>
 #include <boost/enable_shared_from_this.hpp>
+#include "common/classad/classad_complement.h"
