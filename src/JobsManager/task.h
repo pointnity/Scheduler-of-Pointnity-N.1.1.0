@@ -54,3 +54,6 @@ public:
     }
     int32_t end;
     int32_t weight;
+}; 
+
+typedef shared_ptr<AdjEdge> AdjEdgePtr;
