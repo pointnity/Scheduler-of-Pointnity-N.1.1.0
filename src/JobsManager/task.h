@@ -34,3 +34,4 @@ public:
         // soft constraint list
         for (list<ClassAdPtr>::const_iterator it = ads.soft_constraint_list.begin();  
              it != ads.soft_constraint_list.end(); ++it) 
+        {
