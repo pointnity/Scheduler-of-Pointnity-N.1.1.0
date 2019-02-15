@@ -65,3 +65,4 @@ public:
 
     TaskState GetTaskState();
     void SetTaskState(int32_t state);
+    //void GetTaskStateInfo(const TaskStateInfo& task_state_info);
