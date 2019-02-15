@@ -41,3 +41,4 @@ public:
     }
 
     ClassAdPtr taskad_hard_constraint;  //Task properties, including hard constraint requirements
+    list<ClassAdPtr> soft_constraint_list; //Soft constraint list
