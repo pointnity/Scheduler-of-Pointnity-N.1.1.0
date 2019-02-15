@@ -113,3 +113,6 @@ protected:
     int32_t m_missed_times;
     static int32_t s_max_times;
     string m_es_ip;
+
+    string m_group_name;
+    int32_t m_raw_priority;
