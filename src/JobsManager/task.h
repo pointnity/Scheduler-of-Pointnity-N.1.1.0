@@ -88,3 +88,5 @@ public:
     list<ClassAdPtr> GetTaskSoftList();
 
     void AdjEdgeListPushBack(const AdjEdgePtr& edge); 
+
+    void GetTaskStateInfo(TaskStateInfo& task_state_info);
