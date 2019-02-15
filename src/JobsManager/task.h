@@ -57,3 +57,6 @@ public:
 }; 
 
 typedef shared_ptr<AdjEdge> AdjEdgePtr;
+
+class Task : public enable_shared_from_this<Task> {
+public:
