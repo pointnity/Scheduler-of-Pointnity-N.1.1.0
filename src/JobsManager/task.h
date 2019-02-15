@@ -10,3 +10,4 @@
 #define JOBS_MANAGER_TASK_H
 
 #include <boost/shared_ptr.hpp>
+#include <boost/enable_shared_from_this.hpp>
