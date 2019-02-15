@@ -28,3 +28,4 @@ public:
     }
 
     // deep copy
+    TaskAd(const TaskAd& ads) {
