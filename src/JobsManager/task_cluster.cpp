@@ -45,3 +45,5 @@ void Task::PrintClassAds() {
 }
 
 ClassAdPtr Task::GetTaskHardClassAd() {
+    return m_taskad_hard_constraint;
+}
