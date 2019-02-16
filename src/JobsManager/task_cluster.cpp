@@ -39,3 +39,4 @@ void Task::PrintClassAds() {
          it != m_soft_constraint_list.end(); ++it)
     {
         string str_soft_classad = ClassAdComplement::AdTostring(*it);
+        printf("task soft classad: %s\n", str_soft_classad.c_str());
