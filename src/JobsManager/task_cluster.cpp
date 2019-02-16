@@ -19,3 +19,6 @@ TaskStatus Task::GetTaskStatus() {
 void Task::SetTaskStatus(int32_t status) {
     WriteLocker locker(lock);
     m_task_status = TaskStatus(status);
+}
+
+int Task::GetTaskId() {
