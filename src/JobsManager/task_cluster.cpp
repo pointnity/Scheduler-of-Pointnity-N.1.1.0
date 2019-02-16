@@ -10,3 +10,5 @@
 
 using clynn::ReadLocker;
 using clynn::WriteLocker;
+
+TaskStatus Task::GetTaskStatus() {
