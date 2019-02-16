@@ -22,3 +22,4 @@ void Task::SetTaskStatus(int32_t status) {
 }
 
 int Task::GetTaskId() {
+    return m_task_id;
