@@ -14,3 +14,4 @@
 #include "common/clynn/rwlock.h"
 #include "JobsManager/job_enum.h"
 
+using std::list;
