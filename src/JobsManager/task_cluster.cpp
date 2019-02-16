@@ -14,3 +14,6 @@ using clynn::WriteLocker;
 TaskStatus Task::GetTaskStatus() {
     ReadLocker locker(lock);
     return m_task_status;
+}
+
+void Task::SetTaskStatus(int32_t status) {
