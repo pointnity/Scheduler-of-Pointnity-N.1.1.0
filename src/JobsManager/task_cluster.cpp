@@ -7,3 +7,5 @@
 *********************************/
 
 #include "JobsManager/task.h"
+
+using clynn::ReadLocker;
