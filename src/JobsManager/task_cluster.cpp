@@ -43,3 +43,5 @@ void Task::PrintClassAds() {
     }
  
 }
+
+ClassAdPtr Task::GetTaskHardClassAd() {
