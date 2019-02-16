@@ -22,3 +22,6 @@ class TaskCluster {
 public:
 private:
     list<TaskPtr> m_task_list;
+};
+
+typedef shared_ptr<TaskCluster> TaskClusterPtr;
