@@ -15,3 +15,4 @@
 #include "JobsManager/job_enum.h"
 
 using std::list;
+using boost::shared_ptr;
