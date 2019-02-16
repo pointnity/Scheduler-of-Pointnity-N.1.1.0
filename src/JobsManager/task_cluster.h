@@ -10,3 +10,4 @@
 #define JOBS_MANAGER_TASK_CLUSTER_H
 
 #include <boost/shared_ptr.hpp>
+#include "common/classad/classad_complement.h"
