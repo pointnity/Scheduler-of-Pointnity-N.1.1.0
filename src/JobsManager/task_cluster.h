@@ -25,3 +25,5 @@ private:
 };
 
 typedef shared_ptr<TaskCluster> TaskClusterPtr;
+
+#endif
