@@ -49,3 +49,5 @@ ClassAdPtr Task::GetTaskHardClassAd() {
 }
 
 list<ClassAdPtr> Task::GetTaskSoftList() {
+    return m_soft_constraint_list;
+}
