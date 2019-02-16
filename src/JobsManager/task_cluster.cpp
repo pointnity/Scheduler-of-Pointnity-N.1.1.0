@@ -35,3 +35,4 @@ void Task::PrintClassAds() {
     printf("task hard classad: %s\n", str_hard_classad.c_str());
 
     // soft constraint list
+    for (list<ClassAdPtr>::iterator it = m_soft_constraint_list.begin();
