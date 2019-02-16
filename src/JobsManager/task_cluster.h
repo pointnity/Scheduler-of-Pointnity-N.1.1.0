@@ -21,3 +21,4 @@ using clynn::RWLock;
 class TaskCluster {
 public:
 private:
+    list<TaskPtr> m_task_list;
