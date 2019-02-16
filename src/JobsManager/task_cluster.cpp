@@ -37,3 +37,4 @@ void Task::PrintClassAds() {
     // soft constraint list
     for (list<ClassAdPtr>::iterator it = m_soft_constraint_list.begin();
          it != m_soft_constraint_list.end(); ++it)
+    {
