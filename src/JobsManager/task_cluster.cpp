@@ -31,3 +31,5 @@ int Task::GetJobId() {
 
 void Task::PrintClassAds() {
     // hard constraint
+   string str_hard_classad = ClassAdComplement::AdTostring(m_taskad_hard_constraint);
+    printf("task hard classad: %s\n", str_hard_classad.c_str());
