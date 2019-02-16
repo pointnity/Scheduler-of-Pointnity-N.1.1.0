@@ -27,3 +27,6 @@ int Task::GetTaskId() {
 
 int Task::GetJobId() {
     return m_job_id;
+}
+
+void Task::PrintClassAds() {
