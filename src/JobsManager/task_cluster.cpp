@@ -30,3 +30,4 @@ int Task::GetJobId() {
 }
 
 void Task::PrintClassAds() {
+    // hard constraint
