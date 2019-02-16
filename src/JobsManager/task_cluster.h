@@ -17,3 +17,5 @@
 using std::list;
 using boost::shared_ptr;
 using clynn::RWLock;
+
+class TaskCluster {
