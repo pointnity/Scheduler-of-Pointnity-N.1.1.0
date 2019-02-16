@@ -9,3 +9,4 @@
 #include "JobsManager/task.h"
 
 using clynn::ReadLocker;
+using clynn::WriteLocker;
