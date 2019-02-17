@@ -28,3 +28,4 @@ int32_t WDScheduler::ScheduleOneJob(JobPtr& job_ptr) {
     printf("WideDistribution\n");
 
     bool has_success = false;
+    bool has_no_success = false;
