@@ -40,3 +40,5 @@ int32_t WDScheduler::ScheduleOneJob(JobPtr& job_ptr) {
         }
 
         if (ScheduleOneTask(*it) != 0) {
+            has_no_success = true; // has task no success
+        } else {
