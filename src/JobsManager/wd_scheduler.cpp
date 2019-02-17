@@ -11,3 +11,4 @@ FileName: JobsManager/wd_scheduler.cpp
 #include <gflags/gflags.h>
 
 #include "common/clynn/timer.h"
+#include "common/clynn/rpc.h"
