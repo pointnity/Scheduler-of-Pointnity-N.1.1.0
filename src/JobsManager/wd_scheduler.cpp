@@ -13,3 +13,4 @@ FileName: JobsManager/wd_scheduler.cpp
 #include "common/clynn/timer.h"
 #include "common/clynn/rpc.h"
 #include "common/classad/classad_complement.h"
+#include "include/classad_attr.h"
