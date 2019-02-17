@@ -16,3 +16,5 @@ FileName: JobsManager/wd_scheduler.cpp
 #include "include/classad_attr.h"
 
 #include "JobsManager/wd_scheduler.h"
+
+DECLARE_string(resource_scheduler_endpoint);
