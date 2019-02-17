@@ -36,3 +36,5 @@ int32_t WDScheduler::ScheduleOneJob(JobPtr& job_ptr) {
     {
         // only schedule waiting task
        if((*it)->GetTaskState() != TASK_WAITING) {
+            continue;
+        }
