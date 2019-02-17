@@ -65,3 +65,16 @@ int32_t WDScheduler::ScheduleOneTask(const TaskPtr& task_ptr) {
     // set task_ad & hard constraints
     ClassAdPtr taskad_hard_constraint(new ClassAd(*task_ptr->GetTaskHardClassAd()));
     string taskad_hard = ClassAdComplement::AdTostring(taskad_hard_constraint);
+
+    // set soft constraints
+    vector<string> soft_list;
+    list<ClassAdPtr> classad_soft_list = task_ptr->GetTaskSoftList();
+    for (list<ClassAdPtr>::iterator it = classad_soft_list.begin();
+         it != classad_soft_list.end(); ++it)
+    {
+        string soft_constraint = ClassAdComplement::AdTostring(*it);
+        soft_list.push_back(soft_constraint);
+    }
+    
+    // read map & set soft constraints
+    int32_t task_id = task_ptr->GetTaskId();
