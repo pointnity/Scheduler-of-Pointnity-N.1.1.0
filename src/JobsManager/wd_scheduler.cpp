@@ -38,3 +38,5 @@ int32_t WDScheduler::ScheduleOneJob(JobPtr& job_ptr) {
        if((*it)->GetTaskState() != TASK_WAITING) {
             continue;
         }
+
+        if (ScheduleOneTask(*it) != 0) {
