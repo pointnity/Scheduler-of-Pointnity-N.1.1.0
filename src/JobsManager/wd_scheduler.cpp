@@ -54,3 +54,4 @@ int32_t WDScheduler::ScheduleOneJob(JobPtr& job_ptr) {
         // partly tasks success
         job_ptr->SetState(JOB_SCHEDULING);
         return -1;
+    } else {
