@@ -59,3 +59,7 @@ int32_t WDScheduler::ScheduleOneJob(JobPtr& job_ptr) {
         return -2;
     }
     return 0;
+}
+
+int32_t WDScheduler::ScheduleOneTask(const TaskPtr& task_ptr) {
+    // set task_ad & hard constraints
