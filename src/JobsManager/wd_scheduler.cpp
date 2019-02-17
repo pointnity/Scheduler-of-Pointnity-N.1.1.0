@@ -78,3 +78,27 @@ int32_t WDScheduler::ScheduleOneTask(const TaskPtr& task_ptr) {
     
     // read map & set soft constraints
     int32_t task_id = task_ptr->GetTaskId();
+    int32_t job_id = task_ptr->GetJobId();
+    JobPtr job_ptr = JobPoolI::Instance()->GetJobPtr(job_id);
+    if (NULL == job_ptr) {
+        LOG4CPLUS_ERROR(logger, "No this job, job_id: " << job_id); 
+    }
+    list<string> wd_soft_list = job_ptr->ReadMapAndGetSoftList(task_id);
+    for (list<string>::iterator it = wd_soft_list.begin();
+         it != wd_soft_list.end(); ++it)
+    {
+        soft_list.push_back(*it);
+    } 
+
+    // test print
+    for (vector<string>::iterator it = soft_list.begin();
+         it != soft_list.end(); ++it)
+    {
+        printf("soft: %s\n", (*it).c_str());
+    }
+
+    // match
+    string result;
+    if (SendRequestConstraint(taskad_hard, soft_list, result) != 0) {        
+        LOG4CPLUS_ERROR(logger, "Matching task exception, job_id: " << job_id << ", task_id: " << task_id);
+        return -1;
