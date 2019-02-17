@@ -34,3 +34,4 @@ int32_t WDScheduler::ScheduleOneJob(JobPtr& job_ptr) {
     for (list<TaskPtr>::const_iterator it = task_list.begin();
         it != task_list.end(); ++it)
     {
+        // only schedule waiting task
