@@ -32,3 +32,5 @@ int32_t WDScheduler::ScheduleOneJob(JobPtr& job_ptr) {
 
     list<TaskPtr> task_list = job_ptr->GetTaskList();
     for (list<TaskPtr>::const_iterator it = task_list.begin();
+        it != task_list.end(); ++it)
+    {
