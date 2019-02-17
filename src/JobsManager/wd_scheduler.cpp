@@ -102,3 +102,31 @@ int32_t WDScheduler::ScheduleOneTask(const TaskPtr& task_ptr) {
     if (SendRequestConstraint(taskad_hard, soft_list, result) != 0) {        
         LOG4CPLUS_ERROR(logger, "Matching task exception, job_id: " << job_id << ", task_id: " << task_id);
         return -1;
+    }
+    if ("" == result) {
+        LOG4CPLUS_ERROR(logger, "Matching task result is nothing, job_id: " << job_id << ", task_id: " << task_id);
+        return -1;
+    }
+    printf("Match result:\n job_id: %d, task_id: %d, result: %s\n", job_id, task_id, result.c_str());  
+
+    // new action event
+    EventPtr event(new StartTaskEvent(job_id, task_id, result, taskad_hard));
+    // Push event into Queue
+    EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event); 
+    
+    // write map & task
+    vector<string> vec_ip_port;
+    StringUtility::Split(result.c_str(), vec_ip_port, ":");
+    if (vec_ip_port.size() != 2) {
+        LOG4CPLUS_ERROR(logger, "result is illegal" << result);
+        return -1;
+    }
+    job_ptr->WriteMap(task_id, vec_ip_port[0]);
+    task_ptr->SetEsIp(vec_ip_port[0]);
+
+    // add used resource
+    GroupPoolI::Instance()->AddUsedResource(task_ptr);
+    task_ptr->TaskStarting();
+
+    return 0;
+}
