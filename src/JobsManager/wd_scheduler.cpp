@@ -47,3 +47,4 @@ int32_t WDScheduler::ScheduleOneJob(JobPtr& job_ptr) {
     }
 
     if (!has_no_success) {
+        // all tasks success
