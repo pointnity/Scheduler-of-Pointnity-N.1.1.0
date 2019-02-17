@@ -26,3 +26,5 @@ static Logger logger = Logger::getInstance("JobsManager");
 
 int32_t WDScheduler::ScheduleOneJob(JobPtr& job_ptr) {
     printf("WideDistribution\n");
+
+    bool has_success = false;
