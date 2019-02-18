@@ -10,3 +10,5 @@
 #define JOBS_MANAGER_WD_SCHEDULER_H
 
 #include "JobsManager/job_scheduler.h"
+
+class WDScheduler : public JobScheduler{
