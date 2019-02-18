@@ -57,3 +57,6 @@ void* JobProcessorThread(void* unused) {
         // GroupPoolI::Instance()->AddUsedResource();
 
         // new JobMaster & schedule
+        JobMaster job_master(GroupPoolI::Instance()->GetNavigatingJob());
+        int32_t rc = job_master.Schedule();
+        if (rc != 0) {
