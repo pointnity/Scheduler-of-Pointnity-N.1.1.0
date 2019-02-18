@@ -19,3 +19,6 @@ using std::tr1::bind;
 using std::tr1::placeholders::_1;
 
 static Logger logger = Logger::getInstance("JobsManager");
+
+void* NewJobThread(void* ununsed) {
+    while (true) {
