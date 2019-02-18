@@ -29,3 +29,5 @@ void* NewJobThread(void* ununsed) {
             job->SetState(JOB_FAILED);
             JobPoolI::Instance()->HistoryJobListPushBack(job);
         }
+    }
+    return NULL;
