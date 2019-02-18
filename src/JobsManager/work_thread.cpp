@@ -22,3 +22,6 @@ static Logger logger = Logger::getInstance("JobsManager");
 
 void* NewJobThread(void* ununsed) {
     while (true) {
+        JobPtr job;
+        NewJobList::Instance()->PopFront(&job);
+        job->SetWaitTime();
