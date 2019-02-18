@@ -87,3 +87,6 @@ void* TaskCheckerThread(void* ununsed) {
         sleep(600);
     }
     return NULL;
+}
+
+void* JobStateUpdaterThread(void* ununsed) {
