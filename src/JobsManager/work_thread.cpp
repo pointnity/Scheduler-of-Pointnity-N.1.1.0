@@ -44,3 +44,6 @@ void* NewJobThread(void* ununsed) {
     }
     return NULL;
 }*/
+
+void* JobProcessorThread(void* unused) {
+    while (true) {
