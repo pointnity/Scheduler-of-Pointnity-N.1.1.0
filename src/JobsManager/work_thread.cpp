@@ -52,3 +52,8 @@ void* JobProcessorThread(void* unused) {
             // no job
             usleep(1000); 
             continue;
+        }
+        // add used resource according to group
+        // GroupPoolI::Instance()->AddUsedResource();
+
+        // new JobMaster & schedule
