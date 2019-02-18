@@ -25,3 +25,5 @@ void* NewJobThread(void* ununsed) {
         JobPtr job;
         NewJobList::Instance()->PopFront(&job);
         job->SetWaitTime();
+        if (!GroupPoolI::Instance()->AddJobToWaitQueue(job)){
+            job->SetState(JOB_FAILED);
