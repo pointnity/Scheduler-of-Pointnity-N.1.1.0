@@ -65,3 +65,5 @@ void* JobProcessorThread(void* unused) {
             // -2: all tasks no success
             LOG4CPLUS_ERROR(logger, "Failed to Make Resource Request.");
             if (rc == -1)
+                GroupPoolI::Instance()->MoveNavigatingJobToWaitQueue(true);
+            else
