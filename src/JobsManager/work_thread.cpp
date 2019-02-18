@@ -31,3 +31,7 @@ void* NewJobThread(void* ununsed) {
         }
     }
     return NULL;
+}
+
+/* void* JobSelectorThread(void* unused) {
+    while(true) {
