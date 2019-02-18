@@ -69,3 +69,4 @@ void* JobProcessorThread(void* unused) {
             else
                 GroupPoolI::Instance()->MoveNavigatingJobToWaitQueue(); 
             usleep(1000);
+            continue;
