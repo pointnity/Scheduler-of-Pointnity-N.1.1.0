@@ -93,3 +93,6 @@ void* JobStateUpdaterThread(void* ununsed) {
     while (true) {
         JobPoolI::Instance()->UpdateJobState();
         sleep(60*2);
+    }
+    return NULL;
+}
