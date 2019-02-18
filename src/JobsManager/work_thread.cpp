@@ -38,3 +38,5 @@ void* NewJobThread(void* ununsed) {
         JobSelector selector;
         if (selector.SelectJob() == false) {
             // TODO
+            usleep(1000);
+            continue;
