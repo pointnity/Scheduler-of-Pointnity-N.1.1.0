@@ -79,3 +79,7 @@ void* JobProcessorThread(void* unused) {
         GroupPoolI::Instance()->PrintAll();
     }
     return NULL;
+}
+
+void* TaskCheckerThread(void* ununsed) {
+    while (true) {        
