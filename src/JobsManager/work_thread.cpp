@@ -73,3 +73,6 @@ void* JobProcessorThread(void* unused) {
         }
 
         // move navigating job to run queue
+        GroupPoolI::Instance()->MoveNavigatingJobToRunQueue();
+
+        // test TODO
