@@ -90,3 +90,4 @@ void* TaskCheckerThread(void* ununsed) {
 }
 
 void* JobStateUpdaterThread(void* ununsed) {
+    while (true) {
