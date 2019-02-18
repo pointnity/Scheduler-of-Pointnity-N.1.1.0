@@ -60,6 +60,8 @@ void* JobProcessorThread(void* unused) {
         JobMaster job_master(GroupPoolI::Instance()->GetNavigatingJob());
         int32_t rc = job_master.Schedule();
         if (rc != 0) {
-           //  0: all tasks success
+            //  0: all tasks success
             // -1: partly tasks success
             // -2: all tasks no success
+            LOG4CPLUS_ERROR(logger, "Failed to Make Resource Request.");
+            if (rc == -1)
