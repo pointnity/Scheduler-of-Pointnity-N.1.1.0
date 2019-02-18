@@ -76,3 +76,6 @@ void* JobProcessorThread(void* unused) {
         GroupPoolI::Instance()->MoveNavigatingJobToRunQueue();
 
         // test TODO
+        GroupPoolI::Instance()->PrintAll();
+    }
+    return NULL;
