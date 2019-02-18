@@ -36,3 +36,5 @@ void* NewJobThread(void* ununsed) {
 /* void* JobSelectorThread(void* unused) {
     while(true) {
         JobSelector selector;
+        if (selector.SelectJob() == false) {
+            // TODO
