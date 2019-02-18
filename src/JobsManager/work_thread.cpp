@@ -50,3 +50,5 @@ void* JobProcessorThread(void* unused) {
         // select one job -> navigating job
         if (!GroupPoolI::Instance()->SelectJobToNavigatingJob()) {
             // no job
+            usleep(1000); 
+            continue;
