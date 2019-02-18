@@ -83,3 +83,5 @@ void* JobProcessorThread(void* unused) {
 
 void* TaskCheckerThread(void* ununsed) {
     while (true) {        
+        JobPoolI::Instance()->CheckJobs();
+        sleep(600);
