@@ -47,3 +47,6 @@ void* NewJobThread(void* ununsed) {
 
 void* JobProcessorThread(void* unused) {
     while (true) {
+        // select one job -> navigating job
+        if (!GroupPoolI::Instance()->SelectJobToNavigatingJob()) {
+            // no job
