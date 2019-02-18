@@ -40,3 +40,5 @@ void* NewJobThread(void* ununsed) {
             // TODO
             usleep(1000);
             continue;
+       }
+    }
