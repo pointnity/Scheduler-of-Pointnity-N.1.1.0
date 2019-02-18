@@ -27,3 +27,5 @@ void* NewJobThread(void* ununsed) {
         job->SetWaitTime();
         if (!GroupPoolI::Instance()->AddJobToWaitQueue(job)){
             job->SetState(JOB_FAILED);
+            JobPoolI::Instance()->HistoryJobListPushBack(job);
+        }
