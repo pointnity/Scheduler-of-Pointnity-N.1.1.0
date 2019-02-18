@@ -15,3 +15,4 @@
 #include "JobsManager/job_master.h"
 
 using log4cplus::Logger;
+using std::tr1::bind;
