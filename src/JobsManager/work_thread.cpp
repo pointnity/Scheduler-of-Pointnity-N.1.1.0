@@ -42,3 +42,5 @@ void* NewJobThread(void* ununsed) {
             continue;
        }
     }
+    return NULL;
+}*/
