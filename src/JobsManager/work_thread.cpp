@@ -11,3 +11,4 @@
 #include <tr1/functional>
 
 #include "JobsManager/job_pool.h"
+#include "JobsManager/group_pool.h"
