@@ -16,3 +16,6 @@ public:
     WDScheduler() : JobScheduler(WIDE_DISTRIBUTION) {}
     int32_t ScheduleOneJob(JobPtr& job_ptr);
     int32_t ScheduleOneTask(const TaskPtr& task_ptr);
+};
+
+#endif
