@@ -14,3 +14,4 @@
 class WDScheduler : public JobScheduler{
 public:
     WDScheduler() : JobScheduler(WIDE_DISTRIBUTION) {}
+    int32_t ScheduleOneJob(JobPtr& job_ptr);
