@@ -13,3 +13,4 @@
 
 class WDScheduler : public JobScheduler{
 public:
+    WDScheduler() : JobScheduler(WIDE_DISTRIBUTION) {}
