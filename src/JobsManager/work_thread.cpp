@@ -91,3 +91,5 @@ void* TaskCheckerThread(void* ununsed) {
 
 void* JobStateUpdaterThread(void* ununsed) {
     while (true) {
+        JobPoolI::Instance()->UpdateJobState();
+        sleep(60*2);
