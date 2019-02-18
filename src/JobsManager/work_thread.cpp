@@ -35,3 +35,4 @@ void* NewJobThread(void* ununsed) {
 
 /* void* JobSelectorThread(void* unused) {
     while(true) {
+        JobSelector selector;
