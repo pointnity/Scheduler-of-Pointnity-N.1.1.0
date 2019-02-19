@@ -70,4 +70,3 @@ TARGET_LINK_LIBRARIES(ResourceScheduler gflags)
 #TARGET_LINK_LIBRARIES(ResourceScheduler zookeeper_mt)
 
 INSTALL(TARGETS ResourceScheduler RUNTIME DESTINATION bin)
-© 2019 GitHub, Inc.
