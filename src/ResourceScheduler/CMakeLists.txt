@@ -34,3 +34,5 @@ SET(EXECUTOR_THRIFT_SOURCE
     ${THRIFT_SOURCE_PREFIX}/executor/gen-cpp/executor_types.h
     ${THRIFT_SOURCE_PREFIX}/executor/gen-cpp/executor_types.cpp
     ${THRIFT_SOURCE_PREFIX}/executor/gen-cpp/Executor.h
+    ${THRIFT_SOURCE_PREFIX}/executor/gen-cpp/Executor.cpp)
+ADD_CUSTOM_COMMAND (
