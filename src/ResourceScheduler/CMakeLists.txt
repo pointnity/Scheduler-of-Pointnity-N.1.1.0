@@ -50,3 +50,4 @@ SET(SRC
     ${EXECUTOR_THRIFT_SOURCE}
     #${VMWORKER_THRIFT_SOURCE}
     machine.cpp
+    work_thread.cpp
