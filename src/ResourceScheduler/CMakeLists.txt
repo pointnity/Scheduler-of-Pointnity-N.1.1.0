@@ -64,3 +64,4 @@ ADD_EXECUTABLE(ResourceScheduler ${SRC})
 
 TARGET_LINK_LIBRARIES(ResourceScheduler thrift)
 TARGET_LINK_LIBRARIES(ResourceScheduler pthread)
+TARGET_LINK_LIBRARIES(ResourceScheduler log4cplus)
