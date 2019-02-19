@@ -52,3 +52,4 @@ SET(SRC
     machine.cpp
     work_thread.cpp
     match_maker.cpp
+    resource_scheduler_service.cpp
