@@ -56,3 +56,4 @@ SET(SRC
     resource_scheduler_engine.cpp
     match_list.cpp
     event.cpp
+    dispatcher.cpp
