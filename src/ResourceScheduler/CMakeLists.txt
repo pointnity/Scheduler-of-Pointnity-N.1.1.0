@@ -58,3 +58,4 @@ SET(SRC
     event.cpp
     dispatcher.cpp
     handler.cpp
+    resource_scheduler_main.cpp)
