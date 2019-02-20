@@ -20,3 +20,5 @@ public:
     void Register(RSEventType::type type, Handler* handler);
     Handler* Dispatch(RSEventType::type type);
 private:
+    map<RSEventType::type, Handler*> m_handler_map;
+};
