@@ -10,3 +10,4 @@
 #define SRC_RESOURCE_SCHEDULER_DISPATCHER_H
 
 #include <map>
+#include "common/clynn/singleton.h"
