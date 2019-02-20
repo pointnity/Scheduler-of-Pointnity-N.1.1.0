@@ -16,3 +16,6 @@
 using log4cplus::Logger;
 
 static Logger logger = Logger::getInstance("ResourceScheduler");
+
+
+/*machine event handle*/
