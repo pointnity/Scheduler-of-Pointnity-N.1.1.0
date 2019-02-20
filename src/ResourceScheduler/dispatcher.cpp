@@ -14,3 +14,5 @@ void Dispatcher::Register(RSEventType::type type, Handler* handler) {
 }
 
 Handler* Dispatcher::Dispatch(RSEventType::type type) {
+    return m_handler_map[type];
+}
