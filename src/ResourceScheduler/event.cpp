@@ -25,3 +25,7 @@ bool MachineUpdateEvent::Handle() {
     if(COLLECTOR_ENGINE::Instance()->NewUpdateMachine(heartbeat_ad, task_list) != 0) {
 	LOG4CPLUS_ERROR(logger, "Failed to update a machine:" <<heartbeat_ad );
     }
+}
+
+
+bool MachineDeleteEvent::Handle() {
