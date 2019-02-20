@@ -19,3 +19,4 @@ static Logger logger = Logger::getInstance("ResourceScheduler");
 
 
 /*machine event handle*/
+bool MachineUpdateEvent::Handle() {
