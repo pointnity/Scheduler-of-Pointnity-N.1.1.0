@@ -14,3 +14,5 @@
 #include "ResourceScheduler/handler.h"
 
 using std::map;
+
+class Dispatcher {
