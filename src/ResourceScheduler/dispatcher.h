@@ -11,3 +11,4 @@
 
 #include <map>
 #include "common/clynn/singleton.h"
+#include "ResourceScheduler/handler.h"
