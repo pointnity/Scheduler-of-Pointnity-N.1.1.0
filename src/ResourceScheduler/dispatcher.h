@@ -17,4 +17,5 @@ using std::map;
 
 class Dispatcher {
 public:
-   void Register(RSEventType::type type, Handler* handler);
+    void Register(RSEventType::type type, Handler* handler);
+    Handler* Dispatch(RSEventType::type type);
