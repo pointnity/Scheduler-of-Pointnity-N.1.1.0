@@ -7,3 +7,5 @@
 *********************************/
 
 #include "ResourceScheduler/dispatcher.h"
+
+// register <EventType::type, Handler*>
