@@ -29,3 +29,8 @@ bool MachineUpdateEvent::Handle() {
 
 
 bool MachineDeleteEvent::Handle() {
+    string ip = GetIp();
+    if(COLLECTOR_ENGINE::Instance()->DeleteMachine(ip) != 0) {
+	LOG4CPLUS_ERROR(logger, "Failed to delete a machine:" <<ip );
+    }
+}
