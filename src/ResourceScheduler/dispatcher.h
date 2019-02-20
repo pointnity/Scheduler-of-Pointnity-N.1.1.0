@@ -17,3 +17,4 @@ using std::map;
 
 class Dispatcher {
 public:
+   void Register(RSEventType::type type, Handler* handler);
