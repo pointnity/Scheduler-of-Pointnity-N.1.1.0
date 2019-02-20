@@ -9,3 +9,4 @@
 #include "ResourceScheduler/dispatcher.h"
 
 // register <EventType::type, Handler*>
+void Dispatcher::Register(RSEventType::type type, Handler* handler) {
