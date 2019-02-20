@@ -20,3 +20,5 @@ static Logger logger = Logger::getInstance("ResourceScheduler");
 
 /*machine event handle*/
 bool MachineUpdateEvent::Handle() {
+    string heartbeat_ad = GetHeartbeatAd();
+    vector<string> task_list = GetTaskList();
