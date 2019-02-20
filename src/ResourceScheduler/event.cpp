@@ -14,3 +14,5 @@
 #include "ResourceScheduler/resource_scheduler_engine.h"
 
 using log4cplus::Logger;
+
+static Logger logger = Logger::getInstance("ResourceScheduler");
