@@ -11,3 +11,6 @@
 #include <gflags/gflags.h>
 
 #include "ResourceScheduler/event.h"
+#include "ResourceScheduler/resource_scheduler_engine.h"
+
+using log4cplus::Logger;
