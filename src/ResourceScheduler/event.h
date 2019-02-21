@@ -31,3 +31,8 @@ public:
     }
 private:
     RSEventType::type m_type;
+};
+
+
+
+class MachineUpdateEvent : public Event {
