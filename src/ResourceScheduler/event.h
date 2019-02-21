@@ -63,3 +63,5 @@ public:
     bool Handle();
     string GetIp() const {
         return m_ip;
+    }
+private:
