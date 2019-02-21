@@ -15,3 +15,4 @@
 #include "common/clynn/block_queue.h"
 
 #include "include/proxy.h"
+#include "include/type.h"
