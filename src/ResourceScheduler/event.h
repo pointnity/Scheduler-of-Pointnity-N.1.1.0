@@ -10,3 +10,4 @@
 #define SRC_RESOURCE_SCHEDULER_EVENT_H
 
 #include <string>
+#include <boost/shared_ptr.hpp>
