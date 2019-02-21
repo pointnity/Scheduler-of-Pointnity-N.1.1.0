@@ -62,3 +62,4 @@ public:
     ~MachineDeleteEvent() {}
     bool Handle();
     string GetIp() const {
+        return m_ip;
