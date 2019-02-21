@@ -36,3 +36,4 @@ private:
 
 
 class MachineUpdateEvent : public Event {
+public:
