@@ -71,3 +71,5 @@ private:
 
 typedef shared_ptr<Event> EventPtr;
 typedef BlockQueue<EventPtr> EventQueue;
+
+#endif
