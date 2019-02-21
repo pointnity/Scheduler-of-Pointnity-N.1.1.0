@@ -49,3 +49,4 @@ public:
         return m_task_list;
     }
 private:
+    string m_heartbeat_ad;
