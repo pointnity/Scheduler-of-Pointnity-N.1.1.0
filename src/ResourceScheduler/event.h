@@ -66,3 +66,7 @@ public:
     }
 private:
     string m_ip;
+};
+
+
+typedef shared_ptr<Event> EventPtr;
