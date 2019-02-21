@@ -16,3 +16,5 @@
 
 #include "include/proxy.h"
 #include "include/type.h"
+
+using std::string;
