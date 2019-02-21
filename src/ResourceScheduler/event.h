@@ -55,3 +55,4 @@ private:
 
 
 class MachineDeleteEvent : public Event {
+public:
