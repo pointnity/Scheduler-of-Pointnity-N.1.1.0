@@ -7,3 +7,6 @@
 *********************************/
 
 #include "ResourceScheduler/handler.h"
+
+using std::tr1::bind;
+
