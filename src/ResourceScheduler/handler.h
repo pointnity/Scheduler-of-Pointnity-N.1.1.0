@@ -11,3 +11,4 @@
 
 #include <queue>
 #include "common/clynn/thread.h"
+#include "ResourceScheduler/event.h"
