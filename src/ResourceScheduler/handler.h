@@ -10,3 +10,4 @@
 #define SRC_RESOURCE_SCHEDULER_HANDLER_H
 
 #include <queue>
+#include "common/clynn/thread.h"
