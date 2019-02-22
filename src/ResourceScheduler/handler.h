@@ -5,3 +5,5 @@
  Version:  0.1
  Description: handler for event
 *********************************/
+
+#ifndef SRC_RESOURCE_SCHEDULER_HANDLER_H
