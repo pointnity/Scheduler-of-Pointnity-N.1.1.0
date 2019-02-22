@@ -25,3 +25,4 @@ void Handler::Handle() {
     while (true) {
         // pop and get event, then handle it
         EventPtr event;      
+        m_event_queue.PopFront(&event);
