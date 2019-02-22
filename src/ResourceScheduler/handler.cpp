@@ -10,3 +10,4 @@
 
 using std::tr1::bind;
 
+Handler::~Handler() {
