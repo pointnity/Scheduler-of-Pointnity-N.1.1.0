@@ -49,3 +49,5 @@ bool Machine::ParseMachineAd() {
         return false;
     }
     stringstream ss;
+    ss << m_ip << ":" << m_port;
+    m_endpoint = ss.str();
