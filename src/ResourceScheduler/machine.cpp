@@ -91,3 +91,8 @@ bool Machine::GetMachineByImageInfo(const string& user, const string& name, cons
     } else {
 	return false;
     }
+    return false;
+}
+
+bool Machine::TempAllocResource(const TaskID& id, const AllocResource& alloc_resource) {
+    //update machine classad
