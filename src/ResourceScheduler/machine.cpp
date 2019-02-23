@@ -10,3 +10,4 @@
 #include <log4cplus/loggingmacros.h>
 #include <iostream>
 #include <sstream>
+#include <vector>
