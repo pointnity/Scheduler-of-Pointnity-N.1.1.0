@@ -104,3 +104,66 @@ bool Machine::TempAllocResource(const TaskID& id, const AllocResource& alloc_res
 
     if(m_machine_ad->EvaluateAttrNumber(ATTR_AvailMemory, avail_memory) == false){
         return false;
+    }
+    avail_cpu_num = avail_cpu_num - alloc_resource.cpu;
+    avail_memory = avail_memory - alloc_resource.memory;
+    m_machine_ad->InsertAttr(ATTR_AvailCPUNum, avail_cpu_num);
+    m_machine_ad->InsertAttr(ATTR_AvailMemory, avail_memory);
+
+    //record temporary alloction resource to map
+    WriteLocker lock(m_lock);
+    map<TaskID, AllocResource>::iterator it = IdToTempAllocResource.find(id);
+
+    if(it != IdToTempAllocResource.end()) {
+        it->second = alloc_resource;
+        return true;
+    }
+    IdToTempAllocResource[id] = alloc_resource;
+    return true;
+}
+
+
+void Machine::SetId(int id){
+    m_id = id;
+}
+
+int Machine::GetId(){
+    return m_id;
+}
+
+string Machine::GetIp() {
+    return m_ip;
+}
+
+ClassAdPtr Machine::GetMachineAd(){
+    return m_machine_ad;
+}
+
+/*
+int Machine::GetTARMapSize() {
+   return IdToTempAllocResource.size();
+}
+bool Machine::CheckAndClearTARMap(const TaskID& task_id) {
+   WriteLocker lock(m_lock);
+   map<TaskID, AllocResource>::iterator it = IdToTempAllocResource.find(task_id);
+   if(it != IdToTempAllocResource.end()) {
+        IdToTempAllocResource.erase(it);
+        return true;
+   }else {
+	return false;
+   }
+}
+*/
+
+bool Machine::GetTemproryAllocResourceMap(map<TaskID, AllocResource>& TemproryAllocResourceMap) {
+    ReadLocker lock(m_lock);    
+    if (IdToTempAllocResource.size() == 0) {
+	return false;
+    } else{
+        for(map<TaskID, AllocResource>::iterator it = IdToTempAllocResource.begin(); it != IdToTempAllocResource.end(); ++it) {
+            //TemproryAllocResourceMap.insert(map<TaskID, AllocResource>::value_type(it->first, it->second));
+	    TemproryAllocResourceMap[it->first] = it->second;
+        }
+        return true;
+    }
+}
