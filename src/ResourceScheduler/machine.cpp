@@ -33,3 +33,5 @@ Machine::Machine(const ClassAdPtr& machine_ad) {
     m_machine_ad = machine_ad;
     m_id = -1;
 }
+
+string Machine::GetMachineEndpoint(){
