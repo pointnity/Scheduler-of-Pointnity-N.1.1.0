@@ -143,6 +143,7 @@ ClassAdPtr Machine::GetMachineAd(){
 int Machine::GetTARMapSize() {
    return IdToTempAllocResource.size();
 }
+
 bool Machine::CheckAndClearTARMap(const TaskID& task_id) {
    WriteLocker lock(m_lock);
    map<TaskID, AllocResource>::iterator it = IdToTempAllocResource.find(task_id);
