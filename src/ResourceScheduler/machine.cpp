@@ -96,3 +96,5 @@ bool Machine::GetMachineByImageInfo(const string& user, const string& name, cons
 
 bool Machine::TempAllocResource(const TaskID& id, const AllocResource& alloc_resource) {
     //update machine classad
+    int32_t avail_cpu_num;
+    int32_t avail_memory;
