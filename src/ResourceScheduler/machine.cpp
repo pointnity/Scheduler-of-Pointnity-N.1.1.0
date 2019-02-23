@@ -28,3 +28,5 @@ using clynn::ReadLocker;
 using clynn::WriteLocker;
 
 static Logger logger = Logger::getInstance("ResourceScheduler");
+
+Machine::Machine(const ClassAdPtr& machine_ad) {
