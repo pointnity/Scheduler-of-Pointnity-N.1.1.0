@@ -100,3 +100,7 @@ bool Machine::TempAllocResource(const TaskID& id, const AllocResource& alloc_res
     int32_t avail_memory;
     if(m_machine_ad->EvaluateAttrNumber(ATTR_AvailCPUNum, avail_cpu_num) == false){
         return false;
+    }
+
+    if(m_machine_ad->EvaluateAttrNumber(ATTR_AvailMemory, avail_memory) == false){
+        return false;
