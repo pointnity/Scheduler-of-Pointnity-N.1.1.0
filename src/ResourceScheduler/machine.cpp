@@ -52,3 +52,7 @@ bool Machine::ParseMachineAd() {
     ss << m_ip << ":" << m_port;
     m_endpoint = ss.str();
     return true;
+}
+
+bool Machine::GetMachineByImageInfo(const string& user, const string& name, const int32_t size) {
+    string image_info_str;
