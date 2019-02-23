@@ -47,3 +47,5 @@ bool Machine::ParseMachineAd() {
         return false;
     } else if (m_machine_ad->EvaluateAttrInt(ATTR_Port, m_port) == false) {
         return false;
+    }
+    stringstream ss;
