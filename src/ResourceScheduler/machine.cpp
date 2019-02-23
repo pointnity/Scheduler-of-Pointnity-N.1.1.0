@@ -46,3 +46,4 @@ bool Machine::ParseMachineAd() {
     if(m_machine_ad->EvaluateAttrString(ATTR_Machine_IP, m_ip) == false){
         return false;
     } else if (m_machine_ad->EvaluateAttrInt(ATTR_Port, m_port) == false) {
+        return false;
