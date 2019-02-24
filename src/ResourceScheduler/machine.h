@@ -44,3 +44,4 @@ private:
     int m_port;
     string m_endpoint;
     string m_endpoint;
+    ClassAdPtr m_machine_ad;
