@@ -29,3 +29,4 @@ public:
     void Update(const ClassAdPtr& machine_ad);
     string GetMachineEndpoint();
     bool GetMachineByImageInfo(const string& name, const string& user, const int32_t size);
+    bool TempAllocResource(const TaskID& id, const AllocResource& alloc_resource);
