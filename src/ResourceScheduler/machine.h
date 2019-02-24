@@ -46,3 +46,5 @@ private:
     string m_endpoint;
     ClassAdPtr m_machine_ad;
     RWLock m_lock;
+    map<TaskID, AllocResource> IdToTempAllocResource;
+};
