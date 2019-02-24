@@ -21,3 +21,5 @@ using std::string;
 using boost::shared_ptr;
 
 using clynn::RWLock;
+
+class Machine {
