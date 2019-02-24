@@ -40,3 +40,4 @@ public:
     ClassAdPtr GetMachineAd();
 private:
     int m_id;
+    string m_ip; 
