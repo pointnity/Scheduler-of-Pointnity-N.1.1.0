@@ -33,3 +33,4 @@ public:
     
     void SetId(int id);
     int GetId();
+    //int GetTARMapSize();
