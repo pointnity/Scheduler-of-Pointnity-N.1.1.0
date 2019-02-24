@@ -10,3 +10,5 @@
 #define SRC_RESOURCE_SCHEDULER_MACHINE_CONSTANCES_H
 
 const static int MACHINE_NUM = 1000;
+
+#endif
