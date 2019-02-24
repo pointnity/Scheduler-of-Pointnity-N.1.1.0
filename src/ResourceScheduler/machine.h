@@ -41,3 +41,4 @@ public:
 private:
     int m_id;
     string m_ip; 
+    int m_port;
