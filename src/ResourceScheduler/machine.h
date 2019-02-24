@@ -43,3 +43,4 @@ private:
     string m_ip; 
     int m_port;
     string m_endpoint;
+    string m_endpoint;
