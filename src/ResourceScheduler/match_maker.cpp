@@ -14,3 +14,5 @@
 #include "ResourceScheduler/match_maker.h"
 #include "ResourceScheduler/resource_scheduler_engine.h"
 #include "ResourceScheduler/match_list.h"
+
+using log4cplus::Logger;
