@@ -21,3 +21,5 @@ static Logger logger = Logger::getInstance("ResourceScheduler");
 int MatchMaker::Negotiation(const string& job, vector<string>& candidates) {
     LOG4CPLUS_INFO(logger, "receive a job:" << job);
     candidates.clear();
+    ClassAdPtr job_ad = ClassAdComplement::StringToAd(job);
+    if(job_ad == NULL) {
