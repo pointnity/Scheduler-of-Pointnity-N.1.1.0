@@ -10,3 +10,4 @@ struct ListEntry {
 };
 
 class MatchList {
+public:
