@@ -5,3 +5,4 @@
 #include "ResourceScheduler/machine_constances.h"
 
 struct ListEntry {
+    double rank_value;
