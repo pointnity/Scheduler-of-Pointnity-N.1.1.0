@@ -7,3 +7,4 @@
 struct ListEntry {
     double rank_value;
     ClassAdPtr ad;
+};
