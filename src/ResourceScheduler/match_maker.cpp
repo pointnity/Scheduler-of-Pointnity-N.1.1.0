@@ -39,3 +39,6 @@ int MatchMaker::Negotiation(const string& job, vector<string>& candidates) {
     MatchList match_list;
      
     return 0;
+}
+
+int MatchMaker::NegotiationTask(const string& task, string& machine) {
