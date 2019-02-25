@@ -12,3 +12,4 @@ struct ListEntry {
 class MatchList {
 public:
     explicit MatchList();   
+private:
