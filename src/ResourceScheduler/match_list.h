@@ -3,3 +3,5 @@
 
 #include "common/classad/classad_complement.h"
 #include "ResourceScheduler/machine_constances.h"
+
+struct ListEntry {
