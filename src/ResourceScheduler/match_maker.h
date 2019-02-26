@@ -5,3 +5,5 @@
  Version:  0.1
  Description: match machine with job
 *********************************/
+
+#ifndef SRC_RESOURCE_SCHEDULER_MATCH_MAKER_H
