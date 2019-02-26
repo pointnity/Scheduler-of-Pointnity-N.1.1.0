@@ -16,3 +16,5 @@
 #include <gflags/gflags.h>
 
 #include <iostream>
+
+#include "common/clynn/rpc.h"
