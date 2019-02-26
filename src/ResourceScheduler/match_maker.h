@@ -19,3 +19,4 @@ using std::string;
 class MatchMaker {
 public:
     int Negotiation(const string& job, vector<string>& machines);
+    int NegotiationTask(const string& task, string& machine);
