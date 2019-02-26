@@ -23,3 +23,5 @@ public:
     int NegotiationTaskConstraint(const string& task_ad, const vector<string>& soft_list, string& machine);
 private:
 };
+
+typedef Singleton<MatchMaker> MATCH_MAKER;
