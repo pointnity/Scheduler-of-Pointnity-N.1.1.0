@@ -12,3 +12,5 @@
 #include <vector>
 #include <string>
 #include "common/clynn/singleton.h"
+
+using std::vector;
