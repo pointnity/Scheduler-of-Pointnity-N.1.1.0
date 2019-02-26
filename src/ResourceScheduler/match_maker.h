@@ -15,3 +15,5 @@
 
 using std::vector;
 using std::string;
+
+class MatchMaker {
