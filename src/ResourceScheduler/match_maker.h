@@ -20,3 +20,5 @@ class MatchMaker {
 public:
     int Negotiation(const string& job, vector<string>& machines);
     int NegotiationTask(const string& task, string& machine);
+    int NegotiationTaskConstraint(const string& task_ad, const vector<string>& soft_list, string& machine);
+private:
