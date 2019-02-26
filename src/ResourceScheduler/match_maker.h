@@ -25,3 +25,4 @@ private:
 };
 
 typedef Singleton<MatchMaker> MATCH_MAKER;
+#endif
