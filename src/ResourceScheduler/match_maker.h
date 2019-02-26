@@ -14,3 +14,4 @@
 #include "common/clynn/singleton.h"
 
 using std::vector;
+using std::string;
