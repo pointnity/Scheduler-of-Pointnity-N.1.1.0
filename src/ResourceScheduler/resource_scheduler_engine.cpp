@@ -19,3 +19,5 @@
 
 #include "common/clynn/rpc.h"
 #include "ResourceScheduler/resource_scheduler_engine.h"
+#include "include/classad_attr.h"
+#include "include/type.h"
