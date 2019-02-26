@@ -7,3 +7,5 @@
 *********************************/
 
 #include <sys/time.h>
+
+#include <tr1/functional>
