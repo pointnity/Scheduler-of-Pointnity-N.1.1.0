@@ -10,3 +10,4 @@
 #define SRC_RESOURCE_SCHEDULER_MATCH_MAKER_H
 
 #include <vector>
+#include <string>
