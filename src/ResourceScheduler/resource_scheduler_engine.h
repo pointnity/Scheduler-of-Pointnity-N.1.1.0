@@ -39,3 +39,5 @@ using std::atomic_int;
 
 class ResourceSchedulerEngine {
     public:
+        ResourceSchedulerEngine();
+        ~ResourceSchedulerEngine();
