@@ -38,3 +38,4 @@ using std::tr1::function;
 using std::atomic_int;
 
 class ResourceSchedulerEngine {
+    public:
