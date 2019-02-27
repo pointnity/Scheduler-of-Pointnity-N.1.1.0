@@ -10,3 +10,4 @@
 #define SRC_RESOURCE_SCHEDULER_ENGINE_H
 
 #include <map>
+#include <set>
