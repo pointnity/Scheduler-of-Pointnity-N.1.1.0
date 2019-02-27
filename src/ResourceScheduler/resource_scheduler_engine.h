@@ -20,3 +20,4 @@
 #include <atomic>  // for ubuntu
 #else
 #include <cstdatomic> // for centos
+#endif
