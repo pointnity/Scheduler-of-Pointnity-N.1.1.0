@@ -70,3 +70,4 @@ class ResourceSchedulerEngine {
         map<string, int> m_ip_to_id_map;
 	RWLock ip_to_stamp_map_lock;
 	map<string, int32_t> ip_to_stamp_map;
+        RWLock m_machine_locks[MACHINE_NUM];
