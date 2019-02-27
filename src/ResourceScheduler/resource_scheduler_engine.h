@@ -14,3 +14,4 @@
 #include <vector>
 #include <string>
 #include <stdint.h>
+#include <tr1/functional>
