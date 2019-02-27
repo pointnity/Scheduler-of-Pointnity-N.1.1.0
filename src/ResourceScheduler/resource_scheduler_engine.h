@@ -21,3 +21,5 @@
 #else
 #include <cstdatomic> // for centos
 #endif
+
+#include "common/clynn/singleton.h"
