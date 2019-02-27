@@ -13,3 +13,4 @@
 #include <set>
 #include <vector>
 #include <string>
+#include <stdint.h>
