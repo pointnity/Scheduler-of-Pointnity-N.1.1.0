@@ -28,3 +28,6 @@
 #include "proxy/ResourceScheduler/gen-cpp/ResourceScheduler.h"
 #include "ResourceScheduler/machine.h"
 #include "ResourceScheduler/machine_constances.h"
+
+using std::map;
+using std::string;
