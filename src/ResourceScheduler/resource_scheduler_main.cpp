@@ -58,3 +58,6 @@ int main(int argc, char **argv){
             LOG4CPLUS_ERROR(logger, "Error happens when parsing flags from file");
             return EXIT_FAILURE;
         }
+    }
+    
+    LOG4CPLUS_INFO(logger, argv[0] << " daemon begin");
