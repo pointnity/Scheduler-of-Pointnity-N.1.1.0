@@ -41,3 +41,4 @@ extern void* MachineMonitorProcessor(void* unused);
 int main(int argc, char **argv){
     SharedObjectPtr<Appender> append(new FileAppender("../log/ResourceScheduler.log"));
     // SharedObjectPtr<Appender> append(new ConsoleAppender());
+    append->setName(LOG4CPLUS_TEXT("append for ResourceScheduler"));
