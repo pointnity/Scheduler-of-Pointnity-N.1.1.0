@@ -72,3 +72,4 @@ int main(int argc, char **argv){
     EventDispatcherI::Instance()->Register(RSEventType::MACHINE_UPDATE_EVENT, machine_update_event_handler);
 
     //machine delete  event
+    Handler* machine_delete_event_handler = new Handler;
