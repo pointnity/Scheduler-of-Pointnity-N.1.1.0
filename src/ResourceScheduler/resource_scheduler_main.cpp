@@ -22,3 +22,4 @@
 
 
 using std::string;
+using std::cout;
