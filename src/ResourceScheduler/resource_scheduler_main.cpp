@@ -39,3 +39,5 @@ DEFINE_int32(resource_scheduler_port, 9998, "ResourceScheduler rpc port");
 extern void* MachineMonitorProcessor(void* unused);
 
 int main(int argc, char **argv){
+    SharedObjectPtr<Appender> append(new FileAppender("../log/ResourceScheduler.log"));
+    // SharedObjectPtr<Appender> append(new ConsoleAppender());
