@@ -30,3 +30,6 @@ static Logger logger = Logger::getInstance("ResourceScheduler");
 void ResourceSchedulerService::GetCurVersion(string& new_version) {
     return COLLECTOR_ENGINE::Instance()->GetCurVersion(new_version);
 }
+
+int ResourceSchedulerService::RegistMachine(const string& ip, const string& version) {
+    LOG4CPLUS_INFO(logger, "regist machine ip:" << ip);
