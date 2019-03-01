@@ -25,3 +25,4 @@
 using std::string;
 using std::stringstream;
 using log4cplus::Logger;
+static Logger logger = Logger::getInstance("ResourceScheduler");
