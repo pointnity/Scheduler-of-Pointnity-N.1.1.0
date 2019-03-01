@@ -46,3 +46,5 @@ int ResourceSchedulerService::NewUpdateMachine(const string& heartbeat_ad, const
     // new MachineUpdateEvent
     EventPtr event(new MachineUpdateEvent(heartbeat_ad, task_list));
     // Push event into Queue
+    EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
+    return 0;
