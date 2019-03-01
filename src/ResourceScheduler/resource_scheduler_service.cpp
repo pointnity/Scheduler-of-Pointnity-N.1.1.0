@@ -62,3 +62,7 @@ int ResourceSchedulerService::DeleteMachine(const string& ip){
 void ResourceSchedulerService::GetTotalResource(MultiD_Resource& md_r) {
     md_r = COLLECTOR_ENGINE::Instance()->GetTotalResource();
     return;
+}
+
+void ResourceSchedulerService::MatchMachine(string& result, const string& task_ad){
+    LOG4CPLUS_INFO(logger, "MatchMachine");
