@@ -41,3 +41,6 @@ int ResourceSchedulerService::UpdateMachine(const string& heartbeat_ad){
     LOG4CPLUS_INFO(logger, "a new update:" << heartbeat_ad);
     return COLLECTOR_ENGINE::Instance()->UpdateMachine(heartbeat_ad);
 }
+
+int ResourceSchedulerService::NewUpdateMachine(const string& heartbeat_ad, const vector<string>& task_list){
+    // new MachineUpdateEvent
