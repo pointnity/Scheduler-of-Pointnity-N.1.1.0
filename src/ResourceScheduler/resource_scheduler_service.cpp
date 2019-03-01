@@ -68,3 +68,6 @@ void ResourceSchedulerService::MatchMachine(string& result, const string& task_a
     LOG4CPLUS_INFO(logger, "MatchMachine");
     MATCH_MAKER::Instance()->NegotiationTask(task_ad, result);
 }
+
+void ResourceSchedulerService::MatchMachineConstraint(string& result, const string& task_ad, const vector<string>& soft_list) {
+    LOG4CPLUS_INFO(logger, "MatchMachineConstraint");
