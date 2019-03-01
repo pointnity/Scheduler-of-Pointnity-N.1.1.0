@@ -5,3 +5,6 @@
  Version:  0.1
  Description: resource scheduler service
 *********************************/
+
+
+#include <log4cplus/logger.h>
