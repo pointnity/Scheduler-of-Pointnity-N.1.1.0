@@ -57,3 +57,8 @@ int ResourceSchedulerService::DeleteMachine(const string& ip){
     // Push event into Queue
     EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
     return 0;
+}
+
+void ResourceSchedulerService::GetTotalResource(MultiD_Resource& md_r) {
+    md_r = COLLECTOR_ENGINE::Instance()->GetTotalResource();
+    return;
