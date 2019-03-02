@@ -19,3 +19,4 @@ using std::vector;
 
 class ResourceSchedulerService : public ResourceSchedulerIf{
 public:
+    void GetCurVersion(string& new_version);
