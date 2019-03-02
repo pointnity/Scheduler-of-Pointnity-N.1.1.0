@@ -5,3 +5,5 @@
  Version:  0.1
  Description: resource scheduler service
 *********************************/
+
+#ifndef SRC_RESOURCE_SCHEDULER_SERVICE_H
