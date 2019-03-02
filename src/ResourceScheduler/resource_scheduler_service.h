@@ -32,3 +32,5 @@ public:
     void Negotiate(vector<string>& result, const string& request);
     void GetMachineListByImageInfo(vector<string>& machine_list, const string& user, const string& name, const int32_t size, bool is_update_all);
 };
+
+#endif
