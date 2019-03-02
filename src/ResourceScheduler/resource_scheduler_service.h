@@ -28,3 +28,4 @@ public:
     void MatchMachine(string& result, const string& task_ad);
     void MatchMachineConstraint(string& result, const string& task_ad, const vector<string>& soft_list);
     void QueryMachine(string& result, const string& machine);
+    void ListAllMachines(vector<string>& result);
