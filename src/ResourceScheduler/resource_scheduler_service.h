@@ -24,3 +24,4 @@ public:
     int UpdateMachine(const string& heartbeat_ad);
     int NewUpdateMachine(const string& heartbeat_ad, const vector<string>& task_list);
     int DeleteMachine(const string& ip);
+    void GetTotalResource(MultiD_Resource& md_r);
