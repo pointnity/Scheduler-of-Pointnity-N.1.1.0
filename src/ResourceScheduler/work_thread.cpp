@@ -15,3 +15,4 @@
 DECLARE_int32(hb_interval);
 // thread, machine monitor
 void* MachineMonitorProcessor(void* unused) {
+    while (true) {
