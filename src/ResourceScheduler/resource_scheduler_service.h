@@ -8,3 +8,5 @@
 
 #ifndef SRC_RESOURCE_SCHEDULER_SERVICE_H
 #define SRC_RESOURCE_SCHEDULER_SERVICE_H
+
+#include <string>
