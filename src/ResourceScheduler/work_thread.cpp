@@ -9,3 +9,5 @@
 
 #include <stdlib.h>
 #include <gflags/gflags.h>
+
+#include "resource_scheduler_engine.h"
