@@ -18,3 +18,4 @@ using std::string;
 using std::vector;
 
 class ResourceSchedulerService : public ResourceSchedulerIf{
+public:
