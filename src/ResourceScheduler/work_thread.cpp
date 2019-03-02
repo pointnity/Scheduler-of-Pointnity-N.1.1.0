@@ -17,3 +17,4 @@ DECLARE_int32(hb_interval);
 void* MachineMonitorProcessor(void* unused) {
     while (true) {
 	COLLECTOR_ENGINE::Instance()->MachineMonitor();
+        sleep(2*FLAGS_hb_interval);
