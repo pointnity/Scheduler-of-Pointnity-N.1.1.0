@@ -13,3 +13,5 @@
 #include <list>
 #include <vector>
 #include "proxy/ResourceScheduler/gen-cpp/ResourceScheduler.h"
+
+using std::string;
