@@ -12,3 +12,4 @@
 #include <string>
 #include <list>
 #include <vector>
+#include "proxy/ResourceScheduler/gen-cpp/ResourceScheduler.h"
