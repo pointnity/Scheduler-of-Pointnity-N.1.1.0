@@ -23,3 +23,4 @@ public:
     int RegistMachine(const string& ip, const string& version);
     int UpdateMachine(const string& heartbeat_ad);
     int NewUpdateMachine(const string& heartbeat_ad, const vector<string>& task_list);
+    int DeleteMachine(const string& ip);
