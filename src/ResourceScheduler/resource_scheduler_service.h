@@ -15,3 +15,4 @@
 #include "proxy/ResourceScheduler/gen-cpp/ResourceScheduler.h"
 
 using std::string;
+using std::vector;
