@@ -11,3 +11,5 @@
 #include <gflags/gflags.h>
 
 #include "resource_scheduler_engine.h"
+
+DECLARE_int32(hb_interval);
