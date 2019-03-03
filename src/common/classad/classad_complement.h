@@ -12,3 +12,4 @@ using boost::shared_ptr;
 typedef shared_ptr<ClassAd> ClassAdPtr;
 
 class ClassAdComplement {
+public:
