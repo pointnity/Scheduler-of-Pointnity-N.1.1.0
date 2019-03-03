@@ -7,3 +7,4 @@
 #include <boost/shared_ptr.hpp>
 
 using std::string;
+using boost::shared_ptr;
