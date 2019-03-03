@@ -28,3 +28,6 @@ namespace clynn {
                 m_empty = new Cond;
                 m_mutex = new Mutex;
             }
+
+            ~BlockQueue() {
+                delete m_empty;
