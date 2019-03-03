@@ -25,3 +25,4 @@ namespace clynn {
     class BlockQueue {
         public:
             BlockQueue() {
+                m_empty = new Cond;
