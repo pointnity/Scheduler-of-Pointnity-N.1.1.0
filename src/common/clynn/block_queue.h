@@ -22,3 +22,4 @@ using clynn::MutexLocker;
 namespace clynn {
 
     template <typename T>
+    class BlockQueue {
