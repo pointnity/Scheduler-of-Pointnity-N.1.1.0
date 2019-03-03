@@ -18,3 +18,5 @@ using std::list;
 using clynn::Mutex;
 using clynn::Cond;
 using clynn::MutexLocker;
+
+namespace clynn {
