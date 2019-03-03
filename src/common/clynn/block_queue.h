@@ -36,3 +36,5 @@ namespace clynn {
 
             void PushBack(const T& element) {
                 MutexLocker locker(*m_mutex);
+                m_queue.push_back(element);
+                if (Size() == 1)
