@@ -63,3 +63,6 @@ namespace clynn {
                 *value = m_queue.front();
                 m_queue.pop_front();
                 return true;
+            }
+
+            int Size() {
