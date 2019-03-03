@@ -10,3 +10,5 @@
 #define COMMON_BLOCK_QUEUE_H
 
 #include <list>
+
+#include "common/clynn/cond.h"
