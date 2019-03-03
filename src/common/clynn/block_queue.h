@@ -26,3 +26,5 @@ namespace clynn {
         public:
             BlockQueue() {
                 m_empty = new Cond;
+                m_mutex = new Mutex;
+            }
