@@ -5,3 +5,5 @@
  Version:  0.1
  Description: block queue with list and pthread_cond_t
 *********************************/
+ 
+#ifndef COMMON_BLOCK_QUEUE_H
