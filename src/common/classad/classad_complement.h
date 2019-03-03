@@ -2,3 +2,4 @@
 #define COMMON_CLASSAD_COMPLEMENTION_H
 
 #include <string>
+#include <classad/classad.h>
