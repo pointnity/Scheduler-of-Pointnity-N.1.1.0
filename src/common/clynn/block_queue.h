@@ -20,3 +20,5 @@ using clynn::Cond;
 using clynn::MutexLocker;
 
 namespace clynn {
+
+    template <typename T>
