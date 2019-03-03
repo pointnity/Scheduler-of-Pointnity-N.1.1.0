@@ -44,3 +44,5 @@ namespace clynn {
             void PopFront(T* value) {
                 MutexLocker locker(*m_mutex);
                 if (Size() <= 0)
+                    m_empty->Wait(*m_mutex);
+                *value = m_queue.front();
