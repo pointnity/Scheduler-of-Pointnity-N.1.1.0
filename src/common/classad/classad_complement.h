@@ -13,3 +13,4 @@ typedef shared_ptr<ClassAd> ClassAdPtr;
 
 class ClassAdComplement {
 public:
+    static string AdTostring(const ClassAdPtr ad) {
