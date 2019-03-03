@@ -21,3 +21,4 @@ public:
     }
 
     static ClassAdPtr StringToAd(const string& ad) {
+        ClassAdParser parser;
