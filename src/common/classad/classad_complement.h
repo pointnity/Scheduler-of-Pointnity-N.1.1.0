@@ -18,3 +18,6 @@ public:
        string classad_text = "";
         unparser.Unparse(classad_text, ad.get());
         return classad_text; 
+    }
+
+    static ClassAdPtr StringToAd(const string& ad) {
