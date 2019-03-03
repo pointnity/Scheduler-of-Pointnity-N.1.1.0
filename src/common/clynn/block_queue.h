@@ -57,3 +57,4 @@ namespace clynn {
                         m_queue.pop_front();
                         return true;
                     } else {
+                        return false;
