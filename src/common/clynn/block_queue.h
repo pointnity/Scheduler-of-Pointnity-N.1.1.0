@@ -31,3 +31,5 @@ namespace clynn {
 
             ~BlockQueue() {
                 delete m_empty;
+                delete m_mutex;
+            }
