@@ -22,3 +22,4 @@ public:
 
     static ClassAdPtr StringToAd(const string& ad) {
         ClassAdParser parser;
+        ClassAdPtr classad(parser.ParseClassAd(ad, true));
