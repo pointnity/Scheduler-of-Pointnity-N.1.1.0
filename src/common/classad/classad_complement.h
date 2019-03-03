@@ -8,3 +8,5 @@
 
 using std::string;
 using boost::shared_ptr;
+
+typedef shared_ptr<ClassAd> ClassAdPtr;
