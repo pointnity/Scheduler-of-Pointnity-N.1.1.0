@@ -16,3 +16,4 @@ public:
     static string AdTostring(const ClassAdPtr ad) {
         ClassAdUnParser unparser;
        string classad_text = "";
+        unparser.Unparse(classad_text, ad.get());
