@@ -15,3 +15,4 @@ class ClassAdComplement {
 public:
     static string AdTostring(const ClassAdPtr ad) {
         ClassAdUnParser unparser;
+       string classad_text = "";
