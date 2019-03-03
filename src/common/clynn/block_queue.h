@@ -48,3 +48,6 @@ namespace clynn {
                 *value = m_queue.front();
                 m_queue.pop_front();
             }
+
+            bool PopFront(T* value, size_t timeout) {
+                MutexLocker locker(*m_mutex);
