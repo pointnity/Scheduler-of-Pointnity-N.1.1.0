@@ -17,3 +17,4 @@ public:
         ClassAdUnParser unparser;
        string classad_text = "";
         unparser.Unparse(classad_text, ad.get());
+        return classad_text; 
