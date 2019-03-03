@@ -66,3 +66,5 @@ namespace clynn {
             }
 
             int Size() {
+               return m_queue.size();
+            }
