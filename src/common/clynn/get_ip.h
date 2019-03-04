@@ -2,3 +2,4 @@
 #define COMMON_GET_IP_H
 
 #include <sys/types.h>
+#include <sys/socket.h>
