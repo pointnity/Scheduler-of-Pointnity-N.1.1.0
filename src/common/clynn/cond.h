@@ -28,3 +28,6 @@ namespace clynn {
             ~Cond() { 
                 pthread_cond_destroy(&m_cond);
             }
+
+            /// send signal to wake up the thread
+            void Signal(){
