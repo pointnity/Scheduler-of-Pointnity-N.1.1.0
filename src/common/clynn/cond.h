@@ -21,3 +21,4 @@ namespace clynn {
 
     class Cond {
         public:
+            Cond() {
