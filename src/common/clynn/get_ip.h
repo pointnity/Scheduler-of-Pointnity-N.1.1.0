@@ -10,3 +10,10 @@
 #include <netdb.h>
 #include <string>
 #include <string.h>
+#include <errno.h>
+#include <stdio.h>
+
+using std::string;
+#if 0
+int get_ip(char* str) {
+    addrinfo hint;
