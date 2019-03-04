@@ -18,3 +18,5 @@ using std::runtime_error;
 using std::string;
 
 namespace clynn {
+
+    class Cond {
