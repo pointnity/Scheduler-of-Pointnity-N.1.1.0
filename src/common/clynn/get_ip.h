@@ -9,3 +9,4 @@
 #include <unistd.h>
 #include <netdb.h>
 #include <string>
+#include <string.h>
