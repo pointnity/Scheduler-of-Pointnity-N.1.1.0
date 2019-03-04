@@ -47,3 +47,6 @@ namespace clynn {
                 int ret = pthread_cond_timedwait(&m_cond, &(mutex.m_lock), &time);
                 CheckError("Cond::TimeWait", ret);
                 return ret;
+            }
+
+        private:
