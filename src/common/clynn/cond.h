@@ -10,3 +10,5 @@
 #define COMMON_COND_H
 
 #include <pthread.h>
+
+#include <string>
