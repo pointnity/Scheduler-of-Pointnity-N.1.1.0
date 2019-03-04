@@ -22,3 +22,5 @@ namespace clynn {
     class Cond {
         public:
             Cond() {
+                CheckError("Cond::Cond", pthread_cond_init(&m_cond, NULL));
+            }
