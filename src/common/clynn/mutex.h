@@ -57,3 +57,4 @@ namespace clynn {
     class MutexLocker {
         public:
             explicit MutexLocker(Mutex& mutex) : m_mutex(&mutex) {
+                m_mutex->Lock();
