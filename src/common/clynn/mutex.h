@@ -10,3 +10,5 @@
 
 #ifndef COMMON_MUTEX_H
 #include <pthread.h>
+#include <errno.h>
+#include <string.h>
