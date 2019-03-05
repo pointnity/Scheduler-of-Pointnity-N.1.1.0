@@ -68,3 +68,5 @@ namespace clynn {
             clynn::Mutex* m_mutex;
     };
 }
+
+#endif
