@@ -51,3 +51,7 @@ namespace clynn {
         private:
             pthread_mutex_t m_lock;
             friend class Cond;
+    };
+
+
+    class MutexLocker {
