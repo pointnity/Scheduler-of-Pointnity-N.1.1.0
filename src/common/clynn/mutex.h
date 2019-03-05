@@ -47,3 +47,5 @@ namespace clynn {
                     throw runtime_error(msg);
                 }
             }
+
+        private:
