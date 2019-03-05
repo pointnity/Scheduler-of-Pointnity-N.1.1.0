@@ -61,3 +61,4 @@ namespace clynn {
             }
 
             ~MutexLocker() {
+                m_mutex->Unlock();
