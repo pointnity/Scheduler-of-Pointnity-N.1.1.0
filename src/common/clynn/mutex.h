@@ -23,3 +23,5 @@ namespace clynn {
     class Mutex {
         public:
            Mutex() {
+                CheckError("Mutex::Mutex", pthread_mutex_init(&m_lock, NULL));
+            }
