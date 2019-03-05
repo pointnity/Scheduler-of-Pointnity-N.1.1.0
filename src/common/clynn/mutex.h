@@ -17,3 +17,5 @@
 
 using std::string;
 using std::runtime_error;
+
+namespace clynn {
