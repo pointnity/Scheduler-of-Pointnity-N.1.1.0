@@ -21,3 +21,4 @@ using std::runtime_error;
 namespace clynn {
 
     class Mutex {
+        public:
