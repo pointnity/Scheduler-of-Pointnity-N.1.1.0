@@ -107,3 +107,5 @@ public:
         // split endpoint into ip and port
         string ip = endpoint.substr(0, endpoint.find(":"));
         string str_port = endpoint.substr(endpoint.find(":") + 1);
+        int port = atoi(str_port.c_str());
+        TSocket* sc = new TSocket(ip, port);
