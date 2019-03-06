@@ -76,3 +76,4 @@ public:
         TSimpleServer server(processor,  
                             serverTransport,  
                             transportFactory,  
+                            protocolFactory);  
