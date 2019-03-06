@@ -7,3 +7,4 @@
 *********************************/
 
 #ifndef COMMON_RPC_H
+#define COMMON_RPC_H
