@@ -101,3 +101,6 @@ public:
         */
 
         server.serve();
+    }
+
+    static Proxy<T> GetProxy(const string& endpoint, int timeout = TIME_OUT) {
