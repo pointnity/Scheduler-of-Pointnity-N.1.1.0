@@ -64,3 +64,5 @@ public:
     static const int TIME_OUT = 2000;
 
     static void Listen(int port) {
+
+        shared_ptr<T> handler(new T);
