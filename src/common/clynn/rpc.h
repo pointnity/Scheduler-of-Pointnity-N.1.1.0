@@ -57,3 +57,4 @@ private:
 
 //duprecated
 template <typename T, typename P>
+class Rpc {
