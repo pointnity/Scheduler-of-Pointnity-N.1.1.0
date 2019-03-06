@@ -89,3 +89,4 @@ public:
         /* 
         //It is easy to hang when 13 physical machines are started.
         shared_ptr<ThreadManager> threadManager =
+            ThreadManager::newSimpleThreadManager(DEFAULT_THREAD_NUM);
