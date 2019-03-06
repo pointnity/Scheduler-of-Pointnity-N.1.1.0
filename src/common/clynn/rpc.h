@@ -13,3 +13,4 @@
 #include <concurrency/PosixThreadFactory.h>
 #include <protocol/TBinaryProtocol.h>
 #include <server/TSimpleServer.h>
+#include <server/TThreadPoolServer.h>
