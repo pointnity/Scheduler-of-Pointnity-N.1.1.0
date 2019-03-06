@@ -17,3 +17,4 @@
 #include <server/TThreadedServer.h>
 #include <transport/TServerSocket.h>
 #include <transport/TTransportUtils.h>
+#include <transport/TSocket.h>
