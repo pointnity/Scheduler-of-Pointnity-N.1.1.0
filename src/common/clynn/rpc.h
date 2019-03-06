@@ -48,3 +48,5 @@ public:
     
     /// @brief: overwrite ()
     T& operator()() {
+        return m_client;
+    }
