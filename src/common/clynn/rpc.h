@@ -142,3 +142,20 @@ public:
 template <typename T>
 class RpcClient {
 public:
+    static const int TIME_OUT = 2000;
+
+    static Proxy<T> GetProxy(const string& endpoint, int timeout = TIME_OUT) {
+        string ip = endpoint.substr(0, endpoint.find(":"));
+        string str_port = endpoint.substr(endpoint.find(":") + 1);
+        int port = atoi(str_port.c_str());
+        TSocket* sc = new TSocket(ip, port);
+        sc->setRecvTimeout(timeout);
+        shared_ptr<TTransport> socket(sc);
+        shared_ptr<TTransport> transport(new TBufferedTransport(socket));
+        shared_ptr<TProtocol> protocol(new TBinaryProtocol(transport));
+        T client(protocol);
+        Proxy<T> proxy(client, transport);
+        return proxy;
+    }
+};
+#endif
