@@ -67,3 +67,4 @@ public:
 
         shared_ptr<T> handler(new T);
         shared_ptr<TProcessor> processor(new P(handler));
+        shared_ptr<TServerTransport> serverTransport(new TServerSocket(port));
