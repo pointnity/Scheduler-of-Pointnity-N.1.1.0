@@ -25,3 +25,5 @@
 #include <dirent.h>
 
 using std::string;
+
+using namespace apache::thrift;
