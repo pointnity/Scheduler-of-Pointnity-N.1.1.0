@@ -61,3 +61,4 @@ class Rpc {
 public:
     //TODO move the configuration out of here into a single file
     static const int DEFAULT_THREAD_NUM = 4;
+    static const int TIME_OUT = 2000;
