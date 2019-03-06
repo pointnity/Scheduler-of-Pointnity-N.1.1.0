@@ -22,3 +22,4 @@
 #include <string>
 
 #include <sys/types.h>
+#include <dirent.h>
