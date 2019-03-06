@@ -99,3 +99,5 @@ public:
                                  protocolFactory,
                                  threadManager);
         */
+
+        server.serve();
