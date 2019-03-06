@@ -18,3 +18,5 @@
 #include <transport/TServerSocket.h>
 #include <transport/TTransportUtils.h>
 #include <transport/TSocket.h>
+
+#include <string>
