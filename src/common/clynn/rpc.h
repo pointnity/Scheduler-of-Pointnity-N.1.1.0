@@ -43,3 +43,5 @@ public:
     }
 
     ~Proxy() {
+        m_connector->close();  
+    }
