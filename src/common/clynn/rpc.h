@@ -39,3 +39,5 @@ class Proxy {
 public:
     Proxy(const T& client, const shared_ptr<TTransport>& connector)
     : m_client(client), m_connector(connector) {
+        m_connector->open();
+    }
