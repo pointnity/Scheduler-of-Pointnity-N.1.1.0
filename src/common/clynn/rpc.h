@@ -41,3 +41,5 @@ public:
     : m_client(client), m_connector(connector) {
         m_connector->open();
     }
+
+    ~Proxy() {
