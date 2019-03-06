@@ -74,3 +74,5 @@ public:
         //Single-threaded server
         /*  
         TSimpleServer server(processor,  
+                            serverTransport,  
+                            transportFactory,  
