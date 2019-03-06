@@ -80,3 +80,4 @@ public:
         */
         
         //Each request is processed by one thread
+        TThreadedServer server(processor, 
