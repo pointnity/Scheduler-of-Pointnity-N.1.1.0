@@ -94,3 +94,6 @@ public:
         threadManager->threadFactory(thread_factory);
         threadManager->start();
         TThreadPoolServer server(processor,
+                                 serverTransport,
+                                 transportFactory,
+                                 protocolFactory,
