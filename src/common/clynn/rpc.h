@@ -97,3 +97,5 @@ public:
                                  serverTransport,
                                  transportFactory,
                                  protocolFactory,
+                                 threadManager);
+        */
