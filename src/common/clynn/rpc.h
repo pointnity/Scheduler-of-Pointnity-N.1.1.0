@@ -66,3 +66,4 @@ public:
     static void Listen(int port) {
 
         shared_ptr<T> handler(new T);
+        shared_ptr<TProcessor> processor(new P(handler));
