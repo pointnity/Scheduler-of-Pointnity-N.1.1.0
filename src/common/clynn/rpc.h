@@ -45,3 +45,5 @@ public:
     ~Proxy() {
         m_connector->close();  
     }
+    
+    /// @brief: overwrite ()
