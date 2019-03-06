@@ -36,3 +36,4 @@ using boost::shared_ptr;
 
 template <typename T>
 class Proxy {
+public:
