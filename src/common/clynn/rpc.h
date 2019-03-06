@@ -50,3 +50,4 @@ public:
     T& operator()() {
         return m_client;
     }
+private:
