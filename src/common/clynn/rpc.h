@@ -70,3 +70,5 @@ public:
         shared_ptr<TServerTransport> serverTransport(new TServerSocket(port));
         shared_ptr<TTransportFactory> transportFactory(new TBufferedTransportFactory());
         shared_ptr<TProtocolFactory> protocolFactory(new TBinaryProtocolFactory());
+        
+        //Single-threaded server
