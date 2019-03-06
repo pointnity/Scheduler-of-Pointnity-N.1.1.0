@@ -69,3 +69,4 @@ public:
         shared_ptr<TProcessor> processor(new P(handler));
         shared_ptr<TServerTransport> serverTransport(new TServerSocket(port));
         shared_ptr<TTransportFactory> transportFactory(new TBufferedTransportFactory());
+        shared_ptr<TProtocolFactory> protocolFactory(new TBinaryProtocolFactory());
