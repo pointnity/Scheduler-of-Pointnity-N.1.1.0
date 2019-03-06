@@ -118,3 +118,27 @@ public:
         Proxy<T> proxy(client, transport);
         return proxy;
     }
+};
+
+template <typename T, typename P>
+class RpcServer {
+public:
+    static void Listen(int port) {
+        shared_ptr<T> handler(new T);
+        shared_ptr<TProcessor> processor(new P(handler));
+        shared_ptr<TServerTransport> serverTransport(new TServerSocket(port));
+        shared_ptr<TTransportFactory> transportFactory(new TBufferedTransportFactory());
+        shared_ptr<TProtocolFactory> protocolFactory(new TBinaryProtocolFactory());
+        //one thread for every rpc request
+        TThreadedServer server(processor,
+                               serverTransport,
+                               transportFactory,
+                               protocolFactory);
+        server.serve();
+    }
+};
+
+
+template <typename T>
+class RpcClient {
+public:
