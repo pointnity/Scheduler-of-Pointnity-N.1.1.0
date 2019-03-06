@@ -111,3 +111,10 @@ public:
         TSocket* sc = new TSocket(ip, port);
         // Cannot set timeout when transferring large files
         // sc->setRecvTimeout(timeout);
+        shared_ptr<TTransport> socket(sc);
+        shared_ptr<TTransport> transport(new TBufferedTransport(socket));
+        shared_ptr<TProtocol> protocol(new TBinaryProtocol(transport));
+        T client(protocol);
+        Proxy<T> proxy(client, transport);
+        return proxy;
+    }
