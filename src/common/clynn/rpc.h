@@ -37,3 +37,4 @@ using boost::shared_ptr;
 template <typename T>
 class Proxy {
 public:
+    Proxy(const T& client, const shared_ptr<TTransport>& connector)
