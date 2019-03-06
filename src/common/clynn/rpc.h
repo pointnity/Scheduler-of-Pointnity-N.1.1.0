@@ -93,3 +93,4 @@ public:
         shared_ptr<PosixThreadFactory> thread_factory(new PosixThreadFactory());
         threadManager->threadFactory(thread_factory);
         threadManager->start();
+        TThreadPoolServer server(processor,
