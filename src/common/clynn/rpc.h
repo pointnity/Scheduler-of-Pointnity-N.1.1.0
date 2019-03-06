@@ -29,3 +29,4 @@ using std::string;
 using namespace apache::thrift;
 using namespace apache::thrift::protocol;
 using namespace apache::thrift::transport;
+using namespace apache::thrift::server;
