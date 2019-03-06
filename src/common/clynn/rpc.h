@@ -6,3 +6,4 @@
  Description: rpc with thrift 
 *********************************/
 
+#ifndef COMMON_RPC_H
