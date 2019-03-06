@@ -20,3 +20,5 @@
 #include <transport/TSocket.h>
 
 #include <string>
+
+#include <sys/types.h>
