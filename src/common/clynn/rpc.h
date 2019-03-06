@@ -110,3 +110,4 @@ public:
         int port = atoi(str_port.c_str());
         TSocket* sc = new TSocket(ip, port);
         // Cannot set timeout when transferring large files
+        // sc->setRecvTimeout(timeout);
