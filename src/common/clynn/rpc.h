@@ -85,4 +85,5 @@ public:
                                transportFactory, 
                                protocolFactory); 
         
+         //Thread pool enabled
         /* 
