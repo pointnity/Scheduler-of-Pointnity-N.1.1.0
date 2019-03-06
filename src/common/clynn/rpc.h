@@ -72,3 +72,5 @@ public:
         shared_ptr<TProtocolFactory> protocolFactory(new TBinaryProtocolFactory());
         
         //Single-threaded server
+        /*  
+        TSimpleServer server(processor,  
