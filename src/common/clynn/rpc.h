@@ -27,3 +27,4 @@
 using std::string;
 
 using namespace apache::thrift;
+using namespace apache::thrift::protocol;
