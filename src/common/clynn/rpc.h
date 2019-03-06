@@ -14,3 +14,4 @@
 #include <protocol/TBinaryProtocol.h>
 #include <server/TSimpleServer.h>
 #include <server/TThreadPoolServer.h>
+#include <server/TThreadedServer.h>
