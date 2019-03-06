@@ -91,3 +91,5 @@ public:
         shared_ptr<ThreadManager> threadManager =
             ThreadManager::newSimpleThreadManager(DEFAULT_THREAD_NUM);
         shared_ptr<PosixThreadFactory> thread_factory(new PosixThreadFactory());
+        threadManager->threadFactory(thread_factory);
+        threadManager->start();
