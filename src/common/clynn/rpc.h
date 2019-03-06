@@ -35,3 +35,4 @@ using namespace apache::thrift::concurrency;
 using boost::shared_ptr;
 
 template <typename T>
+class Proxy {
