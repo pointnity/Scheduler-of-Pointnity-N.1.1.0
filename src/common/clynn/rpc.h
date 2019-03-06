@@ -104,3 +104,4 @@ public:
     }
 
     static Proxy<T> GetProxy(const string& endpoint, int timeout = TIME_OUT) {
+        // split endpoint into ip and port
