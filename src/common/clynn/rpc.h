@@ -53,3 +53,4 @@ public:
 private:
     T m_client;
     shared_ptr<TTransport> m_connector;
+};
