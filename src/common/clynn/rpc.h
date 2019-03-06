@@ -47,3 +47,4 @@ public:
     }
     
     /// @brief: overwrite ()
+    T& operator()() {
