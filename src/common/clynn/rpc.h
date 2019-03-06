@@ -60,3 +60,4 @@ template <typename T, typename P>
 class Rpc {
 public:
     //TODO move the configuration out of here into a single file
+    static const int DEFAULT_THREAD_NUM = 4;
