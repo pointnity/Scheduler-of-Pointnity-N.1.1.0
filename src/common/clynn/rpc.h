@@ -106,3 +106,4 @@ public:
     static Proxy<T> GetProxy(const string& endpoint, int timeout = TIME_OUT) {
         // split endpoint into ip and port
         string ip = endpoint.substr(0, endpoint.find(":"));
+        string str_port = endpoint.substr(endpoint.find(":") + 1);
