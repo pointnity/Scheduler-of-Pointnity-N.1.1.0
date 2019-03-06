@@ -51,3 +51,4 @@ public:
         return m_client;
     }
 private:
+    T m_client;
