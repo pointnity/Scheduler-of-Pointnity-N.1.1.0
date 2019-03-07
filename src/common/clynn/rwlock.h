@@ -57,3 +57,4 @@ namespace clynn {
     };
 
     class ReadLocker {
+        public:
