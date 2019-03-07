@@ -25,3 +25,5 @@ namespace clynn {
             RWLock() {
                 CheckError("Rwlock::Rwlock", pthread_rwlock_init(&m_lock, NULL));
             }
+
+            ~RWLock() {
