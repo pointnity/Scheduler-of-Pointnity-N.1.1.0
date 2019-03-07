@@ -54,3 +54,6 @@ namespace clynn {
 
         private:
             pthread_rwlock_t m_lock;
+    };
+
+    class ReadLocker {
