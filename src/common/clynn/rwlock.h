@@ -23,3 +23,5 @@ namespace clynn {
     class RWLock {
         public:
             RWLock() {
+                CheckError("Rwlock::Rwlock", pthread_rwlock_init(&m_lock, NULL));
+            }
