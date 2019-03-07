@@ -49,3 +49,7 @@ namespace clynn {
                     msg += " error: ";
                     msg += strerror(code);
                     throw runtime_error(msg);
+                }
+            }
+
+        private:
