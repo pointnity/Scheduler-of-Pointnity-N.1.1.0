@@ -14,3 +14,5 @@
 #include <string.h>
 #include <string>
 #include <stdexcept>
+
+using std::string;
