@@ -67,3 +67,7 @@ namespace clynn {
             }
 
             void Unlock() {
+                m_rwlock->Unlock();
+            }
+
+            void Lock() {
