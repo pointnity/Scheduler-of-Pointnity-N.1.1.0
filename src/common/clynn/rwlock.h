@@ -39,3 +39,5 @@ namespace clynn {
             }
 
             void Unlock() {
+                CheckError("RWLock::Unlock", pthread_rwlock_unlock(&m_lock));
+            }
