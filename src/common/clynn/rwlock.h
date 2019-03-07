@@ -7,3 +7,4 @@
 *********************************/
 
 #ifndef COMMON_RWLOCK_H
+#define COMMON_RWLOCK_H
