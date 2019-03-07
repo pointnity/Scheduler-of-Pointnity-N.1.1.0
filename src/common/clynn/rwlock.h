@@ -10,3 +10,4 @@
 #define COMMON_RWLOCK_H
 
 #include <pthread.h>
+#include <errno.h>
