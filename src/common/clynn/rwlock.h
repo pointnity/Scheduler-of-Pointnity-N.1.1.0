@@ -65,3 +65,5 @@ namespace clynn {
             ~ReadLocker() {
                 m_rwlock->Unlock();
             }
+
+            void Unlock() {
