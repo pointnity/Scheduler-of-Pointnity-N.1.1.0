@@ -59,3 +59,4 @@ namespace clynn {
     class ReadLocker {
         public:
             explicit ReadLocker(RWLock& rwlock) : m_rwlock(&rwlock) {
+                m_rwlock->ReadLock();
