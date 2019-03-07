@@ -31,3 +31,5 @@ namespace clynn {
             }
 
             void ReadLock() {
+                CheckError("RWLock::ReadLock", pthread_rwlock_rdlock(&m_lock));
+            }
