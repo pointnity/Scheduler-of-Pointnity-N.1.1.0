@@ -22,3 +22,4 @@ namespace clynn {
 
     class RWLock {
         public:
+            RWLock() {
