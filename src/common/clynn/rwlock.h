@@ -75,3 +75,29 @@ namespace clynn {
             }
 
         private:
+            RWLock* m_rwlock;
+    };
+
+    class WriteLocker {
+        public:
+            explicit WriteLocker(RWLock& rwlock) : m_rwlock(&rwlock) {
+                m_rwlock->WriteLock();
+            }
+
+            ~WriteLocker() {
+                m_rwlock->Unlock();
+            }
+
+            void Unlock() {
+                m_rwlock->Unlock();
+            }
+            
+            void Lock() {
+                m_rwlock->WriteLock();
+            }
+
+        private:
+            RWLock* m_rwlock;
+    };
+}
+#endif
