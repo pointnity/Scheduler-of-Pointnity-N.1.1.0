@@ -29,3 +29,5 @@ namespace clynn {
             ~RWLock() {
                 pthread_rwlock_destroy(&m_lock);
             }
+
+            void ReadLock() {
