@@ -71,3 +71,7 @@ namespace clynn {
             }
 
             void Lock() {
+               m_rwlock->ReadLock();
+            }
+
+        private:
