@@ -35,3 +35,5 @@ namespace clynn {
             }
 
             void WriteLock() {
+                CheckError("RWLock::WriteLock", pthread_rwlock_wrlock(&m_lock));
+            }
