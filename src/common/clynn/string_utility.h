@@ -29,3 +29,5 @@ public:
         string::size_type comma_pos = 0;
 
         while (pos_begin != string::npos) {
+            comma_pos = str.find(sep, pos_begin);
+            if (comma_pos != string::npos) {
