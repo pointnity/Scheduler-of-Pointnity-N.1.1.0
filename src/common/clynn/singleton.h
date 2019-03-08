@@ -32,3 +32,4 @@ private:
 template <typename T>
 T* Singleton<T>::m_instance = NULL;
 template <typename T>
+clynn::Mutex Singleton<T>::m_lock;
