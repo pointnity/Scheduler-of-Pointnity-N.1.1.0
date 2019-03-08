@@ -27,3 +27,5 @@ private:
     static clynn::Mutex m_lock;
     static T* m_instance;
 };
+
+//initilize the static variables
