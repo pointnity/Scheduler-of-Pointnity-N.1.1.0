@@ -41,3 +41,6 @@ public:
             if (!tmp.empty()) {
                 ret_strs.push_back(tmp);
                 tmp.clear();
+            }
+        }
+        return;
