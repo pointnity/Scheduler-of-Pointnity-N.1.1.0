@@ -16,3 +16,4 @@ using clynn::MutexLocker;
 template <typename T>
 class Singleton {
 public:
+    static T* Instance() {
