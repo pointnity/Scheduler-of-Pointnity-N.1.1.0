@@ -5,3 +5,5 @@
  Version:  0.1
  Description: string encapsulation
 *********************************/
+
+#ifndef SRC_COMMON_STRING_UTILITY_H
