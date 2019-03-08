@@ -29,3 +29,4 @@ private:
 };
 
 //initilize the static variables
+template <typename T>
