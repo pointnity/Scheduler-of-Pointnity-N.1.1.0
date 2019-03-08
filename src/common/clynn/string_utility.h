@@ -34,3 +34,7 @@ public:
                 tmp = str.substr(pos_begin, comma_pos - pos_begin);
                 pos_begin = comma_pos + sep.length();
             } else {
+                tmp = str.substr(pos_begin);
+                pos_begin = comma_pos;
+            }
+
