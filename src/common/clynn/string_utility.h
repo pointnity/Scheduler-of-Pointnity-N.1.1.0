@@ -31,3 +31,4 @@ public:
         while (pos_begin != string::npos) {
             comma_pos = str.find(sep, pos_begin);
             if (comma_pos != string::npos) {
+                tmp = str.substr(pos_begin, comma_pos - pos_begin);
