@@ -8,3 +8,5 @@
 
 #ifndef COMMON_SINGLETON_H
 #define COMMON_SINGLETON_H
+
+#include "common/clynn/mutex.h"
