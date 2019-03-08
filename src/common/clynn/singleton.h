@@ -30,3 +30,4 @@ private:
 
 //initilize the static variables
 template <typename T>
+T* Singleton<T>::m_instance = NULL;
