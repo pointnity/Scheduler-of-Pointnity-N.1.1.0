@@ -38,3 +38,6 @@ public:
                 pos_begin = comma_pos;
             }
 
+            if (!tmp.empty()) {
+                ret_strs.push_back(tmp);
+                tmp.clear();
