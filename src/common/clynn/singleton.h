@@ -21,3 +21,6 @@ public:
         if (m_instance == NULL)
             m_instance = new T;
         return m_instance;
+    }
+
+private:
