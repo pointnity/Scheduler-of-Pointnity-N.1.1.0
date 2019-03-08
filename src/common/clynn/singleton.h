@@ -18,3 +18,4 @@ class Singleton {
 public:
     static T* Instance() {
         MutexLocker locker(m_lock);
+        if (m_instance == NULL)
