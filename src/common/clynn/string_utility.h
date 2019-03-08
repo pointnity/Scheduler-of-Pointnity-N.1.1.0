@@ -8,3 +8,5 @@
 
 #ifndef SRC_COMMON_STRING_UTILITY_H
 #define SRC_COMMON_STRING_UTILITY_H
+
+#include <string>
