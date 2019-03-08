@@ -22,3 +22,6 @@ public:
     static void Split(const string& str, vector<string>& ret_strs, string sep = ",") {
         if (str.empty()) {
             return;
+        }
+
+        string tmp;
