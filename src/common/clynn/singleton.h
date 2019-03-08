@@ -12,3 +12,5 @@
 #include "common/clynn/mutex.h"
 
 using clynn::MutexLocker;
+
+template <typename T>
