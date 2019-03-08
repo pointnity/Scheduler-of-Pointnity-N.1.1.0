@@ -44,3 +44,7 @@ public:
             }
         }
         return;
+    }
+
+    static string Replace(const string& str, const string& src, const string& dest) {
+        string ret;
