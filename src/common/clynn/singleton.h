@@ -24,3 +24,4 @@ public:
     }
 
 private:
+    static clynn::Mutex m_lock;
