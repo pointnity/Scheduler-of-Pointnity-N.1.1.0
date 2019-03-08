@@ -14,3 +14,4 @@
 using clynn::MutexLocker;
 
 template <typename T>
+class Singleton {
