@@ -7,3 +7,4 @@
 *********************************/
 
 #ifndef COMMON_SINGLETON_H
+#define COMMON_SINGLETON_H
