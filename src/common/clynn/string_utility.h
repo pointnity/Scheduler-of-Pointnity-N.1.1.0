@@ -55,3 +55,6 @@ public:
             // cout <<"replacexxx:" << pos_begin <<" " << pos <<"\n";
             ret.append(str.data() + pos_begin, pos - pos_begin);
             ret += dest;
+            pos_begin = pos + 1;
+            pos       = str.find(src, pos_begin);
+        }
