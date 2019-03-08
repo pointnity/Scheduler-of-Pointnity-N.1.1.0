@@ -25,3 +25,4 @@ public:
         }
 
         string tmp;
+        string::size_type pos_begin = str.find_first_not_of(sep);
