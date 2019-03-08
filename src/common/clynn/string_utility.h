@@ -10,3 +10,4 @@
 #define SRC_COMMON_STRING_UTILITY_H
 
 #include <string>
+#include <vector>
