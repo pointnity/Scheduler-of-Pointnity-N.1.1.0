@@ -52,3 +52,6 @@ public:
         string::size_type pos_begin = 0;
         string::size_type pos = str.find(src);
         while (pos != string::npos) {
+            // cout <<"replacexxx:" << pos_begin <<" " << pos <<"\n";
+            ret.append(str.data() + pos_begin, pos - pos_begin);
+            ret += dest;
