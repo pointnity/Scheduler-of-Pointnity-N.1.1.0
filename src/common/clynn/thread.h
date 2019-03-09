@@ -19,3 +19,5 @@ using std::tr1::placeholders::_1;
 using std::tr1::placeholders::_2;
 
 namespace clynn
+{
+    class Thread
