@@ -69,3 +69,4 @@ namespace clynn
             return NULL;
         }
     private:
+        pthread_t m_id;
