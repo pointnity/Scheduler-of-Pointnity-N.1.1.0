@@ -16,3 +16,6 @@ bool clynn::Thread::Start() {
 void clynn::Thread::DoStart() {
     m_is_running = true;
     m_entry();
+}
+
+bool clynn::Thread::Join() {
