@@ -60,3 +60,5 @@ namespace clynn
         void Terminate(){
             m_is_running = false;
         }
+
+    private:
