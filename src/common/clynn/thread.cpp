@@ -14,3 +14,4 @@ bool clynn::Thread::Start() {
 }
 
 void clynn::Thread::DoStart() {
+    m_is_running = true;
