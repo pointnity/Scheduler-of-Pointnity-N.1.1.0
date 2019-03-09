@@ -7,3 +7,4 @@
 *********************************/
 
 #ifndef SRC_COMMON_THREAD_H
+#define SRC_COMMON_THREAD_H
