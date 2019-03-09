@@ -23,3 +23,4 @@ bool clynn::Thread::Join() {
 }
 
 void clynn::Thread::Terminate() {
+    m_is_running = false;
