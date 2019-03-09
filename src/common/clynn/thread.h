@@ -73,3 +73,4 @@ namespace clynn
         ThreadFunc m_entry;
         void* m_context;
         unsigned long long m_param;
+        bool m_is_running;
