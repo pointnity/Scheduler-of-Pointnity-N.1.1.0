@@ -23,3 +23,6 @@ namespace clynn
     class Thread
     {
     public:
+        typedef function<void()> ThreadFunc;
+   
+    public:
