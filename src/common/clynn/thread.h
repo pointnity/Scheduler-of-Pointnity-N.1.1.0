@@ -41,3 +41,4 @@ namespace clynn
         //void Init(ThreadFunc entry, void* context = NULL, unsigned long long param = 0);
         void DoStart(){
             m_is_running = true;
+            m_entry();
