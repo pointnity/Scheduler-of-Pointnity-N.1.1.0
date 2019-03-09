@@ -51,3 +51,6 @@ namespace clynn
 
         bool Join(){
             return pthread_join(m_id, NULL) == 0;
+        }
+
+        bool IsRunning() {
