@@ -19,3 +19,4 @@ void clynn::Thread::DoStart() {
 }
 
 bool clynn::Thread::Join() {
+    return pthread_join(m_id, NULL) == 0;
