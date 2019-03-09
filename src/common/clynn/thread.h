@@ -74,3 +74,7 @@ namespace clynn
         void* m_context;
         unsigned long long m_param;
         bool m_is_running;
+    }; 
+}
+
+#endif
