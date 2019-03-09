@@ -37,3 +37,6 @@ namespace clynn
        m_is_running(false) {}
 
         virtual ~Thread() {}
+
+        //void Init(ThreadFunc entry, void* context = NULL, unsigned long long param = 0);
+        void DoStart(){
