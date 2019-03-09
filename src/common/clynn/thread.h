@@ -33,3 +33,4 @@ namespace clynn
 
         Thread(ThreadFunc entry, void* context = NULL, unsigned long long param = 0) : m_entry(entry), 
        m_context(context),
+       m_param(param),
