@@ -26,3 +26,4 @@ namespace clynn
         typedef function<void()> ThreadFunc;
    
     public:
+        Thread() : m_entry(NULL),
