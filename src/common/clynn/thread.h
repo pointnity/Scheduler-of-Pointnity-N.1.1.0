@@ -13,3 +13,5 @@
 
 #include <tr1/memory>
 #include <tr1/functional>
+
+using std::tr1::function;
