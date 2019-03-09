@@ -7,3 +7,5 @@
 *********************************/
 
 #include "common/clynn/thread.h"
+
+bool clynn::Thread::Start() {
