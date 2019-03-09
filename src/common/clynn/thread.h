@@ -45,3 +45,4 @@ namespace clynn
         }
 
         bool Start() {
+            int ret = pthread_create(&m_id, NULL, Entry, (void*)this);
