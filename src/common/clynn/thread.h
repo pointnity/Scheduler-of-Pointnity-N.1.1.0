@@ -29,3 +29,4 @@ namespace clynn
         Thread() : m_entry(NULL),
                    m_context(NULL),
                    m_param(0),
+                   m_is_running(false) {}
