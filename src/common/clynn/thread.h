@@ -62,3 +62,4 @@ namespace clynn
         }
 
     private:
+        static void* Entry(void* in_thread){
