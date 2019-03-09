@@ -30,3 +30,5 @@ void* clynn::Thread::Entry(void* in_thread) {
     Thread* th = (Thread* )in_thread;
     th->DoStart();
     th->Terminate();
+    return NULL;
+}
