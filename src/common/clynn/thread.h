@@ -12,3 +12,4 @@
 #include <pthread.h>
 
 #include <tr1/memory>
+#include <tr1/functional>
