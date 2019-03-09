@@ -55,3 +55,4 @@ namespace clynn
 
         bool IsRunning() {
             return m_is_running;
+        }
