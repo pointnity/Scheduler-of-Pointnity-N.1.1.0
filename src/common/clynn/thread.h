@@ -15,3 +15,4 @@
 #include <tr1/functional>
 
 using std::tr1::function;
+using std::tr1::placeholders::_1;
