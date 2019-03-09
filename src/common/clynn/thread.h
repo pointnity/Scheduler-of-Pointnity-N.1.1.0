@@ -71,3 +71,4 @@ namespace clynn
     private:
         pthread_t m_id;
         ThreadFunc m_entry;
+        void* m_context;
