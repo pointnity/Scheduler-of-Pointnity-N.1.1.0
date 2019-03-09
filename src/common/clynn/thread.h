@@ -10,3 +10,5 @@
 #define SRC_COMMON_THREAD_H
 
 #include <pthread.h>
+
+#include <tr1/memory>
