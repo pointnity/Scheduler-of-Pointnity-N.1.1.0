@@ -42,3 +42,6 @@ namespace clynn
         void DoStart(){
             m_is_running = true;
             m_entry();
+        }
+
+        bool Start() {
