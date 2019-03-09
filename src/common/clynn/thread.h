@@ -35,3 +35,5 @@ namespace clynn
        m_context(context),
        m_param(param),
        m_is_running(false) {}
+
+        virtual ~Thread() {}
