@@ -67,3 +67,5 @@ namespace clynn
             th->DoStart();
             th->Terminate();
             return NULL;
+        }
+    private:
