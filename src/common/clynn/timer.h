@@ -13,3 +13,4 @@ namespace clynn {
            m_cumulated_time = 0; 
            m_start_time.tv_sec = 0;
            m_start_time.tv_usec = 0;
+           if(auto_start) {
