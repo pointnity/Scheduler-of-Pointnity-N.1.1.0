@@ -49,3 +49,4 @@ namespace clynn {
        }
   
        int64_t ElapsedMicroSeconds() const {
+           if(IsRunning()) {
