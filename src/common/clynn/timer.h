@@ -7,3 +7,4 @@
 namespace clynn {
 
     class Timer {
+    public:
