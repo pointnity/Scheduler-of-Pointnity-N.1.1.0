@@ -50,3 +50,4 @@ namespace clynn {
   
        int64_t ElapsedMicroSeconds() const {
            if(IsRunning()) {
+                return m_cumulated_time + LastInterval();
