@@ -73,3 +73,6 @@ namespace clynn {
             struct timeval now;
             gettimeofday(&now, NULL);
             return 1000000 * (now.tv_sec - m_start_time.tv_sec) + now.tv_usec - m_start_time.tv_usec;
+       }
+
+       bool m_is_running;
