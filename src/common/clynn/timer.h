@@ -21,3 +21,4 @@ namespace clynn {
        void Start() {
            if(m_is_running == false) { 
                m_is_running = true;
+               gettimeofday(&m_start_time, NULL);
