@@ -10,3 +10,4 @@ namespace clynn {
     public:
        explicit Timer(bool auto_start = true) {
            m_is_running = auto_start; 
+           m_cumulated_time = 0; 
