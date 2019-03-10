@@ -69,3 +69,4 @@ namespace clynn {
        }
 
     private:   
+       int64_t LastInterval() const {
