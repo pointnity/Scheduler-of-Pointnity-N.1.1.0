@@ -15,3 +15,7 @@ namespace clynn {
            m_start_time.tv_usec = 0;
            if(auto_start) {
                gettimeofday(&m_start_time, NULL); 
+           }
+       } 
+  
+       void Start() {
