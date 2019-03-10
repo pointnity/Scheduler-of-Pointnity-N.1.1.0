@@ -76,3 +76,4 @@ namespace clynn {
        }
 
        bool m_is_running;
+       int64_t m_cumulated_time;
