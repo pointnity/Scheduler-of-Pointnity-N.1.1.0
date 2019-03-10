@@ -42,3 +42,4 @@ namespace clynn {
        }
       
        void Reset() {
+           m_cumulated_time = 0;
