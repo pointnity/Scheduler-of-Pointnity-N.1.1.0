@@ -52,3 +52,4 @@ namespace clynn {
            if(IsRunning()) {
                 return m_cumulated_time + LastInterval();
            } else { 
+                return m_cumulated_time;
