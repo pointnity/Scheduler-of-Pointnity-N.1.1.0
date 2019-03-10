@@ -66,3 +66,6 @@ namespace clynn {
 
        bool IsRunning() const {
            return m_is_running;
+       }
+
+    private:   
