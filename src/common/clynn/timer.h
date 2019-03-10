@@ -40,3 +40,5 @@ namespace clynn {
            gettimeofday(&m_start_time, NULL);
            m_is_running = true;
        }
+      
+       void Reset() {
