@@ -5,3 +5,5 @@
 #include <sys/time.h>
 
 namespace clynn {
+
+    class Timer {
