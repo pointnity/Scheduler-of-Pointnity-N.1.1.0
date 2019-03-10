@@ -46,3 +46,6 @@ namespace clynn {
            m_start_time.tv_sec = 0;
            m_start_time.tv_usec = 0;
            m_is_running = false;
+       }
+  
+       int64_t ElapsedMicroSeconds() const {
