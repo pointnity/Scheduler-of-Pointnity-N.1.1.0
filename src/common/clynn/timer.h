@@ -19,3 +19,4 @@ namespace clynn {
        } 
   
        void Start() {
+           if(m_is_running == false) { 
