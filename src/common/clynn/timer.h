@@ -30,3 +30,4 @@ namespace clynn {
                m_is_running = false;
                struct timeval now;
                gettimeofday(&now, NULL); 
+               m_cumulated_time += 
