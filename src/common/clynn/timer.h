@@ -12,3 +12,4 @@ namespace clynn {
            m_is_running = auto_start; 
            m_cumulated_time = 0; 
            m_start_time.tv_sec = 0;
+           m_start_time.tv_usec = 0;
