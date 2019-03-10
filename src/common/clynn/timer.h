@@ -28,3 +28,4 @@ namespace clynn {
        void Stop() {
            if(m_is_running == true) {
                m_is_running = false;
+               struct timeval now;
