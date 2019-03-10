@@ -44,3 +44,4 @@ namespace clynn {
        void Reset() {
            m_cumulated_time = 0;
            m_start_time.tv_sec = 0;
+           m_start_time.tv_usec = 0;
