@@ -71,3 +71,4 @@ namespace clynn {
     private:   
        int64_t LastInterval() const {
             struct timeval now;
+            gettimeofday(&now, NULL);
