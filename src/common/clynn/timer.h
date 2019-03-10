@@ -53,3 +53,7 @@ namespace clynn {
                 return m_cumulated_time + LastInterval();
            } else { 
                 return m_cumulated_time;
+           }
+       }
+
+       double ElapsedMilliSeconds() const {
