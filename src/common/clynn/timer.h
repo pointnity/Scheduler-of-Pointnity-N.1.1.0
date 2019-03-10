@@ -77,3 +77,4 @@ namespace clynn {
 
        bool m_is_running;
        int64_t m_cumulated_time;
+       struct timeval m_start_time;
