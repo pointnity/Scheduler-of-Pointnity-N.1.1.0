@@ -38,3 +38,5 @@ namespace clynn {
        void Restart() {
            m_cumulated_time = 0; 
            gettimeofday(&m_start_time, NULL);
+           m_is_running = true;
+       }
