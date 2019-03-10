@@ -57,3 +57,4 @@ namespace clynn {
        }
 
        double ElapsedMilliSeconds() const {
+           return ElapsedMicroSeconds() / 1000.0;
