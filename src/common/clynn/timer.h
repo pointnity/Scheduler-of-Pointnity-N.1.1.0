@@ -8,3 +8,4 @@ namespace clynn {
 
     class Timer {
     public:
+       explicit Timer(bool auto_start = true) {
