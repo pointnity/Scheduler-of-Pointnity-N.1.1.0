@@ -17,3 +17,5 @@
 #ifndef O_RDONLY
 #define O_RDONLY 1
 #endif
+
+#ifndef O_WRONLY 
