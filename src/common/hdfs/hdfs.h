@@ -21,3 +21,5 @@
 #ifndef O_WRONLY 
 #define O_WRONLY 2
 #endif
+
+#ifndef EINTERNAL
