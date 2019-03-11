@@ -25,3 +25,6 @@
 #ifndef EINTERNAL
 #define EINTERNAL 255 
 #endif
+
+
+/** All APIs set errno to meaningful values */
