@@ -66,3 +66,4 @@ extern  "C" {
     /**
      * The 'file-handle' to a file in hdfs.
      */
+    struct hdfsFile_internal {
