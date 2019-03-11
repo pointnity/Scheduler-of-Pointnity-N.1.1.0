@@ -55,3 +55,4 @@ extern  "C" {
     /**
      * The C equivalent of org.apache.org.hadoop.FSData(Input|Output)Stream .
      */
+    enum hdfsStreamType
