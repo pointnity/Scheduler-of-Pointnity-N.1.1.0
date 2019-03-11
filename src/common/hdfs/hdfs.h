@@ -23,3 +23,4 @@
 #endif
 
 #ifndef EINTERNAL
+#define EINTERNAL 255 
