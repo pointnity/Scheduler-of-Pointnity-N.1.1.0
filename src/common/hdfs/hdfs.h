@@ -34,3 +34,4 @@ extern  "C" {
 
     /**
      * Some utility decls used in libhdfs.
+     */
