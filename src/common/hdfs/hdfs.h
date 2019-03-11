@@ -31,3 +31,6 @@
 #ifdef __cplusplus
 extern  "C" {
 #endif
+
+    /**
+     * Some utility decls used in libhdfs.
