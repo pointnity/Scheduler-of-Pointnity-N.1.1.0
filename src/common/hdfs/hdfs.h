@@ -15,3 +15,4 @@
 #include <jni.h>
 
 #ifndef O_RDONLY
+#define O_RDONLY 1
