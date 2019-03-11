@@ -68,3 +68,4 @@ extern  "C" {
      */
     struct hdfsFile_internal {
         void* file;
+        enum hdfsStreamType type;
