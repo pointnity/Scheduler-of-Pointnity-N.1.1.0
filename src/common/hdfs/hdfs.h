@@ -48,3 +48,5 @@ extern  "C" {
 
     /**
      * The C reflection of org.apache.org.hadoop.FileSystem .
+     */
+    typedef void* hdfsFS;
