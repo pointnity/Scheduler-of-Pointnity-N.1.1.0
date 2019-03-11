@@ -60,3 +60,9 @@ extern  "C" {
         UNINITIALIZED = 0,
         INPUT = 1,
         OUTPUT = 2,
+    };
+
+    
+    /**
+     * The 'file-handle' to a file in hdfs.
+     */
