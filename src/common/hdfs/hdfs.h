@@ -13,3 +13,5 @@
 #include <errno.h>
 
 #include <jni.h>
+
+#ifndef O_RDONLY
