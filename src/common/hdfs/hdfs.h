@@ -50,3 +50,8 @@ extern  "C" {
      * The C reflection of org.apache.org.hadoop.FileSystem .
      */
     typedef void* hdfsFS;
+
+    
+    /**
+     * The C equivalent of org.apache.org.hadoop.FSData(Input|Output)Stream .
+     */
