@@ -147,3 +147,4 @@ extern  "C" {
  
 
     /** 
+     * hdfsSeek - Seek to given offset in file. 
