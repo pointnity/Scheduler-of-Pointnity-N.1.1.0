@@ -167,3 +167,4 @@ extern  "C" {
 
 
     /** 
+     * hdfsRead - Read data from an open file.
