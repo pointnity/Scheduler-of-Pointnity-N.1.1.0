@@ -109,3 +109,6 @@ extern  "C" {
      * @return Returns 0 on success, -1 on error.  
      */
     int hdfsDisconnect(hdfsFS fs);
+        
+
+    /** 
