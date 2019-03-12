@@ -171,3 +171,4 @@ extern  "C" {
      * @param fs The configured filesystem handle.
      * @param file The file handle.
      * @param buffer The buffer to copy read bytes into.
+     * @param length The length of the buffer.
