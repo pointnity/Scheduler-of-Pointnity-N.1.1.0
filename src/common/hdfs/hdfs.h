@@ -185,3 +185,4 @@ extern  "C" {
      * @param position Position from which to read
      * @param buffer The buffer to copy read bytes into.
      * @param length The length of the buffer.
+     * @return Returns the number of bytes actually read, possibly less than
