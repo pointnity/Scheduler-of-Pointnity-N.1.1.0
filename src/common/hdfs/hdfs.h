@@ -120,3 +120,4 @@ extern  "C" {
      * @param bufferSize Size of buffer for read/write - pass 0 if you want
      * to use the default configured values.
      * @param replication Block replication - pass 0 if you want to use
+     * the default configured values.
