@@ -206,3 +206,4 @@ extern  "C" {
 
     /** 
      * hdfsWrite - Flush the data. 
+     * @param fs The configured filesystem handle.
