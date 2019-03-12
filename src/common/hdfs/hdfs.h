@@ -193,3 +193,4 @@ extern  "C" {
 
 
     /** 
+     * hdfsWrite - Write data into an open file.
