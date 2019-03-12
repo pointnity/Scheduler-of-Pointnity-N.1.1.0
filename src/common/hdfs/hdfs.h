@@ -197,3 +197,4 @@ extern  "C" {
      * @param fs The configured filesystem handle.
      * @param file The file handle.
      * @param buffer The data.
+     * @param length The no. of bytes to write. 
