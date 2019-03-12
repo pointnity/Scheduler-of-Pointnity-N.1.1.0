@@ -176,3 +176,6 @@ extern  "C" {
      * than than length;-1 on error.
      */
     tSize hdfsRead(hdfsFS fs, hdfsFile file, void* buffer, tSize length);
+
+
+    /** 
