@@ -159,3 +159,4 @@ extern  "C" {
 
     /** 
      * hdfsTell - Get the current offset in the file, in bytes.
+     * @param fs The configured filesystem handle.
