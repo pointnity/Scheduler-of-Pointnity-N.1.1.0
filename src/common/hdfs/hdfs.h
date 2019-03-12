@@ -122,3 +122,4 @@ extern  "C" {
      * @param replication Block replication - pass 0 if you want to use
      * the default configured values.
      * @param blocksize Size of block - pass 0 if you want to use the
+     * default configured values.
