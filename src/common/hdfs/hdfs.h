@@ -164,3 +164,6 @@ extern  "C" {
      * @return Current offset, -1 on error.
      */
     tOffset hdfsTell(hdfsFS fs, hdfsFile file);
+
+
+    /** 
