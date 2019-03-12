@@ -134,3 +134,4 @@ extern  "C" {
      * @param fs The configured filesystem handle.
      * @param file The file handle.
      * @return Returns 0 on success, -1 on error.  
+     */
