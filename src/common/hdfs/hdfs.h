@@ -155,3 +155,6 @@ extern  "C" {
      * @return Returns 0 on success, -1 on error.  
      */
     int hdfsSeek(hdfsFS fs, hdfsFile file, tOffset desiredPos); 
+
+
+    /** 
