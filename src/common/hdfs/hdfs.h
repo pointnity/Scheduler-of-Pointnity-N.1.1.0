@@ -142,3 +142,5 @@ extern  "C" {
      * hdfsExists - Checks if a given path exsits on the filesystem 
      * @param fs The configured filesystem handle.
      * @param path The path to look for
+     */
+    int hdfsExists(hdfsFS fs, const char *path);
