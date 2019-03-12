@@ -125,3 +125,4 @@ extern  "C" {
      * default configured values.
      * @return Returns the handle to the open file or NULL on error.
      */
+    hdfsFile hdfsOpenFile(hdfsFS fs, const char* path, int flags,
