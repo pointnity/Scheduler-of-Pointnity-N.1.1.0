@@ -201,3 +201,4 @@ extern  "C" {
      * @return Returns the number of bytes written, -1 on error.
      */
     tSize hdfsWrite(hdfsFS fs, hdfsFile file, const void* buffer,
+                    tSize length);
