@@ -131,3 +131,4 @@ extern  "C" {
 
     /** 
      * hdfsCloseFile - Close an open file. 
+     * @param fs The configured filesystem handle.
