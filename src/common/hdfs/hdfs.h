@@ -107,3 +107,5 @@ extern  "C" {
      * Disconnect from hdfs.
      * @param fs The configured filesystem handle.
      * @return Returns 0 on success, -1 on error.  
+     */
+    int hdfsDisconnect(hdfsFS fs);
