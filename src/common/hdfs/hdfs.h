@@ -99,3 +99,4 @@ extern  "C" {
      * @param port The port on which the server is listening.
      * @return Returns a handle to the filesystem or NULL on error.
      */
+     hdfsFS hdfsConnect(const char* host, tPort port);
