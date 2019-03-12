@@ -105,3 +105,4 @@ extern  "C" {
     /** 
      * hdfsDisconnect - Disconnect from the hdfs file system.
      * Disconnect from hdfs.
+     * @param fs The configured filesystem handle.
