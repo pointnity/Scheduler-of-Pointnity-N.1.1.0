@@ -135,3 +135,4 @@ extern  "C" {
      * @param file The file handle.
      * @return Returns 0 on success, -1 on error.  
      */
+    int hdfsCloseFile(hdfsFS fs, hdfsFile file);
