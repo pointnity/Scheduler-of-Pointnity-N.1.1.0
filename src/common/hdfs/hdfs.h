@@ -187,3 +187,5 @@ extern  "C" {
      * @param length The length of the buffer.
      * @return Returns the number of bytes actually read, possibly less than
      * than length;-1 on error.
+     */
+    tSize hdfsPread(hdfsFS fs, hdfsFile file, tOffset position,
