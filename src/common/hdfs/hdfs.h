@@ -149,3 +149,4 @@ extern  "C" {
     /** 
      * hdfsSeek - Seek to given offset in file. 
      * This works only for files opened in read-only mode. 
+     * @param fs The configured filesystem handle.
