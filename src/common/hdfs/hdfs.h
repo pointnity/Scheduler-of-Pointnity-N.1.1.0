@@ -103,3 +103,4 @@ extern  "C" {
 
 
     /** 
+     * hdfsDisconnect - Disconnect from the hdfs file system.
