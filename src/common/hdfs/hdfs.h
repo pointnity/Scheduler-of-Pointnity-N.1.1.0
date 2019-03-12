@@ -119,3 +119,4 @@ extern  "C" {
      * O_WRONLY|O_APPEND. Other flags are generally ignored other than (O_RDWR || (O_EXCL & O_CREAT)) which return NULL and set errno equal ENOTSUP.
      * @param bufferSize Size of buffer for read/write - pass 0 if you want
      * to use the default configured values.
+     * @param replication Block replication - pass 0 if you want to use
