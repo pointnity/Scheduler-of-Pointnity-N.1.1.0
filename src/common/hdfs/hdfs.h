@@ -190,3 +190,6 @@ extern  "C" {
      */
     tSize hdfsPread(hdfsFS fs, hdfsFile file, tOffset position,
                     void* buffer, tSize length);
+
+
+    /** 
