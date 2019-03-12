@@ -127,3 +127,7 @@ extern  "C" {
      */
     hdfsFile hdfsOpenFile(hdfsFS fs, const char* path, int flags,
                           int bufferSize, short replication, tSize blocksize);
+
+
+    /** 
+     * hdfsCloseFile - Close an open file. 
