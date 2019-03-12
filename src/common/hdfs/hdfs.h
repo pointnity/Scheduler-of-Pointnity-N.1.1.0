@@ -205,3 +205,4 @@ extern  "C" {
 
 
     /** 
+     * hdfsWrite - Flush the data. 
