@@ -144,3 +144,4 @@ extern  "C" {
      * @param path The path to look for
      */
     int hdfsExists(hdfsFS fs, const char *path);
+     * This works only for files opened in read-only mode. 
