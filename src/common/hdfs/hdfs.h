@@ -114,3 +114,4 @@ extern  "C" {
     /** 
      * hdfsOpenFile - Open a hdfs file in given mode.
      * @param fs The configured filesystem handle.
+     * @param path The full path to the file.
