@@ -74,3 +74,14 @@ extern  "C" {
       
 
     /** 
+     * hdfsConnectAsUser - Connect to a hdfs file system as a specific user
+     * Connect to the hdfs.
+     * @param host A string containing either a host name, or an ip address
+     * of the namenode of a hdfs cluster. 'host' should be passed as NULL if
+     * you want to connect to local filesystem. 'host' should be passed as
+     * 'default' (and port as 0) to used the 'configured' filesystem
+     * (core-site/core-default.xml).
+     * @param port The port on which the server is listening.
+     * @param user the user name (this is hadoop domain user). Or NULL is equivelant to hhdfsConnect(host, port)
+     * @return Returns a handle to the filesystem or NULL on error.
+     */
