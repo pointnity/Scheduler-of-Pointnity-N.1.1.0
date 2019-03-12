@@ -151,3 +151,4 @@ extern  "C" {
      * This works only for files opened in read-only mode. 
      * @param fs The configured filesystem handle.
      * @param file The file handle.
+     * @param desiredPos Offset into the file to seek into.
