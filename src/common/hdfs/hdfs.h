@@ -195,3 +195,4 @@ extern  "C" {
     /** 
      * hdfsWrite - Write data into an open file.
      * @param fs The configured filesystem handle.
+     * @param file The file handle.
