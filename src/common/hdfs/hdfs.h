@@ -163,3 +163,4 @@ extern  "C" {
      * @param file The file handle.
      * @return Current offset, -1 on error.
      */
+    tOffset hdfsTell(hdfsFS fs, hdfsFile file);
