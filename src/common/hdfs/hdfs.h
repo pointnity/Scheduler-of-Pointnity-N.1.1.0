@@ -181,3 +181,4 @@ extern  "C" {
     /** 
      * hdfsPread - Positional read of data from an open file.
      * @param fs The configured filesystem handle.
+     * @param file The file handle.
