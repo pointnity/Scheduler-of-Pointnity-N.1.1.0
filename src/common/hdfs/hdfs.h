@@ -115,3 +115,4 @@ extern  "C" {
      * hdfsOpenFile - Open a hdfs file in given mode.
      * @param fs The configured filesystem handle.
      * @param path The full path to the file.
+     * @param flags - an | of bits/fcntl.h file flags - supported flags are O_RDONLY, O_WRONLY (meaning create or overwrite i.e., implies O_TRUNCAT), 
