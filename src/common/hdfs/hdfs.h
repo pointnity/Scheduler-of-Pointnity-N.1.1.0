@@ -198,3 +198,4 @@ extern  "C" {
      * @param file The file handle.
      * @param buffer The data.
      * @param length The no. of bytes to write. 
+     * @return Returns the number of bytes written, -1 on error.
