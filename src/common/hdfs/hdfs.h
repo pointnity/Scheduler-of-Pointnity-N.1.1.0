@@ -112,3 +112,4 @@ extern  "C" {
         
 
     /** 
+     * hdfsOpenFile - Open a hdfs file in given mode.
