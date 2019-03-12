@@ -189,3 +189,4 @@ extern  "C" {
      * than length;-1 on error.
      */
     tSize hdfsPread(hdfsFS fs, hdfsFile file, tOffset position,
+                    void* buffer, tSize length);
