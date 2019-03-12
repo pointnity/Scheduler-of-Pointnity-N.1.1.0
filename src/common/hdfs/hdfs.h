@@ -202,3 +202,6 @@ extern  "C" {
      */
     tSize hdfsWrite(hdfsFS fs, hdfsFile file, const void* buffer,
                     tSize length);
+
+
+    /** 
