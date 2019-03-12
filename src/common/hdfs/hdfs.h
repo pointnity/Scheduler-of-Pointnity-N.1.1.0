@@ -179,3 +179,4 @@ extern  "C" {
 
 
     /** 
+     * hdfsPread - Positional read of data from an open file.
