@@ -162,3 +162,4 @@ extern  "C" {
      * @param fs The configured filesystem handle.
      * @param file The file handle.
      * @return Current offset, -1 on error.
+     */
