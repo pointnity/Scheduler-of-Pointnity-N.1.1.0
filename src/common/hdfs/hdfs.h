@@ -154,3 +154,4 @@ extern  "C" {
      * @param desiredPos Offset into the file to seek into.
      * @return Returns 0 on success, -1 on error.  
      */
+    int hdfsSeek(hdfsFS fs, hdfsFile file, tOffset desiredPos); 
