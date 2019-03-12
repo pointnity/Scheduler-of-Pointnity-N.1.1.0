@@ -158,3 +158,4 @@ extern  "C" {
 
 
     /** 
+     * hdfsTell - Get the current offset in the file, in bytes.
