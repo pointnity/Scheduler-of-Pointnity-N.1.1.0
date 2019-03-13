@@ -231,3 +231,4 @@ extern  "C" {
      * @param dst The path of destination file. 
      * @return Returns 0 on success, -1 on error. 
      */
+    int hdfsCopy(hdfsFS srcFS, const char* src, hdfsFS dstFS, const char* dst);
