@@ -246,3 +246,4 @@ extern  "C" {
 
 
     /**
+     * hdfsDelete - Delete file. 
