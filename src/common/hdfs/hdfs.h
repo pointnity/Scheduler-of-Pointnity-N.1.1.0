@@ -243,3 +243,6 @@ extern  "C" {
      * @return Returns 0 on success, -1 on error. 
      */
     int hdfsMove(hdfsFS srcFS, const char* src, hdfsFS dstFS, const char* dst);
+
+
+    /**
