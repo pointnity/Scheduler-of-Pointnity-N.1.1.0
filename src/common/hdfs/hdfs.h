@@ -220,3 +220,4 @@ extern  "C" {
      * @param file The file handle.
      * @return Returns available bytes; -1 on error. 
      */
+    int hdfsAvailable(hdfsFS fs, hdfsFile file);
