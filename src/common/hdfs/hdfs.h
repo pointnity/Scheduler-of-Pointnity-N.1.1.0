@@ -257,4 +257,4 @@ extern  "C" {
     /**
      * hdfsRename - Rename file. 
      * @param fs The configured filesystem handle.
-
+     * @param oldPath The path of the source file. 
