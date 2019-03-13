@@ -217,3 +217,4 @@ extern  "C" {
      * hdfsAvailable - Number of bytes that can be read from this
      * input stream without blocking.
      * @param fs The configured filesystem handle.
+     * @param file The file handle.
