@@ -214,3 +214,4 @@ extern  "C" {
 
 
     /**
+     * hdfsAvailable - Number of bytes that can be read from this
