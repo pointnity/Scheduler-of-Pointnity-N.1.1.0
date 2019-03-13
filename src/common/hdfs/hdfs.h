@@ -226,3 +226,4 @@ extern  "C" {
     /**
      * hdfsCopy - Copy file from one filesystem to another.
      * @param srcFS The handle to source filesystem.
+     * @param src The path of source file. 
