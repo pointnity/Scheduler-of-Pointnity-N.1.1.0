@@ -248,3 +248,4 @@ extern  "C" {
     /**
      * hdfsDelete - Delete file. 
      * @param fs The configured filesystem handle.
+     * @param path The path of the file. 
