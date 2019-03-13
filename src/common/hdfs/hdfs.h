@@ -261,3 +261,4 @@ extern  "C" {
      * @param newPath The path of the destination file. 
      * @return Returns 0 on success, -1 on error. 
      */
+    int hdfsRename(hdfsFS fs, const char* oldPath, const char* newPath);
