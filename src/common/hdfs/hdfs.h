@@ -218,3 +218,4 @@ extern  "C" {
      * input stream without blocking.
      * @param fs The configured filesystem handle.
      * @param file The file handle.
+     * @return Returns available bytes; -1 on error. 
