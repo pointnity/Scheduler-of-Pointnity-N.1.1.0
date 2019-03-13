@@ -236,3 +236,4 @@ extern  "C" {
 
     /**
      * hdfsMove - Move file from one filesystem to another.
+     * @param srcFS The handle to source filesystem.
