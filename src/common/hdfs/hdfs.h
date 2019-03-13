@@ -229,3 +229,4 @@ extern  "C" {
      * @param src The path of source file. 
      * @param dstFS The handle to destination filesystem.
      * @param dst The path of destination file. 
+     * @return Returns 0 on success, -1 on error. 
