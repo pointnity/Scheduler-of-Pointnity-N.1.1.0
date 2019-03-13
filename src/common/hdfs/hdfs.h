@@ -251,3 +251,4 @@ extern  "C" {
      * @param path The path of the file. 
      * @return Returns 0 on success, -1 on error. 
      */
+    int hdfsDelete(hdfsFS fs, const char* path);
