@@ -210,3 +210,4 @@ extern  "C" {
      * @param file The file handle.
      * @return Returns 0 on success, -1 on error. 
      */
+    int hdfsFlush(hdfsFS fs, hdfsFile file);
