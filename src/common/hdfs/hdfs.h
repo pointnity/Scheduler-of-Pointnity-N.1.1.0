@@ -262,3 +262,183 @@ extern  "C" {
      * @return Returns 0 on success, -1 on error. 
      */
     int hdfsRename(hdfsFS fs, const char* oldPath, const char* newPath);
+
+
+    /** 
+     * hdfsGetWorkingDirectory - Get the current working directory for
+     * the given filesystem.
+     * @param fs The configured filesystem handle.
+     * @param buffer The user-buffer to copy path of cwd into. 
+     * @param bufferSize The length of user-buffer.
+     * @return Returns buffer, NULL on error.
+     */
+    char* hdfsGetWorkingDirectory(hdfsFS fs, char *buffer, size_t bufferSize);
+
+
+    /** 
+     * hdfsSetWorkingDirectory - Set the working directory. All relative
+     * paths will be resolved relative to it.
+     * @param fs The configured filesystem handle.
+     * @param path The path of the new 'cwd'. 
+     * @return Returns 0 on success, -1 on error. 
+     */
+    int hdfsSetWorkingDirectory(hdfsFS fs, const char* path);
+
+
+    /** 
+     * hdfsCreateDirectory - Make the given file and all non-existent
+     * parents into directories.
+     * @param fs The configured filesystem handle.
+     * @param path The path of the directory. 
+     * @return Returns 0 on success, -1 on error. 
+     */
+    int hdfsCreateDirectory(hdfsFS fs, const char* path);
+
+
+    /** 
+     * hdfsSetReplication - Set the replication of the specified
+     * file to the supplied value
+     * @param fs The configured filesystem handle.
+     * @param path The path of the file. 
+     * @return Returns 0 on success, -1 on error. 
+     */
+    int hdfsSetReplication(hdfsFS fs, const char* path, int16_t replication);
+
+
+    /** 
+     * hdfsFileInfo - Information about a file/directory.
+     */
+    typedef struct  {
+        tObjectKind mKind;   /* file or directory */
+        char *mName;         /* the name of the file */
+        tTime mLastMod;      /* the last modification time for the file in seconds */
+        tOffset mSize;       /* the size of the file in bytes */
+        short mReplication;    /* the count of replicas */
+        tOffset mBlockSize;  /* the block size for the file */
+        char *mOwner;        /* the owner of the file */
+        char *mGroup;        /* the group associated with the file */
+        short mPermissions;  /* the permissions associated with the file */
+        tTime mLastAccess;    /* the last access time for the file in seconds */
+    } hdfsFileInfo;
+
+
+    /** 
+     * hdfsListDirectory - Get list of files/directories for a given
+     * directory-path. hdfsFreeFileInfo should be called to deallocate memory. 
+     * @param fs The configured filesystem handle.
+     * @param path The path of the directory. 
+     * @param numEntries Set to the number of files/directories in path.
+     * @return Returns a dynamically-allocated array of hdfsFileInfo
+     * objects; NULL on error.
+     */
+    hdfsFileInfo *hdfsListDirectory(hdfsFS fs, const char* path,
+                                    int *numEntries);
+
+
+    /** 
+     * hdfsGetPathInfo - Get information about a path as a (dynamically
+     * allocated) single hdfsFileInfo struct. hdfsFreeFileInfo should be
+     * called when the pointer is no longer needed.
+     * @param fs The configured filesystem handle.
+     * @param path The path of the file. 
+     * @return Returns a dynamically-allocated hdfsFileInfo object;
+     * NULL on error.
+     */
+    hdfsFileInfo *hdfsGetPathInfo(hdfsFS fs, const char* path);
+
+
+    /** 
+     * hdfsFreeFileInfo - Free up the hdfsFileInfo array (including fields) 
+     * @param hdfsFileInfo The array of dynamically-allocated hdfsFileInfo
+     * objects.
+     * @param numEntries The size of the array.
+     */
+    void hdfsFreeFileInfo(hdfsFileInfo *hdfsFileInfo, int numEntries);
+
+
+    /** 
+     * hdfsGetHosts - Get hostnames where a particular block (determined by
+     * pos & blocksize) of a file is stored. The last element in the array
+     * is NULL. Due to replication, a single block could be present on
+     * multiple hosts.
+     * @param fs The configured filesystem handle.
+     * @param path The path of the file. 
+     * @param start The start of the block.
+     * @param length The length of the block.
+     * @return Returns a dynamically-allocated 2-d array of blocks-hosts;
+     * NULL on error.
+     */
+    char*** hdfsGetHosts(hdfsFS fs, const char* path, 
+            tOffset start, tOffset length);
+
+
+    /** 
+     * hdfsFreeHosts - Free up the structure returned by hdfsGetHosts
+     * @param hdfsFileInfo The array of dynamically-allocated hdfsFileInfo
+     * objects.
+     * @param numEntries The size of the array.
+     */
+    void hdfsFreeHosts(char ***blockHosts);
+
+
+    /** 
+     * hdfsGetDefaultBlockSize - Get the optimum blocksize.
+     * @param fs The configured filesystem handle.
+     * @return Returns the blocksize; -1 on error. 
+     */
+    tOffset hdfsGetDefaultBlockSize(hdfsFS fs);
+
+
+    /** 
+     * hdfsGetCapacity - Return the raw capacity of the filesystem.  
+     * @param fs The configured filesystem handle.
+     * @return Returns the raw-capacity; -1 on error. 
+     */
+    tOffset hdfsGetCapacity(hdfsFS fs);
+
+
+    /** 
+     * hdfsGetUsed - Return the total raw size of all files in the filesystem.
+     * @param fs The configured filesystem handle.
+     * @return Returns the total-size; -1 on error. 
+     */
+    tOffset hdfsGetUsed(hdfsFS fs);
+
+    /** 
+     * hdfsChown 
+     * @param fs The configured filesystem handle.
+     * @param path the path to the file or directory
+     * @param owner this is a string in Hadoop land. Set to null or "" if only setting group
+     * @param group  this is a string in Hadoop land. Set to null or "" if only setting user
+     * @return 0 on success else -1
+     */
+    int hdfsChown(hdfsFS fs, const char* path, const char *owner, const char *group);
+
+    /** 
+     * hdfsChmod
+     * @param fs The configured filesystem handle.
+     * @param path the path to the file or directory
+     * @param mode the bitmask to set it to
+     * @return 0 on success else -1
+     */
+      int hdfsChmod(hdfsFS fs, const char* path, short mode);
+
+    /** 
+     * hdfsUtime
+     * @param fs The configured filesystem handle.
+     * @param path the path to the file or directory
+     * @param mtime new modification time or 0 for only set access time in seconds
+     * @param atime new access time or 0 for only set modification time in seconds
+     * @return 0 on success else -1
+     */
+    int hdfsUtime(hdfsFS fs, const char* path, tTime mtime, tTime atime);
+    
+#ifdef __cplusplus
+}
+#endif
+
+#endif /*LIBHDFS_HDFS_H*/
+
+/**
+ * vim: ts=4: sw=4: et
+ */
