@@ -224,3 +224,4 @@ extern  "C" {
 
 
     /**
+     * hdfsCopy - Copy file from one filesystem to another.
