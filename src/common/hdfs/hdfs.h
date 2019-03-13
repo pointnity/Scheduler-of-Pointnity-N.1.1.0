@@ -211,3 +211,6 @@ extern  "C" {
      * @return Returns 0 on success, -1 on error. 
      */
     int hdfsFlush(hdfsFS fs, hdfsFile file);
+
+
+    /**
