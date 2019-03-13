@@ -235,3 +235,4 @@ extern  "C" {
 
 
     /**
+     * hdfsMove - Move file from one filesystem to another.
