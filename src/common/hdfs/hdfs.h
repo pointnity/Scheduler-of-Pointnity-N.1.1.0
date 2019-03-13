@@ -260,3 +260,4 @@ extern  "C" {
      * @param oldPath The path of the source file. 
      * @param newPath The path of the destination file. 
      * @return Returns 0 on success, -1 on error. 
+     */
