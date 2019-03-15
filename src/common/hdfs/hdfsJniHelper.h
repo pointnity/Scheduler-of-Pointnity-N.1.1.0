@@ -11,3 +11,6 @@
 #include <errno.h>
 
 #define PATH_SEPARATOR ':'
+
+
+/** Denote the method we want to invoke as STATIC or INSTANCE */
