@@ -24,3 +24,6 @@ typedef enum {
  * a method
  */
 typedef jvalue RetVal;
+
+/** Used for returning the exception after invoking a method */
+typedef jthrowable Exc;
