@@ -27,3 +27,5 @@ typedef jvalue RetVal;
 
 /** Used for returning the exception after invoking a method */
 typedef jthrowable Exc;
+
+/** invokeMethod: Invoke a Static or Instance method.
