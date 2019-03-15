@@ -23,3 +23,4 @@ typedef enum {
 /** Used for returning an appropriate return value after invoking
  * a method
  */
+typedef jvalue RetVal;
