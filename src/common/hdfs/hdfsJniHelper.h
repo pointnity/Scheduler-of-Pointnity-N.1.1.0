@@ -18,3 +18,7 @@ typedef enum {
     STATIC,
     INSTANCE
 } MethType;
+
+
+/** Used for returning an appropriate return value after invoking
+ * a method
