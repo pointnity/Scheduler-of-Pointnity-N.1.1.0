@@ -36,3 +36,4 @@ typedef jthrowable Exc;
  * instObj: Required if the methType is INSTANCE. The object to invoke
    the method on.
  * env: The JNIEnv pointer
+ * retval: The pointer to a union type which will contain the result of the
