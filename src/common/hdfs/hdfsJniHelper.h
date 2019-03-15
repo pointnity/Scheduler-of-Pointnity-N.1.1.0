@@ -34,3 +34,4 @@ typedef jthrowable Exc;
  * methSignature: the signature of the method "(arg-types)ret-type"
  * methType: The type of the method (STATIC or INSTANCE)
  * instObj: Required if the methType is INSTANCE. The object to invoke
+   the method on.
