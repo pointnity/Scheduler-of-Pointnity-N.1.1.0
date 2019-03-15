@@ -32,3 +32,4 @@ typedef jthrowable Exc;
  * className: Name of the class where the method can be found
  * methName: Name of the method
  * methSignature: the signature of the method "(arg-types)ret-type"
+ * methType: The type of the method (STATIC or INSTANCE)
