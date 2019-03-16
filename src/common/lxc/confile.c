@@ -19,3 +19,5 @@
 
 #include "parse.h"
 #include "utils.h"
+
+#include <lxc/log.h>
