@@ -50,3 +50,4 @@ int invokeMethod(JNIEnv *env, RetVal *retval, Exc *exc, MethType methType,
                  const char *methSignature, ...);
 
 /** constructNewObjectOfClass: Invoke a constructor.
+ * className: Name of the class
