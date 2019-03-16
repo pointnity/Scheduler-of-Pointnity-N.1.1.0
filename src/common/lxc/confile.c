@@ -1,6 +1,3 @@
 /*
- * lxc: linux Container library
+ * linux Container library
  *
- * 
- *
- * 
