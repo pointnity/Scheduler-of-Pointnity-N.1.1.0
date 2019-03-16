@@ -84,3 +84,7 @@ JNIEnv* getJNIEnv(void);
 jarray constructNewArrayString(JNIEnv *env, Exc *exc, const char **elements, int size) ;
 
 #endif /*LIBHDFS_JNI_HELPER_H*/
+
+/**
+ * vim: ts=4: sw=4: et:
+ */
