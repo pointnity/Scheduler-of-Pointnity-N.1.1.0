@@ -68,3 +68,4 @@ jclass globalClassReference(const char *className, JNIEnv *env);
 /** classNameOfObject: Get an object's class name.
  * @param jobj: The object.
  * @param env: The JNIEnv pointer.
+ * @return Returns a pointer to a string containing the class name. This string
