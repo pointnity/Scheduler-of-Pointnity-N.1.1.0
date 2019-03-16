@@ -9,3 +9,4 @@
 #include <fcntl.h>
 #include <pty.h>
 #include <sys/stat.h>
+#include <sys/types.h>
