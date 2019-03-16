@@ -46,3 +46,4 @@ typedef jthrowable Exc;
    a valid exception reference, and the result stored at retval is undefined.
  */
 int invokeMethod(JNIEnv *env, RetVal *retval, Exc *exc, MethType methType,
+                 jobject instObj, const char *className, const char *methName, 
