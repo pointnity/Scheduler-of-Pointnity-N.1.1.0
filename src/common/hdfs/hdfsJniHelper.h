@@ -71,3 +71,4 @@ jclass globalClassReference(const char *className, JNIEnv *env);
  * @return Returns a pointer to a string containing the class name. This string
  * must be freed by the caller.
  */
+char *classNameOfObject(jobject jobj, JNIEnv *env);
