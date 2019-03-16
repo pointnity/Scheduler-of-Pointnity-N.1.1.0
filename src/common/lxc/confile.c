@@ -8,3 +8,4 @@
 #include <errno.h>
 #include <fcntl.h>
 #include <pty.h>
+#include <sys/stat.h>
