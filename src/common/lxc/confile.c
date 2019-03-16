@@ -14,3 +14,4 @@
 #include <sys/utsname.h>
 #include <sys/personality.h>
 #include <arpa/inet.h>
+#include <netinet/in.h>
