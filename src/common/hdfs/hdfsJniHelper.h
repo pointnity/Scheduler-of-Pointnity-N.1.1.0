@@ -58,3 +58,6 @@ int invokeMethod(JNIEnv *env, RetVal *retval, Exc *exc, MethType methType,
  */
 jobject constructNewObjectOfClass(JNIEnv *env, Exc *exc, const char *className, 
                                   const char *ctorSignature, ...);
+
+jmethodID methodIdFromClass(const char *className, const char *methName, 
+                            const char *methSignature, MethType methType, 
