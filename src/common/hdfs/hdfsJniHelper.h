@@ -72,3 +72,5 @@ jclass globalClassReference(const char *className, JNIEnv *env);
  * must be freed by the caller.
  */
 char *classNameOfObject(jobject jobj, JNIEnv *env);
+
+/** getJNIEnv: A helper function to get the JNIEnv* for the given thread.
