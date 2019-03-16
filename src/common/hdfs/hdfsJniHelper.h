@@ -79,3 +79,4 @@ char *classNameOfObject(jobject jobj, JNIEnv *env);
  * @param: None.
  * @return The JNIEnv* corresponding to the thread.
  * */
+JNIEnv* getJNIEnv(void);
