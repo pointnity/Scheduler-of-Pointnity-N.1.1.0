@@ -80,3 +80,5 @@ char *classNameOfObject(jobject jobj, JNIEnv *env);
  * @return The JNIEnv* corresponding to the thread.
  * */
 JNIEnv* getJNIEnv(void);
+
+jarray constructNewArrayString(JNIEnv *env, Exc *exc, const char **elements, int size) ;
