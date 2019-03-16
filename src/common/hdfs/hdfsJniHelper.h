@@ -62,3 +62,5 @@ jobject constructNewObjectOfClass(JNIEnv *env, Exc *exc, const char *className,
 jmethodID methodIdFromClass(const char *className, const char *methName, 
                             const char *methSignature, MethType methType, 
                             JNIEnv *env);
+
+jclass globalClassReference(const char *className, JNIEnv *env);
