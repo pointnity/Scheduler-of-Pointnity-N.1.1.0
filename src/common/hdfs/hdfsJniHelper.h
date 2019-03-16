@@ -77,3 +77,4 @@ char *classNameOfObject(jobject jobj, JNIEnv *env);
  * If no JVM exists, then one will be created. JVM command line arguments
  * are obtained from the LIBHDFS_OPTS environment variable.
  * @param: None.
+ * @return The JNIEnv* corresponding to the thread.
