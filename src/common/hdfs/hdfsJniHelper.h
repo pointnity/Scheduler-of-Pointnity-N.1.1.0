@@ -66,3 +66,4 @@ jmethodID methodIdFromClass(const char *className, const char *methName,
 jclass globalClassReference(const char *className, JNIEnv *env);
 
 /** classNameOfObject: Get an object's class name.
+ * @param jobj: The object.
