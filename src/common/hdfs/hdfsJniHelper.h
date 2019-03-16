@@ -78,3 +78,4 @@ char *classNameOfObject(jobject jobj, JNIEnv *env);
  * are obtained from the LIBHDFS_OPTS environment variable.
  * @param: None.
  * @return The JNIEnv* corresponding to the thread.
+ * */
