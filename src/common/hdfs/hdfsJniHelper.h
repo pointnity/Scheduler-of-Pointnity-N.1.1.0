@@ -57,3 +57,4 @@ int invokeMethod(JNIEnv *env, RetVal *retval, Exc *exc, MethType methType,
  * Arguments to the ctor must be passed after ctorSignature 
  */
 jobject constructNewObjectOfClass(JNIEnv *env, Exc *exc, const char *className, 
+                                  const char *ctorSignature, ...);
