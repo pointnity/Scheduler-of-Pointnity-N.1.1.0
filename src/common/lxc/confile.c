@@ -21,3 +21,4 @@
 #include "utils.h"
 
 #include <lxc/log.h>
+#include <lxc/conf.h>
