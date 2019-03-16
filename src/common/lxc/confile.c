@@ -22,3 +22,5 @@
 
 #include <lxc/log.h>
 #include <lxc/conf.h>
+
+lxc_log_define(lxc_confile, lxc);
