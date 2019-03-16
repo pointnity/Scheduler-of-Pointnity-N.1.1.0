@@ -75,3 +75,4 @@ char *classNameOfObject(jobject jobj, JNIEnv *env);
 
 /** getJNIEnv: A helper function to get the JNIEnv* for the given thread.
  * If no JVM exists, then one will be created. JVM command line arguments
+ * are obtained from the LIBHDFS_OPTS environment variable.
