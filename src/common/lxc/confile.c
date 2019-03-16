@@ -13,3 +13,4 @@
 #include <sys/param.h>
 #include <sys/utsname.h>
 #include <sys/personality.h>
+#include <arpa/inet.h>
