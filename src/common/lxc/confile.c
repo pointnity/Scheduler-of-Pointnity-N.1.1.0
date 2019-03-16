@@ -10,3 +10,4 @@
 #include <pty.h>
 #include <sys/stat.h>
 #include <sys/types.h>
+#include <sys/param.h>
