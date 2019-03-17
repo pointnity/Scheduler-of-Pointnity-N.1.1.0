@@ -59,3 +59,4 @@ struct config {
 static struct config config[] = {
 
 	{ "lxc.arch",                 config_personality          },
+	{ "lxc.pts",                  config_pts                  },
