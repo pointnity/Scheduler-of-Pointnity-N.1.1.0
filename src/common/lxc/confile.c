@@ -77,3 +77,4 @@ static struct config config[] = {
 	{ "lxc.network.hwaddr",       config_network_hwaddr       },
 	{ "lxc.network.mtu",          config_network_mtu          },
 	{ "lxc.network.vlan.id",      config_network_vlan_id      },
+	{ "lxc.network.ipv4",         config_network_ipv4         },
