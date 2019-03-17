@@ -39,3 +39,4 @@ static int config_network_flags(const char *, char *, struct lxc_conf *);
 static int config_network_link(const char *, char *, struct lxc_conf *);
 static int config_network_name(const char *, char *, struct lxc_conf *);
 static int config_network_veth_pair(const char *, char *, struct lxc_conf *);
+static int config_network_macvlan_mode(const char *, char *, struct lxc_conf *);
