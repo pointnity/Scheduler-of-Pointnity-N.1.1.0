@@ -45,3 +45,4 @@ static int config_network_vlan_id(const char *, char *, struct lxc_conf *);
 static int config_network_mtu(const char *, char *, struct lxc_conf *);
 static int config_network_ipv4(const char *, char *, struct lxc_conf *);
 static int config_network_script(const char *, char *, struct lxc_conf *);
+static int config_network_ipv6(const char *, char *, struct lxc_conf *);
