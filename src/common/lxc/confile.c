@@ -79,3 +79,4 @@ static struct config config[] = {
 	{ "lxc.network.vlan.id",      config_network_vlan_id      },
 	{ "lxc.network.ipv4",         config_network_ipv4         },
 	{ "lxc.network.ipv6",         config_network_ipv6         },
+	{ "lxc.cap.drop",             config_cap_drop             },
