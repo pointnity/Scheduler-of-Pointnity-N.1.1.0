@@ -24,3 +24,5 @@
 #include <lxc/conf.h>
 
 lxc_log_define(lxc_confile, lxc);
+
+static int config_personality(const char *, char *, struct lxc_conf *);
