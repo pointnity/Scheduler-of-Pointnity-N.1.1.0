@@ -29,3 +29,4 @@ static int config_personality(const char *, char *, struct lxc_conf *);
 static int config_pts(const char *, char *, struct lxc_conf *);
 static int config_tty(const char *, char *, struct lxc_conf *);
 static int config_cgroup(const char *, char *, struct lxc_conf *);
+static int config_mount(const char *, char *, struct lxc_conf *);
