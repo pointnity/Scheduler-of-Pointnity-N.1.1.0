@@ -64,3 +64,4 @@ static struct config config[] = {
 	{ "lxc.cgroup",               config_cgroup               },
 	{ "lxc.mount",                config_mount                },
 	{ "lxc.rootfs.mount",         config_rootfs_mount         },
+	{ "lxc.rootfs",               config_rootfs               },
