@@ -35,3 +35,4 @@ static int config_rootfs_mount(const char *, char *, struct lxc_conf *);
 static int config_pivotdir(const char *, char *, struct lxc_conf *);
 static int config_utsname(const char *, char *, struct lxc_conf *);
 static int config_network_type(const char *, char *, struct lxc_conf *);
+static int config_network_flags(const char *, char *, struct lxc_conf *);
