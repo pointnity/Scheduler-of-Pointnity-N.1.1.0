@@ -73,3 +73,4 @@ static struct config config[] = {
 	{ "lxc.network.name",         config_network_name         },
 	{ "lxc.network.macvlan.mode", config_network_macvlan_mode },
 	{ "lxc.network.veth.pair",    config_network_veth_pair    },
+	{ "lxc.network.script.up",    config_network_script       },
