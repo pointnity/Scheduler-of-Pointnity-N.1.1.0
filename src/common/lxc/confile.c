@@ -48,3 +48,5 @@ static int config_network_script(const char *, char *, struct lxc_conf *);
 static int config_network_ipv6(const char *, char *, struct lxc_conf *);
 static int config_cap_drop(const char *, char *, struct lxc_conf *);
 static int config_console(const char *, char *, struct lxc_conf *);
+
+typedef int (*config_cb)(const char *, char *, struct lxc_conf *);
