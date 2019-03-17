@@ -61,3 +61,4 @@ static struct config config[] = {
 	{ "lxc.arch",                 config_personality          },
 	{ "lxc.pts",                  config_pts                  },
 	{ "lxc.tty",                  config_tty                  },
+	{ "lxc.cgroup",               config_cgroup               },
