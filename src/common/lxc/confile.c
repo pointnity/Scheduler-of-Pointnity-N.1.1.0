@@ -62,3 +62,4 @@ static struct config config[] = {
 	{ "lxc.pts",                  config_pts                  },
 	{ "lxc.tty",                  config_tty                  },
 	{ "lxc.cgroup",               config_cgroup               },
+	{ "lxc.mount",                config_mount                },
