@@ -53,3 +53,4 @@ typedef int (*config_cb)(const char *, char *, struct lxc_conf *);
 
 struct config {
 	char *name;
+	config_cb cb;
