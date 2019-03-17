@@ -67,3 +67,4 @@ static struct config config[] = {
 	{ "lxc.rootfs",               config_rootfs               },
 	{ "lxc.pivotdir",             config_pivotdir             },
 	{ "lxc.utsname",              config_utsname              },
+	{ "lxc.network.type",         config_network_type         },
