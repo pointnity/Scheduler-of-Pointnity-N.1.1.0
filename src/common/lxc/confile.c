@@ -42,3 +42,4 @@ static int config_network_veth_pair(const char *, char *, struct lxc_conf *);
 static int config_network_macvlan_mode(const char *, char *, struct lxc_conf *);
 static int config_network_hwaddr(const char *, char *, struct lxc_conf *);
 static int config_network_vlan_id(const char *, char *, struct lxc_conf *);
+static int config_network_mtu(const char *, char *, struct lxc_conf *);
