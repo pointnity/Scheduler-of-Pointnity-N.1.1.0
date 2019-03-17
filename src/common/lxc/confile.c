@@ -70,3 +70,4 @@ static struct config config[] = {
 	{ "lxc.network.type",         config_network_type         },
 	{ "lxc.network.flags",        config_network_flags        },
 	{ "lxc.network.link",         config_network_link         },
+	{ "lxc.network.name",         config_network_name         },
