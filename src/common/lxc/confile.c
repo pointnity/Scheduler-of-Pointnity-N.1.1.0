@@ -52,3 +52,4 @@ static int config_console(const char *, char *, struct lxc_conf *);
 typedef int (*config_cb)(const char *, char *, struct lxc_conf *);
 
 struct config {
+	char *name;
