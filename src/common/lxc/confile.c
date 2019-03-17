@@ -55,3 +55,5 @@ struct config {
 	char *name;
 	config_cb cb;
 };
+
+static struct config config[] = {
