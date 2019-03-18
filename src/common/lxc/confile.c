@@ -112,3 +112,5 @@ static int config_network_type(const char *key, char *value,
 	memset(netdev, 0, sizeof(*netdev));
 	lxc_list_init(&netdev->ipv4);
 	lxc_list_init(&netdev->ipv6);
+
+	list = malloc(sizeof(*list));
