@@ -259,3 +259,34 @@ static int config_network_name(const char *key, char *value,
 
 	netdev = network_netdev(key, value, &lxc_conf->network);
 	if (!netdev)
+		return -1;
+
+	return network_ifname(&netdev->name, value);
+}
+
+static int config_network_veth_pair(const char *key, char *value,
+				    struct lxc_conf *lxc_conf)
+{
+	struct lxc_netdev *netdev;
+
+	netdev = network_netdev(key, value, &lxc_conf->network);
+	if (!netdev)
+		return -1;
+
+	return network_ifname(&netdev->priv.veth_attr.pair, value);
+}
+
+static int config_network_macvlan_mode(const char *key, char *value,
+				       struct lxc_conf *lxc_conf)
+{
+	struct lxc_netdev *netdev;
+
+	netdev = network_netdev(key, value, &lxc_conf->network);
+	if (!netdev)
+		return -1;
+
+	return macvlan_mode(&netdev->priv.macvlan_attr.mode, value);
+}
+
+static int config_network_hwaddr(const char *key, char *value,
+				 struct lxc_conf *lxc_conf)
