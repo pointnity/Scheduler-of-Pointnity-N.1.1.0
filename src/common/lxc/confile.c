@@ -208,3 +208,7 @@ static int macvlan_mode(int *valuep, char *value)
 		char *name;
 		int mode;
 	} m[] = {
+		{ "private", MACVLAN_MODE_PRIVATE },
+		{ "vepa", MACVLAN_MODE_VEPA },
+		{ "bridge", MACVLAN_MODE_BRIDGE },
+	};
