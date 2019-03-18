@@ -201,3 +201,10 @@ static int network_ifname(char **valuep, char *value)
 #ifndef MACVLAN_MODE_BRIDGE
 #  define MACVLAN_MODE_BRIDGE 4
 #endif
+
+static int macvlan_mode(int *valuep, char *value)
+{
+	struct mc_mode {
+		char *name;
+		int mode;
+	} m[] = {
