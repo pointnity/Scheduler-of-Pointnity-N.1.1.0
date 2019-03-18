@@ -157,3 +157,25 @@ static struct lxc_netdev *network_netdev(const char *key, const char *value,
 					 struct lxc_list *network)
 {
 	struct lxc_netdev *netdev;
+
+	if (lxc_list_empty(network)) {
+		ERROR("network is not created for '%s' = '%s' option",
+		      key, value);
+		return NULL;
+	}
+
+	netdev = lxc_list_last_elem(network);
+	if (!netdev) {
+		ERROR("no network device defined for '%s' = '%s' option",
+		      key, value);
+		return NULL;
+	}
+
+	return netdev;
+}
+
+static int network_ifname(char **valuep, char *value)
+{
+	if (strlen(value) >= IFNAMSIZ) {
+		ERROR("invalid interface name: %s", value);
+		return -1;
