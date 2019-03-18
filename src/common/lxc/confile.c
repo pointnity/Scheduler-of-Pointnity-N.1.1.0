@@ -95,3 +95,5 @@ static struct config *getconfig(const char *key)
 			return &config[i];
 	return NULL;
 }
+
+static int config_network_type(const char *key, char *value,
