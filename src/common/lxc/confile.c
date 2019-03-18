@@ -127,3 +127,4 @@ static int config_network_type(const char *key, char *value,
 	if (!strcmp(value, "veth"))
 		netdev->type = LXC_NET_VETH;
 	else if (!strcmp(value, "macvlan"))
+		netdev->type = LXC_NET_MACVLAN;
