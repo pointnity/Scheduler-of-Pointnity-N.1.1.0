@@ -128,3 +128,32 @@ static int config_network_type(const char *key, char *value,
 		netdev->type = LXC_NET_VETH;
 	else if (!strcmp(value, "macvlan"))
 		netdev->type = LXC_NET_MACVLAN;
+	else if (!strcmp(value, "vlan"))
+		netdev->type = LXC_NET_VLAN;
+	else if (!strcmp(value, "phys"))
+		netdev->type = LXC_NET_PHYS;
+	else if (!strcmp(value, "empty"))
+		netdev->type = LXC_NET_EMPTY;
+	else {
+		ERROR("invalid network type %s", value);
+		return -1;
+	}
+	return 0;
+}
+
+static int config_ip_prefix(struct in_addr *addr)
+{
+	if (IN_CLASSA(addr->s_addr))
+		return 32 - IN_CLASSA_NSHIFT;
+	if (IN_CLASSB(addr->s_addr))
+		return 32 - IN_CLASSB_NSHIFT;
+	if (IN_CLASSC(addr->s_addr))
+		return 32 - IN_CLASSC_NSHIFT;
+
+	return 0;
+}
+
+static struct lxc_netdev *network_netdev(const char *key, const char *value,
+					 struct lxc_list *network)
+{
+	struct lxc_netdev *netdev;
