@@ -108,3 +108,6 @@ static int config_network_type(const char *key, char *value,
 		SYSERROR("failed to allocate memory");
 		return -1;
 	}
+
+	memset(netdev, 0, sizeof(*netdev));
+	lxc_list_init(&netdev->ipv4);
