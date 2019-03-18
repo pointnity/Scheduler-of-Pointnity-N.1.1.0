@@ -120,3 +120,4 @@ static int config_network_type(const char *key, char *value,
 	}
 
 	lxc_list_init(list);
+	list->elem = netdev;
