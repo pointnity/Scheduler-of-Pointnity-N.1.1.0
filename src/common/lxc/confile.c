@@ -107,3 +107,4 @@ static int config_network_type(const char *key, char *value,
 	if (!netdev) {
 		SYSERROR("failed to allocate memory");
 		return -1;
+	}
