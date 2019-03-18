@@ -319,3 +319,33 @@ static int config_network_vlan_id(const char *key, char *value,
 		return -1;
 
 	return 0;
+}
+
+static int config_network_mtu(const char *key, char *value,
+			      struct lxc_conf *lxc_conf)
+{
+	struct lxc_netdev *netdev;
+
+	netdev = network_netdev(key, value, &lxc_conf->network);
+	if (!netdev)
+		return -1;
+
+	netdev->mtu = strdup(value);
+	if (!netdev->mtu) {
+		SYSERROR("failed to dup string '%s'", value);
+		return -1;
+	}
+
+	return 0;
+}
+
+static int config_network_ipv4(const char *key, char *value,
+			       struct lxc_conf *lxc_conf)
+{
+	struct lxc_netdev *netdev;
+	struct lxc_inetdev *inetdev;
+	struct lxc_list *list;
+	char *cursor, *slash, *addr = NULL, *bcast = NULL, *prefix = NULL;
+
+	netdev = network_netdev(key, value, &lxc_conf->network);
+	if (!netdev)
