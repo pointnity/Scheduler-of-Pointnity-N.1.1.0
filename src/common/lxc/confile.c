@@ -212,3 +212,21 @@ static int macvlan_mode(int *valuep, char *value)
 		{ "vepa", MACVLAN_MODE_VEPA },
 		{ "bridge", MACVLAN_MODE_BRIDGE },
 	};
+
+	int i;
+
+	for (i = 0; i < sizeof(m)/sizeof(m[0]); i++) {
+		if (strcmp(m[i].name, value))
+			continue;
+
+		*valuep = m[i].mode;
+		return 0;
+	}
+
+	return -1;
+}
+
+static int config_network_flags(const char *key, char *value,
+				struct lxc_conf *lxc_conf)
+{
+	struct lxc_netdev *netdev;
