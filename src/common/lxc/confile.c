@@ -123,3 +123,5 @@ static int config_network_type(const char *key, char *value,
 	list->elem = netdev;
 
 	lxc_list_add_tail(network, list);
+
+	if (!strcmp(value, "veth"))
