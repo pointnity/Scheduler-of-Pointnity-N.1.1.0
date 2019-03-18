@@ -90,3 +90,4 @@ static struct config *getconfig(const char *key)
 	int i;
 
 	for (i = 0; i < config_size; i++)
+		if (!strncmp(config[i].name, key,
