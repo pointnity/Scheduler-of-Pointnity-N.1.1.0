@@ -118,3 +118,5 @@ static int config_network_type(const char *key, char *value,
 		SYSERROR("failed to allocate memory");
 		return -1;
 	}
+
+	lxc_list_init(list);
