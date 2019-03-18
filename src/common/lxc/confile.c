@@ -179,3 +179,25 @@ static int network_ifname(char **valuep, char *value)
 	if (strlen(value) >= IFNAMSIZ) {
 		ERROR("invalid interface name: %s", value);
 		return -1;
+	}
+
+	*valuep = strdup(value);
+	if (!*valuep) {
+		ERROR("failed to dup string '%s'", value);
+		return -1;
+	}
+
+	return 0;
+}
+
+#ifndef MACVLAN_MODE_PRIVATE
+#  define MACVLAN_MODE_PRIVATE 1
+#endif
+
+#ifndef MACVLAN_MODE_VEPA
+#  define MACVLAN_MODE_VEPA 2
+#endif
+
+#ifndef MACVLAN_MODE_BRIDGE
+#  define MACVLAN_MODE_BRIDGE 4
+#endif
