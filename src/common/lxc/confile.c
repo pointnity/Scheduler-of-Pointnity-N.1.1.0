@@ -125,3 +125,4 @@ static int config_network_type(const char *key, char *value,
 	lxc_list_add_tail(network, list);
 
 	if (!strcmp(value, "veth"))
+		netdev->type = LXC_NET_VETH;
