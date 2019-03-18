@@ -290,3 +290,32 @@ static int config_network_macvlan_mode(const char *key, char *value,
 
 static int config_network_hwaddr(const char *key, char *value,
 				 struct lxc_conf *lxc_conf)
+{
+	struct lxc_netdev *netdev;
+
+	netdev = network_netdev(key, value, &lxc_conf->network);
+	if (!netdev)
+		return -1;
+
+	netdev->hwaddr = strdup(value);
+	if (!netdev->hwaddr) {
+		SYSERROR("failed to dup string '%s'", value);
+		return -1;
+	}
+
+	return 0;
+}
+
+static int config_network_vlan_id(const char *key, char *value,
+			       struct lxc_conf *lxc_conf)
+{
+	struct lxc_netdev *netdev;
+
+	netdev = network_netdev(key, value, &lxc_conf->network);
+	if (!netdev)
+		return -1;
+
+	if (get_u16(&netdev->priv.vlan_attr.vid, value, 0))
+		return -1;
+
+	return 0;
