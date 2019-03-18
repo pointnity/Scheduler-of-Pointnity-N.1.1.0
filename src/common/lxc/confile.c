@@ -88,3 +88,5 @@ static const size_t config_size = sizeof(config)/sizeof(struct config);
 static struct config *getconfig(const char *key)
 {
 	int i;
+
+	for (i = 0; i < config_size; i++)
