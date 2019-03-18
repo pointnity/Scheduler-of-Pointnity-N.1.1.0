@@ -104,3 +104,4 @@ static int config_network_type(const char *key, char *value,
 	struct lxc_list *list;
 
 	netdev = malloc(sizeof(*netdev));
+	if (!netdev) {
