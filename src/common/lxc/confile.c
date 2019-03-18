@@ -93,3 +93,4 @@ static struct config *getconfig(const char *key)
 		if (!strncmp(config[i].name, key,
 			     strlen(config[i].name)))
 			return &config[i];
+	return NULL;
