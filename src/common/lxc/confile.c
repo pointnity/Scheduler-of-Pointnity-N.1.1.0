@@ -99,3 +99,4 @@ static struct config *getconfig(const char *key)
 static int config_network_type(const char *key, char *value,
 			       struct lxc_conf *lxc_conf)
 {
+	struct lxc_list *network = &lxc_conf->network;
