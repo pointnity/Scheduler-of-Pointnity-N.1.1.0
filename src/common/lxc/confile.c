@@ -94,3 +94,4 @@ static struct config *getconfig(const char *key)
 			     strlen(config[i].name)))
 			return &config[i];
 	return NULL;
+}
