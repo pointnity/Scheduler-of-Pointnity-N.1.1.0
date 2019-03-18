@@ -82,3 +82,5 @@ static struct config config[] = {
 	{ "lxc.cap.drop",             config_cap_drop             },
 	{ "lxc.console",              config_console              },
 };
+
+static const size_t config_size = sizeof(config)/sizeof(struct config);
