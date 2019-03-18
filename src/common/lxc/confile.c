@@ -117,3 +117,4 @@ static int config_network_type(const char *key, char *value,
 	if (!list) {
 		SYSERROR("failed to allocate memory");
 		return -1;
+	}
