@@ -86,3 +86,5 @@ static struct config config[] = {
 static const size_t config_size = sizeof(config)/sizeof(struct config);
 
 static struct config *getconfig(const char *key)
+{
+	int i;
