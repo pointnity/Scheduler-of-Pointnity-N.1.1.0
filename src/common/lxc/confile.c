@@ -230,3 +230,32 @@ static int config_network_flags(const char *key, char *value,
 				struct lxc_conf *lxc_conf)
 {
 	struct lxc_netdev *netdev;
+
+	netdev = network_netdev(key, value, &lxc_conf->network);
+	if (!netdev)
+		return -1;
+
+	netdev->flags |= IFF_UP;
+
+	return 0;
+}
+
+static int config_network_link(const char *key, char *value,
+			       struct lxc_conf *lxc_conf)
+{
+	struct lxc_netdev *netdev;
+
+	netdev = network_netdev(key, value, &lxc_conf->network);
+	if (!netdev)
+		return -1;
+
+	return network_ifname(&netdev->link, value);
+}
+
+static int config_network_name(const char *key, char *value,
+			       struct lxc_conf *lxc_conf)
+{
+	struct lxc_netdev *netdev;
+
+	netdev = network_netdev(key, value, &lxc_conf->network);
+	if (!netdev)
