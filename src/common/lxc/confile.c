@@ -349,3 +349,31 @@ static int config_network_ipv4(const char *key, char *value,
 
 	netdev = network_netdev(key, value, &lxc_conf->network);
 	if (!netdev)
+		return -1;
+
+	inetdev = malloc(sizeof(*inetdev));
+	if (!inetdev) {
+		SYSERROR("failed to allocate ipv4 address");
+		return -1;
+	}
+	memset(inetdev, 0, sizeof(*inetdev));
+
+	list = malloc(sizeof(*list));
+	if (!list) {
+		SYSERROR("failed to allocate memory");
+		return -1;
+	}
+
+	lxc_list_init(list);
+	list->elem = inetdev;
+
+	addr = value;
+
+	cursor = strstr(addr, " ");
+	if (cursor) {
+		*cursor = '\0';
+		bcast = cursor + 1;
+	}
+
+	slash = strstr(addr, "/");
+	if (slash) {
