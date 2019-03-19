@@ -43,3 +43,6 @@ static int log_append_logfile(const struct lxc_log_appender *appender,
 {
 	char buffer[LXC_LOG_BUFFER_SIZE];
 	int n;
+
+	if (lxc_log_fd == -1)
+		return 0;
