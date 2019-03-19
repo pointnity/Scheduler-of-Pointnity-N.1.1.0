@@ -46,3 +46,16 @@ static int log_append_logfile(const struct lxc_log_appender *appender,
 
 	if (lxc_log_fd == -1)
 		return 0;
+
+	n = snprintf(buffer, sizeof(buffer),
+		     "%15s %10ld.%03ld %-8s %s - ",
+		     log_prefix,
+		     event->timestamp.tv_sec,
+		     event->timestamp.tv_usec / 1000,
+		     lxc_log_priority_to_string(event->priority),
+		     event->category);
+
+	n += vsnprintf(buffer + n, sizeof(buffer) - n, event->fmt,
+		       *event->vap);
+
+	if (n >= sizeof(buffer) - 1) {
