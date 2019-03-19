@@ -6,3 +6,4 @@
 #include <limits.h>
 #include <unistd.h>
 #include <sys/stat.h>
+#include <string.h>
