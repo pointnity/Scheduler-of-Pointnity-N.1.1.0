@@ -40,3 +40,4 @@ static int log_append_stderr(const struct lxc_log_appender *appender,
 /*---------------------------------------------------------------------------*/
 static int log_append_logfile(const struct lxc_log_appender *appender,
 			      struct lxc_log_event *event)
+{
