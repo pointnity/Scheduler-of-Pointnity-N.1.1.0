@@ -6,3 +6,4 @@ extern "C" {
 #endif
 
 struct lxc_conf;
+struct lxc_list;
