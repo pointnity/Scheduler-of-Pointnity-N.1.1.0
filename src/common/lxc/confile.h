@@ -16,3 +16,5 @@ extern int lxc_config_define_load(struct lxc_list *defines,
 				  struct lxc_conf *conf);
 
 #ifdef __cplusplus
+}
+#endif
