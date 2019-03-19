@@ -59,3 +59,27 @@ static int log_append_logfile(const struct lxc_log_appender *appender,
 		       *event->vap);
 
 	if (n >= sizeof(buffer) - 1) {
+		WARN("truncated next event from %d to %zd bytes", n,
+		     sizeof(buffer));
+		n = sizeof(buffer) - 1;
+	}
+
+	buffer[n] = '\n';
+
+	return write(lxc_log_fd, buffer, n + 1);
+}
+
+static struct lxc_log_appender log_appender_stderr = {
+	.name		= "stderr",
+	.append		= log_append_stderr,
+	.next		= NULL,
+};
+
+static struct lxc_log_appender log_appender_logfile = {
+	.name		= "logfile",
+	.append		= log_append_logfile,
+	.next		= NULL,
+};
+
+static struct lxc_log_category log_root = {
+	.name		= "root",
