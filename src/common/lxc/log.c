@@ -9,3 +9,5 @@
 #include <string.h>
 
 #define __USE_GNU /* for *_CLOEXEC */
+
+#include <fcntl.h>
