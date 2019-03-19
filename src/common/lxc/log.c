@@ -20,3 +20,4 @@
 #define LXC_LOG_BUFFER_SIZE	512
 
 int lxc_log_fd = -1;
+static char log_prefix[LXC_LOG_PREFIX_SIZE] = "lxc";
