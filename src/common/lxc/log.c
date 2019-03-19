@@ -83,3 +83,84 @@ static struct lxc_log_appender log_appender_logfile = {
 
 static struct lxc_log_category log_root = {
 	.name		= "root",
+	.priority	= LXC_LOG_PRIORITY_ERROR,
+	.appender	= NULL,
+	.parent		= NULL,
+};
+
+struct lxc_log_category lxc_log_category_lxc = {
+	.name		= "lxc",
+	.priority	= LXC_LOG_PRIORITY_ERROR,
+	.appender	= &log_appender_stderr,
+	.parent		= &log_root
+};
+
+/*---------------------------------------------------------------------------*/
+extern void lxc_log_setprefix(const char *prefix)
+{
+	strncpy(log_prefix, prefix, sizeof(log_prefix));
+	log_prefix[sizeof(log_prefix) - 1] = 0;
+}
+
+/*---------------------------------------------------------------------------*/
+static int log_open(const char *name)
+{
+	int fd;
+	int newfd;
+
+	fd = lxc_unpriv(open(name, O_CREAT | O_WRONLY |
+			     O_APPEND | O_CLOEXEC, 0666));
+	if (fd == -1) {
+		ERROR("failed to open log file \"%s\" : %s", name,
+		      strerror(errno));
+		return -1;
+	}
+
+	if (fd > 2)
+		return fd;
+
+	newfd = fcntl(fd, F_DUPFD_CLOEXEC, 3);
+	if (newfd == -1)
+		ERROR("failed to dup log fd %d : %s", fd, strerror(errno));
+
+	close(fd);
+	return newfd;
+}
+
+/*---------------------------------------------------------------------------*/
+extern int lxc_log_init(const char *file, const char *priority,
+			const char *prefix, int quiet)
+{
+	int lxc_priority = LXC_LOG_PRIORITY_ERROR;
+
+	if (priority) {
+		lxc_priority = lxc_log_priority_to_int(priority);
+
+		if (lxc_priority == LXC_LOG_PRIORITY_NOTSET) {
+			ERROR("invalid log priority %s", priority);
+			return -1;
+		}
+	}
+
+	lxc_log_category_lxc.priority = lxc_priority;
+	lxc_log_category_lxc.appender = &log_appender_logfile;
+
+	if (!quiet)
+		lxc_log_category_lxc.appender->next = &log_appender_stderr;
+
+	if (prefix)
+		lxc_log_setprefix(prefix);
+
+	if (file) {
+		int fd;
+
+		fd = log_open(file);
+		if (fd == -1) {
+			ERROR("failed to initialize log service");
+			return -1;
+		}
+
+		lxc_log_fd = fd;
+	}
+
+	return 0;
