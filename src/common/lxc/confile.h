@@ -4,3 +4,5 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
+
+struct lxc_conf;
