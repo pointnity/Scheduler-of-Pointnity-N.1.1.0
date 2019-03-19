@@ -23,3 +23,6 @@ int lxc_log_fd = -1;
 static char log_prefix[LXC_LOG_PREFIX_SIZE] = "lxc";
 
 lxc_log_define(lxc_log, lxc);
+
+/*---------------------------------------------------------------------------*/
+static int log_append_stderr(const struct lxc_log_appender *appender,
