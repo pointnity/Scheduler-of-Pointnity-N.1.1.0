@@ -14,3 +14,4 @@
 #include <stdlib.h>
 
 #include "log.h"
+#include "caps.h"
