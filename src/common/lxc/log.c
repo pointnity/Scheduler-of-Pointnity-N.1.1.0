@@ -11,3 +11,4 @@
 #define __USE_GNU /* for *_CLOEXEC */
 
 #include <fcntl.h>
+#include <stdlib.h>
