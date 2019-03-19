@@ -29,3 +29,4 @@ static int log_append_stderr(const struct lxc_log_appender *appender,
 			     struct lxc_log_event *event)
 {
 	if (event->priority < LXC_LOG_PRIORITY_ERROR)
+		return 0;
