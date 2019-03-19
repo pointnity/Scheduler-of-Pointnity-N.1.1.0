@@ -12,3 +12,4 @@ extern int lxc_config_read(const char *file, struct lxc_conf *conf);
 extern int lxc_config_readline(char *buffer, struct lxc_conf *conf);
 
 extern int lxc_config_define_add(struct lxc_list *defines, char* arg);
+extern int lxc_config_define_load(struct lxc_list *defines,
