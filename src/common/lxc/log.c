@@ -34,3 +34,4 @@ static int log_append_stderr(const struct lxc_log_appender *appender,
 	fprintf(stderr, "%s: ", log_prefix);
 	vfprintf(stderr, event->fmt, *event->vap);
 	fprintf(stderr, "\n");
+	return 0;
