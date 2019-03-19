@@ -42,3 +42,4 @@ static int log_append_logfile(const struct lxc_log_appender *appender,
 			      struct lxc_log_event *event)
 {
 	char buffer[LXC_LOG_BUFFER_SIZE];
+	int n;
