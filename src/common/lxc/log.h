@@ -71,3 +71,9 @@ struct lxc_log_category {
 	int				priority;
 	struct lxc_log_appender		*appender;
 	const struct lxc_log_category	*parent;
+};
+
+/*
+ * Returns true if the chained priority is equal to or higher than
+ * given priority.
+ */
