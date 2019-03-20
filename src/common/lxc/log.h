@@ -90,3 +90,24 @@ lxc_log_priority_is_enabled(const struct lxc_log_category* category,
 
 /*
  * converts a priority to a literal string
+*/
+static inline const char* lxc_log_priority_to_string(int priority)
+{
+	switch (priority) {
+	case LXC_LOG_PRIORITY_TRACE:	return "TRACE";
+	case LXC_LOG_PRIORITY_DEBUG:	return "DEBUG";
+	case LXC_LOG_PRIORITY_INFO:	return "INFO";
+	case LXC_LOG_PRIORITY_NOTICE:	return "NOTICE";
+	case LXC_LOG_PRIORITY_WARN:	return "WARN";
+	case LXC_LOG_PRIORITY_ERROR:	return "ERROR";
+	case LXC_LOG_PRIORITY_CRIT:	return "CRIT";
+	case LXC_LOG_PRIORITY_ALERT:	return "ALERT";
+	case LXC_LOG_PRIORITY_FATAL:	return "FATAL";
+	default:
+		return "NOTSET";
+	}
+}
+/*
+ * converts a literal priority to an int
+ */
+static inline int lxc_log_priority_to_int(const char* name)
