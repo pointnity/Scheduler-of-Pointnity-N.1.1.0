@@ -70,3 +70,4 @@ struct lxc_log_category {
 	const char			*name;
 	int				priority;
 	struct lxc_log_appender		*appender;
+	const struct lxc_log_category	*parent;
