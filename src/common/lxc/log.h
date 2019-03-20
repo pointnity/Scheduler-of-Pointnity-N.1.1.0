@@ -153,3 +153,122 @@ __lxc_log(const struct lxc_log_category* category,
 
 /*
  * Helper macro to define log fonctions.
+ */
+#define lxc_log_priority_define(acategory, PRIORITY)			\
+									\
+static inline void LXC_##PRIORITY(struct lxc_log_locinfo *,		\
+	const char *, ...) __attribute__ ((format (printf, 2, 3)));	\
+									\
+static inline void LXC_##PRIORITY(struct lxc_log_locinfo* locinfo,	\
+				  const char* format, ...)		\
+{									\
+	if (lxc_log_priority_is_enabled(acategory, 			\
+					LXC_LOG_PRIORITY_##PRIORITY)) {	\
+		struct lxc_log_event evt = {				\
+			.category	= (acategory)->name,		\
+			.priority	= LXC_LOG_PRIORITY_##PRIORITY,	\
+			.fmt		= format,			\
+			.locinfo	= locinfo			\
+		};							\
+		va_list va_ref;						\
+									\
+		gettimeofday(&evt.timestamp, NULL);			\
+									\
+		va_start(va_ref, format);				\
+		evt.vap = &va_ref;					\
+		__lxc_log(acategory, &evt);				\
+		va_end(va_ref);						\
+	}								\
+}
+
+/*
+ * Helper macro to define and use static categories.
+ */
+#define lxc_log_category_define(name, parent)				\
+	extern struct lxc_log_category lxc_log_category_##parent;	\
+	struct lxc_log_category lxc_log_category_##name = {		\
+		#name,							\
+		LXC_LOG_PRIORITY_NOTSET,				\
+		NULL,							\
+		&lxc_log_category_##parent				\
+	};
+
+#define lxc_log_define(name, parent)					\
+	lxc_log_category_define(name, parent)				\
+									\
+	lxc_log_priority_define(&lxc_log_category_##name, TRACE)	\
+	lxc_log_priority_define(&lxc_log_category_##name, DEBUG)	\
+	lxc_log_priority_define(&lxc_log_category_##name, INFO)		\
+	lxc_log_priority_define(&lxc_log_category_##name, NOTICE)	\
+	lxc_log_priority_define(&lxc_log_category_##name, WARN)		\
+	lxc_log_priority_define(&lxc_log_category_##name, ERROR)	\
+	lxc_log_priority_define(&lxc_log_category_##name, CRIT)		\
+	lxc_log_priority_define(&lxc_log_category_##name, ALERT)	\
+	lxc_log_priority_define(&lxc_log_category_##name, FATAL)
+
+#define lxc_log_category_priority(name) 				\
+	(lxc_log_priority_to_string(lxc_log_category_##name.priority))
+
+/*
+ * top categories
+ */
+extern struct lxc_log_category lxc_log_category_lxc;
+
+#define TRACE(format, ...) do {						\
+	struct lxc_log_locinfo locinfo = LXC_LOG_LOCINFO_INIT;		\
+	LXC_TRACE(&locinfo, format, ##__VA_ARGS__);			\
+} while (0)
+
+#define DEBUG(format, ...) do {						\
+	struct lxc_log_locinfo locinfo = LXC_LOG_LOCINFO_INIT;		\
+	LXC_DEBUG(&locinfo, format, ##__VA_ARGS__);			\
+} while (0)
+
+#define INFO(format, ...) do {						\
+	struct lxc_log_locinfo locinfo = LXC_LOG_LOCINFO_INIT;		\
+	LXC_INFO(&locinfo, format, ##__VA_ARGS__);			\
+} while (0)
+
+#define NOTICE(format, ...) do {					\
+	struct lxc_log_locinfo locinfo = LXC_LOG_LOCINFO_INIT;		\
+	LXC_NOTICE(&locinfo, format, ##__VA_ARGS__);			\
+} while (0)
+
+#define WARN(format, ...) do {						\
+	struct lxc_log_locinfo locinfo = LXC_LOG_LOCINFO_INIT;		\
+	LXC_WARN(&locinfo, format, ##__VA_ARGS__);			\
+} while (0)
+
+#define ERROR(format, ...) do {						\
+	struct lxc_log_locinfo locinfo = LXC_LOG_LOCINFO_INIT;		\
+	LXC_ERROR(&locinfo, format, ##__VA_ARGS__);			\
+} while (0)
+
+#define CRIT(format, ...) do {						\
+	struct lxc_log_locinfo locinfo = LXC_LOG_LOCINFO_INIT;		\
+	LXC_CRIT(&locinfo, format, ##__VA_ARGS__);			\
+} while (0)
+
+#define ALERT(format, ...) do {						\
+	struct lxc_log_locinfo locinfo = LXC_LOG_LOCINFO_INIT;		\
+	LXC_ALERT(&locinfo, format, ##__VA_ARGS__);			\
+} while (0)
+
+#define FATAL(format, ...) do {						\
+	struct lxc_log_locinfo locinfo = LXC_LOG_LOCINFO_INIT;		\
+	LXC_FATAL(&locinfo, format, ##__VA_ARGS__);			\
+} while (0)
+
+
+
+#define SYSERROR(format, ...) do {				    	\
+	ERROR("%s - " format, strerror(errno), ##__VA_ARGS__);		\
+} while (0)
+
+extern int lxc_log_fd;
+
+extern int lxc_log_init(const char *file, const char *priority,
+			const char *prefix, int quiet);
+
+extern void lxc_log_setprefix(const char *a_prefix);
+#endif
