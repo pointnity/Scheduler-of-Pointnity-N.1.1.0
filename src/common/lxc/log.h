@@ -50,3 +50,4 @@ struct lxc_log_event {
 	int			priority;
 	struct timeval		timestamp;
 	struct lxc_log_locinfo	*locinfo;
+	const char		*fmt;
