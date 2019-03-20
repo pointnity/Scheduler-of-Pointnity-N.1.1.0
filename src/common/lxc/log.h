@@ -51,3 +51,4 @@ struct lxc_log_event {
 	struct timeval		timestamp;
 	struct lxc_log_locinfo	*locinfo;
 	const char		*fmt;
+	va_list			*vap;
