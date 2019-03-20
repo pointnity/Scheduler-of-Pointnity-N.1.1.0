@@ -43,3 +43,6 @@ struct lxc_log_locinfo {
 
 #define LXC_LOG_LOCINFO_INIT
 	{ .file = __FILE__, .func = __func__, .line = __LINE__	}
+
+/* brief logging event object */
+struct lxc_log_event {
