@@ -5,3 +5,4 @@
 #define _log_h
 
 #include <stdarg.h>
+#include <stdio.h>
