@@ -68,3 +68,4 @@ struct lxc_log_appender {
 /* log category object */
 struct lxc_log_category {
 	const char			*name;
+	int				priority;
