@@ -37,3 +37,4 @@ enum {
 /* location information of the logging event */
 struct lxc_log_locinfo {
 	const char	*file;
+	const char	*func;
