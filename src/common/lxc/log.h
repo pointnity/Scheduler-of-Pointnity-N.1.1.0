@@ -38,3 +38,4 @@ enum {
 struct lxc_log_locinfo {
 	const char	*file;
 	const char	*func;
+	int		line;
