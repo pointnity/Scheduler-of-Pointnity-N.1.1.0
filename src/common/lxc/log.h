@@ -39,3 +39,6 @@ struct lxc_log_locinfo {
 	const char	*file;
 	const char	*func;
 	int		line;
+};
+
+#define LXC_LOG_LOCINFO_INIT
