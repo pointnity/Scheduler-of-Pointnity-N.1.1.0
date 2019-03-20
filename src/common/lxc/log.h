@@ -111,3 +111,20 @@ static inline const char* lxc_log_priority_to_string(int priority)
  * converts a literal priority to an int
  */
 static inline int lxc_log_priority_to_int(const char* name)
+{
+	if (!strcasecmp("TRACE",  name)) return LXC_LOG_PRIORITY_TRACE;
+	if (!strcasecmp("DEBUG",  name)) return LXC_LOG_PRIORITY_DEBUG;
+	if (!strcasecmp("INFO",   name)) return LXC_LOG_PRIORITY_INFO;
+	if (!strcasecmp("NOTICE", name)) return LXC_LOG_PRIORITY_NOTICE;
+	if (!strcasecmp("WARN",   name)) return LXC_LOG_PRIORITY_WARN;
+	if (!strcasecmp("ERROR",  name)) return LXC_LOG_PRIORITY_ERROR;
+	if (!strcasecmp("CRIT",   name)) return LXC_LOG_PRIORITY_CRIT;
+	if (!strcasecmp("ALERT",  name)) return LXC_LOG_PRIORITY_ALERT;
+	if (!strcasecmp("FATAL",  name)) return LXC_LOG_PRIORITY_FATAL;
+
+	return LXC_LOG_PRIORITY_NOTSET;
+}
+
+static inline void
+__lxc_log_append(const struct lxc_log_appender *appender,
+		struct lxc_log_event* event)
