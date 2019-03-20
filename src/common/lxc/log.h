@@ -58,3 +58,7 @@ struct lxc_log_event {
 struct lxc_log_appender {
 	const char*	name;
 	int (*append)(const struct lxc_log_appender *, struct lxc_log_event *);
+
+	/*
+	 * appenders can be stacked
+	 */
