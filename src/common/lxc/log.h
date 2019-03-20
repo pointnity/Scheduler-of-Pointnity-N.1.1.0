@@ -32,3 +32,6 @@ enum {
 	LXC_LOG_PRIORITY_ALERT,
 	LXC_LOG_PRIORITY_FATAL,
 	LXC_LOG_PRIORITY_NOTSET,
+};
+
+/* location information of the logging event */
