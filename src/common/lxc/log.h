@@ -55,3 +55,4 @@ struct lxc_log_event {
 };
 
 /* log appender object */
+struct lxc_log_appender {
