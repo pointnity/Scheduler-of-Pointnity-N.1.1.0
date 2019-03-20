@@ -16,3 +16,5 @@
 #ifndef F_DUPFD_CLOEXEC
 #define F_DUPFD_CLOEXEC 1030
 #endif
+
+#define LXC_LOG_PREFIX_SIZE	32
