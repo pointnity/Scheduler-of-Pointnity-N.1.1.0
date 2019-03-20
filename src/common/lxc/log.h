@@ -22,3 +22,4 @@
 
 /* predefined priorities. */
 enum {
+	LXC_LOG_PRIORITY_TRACE,
