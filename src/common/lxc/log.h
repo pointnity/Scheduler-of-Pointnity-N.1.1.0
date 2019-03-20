@@ -77,3 +77,16 @@ struct lxc_log_category {
  * Returns true if the chained priority is equal to or higher than
  * given priority.
  */
+static inline int
+lxc_log_priority_is_enabled(const struct lxc_log_category* category,
+			   int priority)
+{
+	while (category->priority == LXC_LOG_PRIORITY_NOTSET &&
+	       category->parent)
+		category = category->parent;
+
+	return priority >= category->priority;
+}
+
+/*
+ * converts a priority to a literal string
