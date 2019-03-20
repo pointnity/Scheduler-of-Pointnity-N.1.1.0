@@ -47,3 +47,4 @@ struct lxc_log_locinfo {
 /* brief logging event object */
 struct lxc_log_event {
 	const char*		category;
+	int			priority;
