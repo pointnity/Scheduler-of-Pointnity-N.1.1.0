@@ -128,3 +128,28 @@ static inline int lxc_log_priority_to_int(const char* name)
 static inline void
 __lxc_log_append(const struct lxc_log_appender *appender,
 		struct lxc_log_event* event)
+{
+	va_list va, *va_keep;
+	va_keep = event->vap;
+
+	while (appender) {
+		va_copy(va, *va_keep);
+		event->vap = &va;
+		appender->append(appender, event);
+		appender = appender->next;
+		va_end(va);
+	}
+}
+
+static inline void
+__lxc_log(const struct lxc_log_category* category,
+	  struct lxc_log_event* event)
+{
+	while (category) {
+		__lxc_log_append(category->appender, event);
+		category = category->parent;
+	}
+}
+
+/*
+ * Helper macro to define log fonctions.
