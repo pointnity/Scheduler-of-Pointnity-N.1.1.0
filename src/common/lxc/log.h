@@ -69,3 +69,4 @@ struct lxc_log_appender {
 struct lxc_log_category {
 	const char			*name;
 	int				priority;
+	struct lxc_log_appender		*appender;
