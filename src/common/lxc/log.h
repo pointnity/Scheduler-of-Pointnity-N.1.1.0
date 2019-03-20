@@ -49,3 +49,4 @@ struct lxc_log_event {
 	const char*		category;
 	int			priority;
 	struct timeval		timestamp;
+	struct lxc_log_locinfo	*locinfo;
