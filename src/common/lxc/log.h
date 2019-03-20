@@ -62,3 +62,4 @@ struct lxc_log_appender {
 	/*
 	 * appenders can be stacked
 	 */
+	struct lxc_log_appender	*next;
