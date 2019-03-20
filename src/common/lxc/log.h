@@ -52,3 +52,6 @@ struct lxc_log_event {
 	struct lxc_log_locinfo	*locinfo;
 	const char		*fmt;
 	va_list			*vap;
+};
+
+/* log appender object */
