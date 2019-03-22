@@ -26,3 +26,4 @@ int lxc_dir_for_each(const char *name, const char *directory,
 		     lxc_dir_cb callback, void *data)
 {
 	struct dirent **namelist;
+	int n, ret = 0;
