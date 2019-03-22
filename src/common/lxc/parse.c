@@ -19,3 +19,4 @@ static int dir_filter(const struct dirent *dirent)
 	if (!strcmp(dirent->d_name, ".") ||
             !strcmp(dirent->d_name, ".."))
                 return 0;
+        return 1;
