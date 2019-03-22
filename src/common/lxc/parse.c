@@ -58,3 +58,6 @@ int lxc_file_for_each_line(const char *file, lxc_file_cb callback, void *data)
 	if (!f) {
 		SYSERROR("failed to open %s", file);
 		return -1;
+	}
+
+	while (getline(&line, &len, f) != -1) {
