@@ -52,3 +52,4 @@ int lxc_file_for_each_line(const char *file, lxc_file_cb callback, void *data)
 	FILE *f;
 	int err = 0;
 	char *line = NULL;
+	size_t len = 0;
