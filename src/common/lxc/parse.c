@@ -8,3 +8,5 @@
 #include <stdlib.h>
 #include <errno.h>
 #include <dirent.h>
+
+#include "parse.h"
