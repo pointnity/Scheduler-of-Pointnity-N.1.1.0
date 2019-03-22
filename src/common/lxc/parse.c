@@ -10,3 +10,4 @@
 #include <dirent.h>
 
 #include "parse.h"
+#include <lxc/log.h>
