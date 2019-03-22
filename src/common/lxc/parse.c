@@ -70,3 +70,4 @@ int lxc_file_for_each_line(const char *file, lxc_file_cb callback, void *data)
 		free(line);
 	fclose(f);
 	return err;
+}
