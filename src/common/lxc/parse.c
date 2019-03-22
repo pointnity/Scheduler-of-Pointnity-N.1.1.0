@@ -41,3 +41,7 @@ int lxc_dir_for_each(const char *name, const char *directory,
 			ret = -1;
 		}
 		free(namelist[n]);
+	}
+	free(namelist);
+
+	return ret;
