@@ -40,3 +40,4 @@ int lxc_dir_for_each(const char *name, const char *directory,
 			ERROR("callback failed");
 			ret = -1;
 		}
+		free(namelist[n]);
