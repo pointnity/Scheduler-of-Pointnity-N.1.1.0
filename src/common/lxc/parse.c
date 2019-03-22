@@ -35,3 +35,4 @@ int lxc_dir_for_each(const char *name, const char *directory,
 	}
 
 	while (n--) {
+		if (!ret &&
