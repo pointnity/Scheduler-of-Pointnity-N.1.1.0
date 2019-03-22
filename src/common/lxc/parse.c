@@ -64,3 +64,6 @@ int lxc_file_for_each_line(const char *file, lxc_file_cb callback, void *data)
 		err = callback(line, data);
 		if (err)
 			break;
+	}
+
+	if (line)
