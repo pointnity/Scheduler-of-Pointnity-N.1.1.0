@@ -62,3 +62,4 @@ int lxc_file_for_each_line(const char *file, lxc_file_cb callback, void *data)
 
 	while (getline(&line, &len, f) != -1) {
 		err = callback(line, data);
+		if (err)
