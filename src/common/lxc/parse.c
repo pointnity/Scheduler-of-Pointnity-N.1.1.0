@@ -31,3 +31,4 @@ int lxc_dir_for_each(const char *name, const char *directory,
 	n = scandir(directory, &namelist, dir_filter, alphasort);
 	if (n < 0) {
 		SYSERROR("failed to scan %s directory", directory);
+		return -1;
