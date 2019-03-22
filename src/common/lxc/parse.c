@@ -39,3 +39,4 @@ int lxc_dir_for_each(const char *name, const char *directory,
 		    callback(name, directory, namelist[n]->d_name, data)) {
 			ERROR("callback failed");
 			ret = -1;
+		}
