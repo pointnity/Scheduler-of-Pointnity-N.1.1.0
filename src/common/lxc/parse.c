@@ -57,3 +57,4 @@ int lxc_file_for_each_line(const char *file, lxc_file_cb callback, void *data)
 	f = fopen(file, "r");
 	if (!f) {
 		SYSERROR("failed to open %s", file);
+		return -1;
