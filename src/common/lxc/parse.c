@@ -7,3 +7,4 @@
 #include <string.h>
 #include <stdlib.h>
 #include <errno.h>
+#include <dirent.h>
