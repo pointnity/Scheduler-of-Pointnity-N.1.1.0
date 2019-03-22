@@ -13,3 +13,5 @@
 #include <lxc/log.h>
 
 lxc_log_define(lxc_parse, lxc);
+
+static int dir_filter(const struct dirent *dirent)
