@@ -27,3 +27,5 @@ int lxc_dir_for_each(const char *name, const char *directory,
 {
 	struct dirent **namelist;
 	int n, ret = 0;
+
+	n = scandir(directory, &namelist, dir_filter, alphasort);
