@@ -18,3 +18,6 @@
 #include "log.h"
 
 lxc_log_define(lxc_utils, lxc);
+
+int lxc_copy_file(const char *srcfile, const char *dstfile)
+{
