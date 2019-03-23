@@ -16,3 +16,5 @@
 #include <libgen.h>
 
 #include "log.h"
+
+lxc_log_define(lxc_utils, lxc);
