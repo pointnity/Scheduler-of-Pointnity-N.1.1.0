@@ -52,3 +52,24 @@ int lxc_copy_file(const char *srcfile, const char *dstfile)
 	if (lseek(dstfd, stat.st_size - 1, SEEK_SET) < 0) {
 		SYSERROR("failed to seek dest file '%s'", dstfile);
 		goto err;
+	}
+
+	/* fixup length */
+	if (write(dstfd, &c, 1) < 0) {
+		SYSERROR("failed to write to '%s'", dstfile);
+		goto err;
+	}
+
+	srcaddr = mmap(NULL, stat.st_size, PROT_READ, MAP_SHARED, srcfd, 0L);
+	if (srcaddr == MAP_FAILED) {
+		SYSERROR("failed to mmap '%s'", srcfile);
+		goto err;
+	}
+
+	dstaddr = mmap(NULL, stat.st_size, PROT_WRITE, MAP_SHARED, dstfd, 0L);
+	if (dstaddr == MAP_FAILED) {
+		SYSERROR("failed to mmap '%s'", dstfile);
+		goto err;
+	}
+
+	ret = 0;
