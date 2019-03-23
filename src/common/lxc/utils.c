@@ -29,3 +29,4 @@ int lxc_copy_file(const char *srcfile, const char *dstfile)
 	dstfd = open(dstfile, O_CREAT | O_EXCL | O_RDWR, 0600);
 	if (dstfd < 0) {
 		SYSERROR("failed to creat '%s'", dstfile);
+		goto out;
