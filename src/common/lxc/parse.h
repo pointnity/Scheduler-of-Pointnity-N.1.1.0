@@ -18,3 +18,5 @@ extern int lxc_file_for_each_line(const char *file, lxc_file_cb callback,
 extern int lxc_char_left_gc(char *buffer, size_t len);
 
 extern int lxc_char_right_gc(char *buffer, size_t len);
+
+extern int lxc_is_line_empty(char *line);
