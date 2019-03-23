@@ -20,3 +20,5 @@ extern int lxc_char_left_gc(char *buffer, size_t len);
 extern int lxc_char_right_gc(char *buffer, size_t len);
 
 extern int lxc_is_line_empty(char *line);
+
+#endif
