@@ -14,3 +14,5 @@
 #include <dirent.h>
 #include <fcntl.h>
 #include <libgen.h>
+
+#include "log.h"
