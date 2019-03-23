@@ -107,3 +107,67 @@ static int mount_fs(const char *source, const char *target, const char *type)
 }
 
 extern int lxc_setup_fs(void)
+{
+	if (mount_fs("proc", "/proc", "proc"))
+		return -1;
+
+	if (mount_fs("shmfs", "/dev/shm", "tmpfs"))
+		return -1;
+
+	/* If we were able to mount /dev/shm, then /dev exists */
+	if (access("/dev/mqueue", F_OK) && mkdir("/dev/mqueue", 0666)) {
+		SYSERROR("failed to create '/dev/mqueue'");
+		return -1;
+	}
+
+	if (mount_fs("mqueue", "/dev/mqueue", "mqueue"))
+		return -1;
+
+	return 0;
+}
+
+/* borrowed from iproute2 */
+extern int get_u16(ushort *val, const char *arg, int base)
+{
+	unsigned long res;
+	char *ptr;
+
+	if (!arg || !*arg)
+		return -1;
+
+	res = strtoul(arg, &ptr, base);
+	if (!ptr || ptr == arg || *ptr || res > 0xFFFF)
+		return -1;
+
+	*val = res;
+
+	return 0;
+}
+
+extern int mkdir_p(char *dir, mode_t mode)
+{
+        int ret;
+        char *d;
+
+        if (!strcmp(dir, "/"))
+                return 0;
+
+        d = strdup(dir);
+        if (!d)
+                return -1;
+
+        ret = mkdir_p(dirname(d), mode);
+        free(d);
+        if (ret)
+                return -1;
+
+        if (!access(dir, F_OK))
+                return 0;
+
+        if (mkdir(dir, mode)) {
+                SYSERROR("failed to create directory '%s'\n", dir);
+                return -1;
+        }
+
+        return 0;
+}
