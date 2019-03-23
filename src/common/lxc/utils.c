@@ -25,3 +25,6 @@ int lxc_copy_file(const char *srcfile, const char *dstfile)
 	struct stat stat;
 	int srcfd, dstfd, ret = -1;
 	char c = '\0';
+
+	dstfd = open(dstfile, O_CREAT | O_EXCL | O_RDWR, 0600);
+	if (dstfd < 0) {
