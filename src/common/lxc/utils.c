@@ -73,3 +73,37 @@ int lxc_copy_file(const char *srcfile, const char *dstfile)
 	}
 
 	ret = 0;
+
+	memcpy(dstaddr, srcaddr, stat.st_size);
+
+	munmap(dstaddr, stat.st_size);
+out_mmap:
+	if (srcaddr)
+		munmap(srcaddr, stat.st_size);
+out_close:
+	close(dstfd);
+	close(srcfd);
+out:
+	return ret;
+err:
+	unlink(dstfile);
+	goto out_mmap;
+}
+
+static int mount_fs(const char *source, const char *target, const char *type)
+{
+	/* the umount may fail */
+	if (umount(target))
+		WARN("failed to unmount %s : %s", target, strerror(errno));
+
+	if (mount(source, target, type, 0, NULL)) {
+		ERROR("failed to mount %s : %s", target, strerror(errno));
+		return -1;
+	}
+
+	DEBUG("'%s' mounted on '%s'", source, target);
+
+	return 0;
+}
+
+extern int lxc_setup_fs(void)
