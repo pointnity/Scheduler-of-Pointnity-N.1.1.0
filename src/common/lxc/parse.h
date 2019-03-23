@@ -10,3 +10,4 @@ typedef int (*lxc_dir_cb)(const char *name, const char *directory,
 typedef int (*lxc_file_cb)(char *buffer, void *data);
 
 extern int lxc_dir_for_each(const char *name, const char *directory,
+			    lxc_dir_cb callback, void *data);
