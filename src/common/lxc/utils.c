@@ -23,3 +23,4 @@ int lxc_copy_file(const char *srcfile, const char *dstfile)
 {
 	void *srcaddr = NULL, *dstaddr;
 	struct stat stat;
+	int srcfd, dstfd, ret = -1;
