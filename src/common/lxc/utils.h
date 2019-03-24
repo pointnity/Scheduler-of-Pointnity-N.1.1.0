@@ -17,3 +17,4 @@
 #define LXC_TTY_ADD_HANDLER(s) \
 	do { \
 		struct sigaction sa; \
+		sa.sa_sigaction = tty_##s##_handler; \
