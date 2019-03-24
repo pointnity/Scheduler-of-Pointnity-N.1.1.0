@@ -28,3 +28,5 @@
 	do { \
 		sigaction(s, &lxc_tty_sa_##s, NULL); \
 	} while (0)
+
+#endif
