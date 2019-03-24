@@ -12,3 +12,4 @@
 		    lxc_tty_sa_##s.sa_handler == SIG_IGN)		\
 			return;						\
 		(*lxc_tty_sa_##s.sa_sigaction)(sig, info, ctx);	\
+	}
