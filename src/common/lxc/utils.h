@@ -32,3 +32,4 @@
 #endif
 
 extern int lxc_copy_file(const char *src, const char *dst);
+extern int lxc_setup_fs(void);
