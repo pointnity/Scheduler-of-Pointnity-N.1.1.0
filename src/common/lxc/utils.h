@@ -22,3 +22,4 @@
 		sigfillset(&sa.sa_mask); \
 		/* No error expected with sigaction. */ \
 		sigaction(s, &sa, &lxc_tty_sa_##s); \
+	} while (0)
