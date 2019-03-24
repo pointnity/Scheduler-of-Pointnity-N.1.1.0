@@ -27,3 +27,4 @@
 #define LXC_TTY_DEL_HANDLER(s) \
 	do { \
 		sigaction(s, &lxc_tty_sa_##s, NULL); \
+	} while (0)
