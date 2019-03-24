@@ -18,3 +18,4 @@
 	do { \
 		struct sigaction sa; \
 		sa.sa_sigaction = tty_##s##_handler; \
+		sa.sa_flags = SA_SIGINFO; \
