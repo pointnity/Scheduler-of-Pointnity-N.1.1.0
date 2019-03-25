@@ -35,3 +35,4 @@ namespace rapidxml
     //!     std::cout << "Parse error: " << what << "\n";
     //!     std::abort();
     //! }
+    //! </pre>
