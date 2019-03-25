@@ -30,3 +30,4 @@ namespace rapidxml
     //! <br><br>
     //! A very simple definition might look like that:
     //! <pre>
+    //! void %rapidxml::%parse_error_handler(const char *what, void *where)
