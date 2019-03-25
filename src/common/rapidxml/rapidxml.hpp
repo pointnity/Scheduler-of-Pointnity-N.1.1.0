@@ -9,3 +9,4 @@
 // On MSVC, disable "conditional expression is constant" warning (level 4). 
 // This warning is almost impossible to avoid with certain types of templated code
 #ifdef _MSC_VER
+    #pragma warning(push)
