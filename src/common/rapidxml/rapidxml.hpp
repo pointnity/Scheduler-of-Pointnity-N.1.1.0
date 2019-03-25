@@ -11,3 +11,4 @@
 #ifdef _MSC_VER
     #pragma warning(push)
     #pragma warning(disable:4127)   // Conditional expression is constant
+#endif
