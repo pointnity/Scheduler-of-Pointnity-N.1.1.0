@@ -36,3 +36,4 @@ namespace rapidxml
     //!     std::abort();
     //! }
     //! </pre>
+    //! \param what Human readable description of the error.
