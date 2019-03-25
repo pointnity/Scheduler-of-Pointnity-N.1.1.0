@@ -23,3 +23,4 @@
 namespace rapidxml
 {
     //! When exceptions are disabled by defining RAPIDXML_NO_EXCEPTIONS, 
+    //! this function is called to notify user about the error.
