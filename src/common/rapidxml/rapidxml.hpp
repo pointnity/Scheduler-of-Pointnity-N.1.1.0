@@ -26,3 +26,4 @@ namespace rapidxml
     //! this function is called to notify user about the error.
     //! It must be defined by the user.
     //! <br><br>
+    //! This function cannot return. If it does, the results are undefined.
