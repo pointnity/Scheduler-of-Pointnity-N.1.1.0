@@ -42,3 +42,5 @@ namespace rapidxml
 }
 
 #else
+    
+#include <exception>    // For std::exception
