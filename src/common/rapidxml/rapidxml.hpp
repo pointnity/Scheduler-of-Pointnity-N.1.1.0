@@ -1,0 +1,1 @@
+#ifndef RAPIDXML_HPP_INCLUDED
