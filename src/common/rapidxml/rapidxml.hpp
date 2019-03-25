@@ -29,3 +29,4 @@ namespace rapidxml
     //! This function cannot return. If it does, the results are undefined.
     //! <br><br>
     //! A very simple definition might look like that:
+    //! <pre>
