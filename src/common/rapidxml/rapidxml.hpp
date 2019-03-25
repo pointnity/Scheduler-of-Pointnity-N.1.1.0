@@ -4,3 +4,4 @@
     #include <cstdlib>      // For std::size_t
     #include <cassert>      // For assert
     #include <new>          // For placement new
+#endif
