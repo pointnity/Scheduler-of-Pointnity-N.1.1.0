@@ -17,3 +17,7 @@
 // RAPIDXML_PARSE_ERROR
     
 #if defined(RAPIDXML_NO_EXCEPTIONS)
+
+#define RAPIDXML_PARSE_ERROR(what, where) { parse_error_handler(what, where); assert(0); }
+
+namespace rapidxml
