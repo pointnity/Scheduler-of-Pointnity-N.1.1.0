@@ -12,3 +12,6 @@
     #pragma warning(push)
     #pragma warning(disable:4127)   // Conditional expression is constant
 #endif
+
+///////////////////////////////////////////////////////////////////////////
+// RAPIDXML_PARSE_ERROR
