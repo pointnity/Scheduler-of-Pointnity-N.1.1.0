@@ -21,3 +21,5 @@
 #define RAPIDXML_PARSE_ERROR(what, where) { parse_error_handler(what, where); assert(0); }
 
 namespace rapidxml
+{
+    //! When exceptions are disabled by defining RAPIDXML_NO_EXCEPTIONS, 
