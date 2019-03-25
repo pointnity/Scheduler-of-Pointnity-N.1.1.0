@@ -37,3 +37,4 @@ namespace rapidxml
     //! }
     //! </pre>
     //! \param what Human readable description of the error.
+    //! \param where Pointer to character data where error was detected.
