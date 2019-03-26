@@ -130,3 +130,5 @@ namespace rapidxml
     template<class Ch> class xml_node;
     template<class Ch> class xml_attribute;
     template<class Ch> class xml_document;
+    
+    //! Enumeration listing all node types produced by the parser.
