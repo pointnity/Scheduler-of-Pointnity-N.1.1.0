@@ -93,3 +93,8 @@ namespace rapidxml
 
         const char *m_what;
         void *m_where;
+
+    };
+}
+
+#endif
