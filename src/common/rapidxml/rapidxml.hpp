@@ -56,3 +56,4 @@ namespace rapidxml
     //! Use where() function to get a pointer to position within source text where error was detected.
     //! <br><br>
     //! If throwing exceptions by the parser is undesirable, 
+    //! it can be disabled by defining RAPIDXML_NO_EXCEPTIONS macro before rapidxml.hpp is included.
