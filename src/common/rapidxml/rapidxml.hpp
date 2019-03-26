@@ -87,3 +87,6 @@ namespace rapidxml
         Ch *where() const
         {
             return reinterpret_cast<Ch *>(m_where);
+        }
+
+    private:  
