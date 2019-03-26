@@ -136,3 +136,4 @@ namespace rapidxml
     enum node_type
     {
         node_document,      //!< A document node. Name and value are empty.
+        node_element,       //!< An element node. Name contains element name. Value contains text of first data node.
