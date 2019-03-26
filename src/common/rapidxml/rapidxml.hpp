@@ -108,3 +108,5 @@ namespace rapidxml
     // No dynamic memory allocations are performed by memory_pool until static memory is exhausted.
     #define RAPIDXML_STATIC_POOL_SIZE (64 * 1024)
 #endif
+
+#ifndef RAPIDXML_DYNAMIC_POOL_SIZE
