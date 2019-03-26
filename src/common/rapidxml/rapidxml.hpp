@@ -125,3 +125,4 @@ namespace rapidxml
 #endif
 
 namespace rapidxml
+{
