@@ -49,3 +49,5 @@ namespace rapidxml
 
 namespace rapidxml
 {
+
+    //! Parse error exception. 
