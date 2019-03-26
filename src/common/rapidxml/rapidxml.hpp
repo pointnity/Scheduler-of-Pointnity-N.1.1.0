@@ -103,3 +103,4 @@ namespace rapidxml
 // Pool sizes
 
 #ifndef RAPIDXML_STATIC_POOL_SIZE
+    // Size of static memory block of memory_pool.
