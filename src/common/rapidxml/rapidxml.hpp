@@ -115,3 +115,5 @@ namespace rapidxml
     // After the static block is exhausted, dynamic blocks with approximately this size are allocated by memory_pool.
     #define RAPIDXML_DYNAMIC_POOL_SIZE (64 * 1024)
 #endif
+
+#ifndef RAPIDXML_ALIGNMENT
