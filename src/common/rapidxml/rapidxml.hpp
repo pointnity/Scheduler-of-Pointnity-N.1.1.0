@@ -51,3 +51,4 @@ namespace rapidxml
 {
 
     //! Parse error exception. 
+    //! This exception is thrown by the parser when an error occurs. 
