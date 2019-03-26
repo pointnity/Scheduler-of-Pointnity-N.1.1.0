@@ -74,3 +74,4 @@ namespace rapidxml
         }
 
         //! Gets human readable description of error.
+        //! \return Pointer to null terminated description of the error.
