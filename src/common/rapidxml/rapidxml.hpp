@@ -53,3 +53,4 @@ namespace rapidxml
     //! Parse error exception. 
     //! This exception is thrown by the parser when an error occurs. 
     //! Use what() function to get human-readable error message. 
+    //! Use where() function to get a pointer to position within source text where error was detected.
