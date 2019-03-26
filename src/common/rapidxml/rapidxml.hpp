@@ -84,3 +84,4 @@ namespace rapidxml
         //! Ch should be the same as char type of xml_document that produced the error.
         //! \return Pointer to location within the parsed string where error occured.
         template<class Ch>
+        Ch *where() const
