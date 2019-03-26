@@ -135,3 +135,4 @@ namespace rapidxml
     //! Use xml_node::type() function to query node type.
     enum node_type
     {
+        node_document,      //!< A document node. Name and value are empty.
