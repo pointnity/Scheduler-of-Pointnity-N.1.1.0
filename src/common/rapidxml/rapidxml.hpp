@@ -57,3 +57,4 @@ namespace rapidxml
     //! <br><br>
     //! If throwing exceptions by the parser is undesirable, 
     //! it can be disabled by defining RAPIDXML_NO_EXCEPTIONS macro before rapidxml.hpp is included.
+    //! This will cause the parser to call rapidxml::parse_error_handler() function instead of throwing an exception.
