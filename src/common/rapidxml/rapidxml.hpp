@@ -70,3 +70,7 @@ namespace rapidxml
         parse_error(const char *what, void *where)
             : m_what(what)
             , m_where(where)
+        {
+        }
+
+        //! Gets human readable description of error.
