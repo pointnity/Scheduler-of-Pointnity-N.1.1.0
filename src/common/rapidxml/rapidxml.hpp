@@ -121,3 +121,4 @@ namespace rapidxml
     // Define RAPIDXML_ALIGNMENT before including rapidxml.hpp if you want to override the default value, which is the size of pointer.
     // All memory allocations for nodes, attributes and strings will be aligned to this value.
     // This must be a power of 2 and at least 1, otherwise memory_pool will not work.
+    #define RAPIDXML_ALIGNMENT sizeof(void *)
