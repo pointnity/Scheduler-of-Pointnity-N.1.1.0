@@ -55,3 +55,4 @@ namespace rapidxml
     //! Use what() function to get human-readable error message. 
     //! Use where() function to get a pointer to position within source text where error was detected.
     //! <br><br>
+    //! If throwing exceptions by the parser is undesirable, 
