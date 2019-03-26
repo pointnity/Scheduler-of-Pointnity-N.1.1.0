@@ -65,3 +65,5 @@ namespace rapidxml
     {
     
     public:
+    
+        //! Constructs parse error
