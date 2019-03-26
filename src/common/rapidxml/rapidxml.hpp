@@ -61,3 +61,4 @@ namespace rapidxml
     //! This function must be defined by the user.
     //! <br><br>
     //! This class derives from <code>std::exception</code> class.
+    class parse_error: public std::exception
