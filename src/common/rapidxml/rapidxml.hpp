@@ -112,3 +112,4 @@ namespace rapidxml
 #ifndef RAPIDXML_DYNAMIC_POOL_SIZE
     // Size of dynamic memory block of memory_pool.
     // Define RAPIDXML_DYNAMIC_POOL_SIZE before including rapidxml.hpp if you want to override the default value.
+    // After the static block is exhausted, dynamic blocks with approximately this size are allocated by memory_pool.
