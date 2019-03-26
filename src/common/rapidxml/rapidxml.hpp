@@ -134,3 +134,4 @@ namespace rapidxml
     //! Enumeration listing all node types produced by the parser.
     //! Use xml_node::type() function to query node type.
     enum node_type
+    {
