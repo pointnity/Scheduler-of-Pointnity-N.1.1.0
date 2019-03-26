@@ -126,3 +126,4 @@ namespace rapidxml
 
 namespace rapidxml
 {
+    // Forward declarations
