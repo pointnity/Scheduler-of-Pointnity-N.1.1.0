@@ -60,3 +60,4 @@ namespace rapidxml
     //! This will cause the parser to call rapidxml::parse_error_handler() function instead of throwing an exception.
     //! This function must be defined by the user.
     //! <br><br>
+    //! This class derives from <code>std::exception</code> class.
