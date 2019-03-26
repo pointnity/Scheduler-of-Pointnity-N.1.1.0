@@ -76,3 +76,5 @@ namespace rapidxml
         //! Gets human readable description of error.
         //! \return Pointer to null terminated description of the error.
         virtual const char *what() const throw()
+        {
+            return m_what;
