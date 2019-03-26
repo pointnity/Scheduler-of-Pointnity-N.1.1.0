@@ -117,3 +117,4 @@ namespace rapidxml
 #endif
 
 #ifndef RAPIDXML_ALIGNMENT
+    // Memory allocation alignment.
