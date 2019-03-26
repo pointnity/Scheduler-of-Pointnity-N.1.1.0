@@ -48,3 +48,4 @@ namespace rapidxml
 #define RAPIDXML_PARSE_ERROR(what, where) throw parse_error(what, where)
 
 namespace rapidxml
+{
