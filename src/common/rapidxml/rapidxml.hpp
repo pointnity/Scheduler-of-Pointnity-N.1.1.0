@@ -127,3 +127,4 @@ namespace rapidxml
 namespace rapidxml
 {
     // Forward declarations
+    template<class Ch> class xml_node;
