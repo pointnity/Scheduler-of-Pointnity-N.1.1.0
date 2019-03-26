@@ -81,3 +81,4 @@ namespace rapidxml
         }
 
         //! Gets pointer to character data where error happened.
+        //! Ch should be the same as char type of xml_document that produced the error.
