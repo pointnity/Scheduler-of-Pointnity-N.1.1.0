@@ -123,3 +123,5 @@ namespace rapidxml
     // This must be a power of 2 and at least 1, otherwise memory_pool will not work.
     #define RAPIDXML_ALIGNMENT sizeof(void *)
 #endif
+
+namespace rapidxml
