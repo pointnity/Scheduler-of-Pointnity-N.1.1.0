@@ -85,3 +85,5 @@ namespace rapidxml
         //! \return Pointer to location within the parsed string where error occured.
         template<class Ch>
         Ch *where() const
+        {
+            return reinterpret_cast<Ch *>(m_where);
