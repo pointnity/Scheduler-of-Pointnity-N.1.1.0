@@ -78,3 +78,6 @@ namespace rapidxml
         virtual const char *what() const throw()
         {
             return m_what;
+        }
+
+        //! Gets pointer to character data where error happened.
