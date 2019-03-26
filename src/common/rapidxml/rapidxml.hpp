@@ -110,3 +110,4 @@ namespace rapidxml
 #endif
 
 #ifndef RAPIDXML_DYNAMIC_POOL_SIZE
+    // Size of dynamic memory block of memory_pool.
