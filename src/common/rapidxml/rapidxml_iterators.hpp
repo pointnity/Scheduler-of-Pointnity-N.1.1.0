@@ -18,3 +18,4 @@ namespace rapidxml
         typedef typename xml_node<Ch> &reference;
         typedef typename xml_node<Ch> *pointer;
         typedef std::ptrdiff_t difference_type;
+        typedef std::bidirectional_iterator_tag iterator_category;
