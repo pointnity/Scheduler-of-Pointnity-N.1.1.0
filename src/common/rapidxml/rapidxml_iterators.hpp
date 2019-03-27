@@ -43,3 +43,5 @@ namespace rapidxml
         }
 
         node_iterator& operator++()
+        {
+            assert(m_node);
