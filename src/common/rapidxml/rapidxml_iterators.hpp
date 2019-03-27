@@ -22,3 +22,7 @@ namespace rapidxml
         
         node_iterator()
             : m_node(0)
+        {
+        }
+
+        node_iterator(xml_node<Ch> *node)
