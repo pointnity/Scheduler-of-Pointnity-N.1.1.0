@@ -60,3 +60,4 @@ namespace rapidxml
         {
             assert(m_node && m_node->previous_sibling());
             m_node = m_node->previous_sibling();
+            return *this;
