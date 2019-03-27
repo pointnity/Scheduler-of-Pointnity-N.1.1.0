@@ -5,3 +5,6 @@
 #include "rapidxml.hpp"
 
 namespace rapidxml
+{
+
+    //! Iterator of child nodes of xml_node
