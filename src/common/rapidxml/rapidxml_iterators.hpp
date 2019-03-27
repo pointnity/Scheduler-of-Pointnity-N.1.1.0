@@ -88,3 +88,4 @@ namespace rapidxml
 
     //! Iterator of child attributes of xml_node
     template<class Ch>
+    class attribute_iterator
