@@ -146,3 +146,4 @@ namespace rapidxml
         {
             attribute_iterator tmp = *this;
             ++this;
+            return tmp;
