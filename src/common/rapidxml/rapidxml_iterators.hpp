@@ -78,3 +78,6 @@ namespace rapidxml
         bool operator !=(const node_iterator<Ch> &rhs)
         {
             return m_node != rhs.m_node;
+        }
+
+    private:
