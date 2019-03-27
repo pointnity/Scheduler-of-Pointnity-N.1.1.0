@@ -100,3 +100,16 @@ namespace rapidxml
         typedef std::bidirectional_iterator_tag iterator_category;
         
         attribute_iterator()
+            : m_attribute(0)
+        {
+        }
+
+        attribute_iterator(xml_node<Ch> *node)
+            : m_attribute(node->first_attribute())
+        {
+        }
+        
+        reference operator *() const
+        {
+            assert(m_attribute);
+            return *m_attribute;
