@@ -27,3 +27,8 @@ namespace rapidxml
 
         node_iterator(xml_node<Ch> *node)
             : m_node(node->first_node())
+        {
+        }
+        
+        reference operator *() const
+        {
