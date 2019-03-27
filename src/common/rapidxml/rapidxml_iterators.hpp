@@ -62,3 +62,5 @@ namespace rapidxml
             m_node = m_node->previous_sibling();
             return *this;
         }
+
+        node_iterator operator--(int)
