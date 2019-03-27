@@ -47,3 +47,6 @@ namespace rapidxml
             assert(m_node);
             m_node = m_node->next_sibling();
             return *this;
+        }
+
+        node_iterator operator++(int)
