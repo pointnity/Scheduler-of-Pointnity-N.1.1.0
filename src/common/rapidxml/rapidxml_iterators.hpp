@@ -81,3 +81,10 @@ namespace rapidxml
         }
 
     private:
+
+        xml_node<Ch> *m_node;
+
+    };
+
+    //! Iterator of child attributes of xml_node
+    template<class Ch>
