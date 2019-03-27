@@ -17,3 +17,4 @@ namespace rapidxml
         typedef typename xml_node<Ch> value_type;
         typedef typename xml_node<Ch> &reference;
         typedef typename xml_node<Ch> *pointer;
+        typedef std::ptrdiff_t difference_type;
