@@ -37,3 +37,5 @@ namespace rapidxml
         }
 
         pointer operator->() const
+        {
+            assert(m_node);
