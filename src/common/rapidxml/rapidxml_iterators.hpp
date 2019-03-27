@@ -152,3 +152,11 @@ namespace rapidxml
         bool operator ==(const attribute_iterator<Ch> &rhs)
         {
             return m_attribute == rhs.m_attribute;
+        }
+
+        bool operator !=(const attribute_iterator<Ch> &rhs)
+        {
+            return m_attribute != rhs.m_attribute;
+        }
+
+    private:
