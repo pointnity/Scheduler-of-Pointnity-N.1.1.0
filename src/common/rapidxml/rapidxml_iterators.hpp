@@ -126,3 +126,9 @@ namespace rapidxml
             assert(m_attribute);
             m_attribute = m_attribute->next_attribute();
             return *this;
+        }
+
+        attribute_iterator operator++(int)
+        {
+            attribute_iterator tmp = *this;
+            ++this;
