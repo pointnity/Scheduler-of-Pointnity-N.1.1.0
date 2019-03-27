@@ -3,3 +3,5 @@
 //! \file rapidxml_iterators.hpp This file contains rapidxml iterators
 
 #include "rapidxml.hpp"
+
+namespace rapidxml
