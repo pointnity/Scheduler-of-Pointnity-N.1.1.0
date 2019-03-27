@@ -160,3 +160,11 @@ namespace rapidxml
         }
 
     private:
+
+        xml_attribute<Ch> *m_attribute;
+
+    };
+
+}
+
+#endif
