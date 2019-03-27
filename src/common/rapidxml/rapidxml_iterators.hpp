@@ -140,3 +140,7 @@ namespace rapidxml
             assert(m_attribute && m_attribute->previous_attribute());
             m_attribute = m_attribute->previous_attribute();
             return *this;
+        }
+
+        attribute_iterator operator--(int)
+        {
