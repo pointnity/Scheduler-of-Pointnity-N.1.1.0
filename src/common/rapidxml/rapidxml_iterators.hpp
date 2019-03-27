@@ -15,3 +15,4 @@ namespace rapidxml
     public:
 
         typedef typename xml_node<Ch> value_type;
+        typedef typename xml_node<Ch> &reference;
