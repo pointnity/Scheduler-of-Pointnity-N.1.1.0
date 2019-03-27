@@ -59,3 +59,4 @@ namespace rapidxml
         node_iterator& operator--()
         {
             assert(m_node && m_node->previous_sibling());
+            m_node = m_node->previous_sibling();
