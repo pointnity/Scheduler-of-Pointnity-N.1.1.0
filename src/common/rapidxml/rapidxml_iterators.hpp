@@ -55,3 +55,5 @@ namespace rapidxml
             ++this;
             return tmp;
         }
+
+        node_iterator& operator--()
