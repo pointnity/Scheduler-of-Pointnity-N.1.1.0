@@ -21,3 +21,4 @@ namespace rapidxml
         typedef std::bidirectional_iterator_tag iterator_category;
         
         node_iterator()
+            : m_node(0)
