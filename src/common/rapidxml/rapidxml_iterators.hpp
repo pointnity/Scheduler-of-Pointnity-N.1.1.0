@@ -68,3 +68,6 @@ namespace rapidxml
             node_iterator tmp = *this;
             ++this;
             return tmp;
+        }
+
+        bool operator ==(const node_iterator<Ch> &rhs)
