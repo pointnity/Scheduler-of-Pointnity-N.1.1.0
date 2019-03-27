@@ -66,3 +66,4 @@ namespace rapidxml
         node_iterator operator--(int)
         {
             node_iterator tmp = *this;
+            ++this;
