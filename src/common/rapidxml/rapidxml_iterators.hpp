@@ -11,3 +11,5 @@ namespace rapidxml
     template<class Ch>
     class node_iterator
     {
+    
+    public:
