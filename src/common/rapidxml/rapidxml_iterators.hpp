@@ -10,3 +10,4 @@ namespace rapidxml
     //! Iterator of child nodes of xml_node
     template<class Ch>
     class node_iterator
+    {
