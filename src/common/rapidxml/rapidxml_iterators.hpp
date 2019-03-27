@@ -133,3 +133,10 @@ namespace rapidxml
             attribute_iterator tmp = *this;
             ++this;
             return tmp;
+        }
+
+        attribute_iterator& operator--()
+        {
+            assert(m_attribute && m_attribute->previous_attribute());
+            m_attribute = m_attribute->previous_attribute();
+            return *this;
