@@ -113,3 +113,16 @@ namespace rapidxml
         {
             assert(m_attribute);
             return *m_attribute;
+        }
+
+        pointer operator->() const
+        {
+            assert(m_attribute);
+            return m_attribute;
+        }
+
+        attribute_iterator& operator++()
+        {
+            assert(m_attribute);
+            m_attribute = m_attribute->next_attribute();
+            return *this;
