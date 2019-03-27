@@ -33,3 +33,4 @@ namespace rapidxml
         reference operator *() const
         {
             assert(m_node);
+            return *m_node;
