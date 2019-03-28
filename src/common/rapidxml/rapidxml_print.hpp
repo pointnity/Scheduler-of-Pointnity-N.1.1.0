@@ -70,3 +70,6 @@ namespace rapidxml
                     default:
                         *out++ = *begin;    // No expansion, copy character
                     }
+                }
+                ++begin;    // Step to next character
+            }
