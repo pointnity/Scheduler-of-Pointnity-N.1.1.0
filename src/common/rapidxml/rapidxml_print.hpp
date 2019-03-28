@@ -43,3 +43,9 @@ namespace rapidxml
         inline OutIt copy_and_expand_chars(const Ch *begin, const Ch *end, Ch noexpand, OutIt out)
         {
             while (begin != end)
+            {
+                if (*begin == noexpand)
+                {
+                    *out++ = *begin;    // No expansion, copy character
+                }
+                else
