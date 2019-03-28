@@ -153,3 +153,6 @@ namespace rapidxml
 
                 // Unknown
             default:
+                assert(0);
+                break;
+            }
