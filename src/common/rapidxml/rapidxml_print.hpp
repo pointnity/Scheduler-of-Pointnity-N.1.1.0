@@ -23,3 +23,7 @@ namespace rapidxml
 
     //! \cond internal
     namespace internal
+    {
+        
+        ///////////////////////////////////////////////////////////////////////////
+        // Internal character operations
