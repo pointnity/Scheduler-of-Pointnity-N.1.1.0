@@ -73,3 +73,8 @@ namespace rapidxml
                 }
                 ++begin;    // Step to next character
             }
+            return out;
+        }
+
+        // Fill given output iterator with repetitions of the same character
+        template<class OutIt, class Ch>
