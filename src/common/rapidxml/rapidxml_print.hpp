@@ -39,4 +39,7 @@ namespace rapidxml
         
         // Copy characters from given range to given output iterator and expand
         // characters into references (&lt; &gt; &apos; &quot; &amp;)
-        template<class OutIt, class Ch>c
+        template<class OutIt, class Ch>
+        inline OutIt copy_and_expand_chars(const Ch *begin, const Ch *end, Ch noexpand, OutIt out)
+        {
+            while (begin != end)
