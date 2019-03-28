@@ -33,3 +33,4 @@ namespace rapidxml
         inline OutIt copy_chars(const Ch *begin, const Ch *end, OutIt out)
         {
             while (begin != end)
+                *out++ = *begin++;
