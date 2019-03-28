@@ -108,3 +108,12 @@ namespace rapidxml
         inline OutIt print_node(OutIt out, const xml_node<Ch> *node, int flags, int indent)
         {
             // Print proper node type
+            switch (node->type())
+            {
+
+            // Document
+            case node_document:
+                out = print_children(out, node, flags, indent);
+                break;
+
+            // Element
