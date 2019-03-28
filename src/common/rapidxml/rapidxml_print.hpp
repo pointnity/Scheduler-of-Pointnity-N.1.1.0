@@ -30,3 +30,4 @@ namespace rapidxml
     
         // Copy characters from given range to given output iterator
         template<class OutIt, class Ch>
+        inline OutIt copy_chars(const Ch *begin, const Ch *end, OutIt out)
