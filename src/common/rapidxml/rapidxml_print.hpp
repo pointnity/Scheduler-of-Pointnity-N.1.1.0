@@ -64,3 +64,9 @@ namespace rapidxml
                     case Ch('"'): 
                         *out++ = Ch('&'); *out++ = Ch('q'); *out++ = Ch('u'); *out++ = Ch('o'); *out++ = Ch('t'); *out++ = Ch(';');
                         break;
+                    case Ch('&'): 
+                        *out++ = Ch('&'); *out++ = Ch('a'); *out++ = Ch('m'); *out++ = Ch('p'); *out++ = Ch(';'); 
+                        break;
+                    default:
+                        *out++ = *begin;    // No expansion, copy character
+                    }
