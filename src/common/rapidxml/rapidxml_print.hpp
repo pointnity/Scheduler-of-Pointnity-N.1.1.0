@@ -34,3 +34,4 @@ namespace rapidxml
         {
             while (begin != end)
                 *out++ = *begin++;
+            return out;
