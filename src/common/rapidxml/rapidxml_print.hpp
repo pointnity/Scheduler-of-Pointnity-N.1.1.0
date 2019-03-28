@@ -125,3 +125,15 @@ namespace rapidxml
             case node_data:
                 out = print_data_node(out, node, flags, indent);
                 break;
+            
+            // CDATA
+            case node_cdata:
+                out = print_cdata_node(out, node, flags, indent);
+                break;
+
+            // Declaration
+            case node_declaration:
+                out = print_declaration_node(out, node, flags, indent);
+                break;
+
+            // Comment
