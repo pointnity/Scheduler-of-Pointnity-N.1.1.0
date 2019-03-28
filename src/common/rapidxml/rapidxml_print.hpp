@@ -27,3 +27,6 @@ namespace rapidxml
         
         ///////////////////////////////////////////////////////////////////////////
         // Internal character operations
+    
+        // Copy characters from given range to given output iterator
+        template<class OutIt, class Ch>
