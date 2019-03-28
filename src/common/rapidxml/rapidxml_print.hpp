@@ -9,3 +9,5 @@
     #include <ostream>
     #include <iterator>
 #endif
+
+namespace rapidxml
