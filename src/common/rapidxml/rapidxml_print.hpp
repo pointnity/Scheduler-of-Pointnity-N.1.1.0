@@ -49,3 +49,12 @@ namespace rapidxml
                     *out++ = *begin;    // No expansion, copy character
                 }
                 else
+                {
+                    switch (*begin)
+                    {
+                    case Ch('<'):
+                        *out++ = Ch('&'); *out++ = Ch('l'); *out++ = Ch('t'); *out++ = Ch(';');
+                        break;
+                    case Ch('>'): 
+                        *out++ = Ch('&'); *out++ = Ch('g'); *out++ = Ch('t'); *out++ = Ch(';');
+                        break;
