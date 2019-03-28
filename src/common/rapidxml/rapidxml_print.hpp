@@ -145,3 +145,11 @@ namespace rapidxml
             case node_doctype:
                 out = print_doctype_node(out, node, flags, indent);
                 break;
+
+            // Pi
+            case node_pi:
+                out = print_pi_node(out, node, flags, indent);
+                break;
+
+                // Unknown
+            default:
