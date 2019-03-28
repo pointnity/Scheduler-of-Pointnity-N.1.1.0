@@ -254,3 +254,28 @@ namespace rapidxml
                 *out = Ch('>'), ++out;
             }
             else
+            {
+                // Print normal node tag ending
+                *out = Ch('>'), ++out;
+
+                // Test if node contains a single data node only (and no other nodes)
+                xml_node<Ch> *child = node->first_node();
+                if (!child)
+                {
+                    // If node has no children, only print its value without indenting
+                    out = copy_and_expand_chars(node->value(), node->value() + node->value_size(), Ch(0), out);
+                }
+                else if (child->next_sibling() == 0 && child->type() == node_data)
+                {
+                    // If node has a sole data child, only print its value without indenting
+                    out = copy_and_expand_chars(child->value(), child->value() + child->value_size(), Ch(0), out);
+                }
+                else
+                {
+                    // Print all children with full indenting
+                    if (!(flags & print_no_indenting))
+                        *out = Ch('\n'), ++out;
+                    out = print_children(out, node, flags, indent + 1);
+                    if (!(flags & print_no_indenting))
+                        out = fill_chars(out, indent, Ch('\t'));
+                }
