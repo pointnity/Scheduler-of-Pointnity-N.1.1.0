@@ -142,3 +142,6 @@ namespace rapidxml
                 break;
             
             // Doctype
+            case node_doctype:
+                out = print_doctype_node(out, node, flags, indent);
+                break;
