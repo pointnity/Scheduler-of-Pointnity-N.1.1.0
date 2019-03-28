@@ -167,3 +167,27 @@ namespace rapidxml
             for (xml_node<Ch> *child = node->first_node(); child; child = child->next_sibling())
                 out = print_node(out, child, flags, indent);
             return out;
+        }
+
+        // Print attributes of the node
+        template<class OutIt, class Ch>
+        inline OutIt print_attributes(OutIt out, const xml_node<Ch> *node, int flags)
+        {
+            for (xml_attribute<Ch> *attribute = node->first_attribute(); attribute; attribute = attribute->next_attribute())
+            {
+                if (attribute->name() && attribute->value())
+                {
+                    // Print attribute name
+                    *out = Ch(' '), ++out;
+                    out = copy_chars(attribute->name(), attribute->name() + attribute->name_size(), out);
+                    *out = Ch('='), ++out;
+                    // Print attribute value using appropriate quote type
+                    if (find_char<Ch, Ch('"')>(attribute->value(), attribute->value() + attribute->value_size()))
+                    {
+                        *out = Ch('\''), ++out;
+                        out = copy_and_expand_chars(attribute->value(), attribute->value() + attribute->value_size(), Ch('"'), out);
+                        *out = Ch('\''), ++out;
+                    }
+                    else
+                    {
+                        *out = Ch('"'), ++out;
