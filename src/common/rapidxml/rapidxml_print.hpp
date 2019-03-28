@@ -156,3 +156,7 @@ namespace rapidxml
                 assert(0);
                 break;
             }
+            
+            // If indenting not disabled, add line break after node
+            if (!(flags & print_no_indenting))
+                *out = Ch('\n'), ++out;
