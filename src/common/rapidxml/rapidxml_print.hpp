@@ -160,3 +160,10 @@ namespace rapidxml
             // If indenting not disabled, add line break after node
             if (!(flags & print_no_indenting))
                 *out = Ch('\n'), ++out;
+
+            // Return modified iterator
+            return out;
+        }
+        
+        // Print children of the node                               
+        template<class OutIt, class Ch>
