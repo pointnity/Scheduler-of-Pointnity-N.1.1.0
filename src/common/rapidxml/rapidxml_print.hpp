@@ -22,3 +22,4 @@ namespace rapidxml
     // Internal
 
     //! \cond internal
+    namespace internal
