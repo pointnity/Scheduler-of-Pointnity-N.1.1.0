@@ -88,3 +88,13 @@ namespace rapidxml
             for (int i = 0; i < n; ++i)
                 *out++ = ch;
             return out;
+        }
+
+        // Find character
+        template<class Ch, Ch ch>
+        inline bool find_char(const Ch *begin, const Ch *end)
+        {
+            while (begin != end)
+                if (*begin++ == ch)
+                    return true;
+            return false;
