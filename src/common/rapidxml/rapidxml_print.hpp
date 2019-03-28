@@ -35,3 +35,8 @@ namespace rapidxml
             while (begin != end)
                 *out++ = *begin++;
             return out;
+        }
+        
+        // Copy characters from given range to given output iterator and expand
+        // characters into references (&lt; &gt; &apos; &quot; &amp;)
+        template<class OutIt, class Ch>c
