@@ -117,3 +117,11 @@ namespace rapidxml
                 break;
 
             // Element
+            case node_element:
+                out = print_element_node(out, node, flags, indent);
+                break;
+            
+            // Data
+            case node_data:
+                out = print_data_node(out, node, flags, indent);
+                break;
