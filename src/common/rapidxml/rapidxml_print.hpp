@@ -137,3 +137,8 @@ namespace rapidxml
                 break;
 
             // Comment
+            case node_comment:
+                out = print_comment_node(out, node, flags, indent);
+                break;
+            
+            // Doctype
