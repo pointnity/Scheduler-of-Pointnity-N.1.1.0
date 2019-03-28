@@ -7,3 +7,4 @@
 // Only include streams if not disabled
 #ifndef RAPIDXML_NO_STREAMS
     #include <ostream>
+    #include <iterator>
