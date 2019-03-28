@@ -279,3 +279,34 @@ namespace rapidxml
                     if (!(flags & print_no_indenting))
                         out = fill_chars(out, indent, Ch('\t'));
                 }
+
+                // Print node end
+                *out = Ch('<'), ++out;
+                *out = Ch('/'), ++out;
+                out = copy_chars(node->name(), node->name() + node->name_size(), out);
+                *out = Ch('>'), ++out;
+            }
+            return out;
+        }
+
+        // Print declaration node
+        template<class OutIt, class Ch>
+        inline OutIt print_declaration_node(OutIt out, const xml_node<Ch> *node, int flags, int indent)
+        {
+            // Print declaration start
+            if (!(flags & print_no_indenting))
+                out = fill_chars(out, indent, Ch('\t'));
+            *out = Ch('<'), ++out;
+            *out = Ch('?'), ++out;
+            *out = Ch('x'), ++out;
+            *out = Ch('m'), ++out;
+            *out = Ch('l'), ++out;
+
+            // Print attributes
+            out = print_attributes(out, node, flags);
+            
+            // Print declaration end
+            *out = Ch('?'), ++out;
+            *out = Ch('>'), ++out;
+            
+            return out;
