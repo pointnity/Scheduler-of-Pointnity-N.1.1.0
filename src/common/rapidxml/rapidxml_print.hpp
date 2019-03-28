@@ -191,3 +191,36 @@ namespace rapidxml
                     else
                     {
                         *out = Ch('"'), ++out;
+                        out = copy_and_expand_chars(attribute->value(), attribute->value() + attribute->value_size(), Ch('\''), out);
+                        *out = Ch('"'), ++out;
+                    }
+                }
+            }
+            return out;
+        }
+
+        // Print data node
+        template<class OutIt, class Ch>
+        inline OutIt print_data_node(OutIt out, const xml_node<Ch> *node, int flags, int indent)
+        {
+            assert(node->type() == node_data);
+            if (!(flags & print_no_indenting))
+                out = fill_chars(out, indent, Ch('\t'));
+            out = copy_and_expand_chars(node->value(), node->value() + node->value_size(), Ch(0), out);
+            return out;
+        }
+
+        // Print data node
+        template<class OutIt, class Ch>
+        inline OutIt print_cdata_node(OutIt out, const xml_node<Ch> *node, int flags, int indent)
+        {
+            assert(node->type() == node_cdata);
+            if (!(flags & print_no_indenting))
+                out = fill_chars(out, indent, Ch('\t'));
+            *out = Ch('<'); ++out;
+            *out = Ch('!'); ++out;
+            *out = Ch('['); ++out;
+            *out = Ch('C'); ++out;
+            *out = Ch('D'); ++out;
+            *out = Ch('A'); ++out;
+            *out = Ch('T'); ++out;
