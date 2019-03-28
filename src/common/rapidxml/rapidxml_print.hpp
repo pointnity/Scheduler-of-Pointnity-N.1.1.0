@@ -224,3 +224,33 @@ namespace rapidxml
             *out = Ch('D'); ++out;
             *out = Ch('A'); ++out;
             *out = Ch('T'); ++out;
+            *out = Ch('A'); ++out;
+            *out = Ch('['); ++out;
+            out = copy_chars(node->value(), node->value() + node->value_size(), out);
+            *out = Ch(']'); ++out;
+            *out = Ch(']'); ++out;
+            *out = Ch('>'); ++out;
+            return out;
+        }
+
+        // Print element node
+        template<class OutIt, class Ch>
+        inline OutIt print_element_node(OutIt out, const xml_node<Ch> *node, int flags, int indent)
+        {
+            assert(node->type() == node_element);
+
+            // Print element name and attributes, if any
+            if (!(flags & print_no_indenting))
+                out = fill_chars(out, indent, Ch('\t'));
+            *out = Ch('<'), ++out;
+            out = copy_chars(node->name(), node->name() + node->name_size(), out);
+            out = print_attributes(out, node, flags);
+            
+            // If node is childless
+            if (node->value_size() == 0 && !node->first_node())
+            {
+                // Print childless node tag ending
+                *out = Ch('/'), ++out;
+                *out = Ch('>'), ++out;
+            }
+            else
