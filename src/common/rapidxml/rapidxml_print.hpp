@@ -310,3 +310,108 @@ namespace rapidxml
             *out = Ch('>'), ++out;
             
             return out;
+        }
+
+        // Print comment node
+        template<class OutIt, class Ch>
+        inline OutIt print_comment_node(OutIt out, const xml_node<Ch> *node, int flags, int indent)
+        {
+            assert(node->type() == node_comment);
+            if (!(flags & print_no_indenting))
+                out = fill_chars(out, indent, Ch('\t'));
+            *out = Ch('<'), ++out;
+            *out = Ch('!'), ++out;
+            *out = Ch('-'), ++out;
+            *out = Ch('-'), ++out;
+            out = copy_chars(node->value(), node->value() + node->value_size(), out);
+            *out = Ch('-'), ++out;
+            *out = Ch('-'), ++out;
+            *out = Ch('>'), ++out;
+            return out;
+        }
+
+        // Print doctype node
+        template<class OutIt, class Ch>
+        inline OutIt print_doctype_node(OutIt out, const xml_node<Ch> *node, int flags, int indent)
+        {
+            assert(node->type() == node_doctype);
+            if (!(flags & print_no_indenting))
+                out = fill_chars(out, indent, Ch('\t'));
+            *out = Ch('<'), ++out;
+            *out = Ch('!'), ++out;
+            *out = Ch('D'), ++out;
+            *out = Ch('O'), ++out;
+            *out = Ch('C'), ++out;
+            *out = Ch('T'), ++out;
+            *out = Ch('Y'), ++out;
+            *out = Ch('P'), ++out;
+            *out = Ch('E'), ++out;
+            *out = Ch(' '), ++out;
+            out = copy_chars(node->value(), node->value() + node->value_size(), out);
+            *out = Ch('>'), ++out;
+            return out;
+        }
+
+        // Print pi node
+        template<class OutIt, class Ch>
+        inline OutIt print_pi_node(OutIt out, const xml_node<Ch> *node, int flags, int indent)
+        {
+            assert(node->type() == node_pi);
+            if (!(flags & print_no_indenting))
+                out = fill_chars(out, indent, Ch('\t'));
+            *out = Ch('<'), ++out;
+            *out = Ch('?'), ++out;
+            out = copy_chars(node->name(), node->name() + node->name_size(), out);
+            *out = Ch(' '), ++out;
+            out = copy_chars(node->value(), node->value() + node->value_size(), out);
+            *out = Ch('?'), ++out;
+            *out = Ch('>'), ++out;
+            return out;
+        }
+
+    }
+    //! \endcond
+
+    ///////////////////////////////////////////////////////////////////////////
+    // Printing
+
+    //! Prints XML to given output iterator.
+    //! \param out Output iterator to print to.
+    //! \param node Node to be printed. Pass xml_document to print entire document.
+    //! \param flags Flags controlling how XML is printed.
+    //! \return Output iterator pointing to position immediately after last character of printed text.
+    template<class OutIt, class Ch> 
+    inline OutIt print(OutIt out, const xml_node<Ch> &node, int flags = 0)
+    {
+        return internal::print_node(out, &node, flags, 0);
+    }
+
+#ifndef RAPIDXML_NO_STREAMS
+
+    //! Prints XML to given output stream.
+    //! \param out Output stream to print to.
+    //! \param node Node to be printed. Pass xml_document to print entire document.
+    //! \param flags Flags controlling how XML is printed.
+    //! \return Output stream.
+    template<class Ch> 
+    inline std::basic_ostream<Ch> &print(std::basic_ostream<Ch> &out, const xml_node<Ch> &node, int flags = 0)
+    {
+        print(std::ostream_iterator<Ch>(out), node, flags);
+        return out;
+    }
+
+    //! Prints formatted XML to given output stream. Uses default printing flags. Use print() function to customize printing process.
+    //! \param out Output stream to print to.
+    //! \param node Node to be printed.
+    //! \return Output stream.
+    template<class Ch> 
+    inline std::basic_ostream<Ch> &operator <<(std::basic_ostream<Ch> &out, const xml_node<Ch> &node)
+    {
+        return print(out, node);
+    }
+
+#endif
+
+}
+
+#endif
