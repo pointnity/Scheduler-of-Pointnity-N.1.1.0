@@ -8,3 +8,4 @@
 #ifndef RAPIDXML_NO_STREAMS
     #include <ostream>
     #include <iterator>
+#endif
