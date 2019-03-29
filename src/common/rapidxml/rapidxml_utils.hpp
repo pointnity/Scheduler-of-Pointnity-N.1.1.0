@@ -52,3 +52,4 @@ namespace rapidxml
             stream.unsetf(ios::skipws);
             m_data.assign(istreambuf_iterator<Ch>(stream), istreambuf_iterator<Ch>());
             if (stream.fail() || stream.bad())
+                throw runtime_error("error reading stream");
