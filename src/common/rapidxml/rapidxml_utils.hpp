@@ -40,3 +40,7 @@ namespace rapidxml
             m_data.resize(size + 1);
             stream.read(&m_data.front(), static_cast<streamsize>(size));
             m_data[size] = 0;
+        }
+
+        //! Loads file into the memory. Data will be automatically destroyed by the destructor
+        //! \param stream Stream to load from
