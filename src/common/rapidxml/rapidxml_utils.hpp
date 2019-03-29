@@ -100,3 +100,4 @@ namespace rapidxml
 
     //! Counts attributes of node. Time complexity is O(n).
     //! \return Number of attributes of node
+    template<class Ch>
