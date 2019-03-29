@@ -111,3 +111,8 @@ namespace rapidxml
             attr = attr->next_attribute();
         }
         return count;
+    }
+
+}
+
+#endif
