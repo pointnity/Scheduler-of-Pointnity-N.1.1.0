@@ -73,3 +73,8 @@ namespace rapidxml
         //! Gets file data size.
         //! \return Size of file data, in characters.
         std::size_t size() const
+        {
+            return m_data.size();
+        }
+
+    private:
