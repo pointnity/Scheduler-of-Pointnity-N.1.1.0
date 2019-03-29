@@ -32,3 +32,4 @@ namespace rapidxml
             stream.unsetf(ios::skipws);
             
             // Determine stream size
+            stream.seekg(0, ios::end);
