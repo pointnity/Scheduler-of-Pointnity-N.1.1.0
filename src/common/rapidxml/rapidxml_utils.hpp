@@ -85,3 +85,4 @@ namespace rapidxml
 
     //! Counts children of node. Time complexity is O(n).
     //! \return Number of children of node
+    template<class Ch>
