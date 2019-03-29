@@ -94,3 +94,5 @@ namespace rapidxml
         {
             ++count;
             child = child->next_sibling();
+        }
+        return count;
