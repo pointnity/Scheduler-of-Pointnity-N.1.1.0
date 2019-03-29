@@ -101,3 +101,4 @@ namespace rapidxml
     //! Counts attributes of node. Time complexity is O(n).
     //! \return Number of attributes of node
     template<class Ch>
+    inline std::size_t count_attributes(xml_node<Ch> *node)
