@@ -8,3 +8,5 @@
 #include <string>
 #include <fstream>
 #include <stdexcept>
+
+namespace rapidxml
