@@ -30,3 +30,5 @@ namespace rapidxml
             if (!stream)
                 throw runtime_error(string("cannot open file ") + filename);
             stream.unsetf(ios::skipws);
+            
+            // Determine stream size
