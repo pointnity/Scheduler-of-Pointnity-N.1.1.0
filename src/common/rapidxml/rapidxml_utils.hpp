@@ -24,3 +24,7 @@ namespace rapidxml
         file(const char *filename)
         {
             using namespace std;
+
+            // Open stream
+            basic_ifstream<Ch> stream(filename, ios::binary);
+            if (!stream)
