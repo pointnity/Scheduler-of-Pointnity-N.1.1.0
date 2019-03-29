@@ -5,3 +5,4 @@
 
 #include "rapidxml.hpp"
 #include <vector>
+#include <string>
