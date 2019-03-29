@@ -21,3 +21,4 @@ namespace rapidxml
         
         //! Loads file into the memory. Data will be automatically destroyed by the destructor.
         //! \param filename Filename to load.
+        file(const char *filename)
