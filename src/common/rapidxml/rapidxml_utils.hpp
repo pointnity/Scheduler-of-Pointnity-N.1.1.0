@@ -69,3 +69,7 @@ namespace rapidxml
         {
             return &m_data.front();
         }
+
+        //! Gets file data size.
+        //! \return Size of file data, in characters.
+        std::size_t size() const
