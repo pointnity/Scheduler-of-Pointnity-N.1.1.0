@@ -87,3 +87,5 @@ namespace rapidxml
     //! \return Number of children of node
     template<class Ch>
     inline std::size_t count_children(xml_node<Ch> *node)
+    {
+        xml_node<Ch> *child = node->first_node();
