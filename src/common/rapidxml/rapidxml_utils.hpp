@@ -78,3 +78,7 @@ namespace rapidxml
         }
 
     private:
+
+        std::vector<Ch> m_data;   // File data
+
+    };
