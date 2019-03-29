@@ -106,3 +106,5 @@ namespace rapidxml
         xml_attribute<Ch> *attr = node->first_attribute();
         std::size_t count = 0;
         while (attr)
+        {
+            ++count;
