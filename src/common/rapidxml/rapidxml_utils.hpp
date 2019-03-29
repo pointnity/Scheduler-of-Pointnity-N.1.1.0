@@ -54,3 +54,9 @@ namespace rapidxml
             if (stream.fail() || stream.bad())
                 throw runtime_error("error reading stream");
             m_data.push_back(0);
+        }
+        
+        //! Gets file data.
+        //! \return Pointer to data of file.
+        Ch *data()
+        {
