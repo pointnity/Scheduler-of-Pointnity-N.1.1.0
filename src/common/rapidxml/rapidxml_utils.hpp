@@ -82,3 +82,6 @@ namespace rapidxml
         std::vector<Ch> m_data;   // File data
 
     };
+
+    //! Counts children of node. Time complexity is O(n).
+    //! \return Number of children of node
