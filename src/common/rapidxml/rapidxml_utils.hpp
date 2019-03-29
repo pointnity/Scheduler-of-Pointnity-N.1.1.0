@@ -44,3 +44,4 @@ namespace rapidxml
 
         //! Loads file into the memory. Data will be automatically destroyed by the destructor
         //! \param stream Stream to load from
+        file(std::basic_istream<Ch> &stream)
