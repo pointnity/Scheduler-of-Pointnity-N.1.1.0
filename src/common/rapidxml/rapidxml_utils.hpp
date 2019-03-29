@@ -33,3 +33,4 @@ namespace rapidxml
             
             // Determine stream size
             stream.seekg(0, ios::end);
+            size_t size = stream.tellg();
