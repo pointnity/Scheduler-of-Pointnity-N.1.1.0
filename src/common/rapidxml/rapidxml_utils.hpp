@@ -50,3 +50,4 @@ namespace rapidxml
 
             // Load data and add terminating 0
             stream.unsetf(ios::skipws);
+            m_data.assign(istreambuf_iterator<Ch>(stream), istreambuf_iterator<Ch>());
