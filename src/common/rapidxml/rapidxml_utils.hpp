@@ -102,3 +102,6 @@ namespace rapidxml
     //! \return Number of attributes of node
     template<class Ch>
     inline std::size_t count_attributes(xml_node<Ch> *node)
+    {
+        xml_attribute<Ch> *attr = node->first_attribute();
+        std::size_t count = 0;
