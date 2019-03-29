@@ -96,3 +96,6 @@ namespace rapidxml
             child = child->next_sibling();
         }
         return count;
+    }
+
+    //! Counts attributes of node. Time complexity is O(n).
