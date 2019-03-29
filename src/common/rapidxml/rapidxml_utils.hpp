@@ -108,3 +108,4 @@ namespace rapidxml
         while (attr)
         {
             ++count;
+            attr = attr->next_attribute();
