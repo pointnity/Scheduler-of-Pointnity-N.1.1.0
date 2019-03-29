@@ -89,3 +89,4 @@ namespace rapidxml
     inline std::size_t count_children(xml_node<Ch> *node)
     {
         xml_node<Ch> *child = node->first_node();
+        std::size_t count = 0;
