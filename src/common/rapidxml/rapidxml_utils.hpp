@@ -39,3 +39,4 @@ namespace rapidxml
             // Load data and add terminating 0
             m_data.resize(size + 1);
             stream.read(&m_data.front(), static_cast<streamsize>(size));
+            m_data[size] = 0;
