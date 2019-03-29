@@ -6,3 +6,4 @@
 #include "rapidxml.hpp"
 #include <vector>
 #include <string>
+#include <fstream>
