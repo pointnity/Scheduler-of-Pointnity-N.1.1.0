@@ -49,3 +49,4 @@ namespace rapidxml
             using namespace std;
 
             // Load data and add terminating 0
+            stream.unsetf(ios::skipws);
