@@ -10,3 +10,6 @@
 #include <stdexcept>
 
 namespace rapidxml
+{
+
+    //! Represents data loaded from a file
