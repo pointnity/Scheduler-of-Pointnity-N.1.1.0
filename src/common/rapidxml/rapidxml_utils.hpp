@@ -86,3 +86,4 @@ namespace rapidxml
     //! Counts children of node. Time complexity is O(n).
     //! \return Number of children of node
     template<class Ch>
+    inline std::size_t count_children(xml_node<Ch> *node)
