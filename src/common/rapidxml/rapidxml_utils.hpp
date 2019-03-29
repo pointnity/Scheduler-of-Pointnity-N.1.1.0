@@ -91,3 +91,5 @@ namespace rapidxml
         xml_node<Ch> *child = node->first_node();
         std::size_t count = 0;
         while (child)
+        {
+            ++count;
