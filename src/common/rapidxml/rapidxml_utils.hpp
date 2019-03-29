@@ -66,3 +66,6 @@ namespace rapidxml
         //! Gets file data.
         //! \return Pointer to data of file.
         const Ch *data() const
+        {
+            return &m_data.front();
+        }
