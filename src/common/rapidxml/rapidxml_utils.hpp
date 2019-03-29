@@ -28,3 +28,4 @@ namespace rapidxml
             // Open stream
             basic_ifstream<Ch> stream(filename, ios::binary);
             if (!stream)
+                throw runtime_error(string("cannot open file ") + filename);
