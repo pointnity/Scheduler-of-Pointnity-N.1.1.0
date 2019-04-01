@@ -89,3 +89,14 @@ SET(SRC
     lxc.cpp
     vm_pool.cpp
     ip_pool.cpp
+    resource_manager.cpp
+    event.cpp
+    handler.cpp
+    dispatcher.cpp
+    hdfs_wrapper.cpp
+    image_manager.cpp
+    work_thread.cpp
+    service.cpp
+    executor_register.cpp
+    task_action.cpp
+    executor_main.cpp)
