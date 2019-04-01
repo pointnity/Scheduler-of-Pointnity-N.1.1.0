@@ -61,3 +61,6 @@ ADD_CUSTOM_COMMAND (
 # LINK_DIRECTORIES(/etc/alternatives/jre/lib/amd64/server)
 
 ## hdfs new ##
+# -I
+INCLUDE_DIRECTORIES(${JNI_INCLUDE_DIRS})  # for jni.h, jni.h use in /usr/local/include/hdfs/hdfs.h
+# -L
