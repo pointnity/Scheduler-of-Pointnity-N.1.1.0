@@ -106,3 +106,9 @@ ADD_EXECUTABLE(clean_environment clean_environment.cpp)
 
 TARGET_LINK_LIBRARIES(executor pthread)
 TARGET_LINK_LIBRARIES(executor thrift)
+TARGET_LINK_LIBRARIES(executor log4cplus)
+TARGET_LINK_LIBRARIES(executor gflags)
+TARGET_LINK_LIBRARIES(executor classad)
+TARGET_LINK_LIBRARIES(executor virt)
+TARGET_LINK_LIBRARIES(executor lxc)
+# hdfs
