@@ -79,3 +79,13 @@ SET(SRC
     ${RESOURCE_SCHEDULER_THRIFT_SOURCE}
     ${EXECUTOR_THRIFT_SOURCE}
     ${VMWORKER_THRIFT_SOURCE}
+    ${LXC_SOURCE}
+    config.cpp
+    system.cpp
+    task_entity.cpp
+    task_entity_pool.cpp
+    vm.cpp
+    kvm.cpp
+    lxc.cpp
+    vm_pool.cpp
+    ip_pool.cpp
