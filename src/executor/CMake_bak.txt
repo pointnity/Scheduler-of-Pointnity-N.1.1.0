@@ -50,3 +50,4 @@ SET(VMWORKER_THRIFT_SOURCE
     ${THRIFT_SOURCE_PREFIX}/vm_worker/gen-cpp/VMWorker.cpp)
 ADD_CUSTOM_COMMAND (
     OUTPUT ${VMWORKER_THRIFT_SOURCE}
+    COMMAND thrift --gen cpp -r -o ${CMAKE_SOURCE_DIR}/src/proxy/vm_worker
