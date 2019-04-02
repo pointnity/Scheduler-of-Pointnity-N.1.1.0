@@ -74,3 +74,4 @@ link_directories($ENV{JAVA_HOME}/jre/lib/amd64/server)
 
 SET(SRC 
     ${COMMON_SOURCE}
+    ${SCHEDULER_THRIFT_SOURCE}
