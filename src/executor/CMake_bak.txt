@@ -79,3 +79,4 @@ SET(SRC
     ${EXECUTOR_THRIFT_SOURCE}
     ${VMWORKER_THRIFT_SOURCE}
     config.cpp
+    system.cpp
