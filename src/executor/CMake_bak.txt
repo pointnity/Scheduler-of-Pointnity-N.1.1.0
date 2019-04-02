@@ -9,3 +9,4 @@ SET(SCHEDULER_THRIFT_SOURCE
     ${THRIFT_SOURCE_PREFIX}/scheduler/gen-cpp/Scheduler.cpp)
 ADD_CUSTOM_COMMAND (
     OUTPUT ${SCHEDULER_THRIFT_SOURCE}
+    COMMAND thrift --gen cpp -r -o ${CMAKE_SOURCE_DIR}/src/proxy/scheduler
