@@ -89,3 +89,26 @@ SET(SRC
     resource_manager.cpp
     event.cpp
     handler.cpp
+    dispatcher.cpp
+    work_thread.cpp
+    service.cpp
+    executor.cpp)
+
+ADD_EXECUTABLE(executor ${SRC})
+# ADD_EXECUTABLE(clean_environment clean_environment.cpp)
+
+TARGET_LINK_LIBRARIES(executor pthread)
+TARGET_LINK_LIBRARIES(executor thrift)
+TARGET_LINK_LIBRARIES(executor log4cplus)
+TARGET_LINK_LIBRARIES(executor gflags)
+TARGET_LINK_LIBRARIES(executor classad)
+TARGET_LINK_LIBRARIES(executor virt)
+TARGET_LINK_LIBRARIES(executor lxc)
+# hdfs
+TARGET_LINK_LIBRARIES(executor hdfs)
+TARGET_LINK_LIBRARIES(executor jvm)
+
+# TARGET_LINK_LIBRARIES(clean_environment virt)
+
+INSTALL(TARGETS executor RUNTIME DESTINATION bin)
+# INSTALL(TARGETS clean_environment RUNTIME DESTINATION bin)
