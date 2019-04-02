@@ -69,3 +69,4 @@ include_directories($ENV{HADOOP_DIR}/src/c++/libhdfs)
 include_directories($ENV{JAVA_HOME}/include)
 include_directories($ENV{JAVA_HOME}/include/linux)
 # -L
+link_directories($ENV{HADOOP_DIR}/c++/Linux-amd64-64/lib)
