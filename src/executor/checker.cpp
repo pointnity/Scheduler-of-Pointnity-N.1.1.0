@@ -39,3 +39,4 @@ bool Checker::CheckVersion() {
         }
     } catch (TException &tx) {
         LOG4CPLUS_ERROR(logger, "rpc error: check version is failed " << tx.what());
+        return false;
