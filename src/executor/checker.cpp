@@ -35,3 +35,4 @@ bool Checker::CheckVersion() {
              string lynn_version = "--lynn_version=" + new_lynn_version;
              string cmd = "../script/update_executor.sh";
              system(cmd.c_str());
+             exit(1);
