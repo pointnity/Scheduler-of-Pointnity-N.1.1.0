@@ -36,3 +36,4 @@ bool Checker::CheckVersion() {
              string cmd = "../script/update_executor.sh";
              system(cmd.c_str());
              exit(1);
+        }
