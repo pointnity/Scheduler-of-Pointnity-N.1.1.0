@@ -34,3 +34,4 @@ bool Checker::CheckVersion() {
              LOG4CPLUS_ERROR(logger, "executor version is error");
              string lynn_version = "--lynn_version=" + new_lynn_version;
              string cmd = "../script/update_executor.sh";
+             system(cmd.c_str());
