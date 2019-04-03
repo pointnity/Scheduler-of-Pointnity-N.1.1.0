@@ -21,3 +21,7 @@ DECLARE_string(lynn_version);
 
 using log4cplus::Logger;
 using namespace std;
+
+static Logger logger = Logger::getInstance("executor");
+
+bool Checker::CheckVersion() {
