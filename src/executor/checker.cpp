@@ -26,3 +26,4 @@ static Logger logger = Logger::getInstance("executor");
 
 bool Checker::CheckVersion() {
     // check executor version
+    string new_lynn_version;
