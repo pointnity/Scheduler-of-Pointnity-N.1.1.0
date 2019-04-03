@@ -4,3 +4,4 @@
  Description: image maneger
 *********************************/
 #include <stdlib.h>
+#include <log4cplus/logger.h>
