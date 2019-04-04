@@ -38,3 +38,4 @@ int32_t CleanLibvirt() {
     // shutdown domain list
     for (int i = 0; i < num_domains; i++) {
         virDomainPtr dom = virDomainLookupByID(conn, active_domains[i]);
+        if (NULL == dom) {
