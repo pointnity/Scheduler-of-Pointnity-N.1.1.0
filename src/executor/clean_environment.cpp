@@ -47,3 +47,4 @@ int32_t CleanLibvirt() {
             printf("Failed to shutdown domain %d\n", active_domains[i]);
             continue;
         }*/
+        // destroy
