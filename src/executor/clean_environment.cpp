@@ -54,3 +54,6 @@ int32_t CleanLibvirt() {
         }
     }
     return 0;
+}
+
+int32_t CleanIPRules() {
