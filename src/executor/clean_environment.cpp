@@ -71,3 +71,5 @@ int32_t CleanIPRules() {
     // clean iptables rules
     string cmd = "iptables -D FORWARD -i eth0 -o virbr0 -p tcp -m state --state NEW -j ACCEPT";
     system(cmd.c_str());
+
+    // clean files
