@@ -24,3 +24,4 @@ int32_t CleanLibvirt() {
 
     // get domain list
     int num_domains = virConnectNumOfDomains(conn);
+    if (-1 == num_domains) {
