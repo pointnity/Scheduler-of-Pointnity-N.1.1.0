@@ -9,3 +9,4 @@
 #include <libvirt/libvirt.h>
 #include <libvirt/virterror.h>
 #include <string.h>
+#include <fstream>
