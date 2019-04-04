@@ -10,3 +10,5 @@
 #include <libvirt/virterror.h>
 #include <string.h>
 #include <fstream>
+
+using std::ifstream;
