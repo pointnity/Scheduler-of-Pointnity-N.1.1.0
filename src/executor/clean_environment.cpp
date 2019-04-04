@@ -44,3 +44,4 @@ int32_t CleanLibvirt() {
         }
         // shutdown
         /* if (-1 == virDomainShutdown(dom)) {
+            printf("Failed to shutdown domain %d\n", active_domains[i]);
