@@ -80,3 +80,6 @@ int32_t main() {
     if (0 != CleanLibvirt()) {
         printf("Failed to clean libvirt\n");
         return -1;
+    }
+    return 0;
+}
