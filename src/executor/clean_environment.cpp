@@ -3,3 +3,5 @@
  Version:  0.1
  Description: clean environment, include libvirt and lxc
 *********************************/
+
+#include <stdio.h>
