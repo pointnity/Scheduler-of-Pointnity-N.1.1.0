@@ -5,3 +5,5 @@
 *********************************/
 
 #include "executor/dispatcher.h"
+
+// register <EventType::type, Handler*>
