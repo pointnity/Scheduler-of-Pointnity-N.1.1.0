@@ -10,3 +10,6 @@
 void Dispatcher::Register(EventType::type type, Handler* handler) {
     m_handler_map[type] = handler;
 }
+
+Handler* Dispatcher::Dispatch(EventType::type type) {
+    return m_handler_map[type];
