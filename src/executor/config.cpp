@@ -16,3 +16,4 @@ DEFINE_string(if_bridge, "br0", "network interface, communicate with vms");
 DEFINE_string(log_path, "../log/", "executor log path");
 DEFINE_string(libvirt_dir, "/var/lib/libvirt/images/", "libvirt work dir");
 DEFINE_string(xml_template, "../conf/kvm.xml", "kvm xml template");
+DEFINE_string(lxc_dir, "/var/lib/lynn/lxc/", "lxc work dir");
