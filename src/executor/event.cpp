@@ -24,3 +24,4 @@ DECLARE_bool(debug);
 // start task
 bool StartActionEvent::Handle() {
     TaskID id = GetID();
+    if(FLAGS_debug) {
