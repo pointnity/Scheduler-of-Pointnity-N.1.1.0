@@ -17,3 +17,5 @@
 using log4cplus::Logger;
 
 static Logger logger = Logger::getInstance("executor");
+
+DECLARE_bool(debug);
