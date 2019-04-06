@@ -130,3 +130,33 @@ bool TimeoutTaskEvent::Handle() {
     //LOG4CPLUS_INFO(logger, "Handle event of task timeout state, job_id:" << id.job_id << ", task_id:" << id.task_id);
     TaskActionI::Instance()->TaskTimeout(id);
     return true;
+}
+
+
+/* image update event handle */
+// update image
+bool ImageEvent::Handle() {
+    string name = GetName();
+    string user = GetUser();
+    int32_t size = GetSize();
+    if(FLAGS_debug) {
+        LOG4CPLUS_DEBUG(logger, "Trigger event of updating image, user:" << user << ", name:" << name << ", size:"<< size);
+    }
+    if(!(ImageMgrI::Instance()->ExecutorUpdateImage(user, name, size))) {
+	LOG4CPLUS_ERROR(logger, "Failed to update image, user:" << user << ", name:" << name << ", size:"<< size);
+        return false;
+    }
+    LOG4CPLUS_INFO(logger, "Handle event of updating image, user:" << user << ", name:" << name << ", size:"<< size);
+    return true;
+}
+
+/* VM heartbeat event handle */
+// update heartbeat
+bool HeartbeatEvent::Handle() {
+    string hb_vm_info_ad = GetHbInfo();
+    if(FLAGS_debug) {
+        LOG4CPLUS_DEBUG(logger, "Trigger event of updating vm heartbeat, vm_info:" << hb_vm_info_ad);
+    }
+    VMPoolI::Instance()->ProcessHbVMInfo(hb_vm_info_ad);
+    //LOG4CPLUS_INFO(logger, "Handle event of updating vm heartbeat, vm_info:" << hb_vm_info_ad);
+    return true;
