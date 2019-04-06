@@ -12,3 +12,5 @@
 #include "executor/handler.h"
 
 using std::map;
+
+class Dispatcher {
