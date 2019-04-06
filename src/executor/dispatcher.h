@@ -10,3 +10,5 @@
 #include <map>
 #include "common/clynn/singleton.h"
 #include "executor/handler.h"
+
+using std::map;
