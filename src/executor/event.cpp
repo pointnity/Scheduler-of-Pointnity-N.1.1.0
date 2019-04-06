@@ -105,3 +105,28 @@ bool FailedTaskEvent::Handle() {
     //LOG4CPLUS_INFO(logger, "Handle event of taskfailed state, job_id:" << id.job_id << ", task_id:" << id.task_id);
     TaskActionI::Instance()->TaskFailed(id);
     return true;
+}
+
+
+// task missed
+bool MissedTaskEvent::Handle() {
+    TaskID id = GetID();
+    if(FLAGS_debug) {
+        LOG4CPLUS_DEBUG(logger, "Trigger event of taskmissed state, job_id:" << id.job_id << ", task_id:" << id.task_id);
+    }
+    //TaskPoolI::Instance()->GetTaskPtr(id)->TaskMissed();
+    //LOG4CPLUS_INFO(logger, "Handle event of taskmissed state, job_id:" << id.job_id << ", task_id:" << id.task_id);
+    TaskActionI::Instance()->TaskMissed(id);
+    return true;
+}
+
+// task timeout
+bool TimeoutTaskEvent::Handle() {
+    TaskID id = GetID();
+    if(FLAGS_debug) {
+        LOG4CPLUS_DEBUG(logger, "Trigger event of task timeout state, job_id:" << id.job_id << ", task_id:" << id.task_id);
+    }
+    //TaskPoolI::Instance()->GetTaskPtr(id)->TaskTimeout();
+    //LOG4CPLUS_INFO(logger, "Handle event of task timeout state, job_id:" << id.job_id << ", task_id:" << id.task_id);
+    TaskActionI::Instance()->TaskTimeout(id);
+    return true;
