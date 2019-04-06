@@ -15,3 +15,5 @@
 #include "executor/image_manager.h"
 
 using log4cplus::Logger;
+
+static Logger logger = Logger::getInstance("executor");
