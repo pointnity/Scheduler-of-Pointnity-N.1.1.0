@@ -11,3 +11,4 @@
 #include "executor/event.h"
 #include "executor/task_entity_pool.h"
 #include "executor/task_action.h"
+#include "executor/vm_pool.h"
