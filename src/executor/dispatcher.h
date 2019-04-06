@@ -22,3 +22,5 @@ private:
 };
 
 typedef Singleton<Dispatcher> EventDispatcherI;
+
+#endif
