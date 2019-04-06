@@ -13,3 +13,5 @@
 #include "executor/task_action.h"
 #include "executor/vm_pool.h"
 #include "executor/image_manager.h"
+
+using log4cplus::Logger;
