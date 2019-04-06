@@ -22,3 +22,4 @@ DECLARE_bool(debug);
 
 /* task action handle*/
 // start task
+bool StartActionEvent::Handle() {
