@@ -14,3 +14,4 @@
 using std::map;
 
 class Dispatcher {
+public:
