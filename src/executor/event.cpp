@@ -160,3 +160,11 @@ bool HeartbeatEvent::Handle() {
     VMPoolI::Instance()->ProcessHbVMInfo(hb_vm_info_ad);
     //LOG4CPLUS_INFO(logger, "Handle event of updating vm heartbeat, vm_info:" << hb_vm_info_ad);
     return true;
+}
+
+// update heartbeat
+bool ExitExecutorEvent::Handle() {
+    LOG4CPLUS_INFO(logger, "Handle event of exit executor");
+    exit(1);
+}
+
