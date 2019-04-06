@@ -20,3 +20,5 @@ public:
 private:
     map<EventType::type, Handler*> m_handler_map;
 };
+
+typedef Singleton<Dispatcher> EventDispatcherI;
