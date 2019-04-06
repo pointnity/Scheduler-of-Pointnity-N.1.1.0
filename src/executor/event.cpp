@@ -39,3 +39,4 @@ bool StartActionEvent::Handle() {
 // kill task
 bool KillActionEvent::Handle() {
     TaskID id = GetID();
+    if(FLAGS_debug) {
