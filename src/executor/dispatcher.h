@@ -18,3 +18,4 @@ public:
     void Register(EventType::type type, Handler* handler);
     Handler* Dispatch(EventType::type type);
 private:
+    map<EventType::type, Handler*> m_handler_map;
