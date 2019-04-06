@@ -37,3 +37,4 @@ bool StartActionEvent::Handle() {
 }
 
 // kill task
+bool KillActionEvent::Handle() {
