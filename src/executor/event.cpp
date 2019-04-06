@@ -50,3 +50,12 @@ bool KillActionEvent::Handle() {
     TaskPoolI::Instance()->Delete(id);
     LOG4CPLUS_INFO(logger, "Handle event of kill task action, job_id:" << id.job_id << ", task_id:" << id.task_id);
     return true;
+}
+
+//stop task TODO
+
+bool StopActionEvent::Handle() {
+    return true;
+}
+
+/* task state handle 
