@@ -85,3 +85,11 @@ public:
      ExitExecutorEvent() : Event(EventType::EXIT_EXECUTOR_EVENT) {}
     ~ExitExecutorEvent() {}
     bool Handle();
+};
+
+
+class TaskStateEvent : public TaskEvent {
+public:
+    explicit TaskStateEvent(TaskID id) : TaskEvent(id, EventType::TASK_STATE_EVENT) {}
+    virtual ~TaskStateEvent() {}
+};
