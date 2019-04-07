@@ -152,3 +152,6 @@ public:
 
 class MissedTaskEvent : public TaskStateEvent {
 public:
+    MissedTaskEvent(TaskID id) : TaskStateEvent(id) {}
+    bool Handle();
+}; 
