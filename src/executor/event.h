@@ -38,3 +38,4 @@ public:
     virtual ~TaskEvent() {}
     TaskID GetID() const {
         return m_id;
+    }
