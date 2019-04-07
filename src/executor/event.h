@@ -36,3 +36,4 @@ class TaskEvent : public Event {
 public:
     explicit TaskEvent(TaskID id, EventType::type type) : Event(type), m_id(id) {}
     virtual ~TaskEvent() {}
+    TaskID GetID() const {
