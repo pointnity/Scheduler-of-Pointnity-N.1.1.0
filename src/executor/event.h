@@ -39,3 +39,4 @@ public:
     TaskID GetID() const {
         return m_id;
     }
+private:
