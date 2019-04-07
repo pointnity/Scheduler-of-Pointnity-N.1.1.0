@@ -155,3 +155,13 @@ public:
     MissedTaskEvent(TaskID id) : TaskStateEvent(id) {}
     bool Handle();
 }; 
+
+class TimeoutTaskEvent : public TaskStateEvent {
+public:
+    TimeoutTaskEvent(TaskID id) : TaskStateEvent(id) {}
+    bool Handle();
+};
+typedef shared_ptr<Event> EventPtr;
+typedef BlockQueue<EventPtr> EventQueue;
+
+#endif
