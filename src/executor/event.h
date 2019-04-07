@@ -109,3 +109,21 @@ public:
 };
 
 //kill task
+class KillActionEvent : public TaskActionEvent {
+public:
+    KillActionEvent(TaskID id) : TaskActionEvent(id) {}
+    bool Handle();
+};
+
+//stop task
+//TODO
+class StopActionEvent : public TaskActionEvent {
+public:
+    StopActionEvent(TaskID id) : TaskActionEvent(id) {}
+    bool Handle();
+};
+
+
+//task state event starting/running/finished/failed/missed
+
+class StartingTaskEvent : public TaskStateEvent {
