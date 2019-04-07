@@ -93,3 +93,19 @@ public:
     explicit TaskStateEvent(TaskID id) : TaskEvent(id, EventType::TASK_STATE_EVENT) {}
     virtual ~TaskStateEvent() {}
 };
+
+class TaskActionEvent : public TaskEvent {
+public:
+    explicit TaskActionEvent(TaskID id) : TaskEvent(id, EventType::TASK_ACTION_EVENT) {}
+    virtual ~TaskActionEvent() {} 
+};
+
+//task action event start/kill/stop
+//start task 
+class StartActionEvent : public TaskActionEvent {
+public:
+    StartActionEvent(TaskID id) : TaskActionEvent(id) {}
+    bool Handle();
+};
+
+//kill task
