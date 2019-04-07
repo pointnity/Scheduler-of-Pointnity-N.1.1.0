@@ -24,3 +24,4 @@ public:
     Event(EventType::type type) : m_type(type)  {}
     virtual ~Event() {}
     virtual bool Handle() = 0;
+    EventType::type GetType() const {
