@@ -127,3 +127,28 @@ public:
 //task state event starting/running/finished/failed/missed
 
 class StartingTaskEvent : public TaskStateEvent {
+public:
+    StartingTaskEvent(TaskID id) : TaskStateEvent(id) {}
+    bool Handle();
+};
+
+class RunningTaskEvent : public TaskStateEvent {
+public:
+    RunningTaskEvent(TaskID id) : TaskStateEvent(id) {}
+    bool Handle();
+}; 
+
+class FinishedTaskEvent : public TaskStateEvent {
+public:
+    FinishedTaskEvent(TaskID id) : TaskStateEvent(id) {}
+    bool Handle();
+}; 
+
+class FailedTaskEvent : public TaskStateEvent {
+public:
+    FailedTaskEvent(TaskID id) : TaskStateEvent(id) {}
+    bool Handle();
+}; 
+
+class MissedTaskEvent : public TaskStateEvent {
+public:
