@@ -56,3 +56,8 @@ public:
     }
     string GetUser() const {
         return m_user;
+    }
+    int32_t GetSize() const {
+        return m_size;
+    }
+private:
