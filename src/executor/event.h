@@ -72,3 +72,13 @@ public:
              m_hb_vm_info_ad(hb_vm_info_ad) {}
 
     ~HeartbeatEvent() {}
+    bool Handle();
+    string GetHbInfo() const {
+        return  m_hb_vm_info_ad;
+    }
+private:
+    string  m_hb_vm_info_ad;
+};
+
+class ExitExecutorEvent : public Event {
+public:
