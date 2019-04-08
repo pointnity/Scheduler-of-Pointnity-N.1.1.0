@@ -99,3 +99,4 @@ int ExecutorEntity(int argc, char **argv) {
         LOG4CPLUS_ERROR(logger, "Failed to get current dir.");
     }
     string separator = "/";
+    FLAGS_xml_template = cur_dir + separator + FLAGS_xml_template;
