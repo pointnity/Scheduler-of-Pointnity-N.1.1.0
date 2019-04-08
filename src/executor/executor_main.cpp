@@ -63,3 +63,4 @@ int ExecutorEntity(int argc, char **argv) {
     if (argc > 1)
         google::ParseCommandLineFlags(&argc, &argv, true);
     else
+        google::ReadFromFlagsFile("../conf/executor.conf", argv[0], true);
