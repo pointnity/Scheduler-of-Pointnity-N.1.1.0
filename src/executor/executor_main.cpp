@@ -60,3 +60,4 @@ extern void* HeartbeatProcessor(void* unused);
 // executor
 int ExecutorEntity(int argc, char **argv) {
     // config file
+    if (argc > 1)
