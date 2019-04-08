@@ -69,3 +69,5 @@ int ExecutorEntity(int argc, char **argv) {
     /* char time_c[64] = {0};
     System::GetCurrentTime(time_c, sizeof(time_c)-1);
     string time_str = time_c;*/
+
+    // initilize log log4cplus
