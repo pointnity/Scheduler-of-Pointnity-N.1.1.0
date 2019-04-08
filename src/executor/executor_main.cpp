@@ -23,3 +23,4 @@
 #include "executor/dispatcher.h"
 #include "executor/resource_manager.h"
 #include "executor/hdfs_wrapper.h"
+#include "executor/ip_pool.h"
