@@ -97,3 +97,5 @@ int ExecutorEntity(int argc, char **argv) {
         LOG4CPLUS_INFO(logger, "current dir:" << cur_dir);
     } else {
         LOG4CPLUS_ERROR(logger, "Failed to get current dir.");
+    }
+    string separator = "/";
