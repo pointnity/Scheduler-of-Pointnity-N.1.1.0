@@ -88,3 +88,8 @@ int ExecutorEntity(int argc, char **argv) {
     if(registerptr->RegistMachine() == false) {
         delete registerptr;
 	exit(1);
+    }
+    delete registerptr;
+
+    // get current dir
+    char cur_dir[100];
