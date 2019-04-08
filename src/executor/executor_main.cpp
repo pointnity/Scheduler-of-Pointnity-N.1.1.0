@@ -56,3 +56,5 @@ DECLARE_string(hdfs_host);
 //extern void* TaskProcessor(void* unused);
 extern void* VMProcessor(void* unused);
 extern void* HeartbeatProcessor(void* unused);
+
+// executor
