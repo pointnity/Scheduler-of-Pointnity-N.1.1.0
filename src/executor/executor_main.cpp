@@ -93,3 +93,4 @@ int ExecutorEntity(int argc, char **argv) {
 
     // get current dir
     char cur_dir[100];
+    if (getcwd(cur_dir, sizeof(cur_dir)-1) != NULL) {
