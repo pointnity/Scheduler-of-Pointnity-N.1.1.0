@@ -85,3 +85,4 @@ int ExecutorEntity(int argc, char **argv) {
     // TODO
     //check version
     ExecutorRegister* registerptr = new ExecutorRegister();
+    if(registerptr->RegistMachine() == false) {
