@@ -80,3 +80,4 @@ int ExecutorEntity(int argc, char **argv) {
     logger.setLogLevel(log4cplus::DEBUG_LOG_LEVEL);
     LOG4CPLUS_DEBUG(logger, "This is the FIRST debug message");
     LOG4CPLUS_INFO(logger, "This is the FIRST info message");
+    LOG4CPLUS_ERROR(logger, "This is the FIRST error message");
