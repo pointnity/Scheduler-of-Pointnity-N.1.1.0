@@ -61,3 +61,4 @@ extern void* HeartbeatProcessor(void* unused);
 int ExecutorEntity(int argc, char **argv) {
     // config file
     if (argc > 1)
+        google::ParseCommandLineFlags(&argc, &argv, true);
