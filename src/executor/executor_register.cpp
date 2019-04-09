@@ -4,3 +4,4 @@
  Description: register
 *********************************/
 #include <stdlib.h>
+#include <log4cplus/logger.h>
