@@ -23,3 +23,5 @@ DECLARE_string(interface);
 
 using log4cplus::Logger;
 using namespace std;
+
+static Logger logger = Logger::getInstance("executor");
