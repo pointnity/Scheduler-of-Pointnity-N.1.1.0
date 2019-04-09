@@ -9,3 +9,5 @@
 #include <gflags/gflags.h>
 #include <iostream>
 #include <string>
+
+#include "include/proxy.h"
