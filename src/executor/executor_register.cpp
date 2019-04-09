@@ -28,3 +28,4 @@ static Logger logger = Logger::getInstance("executor");
 
 bool ExecutorRegister::RegistMachine() {
     string ip = System::GetIP(FLAGS_interface.c_str());
+    try {
