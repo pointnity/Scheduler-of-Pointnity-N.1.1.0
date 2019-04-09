@@ -10,3 +10,4 @@
 #include <string>
 
 class ExecutorRegister {
+public:
