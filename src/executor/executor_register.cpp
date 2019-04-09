@@ -35,3 +35,4 @@ bool ExecutorRegister::RegistMachine() {
 	    return false;
 	}
     } catch (TException &tx) {
+        LOG4CPLUS_ERROR(logger, "rpc error: regist machine failed " << tx.what());
