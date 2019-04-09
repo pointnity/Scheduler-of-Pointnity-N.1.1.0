@@ -8,3 +8,5 @@
 #define SRC_EXECUTOR_REGISTER_H
 
 #include <string>
+
+class ExecutorRegister {
