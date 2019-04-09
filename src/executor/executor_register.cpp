@@ -12,3 +12,4 @@
 
 #include "include/proxy.h"
 #include "common/clynn/rpc.h"
+#include "executor/executor_register.h"
