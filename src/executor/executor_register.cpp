@@ -19,3 +19,6 @@ DECLARE_bool(debug);
 DECLARE_string(resource_scheduler_endpoint);
 DECLARE_string(lynn_version);
 DECLARE_string(interface);
+
+
+using log4cplus::Logger;
