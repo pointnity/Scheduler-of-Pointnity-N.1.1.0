@@ -34,3 +34,4 @@ bool ExecutorRegister::RegistMachine() {
 	    LOG4CPLUS_ERROR(logger, "Failed to regist machine , lynn version  error");
 	    return false;
 	}
+    } catch (TException &tx) {
