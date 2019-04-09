@@ -32,3 +32,4 @@ bool ExecutorRegister::RegistMachine() {
         Proxy<ResourceSchedulerClient> proxy = RpcClient<ResourceSchedulerClient>::GetProxy(FLAGS_resource_scheduler_endpoint);
         if(proxy().RegistMachine(ip, FLAGS_lynn_version) == -1) {
 	    LOG4CPLUS_ERROR(logger, "Failed to regist machine , lynn version  error");
+	    return false;
