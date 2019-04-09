@@ -33,3 +33,4 @@ bool ExecutorRegister::RegistMachine() {
         if(proxy().RegistMachine(ip, FLAGS_lynn_version) == -1) {
 	    LOG4CPLUS_ERROR(logger, "Failed to regist machine , lynn version  error");
 	    return false;
+	}
