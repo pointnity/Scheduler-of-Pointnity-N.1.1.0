@@ -30,3 +30,4 @@ bool ExecutorRegister::RegistMachine() {
     string ip = System::GetIP(FLAGS_interface.c_str());
     try {
         Proxy<ResourceSchedulerClient> proxy = RpcClient<ResourceSchedulerClient>::GetProxy(FLAGS_resource_scheduler_endpoint);
+        if(proxy().RegistMachine(ip, FLAGS_lynn_version) == -1) {
