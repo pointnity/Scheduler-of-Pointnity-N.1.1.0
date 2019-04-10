@@ -26,3 +26,4 @@ public:
     void PushBack(const EventPtr& ptr);
 
 private:
+    // BlockQueue of EventPtr
