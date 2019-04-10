@@ -21,3 +21,4 @@ void Handler::Start() {
 
 void Handler::Handle() {
     while (true) {
+        // pop and get event, then handle it
