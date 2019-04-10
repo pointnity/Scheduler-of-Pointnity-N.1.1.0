@@ -31,3 +31,4 @@ void Handler::Handle() {
 
 void Handler::PushBack(const EventPtr& ptr) {
     m_event_queue.PushBack(ptr);
+}
