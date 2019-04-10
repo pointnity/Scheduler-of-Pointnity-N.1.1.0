@@ -13,3 +13,4 @@ Handler::~Handler() {
 }
 
 // start the thread
+void Handler::Start() {
