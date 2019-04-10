@@ -17,3 +17,4 @@ using clynn::Thread;
 class Handler {
 public:
     Handler() : m_work_thread(0) {}
+    ~Handler();
