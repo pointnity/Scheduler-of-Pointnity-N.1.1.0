@@ -12,3 +12,4 @@
 #include "executor/event.h"
 
 using std::queue;
+using clynn::Thread;
