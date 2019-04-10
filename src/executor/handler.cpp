@@ -7,3 +7,5 @@
 #include "executor/handler.h"
 
 using std::tr1::bind;
+
+Handler::~Handler() {
