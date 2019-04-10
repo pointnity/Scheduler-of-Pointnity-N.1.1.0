@@ -13,3 +13,5 @@
 
 using std::queue;
 using clynn::Thread;
+
+class Handler {
