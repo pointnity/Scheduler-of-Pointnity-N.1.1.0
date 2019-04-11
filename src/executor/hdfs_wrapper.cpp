@@ -76,3 +76,6 @@ bool HDFSWrapper::CloseConnect() {
     }
     
     return true;
+}
+
+bool HDFSWrapper::CopyFromLocalFile(const string src, const string dst) {
