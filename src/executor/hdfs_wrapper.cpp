@@ -46,3 +46,4 @@ bool HDFSWrapper::OpenConnect() {
         return false;
     } 
     string local_path2 = "/home/wm/b.cpp";
+    string h_path2 = "/user/root/b.cpp";
