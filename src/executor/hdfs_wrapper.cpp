@@ -35,3 +35,12 @@ bool HDFSWrapper::OpenConnect() {
     if (NULL == m_h_fs) {
         LOG4CPLUS_ERROR(logger, "Failed to connect hdfs, hdfs_host:" << FLAGS_hdfs_host << ", hdfs_port:" << FLAGS_hdfs_port);
         return false;
+    }
+
+    // test
+    /*string local_path = "/tmp/";
+    local_path += "output";
+    string h_path = "/user/wm/output";
+    if (!CopyToLocalFile(h_path, local_path)) {
+        LOG4CPLUS_ERROR(logger, "Failed to copy file");
+        return false;
