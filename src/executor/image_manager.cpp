@@ -62,3 +62,6 @@ bool ImageManager::ExecutorUpdateImage(const string& image_user, const string& i
     file_in<<image_attr<<"\n";
     file_in.close();
     return true;
+}
+
+bool ImageManager::CheckImageAttrFromFile(const string& image) {
