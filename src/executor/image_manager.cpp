@@ -60,3 +60,4 @@ bool ImageManager::ExecutorUpdateImage(const string& image_user, const string& i
     ofstream file_in;
     file_in.open(image_attr_conf.c_str(),ios::out|ios::app);
     file_in<<image_attr<<"\n";
+    file_in.close();
