@@ -26,3 +26,4 @@ public:
 
 private:
     hdfsFS m_local_fs;
+    hdfsFS m_h_fs;
