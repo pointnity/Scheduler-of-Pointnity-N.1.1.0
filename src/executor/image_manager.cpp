@@ -56,3 +56,5 @@ bool ImageManager::ExecutorUpdateImage(const string& image_user, const string& i
     image_size_ss << image_size;
     string image_attr = image_user + "&" + image_name + "&" + image_size_ss.str();
     string image_attr_conf = FLAGS_libvirt_dir + "conf";
+
+    ofstream file_in;
