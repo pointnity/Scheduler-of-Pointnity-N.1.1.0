@@ -52,3 +52,4 @@ bool ImageManager::ExecutorUpdateImage(const string& image_user, const string& i
         LOG4CPLUS_INFO(logger, "image update from hdfs finished");
     }
     //write image attr to conf
+    stringstream image_size_ss;
