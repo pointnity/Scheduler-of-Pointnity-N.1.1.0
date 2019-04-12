@@ -30,3 +30,5 @@ private:
 };
 
 typedef Singleton<HDFSWrapper> HDFSMgrI;
+
+#endif
