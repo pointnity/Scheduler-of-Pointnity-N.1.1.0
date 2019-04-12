@@ -22,3 +22,4 @@
 #include "executor/hdfs_wrapper.h"
 
 DECLARE_string(image_path);
+DECLARE_string(libvirt_dir);
