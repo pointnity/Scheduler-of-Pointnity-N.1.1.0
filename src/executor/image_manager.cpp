@@ -8,3 +8,4 @@
 #include <log4cplus/loggingmacros.h>
 #include <gflags/gflags.h>
 #include <gflags/gflags.h>
+#include <fstream>
