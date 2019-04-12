@@ -26,3 +26,4 @@ DECLARE_string(libvirt_dir);
 DECLARE_bool(debug);
 
 using log4cplus::Logger;
+using namespace std;
