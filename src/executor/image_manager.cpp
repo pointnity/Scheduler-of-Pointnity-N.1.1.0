@@ -10,3 +10,5 @@
 #include <gflags/gflags.h>
 #include <fstream>
 #include <string>
+
+#include <boost/algorithm/string/classification.hpp>
