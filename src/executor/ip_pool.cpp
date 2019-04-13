@@ -92,3 +92,6 @@ void IPPool::PrintAll() {
          it != m_ip_map.end(); ++it) {
         string avail = "avail";
         if (!(it->second))
+            avail = "not avail";
+        printf("IP: %s, %s\n", it->first.c_str(), avail.c_str());
+    }
