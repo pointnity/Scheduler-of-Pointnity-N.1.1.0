@@ -60,3 +60,7 @@ bool IPPool::Init() {
     }
     return true;
 }
+
+int32_t IPPool::iptoint(const char *ip ) {
+    int32_t ip_num = inet_addr(ip);
+    if (INADDR_NONE == ip_num) {
