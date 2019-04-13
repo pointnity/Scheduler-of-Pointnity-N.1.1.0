@@ -16,3 +16,7 @@
 #include <log4cplus/loggingmacros.h>
 
 #include "executor/ip_pool.h"
+#include "common/clynn/string_utility.h"
+
+using std::vector;
+using log4cplus::Logger;
