@@ -70,3 +70,11 @@ int32_t IPPool::iptoint(const char *ip ) {
     return ntohl(ip_num);
 }
 
+string IPPool::inttoip(int ip_num) {
+    struct in_addr addr;
+    addr.s_addr = htonl(ip_num);
+    char * ip;
+    ip = inet_ntoa(addr);
+    if (!ip) {
+        string null_str;
+        return null_str;
