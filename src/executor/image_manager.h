@@ -6,3 +6,5 @@
 
 #ifndef SRC_EXECUTOR_IMAGE_MANAGER_H
 #define SRC_EXECUTOR_IMAGE_MANAGER_H
+
+#include <string>
