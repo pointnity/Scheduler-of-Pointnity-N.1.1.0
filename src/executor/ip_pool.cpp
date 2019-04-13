@@ -78,3 +78,11 @@ string IPPool::inttoip(int ip_num) {
     if (!ip) {
         string null_str;
         return null_str;
+    }
+
+    return string(ip);
+}
+
+// TODO just for test
+void IPPool::PrintAll() {
+    ReadLocker locker(m_lock);
