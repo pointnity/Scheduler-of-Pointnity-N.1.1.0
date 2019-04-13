@@ -87,3 +87,8 @@ string IPPool::inttoip(int ip_num) {
 void IPPool::PrintAll() {
     ReadLocker locker(m_lock);
     printf("ip_pool.cpp\n");
+    printf("************ IPs ************\n");
+    for (map<string, bool>::iterator it = m_ip_map.begin();
+         it != m_ip_map.end(); ++it) {
+        string avail = "avail";
+        if (!(it->second))
