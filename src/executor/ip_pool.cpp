@@ -125,3 +125,24 @@ bool IPPool::ReleaseIp(const string& ip) {
 
 bool IPPool::IsIPAddress(const char *s, int32_t& sub4) {
     int tmp1, tmp2, tmp3, tmp4, number;  
+      
+    number = sscanf(s, "%d.%d.%d.%d", &tmp1, &tmp2, &tmp3, &tmp4);  
+    if (number != 4) {  
+         return false;
+    }  
+
+    if ( (tmp1 > 255) || (tmp2 > 255) || (tmp3 > 255) || (tmp4 > 255) ||
+         (tmp1 < 0) || (tmp2 < 0) || (tmp3 < 0) || (tmp4 < 0)) {
+        return false; 
+    }  
+
+    /* const char *pChar;            
+    for (pChar = s; *pChar != 0; pChar++) {  
+        if( (*pChar != '.') && ((*pChar < '0') || (*pChar > '9')) )  {  
+             return false;
+        }  
+    } */
+
+    sub4 = tmp4;      
+    return true;  
+}  
