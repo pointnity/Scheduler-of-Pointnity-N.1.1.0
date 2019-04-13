@@ -106,3 +106,13 @@ string IPPool::GetAvailIp() {
         if (it->second) {
             it->second = false;
             return it->first;
+        }
+    }
+    LOG4CPLUS_ERROR(logger, "No avail ip addr");
+    return null_str;
+}
+
+bool IPPool::ReleaseIp(const string& ip) {
+    WriteLocker locker(m_lock);
+    map<string, bool>::iterator it = m_ip_map.find(ip);
+    if (m_ip_map.end() == it) {
