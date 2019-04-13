@@ -23,3 +23,7 @@ private:
     string m_user;
     int32_t m_size;
 };
+
+typedef Singleton<ImageManager> ImageMgrI;
+
+#endif  
