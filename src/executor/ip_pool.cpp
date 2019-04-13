@@ -41,3 +41,17 @@ bool IPPool::Init() {
         LOG4CPLUS_ERROR(logger, "ip_start is illegal, ip_start:" << vec_ips[0]);
         return false;
     }
+
+    int32_t ip_end = iptoint(vec_ips[1].c_str());
+    if (-1 == ip_end) {
+        LOG4CPLUS_ERROR(logger, "ip_end is illegal, ip_end:" << vec_ips[1]);
+        return false;
+    } 
+
+    int32_t ip_number = ip_end - ip_start + 1;
+    for (int32_t i = 0; i < ip_number; ++i) { 
+        int32_t int_ip = ip_start + i;
+        string ip = inttoip(int_ip);
+        if (ip.empty()) {
+            LOG4CPLUS_ERROR(logger, "Failed to trans int_ip to string_ip, int_ip:" << ip_start + i);
+            return false;
