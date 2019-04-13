@@ -64,3 +64,9 @@ bool IPPool::Init() {
 int32_t IPPool::iptoint(const char *ip ) {
     int32_t ip_num = inet_addr(ip);
     if (INADDR_NONE == ip_num) {
+        LOG4CPLUS_ERROR(logger, "ip is illegal, ip:" << ip);
+        return -1;
+    }
+    return ntohl(ip_num);
+}
+
