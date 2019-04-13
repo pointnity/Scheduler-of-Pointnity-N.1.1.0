@@ -100,3 +100,9 @@ void IPPool::PrintAll() {
 
 string IPPool::GetAvailIp() {
     string null_str;
+    WriteLocker locker(m_lock);
+    for (map<string, bool>::iterator it = m_ip_map.begin();
+         it != m_ip_map.end(); ++it) {
+        if (it->second) {
+            it->second = false;
+            return it->first;
