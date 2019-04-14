@@ -23,3 +23,5 @@ public:
 
     // TODO print all
     void PrintAll();
+
+    // get a avail ip
