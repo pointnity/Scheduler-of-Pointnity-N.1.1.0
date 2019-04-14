@@ -26,3 +26,5 @@ public:
 
     // get a avail ip
     string GetAvailIp();
+
+    // release a ip
