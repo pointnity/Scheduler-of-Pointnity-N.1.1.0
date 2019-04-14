@@ -32,3 +32,5 @@ public:
 
 private:
     int32_t iptoint(const char *ip );
+  
+    string inttoip(int ip_num);
