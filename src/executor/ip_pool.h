@@ -31,3 +31,4 @@ public:
     bool ReleaseIp(const string& ip);
 
 private:
+    int32_t iptoint(const char *ip );
