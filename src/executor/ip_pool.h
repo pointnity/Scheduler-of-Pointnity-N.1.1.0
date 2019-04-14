@@ -28,3 +28,4 @@ public:
     string GetAvailIp();
 
     // release a ip
+    bool ReleaseIp(const string& ip);
