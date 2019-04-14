@@ -41,3 +41,7 @@ private:
     RWLock m_lock;
     // <vm_ip, is_avail>
     map<string, bool> m_ip_map;
+
+};
+
+typedef Singleton<IPPool> IPPoolI;
