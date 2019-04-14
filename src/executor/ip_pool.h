@@ -18,3 +18,5 @@ using clynn::RWLock;
 
 class IPPool {
 public:
+
+    bool Init();
