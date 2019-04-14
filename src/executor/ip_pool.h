@@ -29,3 +29,5 @@ public:
 
     // release a ip
     bool ReleaseIp(const string& ip);
+
+private:
