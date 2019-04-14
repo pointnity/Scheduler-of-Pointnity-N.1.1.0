@@ -38,3 +38,4 @@ private:
     bool IsIPAddress(const char *s, int32_t& sub4);
 
 private:
+    RWLock m_lock;
