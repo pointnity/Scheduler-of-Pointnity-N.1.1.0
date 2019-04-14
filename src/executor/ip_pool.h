@@ -25,3 +25,4 @@ public:
     void PrintAll();
 
     // get a avail ip
+    string GetAvailIp();
