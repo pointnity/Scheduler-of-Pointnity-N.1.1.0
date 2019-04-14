@@ -17,3 +17,4 @@ using std::map;
 using clynn::RWLock;
 
 class IPPool {
+public:
