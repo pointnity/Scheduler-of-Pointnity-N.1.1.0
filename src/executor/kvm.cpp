@@ -179,3 +179,22 @@ HbVMInfo KVM::GetHbVMInfo(){
             return empty;
 
 	}
+
+	if ((m_timestamp != -1) && (time(NULL) - m_timestamp > m_time_to_death)) {
+            HbVMInfo empty;
+            empty.id = GetID();
+            empty.cpu_usage = 0;
+            empty.memory_usage = 0;
+            empty.bytes_in = 0;
+            empty.bytes_out = 0;
+            empty.app_state = AppState::APP_MISSED;
+	    //set vm state is false
+            VMPoolI::Instance()->SetVMStateByTaskID(id, false);
+
+            // update task  state into missed
+            // new missedActionEvent
+            EventPtr event(new MissedTaskEvent(id));
+            // Push event into Queue
+            EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
+            return empty;
+         } else {
