@@ -142,3 +142,20 @@ HbVMInfo KVM::GetHbVMInfo(){
 	    // new timeoutActionEvent
             EventPtr event(new TimeoutTaskEvent(id));
             // Push event into Queue
+            EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
+	}
+        HbVMInfo empty;
+        empty.id = GetID();
+        empty.cpu_usage = 0;
+        empty.memory_usage = 0;
+        empty.bytes_in = 0;
+        empty.bytes_out = 0;
+        if(task_state == TaskEntityState::TASKENTITY_WAITING) {
+              empty.app_state = AppState::APP_WAITING;
+        } else {
+              empty.app_state = AppState::APP_STARTING;
+        }
+	return empty;
+    } else if(task_state == TaskEntityState::TASKENTITY_FAILED || task_state == TaskEntityState::TASKENTITY_FINISHED) {
+	ReadLocker locker(m_lock);
+        return m_hb_vm_info;
