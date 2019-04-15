@@ -77,3 +77,4 @@ int32_t KVM::Execute() {
 int32_t KVM::CreateVM() {
     if (CreateKVM() != 0) {
         LOG4CPLUS_ERROR(logger, "Failed to create kvm, name:" << GetName() << ", job_id:" << GetID().job_id << ", task_id:" << GetID().task_id);
+        return -1;
