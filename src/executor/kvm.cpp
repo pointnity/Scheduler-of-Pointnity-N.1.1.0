@@ -78,3 +78,8 @@ int32_t KVM::CreateVM() {
     if (CreateKVM() != 0) {
         LOG4CPLUS_ERROR(logger, "Failed to create kvm, name:" << GetName() << ", job_id:" << GetID().job_id << ", task_id:" << GetID().task_id);
         return -1;
+    }
+    
+    if (SetVNetByXML() != 0) {
+        LOG4CPLUS_ERROR(logger, "Failed to set vnet by xml, name:" << GetName() << ", job_id:" << GetID().job_id << ", task_id:" << GetID().task_id);
+        return -1;
