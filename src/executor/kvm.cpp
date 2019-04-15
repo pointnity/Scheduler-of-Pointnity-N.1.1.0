@@ -64,3 +64,4 @@ virConnectPtr KVM::m_conn = NULL;
 // KVM & ~KVM are inplement in kvm.h
 
 /// virtual function, from V
+// virtual C, include CreateVM and Install 
