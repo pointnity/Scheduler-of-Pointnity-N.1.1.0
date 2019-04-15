@@ -221,3 +221,24 @@ void KVM::SetHbVMInfo(const string& hb_vm_info_ad) {
     ClassAd* ad_ptr = parser.ParseClassAd(hb_vm_info_ad);
 
     if (!ad_ptr) {
+        LOG4CPLUS_ERROR(logger, "Failed to parse classad, ClassAd pointer is NULL.");
+        return;
+    }
+
+    if (!ad_ptr->EvaluateAttrNumber(ATTR_JOB_ID, m_hb_vm_info.id.job_id)) {
+        LOG4CPLUS_ERROR(logger, "Parse " << ATTR_JOB_ID << " error.");
+        return;
+    }
+    if (!ad_ptr->EvaluateAttrNumber(ATTR_TASK_ID, m_hb_vm_info.id.task_id)) {
+        LOG4CPLUS_ERROR(logger, "Parse " << ATTR_TASK_ID << " error.");
+        return;
+    }
+    
+    if (!ad_ptr->EvaluateAttrNumber(ATTR_VMHB_CPU, m_hb_vm_info.cpu_usage)) {
+        LOG4CPLUS_ERROR(logger, "Parse " << ATTR_VMHB_CPU << " error.");
+        return;
+    }
+   
+    if (!ad_ptr->EvaluateAttrNumber(ATTR_VMHB_MEMORY, m_hb_vm_info.memory_usage)) {
+        LOG4CPLUS_ERROR(logger, "Parse " << ATTR_VMHB_MEMORY << " error.");
+        return;
