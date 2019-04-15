@@ -58,3 +58,6 @@ static Logger logger = Logger::getInstance("executor");
 
 string KVM::m_xml_template = "";
 virConnectPtr KVM::m_conn = NULL;
+
+
+/// @brief: public function
