@@ -198,3 +198,26 @@ HbVMInfo KVM::GetHbVMInfo(){
             EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
             return empty;
          } else {
+	    ReadLocker locker(m_lock);
+	    return m_hb_vm_info;
+         } 
+    }else {
+	ReadLocker locker(m_lock);
+	return m_hb_vm_info;
+    }
+
+}
+
+void KVM::SetHbVMInfo(const string& hb_vm_info_ad) {
+    WriteLocker locker(m_lock);
+    // classad init, string vmhb_info --> ClassAd *ad_ptr
+
+    if(m_running_time == -1) {
+	m_running_time = time(NULL);
+    }
+    m_timestamp = time(NULL);
+
+    ClassAdParser parser;
+    ClassAd* ad_ptr = parser.ParseClassAd(hb_vm_info_ad);
+
+    if (!ad_ptr) {
