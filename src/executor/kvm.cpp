@@ -33,3 +33,5 @@
 #include "executor/dispatcher.h"
 #include "executor/image_manager.h"
 #include "executor/vm_pool.h"
+
+using std::cout;
