@@ -502,7 +502,7 @@ int32_t KVM::ConfigVirXML() {
     }
     ss.str("");
     ss.clear();
-    //vcpu以及cpu_shares目前是有联系的，对于kvm来说，CPU最好是个整数
+    //Vcpu and cpu_shares are currently related. For kvm, the CPU is preferably an integer.
     ss << GetTaskInfo().vm_info.vcpu;
     xml_conf.replace(pos, strlen("T_VCPU"), ss.str());
 
@@ -514,8 +514,8 @@ int32_t KVM::ConfigVirXML() {
     }
     ss.str("");
     ss.clear();
-    // cpu 参数设置的是cpu的share值
-    // 一个cpu对应的归一化参数是1024 
+    // The cpu parameter sets the share value of the cpu.
+    // The normalization parameter corresponding to a cpu is 1024.
     ss << GetTaskInfo().vm_info.vcpu * 1024;
     xml_conf.replace(pos, strlen("T_CPU_SHARE"), ss.str());
     */
