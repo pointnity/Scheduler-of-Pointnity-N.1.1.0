@@ -118,3 +118,27 @@ bool KVM::Kill() {
         LOG4CPLUS_ERROR(logger, "Can't kill kvm, name:" << GetName() << ", job_id:" << GetID().job_id << ", task_id:" << GetID().task_id);
         return true;
     }
+
+    // delete work dir
+     // delete work dir
+    ifstream in_file(m_dir.c_str(), ios::in);
+    
+    //open file error ?
+    if(in_file){
+        string cmd = "rm -r " + m_dir;
+        system(cmd.c_str());
+    }
+    return true;
+}
+
+HbVMInfo KVM::GetHbVMInfo(){
+    TaskID id = GetID();
+    TaskPtr task_ptr = GetTaskPtr();
+    TaskEntityState::type task_state = task_ptr->GetState();
+    if (task_state == TaskEntityState::TASKENTITY_WAITING || task_state == TaskEntityState::TASKENTITY_STARTING){
+	if(time(NULL) - m_starting_time > FLAGS_starting_timeout) {
+	    //set vm state is false
+	    VMPoolI::Instance()->SetVMStateByTaskID(id, false);
+	    // new timeoutActionEvent
+            EventPtr event(new TimeoutTaskEvent(id));
+            // Push event into Queue
