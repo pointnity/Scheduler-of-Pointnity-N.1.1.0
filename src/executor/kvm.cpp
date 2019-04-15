@@ -242,3 +242,23 @@ void KVM::SetHbVMInfo(const string& hb_vm_info_ad) {
     if (!ad_ptr->EvaluateAttrNumber(ATTR_VMHB_MEMORY, m_hb_vm_info.memory_usage)) {
         LOG4CPLUS_ERROR(logger, "Parse " << ATTR_VMHB_MEMORY << " error.");
         return;
+    }
+ 
+    if (!ad_ptr->EvaluateAttrNumber(ATTR_VMHB_BYTES_IN, m_hb_vm_info.bytes_in)) {
+        LOG4CPLUS_ERROR(logger, "Parse " << ATTR_VMHB_BYTES_IN << " error.");
+        return;
+    }
+
+    if (!ad_ptr->EvaluateAttrNumber(ATTR_VMHB_BYTES_OUT, m_hb_vm_info.bytes_out)) {
+        LOG4CPLUS_ERROR(logger, "Parse " << ATTR_VMHB_BYTES_OUT << " error.");
+        return;
+    }
+ 
+    int32_t app_state;
+    if (!ad_ptr->EvaluateAttrNumber(ATTR_VMHB_STATE, app_state)) {
+        LOG4CPLUS_ERROR(logger, "Parse " << ATTR_VMHB_STATE << " error.");
+        return;
+    }
+
+    TaskID id = GetID();
+    if(app_state == 2) {
