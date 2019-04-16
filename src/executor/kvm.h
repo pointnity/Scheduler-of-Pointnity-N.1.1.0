@@ -93,3 +93,14 @@ private:
     int32_t ConfigVirXML();
  
     int32_t CreateKVM();
+
+    int32_t SetVNetByXML();
+
+    // get hb
+    // double GetCpuUsage();
+
+    // double GetMemoryUsage();
+
+private:
+    virDomainPtr m_domain_ptr;
+    string m_dir;   // work dir
