@@ -37,3 +37,11 @@ public:
             string cmd = "rm -r " + m_dir;
             system(cmd.c_str());
         }
+    }
+
+    // virtual function, from VM
+    int32_t Execute();
+
+    int32_t CreateVM(); // create kvm, and install? TODO
+
+    //int32_t InstallApp();
