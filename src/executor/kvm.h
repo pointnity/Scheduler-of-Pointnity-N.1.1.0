@@ -20,3 +20,4 @@ public:
     explicit KVM(const TaskInfo& info) : VM(info) {
         m_domain_ptr = NULL;
         m_timestamp = -1;
+	m_running_time = -1;
