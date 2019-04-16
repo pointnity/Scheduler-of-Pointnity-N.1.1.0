@@ -80,3 +80,16 @@ private:
 
     // Init Heartbeat
     void InitHeartbeat();    
+
+    // set Member Variable 
+    int32_t Init();
+
+    // cp img, type = raw
+    int32_t CopyImage();
+
+    // clone img from template img, type = qcow2
+    int32_t CloneImage();
+
+    int32_t ConfigVirXML();
+ 
+    int32_t CreateKVM();
