@@ -104,3 +104,6 @@ private:
 private:
     virDomainPtr m_domain_ptr;
     string m_dir;   // work dir
+    string m_img;   // .img
+    string m_iso;   // .iso
+    string m_conf;  // CONF
