@@ -58,3 +58,12 @@ public:
     HbVMInfo GetHbVMInfo();    //get heartbeart
 
     void SetHbVMInfo(const string& hb_vm_info_ad);
+
+    // unique in KVM 
+    virDomainPtr GetDomainPtr() const;
+
+    string GetEndpoint() const;
+
+    //void SetDomainPtr(virDomainPtr ptr);
+
+    int32_t GetVNCPort() const;
