@@ -110,3 +110,13 @@ private:
     string m_xml;   // libvirt xml config content
     int32_t m_vnc_port;
     string m_vnet;
+   
+    // Heartbeat and state
+    HbVMInfo m_hb_vm_info;
+    // time_t m_start_time;
+    int32_t m_timestamp;
+    int32_t m_time_to_death;
+    int32_t m_running_time;
+    int32_t m_starting_time;
+
+    bool m_created;
