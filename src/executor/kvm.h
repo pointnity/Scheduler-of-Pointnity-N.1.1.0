@@ -128,3 +128,4 @@ private:
 
     // report resource, is first?
     // bool m_first;
+    // double m_prev_cpu;
