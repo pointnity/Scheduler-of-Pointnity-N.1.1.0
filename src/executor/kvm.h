@@ -23,3 +23,4 @@ public:
 	m_running_time = -1;
 	m_starting_time = time(NULL);
         m_time_to_death = 10 * FLAGS_vm_hb_interval;
+        m_created = false;
