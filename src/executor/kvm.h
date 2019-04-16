@@ -25,3 +25,7 @@ public:
         m_time_to_death = 10 * FLAGS_vm_hb_interval;
         m_created = false;
         m_installed = false;
+    }
+
+    ~KVM() {
+        // free domain
