@@ -67,3 +67,16 @@ public:
     //void SetDomainPtr(virDomainPtr ptr);
 
     int32_t GetVNCPort() const;
+
+    //void SetVNCPort(int32_t port);
+
+    string GetVNet() const;
+
+    void SetVNet(string vnet);
+
+private:
+    // virtual function, from VM
+    void SetName();
+
+    // Init Heartbeat
+    void InitHeartbeat();    
