@@ -30,3 +30,4 @@
 
 #include "common/clynn/string_utility.h"
 #include "common/lxc/confile.h"
+#include "executor/hdfs_wrapper.h"
