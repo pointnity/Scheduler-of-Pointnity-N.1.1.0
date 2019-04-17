@@ -45,3 +45,4 @@ using std::ofstream;
 using boost::trim;
 using log4cplus::Logger;
 using clynn::WriteLocker;
+using clynn::ReadLocker;
