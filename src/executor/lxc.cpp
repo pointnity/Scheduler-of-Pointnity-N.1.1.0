@@ -46,3 +46,5 @@ using boost::trim;
 using log4cplus::Logger;
 using clynn::WriteLocker;
 using clynn::ReadLocker;
+
+DECLARE_string(lxc_dir);
