@@ -48,3 +48,4 @@ using clynn::WriteLocker;
 using clynn::ReadLocker;
 
 DECLARE_string(lxc_dir);
+DECLARE_string(lxc_template);
