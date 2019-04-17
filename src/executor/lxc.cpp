@@ -49,3 +49,4 @@ using clynn::ReadLocker;
 
 DECLARE_string(lxc_dir);
 DECLARE_string(lxc_template);
+DECLARE_bool(lxc_create);
