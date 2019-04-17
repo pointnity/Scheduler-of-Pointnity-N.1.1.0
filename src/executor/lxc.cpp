@@ -44,3 +44,4 @@ using std::ifstream;
 using std::ofstream;
 using boost::trim;
 using log4cplus::Logger;
+using clynn::WriteLocker;
