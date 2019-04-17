@@ -57,3 +57,6 @@ static Logger logger = Logger::getInstance("executor");
 static const double DEFAULT_CPU_SHARE = 1.0;
 
 string LXC::m_conf_template = "";
+
+/// @brief: public function
+// virtual function, from VM
