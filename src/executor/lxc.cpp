@@ -51,3 +51,5 @@ DECLARE_string(lxc_dir);
 DECLARE_string(lxc_template);
 DECLARE_bool(lxc_create);
 DECLARE_bool(lxc_relative_path);
+
+static Logger logger = Logger::getInstance("executor");
