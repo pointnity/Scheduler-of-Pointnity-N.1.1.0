@@ -34,3 +34,4 @@
 #include "include/proxy.h"
 #include "executor/system.h"
 #include "executor/lxc.h"
+#include "executor/task_entity_pool.h"
