@@ -158,3 +158,6 @@ HbVMInfo LXC::GetHbVMInfo() {
     empty.name = GetName();
     empty.type = GetVMType();
     empty.cpu_usage = 0;
+    empty.memory_usage = 0;
+    empty.bytes_in = 0;
+    empty.bytes_out = 0;
