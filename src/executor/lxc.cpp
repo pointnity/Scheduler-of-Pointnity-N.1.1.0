@@ -130,3 +130,5 @@ bool LXC::Kill() {
 
     string cmd_destroy = "lxc-destroy -n " + GetName();
     int32_t ret_destroy = system(cmd_destroy.c_str());
+    ret_destroy = ret_destroy >> 8;
+    if (ret_destroy != 0) {
