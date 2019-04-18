@@ -175,3 +175,7 @@ HbVMInfo LXC::GetHbVMInfo() {
         m_hb_vm_info.name = GetName();
         m_hb_vm_info.type = GetVMType();
     }
+
+    m_memory_used_in_kb = GetUsedMemory();
+    m_hb_vm_info.memory_usage = (double)m_memory_used_in_kb / (GetTaskInfo().vm_info.memory * 1024);
+    m_hb_vm_info.cpu_usage = GetCPUUsage();
