@@ -208,3 +208,7 @@ void LXC::SetName() {
     // app_name + "_lxc_" + job_id + "_" + task_id
     TaskID id = GetID();
     stringstream ss_job, ss_task;
+    ss_job << id.job_id;
+    ss_task << id.task_id;
+    string name = GetTaskInfo().app_info.name + "_lxc_" + ss_job.str() + "_" + ss_task.str();
+    SetNameByString(name);
