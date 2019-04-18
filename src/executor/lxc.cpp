@@ -189,3 +189,6 @@ HbVMInfo LXC::GetHbVMInfo() {
 
     return m_hb_vm_info;
 }
+
+void LXC::SetHbVMInfo(const string& hb_vm_info_ad) {
+}
