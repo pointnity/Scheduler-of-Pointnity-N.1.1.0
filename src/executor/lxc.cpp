@@ -195,3 +195,7 @@ void LXC::SetHbVMInfo(const string& hb_vm_info_ad) {
 
 /// @brief: unique 
 pid_t LXC::GetPid() {
+    return m_pid;
+}
+
+string LXC::GetVeth() {
