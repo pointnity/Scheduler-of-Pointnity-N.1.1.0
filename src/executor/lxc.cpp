@@ -161,3 +161,9 @@ HbVMInfo LXC::GetHbVMInfo() {
     empty.memory_usage = 0;
     empty.bytes_in = 0;
     empty.bytes_out = 0;
+    empty.app_state = AppState::APP_RUNNING;
+    //empty.app_running = false;
+
+    if (!SetProcesses()) {
+        LOG4CPLUS_ERROR(logger, "Failed to set processes for lxc.");
+        return empty;
