@@ -184,3 +184,5 @@ HbVMInfo LXC::GetHbVMInfo() {
     if (GetVeth() != "") {
         System::GetNetFlowinBytes(m_veth.c_str(), m_hb_vm_info.bytes_in, m_hb_vm_info.bytes_out);
     }
+    m_hb_vm_info.app_state = AppState::APP_RUNNING;
+    //m_hb_vm_info.app_running = true;
