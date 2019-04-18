@@ -71,3 +71,10 @@ int32_t LXC::Execute() {
         LOG4CPLUS_ERROR(logger, "Failed to install app, lxc name:" << GetName() << ", job_id:" << GetID().job_id << ", task_id:" << GetID().task_id);
         return -1;
     }
+
+    if (LXC::StartApp() != 0){
+        LOG4CPLUS_ERROR(logger, "Failed to start app, lxc name:" << GetName() << ", job_id:" << GetID().job_id << ", task_id:" << GetID().task_id);
+        return -1;	
+    }
+
+    return 0;
