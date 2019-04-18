@@ -143,3 +143,5 @@ bool LXC::Kill() {
         LOG4CPLUS_ERROR(logger, "Failed to rmr work directory:" << m_dir << ", name:" << GetName());
         return false;
     }
+    return true;
+}
