@@ -230,3 +230,16 @@ bool LXC::SetVeth() {
         LOG4CPLUS_ERROR(logger, "veth name is too long.");
         return false;
     }
+    return true;
+}
+// set name m_dir, mk work dir, copy lxc.conf, and change work director to m_dir
+int32_t LXC::Init() {
+    // set name, work dir
+    SetName();
+    m_dir = FLAGS_lxc_dir + "/" + GetName() + "/";
+    m_conf_bak = m_dir + "lxc_bak.conf";
+    m_conf_path = m_dir + "lxc.conf";
+
+    if (!SetVeth()) {
+        LOG4CPLUS_ERROR(logger, "Failed to set veth name.");
+        return -1;
