@@ -154,3 +154,7 @@ VMState::type LXC::GetState() {
 HbVMInfo LXC::GetHbVMInfo() {
     // "empty" means NULL
     HbVMInfo empty;
+    empty.id = GetID();
+    empty.name = GetName();
+    empty.type = GetVMType();
+    empty.cpu_usage = 0;
