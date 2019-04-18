@@ -173,3 +173,5 @@ HbVMInfo LXC::GetHbVMInfo() {
     if (first) {
         m_hb_vm_info.id = GetID();
         m_hb_vm_info.name = GetName();
+        m_hb_vm_info.type = GetVMType();
+    }
