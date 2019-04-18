@@ -140,3 +140,6 @@ bool LXC::Kill() {
     int32_t ret_rmr = system(cmd_rmr.c_str());
     ret_rmr = ret_rmr >> 8;
     if (ret_rmr != 0) {
+        LOG4CPLUS_ERROR(logger, "Failed to rmr work directory:" << m_dir << ", name:" << GetName());
+        return false;
+    }
