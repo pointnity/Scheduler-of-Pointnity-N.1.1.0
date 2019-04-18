@@ -132,3 +132,6 @@ bool LXC::Kill() {
     int32_t ret_destroy = system(cmd_destroy.c_str());
     ret_destroy = ret_destroy >> 8;
     if (ret_destroy != 0) {
+        LOG4CPLUS_ERROR(logger, "Failed to destroy lxc, name:" << GetName());
+        return false;
+    }
