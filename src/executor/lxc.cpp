@@ -199,3 +199,12 @@ pid_t LXC::GetPid() {
 }
 
 string LXC::GetVeth() {
+    return m_veth;
+}
+
+/// @brief: private function
+// set name
+void LXC::SetName() {
+    // app_name + "_lxc_" + job_id + "_" + task_id
+    TaskID id = GetID();
+    stringstream ss_job, ss_task;
