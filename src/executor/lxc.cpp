@@ -99,3 +99,5 @@ int32_t LXC::InstallApp() {
 }
 
 // execute the task, run the app
+int32_t LXC::StartApp() {
+    if (ExecuteLXC() != 0) {
