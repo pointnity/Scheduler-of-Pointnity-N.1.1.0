@@ -135,3 +135,8 @@ bool LXC::Kill() {
         LOG4CPLUS_ERROR(logger, "Failed to destroy lxc, name:" << GetName());
         return false;
     }
+
+    string cmd_rmr = "rm -rf " + m_dir;
+    int32_t ret_rmr = system(cmd_rmr.c_str());
+    ret_rmr = ret_rmr >> 8;
+    if (ret_rmr != 0) {
