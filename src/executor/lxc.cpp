@@ -186,3 +186,6 @@ HbVMInfo LXC::GetHbVMInfo() {
     }
     m_hb_vm_info.app_state = AppState::APP_RUNNING;
     //m_hb_vm_info.app_running = true;
+
+    return m_hb_vm_info;
+}
