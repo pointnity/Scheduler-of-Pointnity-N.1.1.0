@@ -212,3 +212,9 @@ void LXC::SetName() {
     ss_task << id.task_id;
     string name = GetTaskInfo().app_info.name + "_lxc_" + ss_job.str() + "_" + ss_task.str();
     SetNameByString(name);
+}
+
+bool LXC::SetVeth() {
+    // no ip, no veth
+    if (GetTaskInfo().vm_info.ip == "") {
+        m_veth = "";
