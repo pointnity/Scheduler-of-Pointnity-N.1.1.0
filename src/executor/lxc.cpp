@@ -108,3 +108,8 @@ int32_t LXC::StartApp() {
 }
 
 bool LXC::Stop() {
+    // 
+    string cmd = "lxc-stop -n " + GetName();
+    int32_t ret = system(cmd.c_str());
+    ret = ret >> 8;
+    if (ret != 0) {
