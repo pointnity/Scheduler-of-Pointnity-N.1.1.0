@@ -148,3 +148,6 @@ bool LXC::Kill() {
 /*
 VMState::type LXC::GetState() {
     // return VMState::VM_SERVICE_ONLINE;
+    return m_hb_vm_info.state;
+}
+*/
