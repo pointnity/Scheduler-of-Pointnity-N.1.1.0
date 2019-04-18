@@ -151,3 +151,6 @@ VMState::type LXC::GetState() {
     return m_hb_vm_info.state;
 }
 */
+HbVMInfo LXC::GetHbVMInfo() {
+    // "empty" means NULL
+    HbVMInfo empty;
