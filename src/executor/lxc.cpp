@@ -86,3 +86,7 @@ int32_t LXC::CreateVM() {
         LOG4CPLUS_ERROR(logger, "Failed to create lxc, name:" << GetName() << ", job_id:" << GetID().job_id << ", task_id:" << GetID().task_id);
         return -1;
     }
+    return 0;
+}
+
+// install app from hdfs
