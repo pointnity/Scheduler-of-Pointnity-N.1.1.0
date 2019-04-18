@@ -218,3 +218,15 @@ bool LXC::SetVeth() {
     // no ip, no veth
     if (GetTaskInfo().vm_info.ip == "") {
         m_veth = "";
+        return true;
+    }
+    // set veth name
+    TaskID id = GetID();
+    stringstream ss_job, ss_task;
+    ss_job << id.job_id;
+    ss_task << id.task_id;
+    m_veth = "veth_" + ss_job.str() + "_" + ss_task.str();
+    if (strlen(m_veth.c_str()) > veth_max_length) {
+        LOG4CPLUS_ERROR(logger, "veth name is too long.");
+        return false;
+    }
