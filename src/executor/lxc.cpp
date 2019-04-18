@@ -167,3 +167,7 @@ HbVMInfo LXC::GetHbVMInfo() {
     if (!SetProcesses()) {
         LOG4CPLUS_ERROR(logger, "Failed to set processes for lxc.");
         return empty;
+    }
+
+    static bool first = true;
+    if (first) {
