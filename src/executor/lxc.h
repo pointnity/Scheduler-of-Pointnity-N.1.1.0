@@ -32,3 +32,4 @@ public:
     int32_t CreateVM(); // create LXC
 
     // TODO
+    int32_t InstallApp();
