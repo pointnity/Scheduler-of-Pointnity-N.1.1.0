@@ -70,3 +70,6 @@ private:
 
     // @brief: re-direct log to work directory
     int32_t RedirectLog();
+    
+    // @brief: set container resource limit
+    bool SetResourceLimit(); 
