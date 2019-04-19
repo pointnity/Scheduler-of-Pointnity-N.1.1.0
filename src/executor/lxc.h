@@ -8,3 +8,4 @@
 #define SRC_EXECUTOR_LXC_H
 
 #include "sys/types.h"
+#include "executor/vm.h"
