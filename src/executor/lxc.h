@@ -9,3 +9,5 @@
 
 #include "sys/types.h"
 #include "executor/vm.h"
+
+class LXC : public VM {
