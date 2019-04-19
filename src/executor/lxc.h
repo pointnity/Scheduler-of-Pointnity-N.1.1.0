@@ -14,3 +14,4 @@ class LXC : public VM {
 public:
     explicit LXC(const TaskInfo& info) : VM(info) {
         m_first = true;
+        m_prev_cpu = 0.0;
