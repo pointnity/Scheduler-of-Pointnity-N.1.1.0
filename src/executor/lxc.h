@@ -48,3 +48,10 @@ public:
     void SetHbVMInfo(const string& hb_vm_info_ad);
 
     pid_t GetPid();
+
+    string GetVeth();
+private:
+    // virtual function, from VM
+    void SetName();
+
+    bool SetVeth();
