@@ -67,3 +67,6 @@ private:
 
     // @brief: close all the fd inherited from parent according to /proc/pid/fd
     int32_t CloseInheritedFD();
+
+    // @brief: re-direct log to work directory
+    int32_t RedirectLog();
