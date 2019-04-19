@@ -99,3 +99,4 @@ private:
     // report resource
     int32_t m_process_number;
     int32_t m_memory_used_in_kb;
+    vector<ProcessInfo> m_p_list;
