@@ -91,3 +91,4 @@ private:
 
     struct ProcessInfo {
         int32_t pid;
+        int32_t ppid;
