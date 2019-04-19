@@ -20,3 +20,4 @@ public:
 
     ~LXC() {
         // clear the work directory
+        if (!m_dir.empty()) {
