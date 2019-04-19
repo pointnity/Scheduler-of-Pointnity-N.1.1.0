@@ -23,3 +23,7 @@ public:
         if (!m_dir.empty()) {
             string cmd = "rm -r " + m_dir;
             system(cmd.c_str());
+        }    
+    }
+
+    // virtual function, from VM
