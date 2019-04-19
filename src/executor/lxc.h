@@ -87,3 +87,4 @@ private:
     string m_conf_path; // lxc.conf path
     string m_veth;
     HbVMInfo m_hb_vm_info;
+    static string m_conf_template;
