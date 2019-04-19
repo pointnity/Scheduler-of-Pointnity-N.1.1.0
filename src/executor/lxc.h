@@ -73,3 +73,7 @@ private:
     
     // @brief: set container resource limit
     bool SetResourceLimit(); 
+
+    bool SetProcesses();
+
+    double GetCPUUsage();
