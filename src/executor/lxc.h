@@ -54,6 +54,8 @@ private:
     // virtual function, from VM
     void SetName();
 
+    // @brief: set ip addr with conf
+    int32_t SetIPConf();
     bool SetVeth();
 
     // set Member Variable 
