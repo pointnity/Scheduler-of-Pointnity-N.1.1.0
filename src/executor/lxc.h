@@ -19,3 +19,4 @@ public:
     }
 
     ~LXC() {
+        // clear the work directory
