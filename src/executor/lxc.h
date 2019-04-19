@@ -107,3 +107,8 @@ private:
 
     static const uint32_t veth_max_length = 15; //VETH_MAX_LENGTH = 15;
     //static const double DEFAULT_CPU_SHARE = 1.0;
+    static const double DEFAULT_CPU_SHARE ;
+
+};
+
+#endif
