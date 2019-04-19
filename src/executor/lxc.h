@@ -102,3 +102,4 @@ private:
     vector<ProcessInfo> m_p_list;
     // is first?
     bool m_first;
+    double m_prev_cpu;
