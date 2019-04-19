@@ -81,4 +81,5 @@ private:
     int32_t GetUsedMemory();
 
 private:
-Pid_t m_pid; // process number
+    Pid_t m_pid; // process number
+    string m_dir;   // work dir
