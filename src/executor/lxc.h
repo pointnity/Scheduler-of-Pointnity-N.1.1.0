@@ -55,3 +55,6 @@ private:
     void SetName();
 
     bool SetVeth();
+
+    // set Member Variable 
+    int32_t Init();
