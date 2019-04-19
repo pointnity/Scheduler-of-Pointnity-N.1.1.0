@@ -77,3 +77,7 @@ private:
     bool SetProcesses();
 
     double GetCPUUsage();
+
+    int32_t GetUsedMemory();
+
+private:
