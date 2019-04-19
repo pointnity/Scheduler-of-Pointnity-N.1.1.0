@@ -95,3 +95,4 @@ private:
         string cmd;
     };
     // lxc-execute
+    char **m_exe_array;
