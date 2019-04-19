@@ -64,3 +64,6 @@ private:
     int32_t CreateLXC();
 
     int32_t ExecuteLXC();
+
+    // @brief: close all the fd inherited from parent according to /proc/pid/fd
+    int32_t CloseInheritedFD();
