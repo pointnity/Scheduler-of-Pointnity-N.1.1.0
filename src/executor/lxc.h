@@ -98,3 +98,4 @@ private:
     char **m_exe_array;
     // report resource
     int32_t m_process_number;
+    int32_t m_memory_used_in_kb;
