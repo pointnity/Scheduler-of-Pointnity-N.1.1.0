@@ -11,3 +11,4 @@
 #include "executor/vm.h"
 
 class LXC : public VM {
+public:
