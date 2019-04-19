@@ -13,3 +13,4 @@
 class LXC : public VM {
 public:
     explicit LXC(const TaskInfo& info) : VM(info) {
+        m_first = true;
