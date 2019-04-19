@@ -33,3 +33,6 @@ public:
 
     // TODO
     int32_t InstallApp();
+
+    // @brief: fork process and run the task
+    int32_t StartApp();
