@@ -36,3 +36,9 @@ public:
 
     // @brief: fork process and run the task
     int32_t StartApp();
+
+    bool Stop();
+
+    bool Kill();
+
+    //VMState::type GetState();
