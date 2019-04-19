@@ -96,3 +96,4 @@ private:
     };
     // lxc-execute
     char **m_exe_array;
+    // report resource
