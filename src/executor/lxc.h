@@ -88,3 +88,6 @@ private:
     string m_veth;
     HbVMInfo m_hb_vm_info;
     static string m_conf_template;
+
+    struct ProcessInfo {
+        int32_t pid;
