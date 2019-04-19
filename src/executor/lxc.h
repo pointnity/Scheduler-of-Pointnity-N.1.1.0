@@ -81,3 +81,4 @@ private:
     int32_t GetUsedMemory();
 
 private:
+Pid_t m_pid; // process number
