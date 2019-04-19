@@ -85,3 +85,4 @@ private:
     string m_dir;   // work dir
     string m_conf_bak;  // lxc.conf path
     string m_conf_path; // lxc.conf path
+    string m_veth;
