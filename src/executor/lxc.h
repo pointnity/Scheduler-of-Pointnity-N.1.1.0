@@ -58,3 +58,7 @@ private:
 
     // set Member Variable 
     int32_t Init();
+
+    int32_t CreateLXC();
+
+    int32_t ExecuteLXC();
