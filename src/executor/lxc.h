@@ -15,3 +15,4 @@ public:
     explicit LXC(const TaskInfo& info) : VM(info) {
         m_first = true;
         m_prev_cpu = 0.0;
+        m_prev_total = 0.0;
