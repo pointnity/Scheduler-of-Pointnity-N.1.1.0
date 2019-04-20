@@ -21,3 +21,4 @@
 #include "executor/resource_manager.h"
 
 using std::cout;
+using std::endl;
