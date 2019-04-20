@@ -51,3 +51,5 @@ bool ResourceManager::Init() {
     m_shelf_number = -1;
     m_arch = "Intel";
     m_os = System::GetOSVersion();
+
+    m_total_cpu = System::GetCpuNum();
