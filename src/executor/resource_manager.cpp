@@ -18,3 +18,4 @@
 #include "executor/system.h"
 #include "executor/vm_pool.h"
 #include "executor/image_manager.h"
+#include "executor/resource_manager.h"
