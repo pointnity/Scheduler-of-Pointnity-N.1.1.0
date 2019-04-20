@@ -40,3 +40,4 @@ static Logger logger = Logger::getInstance("executor");
 // TODO
 bool ResourceManager::Init() {
     /// @brief: set private info
+    // ip
