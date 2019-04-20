@@ -76,3 +76,4 @@ bool ResourceManager::Init() {
     return true;
 }
 
+string ResourceManager::GetMachineInfo() {
