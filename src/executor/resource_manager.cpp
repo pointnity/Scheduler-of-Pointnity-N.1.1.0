@@ -47,3 +47,4 @@ bool ResourceManager::Init() {
 
     // machine & arch
     m_name = m_ip;
+    m_machine_type = "A";
