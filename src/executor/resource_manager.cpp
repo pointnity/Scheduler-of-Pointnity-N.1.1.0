@@ -49,3 +49,4 @@ bool ResourceManager::Init() {
     m_name = m_ip;
     m_machine_type = "A";
     m_shelf_number = -1;
+    m_arch = "Intel";
