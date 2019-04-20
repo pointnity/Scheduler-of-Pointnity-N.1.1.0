@@ -42,3 +42,4 @@ bool ResourceManager::Init() {
     /// @brief: set private info
     // ip
     m_ip = System::GetIP(FLAGS_interface.c_str());
+    m_bridge_ip = System::GetIP(FLAGS_if_bridge.c_str());
