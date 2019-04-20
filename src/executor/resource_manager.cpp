@@ -16,3 +16,4 @@
 #include "include/classad_attr.h"
 #include "include/type.h"
 #include "executor/system.h"
+#include "executor/vm_pool.h"
