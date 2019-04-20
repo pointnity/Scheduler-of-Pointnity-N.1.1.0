@@ -48,3 +48,4 @@ bool ResourceManager::Init() {
     // machine & arch
     m_name = m_ip;
     m_machine_type = "A";
+    m_shelf_number = -1;
