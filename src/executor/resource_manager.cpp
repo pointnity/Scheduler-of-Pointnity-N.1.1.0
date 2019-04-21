@@ -88,3 +88,4 @@ string ResourceManager::GetMachineInfo() {
     ad.InsertAttr(ATTR_Port, m_port);
     ad.InsertAttr(ATTR_Arch, m_arch);
     ad.InsertAttr(ATTR_OpSys, m_os);
+    ad.InsertAttr(ATTR_TotalCPUNum, m_total_cpu);
