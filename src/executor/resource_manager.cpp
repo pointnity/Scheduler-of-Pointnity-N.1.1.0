@@ -192,3 +192,7 @@ void ResourceManager::GenerateHb(string& machine_str_ad, vector<string>& task_li
         task_ad.InsertAttr(ATTR_VMHB_STATE, it->app_state);
     
         ClassAdUnParser unparser;
+        string task_str_ad;
+        unparser.Unparse(task_str_ad, &task_ad);
+        task_list.push_back(task_str_ad);
+    }
