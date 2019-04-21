@@ -134,3 +134,4 @@ void ResourceManager::GenerateHb(string& machine_str_ad, vector<string>& task_li
     cout << "--port: " << hb_m_info.port << endl;
     cout << "--avail_memory: " << m_avail_memory << endl;
     cout << "--avail_disk: " << m_avail_disk << endl;
+    cout << "--image_attr: " << m_image_attr << endl;
