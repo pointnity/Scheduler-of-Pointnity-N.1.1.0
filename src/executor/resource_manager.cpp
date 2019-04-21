@@ -162,3 +162,5 @@ void ResourceManager::GenerateHb(string& machine_str_ad, vector<string>& task_li
     ad.InsertAttr(ATTR_Image, m_image_attr);
 
     ClassAdUnParser unparser;
+    // Serialization, convert ClassAd into string str_ad
+    unparser.Unparse(machine_str_ad, &ad);
