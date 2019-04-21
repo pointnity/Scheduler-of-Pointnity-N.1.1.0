@@ -98,3 +98,4 @@ string ResourceManager::GetMachineInfo() {
     ClassAdUnParser unparser;
     string str_ad;
     // Serialization, convert ClassAd into string str_ad
+    unparser.Unparse(str_ad, &ad);
