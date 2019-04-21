@@ -101,3 +101,6 @@ string ResourceManager::GetMachineInfo() {
     unparser.Unparse(str_ad, &ad);
     
     return str_ad; 
+}
+
+string ResourceManager::GetBridgeEndpoint() {
