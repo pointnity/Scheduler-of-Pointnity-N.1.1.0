@@ -182,3 +182,7 @@ void ResourceManager::GenerateHb(string& machine_str_ad, vector<string>& task_li
         cout << "----bytes_in: " << it->bytes_in << endl;
         cout << "----bytes_out: " << it->bytes_out << endl;
 
+        ClassAd task_ad;
+        task_ad.InsertAttr(ATTR_JOB_ID_RS, (it->id).job_id);
+        task_ad.InsertAttr(ATTR_TASK_ID_RS, (it->id).task_id);
+        task_ad.InsertAttr(ATTR_VMHB_CPU, it->cpu_usage);
