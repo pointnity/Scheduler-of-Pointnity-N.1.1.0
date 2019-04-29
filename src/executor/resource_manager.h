@@ -67,3 +67,5 @@ private:
 };
 
 typedef Singleton<ResourceManager> ResourceMgrI;
+
+#endif 
