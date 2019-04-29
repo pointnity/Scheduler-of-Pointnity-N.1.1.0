@@ -44,3 +44,4 @@ private:
     // machine & arch
     string m_name;
     string m_machine_type;
+    int32_t m_shelf_number;
