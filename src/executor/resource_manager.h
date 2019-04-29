@@ -46,3 +46,4 @@ private:
     string m_machine_type;
     int32_t m_shelf_number;
     string m_arch;
+    string m_os;
