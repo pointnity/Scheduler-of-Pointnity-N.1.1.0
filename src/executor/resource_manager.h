@@ -21,3 +21,4 @@ using std::string;
 using std::map;
 using std::vector;
 using boost::shared_ptr;
+using clynn::RWLock;
