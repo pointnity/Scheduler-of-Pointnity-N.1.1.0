@@ -11,3 +11,5 @@
 #include <map>
 #include <vector>
 #include <boost/shared_ptr.hpp>
+
+#include "include/proxy.h"
