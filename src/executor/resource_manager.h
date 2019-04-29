@@ -58,3 +58,4 @@ private:
     int32_t m_total_cpu;
     int32_t m_total_memory; // M
     int32_t m_total_disk;   // G
+    double m_avail_cpu;
