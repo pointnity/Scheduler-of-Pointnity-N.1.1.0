@@ -30,3 +30,5 @@ public:
 
     // get static register info
     string GetMachineInfo();
+
+    string GetBridgeEndpoint();
