@@ -8,3 +8,4 @@
 #define SRC_EXECUTOR_RESOURCE_MANAGER_H
 
 #include <string>
+#include <map>
