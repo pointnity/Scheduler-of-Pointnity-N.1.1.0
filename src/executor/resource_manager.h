@@ -50,3 +50,4 @@ private:
 
     // ip 
     string m_ip;        // communicate with master
+    string m_bridge_ip; // communicate with vm
