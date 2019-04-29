@@ -55,3 +55,4 @@ private:
   
     // resource
     double m_loadavg;
+    int32_t m_total_cpu;
