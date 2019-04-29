@@ -32,3 +32,5 @@ public:
     string GetMachineInfo();
 
     string GetBridgeEndpoint();
+
+    void GenerateHb(string& machine_str_ad, vector<string>& task_list);    
