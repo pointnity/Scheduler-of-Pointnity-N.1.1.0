@@ -62,3 +62,4 @@ private:
     int32_t m_avail_memory;
     int32_t m_avail_disk;
     int32_t m_band_width;
+    string m_nic_type;      // interface type;
