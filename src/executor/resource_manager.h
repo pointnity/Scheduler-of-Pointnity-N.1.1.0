@@ -29,3 +29,4 @@ public:
     bool Init();
 
     // get static register info
+    string GetMachineInfo();
