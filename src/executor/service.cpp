@@ -42,3 +42,5 @@ bool ExecutorService::StartTask(const string& info) {
     if (false == ptr->IsLegal()) {
         LOG4CPLUS_ERROR(logger, "Failed to initialize TaskEntity");
         return false;
+    }
+    if (false == TaskPoolI::Instance()->InsertIfAbsent(ptr)) {
