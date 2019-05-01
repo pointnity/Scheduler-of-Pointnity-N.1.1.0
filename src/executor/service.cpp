@@ -85,3 +85,33 @@ bool ExecutorService::KillTaskForFT(const int32_t job_id, const int32_t task_id)
     TaskID id;
     id.job_id = job_id;
     id.task_id = task_id;
+    // new KillActionEvent
+    EventPtr event(new KillActionEvent(id));
+    // Push event into Queue
+    EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
+
+    LOG4CPLUS_INFO(logger, "Kill task for FT, job_id:" << job_id << ", task_id:" << task_id);
+    return true;
+
+}
+
+bool ExecutorService::SendVMHeartbeat(const string& hb_vm_info_ad) {
+    //std::cout<< "vm_hb:" << hb_vm_info_ad << std::endl;
+    //return VMPoolI::Instance()->ProcessHbVMInfo(hb_vm_info_ad);
+    // new UpdateHeartbeatEvent
+    EventPtr event(new HeartbeatEvent(hb_vm_info_ad));
+    // Push event into Queue
+    EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
+    return true;
+
+
+}
+
+//image manager
+bool ExecutorService::UpdateImage(const string& user, const string& name, const int32_t size) {
+    // new UpdateImageEvent
+    EventPtr event(new ImageEvent(user, name, size));
+    // Push event into Queue
+    EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
+    return true;
+}
