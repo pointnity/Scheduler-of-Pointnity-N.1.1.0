@@ -37,3 +37,4 @@ bool ExecutorService::Exit() {
     return true;
 }
 // task
+bool ExecutorService::StartTask(const string& info) {
