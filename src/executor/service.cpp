@@ -33,3 +33,4 @@ bool ExecutorService::Exit() {
     // new KillActionEvent
     EventPtr event(new ExitExecutorEvent());
     // Push event into Queue
+    EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
