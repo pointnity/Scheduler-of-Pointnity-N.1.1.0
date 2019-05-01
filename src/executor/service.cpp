@@ -14,3 +14,4 @@
 #include "executor/vm_pool.h"
 #include "executor/dispatcher.h"
 #include "executor/service.h"
+#include "executor/image_manager.h"
