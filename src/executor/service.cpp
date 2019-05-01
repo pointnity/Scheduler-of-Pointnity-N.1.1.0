@@ -39,3 +39,4 @@ bool ExecutorService::Exit() {
 // task
 bool ExecutorService::StartTask(const string& info) {
     TaskPtr ptr(new TaskEntity(info));
+    if (false == ptr->IsLegal()) {
