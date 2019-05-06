@@ -16,3 +16,4 @@ public:
     int32_t  Helloworld();
 
     //RS
+    bool Exit();
