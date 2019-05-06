@@ -20,3 +20,4 @@
 #include <string.h>
 #include <string>
 #include <algorithm>
+#include <boost/algorithm/string.hpp>
