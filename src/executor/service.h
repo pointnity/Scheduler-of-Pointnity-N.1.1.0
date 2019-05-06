@@ -19,3 +19,4 @@ public:
     bool Exit();
 
     // task
+    bool StartTask(const string& info);
