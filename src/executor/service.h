@@ -26,3 +26,4 @@ public:
     bool KillTaskForFT(const int32_t job_id, const int32_t task_id);
     
     // vm heartbeat
+    bool SendVMHeartbeat(const string& hb_vm_info_ad);
