@@ -25,3 +25,5 @@
 #include "executor/system.h"
 
 using boost::trim;
+
+#define __STDC_FORMAT_MACROS
