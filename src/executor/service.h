@@ -12,3 +12,4 @@
 using std::string;
 
 class ExecutorService : public ExecutorIf {
+public:
