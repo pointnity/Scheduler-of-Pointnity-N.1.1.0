@@ -31,3 +31,5 @@ public:
     //update image
     bool UpdateImage(const string& user, const string& name, const int32_t size);
 };
+
+#endif
