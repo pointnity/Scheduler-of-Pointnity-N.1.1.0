@@ -22,3 +22,5 @@ public:
     bool StartTask(const string& info);
 
     bool KillTask(const int32_t job_id, const int32_t task_id);
+
+    bool KillTaskForFT(const int32_t job_id, const int32_t task_id);
