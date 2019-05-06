@@ -29,3 +29,5 @@ public:
     bool SendVMHeartbeat(const string& hb_vm_info_ad);
 
     //update image
+    bool UpdateImage(const string& user, const string& name, const int32_t size);
+};
