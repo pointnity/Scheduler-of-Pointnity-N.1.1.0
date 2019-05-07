@@ -67,3 +67,4 @@ double System::GetLoadAvginFifteen() {
     // fs /proc
     FILE* fp = fopen("/proc/loadavg", "r");
     if (!fp)
+        return -1.0;
