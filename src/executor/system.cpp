@@ -92,3 +92,7 @@ int32_t System::GetCpuNum() {
     while (fgets(buf, sizeof(buf)-1, fp)) {
         if (strncmp(buf, "processor", 9) == 0) {
             cpu_num++;
+        }
+    }
+
+    // close file
