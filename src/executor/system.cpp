@@ -108,3 +108,4 @@ uint64_t System::GetCpuTime() {
          return 1;
 
     uint64_t cpu_user = 0;
+    uint64_t cpu_nice = 0;
