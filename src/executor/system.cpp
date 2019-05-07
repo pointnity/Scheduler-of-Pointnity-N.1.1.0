@@ -98,3 +98,6 @@ int32_t System::GetCpuNum() {
     // close file
     fclose(fp);
     return cpu_num ? cpu_num : 1;
+}
+
+// @return: cpu time
