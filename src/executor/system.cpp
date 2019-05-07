@@ -34,3 +34,4 @@ using boost::trim;
 double System::GetLoadAvginOne() {
     // fs /proc
     FILE* fp = fopen("/proc/loadavg", "r");
+    if (!fp)
