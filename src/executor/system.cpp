@@ -88,3 +88,4 @@ int32_t System::GetCpuNum() {
 
     int32_t cpu_num = 0;
     char buf[256] = {0};
+    // read each line, count cpu number as line number
