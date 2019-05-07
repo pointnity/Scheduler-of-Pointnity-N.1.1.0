@@ -60,3 +60,6 @@ double System::GetLoadAvginFive() {
     // close file
     fclose(fp);
     return avg_5;
+}
+
+// @return: return avg load in 15 minutes if success, or return -1
