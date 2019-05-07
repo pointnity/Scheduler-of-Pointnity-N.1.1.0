@@ -32,3 +32,4 @@ using boost::trim;
 /// @brief: Load
 // @return: return avg load in 1 minute if success, or return -1
 double System::GetLoadAvginOne() {
+    // fs /proc
