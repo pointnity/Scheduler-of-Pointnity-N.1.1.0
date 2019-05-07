@@ -58,3 +58,4 @@ double System::GetLoadAvginFive() {
     fscanf(fp, "%lf %lf %lf", &avg_1, &avg_5, &avg_15);
 
     // close file
+    fclose(fp);
