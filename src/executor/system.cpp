@@ -106,3 +106,5 @@ uint64_t System::GetCpuTime() {
     FILE* fp = fopen("/proc/stat", "r");
     if (!fp)
          return 1;
+
+    uint64_t cpu_user = 0;
