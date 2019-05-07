@@ -33,3 +33,4 @@ using boost::trim;
 // @return: return avg load in 1 minute if success, or return -1
 double System::GetLoadAvginOne() {
     // fs /proc
+    FILE* fp = fopen("/proc/loadavg", "r");
