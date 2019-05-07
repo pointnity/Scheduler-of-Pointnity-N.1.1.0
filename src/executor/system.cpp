@@ -83,3 +83,4 @@ double System::GetLoadAvginFifteen() {
 int32_t System::GetCpuNum() {
     // fs /proc
     FILE* fp = fopen("/proc/cpuinfo", "r");
+    if (!fp)
