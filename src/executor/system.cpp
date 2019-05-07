@@ -35,3 +35,4 @@ double System::GetLoadAvginOne() {
     // fs /proc
     FILE* fp = fopen("/proc/loadavg", "r");
     if (!fp)
+        return -1.0;
