@@ -57,3 +57,5 @@ public:
 
     // get memory usage
     static double GetMemoryUsage();
+
+    // get swaptotal memory size(MB)
