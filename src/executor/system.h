@@ -68,3 +68,4 @@ public:
     /// @brief: network flow
 
     // get ip by interface
+    static int32_t GetIP(const char* interface, char* ip);
