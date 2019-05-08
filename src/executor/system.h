@@ -40,3 +40,5 @@ public:
 
     // get total cpu time in USER_HZ unit
     static uint64_t GetCpuTime();
+
+    // get cpu usage
