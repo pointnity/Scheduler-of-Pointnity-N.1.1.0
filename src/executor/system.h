@@ -43,3 +43,6 @@ public:
 
     // get cpu usage
     static double GetCpuUsage();
+
+
+    /// @brief: Memory
