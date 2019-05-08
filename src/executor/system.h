@@ -73,3 +73,22 @@ public:
     static string GetIP(const char* interface);
 
     // get net flow(size: Bytes)
+    static void GetNetFlowinBytes(const char* interface, int32_t& bytes_in, int32_t& bytes_out);
+
+    // get net flow(size: bits)
+    static void GetNetFlowinbits(const char* interface, int32_t& bits_in, int32_t& bits_out);
+
+    // get static net bandwidth, mbits/s
+    static int32_t GetBandWidth(const char* interface);
+
+    // get if type
+    static string GetNICType(const char* interface);
+
+    /// @brief: Disk
+    // get total disk size(GB)
+    static int32_t GetTotalDisk();
+
+    // get used disk(GB)
+    static int32_t GetUsedDisk();
+
+    // get disk usage
