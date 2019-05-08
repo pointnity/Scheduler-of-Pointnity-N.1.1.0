@@ -53,3 +53,4 @@ public:
     static int32_t GetPhysicalMemory();
 
     // get used memory size(MB)
+    static int32_t GetUsedMemory();
