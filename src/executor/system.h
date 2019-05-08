@@ -37,3 +37,5 @@ public:
     /// @brief: CPU
     // get cpu logic core number
     static int32_t GetCpuNum();
+
+    // get total cpu time in USER_HZ unit
