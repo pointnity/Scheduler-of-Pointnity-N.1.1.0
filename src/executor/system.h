@@ -27,3 +27,6 @@ public:
     /// @brief: Load 
     // get cpu average load(1 min)
     static double GetLoadAvginOne();
+
+    // get cpu average load(5 min)
+    static double GetLoadAvginFive();
