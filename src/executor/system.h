@@ -56,3 +56,4 @@ public:
     static int32_t GetUsedMemory();
 
     // get memory usage
+    static double GetMemoryUsage();
