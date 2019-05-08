@@ -50,3 +50,4 @@ public:
     static int32_t GetTotalMemory();
 
     // get free physical memory size(MB)
+    static int32_t GetPhysicalMemory();
