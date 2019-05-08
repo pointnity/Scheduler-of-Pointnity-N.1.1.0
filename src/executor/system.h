@@ -39,3 +39,4 @@ public:
     static int32_t GetCpuNum();
 
     // get total cpu time in USER_HZ unit
+    static uint64_t GetCpuTime();
