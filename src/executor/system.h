@@ -69,3 +69,5 @@ public:
 
     // get ip by interface
     static int32_t GetIP(const char* interface, char* ip);
+
+    static string GetIP(const char* interface);
