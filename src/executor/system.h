@@ -92,3 +92,21 @@ public:
     static int32_t GetUsedDisk();
 
     // get disk usage
+    static double GetDiskUsage();
+
+    // for img
+    static int32_t GetFakeSpace();
+
+    /// @brief: others
+    // get os version
+    static string GetOSVersion();
+
+    // remove the directory
+    static void RemoveDir(const char* path);
+
+    // get current time
+    static void GetCurrentTime(char* str, int32_t len);
+
+};
+
+#endif
