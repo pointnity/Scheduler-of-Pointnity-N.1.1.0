@@ -23,3 +23,4 @@
 using std::string;
 
 class System {
+public:
