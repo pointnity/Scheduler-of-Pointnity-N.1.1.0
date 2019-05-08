@@ -59,3 +59,4 @@ public:
     static double GetMemoryUsage();
 
     // get swaptotal memory size(MB)
+    static int32_t GetSwapTotalMemory();
