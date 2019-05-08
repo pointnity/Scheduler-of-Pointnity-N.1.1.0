@@ -54,3 +54,5 @@ public:
 
     // get used memory size(MB)
     static int32_t GetUsedMemory();
+
+    // get memory usage
