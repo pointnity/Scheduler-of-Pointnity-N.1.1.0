@@ -62,3 +62,4 @@ void TaskAction::TaskFinished(TaskID id) {
             proxy().TaskFinished(id.job_id, id.task_id);
         } catch (TException &tx) {
             LOG4CPLUS_ERROR(logger, "Update finished of task state to JM error: " << tx.what());
+        }
