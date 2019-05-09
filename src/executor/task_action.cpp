@@ -102,3 +102,4 @@ void TaskAction::TaskMissed(TaskID id) {
 
 void TaskAction::TaskTimeout(TaskID id) {
     //delete task object
+    if (!TaskPoolI::Instance()->KillTaskByID(id)) {
