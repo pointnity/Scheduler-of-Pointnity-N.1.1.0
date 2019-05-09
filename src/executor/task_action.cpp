@@ -69,3 +69,4 @@ void TaskAction::TaskFinished(TaskID id) {
 void TaskAction::TaskFailed(TaskID id) {
     //delete task object
     if (!TaskPoolI::Instance()->KillTaskByID(id)) {
+            LOG4CPLUS_ERROR(logger, "Failed to kill task, job_id:" << id.job_id << ", task_id:" << id.task_id);
