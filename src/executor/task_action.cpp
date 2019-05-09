@@ -112,3 +112,7 @@ void TaskAction::TaskTimeout(TaskID id) {
     try {
             Proxy<JobsManagerClient> proxy = RpcClient<JobsManagerClient>::GetProxy(FLAGS_jobs_manager_endpoint);
             proxy().TaskTimeout(id.job_id, id.task_id);
+        } catch (TException &tx) {
+            LOG4CPLUS_ERROR(logger, "Update timeout of task state to JM error: " << tx.what());
+    }
+}
