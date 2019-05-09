@@ -20,3 +20,5 @@
 using log4cplus::Logger;
 using clynn::WriteLocker;
 using clynn::ReadLocker;
+
+static Logger logger = Logger::getInstance("executor");
