@@ -55,3 +55,4 @@ void TaskAction::TaskFinished(TaskID id) {
     }
 
     TaskPoolI::Instance()->Delete(id);    
+    LOG4CPLUS_INFO(logger, "Task finished, handle event of kill task action, job_id:" << id.job_id << ", task_id:" << id.task_id);
