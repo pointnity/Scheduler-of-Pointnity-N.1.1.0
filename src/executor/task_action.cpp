@@ -31,3 +31,4 @@ void TaskAction::TaskRunning(TaskID id) {
     TaskPtr task_ptr = TaskPoolI::Instance()->GetTaskPtr(id);
     TaskEntityState::type m_state = task_ptr->GetState();
     //update task state to JM
+    if(m_state != TaskEntityState::TASKENTITY_RUNNING) {
