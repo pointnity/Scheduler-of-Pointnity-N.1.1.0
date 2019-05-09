@@ -49,3 +49,4 @@ void TaskAction::TaskRunning(TaskID id) {
 
 void TaskAction::TaskFinished(TaskID id) {
     //delete task object
+    if (!TaskPoolI::Instance()->KillTaskByID(id)) {
