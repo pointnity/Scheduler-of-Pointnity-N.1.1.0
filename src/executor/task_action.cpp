@@ -35,3 +35,4 @@ void TaskAction::TaskRunning(TaskID id) {
         try {
             Proxy<JobsManagerClient> proxy = RpcClient<JobsManagerClient>::GetProxy(FLAGS_jobs_manager_endpoint);
             proxy().TaskStarted(id.job_id, id.task_id);
+            } catch (TException &tx) {
