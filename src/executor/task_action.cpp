@@ -10,3 +10,4 @@
 
 #include <iostream>
 #include "include/proxy.h"
+#include "common/clynn/rpc.h"
