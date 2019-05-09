@@ -95,3 +95,4 @@ void TaskAction::TaskMissed(TaskID id) {
     try {
             Proxy<JobsManagerClient> proxy = RpcClient<JobsManagerClient>::GetProxy(FLAGS_jobs_manager_endpoint);
             proxy().TaskMissed(id.job_id, id.task_id);
+        } catch (TException &tx) {
