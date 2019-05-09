@@ -28,3 +28,4 @@ DECLARE_bool(jobs_manager_up);
 DECLARE_bool(debug);
 
 void TaskAction::TaskRunning(TaskID id) {
+    TaskPtr task_ptr = TaskPoolI::Instance()->GetTaskPtr(id);
