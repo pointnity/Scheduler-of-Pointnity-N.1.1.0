@@ -15,3 +15,6 @@
 #include "executor/task_entity_pool.h"
 #include "executor/task_entity.h"
 #include "executor/dispatcher.h"
+
+
+using log4cplus::Logger;
