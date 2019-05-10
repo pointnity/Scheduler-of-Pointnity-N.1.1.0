@@ -18,3 +18,5 @@
 class TaskAction {
 public:
     // call back
+
+    void TaskRunning(TaskID id);
