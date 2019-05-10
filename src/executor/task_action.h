@@ -28,3 +28,7 @@ public:
     void TaskFailed(TaskID id);
 
     void TaskTimeout(TaskID id);
+
+};
+
+typedef Singleton<TaskAction> TaskActionI;
