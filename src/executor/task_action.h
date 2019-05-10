@@ -24,3 +24,5 @@ public:
     void TaskFinished(TaskID id);
 
     void TaskMissed(TaskID id);
+
+    void TaskFailed(TaskID id);
