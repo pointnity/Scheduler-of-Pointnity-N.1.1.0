@@ -20,3 +20,5 @@ public:
     // call back
 
     void TaskRunning(TaskID id);
+
+    void TaskFinished(TaskID id);
