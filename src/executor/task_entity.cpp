@@ -36,3 +36,7 @@ TaskEntity::TaskEntity(const string& task_info) {
     m_state = TaskEntityState::TASKENTITY_WAITING;
     m_percentage = 0;
 }
+
+bool TaskEntity::IsLegal() {
+    // classad init, string task_info --> ClassAd *ad_ptr
+    ClassAdParser parser;
