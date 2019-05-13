@@ -14,3 +14,4 @@
 
 #include "include/classad_attr.h"
 #include "include/proxy.h"
+#include "common/clynn/rpc.h"
