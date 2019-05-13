@@ -62,3 +62,4 @@ bool TaskEntity::IsLegal() {
         LOG4CPLUS_ERROR(logger, "Parse " << ATTR_VMTYPE << " error.");
         return false;
     }
+    m_info.type = VMType::type(type);
