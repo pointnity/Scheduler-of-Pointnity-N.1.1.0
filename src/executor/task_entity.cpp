@@ -26,3 +26,6 @@ using clynn::WriteLocker;
 using clynn::ReadLocker;
 
 static Logger logger = Logger::getInstance("executor");
+
+DECLARE_string(jobs_manager_endpoint);
+DECLARE_bool(jobs_manager_up);
