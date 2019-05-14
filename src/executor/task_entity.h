@@ -54,3 +54,5 @@ public:
     void TaskMissed();
 
     void TaskFailed();
+
+    void TaskTimeout();
