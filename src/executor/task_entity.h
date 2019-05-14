@@ -67,3 +67,4 @@ public:
 private:
     TaskID m_id;
     string m_string_info;
+    TaskInfo m_info;               // from executor/type.h
