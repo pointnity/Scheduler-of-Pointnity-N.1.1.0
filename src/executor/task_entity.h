@@ -52,3 +52,5 @@ public:
     void TaskFinished();
 
     void TaskMissed();
+
+    void TaskFailed();
