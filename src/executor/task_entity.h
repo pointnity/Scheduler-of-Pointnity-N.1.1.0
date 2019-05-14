@@ -27,3 +27,5 @@ public:
     ~TaskEntity() {} 
 
     TaskID GetID() const {
+        return m_id;
+    }
