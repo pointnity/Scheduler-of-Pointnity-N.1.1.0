@@ -4,3 +4,4 @@
 *********************************/
 
 #ifndef SRC_EXECUTOR_TASKENTITY_H
+#define SRC_EXECUTOR_TASKENTITY_H
