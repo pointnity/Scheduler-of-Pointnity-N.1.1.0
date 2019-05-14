@@ -37,3 +37,5 @@ public:
     TaskEntityState::type GetState();
 
     double GetPercentage();
+   
+    bool SetStates(const TaskEntityState::type state, const double percentage);
