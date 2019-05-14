@@ -65,3 +65,4 @@ public:
     bool Kill();
 
 private:
+    TaskID m_id;
