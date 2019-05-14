@@ -66,3 +66,4 @@ public:
 
 private:
     TaskID m_id;
+    string m_string_info;
