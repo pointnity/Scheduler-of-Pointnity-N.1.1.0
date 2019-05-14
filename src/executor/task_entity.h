@@ -58,3 +58,4 @@ public:
     void TaskTimeout();
 
     // core operation
+    bool Start();
