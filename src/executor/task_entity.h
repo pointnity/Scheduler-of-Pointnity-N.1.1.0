@@ -56,3 +56,5 @@ public:
     void TaskFailed();
 
     void TaskTimeout();
+
+    // core operation
