@@ -50,3 +50,5 @@ public:
     void TaskRunning();
 
     void TaskFinished();
+
+    void TaskMissed();
