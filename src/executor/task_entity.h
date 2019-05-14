@@ -46,3 +46,5 @@ public:
 
     // call back
     void TaskStarting();
+
+    void TaskRunning();
