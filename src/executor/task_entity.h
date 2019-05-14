@@ -59,3 +59,5 @@ public:
 
     // core operation
     bool Start();
+
+    bool Stop();
