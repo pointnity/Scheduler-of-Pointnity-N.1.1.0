@@ -71,3 +71,6 @@ private:
     TaskEntityState::type m_state; // from proxy/executor/executor.thrift
     RWLock m_lock;
     double m_percentage;
+};
+
+typedef shared_ptr<TaskEntity> TaskPtr;
