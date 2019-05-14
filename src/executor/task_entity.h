@@ -20,3 +20,4 @@ using clynn::RWLock;
 
 class TaskEntity {
 public:
+    explicit TaskEntity(const string& task_info);
