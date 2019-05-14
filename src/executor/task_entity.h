@@ -48,3 +48,5 @@ public:
     void TaskStarting();
 
     void TaskRunning();
+
+    void TaskFinished();
