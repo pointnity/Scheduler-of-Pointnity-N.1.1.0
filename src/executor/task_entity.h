@@ -45,3 +45,4 @@ public:
     bool SetPercentage(const double percentage);
 
     // call back
+    void TaskStarting();
