@@ -31,3 +31,4 @@ public:
     }
 
     VMType::type GetVMType() const {
+        return m_info.type;
