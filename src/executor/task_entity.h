@@ -61,3 +61,5 @@ public:
     bool Start();
 
     bool Stop();
+
+    bool Kill();
