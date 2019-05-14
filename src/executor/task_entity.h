@@ -12,3 +12,5 @@
 // #include "include/proxy.h"
 #include "include/type.h"
 #include "common/clynn/rwlock.h"
+
+using std::string;
