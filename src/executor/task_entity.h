@@ -41,3 +41,5 @@ public:
     bool SetStates(const TaskEntityState::type state, const double percentage);
 
     bool SetState(const TaskEntityState::type state);
+
+    bool SetPercentage(const double percentage);
