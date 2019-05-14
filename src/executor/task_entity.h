@@ -35,3 +35,5 @@ public:
     }
 
     TaskEntityState::type GetState();
+
+    double GetPercentage();
