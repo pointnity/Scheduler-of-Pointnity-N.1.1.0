@@ -30,3 +30,6 @@ void TaskEntityPool::PrintAll() {
         printf("taskentity job_id:%d, task_id:%d\n", (it->first).job_id, (it->first).task_id);
     }    
     printf("**************************************\n");
+}
+
+bool TaskEntityPool::Find(const TaskPtr& ptr) {
