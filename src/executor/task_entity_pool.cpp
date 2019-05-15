@@ -56,3 +56,6 @@ void TaskEntityPool::Delete(const TaskID id ) {
     WriteLocker locker(m_lock);
     // erase() will invoke destructor(xi gou) func
     m_task_map.erase(id);
+}
+
+// @id is the key, @func is the function pointer
