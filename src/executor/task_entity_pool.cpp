@@ -110,3 +110,69 @@ bool TaskEntityPool::StartTaskByID(const TaskID id) {
     }
 
     // start task
+    if (!(ptr->Start())) {
+        LOG4CPLUS_ERROR(logger, "Failed to start task, job_id:" << id.job_id << ", task_id:" << id.task_id);
+	// new failed task Event
+        EventPtr event(new FailedTaskEvent(id));
+        // Push event into Queue
+        EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
+        return false;
+    }
+    if(FLAGS_debug) {
+        LOG4CPLUS_INFO(logger, "start task successfully, job_id:" << id.job_id << ", task_id:" << id.task_id);
+    }
+    return true;
+}
+
+
+// bind a function, then invoke it with FindToDo
+// kill a taskEntity, and delete taskPtr from m_task_map
+bool TaskEntityPool::KillTaskByID(const TaskID id) {
+    // TODO test
+    // PrintAll();
+
+    // get task
+    TaskPtr ptr = GetTaskPtr(id);
+    if (!ptr) {
+        LOG4CPLUS_ERROR(logger, "Failed to find the task, can't kill task, job_id:" << id.job_id << ", task_id:" << id.task_id);
+        return false;
+    }
+     
+    // kill task
+    if (!(ptr->Kill())) {
+        LOG4CPLUS_ERROR(logger, "Failed to kill task, job_id:" << id.job_id << ", task_id:" << id.task_id);
+        return false;
+    }
+
+    // delete task from pool(map)
+    // Delete(id);
+    // LOG4CPLUS_INFO(logger, "Kill task successfully, job_id:" << id.job_id << ", task_id:" << id.task_id);
+    return true;
+}
+
+bool TaskEntityPool::StopTaskByID(const TaskID id) {
+    // get task
+    TaskPtr ptr = GetTaskPtr(id);
+    if (!ptr) {
+        LOG4CPLUS_ERROR(logger, "Failed to find the task, can't stop task, job_id:" << id.job_id << ", task_id:" << id.task_id);
+        return false;
+    }
+
+    // stop task
+    if (!(ptr->Stop())) {
+        LOG4CPLUS_ERROR(logger, "Failed to stop task, job_id:" << id.job_id << ", task_id:" << id.task_id);
+        return false;
+    }
+
+    return true;
+}
+
+TaskPtr TaskEntityPool::GetTaskPtr(const TaskID id) {
+    ReadLocker locker(m_lock);
+    map<TaskID, TaskPtr>::iterator it = m_task_map.find(id);
+    if (it != m_task_map.end()) {
+        return it->second;
+    }
+    // not find then return NULL
+    return TaskPtr();
+}
