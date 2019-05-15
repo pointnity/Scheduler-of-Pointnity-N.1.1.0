@@ -83,3 +83,4 @@ void TaskEntityPool::StartTask() {
             if (false == (it->second)->Start()) {
                 WriteLocker locker(m_lock);
                 // task failed
+                (it->second)->TaskFailed();
