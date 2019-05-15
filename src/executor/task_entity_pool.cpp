@@ -48,3 +48,4 @@ bool TaskEntityPool::InsertIfAbsent(const TaskPtr& ptr) {
 	Insert(ptr);
 	return true;
     } else {
+	return false;
