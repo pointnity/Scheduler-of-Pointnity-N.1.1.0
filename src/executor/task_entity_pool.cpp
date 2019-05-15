@@ -26,3 +26,4 @@ void TaskEntityPool::PrintAll() {
     printf("task_entity_pool.cpp\n");
     printf("************ Task Entity ************\n");
     for (map<TaskID, TaskPtr>::iterator it = m_task_map.begin();
+         it != m_task_map.end(); ++it) {
