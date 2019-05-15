@@ -22,3 +22,4 @@ static Logger logger = Logger::getInstance("executor");
 DECLARE_bool(debug);
 // TODO just for test
 void TaskEntityPool::PrintAll() {
+    ReadLocker locker(m_lock);
