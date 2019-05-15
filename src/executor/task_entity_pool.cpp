@@ -49,3 +49,7 @@ bool TaskEntityPool::InsertIfAbsent(const TaskPtr& ptr) {
 	return true;
     } else {
 	return false;
+    }
+}
+
+void TaskEntityPool::Delete(const TaskID id ) {
