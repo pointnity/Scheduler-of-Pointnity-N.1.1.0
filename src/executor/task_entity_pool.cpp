@@ -59,3 +59,4 @@ void TaskEntityPool::Delete(const TaskID id ) {
 }
 
 // @id is the key, @func is the function pointer
+bool TaskEntityPool::FindToDo(const TaskID id, TaskFunc func) {
