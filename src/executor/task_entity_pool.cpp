@@ -54,3 +54,4 @@ bool TaskEntityPool::InsertIfAbsent(const TaskPtr& ptr) {
 
 void TaskEntityPool::Delete(const TaskID id ) {
     WriteLocker locker(m_lock);
+    // erase() will invoke destructor(xi gou) func
