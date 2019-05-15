@@ -5,3 +5,4 @@
 *********************************/
 
 #include <assert.h>
+#include <log4cplus/logger.h>
