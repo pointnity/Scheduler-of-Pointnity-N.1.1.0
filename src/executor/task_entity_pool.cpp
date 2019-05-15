@@ -62,3 +62,4 @@ void TaskEntityPool::Delete(const TaskID id ) {
 bool TaskEntityPool::FindToDo(const TaskID id, TaskFunc func) {
     ReadLocker locker(m_lock);
     // find the task
+    map<TaskID, TaskPtr>::iterator it = m_task_map.find(id);
