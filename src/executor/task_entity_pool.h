@@ -32,3 +32,5 @@ public:
 
     // @brief: find a taskentity in map
     bool Find(const TaskPtr& ptr);
+
+    // @brief: insert a taskentity in map
