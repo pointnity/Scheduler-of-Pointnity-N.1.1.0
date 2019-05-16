@@ -28,3 +28,4 @@ public:
     typedef function<void(TaskEntity*)> TaskFunc;
 
     // TODO print all
+    void PrintAll();
