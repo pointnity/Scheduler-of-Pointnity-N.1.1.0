@@ -35,3 +35,5 @@ public:
 
     // @brief: insert a taskentity in map
     void Insert(const TaskPtr& ptr);
+
+    // @brief: delete a taskentity from map
