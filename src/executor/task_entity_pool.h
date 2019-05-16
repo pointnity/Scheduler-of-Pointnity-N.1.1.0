@@ -58,3 +58,6 @@ private:
     // <TaskID(job_id, task_id), executor pointer>
     map<TaskID, TaskPtr> m_task_map;
     RWLock m_lock;
+};
+
+typedef Singleton<TaskEntityPool> TaskPoolI;
