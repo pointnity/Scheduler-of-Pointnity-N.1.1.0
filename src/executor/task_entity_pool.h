@@ -5,3 +5,4 @@
 *********************************/
 
 #ifndef SRC_EXECUTOR_TASKENTITY_POOL_H
+#define SRC_EXECUTOR_TASKENTITY_POOL_H
