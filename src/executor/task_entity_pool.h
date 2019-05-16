@@ -37,3 +37,4 @@ public:
     void Insert(const TaskPtr& ptr);
 
     // @brief: delete a taskentity from map
+    void Delete(const TaskID id);
