@@ -31,3 +31,4 @@ public:
     void PrintAll();
 
     // @brief: find a taskentity in map
+    bool Find(const TaskPtr& ptr);
