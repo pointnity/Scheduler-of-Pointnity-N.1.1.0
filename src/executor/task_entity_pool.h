@@ -29,3 +29,5 @@ public:
 
     // TODO print all
     void PrintAll();
+
+    // @brief: find a taskentity in map
