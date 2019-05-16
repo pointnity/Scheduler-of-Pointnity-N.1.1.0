@@ -53,3 +53,5 @@ public:
     bool KillTaskByID(const TaskID id);
 
     TaskPtr GetTaskPtr(const TaskID id);
+
+private:
