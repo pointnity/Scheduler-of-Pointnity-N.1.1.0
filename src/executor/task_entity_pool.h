@@ -34,3 +34,4 @@ public:
     bool Find(const TaskPtr& ptr);
 
     // @brief: insert a taskentity in map
+    void Insert(const TaskPtr& ptr);
