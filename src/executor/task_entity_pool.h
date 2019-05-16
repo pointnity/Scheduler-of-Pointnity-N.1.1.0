@@ -13,3 +13,4 @@
 #include <tr1/functional>
 
 #include "common/clynn/rwlock.h"
+#include "common/clynn/singleton.h"
