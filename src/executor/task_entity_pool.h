@@ -61,3 +61,5 @@ private:
 };
 
 typedef Singleton<TaskEntityPool> TaskPoolI;
+
+#endif
