@@ -15,3 +15,5 @@
 #include "common/clynn/rwlock.h"
 #include "common/clynn/singleton.h"
 #include "executor/task_entity.h"
+
+using std::map;
