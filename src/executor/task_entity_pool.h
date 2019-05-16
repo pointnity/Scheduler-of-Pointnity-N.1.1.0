@@ -18,3 +18,4 @@
 
 using std::map;
 using std::tr1::function;         // similar to a function pointer;
+using std::tr1::placeholders::_1; // 
