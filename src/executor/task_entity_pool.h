@@ -17,3 +17,4 @@
 #include "executor/task_entity.h"
 
 using std::map;
+using std::tr1::function;         // similar to a function pointer;
