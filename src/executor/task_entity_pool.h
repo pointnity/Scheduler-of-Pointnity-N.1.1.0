@@ -38,3 +38,5 @@ public:
 
     // @brief: delete a taskentity from map
     void Delete(const TaskID id);
+
+    bool InsertIfAbsent(const TaskPtr& ptr);
