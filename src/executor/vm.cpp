@@ -44,3 +44,4 @@ string VM::GetAppName() const {
         return "is not run app";
     string app = m_info.app_info.name;
     if ("" == app)
+        return "no app name";
