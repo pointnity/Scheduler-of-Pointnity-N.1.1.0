@@ -28,3 +28,4 @@ TaskInfo VM::GetTaskInfo() const {
 
 // VMState::type VM::GetState() {
 //    ReadLocker locker(m_lock);
+//    return m_state;
