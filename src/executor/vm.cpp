@@ -10,3 +10,4 @@ using clynn::WriteLocker;
 using clynn::ReadLocker;
 
 // public
+TaskID VM::GetID() const {
