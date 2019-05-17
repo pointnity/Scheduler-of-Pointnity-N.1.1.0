@@ -54,3 +54,4 @@ string VM::GetAppName() const {
 //}
 
 void VM::SetNameByString(string name) {
+    // WriteLocker locker(m_lock);
