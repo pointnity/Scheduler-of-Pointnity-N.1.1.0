@@ -40,3 +40,4 @@ bool VM::IsRun() const {
 }
 
 string VM::GetAppName() const {
+    if (!IsRun())
