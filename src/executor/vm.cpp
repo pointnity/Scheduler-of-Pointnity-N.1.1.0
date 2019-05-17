@@ -50,3 +50,4 @@ string VM::GetAppName() const {
 
 //void VM::SetState(VMState::type state) {
 //    WriteLocker locker(m_lock);
+//    m_state = state;
