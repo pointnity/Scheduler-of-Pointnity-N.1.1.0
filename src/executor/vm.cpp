@@ -5,3 +5,5 @@
 *********************************/
 
 #include "executor/vm.h"
+
+using clynn::WriteLocker;
