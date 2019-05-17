@@ -45,3 +45,4 @@ string VM::GetAppName() const {
     string app = m_info.app_info.name;
     if ("" == app)
         return "no app name";
+    return app;
