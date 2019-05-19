@@ -58,3 +58,4 @@ public:
 
     // key function
     // virtual void SetName();
+    virtual int32_t Execute() = 0; // total entry
