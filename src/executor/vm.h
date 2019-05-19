@@ -13,3 +13,4 @@
 #include "include/proxy.h"
 #include "include/type.h"
 #include "common/clynn/rwlock.h"
+#include "executor/task_entity_pool.h"
