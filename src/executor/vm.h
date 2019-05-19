@@ -20,3 +20,4 @@ using boost::shared_ptr;
 using clynn::RWLock;
 
 class VM {
+public:
