@@ -45,3 +45,5 @@ public:
     //RWLock& GetLock() {
     //    return m_lock;
     // }
+
+    // HbVMInfo GetHbVMInfo();
