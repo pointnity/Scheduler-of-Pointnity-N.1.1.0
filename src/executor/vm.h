@@ -49,3 +49,5 @@ public:
     // HbVMInfo GetHbVMInfo();
 
     bool IsRun() const;
+
+    string GetAppName() const;
