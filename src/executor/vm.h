@@ -29,3 +29,5 @@ public:
     }
 
     ~VM() {}
+
+    TaskID GetID() const;
