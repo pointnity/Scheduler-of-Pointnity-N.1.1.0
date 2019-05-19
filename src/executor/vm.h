@@ -70,3 +70,6 @@ public:
 
     virtual bool Kill() = 0;
 
+    //virtual VMState::type GetState() = 0;
+
+    virtual HbVMInfo GetHbVMInfo() = 0; // get heartbeart
