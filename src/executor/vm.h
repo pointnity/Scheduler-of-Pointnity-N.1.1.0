@@ -47,3 +47,5 @@ public:
     // }
 
     // HbVMInfo GetHbVMInfo();
+
+    bool IsRun() const;
