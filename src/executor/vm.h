@@ -59,3 +59,7 @@ public:
     // key function
     // virtual void SetName();
     virtual int32_t Execute() = 0; // total entry
+
+    virtual int32_t CreateVM() = 0; // create enviroment, kvm or lxc
+
+    //virtual int32_t InstallApp() = 0; // install the app 
