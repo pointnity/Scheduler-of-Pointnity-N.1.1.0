@@ -3,3 +3,5 @@
  Version:  0.1
  Description: virtual machine, include kvm and lxc
 *********************************/
+
+#ifndef SRC_EXECUTOR_VM_H
