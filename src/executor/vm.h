@@ -41,3 +41,5 @@ public:
     // VMState::type GetState();
 
     TaskPtr GetTaskPtr();
+
+    //RWLock& GetLock() {
