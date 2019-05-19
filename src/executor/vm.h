@@ -24,3 +24,4 @@ public:
     // TODO
     explicit VM(const TaskInfo& info) {
         m_id = info.id;
+        m_info = info;
