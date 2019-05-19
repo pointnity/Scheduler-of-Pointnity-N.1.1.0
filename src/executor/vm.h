@@ -77,3 +77,6 @@ public:
     virtual void SetHbVMInfo(const string& hb_vm_info_ad) = 0; // in vm send hb
 
     // general
+
+private:
+    virtual void SetName() = 0;
