@@ -22,3 +22,4 @@ using clynn::RWLock;
 class VM {
 public:
     // TODO
+    explicit VM(const TaskInfo& info) {
