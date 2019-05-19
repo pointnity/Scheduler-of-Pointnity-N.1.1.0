@@ -16,3 +16,4 @@
 #include "executor/task_entity_pool.h"
 
 using std::string;
+using boost::shared_ptr;
