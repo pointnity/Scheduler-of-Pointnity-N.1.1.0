@@ -39,3 +39,5 @@ public:
     TaskInfo GetTaskInfo() const;
 
     // VMState::type GetState();
+
+    TaskPtr GetTaskPtr();
