@@ -87,3 +87,10 @@ private:
     VMType::type m_type; // VM_KVM or VM_LXC
     TaskInfo m_info;   // TODO
     // VMState::type m_state;
+protected:
+    RWLock m_lock;
+
+    // hb and state
+    // HbVMInfo m_hb_vm_info;
+    // time_t m_start_time;
+    // int32_t m_timestamp;
