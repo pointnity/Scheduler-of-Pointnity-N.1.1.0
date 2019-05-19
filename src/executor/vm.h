@@ -25,3 +25,4 @@ public:
     explicit VM(const TaskInfo& info) {
         m_id = info.id;
         m_info = info;
+        m_type = info.type;
