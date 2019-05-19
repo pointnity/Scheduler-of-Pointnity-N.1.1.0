@@ -73,3 +73,7 @@ public:
     //virtual VMState::type GetState() = 0;
 
     virtual HbVMInfo GetHbVMInfo() = 0; // get heartbeart
+
+    virtual void SetHbVMInfo(const string& hb_vm_info_ad) = 0; // in vm send hb
+
+    // general
