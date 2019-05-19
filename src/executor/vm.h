@@ -35,3 +35,5 @@ public:
     string GetName() const;
 
     VMType::type GetVMType() const;
+
+    TaskInfo GetTaskInfo() const;
