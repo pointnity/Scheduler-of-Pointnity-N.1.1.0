@@ -6,3 +6,5 @@
 
 #ifndef SRC_EXECUTOR_VM_H
 #define SRC_EXECUTOR_VM_H
+
+#include <string>
