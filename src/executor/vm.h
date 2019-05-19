@@ -26,3 +26,6 @@ public:
         m_id = info.id;
         m_info = info;
         m_type = info.type;
+    }
+
+    ~VM() {}
