@@ -80,3 +80,6 @@ public:
 
 private:
     virtual void SetName() = 0;
+
+private:
+    TaskID m_id;
