@@ -54,3 +54,4 @@ void VMPool::PrintAll() {
     ReadLocker locker(m_lock);
     printf("vm_pool.cpp\n");
     printf("************ VMs ************\n");
+    for (map<TaskID, VMPtr>::iterator it = m_vm_map.begin();
