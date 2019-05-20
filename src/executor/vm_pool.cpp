@@ -78,3 +78,6 @@ void VMPool::InsertIntoPool(const VMPtr& ptr) {
 void VMPool::InsertIntoQueue(const VMPtr& ptr) {
     WriteLocker locker(m_lock);
     m_queue.push(ptr);
+}
+
+// delete VMPtr from map
