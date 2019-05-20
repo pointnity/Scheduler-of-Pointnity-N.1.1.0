@@ -39,3 +39,4 @@ bool VMPool::Init() {
     if (access(FLAGS_lxc_dir.c_str(), F_OK) == -1) {
         string cmd = "mkdir -p " + FLAGS_lxc_dir;
         int32_t ret = system(cmd.c_str());
+        ret = ret >> 8;
