@@ -25,3 +25,4 @@ DECLARE_string(lxc_dir);
 
 bool VMPool::Init() {
     // check libvirt work dir
+    if (access(FLAGS_libvirt_dir.c_str(), F_OK) == -1) {
