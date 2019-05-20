@@ -20,3 +20,4 @@ using clynn::WriteLocker;
 static Logger logger = Logger::getInstance("executor");
 
 DECLARE_string(libvirt_dir);
+DECLARE_string(lxc_dir);
