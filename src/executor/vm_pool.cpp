@@ -14,3 +14,4 @@
 #include "executor/vm_pool.h"
 
 using log4cplus::Logger;
+using clynn::ReadLocker;
