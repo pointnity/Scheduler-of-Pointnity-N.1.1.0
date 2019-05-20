@@ -75,3 +75,4 @@ void VMPool::InsertIntoPool(const VMPtr& ptr) {
 }
 
 // insert VMPtr into queue
+void VMPool::InsertIntoQueue(const VMPtr& ptr) {
