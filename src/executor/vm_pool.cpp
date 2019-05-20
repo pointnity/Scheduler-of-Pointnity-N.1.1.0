@@ -65,3 +65,6 @@ void VMPool::PrintAll() {
 void VMPool::Insert(const VMPtr& ptr) {
     InsertIntoPool(ptr);
     InsertIntoQueue(ptr);
+}
+
+// insert VMPtr into map
