@@ -12,3 +12,5 @@
 #include "include/classad_attr.h"
 
 #include "executor/vm_pool.h"
+
+using log4cplus::Logger;
