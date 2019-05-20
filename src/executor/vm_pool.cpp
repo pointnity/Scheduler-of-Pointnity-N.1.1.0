@@ -30,3 +30,4 @@ bool VMPool::Init() {
         int32_t ret = system(cmd.c_str());
         ret = ret >> 8;
         if (ret != 0) {
+           LOG4CPLUS_ERROR(logger, "Failed to create libvirt(kvm) work dir: " << FLAGS_libvirt_dir);
