@@ -71,3 +71,4 @@ void VMPool::Insert(const VMPtr& ptr) {
 void VMPool::InsertIntoPool(const VMPtr& ptr) {
     WriteLocker locker(m_lock);
     m_vm_map[ptr->GetID()] = ptr;
+    m_vm_state_map[ptr->GetID()] = true;
