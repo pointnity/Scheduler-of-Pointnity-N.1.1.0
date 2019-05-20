@@ -24,3 +24,4 @@ DECLARE_string(lxc_dir);
 // DECLARE_string(lxc_template);
 
 bool VMPool::Init() {
+    // check libvirt work dir
