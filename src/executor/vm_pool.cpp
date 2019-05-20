@@ -68,3 +68,4 @@ void VMPool::Insert(const VMPtr& ptr) {
 }
 
 // insert VMPtr into map
+void VMPool::InsertIntoPool(const VMPtr& ptr) {
