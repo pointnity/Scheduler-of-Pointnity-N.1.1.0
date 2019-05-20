@@ -8,3 +8,4 @@
 #include <log4cplus/loggingmacros.h>
 
 #include <classad/classad.h>
+#include <classad/classad_distribution.h>
