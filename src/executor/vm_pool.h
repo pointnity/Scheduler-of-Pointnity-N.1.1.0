@@ -14,3 +14,4 @@
 #include <sys/types.h>
 
 #include "common/clynn/singleton.h"
+#include "common/clynn/rwlock.h"
