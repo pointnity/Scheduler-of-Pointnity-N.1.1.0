@@ -30,3 +30,4 @@ using clynn::RWLock;
 class VMPool {
 public:
     // function pointer, from std::tr1::function
+    typedef function<void(VM*)> VMFunc;
