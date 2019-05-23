@@ -61,3 +61,5 @@ public:
 
     // @brief: kill vm by job_id and task_id
     bool KillVMByTaskID(const TaskID id);
+
+    // get VMPtr from 
