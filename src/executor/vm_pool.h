@@ -33,3 +33,4 @@ public:
     typedef function<void(VM*)> VMFunc;
 
     // check & mkdir libvirt & lxc
+    bool Init();
