@@ -20,3 +20,4 @@
 #include "executor/lxc.h"
 
 using std::map;
+using std::queue;
