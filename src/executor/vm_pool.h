@@ -48,3 +48,4 @@ public:
     void InsertIntoQueue(const VMPtr& ptr);
 
     // delete VMPtr from map
+    void DeleteFromPool(const TaskID id);
