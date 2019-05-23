@@ -40,3 +40,5 @@ public:
 
     // insert VMPtr into map and queue
     void Insert(const VMPtr& ptr);
+
+    // insert VMPtr into map
