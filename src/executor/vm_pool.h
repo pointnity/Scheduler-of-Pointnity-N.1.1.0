@@ -31,3 +31,5 @@ class VMPool {
 public:
     // function pointer, from std::tr1::function
     typedef function<void(VM*)> VMFunc;
+
+    // check & mkdir libvirt & lxc
