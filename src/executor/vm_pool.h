@@ -42,3 +42,4 @@ public:
     void Insert(const VMPtr& ptr);
 
     // insert VMPtr into map
+    void InsertIntoPool(const VMPtr& ptr);
