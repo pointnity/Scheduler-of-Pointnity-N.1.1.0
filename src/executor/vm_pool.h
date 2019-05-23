@@ -64,3 +64,31 @@ public:
 
     // get VMPtr from 
     VMPtr GetVMPtr(const TaskID id);
+   
+    // get all HbVMInfo
+    vector<HbVMInfo> GetAllHbVMInfo();
+
+    // process HbKVM
+    bool ProcessHbVMInfo(const string& hb_vm_info);
+
+    double GetAllocatedCPU();
+
+    int32_t GetAllocatedMemory();
+
+    void SetVMStateByTaskID(const TaskID id, bool task_state);
+
+    bool GetVMStateByTaskID(const TaskID id);
+private:
+    RWLock m_lock;
+    RWLock m_new_lock;
+    // task_id, VMPtr
+    map<TaskID, VMPtr> m_vm_map;
+    //task_id, vm_state
+    map<TaskID, bool> m_vm_state_map;
+    // to be processed queue
+    queue<VMPtr> m_queue;
+};
+
+typedef Singleton<VMPool> VMPoolI;
+
+#endif 
