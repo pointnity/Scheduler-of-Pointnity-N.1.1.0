@@ -46,3 +46,5 @@ public:
 
     // insert VMPtr into queue
     void InsertIntoQueue(const VMPtr& ptr);
+
+    // delete VMPtr from map
