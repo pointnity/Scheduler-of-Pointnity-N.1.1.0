@@ -10,3 +10,4 @@
 #include <map>
 #include <queue>
 #include <vector>
+#include <tr1/functional>
