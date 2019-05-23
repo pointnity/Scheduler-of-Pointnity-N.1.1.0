@@ -18,3 +18,5 @@
 #include "executor/vm.h"
 #include "executor/kvm.h"
 #include "executor/lxc.h"
+
+using std::map;
