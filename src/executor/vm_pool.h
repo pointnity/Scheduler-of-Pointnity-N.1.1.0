@@ -39,3 +39,4 @@ public:
     void PrintAll();
 
     // insert VMPtr into map and queue
+    void Insert(const VMPtr& ptr);
