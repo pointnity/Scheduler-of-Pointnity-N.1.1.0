@@ -31,3 +31,4 @@ void* TaskProcessor(void* unused) {
         TaskPoolI::Instance()->StartTask();
         usleep(1000);
     }
+    return NULL;
