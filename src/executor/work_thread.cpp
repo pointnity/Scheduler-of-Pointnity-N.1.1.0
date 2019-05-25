@@ -55,3 +55,4 @@ void* HeartbeatProcessor(void* unused) {
        //printf("%s\n", hb_str.c_str());
        if (FLAGS_resource_scheduler_up) {
            try {
+               Proxy<ResourceSchedulerClient> proxy = RpcClient<ResourceSchedulerClient>::GetProxy(FLAGS_resource_scheduler_endpoint);
