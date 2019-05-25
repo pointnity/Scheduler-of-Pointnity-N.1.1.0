@@ -41,3 +41,4 @@ void* VMProcessor(void* unused) {
         VMPoolI::Instance()->StartVM();
         usleep(1000*100);
     }
+    return NULL;
