@@ -42,3 +42,6 @@ void* VMProcessor(void* unused) {
         usleep(1000*100);
     }
     return NULL;
+}
+
+// thread, send heartbeat periodically
