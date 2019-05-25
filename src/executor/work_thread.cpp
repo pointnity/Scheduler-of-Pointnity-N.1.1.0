@@ -56,3 +56,4 @@ void* HeartbeatProcessor(void* unused) {
        if (FLAGS_resource_scheduler_up) {
            try {
                Proxy<ResourceSchedulerClient> proxy = RpcClient<ResourceSchedulerClient>::GetProxy(FLAGS_resource_scheduler_endpoint);
+               proxy().NewUpdateMachine(hb_str, task_list);
