@@ -53,3 +53,4 @@ void* HeartbeatProcessor(void* unused) {
        ResourceMgrI::Instance()->GenerateHb(hb_str, task_list); 
        // TODO
        //printf("%s\n", hb_str.c_str());
+       if (FLAGS_resource_scheduler_up) {
