@@ -54,3 +54,4 @@ void* HeartbeatProcessor(void* unused) {
        // TODO
        //printf("%s\n", hb_str.c_str());
        if (FLAGS_resource_scheduler_up) {
+           try {
