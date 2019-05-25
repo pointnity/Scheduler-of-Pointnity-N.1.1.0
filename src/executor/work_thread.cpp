@@ -13,3 +13,4 @@
 #include "common/clynn/rpc.h"
 
 #include "task_entity_pool.h"
+#include "vm_pool.h"
