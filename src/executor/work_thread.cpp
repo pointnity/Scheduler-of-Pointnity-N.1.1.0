@@ -45,3 +45,4 @@ void* VMProcessor(void* unused) {
 }
 
 // thread, send heartbeat periodically
+void* HeartbeatProcessor(void* unused) {
