@@ -60,3 +60,13 @@ void* HeartbeatProcessor(void* unused) {
 	       //counter = 0;
            } catch (TException &tx) {
                //LOG4CPLUS_ERROR(logger, "send heartbeat error: " << tx.what());
+	       /*counter ++;
+	       if (counter == 3) {
+		   LOG4CPLUS_INFO(logger, "Over 3 times faile of send heartbeat to ResourceScheduler");
+		   exit(1);
+		}
+		*/
+	   }
+       }
+       sleep(FLAGS_hb_interval);
+    }
