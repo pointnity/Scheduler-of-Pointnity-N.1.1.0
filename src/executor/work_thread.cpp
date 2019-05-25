@@ -46,3 +46,4 @@ void* VMProcessor(void* unused) {
 
 // thread, send heartbeat periodically
 void* HeartbeatProcessor(void* unused) {
+    //int32_t counter = 0;
