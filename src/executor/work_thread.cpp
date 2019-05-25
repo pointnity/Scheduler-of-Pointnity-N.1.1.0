@@ -11,3 +11,5 @@
 
 #include "include/proxy.h"
 #include "common/clynn/rpc.h"
+
+#include "task_entity_pool.h"
