@@ -6,3 +6,5 @@ extern "C" {
 #endif
 
 int ABC();
+
+#ifdef __cplusplus
