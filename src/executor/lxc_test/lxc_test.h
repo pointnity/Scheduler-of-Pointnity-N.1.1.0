@@ -2,3 +2,4 @@
 #define F_H
 
 #ifdef __cplusplus
+extern "C" {
