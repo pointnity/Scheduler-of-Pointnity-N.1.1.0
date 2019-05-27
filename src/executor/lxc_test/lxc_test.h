@@ -8,3 +8,4 @@ extern "C" {
 int ABC();
 
 #ifdef __cplusplus
+}
