@@ -29,3 +29,4 @@ ${CMAKE_SOURCE_DIR}/src/proxy/ResourceScheduler
 )
 
 SET(EXECUTOR_THRIFT_SOURCE
+    ${THRIFT_SOURCE_PREFIX}/executor/gen-cpp/executor_constants.h
