@@ -49,3 +49,7 @@ ADD_CUSTOM_COMMAND (
     # ../common/clynn/thread.cpp)
 
 ## hdfs ##
+# HOME
+# SET(HADOOP_DIR /home/wm/work/hadoop/hadoop-1.0.4)
+# SET(JAVA_HOME /usr/lib/java/jdk1.7.0_40)
+# -I
