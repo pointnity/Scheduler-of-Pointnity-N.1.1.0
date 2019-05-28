@@ -66,3 +66,28 @@ INCLUDE_DIRECTORIES(${JNI_INCLUDE_DIRS})  # for jni.h, jni.h use in /usr/local/i
 # -L
 LINK_DIRECTORIES(${JVM_LIBRARAY_DIR})
 LINK_DIRECTORIES(${CMAKE_SOURCE_DIR}/third_party/hdfs/lib64)
+
+
+
+SET(SRC 
+    ${RESOURCE_SCHEDULER_THRIFT_SOURCE}
+    config.cpp
+    restart_executor.cpp
+    hdfs_wrapper.cpp
+    work_thread.cpp
+    checker.cpp
+    main.cpp)
+
+ADD_EXECUTABLE(executor_monitor ${SRC})
+
+TARGET_LINK_LIBRARIES(executor_monitor pthread)
+TARGET_LINK_LIBRARIES(executor_monitor thrift)
+TARGET_LINK_LIBRARIES(executor_monitor log4cplus)
+TARGET_LINK_LIBRARIES(executor_monitor gflags)
+TARGET_LINK_LIBRARIES(executor_monitor classad)
+# hdfs
+TARGET_LINK_LIBRARIES(executor_monitor hdfs)
+TARGET_LINK_LIBRARIES(executor_monitor jvm)
+
+
+INSTALL(TARGETS executor_monitor RUNTIME DESTINATION bin)
