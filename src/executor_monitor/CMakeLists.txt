@@ -63,3 +63,4 @@ ADD_CUSTOM_COMMAND (
 ## hdfs new ##
 # -I
 INCLUDE_DIRECTORIES(${JNI_INCLUDE_DIRS})  # for jni.h, jni.h use in /usr/local/include/hdfs/hdfs.h
+# -L
