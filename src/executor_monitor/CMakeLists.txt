@@ -53,3 +53,4 @@ ADD_CUSTOM_COMMAND (
 # SET(HADOOP_DIR /home/wm/work/hadoop/hadoop-1.0.4)
 # SET(JAVA_HOME /usr/lib/java/jdk1.7.0_40)
 # -I
+# INCLUDE_DIRECTORIES($ENV{HADOOP_DIR}/src/c++/libhdfs)
