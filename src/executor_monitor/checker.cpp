@@ -87,3 +87,61 @@ bool Checker::UpdateExecutorFromHdfs() {
     if (getcwd(cur_dir, sizeof(cur_dir)-1) == NULL) {
         LOG4CPLUS_ERROR(logger, "Failed to get current dir.");
 	return false;
+    }
+    string executor_dir(cur_dir);
+    std::cout << "executor local path:" << executor_dir << "\nexecutor hdfs path:" << FLAGS_executor_hdfs_path <<std::endl;
+    //rm old executor
+    string cmd_rm = "rm -rf " + executor_dir + "/executor";
+    system(cmd_rm.c_str());
+
+    //open hdfs	
+    HDFSMgrI::Instance()->OpenConnect();
+    if(false == HDFSMgrI::Instance()->CopyToLocalFile(FLAGS_executor_hdfs_path, executor_dir)){
+        LOG4CPLUS_ERROR(logger, "copy hdfs imge to local error");
+        //fprintf(stderr, "copy local image to hdfs error");
+        return false;
+    }
+    //close hdfs
+    HDFSMgrI::Instance()->CloseConnect();
+
+    string executor_file = executor_dir + "/executor";
+    ifstream in_file(executor_file.c_str(), ios::in);
+    //open file error ?
+    if(!in_file){
+        LOG4CPLUS_ERROR(logger, "executor file is no exist.");
+        return false;
+    }
+
+    //add write mode to executor
+    string cmd = "chmod +x  " + executor_dir + "/executor";
+    std::cout<<"chmod cmd:"<<cmd<<std::endl;
+    system(cmd.c_str());
+    std::cout<< "executor update from hdfs finished"<<std::endl;
+    return true;
+}
+
+bool Checker::IsProcess(const string& process_name) {
+    FILE* fp;
+    char buf[256];
+    string cmd;
+    int count;
+    string name = process_name;
+    cmd = "ps -C " + name +" |wc -l";
+    if((fp=popen(cmd.c_str(), "r")) == NULL) {
+	LOG4CPLUS_ERROR(logger, "popen error");
+	return false;
+    }
+
+    if((fgets(buf, 128, fp))!= NULL ) {
+	count = atoi(buf);
+	if(count-1 == 1) {
+	    return true;
+	} else {
+	    LOG4CPLUS_ERROR(logger, "process not find");
+	    return false;
+	}
+    } else {
+	LOG4CPLUS_ERROR(logger, "get process num from file  error");
+	return false;
+    }
+}
