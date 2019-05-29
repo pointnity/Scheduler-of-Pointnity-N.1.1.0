@@ -25,3 +25,4 @@
 
 DECLARE_string(resource_scheduler_endpoint);
 DECLARE_string(lynn_version);
+DECLARE_string(executor_hdfs_path);
