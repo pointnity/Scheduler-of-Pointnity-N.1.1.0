@@ -51,3 +51,4 @@ bool Checker::CheckVersion() {
              LOG4CPLUS_ERROR(logger, "executor version is error, old_version:" << FLAGS_lynn_version << "  new_version:" << new_lynn_version);
 	     FLAGS_lynn_version = new_lynn_version;     	
 	     //update executor from hdfs
+             if(UpdateExecutorFromHdfs() == false) {
