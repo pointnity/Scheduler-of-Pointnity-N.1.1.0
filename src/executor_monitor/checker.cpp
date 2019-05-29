@@ -52,3 +52,4 @@ bool Checker::CheckVersion() {
 	     FLAGS_lynn_version = new_lynn_version;     	
 	     //update executor from hdfs
              if(UpdateExecutorFromHdfs() == false) {
+                return false;
