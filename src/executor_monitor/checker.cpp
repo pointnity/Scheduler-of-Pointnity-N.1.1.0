@@ -24,3 +24,4 @@
 #include "executor_monitor/hdfs_wrapper.h"
 
 DECLARE_string(resource_scheduler_endpoint);
+DECLARE_string(lynn_version);
