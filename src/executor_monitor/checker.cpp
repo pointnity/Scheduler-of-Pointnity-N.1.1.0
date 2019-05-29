@@ -53,3 +53,8 @@ bool Checker::CheckVersion() {
 	     //update executor from hdfs
              if(UpdateExecutorFromHdfs() == false) {
                 return false;
+             }
+
+	     string executor_conf_file = executor_dir + "/../conf/executor.conf";
+	     
+             string cmd_del = "sed -i '/lynn_version/d' " + executor_conf_file;
