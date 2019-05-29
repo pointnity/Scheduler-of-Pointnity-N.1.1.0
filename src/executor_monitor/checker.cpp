@@ -10,3 +10,5 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <fcntl.h>
+
+#include <log4cplus/logger.h>
