@@ -65,3 +65,4 @@ bool Checker::CheckVersion() {
              system(cmd_write.c_str());
         } else {
 		string executor_file = executor_dir + "/executor";
+    		ifstream in_file(executor_file.c_str(), ios::in);
