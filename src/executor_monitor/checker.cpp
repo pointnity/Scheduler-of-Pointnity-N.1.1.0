@@ -45,3 +45,4 @@ bool Checker::CheckVersion() {
     string executor_dir(cur_dir);
 
     try {
+        Proxy<ResourceSchedulerClient> proxy = RpcClient<ResourceSchedulerClient>::GetProxy(FLAGS_resource_scheduler_endpoint);
