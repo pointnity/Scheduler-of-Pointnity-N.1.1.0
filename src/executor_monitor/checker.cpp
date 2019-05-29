@@ -63,3 +63,4 @@ bool Checker::CheckVersion() {
              string cmd_write = "echo  --lynn_version=" + FLAGS_lynn_version  + " >> " + executor_conf_file;	
 	     std::cout << "cmd write:" << cmd_write << std::endl;
              system(cmd_write.c_str());
+        } else {
