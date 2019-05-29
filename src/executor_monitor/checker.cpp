@@ -30,3 +30,7 @@ DECLARE_string(executor_hdfs_path);
 
 using log4cplus::Logger;
 using namespace std;
+
+static Logger logger = Logger::getInstance("executor_monitor");
+
+bool Checker::CheckVersion() {
