@@ -17,3 +17,5 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+
+#include "include/proxy.h"
