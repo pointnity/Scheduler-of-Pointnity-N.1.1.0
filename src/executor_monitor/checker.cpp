@@ -36,3 +36,4 @@ static Logger logger = Logger::getInstance("executor_monitor");
 bool Checker::CheckVersion() {
     // check executor version
     string new_lynn_version;
+    //update executor version in executor.conf
