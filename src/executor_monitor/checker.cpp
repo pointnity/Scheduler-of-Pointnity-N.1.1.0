@@ -29,3 +29,4 @@ DECLARE_string(executor_hdfs_path);
 
 
 using log4cplus::Logger;
+using namespace std;
