@@ -18,3 +18,5 @@ public:
 private:
     bool UpdateExecutorFromHdfs();
 };
+
+#endif  
