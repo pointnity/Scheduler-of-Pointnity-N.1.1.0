@@ -16,3 +16,4 @@ public:
     bool IsProcess(const string& process_name);
 
 private:
+    bool UpdateExecutorFromHdfs();
