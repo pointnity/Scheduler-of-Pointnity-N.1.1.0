@@ -13,3 +13,4 @@ using std::string;
 class Checker {
 public:
     bool CheckVersion();
+    bool IsProcess(const string& process_name);
