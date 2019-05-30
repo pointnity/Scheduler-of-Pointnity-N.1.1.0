@@ -12,3 +12,4 @@ using std::string;
 
 class Checker {
 public:
+    bool CheckVersion();
