@@ -8,3 +8,4 @@
 #define SRC_EXECUTOR_CHECKER_H
 
 #include <string>
+using std::string;
