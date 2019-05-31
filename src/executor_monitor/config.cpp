@@ -11,3 +11,6 @@ DEFINE_string(log_path, "../log/", "executor log path");
 DEFINE_string(hdfs_host, "localhost", "hdfs local host name, uname -n");
 DEFINE_int32(hdfs_port, 9000, "hdfs default port");
 DEFINE_int32(hb_interval, 5, "  ");
+
+
+DEFINE_string(lynn_version, "", "executor version");
