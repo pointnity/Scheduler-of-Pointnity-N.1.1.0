@@ -14,3 +14,4 @@ DEFINE_int32(hb_interval, 5, "  ");
 
 
 DEFINE_string(lynn_version, "", "executor version");
+DEFINE_string(executor_hdfs_path, "/lynn/bin/executor", "executor dir in hdfs");
