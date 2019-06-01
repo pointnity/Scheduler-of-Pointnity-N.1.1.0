@@ -76,3 +76,6 @@ bool HDFSWrapper::CloseConnect() {
     
     return true;
 }
+
+bool HDFSWrapper::CopyFromLocalFile(const string src, const string dst) {
+    if (0 != hdfsCopy(m_local_fs, src.c_str(), m_h_fs, dst.c_str())) {
