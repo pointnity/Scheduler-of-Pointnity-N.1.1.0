@@ -17,3 +17,6 @@ static Logger logger = Logger::getInstance("executor_monitor");
 
 DECLARE_string(hdfs_host);
 DECLARE_int32(hdfs_port);
+
+
+bool HDFSWrapper::OpenConnect() {
