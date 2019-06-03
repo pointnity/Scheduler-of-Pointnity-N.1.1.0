@@ -8,3 +8,5 @@
 #include <sys/stat.h>
 #include <sys/wait.h>
 #include <unistd.h>
+
+#include <log4cplus/logger.h>
