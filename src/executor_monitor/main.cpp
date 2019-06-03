@@ -65,3 +65,37 @@ int ExecutorMonitorEntity(int argc, char **argv) {
 
     pthread_t em_t;
     pthread_create(&em_t, NULL, ExecutorMonitorProcessor, NULL);
+
+    cout << "Executor Monitor is OK." << endl;
+
+    while(true) {
+
+    }
+
+    return EXIT_SUCCESS;
+}
+
+int main(int argc, char **argv) {
+    // is root?
+    if (geteuid() != 0) {
+        fprintf(stderr, "Executor: must be run as root, or sudo run it.\n");
+        return EXIT_FAILURE;
+    }
+
+    ExecutorMonitorEntity(argc, argv);
+    // monitor ExecutorEntity
+    /* while(true) {
+        int32_t status;
+        int32_t pid = fork();
+        if (pid != 0) {
+            // parent process, start executorEntity when ExecutorEntity fail
+            if (waitpid(pid, &status, 0) > 0) {
+                continue;
+            }
+        } else {
+            // child process
+            ExecutorEntity(argc, argv);
+        }
+    }*/
+    return EXIT_SUCCESS;
+}
