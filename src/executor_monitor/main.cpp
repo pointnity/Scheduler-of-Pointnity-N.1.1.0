@@ -40,3 +40,4 @@ DECLARE_string(log_path);
 DECLARE_string(hdfs_host);
 
 //extern void* TaskProcessor(void* unused);
+extern void* ExecutorMonitorProcessor(void* unused);
