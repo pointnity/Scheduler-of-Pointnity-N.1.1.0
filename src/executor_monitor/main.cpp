@@ -16,3 +16,5 @@
 #include <log4cplus/consoleappender.h>
 #include <log4cplus/layout.h>
 #include <gflags/gflags.h>
+
+#include "common/clynn/rpc.h"
