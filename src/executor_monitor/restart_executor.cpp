@@ -4,3 +4,4 @@
  Description: restart executor 
 *********************************/
 #include <stdlib.h>
+#include <log4cplus/logger.h>
