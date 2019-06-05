@@ -24,3 +24,4 @@ static Logger logger = Logger::getInstance("executor_monitor");
 
 bool RestartExecutor::CheckVersionRestartExecutor() {
     //check version
+    Checker* checkerptr = new Checker();
