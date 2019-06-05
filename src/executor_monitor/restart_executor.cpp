@@ -33,3 +33,4 @@ bool RestartExecutor::CheckVersionRestartExecutor() {
 	return false;
     }
     //restart executor
+    // get current dir
