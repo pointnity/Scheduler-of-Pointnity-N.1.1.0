@@ -29,3 +29,4 @@ bool RestartExecutor::CheckVersionRestartExecutor() {
     delete checkerptr;
 
     if(rt != true) {
+	LOG4CPLUS_ERROR(logger, "Failed to check executor version.");
