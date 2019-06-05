@@ -17,3 +17,5 @@
 
 #include "executor_monitor/restart_executor.h"
 #include "executor_monitor/checker.h"
+
+using log4cplus::Logger;
