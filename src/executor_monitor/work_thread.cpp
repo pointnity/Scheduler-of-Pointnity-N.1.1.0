@@ -30,3 +30,5 @@ void* ExecutorMonitorProcessor(void* unused) {
 	    RestartExecutor* ptr = new RestartExecutor();
 	    ptr->CheckVersionRestartExecutor();
 	    delete ptr;	
+       }
+       delete checkerptr;
