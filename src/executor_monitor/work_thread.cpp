@@ -25,3 +25,4 @@ static Logger logger = Logger::getInstance("executor_monitor");
 void* ExecutorMonitorProcessor(void* unused) {
     while(true) {
        //executor is exist ?
+       Checker* checkerptr = new Checker();
