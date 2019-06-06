@@ -22,3 +22,4 @@ DECLARE_int32(hb_interval);
 static Logger logger = Logger::getInstance("executor_monitor");
 
 // thread, monitor executor
+void* ExecutorMonitorProcessor(void* unused) {
