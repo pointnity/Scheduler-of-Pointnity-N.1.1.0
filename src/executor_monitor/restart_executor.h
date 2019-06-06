@@ -8,3 +8,5 @@
 #define SRC_EXECUTOR_MONITOR_RESTART_EXECUTOR_H
 
 #include <string>
+
+class RestartExecutor {
