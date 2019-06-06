@@ -29,3 +29,4 @@ void* ExecutorMonitorProcessor(void* unused) {
        if((checkerptr->IsProcess("executor")) == false) {
 	    RestartExecutor* ptr = new RestartExecutor();
 	    ptr->CheckVersionRestartExecutor();
+	    delete ptr;	
