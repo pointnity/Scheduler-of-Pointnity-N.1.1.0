@@ -27,3 +27,4 @@ static const string ATTR_OS = "OS";
 // -- only for kvm
 static const string ATTR_IMG = "IMG";
 static const string ATTR_ISO = "ISO";
+static const string ATTR_SIZE = "SIZE";
