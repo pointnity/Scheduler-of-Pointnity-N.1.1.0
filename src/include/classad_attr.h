@@ -43,3 +43,4 @@ static const string ATTR_APP_OUT_DIR = "OUT_DIR";
 static const string ATTR_INSTALL_DIR = "INSTALL_DIR";
 static const string ATTR_EXE_PATH = "EXE_PATH";
 static const string ATTR_ARGUMENT = "ATTR_ARGUMENT";
+static const string ATTR_STOP_PATH = "STOP_PATH";
