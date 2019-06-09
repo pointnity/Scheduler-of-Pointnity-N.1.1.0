@@ -35,3 +35,5 @@ static const string ATTR_RPC_RUNNING = "RPC_RUNNING";
 static const string ATTR_APP_ID = "APP_ID";
 static const string ATTR_APP_NAME = "APP_NAME";
 static const string ATTR_APP_FILE = "APP_FILE";
+
+// -- outside vm, hdfs
