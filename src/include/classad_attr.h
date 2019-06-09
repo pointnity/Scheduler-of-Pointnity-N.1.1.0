@@ -50,3 +50,67 @@ static const string ATTR_EXE = "EXE";
 
 /// @brief: Register MachineInfo
 static const string ATTR_Machine = "Machine";
+static const string ATTR_MachineType = "MachineType";
+static const string ATTR_Shelf = "Shelf";
+static const string ATTR_Machine_IP = "IP";
+static const string ATTR_Port = "Port";
+static const string ATTR_Arch = "Arch";
+static const string ATTR_OpSys = "OpSys";
+static const string ATTR_TotalCPUNum = "TotalCPUNum";
+static const string ATTR_TotalMemory = "TotalMemory";
+static const string ATTR_TotalDisk = "TotalDisk";
+static const string ATTR_AvailCPUNum = "AvailCPUNum";
+static const string ATTR_AvailMemory = "AvailMemory";
+static const string ATTR_AvailDisk = "AvailDisk";
+static const string ATTR_BandWidth = "BandWidth";
+static const string ATTR_NICType = "NICType";
+static const string ATTR_LOAD_AVG = "LoadAvg";
+static const string ATTR_Image = "Image";
+
+static const string ATTR_AVAIL_CPU = "AvailCPUNum";
+static const string ATTR_AVAIL_MEMORY = "AvailMemory";
+
+
+static const string ATTR_JOB_TYPE = "JobType";
+static const string ATTR_GROUP = "Group";
+static const string ATTR_PRIO = "Priority";
+static const string ATTR_SCHED_MODEL = "SchedModel";
+static const string ATTR_TOTAL_TASKS = "TotalTasks";
+static const string ATTR_NEED_CPU = "NeedCPU";
+static const string ATTR_NEED_MEMORY = "NeedMemory";
+static const string ATTR_TIMEOUT = "Timeout";
+// static const string ATTR_EXE_PATH = "Exepath";
+static const string ATTR_JOB_RANK = "JobRank";
+static const string ATTR_JOB_REQUIREMENT = "JobRequirement";
+
+static const string ATTR_MACHINE_STATUS = "MachineStatus";
+static const string ATTR_TASK_STATUS = "TaskStatus";
+static const string ATTR_TASK_START_TIME = "TaskStartTime";
+
+static const string ATTR_TASK_RANK = "TaskRank";
+static const string ATTR_TASK_REQUIREMENT = "TaskRequirement";
+static const string ATTR_HARD_REQUIREMENT = "HardRequirement";
+static const string ATTR_SOFT_REQUIREMENT = "SoftRequirement";
+static const string ATTR_SOFT_VALUE = "SoftValue";
+
+
+static const string EXP_TASK_RANK = ATTR_VCPU + "/" + ATTR_AvailCPUNum + " > 1.0*" + ATTR_MEMORY + "/" + ATTR_AvailMemory + " ? " + ATTR_VCPU + "/" + ATTR_AvailCPUNum + ": 1.0*" + ATTR_MEMORY+ "/" + ATTR_AvailMemory;
+static const string EXP_TASK_REQUIREMENT = ATTR_VCPU + " <=" + ATTR_AvailCPUNum  + "&&" +  ATTR_MEMORY + "<=" +  ATTR_AvailMemory;
+
+//image info
+static const string ATTR_IMAGE_NAME = "IMAGE_NAME";
+static const string ATTR_IMAGE_SIZE = "IMAGE_SIZE";
+static const string ATTR_IMAGE_USER = "IMAGE_USER";
+
+//vm hb
+static const string ATTR_VMHB_CPU = "VMHB_CPU";
+static const string ATTR_VMHB_MEMORY = "VMHB_MEMORY";
+static const string ATTR_VMHB_BYTES_IN = "VMHB_BYTES_IN";
+static const string ATTR_VMHB_BYTES_OUT = "VMHB_BYTES_OUT";
+static const string ATTR_VMHB_STATE = "VMHB_STATE";
+
+static const string ATTR_JOB_ID_RS = "JOB_ID_RS";
+static const string ATTR_TASK_ID_RS = "TASK_ID_RS";
+
+
+#endif
