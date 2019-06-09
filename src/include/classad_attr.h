@@ -49,3 +49,4 @@ static const string ATTR_EXE = "EXE";
 
 
 /// @brief: Register MachineInfo
+static const string ATTR_Machine = "Machine";
