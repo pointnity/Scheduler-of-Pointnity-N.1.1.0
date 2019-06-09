@@ -25,3 +25,4 @@ static const string ATTR_IP = "IP";
 static const string ATTR_PORT = "PORT";
 static const string ATTR_OS = "OS";
 // -- only for kvm
+static const string ATTR_IMG = "IMG";
