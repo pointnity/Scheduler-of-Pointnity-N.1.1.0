@@ -23,3 +23,4 @@ static const string ATTR_MEMORY = "MEMORY";
 static const string ATTR_VCPU = "VCPU";
 static const string ATTR_IP = "IP";
 static const string ATTR_PORT = "PORT";
+static const string ATTR_OS = "OS";
