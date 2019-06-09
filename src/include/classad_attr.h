@@ -19,3 +19,4 @@ static const string ATTR_IS_RUN = "IS_RUN";
 static const string ATTR_USER = "USER";
 
 // task vminfo
+static const string ATTR_MEMORY = "MEMORY";
