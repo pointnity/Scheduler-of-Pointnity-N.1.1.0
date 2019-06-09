@@ -14,3 +14,4 @@ using std::string;
 // task info overview
 static const string ATTR_JOB_ID = "JOB_ID";
 static const string ATTR_TASK_ID = "TASK_ID";
+static const string ATTR_VMTYPE = "VMTYPE";
