@@ -10,3 +10,5 @@
 #include "proxy/JobsManager/gen-cpp/JobsManager.h"
 
 #include "proxy/ResourceScheduler/gen-cpp/ResourceScheduler.h"
+
+#include "proxy/executor/gen-cpp/Executor.h"
