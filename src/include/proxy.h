@@ -5,3 +5,4 @@
 *********************************/
 
 #ifndef INCLUDE_PROXY_H
+#define INCLUDE_PROXY_H
