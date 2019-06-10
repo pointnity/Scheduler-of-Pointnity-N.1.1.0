@@ -8,3 +8,5 @@
 #define INCLUDE_PROXY_H
 
 #include "proxy/JobsManager/gen-cpp/JobsManager.h"
+
+#include "proxy/ResourceScheduler/gen-cpp/ResourceScheduler.h"
