@@ -66,3 +66,4 @@ struct VMInfo {
     // only for kvm 
     string img_template;
     string iso_location;
+    int32_t size;
