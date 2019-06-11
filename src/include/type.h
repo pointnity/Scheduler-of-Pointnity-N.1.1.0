@@ -81,3 +81,6 @@ struct TaskInfo {
     string user;
     int32_t timeout;
     AppInfo app_info;
+};
+
+struct HbVMInfo {
