@@ -73,3 +73,4 @@ struct VMInfo {
 
 struct TaskInfo {
     TaskID id;
+    // vm resource
