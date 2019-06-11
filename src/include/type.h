@@ -89,3 +89,25 @@ struct HbVMInfo {
     VMType::type type;
     double cpu_usage;
     double memory_usage;
+    int32_t bytes_in;
+    int32_t bytes_out;
+    AppState::type app_state;
+};
+
+struct HbMachineInfo {
+    string ip;
+    int32_t port;
+    double cpu_usage;
+    double memory_usage;
+    int32_t bytes_in;
+    int32_t bytes_out;
+    vector<HbVMInfo> hb_vminfo_list;
+};
+
+// for resource manager
+struct AllocResource {
+    int32_t cpu;
+    int32_t memory;
+};
+
+#endif
