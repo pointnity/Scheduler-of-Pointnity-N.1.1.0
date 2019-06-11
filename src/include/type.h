@@ -64,3 +64,4 @@ struct VMInfo {
     string os;
 
     // only for kvm 
+    string img_template;
