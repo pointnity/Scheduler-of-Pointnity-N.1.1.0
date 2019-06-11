@@ -45,3 +45,4 @@ struct AppInfo {
     string app_out_dir;   // result out dir
 
     // inside vm
+    string install_dir;  // install directory in VM
