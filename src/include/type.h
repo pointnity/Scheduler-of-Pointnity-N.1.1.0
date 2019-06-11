@@ -23,3 +23,6 @@ using std::vector;
 struct TaskID {
     int32_t job_id;
     int32_t task_id;
+    
+    // overwrite comparison operators
+    bool operator <(const TaskID& other) const  {
