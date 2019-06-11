@@ -51,3 +51,6 @@ struct AppInfo {
     string argument; 
     string stop_path;    // stop
     string out_dir;
+};
+
+// resource vm
