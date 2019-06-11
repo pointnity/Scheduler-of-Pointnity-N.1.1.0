@@ -35,3 +35,4 @@ struct TaskID {
 };
 
 // app
+struct AppInfo {
