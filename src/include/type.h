@@ -30,3 +30,4 @@ struct TaskID {
            return true;
        else if (job_id == other.job_id)
            return task_id < other.task_id;
+       return false;
