@@ -50,3 +50,4 @@ struct AppInfo {
     string exe_path;     // execute path
     string argument; 
     string stop_path;    // stop
+    string out_dir;
