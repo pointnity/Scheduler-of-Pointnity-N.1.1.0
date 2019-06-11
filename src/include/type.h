@@ -40,3 +40,4 @@ struct AppInfo {
     string name;
     // string os;
     // outside vm, hdfs
+    string app_file;  
