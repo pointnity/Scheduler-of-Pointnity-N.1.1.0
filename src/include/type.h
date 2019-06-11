@@ -47,3 +47,4 @@ struct AppInfo {
     // inside vm
     string install_dir;  // install directory in VM
     string exe;          //exe and argument
+    string exe_path;     // execute path
