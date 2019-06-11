@@ -17,3 +17,4 @@
 #include "include/proxy.h"
 
 using std::string;
+using std::vector;
