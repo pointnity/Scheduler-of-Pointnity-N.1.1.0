@@ -17,3 +17,4 @@ struct TaskStateInfo {
 struct GroupStateInfo {
     1:string name,
     2:i32 quota_shares,
+    3:double quota_pct,
