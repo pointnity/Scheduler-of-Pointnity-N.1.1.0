@@ -9,3 +9,4 @@ struct TaskStateInfo {
     3:i32 state,
     4:string machine_ip,
     5:i32 restart_times,
+    6:i32 failed_times,
