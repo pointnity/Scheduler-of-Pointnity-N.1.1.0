@@ -15,3 +15,4 @@ struct TaskStateInfo {
 }
 
 struct GroupStateInfo {
+    1:string name,
