@@ -11,3 +11,4 @@ struct TaskStateInfo {
     5:i32 restart_times,
     6:i32 failed_times,
     7:i32 timeout_times,
+    8:i32 missed_times,    
