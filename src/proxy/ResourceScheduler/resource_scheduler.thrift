@@ -21,3 +21,4 @@ enum RSEventType {
 service ResourceScheduler {
     string GetCurVersion();
     i32 RegistMachine(1: string ip, 3: string version),
+    i32 UpdateMachine(1: string heartbeat_ad),
