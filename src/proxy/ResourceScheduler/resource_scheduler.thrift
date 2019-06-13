@@ -24,3 +24,4 @@ service ResourceScheduler {
     i32 UpdateMachine(1: string heartbeat_ad),
     i32 NewUpdateMachine(1: string heartbeat_ad, 2: list<string> task_list),
     i32 DeleteMachine(1: string ip),
+    MultiD_Resource GetTotalResource(),
