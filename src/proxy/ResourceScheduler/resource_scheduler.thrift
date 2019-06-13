@@ -23,3 +23,4 @@ service ResourceScheduler {
     i32 RegistMachine(1: string ip, 3: string version),
     i32 UpdateMachine(1: string heartbeat_ad),
     i32 NewUpdateMachine(1: string heartbeat_ad, 2: list<string> task_list),
+    i32 DeleteMachine(1: string ip),
