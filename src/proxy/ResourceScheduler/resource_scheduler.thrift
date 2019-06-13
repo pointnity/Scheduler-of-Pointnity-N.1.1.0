@@ -30,3 +30,4 @@ service ResourceScheduler {
     string QueryMachine(1: string machine),
     list<string> ListAllMachines(),  
     list<string> Negotiate(1: string requeset),
+    list<string> GetMachineListByImageInfo(1: string user, 2: string name, 3: i32 size, 4: bool is_update_all),
