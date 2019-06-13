@@ -8,3 +8,4 @@ enum MachineError {
 
 struct MultiD_Resource {
     1: i32 total_cpu,
+    2: i32 total_memory,
