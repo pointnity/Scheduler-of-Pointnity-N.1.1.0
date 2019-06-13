@@ -10,3 +10,6 @@ struct MultiD_Resource {
     1: i32 total_cpu,
     2: i32 total_memory,
     3: i32 total_disk,
+}
+
+enum RSEventType {
