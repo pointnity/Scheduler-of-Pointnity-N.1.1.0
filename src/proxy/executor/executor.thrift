@@ -2,4 +2,5 @@
 //include "../collector/collector.thrift"
 
 enum TaskEntityState {
-    TASKENTITY_WAITING,
+    TASKENTITY_WAITING
+    TASKENTITY_STARTING
