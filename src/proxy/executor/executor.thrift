@@ -11,3 +11,4 @@ enum TaskEntityState {
 }
 
 enum VMType {
+    VM_UNKNOWN
