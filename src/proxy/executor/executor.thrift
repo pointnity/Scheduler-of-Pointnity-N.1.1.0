@@ -57,3 +57,5 @@ service Executor {
     bool Exit(),
 
     // task
+    bool StartTask(1: string task_ad),
+    bool StartTask(1: string task_ad),
