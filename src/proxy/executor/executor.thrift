@@ -21,3 +21,4 @@ enum AppState {
     APP_STARTING
     APP_RUNNING 
     APP_FINISHED 
+    APP_MISSED 
