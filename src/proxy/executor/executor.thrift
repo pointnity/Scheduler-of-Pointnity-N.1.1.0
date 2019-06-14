@@ -26,3 +26,4 @@ enum AppState {
 }
 
 enum EventType {
+    TASK_STATE_EVENT 
