@@ -28,3 +28,4 @@ enum AppState {
 enum EventType {
     TASK_STATE_EVENT 
     TASK_ACTION_EVENT 
+    IMAGE_EVENT 
