@@ -32,3 +32,5 @@ enum EventType {
     HEARTBEAT_EVENT 
     EXIT_EXECUTOR_EVENT 
 }
+
+enum AppState {
