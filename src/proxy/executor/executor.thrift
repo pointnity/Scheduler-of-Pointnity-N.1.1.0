@@ -11,26 +11,26 @@ enum TaskEntityState {
 }
 
 enum VMType {
-    VM_UNKNOWN,
-    VM_KVM,
-    VM_LXC,
+    VM_UNKNOWN 
+    VM_KVM 
+    VM_LXC 
 }
 
 enum AppState {
-    APP_WAITING,
-    APP_STARTING,
-    APP_RUNNING,
-    APP_FINISHED,
-    APP_MISSED,
-    APP_FAILED,
+    APP_WAITING 
+    APP_STARTING 
+    APP_RUNNING 
+    APP_FINISHED 
+    APP_MISSED 
+    APP_FAILED 
 }
 
 enum EventType {
-    TASK_STATE_EVENT,
-    TASK_ACTION_EVENT,
-    IMAGE_EVENT,
-    HEARTBEAT_EVENT,
-    EXIT_EXECUTOR_EVENT,
+    TASK_STATE_EVENT 
+    TASK_ACTION_EVENT 
+    IMAGE_EVENT 
+    HEARTBEAT_EVENT 
+    EXIT_EXECUTOR_EVENT 
 }
 
 
