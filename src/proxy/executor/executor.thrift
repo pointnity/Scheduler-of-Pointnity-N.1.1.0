@@ -14,3 +14,6 @@ enum VMType {
     VM_UNKNOWN
     VM_KVM
     VM_LXC
+}
+
+enum AppState {
