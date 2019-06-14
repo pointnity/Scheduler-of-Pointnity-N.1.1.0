@@ -20,3 +20,4 @@ enum AppState {
     APP_WAITING
     APP_STARTING
     APP_RUNNING 
+    APP_FINISHED 
