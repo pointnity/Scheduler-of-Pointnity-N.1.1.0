@@ -41,3 +41,5 @@ enum AppState {
     APP_MISSED 
     APP_FAILED 
 }
+
+enum EventType {
