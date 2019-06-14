@@ -40,3 +40,4 @@ enum AppState {
     APP_FINISHED 
     APP_MISSED 
     APP_FAILED 
+}
