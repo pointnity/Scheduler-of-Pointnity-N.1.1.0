@@ -34,4 +34,5 @@ enum EventType {
 }
 
 enum AppState {
-    APP_WAITING 
+    APP_WAITING  
+    APP_STARTING
