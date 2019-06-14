@@ -9,3 +9,5 @@ enum TaskEntityState {
     TASKENTITY_FAILED
     TASKENTITY_MISSED
 }
+
+enum VMType {
