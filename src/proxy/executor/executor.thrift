@@ -19,3 +19,4 @@ enum VMType {
 enum AppState {
     APP_WAITING
     APP_STARTING
+    APP_RUNNING 
