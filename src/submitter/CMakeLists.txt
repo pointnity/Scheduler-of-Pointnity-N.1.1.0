@@ -48,3 +48,4 @@ ADD_CUSTOM_COMMAND (
 #$ENV{HADOOP_HOME}/src/c++/libhdfs
 #)
 #INCLUDE_DIRECTORIES(
+#$ENV{JAVA_HOME}/include
