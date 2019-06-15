@@ -71,3 +71,4 @@ LINK_DIRECTORIES(${CMAKE_SOURCE_DIR}/third_party/hdfs/lib64)
 
 SET (SUBMITTER
    ${JOBS_MANAGER_THRIFT_SOURCE}  
+   cmd_parse.cpp
