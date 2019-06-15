@@ -59,3 +59,7 @@ ADD_CUSTOM_COMMAND (
 #)
 #INCLUDE_DIRECTORIES(
 #$ENV{HADOOP_HOME}/build/c++/Linux-amd64-64/lib
+#)
+
+## hdfs new ##
+# -I
