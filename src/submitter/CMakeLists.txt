@@ -58,3 +58,4 @@ ADD_CUSTOM_COMMAND (
 #$ENV{JAVA_HOME}/jre/lib/amd64/server
 #)
 #INCLUDE_DIRECTORIES(
+#$ENV{HADOOP_HOME}/build/c++/Linux-amd64-64/lib
