@@ -51,3 +51,4 @@ ADD_CUSTOM_COMMAND (
 #$ENV{JAVA_HOME}/include
 #)
 #INCLUDE_DIRECTORIES(
+#$ENV{JAVA_HOME}/include/linux
