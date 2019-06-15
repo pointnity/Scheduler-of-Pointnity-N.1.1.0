@@ -73,3 +73,34 @@ SET (SUBMITTER
    ${JOBS_MANAGER_THRIFT_SOURCE}  
    cmd_parse.cpp
    image.cpp
+   app.cpp
+   job.cpp
+   config.cpp
+   hdfs_wrapper.cpp)
+ 
+ADD_EXECUTABLE(submitter ${SUBMITTER})
+
+TARGET_LINK_LIBRARIES(submitter thrift)
+TARGET_LINK_LIBRARIES(submitter classad)
+TARGET_LINK_LIBRARIES(submitter log4cplus)
+TARGET_LINK_LIBRARIES(submitter hdfs)
+TARGET_LINK_LIBRARIES(submitter jvm)
+TARGET_LINK_LIBRARIES(submitter gflags)
+
+INSTALL(TARGETS submitter RUNTIME DESTINATION bin)
+                                                             
+
+#for test
+#SET (APPFILETEST
+#   app_file_test.cpp
+#   app_file.cpp
+#   )
+
+#ADD_EXECUTABLE(app_file_test ${APPFILETEST})
+
+#TARGET_LINK_LIBRARIES(submitter thrift)
+#TARGET_LINK_LIBRARIES(submitter classad)
+#TARGET_LINK_LIBRARIES(app_file_test log4cplus)
+#TARGET_LINK_LIBRARIES(app_file_test hdfs)
+#TARGET_LINK_LIBRARIES(app_file_test jvm)
+
