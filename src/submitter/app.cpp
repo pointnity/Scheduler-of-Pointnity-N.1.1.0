@@ -24,3 +24,5 @@
 #include <log4cplus/loggingmacros.h>
 
 #include <gflags/gflags.h>
+
+#include <boost/algorithm/string/classification.hpp>
