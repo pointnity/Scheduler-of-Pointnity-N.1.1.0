@@ -47,3 +47,4 @@ bool App::CreateApp(const string& xml_path){
     m_xml_path = xml_path;
     if(false == Init()){
         //LOG4CPLUS_ERROR(logger, "read xml init error");
+	fprintf(stderr, "read xml init error\n");
