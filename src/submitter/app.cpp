@@ -29,3 +29,4 @@
 #include <boost/algorithm/string/split.hpp>
 
 using log4cplus::Logger;
+using std::string;
