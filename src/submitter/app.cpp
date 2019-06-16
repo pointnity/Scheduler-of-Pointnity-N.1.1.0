@@ -19,3 +19,5 @@
 
 #include <classad/classad.h>
 #include <classad/classad_distribution.h>
+
+#include <log4cplus/logger.h>
