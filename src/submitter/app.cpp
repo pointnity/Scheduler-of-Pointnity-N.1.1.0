@@ -8,3 +8,4 @@
 #include <vector>
 #include <stdio.h>
 #include <iostream>
+#include "submitter/hdfs_wrapper.h"
