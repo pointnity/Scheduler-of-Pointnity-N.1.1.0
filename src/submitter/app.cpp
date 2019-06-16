@@ -10,3 +10,4 @@
 #include <iostream>
 #include "submitter/hdfs_wrapper.h"
 #include "submitter/app.h"
+#include "include/classad_attr.h"
