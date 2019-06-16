@@ -46,3 +46,4 @@ bool App::CreateApp(const string& xml_path){
     std::cout<< "init config start:"<<xml_path<<std::endl;
     m_xml_path = xml_path;
     if(false == Init()){
+        //LOG4CPLUS_ERROR(logger, "read xml init error");
