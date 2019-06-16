@@ -49,3 +49,12 @@ bool App::CreateApp(const string& xml_path){
         //LOG4CPLUS_ERROR(logger, "read xml init error");
 	fprintf(stderr, "read xml init error\n");
         return false;
+    }
+    //check local app
+    string app_local_path = m_local_path;
+    std::cout<< "app_local_path:"<<app_local_path<<std::endl;
+    if(access(app_local_path.c_str(), F_OK) == -1) {
+        //LOG4CPLUS_ERROR(logger, "app file no found");
+	fprintf(stderr, "app file no found\n");
+        return false;
+    }       
