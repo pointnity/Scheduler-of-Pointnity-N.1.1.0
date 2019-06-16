@@ -42,3 +42,4 @@ DECLARE_string(JobsManager_endpoint);
 static Logger logger = Logger::getInstance("submitter");
 
 bool App::CreateApp(const string& xml_path){
+    //read xml to init
