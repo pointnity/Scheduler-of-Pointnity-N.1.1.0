@@ -38,3 +38,5 @@ using rapidxml::xml_node;
 using rapidxml::xml_attribute;
 
 DECLARE_string(JobsManager_endpoint);
+
+static Logger logger = Logger::getInstance("submitter");
