@@ -32,3 +32,4 @@ private:
      string m_xml_path;
      string m_exe;
 };
+typedef Singleton<App> AppPtrI;
