@@ -33,3 +33,4 @@ private:
      string m_exe;
 };
 typedef Singleton<App> AppPtrI;
+#endif
