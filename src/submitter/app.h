@@ -17,3 +17,4 @@
 
 class App{
 public:
+     bool CreateApp(const string& xml_path);
