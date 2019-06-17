@@ -18,3 +18,4 @@
 class App{
 public:
      bool CreateApp(const string& xml_path);
+     //bool DeleteImage(const int32_t image_id);
