@@ -27,3 +27,4 @@ private:
      bool SendApptoHDFS();
 
      string m_name;
+     string m_user;
