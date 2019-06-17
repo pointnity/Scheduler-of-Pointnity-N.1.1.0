@@ -25,3 +25,5 @@ public:
 private:
      bool Init();
      bool SendApptoHDFS();
+
+     string m_name;
