@@ -5,3 +5,4 @@
 *********************************/
 
 #ifndef SRC_SUBMITTER_App_H
+#define SRC_SUBMITTER_App_H
