@@ -27,3 +27,4 @@ DECLARE_int32(job_id);
 
 void CmdParse::UserCmdParse(){
 /*    if(FLAGS_operation == "create"){
+	UserPtrI::Instance()->CreateUser(FLAGS_xml_path);
