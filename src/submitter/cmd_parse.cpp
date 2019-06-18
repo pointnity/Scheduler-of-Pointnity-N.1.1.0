@@ -72,3 +72,17 @@ void CmdParse::AppCmdParse(){
     }
     return;
 }
+
+void CmdParse::ImageCmdParse(){
+    if(FLAGS_operation == "create"){
+        cout<< "xml_path:"<<FLAGS_xml_path<<endl;
+        ImagePtrI::Instance()->CreateImage(FLAGS_xml_path);
+    }
+     /*else if(FLAGS_operation == "delete"){
+        ImagePtrI::Instance()->DeleteImage(FLAGS_image_id);
+    }else if(FLAGS_operation == "query"){
+        ImagePtrI::Instance()->QueryImage(FLAGS_image_id);
+    }else if(FLAGS_operation == "query_list"){
+        ImagePtrI::Instance()->QueryImageList();
+    }*/
+    else{
