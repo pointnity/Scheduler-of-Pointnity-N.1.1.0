@@ -29,3 +29,4 @@ void CmdParse::UserCmdParse(){
 /*    if(FLAGS_operation == "create"){
 	UserPtrI::Instance()->CreateUser(FLAGS_xml_path);
     }else if(FLAGS_operation == "delete"){
+	UserPtrI::Instance()->DeleteUser(FLAGS_user_id);
