@@ -3,3 +3,5 @@
  Version:  0.1
  Description: cmd parse
 *********************************/
+
+#include "submitter/cmd_parse.h"
