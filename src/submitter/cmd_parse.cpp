@@ -61,3 +61,14 @@ void CmdParse::AppCmdParse(){
 	AppPtrI::Instance()->QueryApp(FLAGS_app_id);
     }else if(FLAGS_operation == "query_list"){
 	AppPtrI::Instance()->QueryAppList();
+    }*/
+    else{
+	LOG4CPLUS_ERROR(logger, "app cmd parse error, unknown run type");
+	cout<< "App run type usage:"<<endl;
+	cout<< "create: create app on system"<<endl;
+	cout<< "delete: delete app from system"<<endl;
+	cout<< "query: query app on system"<<endl;
+	cout<< "query_list: query app list on system"<<endl;
+    }
+    return;
+}
