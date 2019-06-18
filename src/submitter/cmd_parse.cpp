@@ -17,3 +17,7 @@
 using log4cplus::Logger;
 using std::cout;
 using std::endl;
+
+static Logger logger = Logger::getInstance("submitter");
+
+DECLARE_string(operation);// create or delete...
