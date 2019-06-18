@@ -86,3 +86,12 @@ void CmdParse::ImageCmdParse(){
         ImagePtrI::Instance()->QueryImageList();
     }*/
     else{
+        LOG4CPLUS_ERROR(logger, "image cmd parse error, unknown run type");
+        cout<< "Image run type usage:"<<endl;
+        cout<< "create: create image on system, write image file to HDFS"<<endl;
+        cout<< "delete: delete image from system"<<endl;
+        cout<< "query: query image on system"<<endl;
+        cout<< "query_list: query image list on system"<<endl;
+    }
+    return;
+}
