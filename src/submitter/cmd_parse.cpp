@@ -95,3 +95,41 @@ void CmdParse::ImageCmdParse(){
     }
     return;
 }
+
+
+void CmdParse::JobCmdParse(){
+    if(FLAGS_operation == "create"){
+        cout<< "xml_path:"<<FLAGS_xml_path<<endl;
+        JobPtrI::Instance()->CreateJob(FLAGS_xml_path);
+    }
+    else if(FLAGS_operation == "query"){
+        JobPtrI::Instance()->QueryJob(FLAGS_job_id);
+    }/*else if(FLAGS_operation == "query_list"){
+        ImagePtrI::Instance()->QueryImageList();
+    }*/
+    else{
+        LOG4CPLUS_ERROR(logger, "image cmd parse error, unknown run type");
+        cout<< "Image run type usage:"<<endl;
+        cout<< "create: create image on system, write image file to HDFS"<<endl;
+        cout<< "delete: delete image from system"<<endl;
+        cout<< "query: query image on system"<<endl;
+        cout<< "query_list: query image list on system"<<endl;
+    }
+    return;
+
+    cout<<"Hello World !"<<endl;
+    return;
+}
+
+void CmdParse::DefaultCmdParse(){
+    return;
+}
+
+void CmdParse::UsageCmdParse(){
+     cout<< "Run mode usage:"<<endl;
+     cout<< "Image: Image manager mode"<<endl;
+     cout<< "App: App manager mode"<<endl;
+     cout<< "Job: job manager mode"<<endl;
+     cout<< "Default: Default manager mode"<<endl;
+     return;
+}
