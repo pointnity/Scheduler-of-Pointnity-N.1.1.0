@@ -21,3 +21,4 @@ using std::endl;
 static Logger logger = Logger::getInstance("submitter");
 
 DECLARE_string(operation);// create or delete...
+DECLARE_string(xml_path); //classad string 
