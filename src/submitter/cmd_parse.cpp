@@ -32,3 +32,16 @@ void CmdParse::UserCmdParse(){
 	UserPtrI::Instance()->DeleteUser(FLAGS_user_id);
     }else if(FLAGS_operation == "update"){
 //	UserPtrI::Instance()->UpdateUser(FLAGS_str_ad);
+    }else if(FLAGS_operation == "query"){
+	UserPtrI::Instance()->QueryUser(FLAGS_user_id);
+    }else if(FLAGS_operation == "query_list"){
+	UserPtrI::Instance()->QueryUserList();
+    }else{
+	LOG4CPLUS_ERROR(logger, "user cmd parse error, unknown run type");
+	cout<< "User run type usage:"<<endl;
+	cout<< "create: create user on system"<<endl;
+	cout<< "delete: delete user from system"<<endl;
+	cout<< "update: update user on system"<<endl;
+	cout<< "query: query user on system"<<endl;
+	cout<< "query_list: query user list on system"<<endl;
+    }
