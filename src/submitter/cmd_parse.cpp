@@ -16,3 +16,4 @@
 
 using log4cplus::Logger;
 using std::cout;
+using std::endl;
