@@ -31,3 +31,4 @@ void CmdParse::UserCmdParse(){
     }else if(FLAGS_operation == "delete"){
 	UserPtrI::Instance()->DeleteUser(FLAGS_user_id);
     }else if(FLAGS_operation == "update"){
+//	UserPtrI::Instance()->UpdateUser(FLAGS_str_ad);
