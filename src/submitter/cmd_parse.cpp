@@ -30,3 +30,4 @@ void CmdParse::UserCmdParse(){
 	UserPtrI::Instance()->CreateUser(FLAGS_xml_path);
     }else if(FLAGS_operation == "delete"){
 	UserPtrI::Instance()->DeleteUser(FLAGS_user_id);
+    }else if(FLAGS_operation == "update"){
