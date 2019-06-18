@@ -45,3 +45,19 @@ void CmdParse::UserCmdParse(){
 	cout<< "query: query user on system"<<endl;
 	cout<< "query_list: query user list on system"<<endl;
     }
+*/    return;
+}
+
+
+void CmdParse::AppCmdParse(){
+    if(FLAGS_operation == "create"){
+	AppPtrI::Instance()->CreateApp(FLAGS_xml_path);
+    }
+    /*else if(FLAGS_operation == "delete"){
+	AppPtrI::Instance()->DeleteApp(FLAGS_app_id);
+    }else if(FLAGS_operation == "update"){
+//	AppPtrI::Instance()->UpdateApp(FLAGS_str_ad);
+    }else if(FLAGS_operation == "query"){
+	AppPtrI::Instance()->QueryApp(FLAGS_app_id);
+    }else if(FLAGS_operation == "query_list"){
+	AppPtrI::Instance()->QueryAppList();
