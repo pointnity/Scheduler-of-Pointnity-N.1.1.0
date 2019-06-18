@@ -24,3 +24,5 @@ DECLARE_string(operation);// create or delete...
 DECLARE_string(xml_path); //classad string 
 
 DECLARE_int32(job_id);
+
+void CmdParse::UserCmdParse(){
