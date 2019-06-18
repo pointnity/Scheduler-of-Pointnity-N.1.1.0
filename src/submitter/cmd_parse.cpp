@@ -7,3 +7,4 @@
 #include "submitter/cmd_parse.h"
 #include "submitter/image.h"
 #include "submitter/app.h"
+#include "submitter/job.h"
