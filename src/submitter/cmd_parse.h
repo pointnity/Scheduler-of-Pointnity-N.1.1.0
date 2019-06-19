@@ -20,3 +20,4 @@ public:
      //bool QueryAppList();
 };
 typedef Singleton<CmdParse> CmdParsePtrI;
+#endif
