@@ -13,3 +13,4 @@ class CmdParse{
 public:
      void UserCmdParse();
      void AppCmdParse();
+     void ImageCmdParse();
