@@ -10,3 +10,4 @@
 #include "common/clynn/singleton.h"
 
 class CmdParse{
+public:
