@@ -16,3 +16,4 @@ public:
      void ImageCmdParse();
      void JobCmdParse();
      void DefaultCmdParse();
+     void UsageCmdParse();
