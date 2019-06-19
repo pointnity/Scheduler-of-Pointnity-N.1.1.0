@@ -14,3 +14,4 @@ public:
      void UserCmdParse();
      void AppCmdParse();
      void ImageCmdParse();
+     void JobCmdParse();
