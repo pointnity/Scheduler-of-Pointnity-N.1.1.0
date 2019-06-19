@@ -16,3 +16,5 @@ DEFINE_string(object, "Image", "JobManager endpoint");
 DEFINE_string(operation, "create", "JobManager endpoint");
 DEFINE_int32(job_id, 0, "job id");
 //DEFINE_int32(user_id, 0, "hdfs port");
+
+//DEFINE_string(lxc_template, "/var/lib/lynn/lxc/", "default lxc conf template");
