@@ -18,3 +18,5 @@ public:
      void DefaultCmdParse();
      void UsageCmdParse();
      //bool QueryAppList();
+};
+typedef Singleton<CmdParse> CmdParsePtrI;
