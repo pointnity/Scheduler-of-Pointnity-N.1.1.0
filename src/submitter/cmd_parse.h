@@ -8,3 +8,5 @@
 #define SRC_SUBMITTER_CMD_PARSE_H
 
 #include "common/clynn/singleton.h"
+
+class CmdParse{
