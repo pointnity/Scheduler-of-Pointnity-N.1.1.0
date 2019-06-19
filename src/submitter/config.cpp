@@ -20,3 +20,4 @@ DEFINE_int32(job_id, 0, "job id");
 //DEFINE_string(lxc_template, "/var/lib/lynn/lxc/", "default lxc conf template");
 
 // DEFINE_string(work_directory, "/tmp/cello", "cellet work directory");
+// DEFINE_string(dfs_ip, "", "distributed file system server ip");
