@@ -15,3 +15,4 @@ DEFINE_bool(first_create_image, true, "image is first create or not");
 DEFINE_string(object, "Image", "JobManager endpoint");
 DEFINE_string(operation, "create", "JobManager endpoint");
 DEFINE_int32(job_id, 0, "job id");
+//DEFINE_int32(user_id, 0, "hdfs port");
