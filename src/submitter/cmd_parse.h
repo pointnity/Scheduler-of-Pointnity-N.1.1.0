@@ -17,3 +17,4 @@ public:
      void JobCmdParse();
      void DefaultCmdParse();
      void UsageCmdParse();
+     //bool QueryAppList();
