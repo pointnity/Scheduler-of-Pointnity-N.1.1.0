@@ -13,3 +13,4 @@ DEFINE_string(hdfs_host, "localhost", "hdfs host");
 DEFINE_bool(first_create_image, true, "image is first create or not");
 
 DEFINE_string(object, "Image", "JobManager endpoint");
+DEFINE_string(operation, "create", "JobManager endpoint");
