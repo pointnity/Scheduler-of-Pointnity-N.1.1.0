@@ -18,3 +18,5 @@ DEFINE_int32(job_id, 0, "job id");
 //DEFINE_int32(user_id, 0, "hdfs port");
 
 //DEFINE_string(lxc_template, "/var/lib/lynn/lxc/", "default lxc conf template");
+
+// DEFINE_string(work_directory, "/tmp/cello", "cellet work directory");
