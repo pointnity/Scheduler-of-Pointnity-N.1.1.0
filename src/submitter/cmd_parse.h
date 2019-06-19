@@ -11,3 +11,4 @@
 
 class CmdParse{
 public:
+     void UserCmdParse();
