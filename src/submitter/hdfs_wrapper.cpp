@@ -25,3 +25,4 @@ bool HDFSWrapper::Init() {
         return false;
     }
     m_h_fs = hdfsConnect(FLAGS_hdfs_host.c_str(), FLAGS_hdfs_port);
+    if (NULL == m_h_fs) {
