@@ -52,3 +52,4 @@ bool HDFSWrapper::Init() {
     }
     if (0 != hdfsDisconnect(h_fs)) {
         LOG4CPLUS_ERROR(logger, "Failed to disconnect hdfs, hdfs_host:" << FLAGS_hdfs_host << ", hdfs_port:" << FLAGS_hdfs_port);
+        return false;
