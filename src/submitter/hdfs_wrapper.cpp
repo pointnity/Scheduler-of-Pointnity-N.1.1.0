@@ -77,3 +77,6 @@ bool HDFSWrapper::DeleteHDFSFile(const string file_path){
     if(0 != hdfsDelete(m_h_fs, file_path.c_str())){
         LOG4CPLUS_ERROR(logger, "delete file on hdfs error");
         return false;
+    }
+    return true;
+}
