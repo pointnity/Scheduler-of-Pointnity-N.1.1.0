@@ -26,3 +26,4 @@ bool HDFSWrapper::Init() {
     }
     m_h_fs = hdfsConnect(FLAGS_hdfs_host.c_str(), FLAGS_hdfs_port);
     if (NULL == m_h_fs) {
+        LOG4CPLUS_ERROR(logger, "Failed to connect hdfs, hdfs_host:" << FLAGS_hdfs_host << ", hdfs_port:" << FLAGS_hdfs_port);
