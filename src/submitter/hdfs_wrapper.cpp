@@ -5,3 +5,5 @@
 *********************************/
 
 #include "submitter/hdfs_wrapper.h"
+
+#include <log4cplus/logger.h>
