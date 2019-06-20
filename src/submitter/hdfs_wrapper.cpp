@@ -31,3 +31,4 @@ bool HDFSWrapper::Init() {
     }
 
     // test
+    /*string local_path = "/tmp/";
