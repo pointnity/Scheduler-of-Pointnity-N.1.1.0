@@ -50,3 +50,4 @@ bool HDFSWrapper::Init() {
         LOG4CPLUS_ERROR(logger, "Failed to disconnect local fs");
         return false;
     }
+    if (0 != hdfsDisconnect(h_fs)) {
