@@ -43,3 +43,4 @@ bool HDFSWrapper::Init() {
     if (!CopyFromLocalFile(local_path2, h_path2)) {
         LOG4CPLUS_ERROR(logger, "Failed to copy file");
         return false;
+    }*/
