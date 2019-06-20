@@ -32,3 +32,4 @@ bool HDFSWrapper::Init() {
 
     // test
     /*string local_path = "/tmp/";
+    local_path += "output";
