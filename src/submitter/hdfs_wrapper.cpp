@@ -55,3 +55,4 @@ bool HDFSWrapper::Init() {
         return false;
     }*/
     return true; 
+}
