@@ -44,3 +44,5 @@ bool HDFSWrapper::Init() {
         LOG4CPLUS_ERROR(logger, "Failed to copy file");
         return false;
     }*/
+
+    // close hdfs
