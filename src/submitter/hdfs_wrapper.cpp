@@ -11,3 +11,5 @@
 #include <gflags/gflags.h>
 
 using log4cplus::Logger;
+
+static Logger logger = Logger::getInstance("submitter");
