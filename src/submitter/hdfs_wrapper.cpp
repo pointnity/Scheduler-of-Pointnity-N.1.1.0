@@ -74,3 +74,4 @@ bool HDFSWrapper::CopyToLocalFile(const string src, const string dst) {
 }
 
 bool HDFSWrapper::DeleteHDFSFile(const string file_path){
+    if(0 != hdfsDelete(m_h_fs, file_path.c_str())){
