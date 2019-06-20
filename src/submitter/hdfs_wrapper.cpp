@@ -37,3 +37,5 @@ bool HDFSWrapper::Init() {
     if (!CopyToLocalFile(h_path, local_path)) {
         LOG4CPLUS_ERROR(logger, "Failed to copy file");
         return false;
+    } 
+    string local_path2 = "/home/wm/b.cpp";
