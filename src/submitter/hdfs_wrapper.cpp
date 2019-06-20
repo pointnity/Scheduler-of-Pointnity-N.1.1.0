@@ -46,3 +46,4 @@ bool HDFSWrapper::Init() {
     }*/
 
     // close hdfs
+    /* if (0 != hdfsDisconnect(local_fs)) {
