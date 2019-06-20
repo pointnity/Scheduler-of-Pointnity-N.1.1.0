@@ -3,3 +3,5 @@
  Version:  0.1
  Description: hdfs wrapper
 *********************************/
+
+#include "submitter/hdfs_wrapper.h"
