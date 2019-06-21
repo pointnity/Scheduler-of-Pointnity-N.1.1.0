@@ -25,3 +25,4 @@ public:
     // bool CopyToLocalFile(const char* src, const char* dst);
 
 private:
+    hdfsFS m_local_fs;
