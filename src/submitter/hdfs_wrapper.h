@@ -6,3 +6,5 @@
 
 #ifndef SRC_HDFS_WRAPPER_H
 #define SRC_HDFS_WRAPPER_H
+
+#include <string>
