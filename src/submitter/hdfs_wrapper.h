@@ -18,3 +18,4 @@
 class HDFSWrapper {
 public:
     bool Init();
+    bool CopyFromLocalFile(const string src, const string dst);
