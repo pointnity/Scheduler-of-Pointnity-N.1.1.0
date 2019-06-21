@@ -20,3 +20,4 @@ public:
     bool Init();
     bool CopyFromLocalFile(const string src, const string dst);
     bool CopyToLocalFile(const string src, const string dst); 
+    bool DeleteHDFSFile(const string file_path);
