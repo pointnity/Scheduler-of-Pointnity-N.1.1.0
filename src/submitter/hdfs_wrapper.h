@@ -23,3 +23,5 @@ public:
     bool DeleteHDFSFile(const string file_path);
     // bool CopyFromLocalFile(const char* src, const char* dst);
     // bool CopyToLocalFile(const char* src, const char* dst);
+
+private:
