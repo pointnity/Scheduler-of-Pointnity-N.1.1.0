@@ -83,3 +83,4 @@ bool Image::CreateImage(const string& xml_path){
           LOG4CPLUS_ERROR(logger, "update image faile,rpc error");
 	  fprintf(stderr, "update image faile,rpc error");
           return false;
+       }
