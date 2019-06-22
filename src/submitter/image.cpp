@@ -78,3 +78,4 @@ bool Image::CreateImage(const string& xml_path){
 	       fprintf(stderr, "update image faile, rpc error");  
                return false;
            }
+       }  catch (TException &tx) {
