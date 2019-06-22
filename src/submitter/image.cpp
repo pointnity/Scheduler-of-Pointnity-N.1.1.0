@@ -31,3 +31,4 @@ using std::string;
 using std::vector;
 
 using rapidxml::file;
+using rapidxml::xml_document;
