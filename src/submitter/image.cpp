@@ -95,3 +95,4 @@ bool Image::Init(){
     try {
         file<> fdoc(m_xml_path.c_str());
         doc.parse<0>(fdoc.data());
+    } catch (rapidxml::parse_error& ex) {
