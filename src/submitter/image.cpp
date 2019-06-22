@@ -80,3 +80,4 @@ bool Image::CreateImage(const string& xml_path){
            }
        }  catch (TException &tx) {
           //std::cout<< "rpc error"<<std::endl;
+          LOG4CPLUS_ERROR(logger, "update image faile,rpc error");
