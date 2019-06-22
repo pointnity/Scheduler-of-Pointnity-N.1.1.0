@@ -75,3 +75,4 @@ bool Image::CreateImage(const string& xml_path){
            Proxy<JobsManagerClient> proxy = Rpc<JobsManagerClient, JobsManagerClient>::GetProxy(FLAGS_JobsManager_endpoint);
            if(false == proxy().UpdateImage(m_user, m_name, m_size, m_is_update_all)){
                LOG4CPLUS_ERROR(logger, "update image faile, master error");
+	       fprintf(stderr, "update image faile, rpc error");  
