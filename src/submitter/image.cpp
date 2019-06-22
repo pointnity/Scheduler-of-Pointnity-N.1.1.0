@@ -37,3 +37,6 @@ using rapidxml::xml_attribute;
 
 DECLARE_string(JobsManager_endpoint);
 DECLARE_bool(first_create_image);
+
+static Logger logger = Logger::getInstance("submitter");
+
