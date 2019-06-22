@@ -57,3 +57,6 @@ bool Image::CreateImage(const string& xml_path){
             LOG4CPLUS_ERROR(logger, "image file no found");
 	    fprintf(stderr, "image file no found\n");
             return false;
+	}       
+ 
+        //send image file to HDFS
