@@ -44,3 +44,4 @@ bool Image::CreateImage(const string& xml_path){
     //read xml to init
     std::cout<< "init config start:"<<xml_path<<std::endl;
     m_xml_path = xml_path;
+    if(false == Init()){
