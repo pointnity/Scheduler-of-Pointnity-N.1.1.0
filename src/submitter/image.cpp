@@ -11,3 +11,4 @@
 #include <fstream>
 #include "submitter/hdfs_wrapper.h"
 #include "submitter/image.h"
+#include "include/classad_attr.h"
