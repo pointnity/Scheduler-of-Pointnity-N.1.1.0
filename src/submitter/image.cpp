@@ -93,3 +93,4 @@ bool Image::CreateImage(const string& xml_path){
 bool Image::Init(){
     xml_document<> doc;
     try {
+        file<> fdoc(m_xml_path.c_str());
