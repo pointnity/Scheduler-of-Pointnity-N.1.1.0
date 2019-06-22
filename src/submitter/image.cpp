@@ -85,3 +85,4 @@ bool Image::CreateImage(const string& xml_path){
           return false;
        }
     LOG4CPLUS_INFO(logger, "update image finished");
+    std::cout<< "update image from hdfs finish"<<std::endl;
