@@ -52,3 +52,4 @@ bool Image::CreateImage(const string& xml_path){
     if(true == FLAGS_first_create_image){
         //check local image
         string image_local_path = m_local_path + "/" + m_name;
+	std::cout<< "image_local_path:"<<image_local_path<<std::endl;
