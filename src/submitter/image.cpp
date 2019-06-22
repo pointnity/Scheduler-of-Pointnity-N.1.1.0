@@ -13,3 +13,5 @@
 #include "submitter/image.h"
 #include "include/classad_attr.h"
 #include "include/proxy.h"
+
+#include "common/rapidxml/rapidxml.hpp"
