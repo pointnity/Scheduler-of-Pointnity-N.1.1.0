@@ -27,3 +27,4 @@
 #include <gflags/gflags.h>
 
 using log4cplus::Logger;
+using std::string;
