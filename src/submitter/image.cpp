@@ -10,3 +10,4 @@
 #include <iostream>
 #include <fstream>
 #include "submitter/hdfs_wrapper.h"
+#include "submitter/image.h"
