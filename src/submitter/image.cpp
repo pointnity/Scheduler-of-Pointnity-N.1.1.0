@@ -54,3 +54,4 @@ bool Image::CreateImage(const string& xml_path){
         string image_local_path = m_local_path + "/" + m_name;
 	std::cout<< "image_local_path:"<<image_local_path<<std::endl;
         if(access(image_local_path.c_str(), F_OK) == -1) {
+            LOG4CPLUS_ERROR(logger, "image file no found");
