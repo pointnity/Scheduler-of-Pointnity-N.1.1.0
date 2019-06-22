@@ -68,3 +68,5 @@ bool Image::CreateImage(const string& xml_path){
         }
         std::cout<< "upload image from hdfs finish"<<std::endl;
     }
+
+    //update image on master
