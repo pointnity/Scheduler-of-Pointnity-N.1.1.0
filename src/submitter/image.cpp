@@ -94,3 +94,4 @@ bool Image::Init(){
     xml_document<> doc;
     try {
         file<> fdoc(m_xml_path.c_str());
+        doc.parse<0>(fdoc.data());
