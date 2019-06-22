@@ -71,3 +71,4 @@ bool Image::CreateImage(const string& xml_path){
 
     //update image on master
     std::cout<< "update image from hdfs start"<<std::endl;
+    try {
