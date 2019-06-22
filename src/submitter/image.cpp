@@ -56,3 +56,4 @@ bool Image::CreateImage(const string& xml_path){
         if(access(image_local_path.c_str(), F_OK) == -1) {
             LOG4CPLUS_ERROR(logger, "image file no found");
 	    fprintf(stderr, "image file no found\n");
+            return false;
