@@ -41,3 +41,4 @@ DECLARE_bool(first_create_image);
 static Logger logger = Logger::getInstance("submitter");
 
 bool Image::CreateImage(const string& xml_path){
+    //read xml to init
