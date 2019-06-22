@@ -66,3 +66,4 @@ bool Image::CreateImage(const string& xml_path){
             fprintf(stderr, "send image file to hdfs  error\n");
 	    return false;
         }
+        std::cout<< "upload image from hdfs finish"<<std::endl;
