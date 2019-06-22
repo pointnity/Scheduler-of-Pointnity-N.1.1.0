@@ -48,3 +48,5 @@ bool Image::CreateImage(const string& xml_path){
         LOG4CPLUS_ERROR(logger, "read xml init error");
 	fprintf(stderr, "read xml init error\n");
         return false;
+    }
+    if(true == FLAGS_first_create_image){
