@@ -64,3 +64,4 @@ bool Image::CreateImage(const string& xml_path){
         if(false == SendImagetoHDFS()){
             LOG4CPLUS_ERROR(logger, "send image file to hdfs  error");
             fprintf(stderr, "send image file to hdfs  error\n");
+	    return false;
