@@ -60,3 +60,4 @@ bool Image::CreateImage(const string& xml_path){
 	}       
  
         //send image file to HDFS
+        std::cout<< "upload image to hdfs start"<<std::endl;
