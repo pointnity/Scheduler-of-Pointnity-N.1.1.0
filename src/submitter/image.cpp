@@ -42,3 +42,4 @@ static Logger logger = Logger::getInstance("submitter");
 
 bool Image::CreateImage(const string& xml_path){
     //read xml to init
+    std::cout<< "init config start:"<<xml_path<<std::endl;
