@@ -50,3 +50,4 @@ bool Image::CreateImage(const string& xml_path){
         return false;
     }
     if(true == FLAGS_first_create_image){
+        //check local image
