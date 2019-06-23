@@ -20,3 +20,4 @@ public:
      bool CreateImage(const string& xml_path);
      //bool DeleteImage(const int32_t image_id);
      //bool QueryImage(const int32_t image_id);
+     //bool QueryImageList();
