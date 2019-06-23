@@ -33,3 +33,4 @@ private:
      int32_t m_size;
      bool m_is_update_all;
 };
+typedef Singleton<Image> ImagePtrI;
