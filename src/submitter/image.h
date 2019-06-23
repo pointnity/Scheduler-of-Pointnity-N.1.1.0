@@ -34,3 +34,4 @@ private:
      bool m_is_update_all;
 };
 typedef Singleton<Image> ImagePtrI;
+#endif
