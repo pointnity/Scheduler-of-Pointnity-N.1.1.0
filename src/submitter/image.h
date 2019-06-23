@@ -32,3 +32,4 @@ private:
      string m_xml_path;
      int32_t m_size;
      bool m_is_update_all;
+};
