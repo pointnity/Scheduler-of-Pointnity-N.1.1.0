@@ -17,3 +17,4 @@
 
 class Image{
 public:
+     bool CreateImage(const string& xml_path);
