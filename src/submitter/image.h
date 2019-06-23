@@ -23,3 +23,4 @@ public:
      //bool QueryImageList();
 
 private:
+     bool Init();
