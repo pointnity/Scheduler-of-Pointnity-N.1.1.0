@@ -29,3 +29,4 @@ private:
      string m_name;
      string m_user;
      string m_local_path;
+     string m_xml_path;
