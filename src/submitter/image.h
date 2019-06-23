@@ -25,3 +25,5 @@ public:
 private:
      bool Init();
      bool SendImagetoHDFS();
+
+     string m_name;
