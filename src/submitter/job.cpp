@@ -34,3 +34,4 @@ bool Job::CreateJob(const string& xml_path){
 
     struct SubmitJobResult result;
     std::cout<< "submit job start"<<std::endl;
+    try {
