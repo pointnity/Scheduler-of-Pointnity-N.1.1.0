@@ -25,3 +25,5 @@ using namespace std;
 DECLARE_string(JobsManager_endpoint);
 
 static Logger logger = Logger::getInstance("submitter");
+
+bool Job::CreateJob(const string& xml_path){
