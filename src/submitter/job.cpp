@@ -41,3 +41,4 @@ bool Job::CreateJob(const string& xml_path){
 	fprintf(stderr, "rpc error to create job\n");
         return false;
     }
+    std::cout<< "submit job finished"<<std::endl;
