@@ -58,3 +58,4 @@ bool Job::QueryJob(const int32_t job_id){
         return false;
     }
     std::cout<< "query job finished"<<std::endl;
+    for( vector<TaskStateInfo>::iterator it = task_state_info_list.begin(); it != task_state_info_list.end(); ++it) {
