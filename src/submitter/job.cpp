@@ -40,3 +40,4 @@ bool Job::CreateJob(const string& xml_path){
     } catch (TException &tx) {
 	fprintf(stderr, "rpc error to create job\n");
         return false;
+    }
