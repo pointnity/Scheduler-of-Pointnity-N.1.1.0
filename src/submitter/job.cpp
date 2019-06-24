@@ -38,3 +38,4 @@ bool Job::CreateJob(const string& xml_path){
         Proxy<JobsManagerClient> proxy = RpcClient<JobsManagerClient>::GetProxy(FLAGS_JobsManager_endpoint);
         proxy().SubmitJob(result, xml_content);
     } catch (TException &tx) {
+	fprintf(stderr, "rpc error to create job\n");
