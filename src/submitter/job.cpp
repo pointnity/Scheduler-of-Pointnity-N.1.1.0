@@ -39,3 +39,4 @@ bool Job::CreateJob(const string& xml_path){
         proxy().SubmitJob(result, xml_content);
     } catch (TException &tx) {
 	fprintf(stderr, "rpc error to create job\n");
+        return false;
