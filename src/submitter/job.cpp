@@ -18,3 +18,5 @@
 #include <log4cplus/loggingmacros.h>
 
 #include <gflags/gflags.h>
+
+using log4cplus::Logger;
