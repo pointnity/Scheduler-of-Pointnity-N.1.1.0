@@ -21,3 +21,5 @@
 
 using log4cplus::Logger;
 using namespace std;
+
+DECLARE_string(JobsManager_endpoint);
