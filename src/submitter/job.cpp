@@ -42,3 +42,4 @@ bool Job::CreateJob(const string& xml_path){
         return false;
     }
     std::cout<< "submit job finished"<<std::endl;
+    std::cout <<"SubmitJobResult:"<<result.error_num << std::endl;
