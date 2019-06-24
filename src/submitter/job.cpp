@@ -44,3 +44,7 @@ bool Job::CreateJob(const string& xml_path){
     std::cout<< "submit job finished"<<std::endl;
     std::cout <<"SubmitJobResult:"<<result.error_num << std::endl;
     return true;
+}
+
+
+bool Job::QueryJob(const int32_t job_id){
