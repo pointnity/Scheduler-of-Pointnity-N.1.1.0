@@ -54,3 +54,4 @@ bool Job::QueryJob(const int32_t job_id){
         Proxy<JobsManagerClient> proxy = RpcClient<JobsManagerClient>::GetProxy(FLAGS_JobsManager_endpoint);
         proxy().GetTaskStateInfo(task_state_info_list, job_id);
     } catch (TException &tx) {
+        fprintf(stderr, "rpc error to query job\n");
