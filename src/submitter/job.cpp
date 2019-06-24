@@ -31,3 +31,5 @@ bool Job::CreateJob(const string& xml_path){
     ifstream in(xml_path);
     string xml_content((istreambuf_iterator<char>(in)),istreambuf_iterator<char>());
     in.close();
+
+    struct SubmitJobResult result;
