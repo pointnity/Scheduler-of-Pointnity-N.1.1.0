@@ -63,3 +63,4 @@ bool Job::QueryJob(const int32_t job_id){
         std::cout<<"task_id:"<<(*it).task_id<<std::endl;
         std::cout<<"task_state:"<<(*it).state<<std::endl;
         std::cout<<"machine_ip:"<<(*it).machine_ip<<std::endl;
+        std::cout<<"restart_times:"<<(*it).restart_times<<std::endl;
