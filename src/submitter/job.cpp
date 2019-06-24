@@ -28,3 +28,4 @@ static Logger logger = Logger::getInstance("submitter");
 
 bool Job::CreateJob(const string& xml_path){
     // xml file to string
+    ifstream in(xml_path);
