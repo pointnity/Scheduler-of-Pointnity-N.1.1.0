@@ -51,3 +51,4 @@ bool Job::QueryJob(const int32_t job_id){
     std::cout<< "query job id:"<<job_id<<std::endl;
     vector<TaskStateInfo> task_state_info_list;
     try {
+        Proxy<JobsManagerClient> proxy = RpcClient<JobsManagerClient>::GetProxy(FLAGS_JobsManager_endpoint);
