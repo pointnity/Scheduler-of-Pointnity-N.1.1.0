@@ -48,3 +48,4 @@ bool Job::CreateJob(const string& xml_path){
 
 
 bool Job::QueryJob(const int32_t job_id){
+    std::cout<< "query job id:"<<job_id<<std::endl;
