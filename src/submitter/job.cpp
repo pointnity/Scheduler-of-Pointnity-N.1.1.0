@@ -57,3 +57,4 @@ bool Job::QueryJob(const int32_t job_id){
         fprintf(stderr, "rpc error to query job\n");
         return false;
     }
+    std::cout<< "query job finished"<<std::endl;
