@@ -22,3 +22,4 @@ public:
 
 };
 typedef Singleton<Job> JobPtrI;
+#endif
