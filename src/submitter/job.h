@@ -15,3 +15,4 @@
 
 class Job{
 public:
+     bool CreateJob(const string& xml_path);
