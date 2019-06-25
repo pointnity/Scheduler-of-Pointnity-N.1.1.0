@@ -14,3 +14,4 @@
 #include "common/clynn/singleton.h"
 
 class Job{
+public:
