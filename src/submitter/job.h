@@ -21,3 +21,4 @@ public:
      //bool QueryImageList();
 
 };
+typedef Singleton<Job> JobPtrI;
