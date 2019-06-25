@@ -16,3 +16,4 @@
 class Job{
 public:
      bool CreateJob(const string& xml_path);
+     //bool DeleteImage(const int32_t image_id);
