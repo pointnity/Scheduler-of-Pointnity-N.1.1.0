@@ -54,3 +54,4 @@ int main(int argc, char **argv) {
     if (argc > 1)
         google::ParseCommandLineFlags(&argc, &argv, true);
     else
+        google::ReadFromFlagsFile("../conf/submitter.conf", argv[0], true);
