@@ -57,3 +57,4 @@ int main(int argc, char **argv) {
         google::ReadFromFlagsFile("../conf/submitter.conf", argv[0], true);
 
     // initilize log log4cplus
+    SharedObjectPtr<Appender> append(new FileAppender("../log/submitter.log"));
