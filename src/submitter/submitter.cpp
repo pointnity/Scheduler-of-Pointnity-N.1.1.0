@@ -7,3 +7,4 @@
 #include <stdlib.h>
 #include <iostream>
 #include <sys/stat.h>
+#include <sys/wait.h>
