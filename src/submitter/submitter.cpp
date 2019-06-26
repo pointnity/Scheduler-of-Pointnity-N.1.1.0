@@ -48,3 +48,4 @@ int main(int argc, char **argv) {
     if (geteuid() != 0) {
         fprintf(stderr, "submittor: must be run as root, or sudo run it.\n");
         return EXIT_FAILURE;
+    }
