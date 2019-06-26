@@ -55,3 +55,5 @@ int main(int argc, char **argv) {
         google::ParseCommandLineFlags(&argc, &argv, true);
     else
         google::ReadFromFlagsFile("../conf/submitter.conf", argv[0], true);
+
+    // initilize log log4cplus
