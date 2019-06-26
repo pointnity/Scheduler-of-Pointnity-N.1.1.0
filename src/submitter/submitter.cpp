@@ -45,3 +45,4 @@ DECLARE_int32(image_id);
 */
 int main(int argc, char **argv) {
     //is root ?
+    if (geteuid() != 0) {
