@@ -61,3 +61,34 @@ int main(int argc, char **argv) {
     append->setName(LOG4CPLUS_TEXT("append for submitter"));
     auto_ptr<Layout> layout(new PatternLayout(LOG4CPLUS_TEXT("%d{%y/%m/%d %H:%M:%S} %p [%l]: %m %n")));
     append->setLayout(layout);
+    Logger logger = Logger::getInstance(LOG4CPLUS_TEXT("submitter"));
+    logger.addAppender(append);
+    logger.setLogLevel(log4cplus::DEBUG_LOG_LEVEL);
+    LOG4CPLUS_DEBUG(logger, "This is the FIRST debug message");
+    LOG4CPLUS_INFO(logger, "This is the FIRST info message");
+    LOG4CPLUS_ERROR(logger, "This is the FIRST error message");
+
+
+    //parse run_mode
+   if(FLAGS_object == "User"){
+        CmdParsePtrI::Instance()->UserCmdParse();
+        LOG4CPLUS_INFO(logger, "User cmd parse begin");
+    }else if(FLAGS_object == "App"){
+       	CmdParsePtrI::Instance()->AppCmdParse();
+	LOG4CPLUS_INFO(logger, "App cmd parse begin");
+    }else if(FLAGS_object == "Job"){
+	CmdParsePtrI::Instance()->JobCmdParse();
+        LOG4CPLUS_INFO(logger, "Job cmd parse begin");
+    }else if(FLAGS_object == "Image"){
+	CmdParsePtrI::Instance()->ImageCmdParse();
+        LOG4CPLUS_INFO(logger, "Image cmd parse begin");	
+    }else if(FLAGS_object == "default"){
+	CmdParsePtrI::Instance()->DefaultCmdParse();
+        LOG4CPLUS_INFO(logger, "Default cmd parse begin");
+    }else{
+	CmdParsePtrI::Instance()->UsageCmdParse();
+        LOG4CPLUS_ERROR(logger, "cmd parse error, unknown run object");
+	return -1;
+    }
+    return 0; 
+}
