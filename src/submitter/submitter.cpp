@@ -43,3 +43,4 @@ DECLARE_int32(job_id);
 DECLARE_int32(user_id);
 DECLARE_int32(image_id);
 */
+int main(int argc, char **argv) {
