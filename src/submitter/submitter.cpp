@@ -35,3 +35,4 @@ using log4cplus::PatternLayout;
 using log4cplus::helpers::SharedObjectPtr;
 
 // gflag, config for submitter
+DECLARE_string(object);//app or job...
