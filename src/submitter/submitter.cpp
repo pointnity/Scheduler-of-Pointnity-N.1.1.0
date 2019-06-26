@@ -49,3 +49,6 @@ int main(int argc, char **argv) {
         fprintf(stderr, "submittor: must be run as root, or sudo run it.\n");
         return EXIT_FAILURE;
     }
+
+    // config file
+    if (argc > 1)
