@@ -19,3 +19,6 @@
 #include <gflags/gflags.h>
 
 #include "submitter/cmd_parse.h"
+
+
+using std::string;
