@@ -40,3 +40,4 @@ DECLARE_string(operation);// create or delete...
 /*
 DECLARE_int32(app_id);
 DECLARE_int32(job_id);
+DECLARE_int32(user_id);
