@@ -41,3 +41,4 @@ bool ImageConfigI::CreateImageConfig(){
            if(image_id == -1) {
                //std::cout<< "rpc error"<<std::endl;
 	       LOG4CPLUS_ERROR(logger, "create image faile, master error");
+               return false;
