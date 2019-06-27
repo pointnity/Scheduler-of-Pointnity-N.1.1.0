@@ -34,3 +34,4 @@ bool ImageConfigI::CreateImageConfig(){
 	return false;
     }
     //get rpc to create image config
+    /*
