@@ -60,3 +60,4 @@ bool ImageConfigI::DeleteImageConfig(const int32_t image_id){
     try {
            Proxy<MasterClient> proxy = Rpc<MasterClient, MasterClient>::GetProxy("localhost:9999");
            if(!proxy().DeleteImage(image_id)) {
+               //std::cout<< "rpc error"<<std::endl;
