@@ -44,3 +44,4 @@ bool ImageConfigI::CreateImageConfig(){
                return false;
            }
        }  catch (TException &tx) {
+          //std::cout<< "rpc error"<<std::endl;
