@@ -15,3 +15,4 @@
 #include "common/rapidxml/rapidxml_utils.hpp"
 
 #include <classad/classad.h>
+#include <classad/classad_distribution.h>
