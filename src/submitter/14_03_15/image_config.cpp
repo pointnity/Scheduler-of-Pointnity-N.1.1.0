@@ -49,3 +49,5 @@ bool ImageConfigI::CreateImageConfig(){
           return false;
        }
     LOG4CPLUS_INFO(logger, "create image finished");
+    */
+    //std::cout<<image_id<<std::endl;
