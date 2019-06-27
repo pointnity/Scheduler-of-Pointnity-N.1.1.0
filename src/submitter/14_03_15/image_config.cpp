@@ -43,3 +43,4 @@ bool ImageConfigI::CreateImageConfig(){
 	       LOG4CPLUS_ERROR(logger, "create image faile, master error");
                return false;
            }
+       }  catch (TException &tx) {
