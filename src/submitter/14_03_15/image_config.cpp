@@ -28,3 +28,4 @@ using std::vector;
 static Logger logger = Logger::getInstance("submitter");
 
 bool ImageConfigI::CreateImageConfig(){
+    //image_config_ad is not null
