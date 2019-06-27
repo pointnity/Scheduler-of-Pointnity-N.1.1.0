@@ -40,3 +40,4 @@ bool ImageConfigI::CreateImageConfig(){
 	   image_id = proxy().CreateImage(image_config_ad);
            if(image_id == -1) {
                //std::cout<< "rpc error"<<std::endl;
+	       LOG4CPLUS_ERROR(logger, "create image faile, master error");
