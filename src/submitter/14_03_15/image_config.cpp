@@ -7,3 +7,4 @@
 
 #include <strstream>
 #include <vector>
+#include "submitter/image_config.h"
