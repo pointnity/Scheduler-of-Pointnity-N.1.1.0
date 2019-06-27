@@ -52,3 +52,6 @@ bool ImageConfigI::CreateImageConfig(){
     */
     //std::cout<<image_id<<std::endl;
     return true;
+}
+
+bool ImageConfigI::DeleteImageConfig(const int32_t image_id){
