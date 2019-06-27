@@ -37,3 +37,4 @@ bool ImageConfigI::CreateImageConfig(){
     /*
     try {
            Proxy<MasterClient> proxy = Rpc<MasterClient, MasterClient>::GetProxy("localhost:9999");
+	   image_id = proxy().CreateImage(image_config_ad);
