@@ -29,3 +29,4 @@ static Logger logger = Logger::getInstance("submitter");
 
 bool ImageConfigI::CreateImageConfig(){
     //image_config_ad is not null
+    if(image_config_ad.empty()){
