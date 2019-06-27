@@ -10,3 +10,4 @@
 #include "submitter/image_config.h"
 #include "include/classad_attr.h"
 #include "include/proxy.h"
+#include "common/clynn/rpc.h"
