@@ -66,3 +66,4 @@ bool ImageConfigI::DeleteImageConfig(const int32_t image_id){
            }
        }  catch (TException &tx) {
           //std::cout<< "rpc error"<<std::endl;
+          LOG4CPLUS_ERROR(logger, "delete image faile,rpc error");
