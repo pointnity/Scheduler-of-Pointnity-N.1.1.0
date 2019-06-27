@@ -62,3 +62,4 @@ bool ImageConfigI::DeleteImageConfig(const int32_t image_id){
            if(!proxy().DeleteImage(image_id)) {
                //std::cout<< "rpc error"<<std::endl;
                LOG4CPLUS_ERROR(logger, "delete image faile,rpc error");
+               return false;
