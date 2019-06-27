@@ -32,3 +32,4 @@ bool ImageConfigI::CreateImageConfig(){
     if(image_config_ad.empty()){
         LOG4CPLUS_ERROR(logger, "create image faile,image_config_ad is null");
 	return false;
+    }
