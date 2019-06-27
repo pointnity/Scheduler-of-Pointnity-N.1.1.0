@@ -36,3 +36,4 @@ bool ImageConfigI::CreateImageConfig(){
     //get rpc to create image config
     /*
     try {
+           Proxy<MasterClient> proxy = Rpc<MasterClient, MasterClient>::GetProxy("localhost:9999");
