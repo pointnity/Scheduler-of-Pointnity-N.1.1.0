@@ -35,3 +35,4 @@ bool ImageConfigI::CreateImageConfig(){
     }
     //get rpc to create image config
     /*
+    try {
