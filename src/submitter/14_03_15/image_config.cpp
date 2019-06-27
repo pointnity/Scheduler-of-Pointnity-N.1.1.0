@@ -55,3 +55,4 @@ bool ImageConfigI::CreateImageConfig(){
 }
 
 bool ImageConfigI::DeleteImageConfig(const int32_t image_id){
+    //get rpc to delete image config
