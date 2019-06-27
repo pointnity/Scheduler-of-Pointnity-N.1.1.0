@@ -12,3 +12,4 @@
 #include "include/proxy.h"
 #include "common/clynn/rpc.h"
 #include "common/rapidxml/rapidxml.hpp"
+#include "common/rapidxml/rapidxml_utils.hpp"
