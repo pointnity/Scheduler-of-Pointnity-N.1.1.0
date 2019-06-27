@@ -58,3 +58,4 @@ bool ImageConfigI::DeleteImageConfig(const int32_t image_id){
     //get rpc to delete image config
     /*
     try {
+           Proxy<MasterClient> proxy = Rpc<MasterClient, MasterClient>::GetProxy("localhost:9999");
