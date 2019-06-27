@@ -48,3 +48,4 @@ bool ImageConfigI::CreateImageConfig(){
 	  LOG4CPLUS_ERROR(logger, "create image faile,rpc error");
           return false;
        }
+    LOG4CPLUS_INFO(logger, "create image finished");
