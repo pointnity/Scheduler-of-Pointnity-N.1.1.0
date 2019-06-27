@@ -45,3 +45,4 @@ bool ImageConfigI::CreateImageConfig(){
            }
        }  catch (TException &tx) {
           //std::cout<< "rpc error"<<std::endl;
+	  LOG4CPLUS_ERROR(logger, "create image faile,rpc error");
