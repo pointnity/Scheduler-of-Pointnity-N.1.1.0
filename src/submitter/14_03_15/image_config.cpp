@@ -33,3 +33,4 @@ bool ImageConfigI::CreateImageConfig(){
         LOG4CPLUS_ERROR(logger, "create image faile,image_config_ad is null");
 	return false;
     }
+    //get rpc to create image config
