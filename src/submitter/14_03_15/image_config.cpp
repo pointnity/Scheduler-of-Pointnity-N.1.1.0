@@ -65,3 +65,4 @@ bool ImageConfigI::DeleteImageConfig(const int32_t image_id){
                return false;
            }
        }  catch (TException &tx) {
+          //std::cout<< "rpc error"<<std::endl;
