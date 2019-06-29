@@ -44,3 +44,6 @@ bool ImageFile::DeleteImageFile(const string& image_name, const string& image_us
     if(false == HDFSMgrI::Instance()->DeleteHDFSFile(image_hdfs_path)){
         LOG4CPLUS_ERROR(logger, "delete imge to hdfs error");
         return false;
+    }
+    return true;
+}
