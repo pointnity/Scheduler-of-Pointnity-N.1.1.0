@@ -22,3 +22,4 @@ public:
      string Get(const string& name);
      bool CreateImageConfig();
      //bool DeleteImageConfig(const int32_t image_id);
+     //bool QueryImageConfig(const int32_t image_id);
