@@ -11,3 +11,4 @@
 #include <log4cplus/loggingmacros.h>
 
 #include "submitter/image_file.h"
+#include "include/hdfs.h"
