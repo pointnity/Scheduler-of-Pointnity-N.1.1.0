@@ -10,3 +10,5 @@
 #include <string>
 #include <map>
 #include <boost/shared_ptr.hpp>
+
+#include "include/proxy.h"
