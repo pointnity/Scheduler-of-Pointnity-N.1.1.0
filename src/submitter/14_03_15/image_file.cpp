@@ -19,3 +19,5 @@ using std::string;
 using std::ifstream;
 using std::ios;
 using std::ostringstream;
+
+static Logger logger = Logger::getInstance("submitter");
