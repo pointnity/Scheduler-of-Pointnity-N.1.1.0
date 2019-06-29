@@ -21,3 +21,6 @@ using std::ios;
 using std::ostringstream;
 
 static Logger logger = Logger::getInstance("submitter");
+
+bool ImageFile::CreateImageFile(const string& image_name, const string& image_user, const string& image_local_path){
+    //init hdfs
