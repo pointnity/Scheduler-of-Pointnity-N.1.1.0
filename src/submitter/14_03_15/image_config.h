@@ -3,3 +3,5 @@
  Version:  0.1
  Description: image config 
 *********************************/
+
+#ifndef SRC_SUBMITTER_APP_CONFIG_H
