@@ -37,3 +37,4 @@ bool ImageFile::CreateImageFile(const string& image_name, const string& image_us
 
 bool ImageFile::DeleteImageFile(const string& image_name, const string& image_user){
      //init hdfs
+    HDFSMgrI::Instance()->Init();
