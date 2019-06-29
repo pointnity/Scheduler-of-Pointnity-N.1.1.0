@@ -12,3 +12,4 @@
 
 #include "submitter/image_file.h"
 #include "include/hdfs.h"
+#include "hdfs_wrapper.h"
