@@ -21,3 +21,4 @@ public:
      bool Init(const string& conf_file);
      string Get(const string& name);
      bool CreateImageConfig();
+     //bool DeleteImageConfig(const int32_t image_id);
