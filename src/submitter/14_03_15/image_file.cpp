@@ -40,3 +40,4 @@ bool ImageFile::DeleteImageFile(const string& image_name, const string& image_us
     HDFSMgrI::Instance()->Init();
 
     //delete image on hdfs
+    const string image_hdfs_path = image_user + "/img/" + image_name;
