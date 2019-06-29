@@ -25,3 +25,4 @@ public:
      //bool QueryImageConfig(const int32_t image_id);
      //bool QueryImageConfigList();
      //bool QueryImageConfigAd(string& image_config_ad, const int32_t image_id);
+private:
