@@ -33,3 +33,7 @@ bool ImageFile::CreateImageFile(const string& image_name, const string& image_us
         return false;
     }    
     return true;
+}
+
+bool ImageFile::DeleteImageFile(const string& image_name, const string& image_user){
+     //init hdfs
