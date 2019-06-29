@@ -8,3 +8,4 @@
 #define SRC_SUBMITTER_APP_CONFIG_H
 
 #include <string>
+#include <map>
