@@ -27,3 +27,4 @@ public:
      //bool QueryImageConfigAd(string& image_config_ad, const int32_t image_id);
 private:
      map<string, string> m_attr_map;
+};
