@@ -31,3 +31,5 @@ bool ImageFile::CreateImageFile(const string& image_name, const string& image_us
     if(false == HDFSMgrI::Instance()->CopyFromLocalFile(image_local_path, image_hdfs_path)){
         LOG4CPLUS_ERROR(logger, "copy local imge to hdfs error");
         return false;
+    }    
+    return true;
