@@ -28,3 +28,4 @@ public:
 private:
      map<string, string> m_attr_map;
 };
+typedef Singleton<ImageConfigI> ImageConfigPtrI;
