@@ -15,3 +15,4 @@
 #include "hdfs_wrapper.h"
 
 using log4cplus::Logger;
+using std::string;
