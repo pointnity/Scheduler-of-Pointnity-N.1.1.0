@@ -23,3 +23,4 @@ public:
      bool CreateImageConfig();
      //bool DeleteImageConfig(const int32_t image_id);
      //bool QueryImageConfig(const int32_t image_id);
+     //bool QueryImageConfigList();
