@@ -27,3 +27,4 @@ bool ImageFile::CreateImageFile(const string& image_name, const string& image_us
     HDFSMgrI::Instance()->Init();
 
     //copy local image to hdfs
+    const string image_hdfs_path = image_user + "/img/" + image_name;
