@@ -17,3 +17,4 @@
 #include "common/clynn/singleton.h"
 
 class ImageConfigI{
+public:
