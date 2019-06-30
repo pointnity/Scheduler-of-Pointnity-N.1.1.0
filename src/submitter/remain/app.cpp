@@ -31,3 +31,4 @@ bool App::CreateApp(const string& app_config_ad){
         return false;
     }
     //create app file on hdfs
+    string app_file_name;
