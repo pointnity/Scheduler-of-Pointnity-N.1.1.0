@@ -16,3 +16,4 @@
 
 class ImageFile{
 public:
+     bool CreateImageFile(const string& image_name, const string& image_user, const string& image_local_path);
