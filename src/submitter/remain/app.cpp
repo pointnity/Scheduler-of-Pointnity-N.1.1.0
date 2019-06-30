@@ -45,3 +45,4 @@ bool App::CreateApp(const string& app_config_ad){
     }
 
     //parse app_source
+    if (!ad_ptr->EvaluateAttrString(ATTR_APP_SRC_PATH, app_file_source)) {
