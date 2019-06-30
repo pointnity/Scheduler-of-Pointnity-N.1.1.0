@@ -35,3 +35,4 @@ bool App::CreateApp(const string& app_config_ad){
     string app_file_source;
     string app_file_locate;
     //get value from classad to app_config
+    ClassAdParser parser;
