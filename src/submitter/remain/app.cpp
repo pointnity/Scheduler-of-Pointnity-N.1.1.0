@@ -39,3 +39,4 @@ bool App::CreateApp(const string& app_config_ad){
     ClassAd* ad_ptr = parser.ParseClassAd(app_config_ad);
 
     //parse app_file_name
+    if (!ad_ptr->EvaluateAttrString(ATTR_APP_FILE_NAME, app_file_name)) {
