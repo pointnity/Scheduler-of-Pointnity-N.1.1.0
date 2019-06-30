@@ -3,3 +3,5 @@
  Version:  0.1
  Description: image file
 *********************************/
+
+#ifndef SRC_SUBMITTER_IMAGE_FILE_H
