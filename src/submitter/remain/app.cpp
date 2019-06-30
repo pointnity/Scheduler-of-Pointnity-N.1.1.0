@@ -51,3 +51,6 @@ bool App::CreateApp(const string& app_config_ad){
     }
 
     //parse install_dir
+    if (!ad_ptr->EvaluateAttrString(ATTR_APP_LOCATE_PATH, app_file_locate)) {
+        LOG4CPLUS_ERROR(logger, "Fails to init app, because parse " << ATTR_APP_LOCATE_PATH << " error.");
+        return false;
