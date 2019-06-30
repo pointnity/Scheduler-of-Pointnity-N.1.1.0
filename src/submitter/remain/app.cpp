@@ -42,3 +42,6 @@ bool App::CreateApp(const string& app_config_ad){
     if (!ad_ptr->EvaluateAttrString(ATTR_APP_FILE_NAME, app_file_name)) {
         LOG4CPLUS_ERROR(logger, "Fails to init app, because parse " << ATTR_APP_FILE_NAME << " error.");
         return false;
+    }
+
+    //parse app_source
