@@ -10,3 +10,5 @@
 #include "submitter/app_file.h"
 #include "submitter/app.h"
 #include "include/classad_attr.h"
+
+#include <classad/classad.h>
