@@ -37,3 +37,5 @@ bool App::CreateApp(const string& app_config_ad){
     //get value from classad to app_config
     ClassAdParser parser;
     ClassAd* ad_ptr = parser.ParseClassAd(app_config_ad);
+
+    //parse app_file_name
