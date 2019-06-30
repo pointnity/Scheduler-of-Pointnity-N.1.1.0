@@ -28,3 +28,4 @@ bool App::CreateApp(const string& app_config_ad){
     //create app config
     if(false == AppConfigPtrI::Instance()->CreateAppConfig(app_config_ad)){
 	LOG4CPLUS_ERROR(logger, "create app faile");
+        return false;
