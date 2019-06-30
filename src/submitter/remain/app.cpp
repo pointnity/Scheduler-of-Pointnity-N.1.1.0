@@ -8,3 +8,4 @@
 #include <vector>
 #include "submitter/app_config.h"
 #include "submitter/app_file.h"
+#include "submitter/app.h"
