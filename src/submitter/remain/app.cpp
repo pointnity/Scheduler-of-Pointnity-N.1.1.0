@@ -20,3 +20,4 @@
 using log4cplus::Logger;
 using std::string;
 using std::strstream;
+using std::vector;
