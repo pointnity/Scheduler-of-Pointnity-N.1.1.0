@@ -23,3 +23,6 @@ using std::strstream;
 using std::vector;
 
 static Logger logger = Logger::getInstance("submitter");
+
+bool App::CreateApp(const string& app_config_ad){
+    //create app config
