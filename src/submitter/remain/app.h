@@ -23,3 +23,4 @@ public:
      bool QueryApp(const int32_t app_id);
      bool QueryAppList();
 };
+typedef Singleton<App> AppPtrI;
