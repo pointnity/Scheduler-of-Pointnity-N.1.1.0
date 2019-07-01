@@ -52,3 +52,4 @@ bool AppConfigI::CreateAppConfig(const string& app_config_ad){
 }
 
 bool AppConfigI::DeleteAppConfig(const int32_t app_id){
+    //get rpc to delete app config
