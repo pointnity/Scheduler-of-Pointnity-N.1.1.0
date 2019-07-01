@@ -7,3 +7,4 @@
 #include <strstream>
 #include <vector>
 #include "submitter/app_config.h"
+#include "include/classad_attr.h"
