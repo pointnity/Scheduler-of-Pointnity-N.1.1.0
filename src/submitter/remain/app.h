@@ -22,3 +22,4 @@ public:
      bool UpdateApp(const string& app_config_ad);
      bool QueryApp(const int32_t app_id);
      bool QueryAppList();
+};
