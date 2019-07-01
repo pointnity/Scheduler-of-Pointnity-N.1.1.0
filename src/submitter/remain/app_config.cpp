@@ -49,3 +49,6 @@ bool AppConfigI::CreateAppConfig(const string& app_config_ad){
     
     //std::cout<<app_id<<std::endl;
     return true;
+}
+
+bool AppConfigI::DeleteAppConfig(const int32_t app_id){
