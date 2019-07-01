@@ -24,3 +24,4 @@ public:
      bool QueryAppList();
 };
 typedef Singleton<App> AppPtrI;
+#endif
