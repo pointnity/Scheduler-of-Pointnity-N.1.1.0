@@ -27,3 +27,4 @@ static Logger logger = Logger::getInstance("submitter");
 bool AppConfigI::CreateAppConfig(const string& app_config_ad){
     int32_t app_id;
     //app_config_ad is not null
+    if(app_config_ad.empty()){
