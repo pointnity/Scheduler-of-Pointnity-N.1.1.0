@@ -5,3 +5,5 @@
 *********************************/
 
 #ifndef SRC_SUBMITTER_APP_H
+
+#include <string>
