@@ -10,3 +10,5 @@
 #include "include/classad_attr.h"
 #include "include/proxy.h"
 #include "common/clynn/rpc.h"
+
+#include <classad/classad.h>
