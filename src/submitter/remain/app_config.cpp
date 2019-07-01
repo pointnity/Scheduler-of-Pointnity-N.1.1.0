@@ -28,3 +28,4 @@ bool AppConfigI::CreateAppConfig(const string& app_config_ad){
     int32_t app_id;
     //app_config_ad is not null
     if(app_config_ad.empty()){
+        LOG4CPLUS_ERROR(logger, "create app faile,app_config_ad is null");
