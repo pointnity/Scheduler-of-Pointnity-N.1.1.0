@@ -37,3 +37,4 @@ bool AppConfigI::CreateAppConfig(const string& app_config_ad){
 	   app_id = proxy().CreateApp(app_config_ad);
            if(app_id == -1) {
                //std::cout<< "rpc error"<<std::endl;
+	       LOG4CPLUS_ERROR(logger, "create app faile, master error");
