@@ -32,3 +32,4 @@ bool AppConfigI::CreateAppConfig(const string& app_config_ad){
 	return false;
     }
     //get rpc to create app config
+    try {
