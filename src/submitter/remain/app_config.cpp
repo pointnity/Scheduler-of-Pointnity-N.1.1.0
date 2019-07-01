@@ -21,3 +21,7 @@ using log4cplus::Logger;
 using std::string;
 using std::strstream;
 using std::vector;
+
+static Logger logger = Logger::getInstance("submitter");
+
+bool AppConfigI::CreateAppConfig(const string& app_config_ad){
