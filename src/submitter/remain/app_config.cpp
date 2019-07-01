@@ -36,3 +36,4 @@ bool AppConfigI::CreateAppConfig(const string& app_config_ad){
            Proxy<MasterClient> proxy = Rpc<MasterClient, MasterClient>::GetProxy("localhost:9999");
 	   app_id = proxy().CreateApp(app_config_ad);
            if(app_id == -1) {
+               //std::cout<< "rpc error"<<std::endl;
