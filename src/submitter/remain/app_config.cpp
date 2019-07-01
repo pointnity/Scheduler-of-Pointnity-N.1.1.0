@@ -6,3 +6,4 @@
 
 #include <strstream>
 #include <vector>
+#include "submitter/app_config.h"
