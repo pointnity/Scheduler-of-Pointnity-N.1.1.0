@@ -33,3 +33,4 @@ bool AppConfigI::CreateAppConfig(const string& app_config_ad){
     }
     //get rpc to create app config
     try {
+           Proxy<MasterClient> proxy = Rpc<MasterClient, MasterClient>::GetProxy("localhost:9999");
