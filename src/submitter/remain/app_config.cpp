@@ -48,3 +48,4 @@ bool AppConfigI::CreateAppConfig(const string& app_config_ad){
     LOG4CPLUS_INFO(logger, "create app finished");
     
     //std::cout<<app_id<<std::endl;
+    return true;
