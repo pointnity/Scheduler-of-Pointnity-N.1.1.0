@@ -35,3 +35,4 @@ bool AppConfigI::CreateAppConfig(const string& app_config_ad){
     try {
            Proxy<MasterClient> proxy = Rpc<MasterClient, MasterClient>::GetProxy("localhost:9999");
 	   app_id = proxy().CreateApp(app_config_ad);
+           if(app_id == -1) {
