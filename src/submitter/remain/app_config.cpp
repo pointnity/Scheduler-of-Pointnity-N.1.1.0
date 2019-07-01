@@ -43,3 +43,4 @@ bool AppConfigI::CreateAppConfig(const string& app_config_ad){
        }  catch (TException &tx) {
           //std::cout<< "rpc error"<<std::endl;
 	  LOG4CPLUS_ERROR(logger, "create app faile,rpc error");
+          return false;
