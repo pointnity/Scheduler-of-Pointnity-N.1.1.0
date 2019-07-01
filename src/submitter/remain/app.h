@@ -7,3 +7,4 @@
 #ifndef SRC_SUBMITTER_APP_H
 
 #include <string>
+#include <boost/shared_ptr.hpp>
