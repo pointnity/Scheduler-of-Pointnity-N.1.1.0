@@ -8,3 +8,4 @@
 #include <vector>
 #include "submitter/app_config.h"
 #include "include/classad_attr.h"
+#include "include/proxy.h"
