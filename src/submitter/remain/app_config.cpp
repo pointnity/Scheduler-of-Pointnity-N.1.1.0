@@ -5,3 +5,4 @@
 *********************************/
 
 #include <strstream>
+#include <vector>
