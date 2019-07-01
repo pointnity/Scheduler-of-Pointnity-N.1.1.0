@@ -18,3 +18,4 @@
 class App{
 public:
      bool CreateApp(const string& app_config_ad);
+     bool DeleteApp(const int32_t app_id);
