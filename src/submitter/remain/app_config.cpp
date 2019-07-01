@@ -41,3 +41,4 @@ bool AppConfigI::CreateAppConfig(const string& app_config_ad){
                return false;
            }
        }  catch (TException &tx) {
+          //std::cout<< "rpc error"<<std::endl;
