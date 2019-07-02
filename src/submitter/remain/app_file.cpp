@@ -9,3 +9,5 @@
 #include <sstream>
 #include <log4cplus/logger.h>
 #include <log4cplus/loggingmacros.h>
+
+#include "submitter/app_file.h"
