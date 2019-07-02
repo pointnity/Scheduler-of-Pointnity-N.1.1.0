@@ -30,3 +30,4 @@ bool AppFile::CreateAppFile(const string& app_file_name, const string& app_file_
 	LOG4CPLUS_ERROR(logger, "connect hdfs error");
 	return false;
     //open hdfs file handler
+    string write_file = app_file_source + "/" + app_file_name;
