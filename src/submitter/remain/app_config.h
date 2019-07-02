@@ -25,3 +25,4 @@ public:
      bool QueryAppConfigAd(string& app_config_ad, const int32_t app_id);
 };
 typedef Singleton<AppConfigI> AppConfigPtrI;
+#endif
