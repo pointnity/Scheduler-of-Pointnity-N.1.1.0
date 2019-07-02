@@ -49,3 +49,39 @@ bool AppFile::CreateAppFile(const string& app_file_name, const string& app_file_
 
     while(buf&&ifile.get(ch)){
         buf.put(ch);
+    }
+    app_file = buf.str();
+    std::cout<<app_file<<std::endl;
+    tSize num_written_bytes = hdfsWrite(fs, writeFile, app_file.c_str(), app_file.size());
+    if(num_written_bytes == -1){
+        LOG4CPLUS_ERROR(logger, "Failed to write");
+        return false;
+    }
+    std::cout<<"hello world "<<num_written_bytes<<std::endl;
+
+    if (hdfsFlush(fs, writeFile)) {
+        LOG4CPLUS_ERROR(logger, "Failed to flush");
+        return false;
+    }
+
+    hdfsCloseFile(fs, writeFile);
+    return true;
+}
+
+bool AppFile::DeleteAppFile(const string& app_file_name, const string& app_file_source){
+     //get endpoint from zookeeper 
+
+    //connect hdfs
+    hdfsFS fs = hdfsConnect("default", 0);
+    if(!fs) {
+        LOG4CPLUS_ERROR(logger, "connect hdfs error");
+        return false;
+    }
+    //delete file on hdfs
+    string delete_file = app_file_source + app_file_name;
+    if(hdfsDelete(fs, delete_file.c_str()) != 0){
+	LOG4CPLUS_ERROR(logger, "delete file on hdfs error");
+        return false;
+    }
+    return true;
+}
