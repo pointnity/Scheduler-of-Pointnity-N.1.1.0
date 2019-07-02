@@ -35,3 +35,4 @@ bool AppFile::CreateAppFile(const string& app_file_name, const string& app_file_
     //string write_file = "/tmp/a.txt";
     hdfsFile writeFile = hdfsOpenFile(fs, write_file.c_str(), O_WRONLY|O_CREAT, 0, 0, 0);
     if(!writeFile) {
+	LOG4CPLUS_ERROR(logger, "Failed to open for writing!");
