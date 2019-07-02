@@ -43,3 +43,4 @@ bool AppFile::CreateAppFile(const string& app_file_name, const string& app_file_
     // read local file to stream
     ostringstream buf;
     char ch;
+    string app_file;
