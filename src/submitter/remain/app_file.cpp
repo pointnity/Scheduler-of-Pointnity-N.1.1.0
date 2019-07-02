@@ -46,3 +46,5 @@ bool AppFile::CreateAppFile(const string& app_file_name, const string& app_file_
     string app_file;
     string app_file_sn = app_file_locate + "/" + app_file_name;
     ifstream ifile(app_file_sn.c_str());
+
+    while(buf&&ifile.get(ch)){
