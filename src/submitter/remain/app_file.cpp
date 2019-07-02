@@ -7,3 +7,4 @@
 #include <fstream>
 #include <iostream>
 #include <sstream>
+#include <log4cplus/logger.h>
