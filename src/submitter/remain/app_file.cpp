@@ -39,3 +39,4 @@ bool AppFile::CreateAppFile(const string& app_file_name, const string& app_file_
         return false;
     }
     std::cout<<"hello world 2"<<std::endl;
+    //write hdfs file
