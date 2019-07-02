@@ -12,3 +12,5 @@
 
 #include "submitter/app_file.h"
 #include "include/hdfs.h"
+
+using log4cplus::Logger;
