@@ -34,3 +34,4 @@ bool AppFile::CreateAppFile(const string& app_file_name, const string& app_file_
     //std::cout<<write_file<<std::endl;
     //string write_file = "/tmp/a.txt";
     hdfsFile writeFile = hdfsOpenFile(fs, write_file.c_str(), O_WRONLY|O_CREAT, 0, 0, 0);
+    if(!writeFile) {
