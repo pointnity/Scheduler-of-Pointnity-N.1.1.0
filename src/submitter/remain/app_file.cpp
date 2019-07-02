@@ -27,3 +27,4 @@ bool AppFile::CreateAppFile(const string& app_file_name, const string& app_file_
     //connect hdfs
     hdfsFS fs = hdfsConnect("localhost",9000 );
     if(!fs) {
+	LOG4CPLUS_ERROR(logger, "connect hdfs error");
