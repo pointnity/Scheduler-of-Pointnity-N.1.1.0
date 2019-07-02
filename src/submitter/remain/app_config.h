@@ -18,3 +18,4 @@
 class AppConfigI{
 public:
      bool CreateAppConfig(const string& app_config_ad);
+     bool DeleteAppConfig(const int32_t app_id);
