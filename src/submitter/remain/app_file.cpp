@@ -37,3 +37,5 @@ bool AppFile::CreateAppFile(const string& app_file_name, const string& app_file_
     if(!writeFile) {
 	LOG4CPLUS_ERROR(logger, "Failed to open for writing!");
         return false;
+    }
+    std::cout<<"hello world 2"<<std::endl;
