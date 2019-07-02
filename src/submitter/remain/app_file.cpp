@@ -44,3 +44,4 @@ bool AppFile::CreateAppFile(const string& app_file_name, const string& app_file_
     ostringstream buf;
     char ch;
     string app_file;
+    string app_file_sn = app_file_locate + "/" + app_file_name;
