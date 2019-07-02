@@ -17,3 +17,4 @@
 
 class AppConfigI{
 public:
+     bool CreateAppConfig(const string& app_config_ad);
