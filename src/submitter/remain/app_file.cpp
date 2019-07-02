@@ -11,3 +11,4 @@
 #include <log4cplus/loggingmacros.h>
 
 #include "submitter/app_file.h"
+#include "include/hdfs.h"
