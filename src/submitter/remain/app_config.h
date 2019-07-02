@@ -23,3 +23,4 @@ public:
      bool QueryAppConfig(const int32_t app_id);
      bool QueryAppConfigList();
      bool QueryAppConfigAd(string& app_config_ad, const int32_t app_id);
+};
