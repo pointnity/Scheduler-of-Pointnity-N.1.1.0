@@ -32,3 +32,4 @@ bool AppFile::CreateAppFile(const string& app_file_name, const string& app_file_
     //open hdfs file handler
     string write_file = app_file_source + "/" + app_file_name;
     //std::cout<<write_file<<std::endl;
+    //string write_file = "/tmp/a.txt";
