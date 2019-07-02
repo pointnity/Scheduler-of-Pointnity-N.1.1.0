@@ -21,3 +21,4 @@ public:
      bool DeleteAppConfig(const int32_t app_id);
      bool UpdateAppConfig(const string& app_config_ad);
      bool QueryAppConfig(const int32_t app_id);
+     bool QueryAppConfigList();
