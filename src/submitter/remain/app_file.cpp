@@ -23,3 +23,5 @@ static Logger logger = Logger::getInstance("submitter");
 
 bool AppFile::CreateAppFile(const string& app_file_name, const string& app_file_locate, const string& app_file_source){
     //get endpoint from zookeeper
+
+    //connect hdfs
