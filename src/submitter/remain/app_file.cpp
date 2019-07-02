@@ -48,3 +48,4 @@ bool AppFile::CreateAppFile(const string& app_file_name, const string& app_file_
     ifstream ifile(app_file_sn.c_str());
 
     while(buf&&ifile.get(ch)){
+        buf.put(ch);
