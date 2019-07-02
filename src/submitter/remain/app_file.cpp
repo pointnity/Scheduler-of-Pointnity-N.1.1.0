@@ -16,3 +16,4 @@
 using log4cplus::Logger;
 using std::string;
 using std::ifstream;
+using std::ios;
