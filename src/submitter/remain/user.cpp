@@ -35,3 +35,4 @@ bool User::CreateUser(const string& user_config_ad){
            Proxy<MasterClient> proxy = Rpc<MasterClient, MasterClient>::GetProxy("localhost:9999");
 	   user_id = proxy().CreateUser(user_config_ad);
            if(user_id == -1) {
+               //std::cout<< "rpc error"<<std::endl;
