@@ -42,3 +42,4 @@ bool User::CreateUser(const string& user_config_ad){
        }  catch (TException &tx) {
           //std::cout<< "rpc error"<<std::endl;
 	  LOG4CPLUS_ERROR(logger, "create user faile,rpc error");
+          return false;
