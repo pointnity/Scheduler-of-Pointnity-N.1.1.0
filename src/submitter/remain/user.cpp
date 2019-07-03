@@ -38,3 +38,4 @@ bool User::CreateUser(const string& user_config_ad){
                //std::cout<< "rpc error"<<std::endl;
 	       LOG4CPLUS_ERROR(logger, "create user faile, master error");
                return false;
+           }
