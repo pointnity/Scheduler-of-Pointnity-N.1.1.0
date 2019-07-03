@@ -29,3 +29,5 @@ bool User::CreateUser(const string& user_config_ad){
     if(user_config_ad.empty()){
         LOG4CPLUS_ERROR(logger, "create user faile,user_config_ad is null");
 	return false;
+    }
+    //get rpc to create app config
