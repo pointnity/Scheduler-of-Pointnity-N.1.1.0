@@ -17,3 +17,4 @@
 #include "common/clynn/rpc.h"
 
 using log4cplus::Logger;
+using std::string;
