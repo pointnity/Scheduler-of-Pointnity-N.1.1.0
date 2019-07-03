@@ -45,3 +45,5 @@ bool User::CreateUser(const string& user_config_ad){
           return false;
        }
     LOG4CPLUS_INFO(logger, "create user finished");
+    
+    std::cout<<user_id<<std::endl;
