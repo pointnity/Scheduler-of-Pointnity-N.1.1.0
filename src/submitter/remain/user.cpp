@@ -11,3 +11,4 @@
 
 #include <strstream>
 #include <vector>
+#include "submitter/user.h"
