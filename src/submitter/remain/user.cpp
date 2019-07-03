@@ -39,3 +39,4 @@ bool User::CreateUser(const string& user_config_ad){
 	       LOG4CPLUS_ERROR(logger, "create user faile, master error");
                return false;
            }
+       }  catch (TException &tx) {
