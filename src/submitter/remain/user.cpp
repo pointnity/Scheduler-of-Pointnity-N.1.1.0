@@ -13,3 +13,4 @@
 #include <vector>
 #include "submitter/user.h"
 #include "include/classad_attr.h"
+#include "include/proxy.h"
