@@ -55,3 +55,4 @@ bool User::DeleteUser(const int32_t user_id){
     try {
            Proxy<MasterClient> proxy = Rpc<MasterClient, MasterClient>::GetProxy("localhost:9999");
            if(!proxy().DeleteUser(user_id)) {
+               //std::cout<< "rpc error"<<std::endl;
