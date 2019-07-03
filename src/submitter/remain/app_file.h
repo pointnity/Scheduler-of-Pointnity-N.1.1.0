@@ -18,3 +18,4 @@ class AppFile{
 public:
      bool CreateAppFile(const string& app_file_name, const string& app_file_locate, const string& app_file_source);
      bool DeleteAppFile(const string& app_file_name, const string& app_file_source);
+};
