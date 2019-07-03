@@ -26,3 +26,4 @@ static Logger logger = Logger::getInstance("submitter");
 bool User::CreateUser(const string& user_config_ad){
     int32_t user_id;
     //app_config_ad is not null
+    if(user_config_ad.empty()){
