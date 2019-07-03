@@ -54,3 +54,4 @@ bool User::DeleteUser(const int32_t user_id){
     //get rpc to delete app config
     try {
            Proxy<MasterClient> proxy = Rpc<MasterClient, MasterClient>::GetProxy("localhost:9999");
+           if(!proxy().DeleteUser(user_id)) {
