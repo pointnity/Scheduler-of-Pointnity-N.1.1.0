@@ -33,3 +33,4 @@ bool User::CreateUser(const string& user_config_ad){
     //get rpc to create app config
     try {
            Proxy<MasterClient> proxy = Rpc<MasterClient, MasterClient>::GetProxy("localhost:9999");
+	   user_id = proxy().CreateUser(user_config_ad);
