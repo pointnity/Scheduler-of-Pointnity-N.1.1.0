@@ -12,3 +12,4 @@
 #include <strstream>
 #include <vector>
 #include "submitter/user.h"
+#include "include/classad_attr.h"
