@@ -48,3 +48,6 @@ bool User::CreateUser(const string& user_config_ad){
     
     std::cout<<user_id<<std::endl;
     return true;
+}
+
+bool User::DeleteUser(const int32_t user_id){
