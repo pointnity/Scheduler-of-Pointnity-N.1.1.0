@@ -51,3 +51,4 @@ bool User::CreateUser(const string& user_config_ad){
 }
 
 bool User::DeleteUser(const int32_t user_id){
+    //get rpc to delete app config
