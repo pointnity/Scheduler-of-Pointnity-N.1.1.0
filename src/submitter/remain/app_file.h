@@ -6,3 +6,5 @@
 
 #ifndef SRC_SUBMITTER_APP_FILE_H
 #define SRC_SUBMITTER_APP_FILE_H
+
+#include <string>
