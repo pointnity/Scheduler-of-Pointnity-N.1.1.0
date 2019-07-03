@@ -31,3 +31,4 @@ bool User::CreateUser(const string& user_config_ad){
 	return false;
     }
     //get rpc to create app config
+    try {
