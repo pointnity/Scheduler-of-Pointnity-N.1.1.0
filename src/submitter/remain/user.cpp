@@ -27,3 +27,4 @@ bool User::CreateUser(const string& user_config_ad){
     int32_t user_id;
     //app_config_ad is not null
     if(user_config_ad.empty()){
+        LOG4CPLUS_ERROR(logger, "create user faile,user_config_ad is null");
