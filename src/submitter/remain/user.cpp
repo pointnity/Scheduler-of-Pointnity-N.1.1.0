@@ -44,3 +44,4 @@ bool User::CreateUser(const string& user_config_ad){
 	  LOG4CPLUS_ERROR(logger, "create user faile,rpc error");
           return false;
        }
+    LOG4CPLUS_INFO(logger, "create user finished");
