@@ -24,3 +24,4 @@ using std::vector;
 static Logger logger = Logger::getInstance("submitter");
 
 bool User::CreateUser(const string& user_config_ad){
+    int32_t user_id;
