@@ -44,3 +44,4 @@ ADD_EXECUTABLE(submitter ${SUBMITTER})
 
 TARGET_LINK_LIBRARIES(submitter thrift)
 TARGET_LINK_LIBRARIES(submitter classad)
+TARGET_LINK_LIBRARIES(submitter log4cplus)
