@@ -17,3 +17,4 @@
 
 class User{
 public:
+     bool CreateUser(const string& app_config_ad);
