@@ -37,3 +37,4 @@ SET (SUBMITTER
    app.cpp
    app_file.cpp
    app_config.cpp
+   user.cpp
