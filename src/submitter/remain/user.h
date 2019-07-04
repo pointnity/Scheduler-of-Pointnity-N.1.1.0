@@ -8,3 +8,4 @@
 #define SRC_SUBMITTER_USER_H
 
 #include <string>
+#include <boost/shared_ptr.hpp>
