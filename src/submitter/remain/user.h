@@ -23,3 +23,4 @@ public:
      bool QueryUser(const int32_t app_id);
      bool QueryUserList();
 };
+typedef Singleton<User> UserPtrI;
