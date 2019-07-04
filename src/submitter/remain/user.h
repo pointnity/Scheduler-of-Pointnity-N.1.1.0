@@ -19,3 +19,4 @@ class User{
 public:
      bool CreateUser(const string& app_config_ad);
      bool DeleteUser(const int32_t app_id);
+     bool UpdateUser(const string& app_config_ad);
