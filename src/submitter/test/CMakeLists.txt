@@ -39,3 +39,5 @@ SET (SUBMITTER
    app_config.cpp
    user.cpp
    config.cpp)
+ 
+ADD_EXECUTABLE(submitter ${SUBMITTER})
