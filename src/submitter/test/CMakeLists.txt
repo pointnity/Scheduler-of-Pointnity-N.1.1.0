@@ -8,3 +8,4 @@ SET(MASTER_THRIFT_SOURCE
     ${THRIFT_SOURCE_PREFIX}/master/gen-cpp/Master.h
     ${THRIFT_SOURCE_PREFIX}/master/gen-cpp/Master.cpp)
 ADD_CUSTOM_COMMAND (
+    OUTPUT ${MASTER_THRIFT_SOURCE}
