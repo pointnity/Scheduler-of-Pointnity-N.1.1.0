@@ -41,3 +41,5 @@ SET (SUBMITTER
    config.cpp)
  
 ADD_EXECUTABLE(submitter ${SUBMITTER})
+
+TARGET_LINK_LIBRARIES(submitter thrift)
