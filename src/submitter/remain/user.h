@@ -6,3 +6,5 @@
 
 #ifndef SRC_SUBMITTER_USER_H
 #define SRC_SUBMITTER_USER_H
+
+#include <string>
