@@ -32,3 +32,4 @@ $ENV{HADOOP_HOME}/build/c++/Linux-amd64-64/lib
 
 SET (SUBMITTER
    ${MASTER_THRIFT_SOURCE}  
+   submitter.cpp
