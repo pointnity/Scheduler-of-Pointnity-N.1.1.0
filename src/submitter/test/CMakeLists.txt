@@ -7,3 +7,4 @@ SET(MASTER_THRIFT_SOURCE
     ${THRIFT_SOURCE_PREFIX}/master/gen-cpp/master_types.cpp
     ${THRIFT_SOURCE_PREFIX}/master/gen-cpp/Master.h
     ${THRIFT_SOURCE_PREFIX}/master/gen-cpp/Master.cpp)
+ADD_CUSTOM_COMMAND (
