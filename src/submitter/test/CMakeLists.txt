@@ -35,3 +35,4 @@ SET (SUBMITTER
    submitter.cpp
    cmd_parse.cpp
    app.cpp
+   app_file.cpp
