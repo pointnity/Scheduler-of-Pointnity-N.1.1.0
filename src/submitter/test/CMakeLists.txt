@@ -36,3 +36,4 @@ SET (SUBMITTER
    cmd_parse.cpp
    app.cpp
    app_file.cpp
+   app_config.cpp
