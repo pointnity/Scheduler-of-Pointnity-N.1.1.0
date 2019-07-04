@@ -46,3 +46,18 @@ TARGET_LINK_LIBRARIES(submitter thrift)
 TARGET_LINK_LIBRARIES(submitter classad)
 TARGET_LINK_LIBRARIES(submitter log4cplus)
 TARGET_LINK_LIBRARIES(submitter hdfs)
+TARGET_LINK_LIBRARIES(submitter jvm)
+TARGET_LINK_LIBRARIES(submitter gflags)
+
+SET (APPFILETEST
+   app_file_test.cpp
+   app_file.cpp
+   )
+
+ADD_EXECUTABLE(app_file_test ${APPFILETEST})
+
+#TARGET_LINK_LIBRARIES(submitter thrift)
+#TARGET_LINK_LIBRARIES(submitter classad)
+TARGET_LINK_LIBRARIES(app_file_test log4cplus)
+TARGET_LINK_LIBRARIES(app_file_test hdfs)
+TARGET_LINK_LIBRARIES(app_file_test jvm)
