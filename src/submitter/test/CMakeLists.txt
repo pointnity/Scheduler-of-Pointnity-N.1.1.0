@@ -34,3 +34,4 @@ SET (SUBMITTER
    ${MASTER_THRIFT_SOURCE}  
    submitter.cpp
    cmd_parse.cpp
+   app.cpp
