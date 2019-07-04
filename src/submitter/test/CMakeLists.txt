@@ -43,3 +43,4 @@ SET (SUBMITTER
 ADD_EXECUTABLE(submitter ${SUBMITTER})
 
 TARGET_LINK_LIBRARIES(submitter thrift)
+TARGET_LINK_LIBRARIES(submitter classad)
