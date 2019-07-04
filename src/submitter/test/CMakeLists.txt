@@ -24,3 +24,4 @@ $ENV{JAVA_HOME}/include/linux
 )
 
 INCLUDE_DIRECTORIES(
+$ENV{JAVA_HOME}/jre/lib/amd64/server
