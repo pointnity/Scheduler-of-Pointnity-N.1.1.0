@@ -16,3 +16,4 @@
 //#include "common/clynn/rpc.h"
 
 class User{
+public:
