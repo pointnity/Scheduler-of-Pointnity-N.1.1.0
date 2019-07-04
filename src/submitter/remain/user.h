@@ -24,3 +24,4 @@ public:
      bool QueryUserList();
 };
 typedef Singleton<User> UserPtrI;
+#endif
