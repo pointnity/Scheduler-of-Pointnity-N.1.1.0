@@ -54,3 +54,5 @@ int main(int argc, char **argv) {
         //LOG4CPLUS_ERROR(logger, "cmd parse error, unknown run mode");
 	cout<< "create app file to hdfs error"<< endl;
 	return -1;
+    }
+    return 0; 
