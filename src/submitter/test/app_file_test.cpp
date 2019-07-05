@@ -42,3 +42,4 @@ int main(int argc, char **argv) {
     Logger logger = Logger::getInstance(LOG4CPLUS_TEXT("submitter"));
     logger.addAppender(append);
     logger.setLogLevel(log4cplus::DEBUG_LOG_LEVEL);
+    LOG4CPLUS_DEBUG(logger, "This is the FIRST debug message");
