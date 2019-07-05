@@ -17,3 +17,5 @@
 #include <gflags/gflags.h>
 
 #include "submitter/app_file.h"
+
+using std::string;
