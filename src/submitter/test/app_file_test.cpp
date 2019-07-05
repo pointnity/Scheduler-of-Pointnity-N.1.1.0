@@ -37,3 +37,4 @@ int main(int argc, char **argv) {
     // initilize log log4cplus
     SharedObjectPtr<Appender> append(new FileAppender("submitter.log"));
     append->setName(LOG4CPLUS_TEXT("append for submitter"));
+    auto_ptr<Layout> layout(new PatternLayout(LOG4CPLUS_TEXT("%d{%y/%m/%d %H:%M:%S} %p [%l]: %m %n")));
