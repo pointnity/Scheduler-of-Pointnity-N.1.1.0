@@ -52,3 +52,4 @@ int main(int argc, char **argv) {
 
     if(false == AppFilePtrI::Instance()->CreateAppFile(app_file_name, app_file_locate, app_file_source)){
         //LOG4CPLUS_ERROR(logger, "cmd parse error, unknown run mode");
+	cout<< "create app file to hdfs error"<< endl;
