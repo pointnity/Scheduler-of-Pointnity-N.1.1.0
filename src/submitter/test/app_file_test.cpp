@@ -35,3 +35,4 @@ using log4cplus::helpers::SharedObjectPtr;
 int main(int argc, char **argv) {
 
     // initilize log log4cplus
+    SharedObjectPtr<Appender> append(new FileAppender("submitter.log"));
