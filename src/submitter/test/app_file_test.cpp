@@ -47,3 +47,4 @@ int main(int argc, char **argv) {
     LOG4CPLUS_ERROR(logger, "This is the FIRST error message");
 
     string app_file_name = "a.txt";
+    string app_file_source = "/user/root/test";
