@@ -33,3 +33,5 @@ using log4cplus::helpers::SharedObjectPtr;
 
 
 int main(int argc, char **argv) {
+
+    // initilize log log4cplus
