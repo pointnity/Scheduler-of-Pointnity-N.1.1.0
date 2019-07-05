@@ -15,3 +15,5 @@
 #include <log4cplus/consoleappender.h>
 #include <log4cplus/layout.h>
 #include <gflags/gflags.h>
+
+#include "submitter/app_file.h"
