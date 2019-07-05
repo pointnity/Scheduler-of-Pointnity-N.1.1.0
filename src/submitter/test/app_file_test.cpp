@@ -36,3 +36,4 @@ int main(int argc, char **argv) {
 
     // initilize log log4cplus
     SharedObjectPtr<Appender> append(new FileAppender("submitter.log"));
+    append->setName(LOG4CPLUS_TEXT("append for submitter"));
