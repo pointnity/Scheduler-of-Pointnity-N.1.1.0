@@ -48,3 +48,4 @@ int main(int argc, char **argv) {
 
     string app_file_name = "a.txt";
     string app_file_source = "/user/root/test";
+    string app_file_locate = "/home/yesw/";
