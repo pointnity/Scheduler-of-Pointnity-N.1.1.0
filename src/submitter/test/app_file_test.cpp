@@ -41,3 +41,4 @@ int main(int argc, char **argv) {
     append->setLayout(layout);
     Logger logger = Logger::getInstance(LOG4CPLUS_TEXT("submitter"));
     logger.addAppender(append);
+    logger.setLogLevel(log4cplus::DEBUG_LOG_LEVEL);
