@@ -45,3 +45,5 @@ int main(int argc, char **argv) {
     LOG4CPLUS_DEBUG(logger, "This is the FIRST debug message");
     LOG4CPLUS_INFO(logger, "This is the FIRST info message");
     LOG4CPLUS_ERROR(logger, "This is the FIRST error message");
+
+    string app_file_name = "a.txt";
