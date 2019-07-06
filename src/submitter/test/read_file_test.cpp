@@ -13,3 +13,4 @@ string readFileIntoString(char * filename)
 ifstream ifile(filename);
 / / Read the file into the ostringstream object BUF
 ostringstream buf;
+char ch;
