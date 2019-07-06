@@ -7,11 +7,11 @@
 using namespace std;
 
 
-// Read from the file into the string
+//Read from the file into the string
 string readFileIntoString(char * filename)
 {
 ifstream ifile(filename);
-// Read the file into the ostringstream object BUF
+//Read the file into the ostringstream object BUF
 ostringstream buf;
 char ch;
 ostringstream buf;
