@@ -27,3 +27,4 @@ int main()
 {
 //file name
 char * fn="/home/yesw/a.txt";
+string str;
