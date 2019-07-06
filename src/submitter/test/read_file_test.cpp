@@ -16,3 +16,4 @@ ostringstream buf;
 char ch;
 ostringstream buf;
 char ch;
+while(buf&&ifile.get(ch))
