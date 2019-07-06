@@ -11,3 +11,4 @@ using namespace std;
 string readFileIntoString(char * filename)
 {
 ifstream ifile(filename);
+/ / Read the file into the ostringstream object BUF
