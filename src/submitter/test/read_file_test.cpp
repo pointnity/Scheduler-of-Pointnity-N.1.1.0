@@ -21,3 +21,6 @@ buf.put(ch);
 //Returns the string associated with the stream object BUF
 return buf.str();
 }
+
+
+int main()
