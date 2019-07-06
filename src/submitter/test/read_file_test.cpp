@@ -29,3 +29,4 @@ int main()
 char * fn="/home/yesw/a.txt";
 string str;
 str=readFileIntoString(fn);
+cout<<str<<endl;
