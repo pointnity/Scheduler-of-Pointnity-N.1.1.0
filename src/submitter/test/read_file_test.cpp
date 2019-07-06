@@ -31,3 +31,5 @@ string str;
 str=readFileIntoString(fn);
 cout<<str<<endl;
 system("pause");
+
+}
