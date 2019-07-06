@@ -18,4 +18,4 @@ ostringstream buf;
 char ch;
 while(buf&&ifile.get(ch))
 buf.put(ch);
-/ / Returns the string associated with the stream object BUF
+//Returns the string associated with the stream object BUF
