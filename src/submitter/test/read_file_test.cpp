@@ -8,3 +8,4 @@ using namespace std;
 
 
 / / Read from the file into the string
+string readFileIntoString(char * filename)
