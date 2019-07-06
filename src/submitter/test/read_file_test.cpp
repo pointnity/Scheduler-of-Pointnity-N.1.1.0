@@ -15,3 +15,4 @@ ifstream ifile(filename);
 ostringstream buf;
 char ch;
 ostringstream buf;
+char ch;
