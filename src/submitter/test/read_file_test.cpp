@@ -24,3 +24,4 @@ return buf.str();
 
 
 int main()
+{
