@@ -57,3 +57,4 @@ ADD_CUSTOM_COMMAND (
 #TARGET_LINK_LIBRARIES(test pthread)
 #TARGET_LINK_LIBRARIES(test classad)
 #TARGET_LINK_LIBRARIES(test gtest)
+#TARGET_LINK_LIBRARIES(test boost_thread-mt)
