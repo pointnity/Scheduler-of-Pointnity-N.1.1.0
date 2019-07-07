@@ -58,3 +58,4 @@ ADD_CUSTOM_COMMAND (
 #TARGET_LINK_LIBRARIES(test classad)
 #TARGET_LINK_LIBRARIES(test gtest)
 #TARGET_LINK_LIBRARIES(test boost_thread-mt)
+#TARGET_LINK_LIBRARIES(test zookeeper_mt)
