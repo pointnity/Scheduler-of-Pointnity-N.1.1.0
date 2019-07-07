@@ -19,3 +19,4 @@ ADD_CUSTOM_COMMAND (
 
 SET(RESOURCE_SCHEDULER_THRIFT_SOURCE
     ${THRIFT_SOURCE_PREFIX}/ResourceScheduler/gen-cpp/resource_scheduler_constants.h
+    ${THRIFT_SOURCE_PREFIX}/ResourceScheduler/gen-cpp/resource_scheduler_constants.cpp
