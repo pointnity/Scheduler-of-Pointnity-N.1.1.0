@@ -52,3 +52,5 @@ ADD_CUSTOM_COMMAND (
 #    test.cpp)
 
 #ADD_EXECUTABLE(test ${SRC})
+
+#TARGET_LINK_LIBRARIES(test thrift)
