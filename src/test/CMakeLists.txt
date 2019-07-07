@@ -1,1 +1,2 @@
 ADD_SUBDIRECTORY(executor)
+ADD_SUBDIRECTORY(JobsManager)
