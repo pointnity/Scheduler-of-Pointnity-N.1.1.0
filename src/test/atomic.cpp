@@ -7,3 +7,4 @@
 #include <boost/algorithm/string.hpp>
 #include <classad/classad.h>
 #include <classad/classad_distribution.h>
+#include "common/clynn/rwlock.h"
