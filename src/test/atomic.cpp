@@ -10,3 +10,4 @@
 #include "common/clynn/rwlock.h"
 #include "include/proxy.h"
 #include "common/clynn/rpc.h"
+#include <boost/thread/thread.hpp>
