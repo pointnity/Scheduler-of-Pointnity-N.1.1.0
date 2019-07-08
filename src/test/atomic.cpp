@@ -30,3 +30,4 @@ void click() {
 int main(int argc, char* argv[]) {
     clock_t start = clock();
     boost::thread_group threads;
+    for(int i=0; i<100;++i) 
