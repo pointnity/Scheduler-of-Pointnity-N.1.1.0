@@ -32,3 +32,4 @@ int main(int argc, char* argv[]) {
     boost::thread_group threads;
     for(int i=0; i<100;++i) 
     {
+        threads.create_thread(click);
