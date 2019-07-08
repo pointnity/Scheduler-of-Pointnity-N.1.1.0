@@ -14,3 +14,6 @@
 #include <iostream>
 #include <time.h>
 #include <cstdatomic>
+
+
+using namespace std;
