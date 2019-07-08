@@ -39,3 +39,4 @@ int main(int argc, char* argv[]) {
     cout << "result:" << total << endl;
     cout << "duration:" << finish -start << "ms" << endl;
     return 0;
+}
