@@ -17,3 +17,4 @@
 
 
 using namespace std;
+long total = 0;
