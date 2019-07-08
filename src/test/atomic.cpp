@@ -35,3 +35,4 @@ int main(int argc, char* argv[]) {
         threads.create_thread(click);
 
     threads.join_all();
+    clock_t finish = clock();
