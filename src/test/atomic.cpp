@@ -13,3 +13,4 @@
 #include <boost/thread/thread.hpp>
 #include <iostream>
 #include <time.h>
+#include <cstdatomic>
