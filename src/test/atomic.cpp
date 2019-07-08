@@ -19,3 +19,5 @@
 using namespace std;
 long total = 0;
 //atomic_long total(0);
+
+void click() {
