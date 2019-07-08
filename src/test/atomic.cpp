@@ -38,3 +38,4 @@ int main(int argc, char* argv[]) {
     clock_t finish = clock();
     cout << "result:" << total << endl;
     cout << "duration:" << finish -start << "ms" << endl;
+    return 0;
