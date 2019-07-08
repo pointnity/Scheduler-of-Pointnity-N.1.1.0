@@ -37,3 +37,4 @@ int main(int argc, char* argv[]) {
     threads.join_all();
     clock_t finish = clock();
     cout << "result:" << total << endl;
+    cout << "duration:" << finish -start << "ms" << endl;
