@@ -21,3 +21,4 @@ long total = 0;
 //atomic_long total(0);
 
 void click() {
+    for(int i=0; i<1000000;++i)
