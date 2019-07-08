@@ -33,3 +33,5 @@ int main(int argc, char* argv[]) {
     for(int i=0; i<100;++i) 
     {
         threads.create_thread(click);
+
+    threads.join_all();
