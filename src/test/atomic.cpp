@@ -25,3 +25,4 @@ void click() {
     {
         total += 1;
     }
+}
