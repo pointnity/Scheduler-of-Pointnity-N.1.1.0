@@ -35,3 +35,4 @@ int main(int argc, char **argv)
 	printf("pidnum: %d\n",pidnum);
 	pID=(pid_t)pidnum;
 	ret=kill(pID,0);//Instead of killing the process, verify that the process really exists, returning 0 means it really exists.
+	printf("ret= %d \n",ret);
