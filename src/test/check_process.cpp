@@ -11,3 +11,4 @@ int main(int argc, char **argv)
 	printf("argc:%d", argc);
 	if(argc != 2) {
 	    printf("yes\n");
+	    return -1;
