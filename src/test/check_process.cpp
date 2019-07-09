@@ -9,3 +9,4 @@ int main(int argc, char **argv)
         pid_t pID;
         int pidnum;
 	printf("argc:%d", argc);
+	if(argc != 2) {
