@@ -23,3 +23,4 @@ int main(int argc, char **argv)
 	    return 1; 
 	}
 	memset(buff,0,sizeof(buff));
+	fgets(buff,512,pstr);
