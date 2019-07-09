@@ -26,3 +26,4 @@ int main(int argc, char **argv)
 	fgets(buff,512,pstr);
 	p=strtok(buff, " ");
 	p=strtok(NULL, " "); //Whether this sentence is removed depends on whether the process ID number is the first field after the ps in the current system pclose(pstr);
+	if(p==NULL)
