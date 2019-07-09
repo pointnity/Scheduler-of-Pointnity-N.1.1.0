@@ -8,3 +8,4 @@ using namespace std;
 int main(int argc, char** argv)
 {
     string s = "sss/ddd,  ggg  ";
+    vector<string> vStr;
