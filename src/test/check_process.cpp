@@ -6,3 +6,4 @@
 int main(int argc, char **argv)
 {
 	FILE *pstr; char cmd[128],buff[512],*p;
+        pid_t pID;
