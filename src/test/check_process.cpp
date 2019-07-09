@@ -18,3 +18,4 @@ int main(int argc, char **argv)
 	memset(cmd,0,sizeof(cmd));
 
 	sprintf(cmd, "ps -ef|grep %s ",name);
+	pstr=popen(cmd, "r");
