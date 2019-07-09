@@ -13,3 +13,4 @@ int main(int argc, char **argv)
 	    printf("yes\n");
 	    return -1;
         }
+	char *name= argv[1];
