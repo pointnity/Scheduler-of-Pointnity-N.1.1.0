@@ -29,3 +29,4 @@ int main(int argc, char **argv)
 	if(p==NULL)
 	{ return 1; }
 	if(strlen(p)==0)
+	{ return 1; }
