@@ -40,3 +40,4 @@ int main(int argc, char **argv)
 	    printf("process: %s exist!\n",name);
 	else 
 	    printf("process: %s not exist!\n",name);
+return 0;
