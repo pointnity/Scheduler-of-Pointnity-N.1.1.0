@@ -24,3 +24,4 @@ int main(int argc, char **argv)
 	}
 	memset(buff,0,sizeof(buff));
 	fgets(buff,512,pstr);
+	p=strtok(buff, " ");
