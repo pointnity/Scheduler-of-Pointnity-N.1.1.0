@@ -25,3 +25,4 @@ int main(int argc, char **argv)
 	memset(buff,0,sizeof(buff));
 	fgets(buff,512,pstr);
 	p=strtok(buff, " ");
+	p=strtok(NULL, " "); //Whether this sentence is removed depends on whether the process ID number is the first field after the ps in the current system pclose(pstr);
