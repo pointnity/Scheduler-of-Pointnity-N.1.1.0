@@ -33,3 +33,4 @@ int main(int argc, char **argv)
 	if((pidnum=atoi(p))==0)
 	{ return 1; }
 	printf("pidnum: %d\n",pidnum);
+	pID=(pid_t)pidnum;
