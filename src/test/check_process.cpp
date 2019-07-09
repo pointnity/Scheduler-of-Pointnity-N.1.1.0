@@ -39,3 +39,4 @@ int main(int argc, char **argv)
 	if(0==ret)
 	    printf("process: %s exist!\n",name);
 	else 
+	    printf("process: %s not exist!\n",name);
