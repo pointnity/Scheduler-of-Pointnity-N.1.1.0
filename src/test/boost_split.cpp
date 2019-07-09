@@ -14,3 +14,4 @@ int main(int argc, char** argv)
     cout << (*(--vStr.end()));
     
     return 0;
+}
