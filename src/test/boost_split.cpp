@@ -9,3 +9,4 @@ int main(int argc, char** argv)
 {
     string s = "sss/ddd,  ggg  ";
     vector<string> vStr;
+    boost::split(vStr, s, boost::is_any_of(",/"), boost::token_compress_on);
