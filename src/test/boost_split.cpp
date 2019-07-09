@@ -11,3 +11,4 @@ int main(int argc, char** argv)
     vector<string> vStr;
     boost::split(vStr, s, boost::is_any_of(",/"), boost::token_compress_on);
     boost::trim(*(--vStr.end()));
+    cout << (*(--vStr.end()));
