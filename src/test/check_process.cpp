@@ -14,3 +14,4 @@ int main(int argc, char **argv)
 	    return -1;
         }
 	char *name= argv[1];
+	int ret=3;
