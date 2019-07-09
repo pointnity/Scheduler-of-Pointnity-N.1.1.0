@@ -41,3 +41,4 @@ int main(int argc, char **argv)
 	else 
 	    printf("process: %s not exist!\n",name);
 return 0;
+}
