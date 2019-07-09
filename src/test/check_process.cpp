@@ -31,3 +31,4 @@ int main(int argc, char **argv)
 	if(strlen(p)==0)
 	{ return 1; }
 	if((pidnum=atoi(p))==0)
+	{ return 1; }
