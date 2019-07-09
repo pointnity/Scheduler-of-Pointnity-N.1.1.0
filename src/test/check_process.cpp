@@ -21,3 +21,5 @@ int main(int argc, char **argv)
 	pstr=popen(cmd, "r");
 	if(pstr==NULL){ 
 	    return 1; 
+	}
+	memset(buff,0,sizeof(buff));
