@@ -28,3 +28,4 @@ int main(int argc, char **argv)
 	p=strtok(NULL, " "); //Whether this sentence is removed depends on whether the process ID number is the first field after the ps in the current system pclose(pstr);
 	if(p==NULL)
 	{ return 1; }
+	if(strlen(p)==0)
