@@ -10,3 +10,4 @@ int main(int argc, char **argv)
         int pidnum;
 	printf("argc:%d", argc);
 	if(argc != 2) {
+	    printf("yes\n");
