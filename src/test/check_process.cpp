@@ -15,3 +15,4 @@ int main(int argc, char **argv)
         }
 	char *name= argv[1];
 	int ret=3;
+	memset(cmd,0,sizeof(cmd));
