@@ -20,3 +20,4 @@ int main(int argc, char **argv)
 	sprintf(cmd, "ps -ef|grep %s ",name);
 	pstr=popen(cmd, "r");
 	if(pstr==NULL){ 
+	    return 1; 
