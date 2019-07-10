@@ -27,3 +27,4 @@ int main(int argc, char ** argv) {
     bool is_match = false;
     ad.EvaluateAttrBool(ATTR_TASK_REQUIREMENT, is_match);
     if(is_match == true) {
+        double d_value;
