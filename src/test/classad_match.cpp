@@ -18,3 +18,4 @@ int main(int argc, char ** argv) {
     ad.Insert(ATTR_TASK_REQUIREMENT, re_expr);
    
     ClassAd c1;
+    c1.InsertAttr(ATTR_ALL_VCPU, 4);
