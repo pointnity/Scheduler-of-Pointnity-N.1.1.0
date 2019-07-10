@@ -7,3 +7,4 @@ using std::string;
 
 int main(){
     string ad_string = "[a = 1; b = \"Cardini\"]";
+    ClassAd ad;
