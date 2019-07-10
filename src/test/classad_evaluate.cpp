@@ -13,3 +13,4 @@ int main(){
     int val;
 
     if(!parser.ParseClassAd(ad_string, ad, true)){
+       return 1;
