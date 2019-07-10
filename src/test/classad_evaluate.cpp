@@ -22,3 +22,4 @@ int main(){
         printf("error\n");
         return 1;
     }
+    return 0;
