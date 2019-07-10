@@ -32,3 +32,4 @@ int main(int argc, char ** argv) {
         printf("task rank:%f\n", d_value);
     } else {
         printf("nima\n");
+    }
