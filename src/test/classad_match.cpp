@@ -6,3 +6,5 @@
 #include "include/attributes.h"
 
 int main(int argc, char ** argv) {
+
+    ClassAd ad;
