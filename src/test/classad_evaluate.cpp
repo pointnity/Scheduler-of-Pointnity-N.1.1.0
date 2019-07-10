@@ -4,3 +4,5 @@
 #include <classad/classad_distribution.h>
 
 using std::string;
+
+int main(){
