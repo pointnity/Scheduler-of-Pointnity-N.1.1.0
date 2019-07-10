@@ -16,3 +16,5 @@ int main(int argc, char ** argv) {
     ad.Insert(ATTR_TASK_RANK, expr);
     ExprTree* re_expr = parser.ParseExpression(EXP_TASK_REQUIREMENT);
     ad.Insert(ATTR_TASK_REQUIREMENT, re_expr);
+   
+    ClassAd c1;
