@@ -22,3 +22,5 @@ int main(int argc, char ** argv) {
     c1.InsertAttr(ATTR_AVAIL_VCPU, 4);
     c1.InsertAttr(ATTR_ALL_MEMORY, 6 * 1024); 
     c1.InsertAttr(ATTR_AVAIL_MEMORY, 6 * 1024); 
+
+    ad.alternateScope = &c1;
