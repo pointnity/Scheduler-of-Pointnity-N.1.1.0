@@ -15,3 +15,4 @@ int main(int argc, char ** argv) {
     ExprTree* expr = parser.ParseExpression(EXP_TASK_RANK);
     ad.Insert(ATTR_TASK_RANK, expr);
     ExprTree* re_expr = parser.ParseExpression(EXP_TASK_REQUIREMENT);
+    ad.Insert(ATTR_TASK_REQUIREMENT, re_expr);
