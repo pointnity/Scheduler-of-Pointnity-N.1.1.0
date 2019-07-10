@@ -29,3 +29,4 @@ int main(int argc, char ** argv) {
     if(is_match == true) {
         double d_value;
         ad.EvaluateAttrNumber(ATTR_TASK_RANK, d_value);
+        printf("task rank:%f\n", d_value);
