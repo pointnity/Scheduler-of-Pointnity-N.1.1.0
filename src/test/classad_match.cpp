@@ -8,3 +8,4 @@
 int main(int argc, char ** argv) {
 
     ClassAd ad;
+    ad.InsertAttr(ATTR_NEED_VCPU, 1);
