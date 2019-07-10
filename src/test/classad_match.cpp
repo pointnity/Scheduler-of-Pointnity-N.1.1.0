@@ -28,3 +28,4 @@ int main(int argc, char ** argv) {
     ad.EvaluateAttrBool(ATTR_TASK_REQUIREMENT, is_match);
     if(is_match == true) {
         double d_value;
+        ad.EvaluateAttrNumber(ATTR_TASK_RANK, d_value);
