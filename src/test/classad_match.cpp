@@ -19,3 +19,4 @@ int main(int argc, char ** argv) {
    
     ClassAd c1;
     c1.InsertAttr(ATTR_ALL_VCPU, 4);
+    c1.InsertAttr(ATTR_AVAIL_VCPU, 4);
