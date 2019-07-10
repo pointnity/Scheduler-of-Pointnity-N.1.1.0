@@ -11,3 +11,5 @@ int main(){
     ClassAdParser parser;
 
     int val;
+
+    if(!parser.ParseClassAd(ad_string, ad, true)){
