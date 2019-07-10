@@ -3,3 +3,4 @@
 #include <list>
 #include <classad/classad.h>
 #include <classad/classad_distribution.h>
+#include "include/attributes.h"
