@@ -19,3 +19,4 @@ int main(){
     if(ad.EvaluateAttrInt("a", val)) {
         printf("%d\n",val);
     } else {
+        printf("error\n");
