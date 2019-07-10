@@ -31,3 +31,4 @@ int main(int argc, char ** argv) {
         ad.EvaluateAttrNumber(ATTR_TASK_RANK, d_value);
         printf("task rank:%f\n", d_value);
     } else {
+        printf("nima\n");
