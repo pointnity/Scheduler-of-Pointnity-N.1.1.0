@@ -15,3 +15,5 @@ int main(){
     if(!parser.ParseClassAd(ad_string, ad, true)){
        return 1;
     }
+
+    if(ad.EvaluateAttrInt("a", val)) {
