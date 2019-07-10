@@ -10,3 +10,4 @@ int main(int argc, char ** argv) {
     ClassAd ad;
     ad.InsertAttr(ATTR_NEED_VCPU, 1);
     ad.InsertAttr(ATTR_NEED_MEMORY, 1024);
+    ClassAdParser parser;
