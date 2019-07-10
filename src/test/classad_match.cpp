@@ -12,3 +12,4 @@ int main(int argc, char ** argv) {
     ad.InsertAttr(ATTR_NEED_MEMORY, 1024);
     ClassAdParser parser;
     printf("%s\n", EXP_TASK_RANK.c_str());
+    ExprTree* expr = parser.ParseExpression(EXP_TASK_RANK);
