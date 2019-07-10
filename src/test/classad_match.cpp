@@ -14,3 +14,4 @@ int main(int argc, char ** argv) {
     printf("%s\n", EXP_TASK_RANK.c_str());
     ExprTree* expr = parser.ParseExpression(EXP_TASK_RANK);
     ad.Insert(ATTR_TASK_RANK, expr);
+    ExprTree* re_expr = parser.ParseExpression(EXP_TASK_REQUIREMENT);
