@@ -26,3 +26,4 @@ int main(int argc, char ** argv) {
     ad.alternateScope = &c1;
     bool is_match = false;
     ad.EvaluateAttrBool(ATTR_TASK_REQUIREMENT, is_match);
+    if(is_match == true) {
