@@ -20,3 +20,4 @@ int main(){
         printf("%d\n",val);
     } else {
         printf("error\n");
+        return 1;
