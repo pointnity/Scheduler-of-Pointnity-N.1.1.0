@@ -56,3 +56,4 @@ int main(int, char **)
 	if (!can_evaluate) {
 		cout << "Something is seriously wrong.\n";
 	} else if (ads_match) {
+		cout << "The ads match, as expected.\n";
