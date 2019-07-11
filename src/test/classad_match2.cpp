@@ -47,3 +47,4 @@ int main(int, char **)
 
 	// Finally we test that the two ClassAds match. They should. 
 	// Note that a MatchClassAd is a ClassAd. You could pretty print it
+	// like the other ads above, if you wanted to.
