@@ -38,3 +38,4 @@ int main(int, char **)
 
 	// Next we print out the ClassAds. This requires unparsing them first.
 	PrettyPrint  printer;
+	string       printed_job_classad, printed_machine_classad;
