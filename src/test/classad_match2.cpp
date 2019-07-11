@@ -19,3 +19,4 @@ int main(int, char **)
 {
 	// First we turn the textual description of the ClassAd into 
 	// our internal representation of the ClassAd. 
+	ClassAdParser  parser;
