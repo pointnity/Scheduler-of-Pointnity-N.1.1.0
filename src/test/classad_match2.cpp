@@ -59,3 +59,5 @@ int main(int, char **)
 		cout << "The ads match, as expected.\n";
 	} else {
 		cout << "The ads don't match! Something is wrong.\n";
+	}
+	return 0;
