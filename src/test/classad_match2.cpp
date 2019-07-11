@@ -23,3 +23,4 @@ int main(int, char **)
 	ClassAd        *job_classad, *machine_classad;
 
 	job_classad     = parser.ParseClassAd(job_classad_text, true);
+	machine_classad = parser.ParseClassAd(machine_classad_text, true);
