@@ -29,3 +29,5 @@ int main(int, char **)
         if(!machine_classad->InsertAttr("memory", 4500)){ 
             printf("error\n");
         }
+
+        int val;
