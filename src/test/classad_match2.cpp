@@ -17,3 +17,4 @@ string machine_classad_text =
 
 int main(int, char **)
 {
+	// First we turn the textual description of the ClassAd into 
