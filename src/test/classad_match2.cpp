@@ -21,3 +21,5 @@ int main(int, char **)
 	// our internal representation of the ClassAd. 
 	ClassAdParser  parser;
 	ClassAd        *job_classad, *machine_classad;
+
+	job_classad     = parser.ParseClassAd(job_classad_text, true);
