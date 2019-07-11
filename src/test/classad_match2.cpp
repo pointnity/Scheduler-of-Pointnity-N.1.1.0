@@ -2,3 +2,4 @@
 #include <iostream>
 
 using namespace std;
+#ifdef WANT_CLASSAD_NAMESPACE
