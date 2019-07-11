@@ -12,3 +12,4 @@ string job_classad_text =
 "]";
 
 string machine_classad_text = 
+"["
