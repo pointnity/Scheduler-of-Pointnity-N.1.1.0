@@ -26,3 +26,4 @@ int main(int, char **)
 	machine_classad = parser.ParseClassAd(machine_classad_text, true);
        
         machine_classad->InsertAttr("memory", 5000);
+        if(!machine_classad->InsertAttr("memory", 4500)){ 
