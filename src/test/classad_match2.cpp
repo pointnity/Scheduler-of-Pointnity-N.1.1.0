@@ -37,3 +37,4 @@ int main(int, char **)
         printf("%d\n", val);
 
 	// Next we print out the ClassAds. This requires unparsing them first.
+	PrettyPrint  printer;
