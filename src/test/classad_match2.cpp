@@ -44,3 +44,5 @@ int main(int, char **)
 	printer.Unparse(printed_machine_classad, machine_classad);
 	cout << "Job ClassAd:\n" << printed_job_classad << endl;
 	cout << "Machine ClassAd:\n" << printed_machine_classad << endl;
+
+	// Finally we test that the two ClassAds match. They should. 
