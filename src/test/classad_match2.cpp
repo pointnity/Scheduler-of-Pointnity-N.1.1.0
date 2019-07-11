@@ -7,3 +7,4 @@ using namespace classad;
 #endif
 
 string job_classad_text = 
+"["
