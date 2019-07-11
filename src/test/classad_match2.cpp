@@ -49,3 +49,5 @@ int main(int, char **)
 	// Note that a MatchClassAd is a ClassAd. You could pretty print it
 	// like the other ads above, if you wanted to.
 	MatchClassAd  match_ad(job_classad, machine_classad);
+  
+	bool          can_evaluate, ads_match;
