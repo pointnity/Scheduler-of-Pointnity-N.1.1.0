@@ -9,3 +9,4 @@ using namespace classad;
 string job_classad_text = 
 "["
 "Requirements = (other.memory >= 4000);"
+"]";
