@@ -51,3 +51,5 @@ int main(int, char **)
 	MatchClassAd  match_ad(job_classad, machine_classad);
   
 	bool          can_evaluate, ads_match;
+
+	can_evaluate = match_ad.EvaluateAttrBool("rightMatchesLeft", ads_match);
