@@ -54,3 +54,4 @@ int main(int, char **)
 
 	can_evaluate = match_ad.EvaluateAttrBool("rightMatchesLeft", ads_match);
 	if (!can_evaluate) {
+		cout << "Something is seriously wrong.\n";
