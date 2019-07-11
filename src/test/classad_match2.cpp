@@ -28,3 +28,4 @@ int main(int, char **)
         machine_classad->InsertAttr("memory", 5000);
         if(!machine_classad->InsertAttr("memory", 4500)){ 
             printf("error\n");
+        }
