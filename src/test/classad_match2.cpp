@@ -33,3 +33,4 @@ int main(int, char **)
         int val;
         if(!machine_classad->EvaluateAttrInt("memory", val)) {
             printf("error\n"); 
+        }
