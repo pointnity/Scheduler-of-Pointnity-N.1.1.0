@@ -53,3 +53,4 @@ int main(int, char **)
 	bool          can_evaluate, ads_match;
 
 	can_evaluate = match_ad.EvaluateAttrBool("rightMatchesLeft", ads_match);
+	if (!can_evaluate) {
