@@ -10,3 +10,5 @@ string job_classad_text =
 "["
 "Requirements = (other.memory >= 4000);"
 "]";
+
+string machine_classad_text = 
