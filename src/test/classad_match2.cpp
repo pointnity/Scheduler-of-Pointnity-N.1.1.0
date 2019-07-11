@@ -24,3 +24,5 @@ int main(int, char **)
 
 	job_classad     = parser.ParseClassAd(job_classad_text, true);
 	machine_classad = parser.ParseClassAd(machine_classad_text, true);
+       
+        machine_classad->InsertAttr("memory", 5000);
