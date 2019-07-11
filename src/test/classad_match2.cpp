@@ -58,3 +58,4 @@ int main(int, char **)
 	} else if (ads_match) {
 		cout << "The ads match, as expected.\n";
 	} else {
+		cout << "The ads don't match! Something is wrong.\n";
