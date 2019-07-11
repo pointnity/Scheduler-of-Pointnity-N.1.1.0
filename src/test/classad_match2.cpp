@@ -41,3 +41,4 @@ int main(int, char **)
 	string       printed_job_classad, printed_machine_classad;
 
 	printer.Unparse(printed_job_classad, job_classad);
+	printer.Unparse(printed_machine_classad, machine_classad);
