@@ -46,3 +46,4 @@ int main(int, char **)
 	cout << "Machine ClassAd:\n" << printed_machine_classad << endl;
 
 	// Finally we test that the two ClassAds match. They should. 
+	// Note that a MatchClassAd is a ClassAd. You could pretty print it
