@@ -57,3 +57,4 @@ int main(int, char **)
 		cout << "Something is seriously wrong.\n";
 	} else if (ads_match) {
 		cout << "The ads match, as expected.\n";
+	} else {
