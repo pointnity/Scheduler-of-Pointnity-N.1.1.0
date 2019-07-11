@@ -16,3 +16,4 @@ string machine_classad_text =
 "]";
 
 int main(int, char **)
+{
