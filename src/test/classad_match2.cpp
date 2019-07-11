@@ -35,3 +35,5 @@ int main(int, char **)
             printf("error\n"); 
         }
         printf("%d\n", val);
+
+	// Next we print out the ClassAds. This requires unparsing them first.
