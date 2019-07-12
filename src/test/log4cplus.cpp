@@ -2,3 +2,4 @@
 #include <log4cplus/loggingmacros.h>
 #include <log4cplus/configurator.h>
 #include <iomanip>
+using namespace std;
