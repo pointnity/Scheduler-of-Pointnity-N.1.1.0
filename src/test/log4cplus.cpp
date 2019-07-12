@@ -8,3 +8,4 @@ int
 main()
 {
 BasicConfigurator config;
+config.configure();
