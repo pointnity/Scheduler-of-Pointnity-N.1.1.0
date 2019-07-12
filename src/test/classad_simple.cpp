@@ -30,3 +30,5 @@ int32_t main(int argc, char* argv[]){
 
     
     string printed_classad;
+   
+    ClassAdXMLUnParser xml_unparser;
