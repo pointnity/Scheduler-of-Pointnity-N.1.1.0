@@ -13,3 +13,4 @@
 using std::string;
 
 int32_t main(int argc, char* argv[]){
+    string         classad_string = "[a = 1; b = \"Cardini\"]";
