@@ -31,3 +31,4 @@ LOG4CPLUS_WARN(logger, "This is a double: "
 LOG4CPLUS_WARN(logger, "This is a long double: "
 << setprecision(15)
 << (long double)123452342342.342);
+return 0;
