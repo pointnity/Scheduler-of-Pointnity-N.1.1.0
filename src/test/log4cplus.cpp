@@ -16,3 +16,4 @@ LOG4CPLUS_WARN(logger, "This is"
 << "Just testing it out" << endl
 << "What do you think?");
 LOG4CPLUS_WARN(logger, "This is a bool: " << true);
+LOG4CPLUS_WARN(logger, "This is a char: " << 'x');
