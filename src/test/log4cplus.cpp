@@ -24,3 +24,4 @@ LOG4CPLUS_WARN(logger, "This is a unsigned int: " << (unsigned int)1000);
 LOG4CPLUS_WARN(logger, "This is a long(hex): " << hex << (long)100000000);
 LOG4CPLUS_WARN(logger, "This is a unsigned long: "
 << (unsigned long)100000000);
+LOG4CPLUS_WARN(logger, "This is a float: " << 1.2345f);
