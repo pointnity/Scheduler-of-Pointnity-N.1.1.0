@@ -35,3 +35,5 @@ int32_t main(int argc, char* argv[]){
     xml_unparser.SetCompactSpacing(false);
     xml_unparser.Unparse(printed_classad, ptr.get());
     printf("%s\n", printed_classad.c_str());
+
+    printed_classad = "";
