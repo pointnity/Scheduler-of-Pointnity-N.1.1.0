@@ -21,3 +21,4 @@ int32_t main(int argc, char* argv[]){
     ClassAdPtr ptr(classad);
     printf("%d\n", ptr.use_count());
     int32_t i;
+    ClassAdPtr ptr2(new ClassAd(*ptr.get()));
