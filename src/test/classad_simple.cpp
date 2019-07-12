@@ -27,3 +27,6 @@ int32_t main(int argc, char* argv[]){
          printf("error\n");
     } 
     printf("%d\n",i);
+
+    
+    string printed_classad;
