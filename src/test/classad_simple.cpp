@@ -24,3 +24,4 @@ int32_t main(int argc, char* argv[]){
     ClassAdPtr ptr2(new ClassAd(*ptr.get()));
     printf("%d\n", ptr.use_count()); 
     if(!ptr->EvaluateAttrInt("ATTR_JOB_ID",i)) { 
+         printf("error\n");
