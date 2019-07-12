@@ -15,3 +15,4 @@ LOG4CPLUS_WARN(logger, "This is"
 << "y long message." << endl
 << "Just testing it out" << endl
 << "What do you think?");
+LOG4CPLUS_WARN(logger, "This is a bool: " << true);
