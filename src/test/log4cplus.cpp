@@ -7,3 +7,4 @@ using namespace log4cplus;
 int
 main()
 {
+BasicConfigurator config;
