@@ -4,3 +4,4 @@
 #include <iomanip>
 using namespace std;
 using namespace log4cplus;
+int
