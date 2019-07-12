@@ -20,3 +20,4 @@ int32_t main(int argc, char* argv[]){
     classad = parser.ParseClassAd(classad_string, true);
     ClassAdPtr ptr(classad);
     printf("%d\n", ptr.use_count());
+    int32_t i;
