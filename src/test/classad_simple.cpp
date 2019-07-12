@@ -33,3 +33,4 @@ int32_t main(int argc, char* argv[]){
    
     ClassAdXMLUnParser xml_unparser;
     xml_unparser.SetCompactSpacing(false);
+    xml_unparser.Unparse(printed_classad, ptr.get());
