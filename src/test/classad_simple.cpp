@@ -9,3 +9,5 @@
 #include <classad/classad_distribution.h>
 
 #include "common/classad/classad_complement.h"
+
+using std::string;
