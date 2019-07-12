@@ -18,3 +18,4 @@ int32_t main(int argc, char* argv[]){
     ClassAd        *classad;
     ClassAdParser  parser;
     classad = parser.ParseClassAd(classad_string, true);
+    ClassAdPtr ptr(classad);
