@@ -10,3 +10,4 @@ main()
 BasicConfigurator config;
 config.configure();
 Logger logger = Logger::getInstance(LOG4CPLUS_TEXT("logger"));
+LOG4CPLUS_WARN(logger, "This is"
