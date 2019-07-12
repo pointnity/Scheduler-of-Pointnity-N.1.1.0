@@ -25,3 +25,4 @@ int32_t main(int argc, char* argv[]){
     printf("%d\n", ptr.use_count()); 
     if(!ptr->EvaluateAttrInt("ATTR_JOB_ID",i)) { 
          printf("error\n");
+    } 
