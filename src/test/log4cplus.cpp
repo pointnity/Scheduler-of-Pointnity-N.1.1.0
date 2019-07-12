@@ -3,3 +3,4 @@
 #include <log4cplus/configurator.h>
 #include <iomanip>
 using namespace std;
+using namespace log4cplus;
