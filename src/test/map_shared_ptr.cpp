@@ -24,3 +24,4 @@ using clynn::WriteLocker;
 
 class A {
 public:
+    A(int id){
