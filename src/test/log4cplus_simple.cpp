@@ -22,3 +22,4 @@ LOG4CPLUS_WARN(logger, "This is a unsigned short: " << (unsigned short)100);
 LOG4CPLUS_WARN(logger, "This is a int: " << (int)1000);
 LOG4CPLUS_WARN(logger, "This is a unsigned int: " << (unsigned int)1000);
 LOG4CPLUS_WARN(logger, "This is a long(hex): " << hex << (long)100000000);
+LOG4CPLUS_WARN(logger, "This is a unsigned long: "
