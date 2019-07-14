@@ -27,3 +27,4 @@ LOG4CPLUS_WARN(logger, "This is a unsigned long: "
 LOG4CPLUS_WARN(logger, "This is a float: " << 1.2345f);
 LOG4CPLUS_WARN(logger, "This is a double: "
 << setprecision(15)
+<< 1.2345234234);
