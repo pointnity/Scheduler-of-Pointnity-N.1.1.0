@@ -13,3 +13,5 @@
 #include "common/clynn/rwlock.h"
 #include "include/proxy.h"
 #include "common/clynn/rpc.h"
+
+using std::string;
