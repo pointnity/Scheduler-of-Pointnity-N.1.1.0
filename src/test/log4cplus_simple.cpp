@@ -14,3 +14,4 @@ LOG4CPLUS_WARN(logger, "This is"
 << " a reall"
 << "y long message." << endl
 << "Just testing it out" << endl
+<< "What do you think?");
