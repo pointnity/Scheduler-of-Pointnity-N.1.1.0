@@ -13,3 +13,4 @@ Logger logger = Logger::getInstance(LOG4CPLUS_TEXT("logger"));
 LOG4CPLUS_WARN(logger, "This is"
 << " a reall"
 << "y long message." << endl
+<< "Just testing it out" << endl
