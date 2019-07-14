@@ -15,3 +15,4 @@
 #include "common/clynn/rpc.h"
 
 using std::string;
+using std::map;
