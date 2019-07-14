@@ -18,3 +18,4 @@ LOG4CPLUS_WARN(logger, "This is"
 LOG4CPLUS_WARN(logger, "This is a bool: " << true);
 LOG4CPLUS_WARN(logger, "This is a char: " << 'x');
 LOG4CPLUS_WARN(logger, "This is a short: " << (short)-100);
+LOG4CPLUS_WARN(logger, "This is a unsigned short: " << (unsigned short)100);
