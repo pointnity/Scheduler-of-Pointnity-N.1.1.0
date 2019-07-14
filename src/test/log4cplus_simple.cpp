@@ -17,3 +17,4 @@ LOG4CPLUS_WARN(logger, "This is"
 << "What do you think?");
 LOG4CPLUS_WARN(logger, "This is a bool: " << true);
 LOG4CPLUS_WARN(logger, "This is a char: " << 'x');
+LOG4CPLUS_WARN(logger, "This is a short: " << (short)-100);
