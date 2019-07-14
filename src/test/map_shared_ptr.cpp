@@ -23,3 +23,4 @@ using clynn::ReadLocker;
 using clynn::WriteLocker;
 
 class A {
+public:
