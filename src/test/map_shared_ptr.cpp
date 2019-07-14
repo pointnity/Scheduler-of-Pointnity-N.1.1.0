@@ -11,3 +11,4 @@
 #include <boost/shared_ptr.hpp>
 #include <boost/thread.hpp>
 #include "common/clynn/rwlock.h"
+#include "include/proxy.h"
