@@ -25,3 +25,28 @@ using clynn::WriteLocker;
 class A {
 public:
     A(int id){
+        m_id = id;
+    }
+    ~A(){
+        printf("%d is over\n", m_id);
+    }
+    int m_id;
+};
+
+typedef shared_ptr<A> APtr;
+
+map<int ,APtr> map1;
+
+void Test(){
+   APtr ptr(new A(1));
+   APtr ptr2(new A(2));
+   map1[1] = ptr;
+   map1[1] = ptr2;
+   printf("Test is over\n"); 
+}
+
+int32_t main(int argc, char* argv[]){
+    Test();
+    printf("main is over\n");
+    return 0;
+}
