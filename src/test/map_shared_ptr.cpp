@@ -5,3 +5,4 @@
 #include <vector>
 #include <string>
 #include <map>
+#include <boost/algorithm/string.hpp>
