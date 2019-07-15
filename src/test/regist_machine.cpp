@@ -26,3 +26,4 @@ int32_t main(int argc, char* argv[]){
     string ad3 = "[ IP = \"127.0.0.3\"; Port = 7777 ]";
 
     Proxy<CollectorClient> proxy = RpcClient<CollectorClient>::GetProxy(master_endpoint); 
+    if(proxy().UpdateMachine(ad) == 0) { 
