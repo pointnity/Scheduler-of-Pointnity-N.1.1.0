@@ -39,3 +39,4 @@ int32_t main(int argc, char* argv[]){
     }
 
     if(proxy().UpdateMachine(ad2) == 0) {
+        printf("ok\n");
