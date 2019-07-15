@@ -19,3 +19,5 @@ using clynn::ReadLocker;
 using clynn::WriteLocker;
 
 string master_endpoint = "127.0.0.1:9998";
+
+int32_t main(int argc, char* argv[]){
