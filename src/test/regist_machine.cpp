@@ -55,3 +55,5 @@ int32_t main(int argc, char* argv[]){
     } else {
         printf("fail\n");
     }
+  
+    if(proxy().UpdateMachine(ad) == 0) {
