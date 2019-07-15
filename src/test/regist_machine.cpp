@@ -53,3 +53,4 @@ int32_t main(int argc, char* argv[]){
     if(proxy().DeleteMachine("127.0.0.1") == 0){
         printf("ok\n");
     } else {
+        printf("fail\n");
