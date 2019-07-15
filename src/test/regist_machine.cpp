@@ -21,3 +21,4 @@ using clynn::WriteLocker;
 string master_endpoint = "127.0.0.1:9998";
 
 int32_t main(int argc, char* argv[]){
+    string ad2 = "[ IP = \"127.0.0.2\"; Port = 8888 ]";
