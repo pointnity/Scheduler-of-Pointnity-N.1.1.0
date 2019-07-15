@@ -17,3 +17,5 @@ using boost::shared_ptr;
 using clynn::RWLock;
 using clynn::ReadLocker;
 using clynn::WriteLocker;
+
+string master_endpoint = "127.0.0.1:9998";
