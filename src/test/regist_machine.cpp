@@ -10,3 +10,4 @@
 #include <boost/shared_ptr.hpp>
 #include "common/clynn/rwlock.h"
 #include "include/proxy.h"
+#include "common/clynn/rpc.h"
