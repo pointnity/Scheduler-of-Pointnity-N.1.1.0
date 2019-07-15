@@ -13,3 +13,4 @@
 #include "common/clynn/rpc.h"
 
 using std::string;
+using boost::shared_ptr;
