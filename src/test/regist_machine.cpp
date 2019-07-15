@@ -27,3 +27,4 @@ int32_t main(int argc, char* argv[]){
 
     Proxy<CollectorClient> proxy = RpcClient<CollectorClient>::GetProxy(master_endpoint); 
     if(proxy().UpdateMachine(ad) == 0) { 
+        printf("ok\n");
