@@ -48,3 +48,4 @@ int32_t main(int argc, char* argv[]){
         printf("ok\n");
     } else {
         printf("fail\n");
+    }
