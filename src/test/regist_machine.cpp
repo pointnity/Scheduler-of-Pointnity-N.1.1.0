@@ -61,3 +61,6 @@ int32_t main(int argc, char* argv[]){
     } else {
         printf("fail\n");
     }
+ 
+    return 0;
+}
