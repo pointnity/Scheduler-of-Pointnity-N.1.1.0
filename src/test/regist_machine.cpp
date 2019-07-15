@@ -24,3 +24,5 @@ int32_t main(int argc, char* argv[]){
     string ad = "[ IP = \"127.0.0.1\"; Port = 9999 ]";
     string ad2 = "[ IP = \"127.0.0.2\"; Port = 8888 ]";
     string ad3 = "[ IP = \"127.0.0.3\"; Port = 7777 ]";
+
+    Proxy<CollectorClient> proxy = RpcClient<CollectorClient>::GetProxy(master_endpoint); 
