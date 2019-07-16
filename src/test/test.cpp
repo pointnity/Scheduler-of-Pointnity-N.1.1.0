@@ -9,3 +9,4 @@
 #include <classad/classad_distribution.h>
 #include <iostream>
 #include "common/classad/classad_complement.h"
+#include "include/type.h"
