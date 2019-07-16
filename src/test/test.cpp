@@ -33,3 +33,5 @@ int32_t main(int argc, char* argv[]){
     //printf("%s\n",state);
     std::cout<<state<<std::endl;
     string printed_classad;
+   
+    ClassAdXMLUnParser xml_unparser;
