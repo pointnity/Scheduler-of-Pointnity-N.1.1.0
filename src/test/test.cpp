@@ -30,3 +30,4 @@ int32_t main(int argc, char* argv[]){
     if(!ptr->EvaluateAttrString("ATTR_VMHB_STATE",state)) { 
          printf("error\n");
     } 
+    //printf("%s\n",state);
