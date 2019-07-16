@@ -12,3 +12,5 @@
 #include "include/type.h"
 
 using std::string;
+
+int32_t main(int argc, char* argv[]){
