@@ -31,3 +31,4 @@ int32_t main(int argc, char* argv[]){
          printf("error\n");
     } 
     //printf("%s\n",state);
+    std::cout<<state<<std::endl;
