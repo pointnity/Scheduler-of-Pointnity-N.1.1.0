@@ -14,3 +14,4 @@
 using std::string;
 
 int32_t main(int argc, char* argv[]){
+    string         classad_string = "[ATTR_JOB_ID = 1; b = \"Cardini\"]";
