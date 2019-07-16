@@ -43,3 +43,5 @@ int32_t main(int argc, char* argv[]){
     ClassAdUnParser unparser;
     unparser.Unparse(printed_classad, ptr.get());
     printf("%s\n", printed_classad.c_str()); 
+
+    return 0;
