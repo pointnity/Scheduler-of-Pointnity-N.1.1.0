@@ -19,3 +19,4 @@ int32_t main(int argc, char* argv[]){
     //string	str = "[ ATTR_JOB_ID = 2 ]";
     ClassAd        *classad;
     ClassAdParser  parser;
+    classad = parser.ParseClassAd(str, true);
