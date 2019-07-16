@@ -8,3 +8,4 @@
 #include <classad/classad.h>
 #include <classad/classad_distribution.h>
 #include <iostream>
+#include "common/classad/classad_complement.h"
