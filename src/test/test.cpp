@@ -25,3 +25,4 @@ int32_t main(int argc, char* argv[]){
     int32_t i;
     string state;
     ClassAdPtr ptr2(new ClassAd(*ptr.get()));
+    printf("%d\n", ptr.use_count()); 
