@@ -12,3 +12,4 @@ int main(){
    test_map[2] = 3;
    if(test_map.size() ==2 )
        std::cout<< __GNUC__ <<std::endl;
+   else
