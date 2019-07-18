@@ -13,3 +13,4 @@ int main(){
    if(test_map.size() ==2 )
        std::cout<< __GNUC__ <<std::endl;
    else
+       std::cout<< "no" <<std::endl;
