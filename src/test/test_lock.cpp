@@ -21,3 +21,4 @@ int32_t main(int argc, char* argv[]){
     ReadLocker locker1(lock);
     locker1.Unlock();
     WriteLocker locker2(lock);
+    locker2.Unlock();
