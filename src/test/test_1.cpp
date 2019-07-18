@@ -4,3 +4,4 @@
 #endif
 
 //////////////////#define G 2
+using std::map;
