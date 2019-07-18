@@ -17,3 +17,4 @@ using clynn::ReadLocker;
 using clynn::WriteLocker;
 
 int32_t main(int argc, char* argv[]){
+    RWLock lock;
