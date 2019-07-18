@@ -2,6 +2,7 @@
 #include <zookeeper/zookeeper.h>
 #include <errno.h>
 #include <unistd.h>
+#include <vector>
 #include <string>
 #include <boost/algorithm/string.hpp>
 #include <classad/classad.h>
@@ -11,5 +12,4 @@
 
 using std::string;
 using boost::shared_ptr;
-using clynn::RWLock;
 using clynn::RWLock;
