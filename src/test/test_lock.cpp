@@ -15,3 +15,5 @@ using boost::shared_ptr;
 using clynn::RWLock;
 using clynn::ReadLocker;
 using clynn::WriteLocker;
+
+int32_t main(int argc, char* argv[]){
