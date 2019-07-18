@@ -8,3 +8,4 @@ using std::map;
 
 int main(){
    map<int, int> test_map;
+   test_map[1] = 2;
