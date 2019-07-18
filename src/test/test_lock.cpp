@@ -19,3 +19,4 @@ using clynn::WriteLocker;
 int32_t main(int argc, char* argv[]){
     RWLock lock;
     ReadLocker locker1(lock);
+    locker1.Unlock();
