@@ -24,3 +24,4 @@ int32_t main(int argc, char* argv[]){
     locker2.Unlock();
     locker1.Lock();
     return 0;
+}
