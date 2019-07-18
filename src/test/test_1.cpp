@@ -14,3 +14,4 @@ int main(){
        std::cout<< __GNUC__ <<std::endl;
    else
        std::cout<< "no" <<std::endl;
+   return 0;
