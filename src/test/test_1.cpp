@@ -5,3 +5,5 @@
 
 //////////////////#define G 2
 using std::map;
+
+int main(){
