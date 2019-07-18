@@ -7,3 +7,4 @@
 using std::map;
 
 int main(){
+   map<int, int> test_map;
