@@ -4,3 +4,4 @@
 #include <unistd.h>
 #include <string>
 #include <boost/algorithm/string.hpp>
+#include <classad/classad.h>
