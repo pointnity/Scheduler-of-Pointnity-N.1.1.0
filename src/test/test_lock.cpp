@@ -8,3 +8,5 @@
 #include <classad/classad_distribution.h>
 #include <boost/shared_ptr.hpp>
 #include "common/clynn/rwlock.h"
+
+using std::string;
