@@ -10,3 +10,4 @@
 #include "common/clynn/rwlock.h"
 
 using std::string;
+using boost::shared_ptr;
