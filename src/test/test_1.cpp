@@ -2,3 +2,5 @@
   #include<iostream>
   #include<map>
 #endif
+
+//////////////////#define G 2
