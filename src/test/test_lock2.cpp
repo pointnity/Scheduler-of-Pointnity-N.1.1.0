@@ -42,3 +42,5 @@ void Thread2() {
 void func() {
     map1[1] = RWLock();
 }
+
+int32_t main(int argc, char* argv[]){
