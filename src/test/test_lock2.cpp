@@ -20,3 +20,4 @@ using boost::shared_ptr;
 using boost::thread;
 using clynn::RWLock;
 using clynn::ReadLocker;
+using clynn::WriteLocker;
