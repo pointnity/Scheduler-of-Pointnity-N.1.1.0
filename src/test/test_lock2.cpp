@@ -34,3 +34,4 @@ void Thread1() {
 
 void Thread2() {
     map<int, RWLock>::iterator it = map1.find(1);
+    WriteLocker locker(it->second);
