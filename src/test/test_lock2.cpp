@@ -49,3 +49,6 @@ int32_t main(int argc, char* argv[]){
     int id = string_to_int["nimei"];
     if(id == NULL) {
         printf("nimei\n");
+    }
+    return 0;
+}
