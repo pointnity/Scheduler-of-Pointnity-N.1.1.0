@@ -46,3 +46,4 @@ void func() {
 int32_t main(int argc, char* argv[]){
     map<string, int> string_to_int;
     string_to_int["nimei"] = 0;
+    int id = string_to_int["nimei"];
