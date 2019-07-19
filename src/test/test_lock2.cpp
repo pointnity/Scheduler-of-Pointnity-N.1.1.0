@@ -31,3 +31,5 @@ void Thread1() {
     sleep(5);
     printf("end of 1\n");
 }
+
+void Thread2() {
