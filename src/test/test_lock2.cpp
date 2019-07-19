@@ -16,3 +16,4 @@
 
 using std::string;
 using std::map;
+using boost::shared_ptr;
