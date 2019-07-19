@@ -48,3 +48,4 @@ int32_t main(int argc, char* argv[]){
     string_to_int["nimei"] = 0;
     int id = string_to_int["nimei"];
     if(id == NULL) {
+        printf("nimei\n");
