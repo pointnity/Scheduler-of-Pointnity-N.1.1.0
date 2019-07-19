@@ -40,3 +40,4 @@ void Thread2() {
 
 
 void func() {
+    map1[1] = RWLock();
