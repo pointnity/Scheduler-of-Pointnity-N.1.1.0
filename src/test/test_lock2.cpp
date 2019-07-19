@@ -8,3 +8,4 @@
 #include <boost/algorithm/string.hpp>
 #include <classad/classad.h>
 #include <classad/classad_distribution.h>
+#include <boost/shared_ptr.hpp>
