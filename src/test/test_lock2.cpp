@@ -30,3 +30,4 @@ void Thread1() {
     printf("111111\n");
     sleep(5);
     printf("end of 1\n");
+}
