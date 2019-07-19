@@ -21,3 +21,5 @@ using boost::thread;
 using clynn::RWLock;
 using clynn::ReadLocker;
 using clynn::WriteLocker;
+
+map<int, RWLock> map1;
