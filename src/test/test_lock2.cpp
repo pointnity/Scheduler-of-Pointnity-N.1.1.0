@@ -23,3 +23,5 @@ using clynn::ReadLocker;
 using clynn::WriteLocker;
 
 map<int, RWLock> map1;
+
+void Thread1() {
