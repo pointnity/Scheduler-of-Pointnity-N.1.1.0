@@ -27,3 +27,4 @@ map<int, RWLock> map1;
 void Thread1() {
     map<int, RWLock>::iterator it = map1.find(1);
     WriteLocker locker(it->second);
+    printf("111111\n");
