@@ -37,3 +37,6 @@ void Thread2() {
     WriteLocker locker(it->second);
     printf("22222\n");
 }
+
+
+void func() {
