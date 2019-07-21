@@ -25,3 +25,4 @@ int main(){
         count = atoi(buf);
         if(count-1 == 1) {
 	    cout<<"yes"<<endl;
+	    return 0;
