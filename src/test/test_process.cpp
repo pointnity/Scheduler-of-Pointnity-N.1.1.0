@@ -15,3 +15,4 @@ int main(){
     string process_name = "init";
     char buf[256];
     string cmd;
+    int count;
