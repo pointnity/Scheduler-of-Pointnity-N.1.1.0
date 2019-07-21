@@ -22,3 +22,4 @@ int main(){
         return -1;
     }
     if((fgets(buf, 128, fp))!= NULL ) {
+        count = atoi(buf);
