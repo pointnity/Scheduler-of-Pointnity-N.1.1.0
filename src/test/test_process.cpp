@@ -14,3 +14,4 @@ using std::endl;
 int main(){
     string process_name = "init";
     char buf[256];
+    string cmd;
