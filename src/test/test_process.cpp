@@ -17,3 +17,4 @@ int main(){
     string cmd;
     int count;
     cmd = "ps -C " + process_name  + " |wc -l";
+    if((fp=popen(cmd.c_str(), "r")) == NULL) {
