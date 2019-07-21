@@ -28,3 +28,4 @@ int main(){
 	    return 0;
         } else {
             std::cout<<"process not find"<<std::endl;
+            return -1;
