@@ -24,3 +24,4 @@ int main(){
     if((fgets(buf, 128, fp))!= NULL ) {
         count = atoi(buf);
         if(count-1 == 1) {
+	    cout<<"yes"<<endl;
