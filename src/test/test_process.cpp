@@ -27,3 +27,4 @@ int main(){
 	    cout<<"yes"<<endl;
 	    return 0;
         } else {
+            std::cout<<"process not find"<<std::endl;
