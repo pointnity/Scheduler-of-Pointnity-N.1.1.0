@@ -12,3 +12,4 @@ using std::cout;
 using std::endl;
 
 int main(){
+    string process_name = "init";
