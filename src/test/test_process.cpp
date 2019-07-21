@@ -6,3 +6,5 @@
 #include<fcntl.h>
 #include<string>
 #include<iostream>
+
+using std::string
