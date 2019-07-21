@@ -26,3 +26,4 @@ int main(){
         if(count-1 == 1) {
 	    cout<<"yes"<<endl;
 	    return 0;
+        } else {
