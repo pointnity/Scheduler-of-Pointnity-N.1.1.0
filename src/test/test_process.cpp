@@ -16,3 +16,4 @@ int main(){
     char buf[256];
     string cmd;
     int count;
+    cmd = "ps -C " + process_name  + " |wc -l";
