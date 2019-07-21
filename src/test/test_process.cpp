@@ -19,3 +19,4 @@ int main(){
     cmd = "ps -C " + process_name  + " |wc -l";
     if((fp=popen(cmd.c_str(), "r")) == NULL) {
         cout<<"popen error"<<endl;
+        return -1;
