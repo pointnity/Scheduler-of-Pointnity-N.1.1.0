@@ -33,3 +33,4 @@ int main(){
     } else {
         std::cout<<"get process num from file  error"<<std::endl;
         return -1;
+    }
