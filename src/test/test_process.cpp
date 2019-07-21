@@ -21,3 +21,4 @@ int main(){
         cout<<"popen error"<<endl;
         return -1;
     }
+    if((fgets(buf, 128, fp))!= NULL ) {
