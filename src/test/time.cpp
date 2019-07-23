@@ -10,3 +10,4 @@ int32_t main(int argc, char* argv[]){
     usleep(50000);
     printf("%f\n", timer.ElapsedSeconds());
     return 0;
+}
