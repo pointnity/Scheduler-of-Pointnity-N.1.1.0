@@ -25,3 +25,4 @@ TEST(TestZookeeperCommon, TestCreateNode) {
     int rt = my_zk.Init("xaec-test_for_zk_common");
     if (rt < 0) {
         LOG(ERROR) << "connect zk failed.";
+    } else {
