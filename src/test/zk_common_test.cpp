@@ -41,3 +41,5 @@ TEST(TestZookeeperCommon, TestCreateNode) {
         EXPECT_EQ(rt, 0);
     }
 }
+
+TEST(TestZookeeperCommon, TestCreateNodeWithValue) {
