@@ -58,3 +58,6 @@ TEST(TestZookeeperCommon, TestCreateNodeWithValue) {
         rt = my_zk.CreateNodeWithValue("/zk/xaec/tborg/xaec-test_for_zk_common"
                                        "/tns/mavisluo", "test_value_2");
         EXPECT_EQ(rt, 0);
+        rt = my_zk.GetValueOfNode("/zk/xaec/tborg/xaec-test_for_zk_common/tns/mavisluo", &value);
+        std::cout << value << std::endl;
+        EXPECT_EQ(value, "test_value_2");
