@@ -9,3 +9,4 @@
 #include <gtest/gtest.h>
 #include <gflags/gflags.h>
 #include <map>
+#include "tborg/conf_manager/zk_common.h"
