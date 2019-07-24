@@ -21,3 +21,4 @@ void PrintMap(std::map<std::string, std::string> one_map) {
 
 
 TEST(TestZookeeperCommon, TestCreateNode) {
+    ZookeeperCommon my_zk;
