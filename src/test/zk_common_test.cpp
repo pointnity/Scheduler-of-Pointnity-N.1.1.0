@@ -18,3 +18,6 @@ void PrintMap(std::map<std::string, std::string> one_map) {
         std::cout << it->first << "-----" << it->second << std::endl;
     }
 }
+
+
+TEST(TestZookeeperCommon, TestCreateNode) {
