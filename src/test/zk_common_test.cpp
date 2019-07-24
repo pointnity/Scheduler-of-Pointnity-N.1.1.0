@@ -45,3 +45,4 @@ TEST(TestZookeeperCommon, TestCreateNode) {
 TEST(TestZookeeperCommon, TestCreateNodeWithValue) {
     ZookeeperCommon my_zk;
     std::string value;
+    int rt = my_zk.Init("xaec-test_for_zk_common");
