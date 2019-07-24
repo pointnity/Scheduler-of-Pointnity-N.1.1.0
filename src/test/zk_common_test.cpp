@@ -53,3 +53,4 @@ TEST(TestZookeeperCommon, TestCreateNodeWithValue) {
         my_zk.DeleteNode("/zk/xaec/tborg/xaec-test_for_zk_common/tns/mavisluo");
 
         rt = my_zk.CreateNodeWithValue("/zk/xaec/tborg/xaec-test_for_zk_common"
+                                       "/tns/mavisluotest", "test_value");
