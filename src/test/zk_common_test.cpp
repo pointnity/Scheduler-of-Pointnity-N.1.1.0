@@ -61,3 +61,18 @@ TEST(TestZookeeperCommon, TestCreateNodeWithValue) {
         rt = my_zk.GetValueOfNode("/zk/xaec/tborg/xaec-test_for_zk_common/tns/mavisluo", &value);
         std::cout << value << std::endl;
         EXPECT_EQ(value, "test_value_2");
+
+        rt = my_zk.CreateNodeWithValue("/zk/xaec/tborg/xaec-test_for_zk_common/"
+                                       "tns/mavisluo/no_node/no_node/no_node/"
+                                       "no_node/no_node", "test_value");
+        std::cout << value << std::endl;
+        EXPECT_EQ(rt, -1);
+        std::string test_str= "test str";
+        my_zk.SetValueOfNode("/zk/xaec/tborg/xaec-test_for_zk_common/tns/mavisluo", test_str);
+        std::string result;
+        my_zk.GetValueOfNode("/zk/xaec/tborg/xaec-test_for_zk_common/tns/mavisluo", &result);
+        EXPECT_EQ(test_str, result);
+
+        my_zk.DeleteNode("/zk/xaec/tborg/xaec-test_for_zk_common/tns/mavisluo");
+    }
+}
