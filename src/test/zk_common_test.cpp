@@ -31,3 +31,6 @@ TEST(TestZookeeperCommon, TestCreateNode) {
         std::cout << "=============================" << my_zk.GetZKPrefix() << std::endl;
         // sleep(20);
         EXPECT_EQ(rt, 0);
+
+
+        rt = my_zk.CreateNode("/zk/xaec/tborg/xaec-test_for_zk_common"
