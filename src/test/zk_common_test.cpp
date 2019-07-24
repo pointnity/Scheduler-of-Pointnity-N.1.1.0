@@ -34,3 +34,4 @@ TEST(TestZookeeperCommon, TestCreateNode) {
 
 
         rt = my_zk.CreateNode("/zk/xaec/tborg/xaec-test_for_zk_common"
+                              "/tns/mavisluo/no_node/no_node");
