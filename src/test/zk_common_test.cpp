@@ -39,3 +39,4 @@ TEST(TestZookeeperCommon, TestCreateNode) {
         /// delete the node that created just now
         rt = my_zk.DeleteNode("/zk/xaec/tborg/xaec-test_for_zk_common/tns/mavisluo");
         EXPECT_EQ(rt, 0);
+    }
