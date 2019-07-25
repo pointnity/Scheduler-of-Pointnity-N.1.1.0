@@ -84,3 +84,4 @@ TEST(TestZookeeperCommon, TestDeleteNode) {
         LOG(ERROR) << "connect zk failed.";
     } else {
         EXPECT_EQ(rt, 0);
+        rt = my_zk.CreateNodeWithValue("/zk/xaec/tborg/xaec-test_for_zk_common"
