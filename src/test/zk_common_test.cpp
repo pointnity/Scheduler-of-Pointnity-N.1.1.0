@@ -78,3 +78,4 @@ TEST(TestZookeeperCommon, TestCreateNodeWithValue) {
 }
 TEST(TestZookeeperCommon, TestDeleteNode) {
     ZookeeperCommon my_zk;
+    std::string value;
