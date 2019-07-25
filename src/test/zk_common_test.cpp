@@ -76,3 +76,4 @@ TEST(TestZookeeperCommon, TestCreateNodeWithValue) {
         my_zk.DeleteNode("/zk/xaec/tborg/xaec-test_for_zk_common/tns/mavisluo");
     }
 }
+TEST(TestZookeeperCommon, TestDeleteNode) {
