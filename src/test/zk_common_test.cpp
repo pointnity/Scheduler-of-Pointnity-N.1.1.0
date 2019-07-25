@@ -87,3 +87,4 @@ TEST(TestZookeeperCommon, TestDeleteNode) {
         rt = my_zk.CreateNodeWithValue("/zk/xaec/tborg/xaec-test_for_zk_common"
                                        "/tns/mavisluo", "test_value");
         EXPECT_EQ(rt, 0);
+        rt = my_zk.CheckPathExist("/zk/xaec/tborg/xaec-test_for_zk_common/tns/mavisluo");
