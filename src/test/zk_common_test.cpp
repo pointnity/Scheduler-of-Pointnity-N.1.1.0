@@ -99,3 +99,4 @@ TEST(TestZookeeperCommon, TestDeleteNode) {
 }
 
 TEST(TestZookeeperCommon, TestDeleteNodeForce) {
+    ZookeeperCommon my_zk;
