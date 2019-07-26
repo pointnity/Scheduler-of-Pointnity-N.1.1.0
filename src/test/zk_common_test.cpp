@@ -127,3 +127,4 @@ TEST(TestZookeeperCommon, TestDeleteNodeForce) {
 }
 
 TEST(TestZookeeperCommon, TestDeleteNodeForceRecursively) {
+    ZookeeperCommon my_zk;
