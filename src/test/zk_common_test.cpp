@@ -125,3 +125,5 @@ TEST(TestZookeeperCommon, TestDeleteNodeForce) {
         EXPECT_EQ(rt, -1);
     }
 }
+
+TEST(TestZookeeperCommon, TestDeleteNodeForceRecursively) {
