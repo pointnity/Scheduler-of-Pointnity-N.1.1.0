@@ -96,3 +96,4 @@ TEST(TestZookeeperCommon, TestDeleteNode) {
         rt = my_zk.CheckPathExist("/zk/xaec/tborg/xaec-test_for_zk_common/tns/mavisluo");
         EXPECT_EQ(rt, -1);
     }
+}
