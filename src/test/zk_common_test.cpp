@@ -111,3 +111,4 @@ TEST(TestZookeeperCommon, TestDeleteNodeForce) {
         rt = my_zk.CreateNodeForce("/zk/xaec/tborg/xaec-test_for_zk_common/tns/test_del/job_1");
         EXPECT_EQ(rt, 0);
         rt = my_zk.CreateNodeForce("/zk/xaec/tborg/xaec-test_for_zk_common/tns/test_del/job_1"
+                                   "/test");
