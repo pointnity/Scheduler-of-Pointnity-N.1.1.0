@@ -137,3 +137,4 @@ TEST(TestZookeeperCommon, TestDeleteNodeForceRecursively) {
         rt = my_zk.CreateNodeForce("/zk/xaec/tborg/xaec-test_for_zk_common/tns/node/child");
         EXPECT_EQ(rt, 0);
         rt = my_zk.CreateNodeForce("/zk/xaec/tborg/xaec-test_for_zk_common/tns/node/child/grand");
+        EXPECT_EQ(rt, 0);
