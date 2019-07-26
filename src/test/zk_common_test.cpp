@@ -115,3 +115,4 @@ TEST(TestZookeeperCommon, TestDeleteNodeForce) {
         EXPECT_EQ(rt, 0);
         rt = my_zk.DeleteNodeForce("/zk/xaec/tborg/xaec-test_for_zk_common/tns/test_del");
         EXPECT_EQ(rt, -1);
+        rt = my_zk.DeleteNode("/zk/xaec/tborg/xaec-test_for_zk_common/tns/test_del/job_1/test");
