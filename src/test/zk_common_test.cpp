@@ -106,3 +106,4 @@ TEST(TestZookeeperCommon, TestDeleteNodeForce) {
         LOG(ERROR) << "connect zk failed.";
     } else {
         EXPECT_EQ(rt, 0);
+        rt = my_zk.CreateNodeForce("/zk/xaec/tborg/xaec-test_for_zk_common/tns/test_del/job_0");
