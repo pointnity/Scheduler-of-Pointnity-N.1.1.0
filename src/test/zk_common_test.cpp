@@ -183,3 +183,4 @@ TEST(TestZookeeperCommon, TestGetChildren) {
         my_zk.CreateNodeForce("/zk/xaec/tborg/xaec-test_for_zk_common/tns/mavisluo/job_1");
         rt = my_zk.GetChildren("/zk/xaec/tborg/xaec-test_for_zk_common/tns/mavisluo", &children);
         PrintMap(children);
+        EXPECT_EQ(rt, 2);
