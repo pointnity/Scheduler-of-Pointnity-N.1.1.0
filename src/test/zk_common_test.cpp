@@ -178,3 +178,8 @@ TEST(TestZookeeperCommon, TestGetChildren) {
         LOG(ERROR) << "connect zk failed.";
     } else {
         EXPECT_EQ(rt, 0);
+        std::map<std::string, std::string> children;
+        my_zk.CreateNodeForce("/zk/xaec/tborg/xaec-test_for_zk_common/tns/mavisluo/job_0");
+        my_zk.CreateNodeForce("/zk/xaec/tborg/xaec-test_for_zk_common/tns/mavisluo/job_1");
+        rt = my_zk.GetChildren("/zk/xaec/tborg/xaec-test_for_zk_common/tns/mavisluo", &children);
+        PrintMap(children);
