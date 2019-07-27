@@ -251,3 +251,23 @@ TEST(TestZookeeperCommon, TestWGetValueOfNode) {
         my_zk.DeleteNode("/zk/xaec/tborg/xaec-test_for_zk_common/tns/mavisluo");
     }
 }
+
+int main(int argc, char *argv[]) {
+    testing::InitGoogleTest(&argc, argv);
+    if (google::ParseCommandLineFlags(&argc, &argv, true)) {
+        for (int i = 0; i < argc; ++i) {
+            printf("arg[%d]=%s\n", i, argv[i]);
+        }
+    } else {
+        return  EXIT_FAILURE;
+    }
+
+    /// first delete all node to use in our tests
+    ZookeeperCommon zk;
+    zk.Init("xaec-test_for_zk_common");
+    zk.DeleteNode("/zk/xaec/tborg/xaec-test_for_zk_common/tns/mavisluo/my_test_job/0");
+    zk.DeleteNode("/zk/xaec/tborg/xaec-test_for_zk_common/tns/mavisluo/my_test_job/1");
+    zk.DeleteNode("/zk/xaec/tborg/xaec-test_for_zk_common/tns/mavisluo/my_test_job");
+    zk.DeleteNode("/zk/xaec/tborg/xaec-test_for_zk_common/tns/mavisluo");
+    return RUN_ALL_TESTS();
+}
