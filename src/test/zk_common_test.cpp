@@ -196,3 +196,4 @@ TEST(TestZookeeperCommon, TestGetChildren) {
 }
 
 TEST(TestZookeeperCommon, TestWCheckPathExist) {
+    ZookeeperCommon my_zk;
