@@ -218,3 +218,8 @@ TEST(TestZookeeperCommon, TestWCheckPathExist) {
         my_zk.DeleteNode("/zk/xaec/tborg/xaec-test_for_zk_common/tns/mavisluo/second_node");
         my_zk.DeleteNode("/zk/xaec/tborg/xaec-test_for_zk_common/tns/mavisluo");
     }
+}
+
+TEST(TestZookeeperCommon, TestWGetValueOfNode) {
+    ZookeeperCommon my_zk;
+    std::string value;
