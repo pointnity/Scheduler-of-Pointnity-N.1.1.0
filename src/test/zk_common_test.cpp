@@ -173,3 +173,5 @@ TEST(TestZookeeperCommon, TestCreateNodeForce) {
 TEST(TestZookeeperCommon, TestGetChildren) {
     ZookeeperCommon my_zk;
     std::string value;
+    int rt = my_zk.Init("xaec-test_for_zk_common");
+    if (rt < 0) {
