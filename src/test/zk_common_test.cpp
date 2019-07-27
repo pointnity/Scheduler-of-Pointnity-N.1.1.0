@@ -185,3 +185,6 @@ TEST(TestZookeeperCommon, TestGetChildren) {
         PrintMap(children);
         EXPECT_EQ(rt, 2);
         EXPECT_EQ(static_cast<int>(children.size()), 2);
+        rt = my_zk.GetChildren("/zk/xaec/tborg/xaec-test_for_zk_common/tns/unknown_mavisluo",
+                               &children);
+        EXPECT_EQ(rt, -1);
