@@ -206,3 +206,7 @@ TEST(TestZookeeperCommon, TestWCheckPathExist) {
         std::map<std::string, std::string> children;
         rt = my_zk.CreateNodeForce("/zk/xaec/tborg/xaec-test_for_zk_common/tns/mavisluo"
                                    "/second_node");
+        EXPECT_EQ(rt, 0);
+        rt = my_zk.WCheckPathExist("/zk/xaec/tborg/xaec-test_for_zk_common/tns/mavisluo"
+                                   "/second_node", &Watcher);
+        EXPECT_EQ(rt, 0);
