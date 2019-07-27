@@ -232,3 +232,22 @@ TEST(TestZookeeperCommon, TestWGetValueOfNode) {
         rt = my_zk.CreateNodeForce("/zk/xaec/tborg/xaec-test_for_zk_common/tns/"
                                    "mavisluo/second_node");
         EXPECT_EQ(rt, 0);
+        rt = my_zk.SetValueOfNode("/zk/xaec/tborg/xaec-test_for_zk_common/tns/"
+                                  "mavisluo/second_node", "frst_value");
+
+        rt = my_zk.WGetValueOfNode("/zk/xaec/tborg/xaec-test_for_zk_common/tns/"
+                                   "mavisluo/second_node", &Watcher, &value);
+        LOG(INFO) << "===========" << value;
+        EXPECT_EQ(rt, 0);
+
+        rt = my_zk.CheckPathExist("/zk/xaec/tborg/xaec-test_for_zk_common/tns/"
+                                   "mavisluo/second_node");
+        EXPECT_EQ(rt, 0);
+        rt = my_zk.SetValueOfNode("/zk/xaec/tborg/xaec-test_for_zk_common/tns/"
+                                  "mavisluo/second_node", "new_value");
+        rt = my_zk.SetValueOfNode("/zk/xaec/tborg/xaec-test_for_zk_common/tns/"
+                                "mavisluo/second_node", "new_value_2");
+        my_zk.DeleteNode("/zk/xaec/tborg/xaec-test_for_zk_common/tns/mavisluo/second_node");
+        my_zk.DeleteNode("/zk/xaec/tborg/xaec-test_for_zk_common/tns/mavisluo");
+    }
+}
