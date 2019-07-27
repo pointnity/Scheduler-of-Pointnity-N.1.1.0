@@ -151,3 +151,4 @@ TEST(TestZookeeperCommon, TestDeleteNodeForceRecursively) {
 }
 
 TEST(TestZookeeperCommon, TestCreateNodeForce) {
+    ZookeeperCommon my_zk;
