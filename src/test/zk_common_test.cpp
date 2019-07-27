@@ -171,3 +171,5 @@ TEST(TestZookeeperCommon, TestCreateNodeForce) {
 }
 
 TEST(TestZookeeperCommon, TestGetChildren) {
+    ZookeeperCommon my_zk;
+    std::string value;
