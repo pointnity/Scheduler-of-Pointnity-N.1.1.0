@@ -162,3 +162,6 @@ TEST(TestZookeeperCommon, TestCreateNodeForce) {
         rt = my_zk.CreateNodeForce("/zk/xaec/tborg/xaec-test_for_zk_common/tns/mavisluo"
                                    "/second_node");
         EXPECT_EQ(rt, 0);
+        rt = my_zk.CheckPathExist("/zk/xaec/tborg/xaec-test_for_zk_common/tns/mavisluo"
+                                  "/second_node");
+        EXPECT_EQ(rt, 0);
