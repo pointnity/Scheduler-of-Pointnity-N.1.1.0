@@ -188,3 +188,4 @@ TEST(TestZookeeperCommon, TestGetChildren) {
         rt = my_zk.GetChildren("/zk/xaec/tborg/xaec-test_for_zk_common/tns/unknown_mavisluo",
                                &children);
         EXPECT_EQ(rt, -1);
+        /// delete the test nodes
