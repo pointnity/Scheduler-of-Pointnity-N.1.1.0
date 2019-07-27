@@ -210,3 +210,11 @@ TEST(TestZookeeperCommon, TestWCheckPathExist) {
         rt = my_zk.WCheckPathExist("/zk/xaec/tborg/xaec-test_for_zk_common/tns/mavisluo"
                                    "/second_node", &Watcher);
         EXPECT_EQ(rt, 0);
+
+        rt = my_zk.SetValueOfNode("/zk/xaec/tborg/xaec-test_for_zk_common/tns/mavisluo"
+                                  "/second_node", "new_value");
+        rt = my_zk.SetValueOfNode("/zk/xaec/tborg/xaec-test_for_zk_common/tns/mavisluo"
+                                  "/second_node", "new_value_2");
+        my_zk.DeleteNode("/zk/xaec/tborg/xaec-test_for_zk_common/tns/mavisluo/second_node");
+        my_zk.DeleteNode("/zk/xaec/tborg/xaec-test_for_zk_common/tns/mavisluo");
+    }
