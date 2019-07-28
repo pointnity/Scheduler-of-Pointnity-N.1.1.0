@@ -28,3 +28,4 @@
 #include "common/system/concurrency/atomic/atomic.hpp"
 
 /// ip:port of zk servers
+DEFINE_string(zk_servers, "", "ip:port of zk servers");
