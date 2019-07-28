@@ -46,3 +46,4 @@ class MyEnvironment : public testing::Environment
             if (rt < 0) {
                 std::cout << "tns_test init failed." << std::endl;
                 return;
+            } else {
