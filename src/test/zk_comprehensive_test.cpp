@@ -6,3 +6,5 @@
 // Description:test for zookeeper
 // Id：zk_common_test.cpp
 // =============================================================================
+
+#include <gtest/gtest.h>
