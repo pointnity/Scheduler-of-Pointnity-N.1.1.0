@@ -47,3 +47,4 @@ class MyEnvironment : public testing::Environment
                 std::cout << "tns_test init failed." << std::endl;
                 return;
             } else {
+                my_zk.CreateDefaultCluster();
