@@ -43,3 +43,4 @@ class MyEnvironment : public testing::Environment
             ConfManager my_zk;
 
             int rt = my_zk.Init(FLAGS_cluster_name, FLAGS_zk_servers);
+            if (rt < 0) {
