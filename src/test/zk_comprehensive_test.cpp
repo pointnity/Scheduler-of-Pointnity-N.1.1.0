@@ -48,3 +48,4 @@ class MyEnvironment : public testing::Environment
                 return;
             } else {
                 my_zk.CreateDefaultCluster();
+                /// set some config items
