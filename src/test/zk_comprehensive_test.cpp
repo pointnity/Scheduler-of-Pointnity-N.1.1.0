@@ -22,3 +22,4 @@
 #include "tborg/conf_manager/zk_common.h"
 #include "tborg/include/get_hostip.h"
 #include "common/config/cflags.hpp"
+#include "tborg/collector/collector_conf.h"
