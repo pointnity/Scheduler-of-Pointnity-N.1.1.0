@@ -32,3 +32,6 @@ DEFINE_string(zk_servers, "", "ip:port of zk servers");
 
 std::string test_node = "/zk/xaec/tborg/" + FLAGS_cluster_name +
                         "/tns/mavisluo";
+
+class MyEnvironment : public testing::Environment
+{
