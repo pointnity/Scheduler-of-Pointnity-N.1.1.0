@@ -36,3 +36,4 @@ std::string test_node = "/zk/xaec/tborg/" + FLAGS_cluster_name +
 class MyEnvironment : public testing::Environment
 {
     public:
+        virtual void SetUp() {
