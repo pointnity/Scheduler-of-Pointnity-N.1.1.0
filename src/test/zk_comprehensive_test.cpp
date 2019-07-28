@@ -39,3 +39,4 @@ class MyEnvironment : public testing::Environment
         virtual void SetUp() {
             std::cout << "MyEnvironment SetUP" << std::endl;
             FLAGS_cluster_name = "xaec-comprehensive_test_zk_" + get_hostip();
+            /// create test nodes
