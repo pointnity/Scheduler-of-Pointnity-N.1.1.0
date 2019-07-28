@@ -17,3 +17,4 @@
 #include <gflags/gflags.h>
 #include <map>
 #include <list>
+#include <string>
