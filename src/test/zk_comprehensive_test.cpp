@@ -37,3 +37,4 @@ class MyEnvironment : public testing::Environment
 {
     public:
         virtual void SetUp() {
+            std::cout << "MyEnvironment SetUP" << std::endl;
