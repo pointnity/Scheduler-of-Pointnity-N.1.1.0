@@ -25,3 +25,4 @@
 #include "tborg/collector/collector_conf.h"
 #include "tborg/conf_manager/dynamic_configuration.h"
 #include "tborg/conf_manager/conf_manager.h"
+#include "common/system/concurrency/atomic/atomic.hpp"
