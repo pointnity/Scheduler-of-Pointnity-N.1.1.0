@@ -1,6 +1,5 @@
 // =============================================================================
 // Version: 0.1
-
 // Author: mavisluo 
 // Revision: 17158 
 // Description:test for zookeeper
@@ -16,3 +15,4 @@
 #include <sys/socket.h>
 #include <arpa/inet.h>
 #include <gflags/gflags.h>
+#include <map>
