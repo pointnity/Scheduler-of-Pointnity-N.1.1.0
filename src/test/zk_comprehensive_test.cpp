@@ -19,3 +19,4 @@
 #include <list>
 #include <string>
 #include <vector>
+#include "tborg/conf_manager/zk_common.h"
