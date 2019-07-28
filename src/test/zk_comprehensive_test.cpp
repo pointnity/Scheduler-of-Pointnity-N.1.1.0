@@ -41,3 +41,5 @@ class MyEnvironment : public testing::Environment
             FLAGS_cluster_name = "xaec-comprehensive_test_zk_" + get_hostip();
             /// create test nodes
             ConfManager my_zk;
+
+            int rt = my_zk.Init(FLAGS_cluster_name, FLAGS_zk_servers);
