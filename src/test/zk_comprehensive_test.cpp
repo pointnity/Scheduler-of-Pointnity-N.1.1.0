@@ -64,3 +64,4 @@ class MyEnvironment : public testing::Environment
             if (rt < 0) {
                 std::cout << "zk server init failed." << std::endl;
             } else {
+                /// delete all test ndoes
