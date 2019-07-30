@@ -49,3 +49,4 @@ class MyEnvironment : public testing::Environment
             } else {
                 my_zk.CreateDefaultCluster();
                 /// set some config items
+                my_zk.SetOneConf("global", "collector_endpoint", "10.6.207.227:9618");
