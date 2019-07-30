@@ -79,3 +79,4 @@ void PrintMap(std::map<std::string, std::string> one_map) {
 
 /// test: create a zk node
 TEST(TestZookeeperCommon, TestCreateNode) {
+    ZookeeperCommon my_zk;
