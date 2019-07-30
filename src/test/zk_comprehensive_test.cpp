@@ -62,3 +62,4 @@ class MyEnvironment : public testing::Environment
             ZookeeperCommon my_zk;
             int rt = my_zk.Init(FLAGS_cluster_name, FLAGS_zk_servers);
             if (rt < 0) {
+                std::cout << "zk server init failed." << std::endl;
