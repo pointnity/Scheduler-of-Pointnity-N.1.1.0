@@ -68,3 +68,4 @@ class MyEnvironment : public testing::Environment
                 my_zk.DeleteNodeForceRecursively("/zk/xaec/tborg/" + FLAGS_cluster_name);
             }
         }
+};
