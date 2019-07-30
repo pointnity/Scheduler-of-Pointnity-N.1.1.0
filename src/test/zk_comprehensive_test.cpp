@@ -60,3 +60,4 @@ class MyEnvironment : public testing::Environment
         virtual void TearDown() {
             std::cout << "MyEnvironment TearDown" << std::endl;
             ZookeeperCommon my_zk;
+            int rt = my_zk.Init(FLAGS_cluster_name, FLAGS_zk_servers);
