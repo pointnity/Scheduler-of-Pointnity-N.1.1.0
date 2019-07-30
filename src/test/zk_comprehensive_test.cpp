@@ -58,3 +58,4 @@ class MyEnvironment : public testing::Environment
         }
 
         virtual void TearDown() {
+            std::cout << "MyEnvironment TearDown" << std::endl;
