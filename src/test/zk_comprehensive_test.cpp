@@ -69,3 +69,5 @@ class MyEnvironment : public testing::Environment
             }
         }
 };
+
+void PrintMap(std::map<std::string, std::string> one_map) {
