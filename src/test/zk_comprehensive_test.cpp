@@ -65,3 +65,4 @@ class MyEnvironment : public testing::Environment
                 std::cout << "zk server init failed." << std::endl;
             } else {
                 /// delete all test ndoes
+                my_zk.DeleteNodeForceRecursively("/zk/xaec/tborg/" + FLAGS_cluster_name);
