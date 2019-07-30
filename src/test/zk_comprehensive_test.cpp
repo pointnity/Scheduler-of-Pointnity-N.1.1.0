@@ -51,3 +51,4 @@ class MyEnvironment : public testing::Environment
                 /// set some config items
                 my_zk.SetOneConf("global", "collector_endpoint", "10.6.207.227:9618");
                 my_zk.SetOneConf("global", "scheduler_endpoint", "10.6.207.227:9618");
+                my_zk.SetOneConf("global", "scheduler_http_endpoint", "10.6.207.227:9618");
