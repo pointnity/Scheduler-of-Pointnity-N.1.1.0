@@ -59,3 +59,4 @@ class MyEnvironment : public testing::Environment
 
         virtual void TearDown() {
             std::cout << "MyEnvironment TearDown" << std::endl;
+            ZookeeperCommon my_zk;
