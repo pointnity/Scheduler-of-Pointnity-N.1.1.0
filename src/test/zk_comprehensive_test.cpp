@@ -80,3 +80,4 @@ void PrintMap(std::map<std::string, std::string> one_map) {
 /// test: create a zk node
 TEST(TestZookeeperCommon, TestCreateNode) {
     ZookeeperCommon my_zk;
+    int rt = my_zk.Init(FLAGS_cluster_name, FLAGS_zk_servers);
