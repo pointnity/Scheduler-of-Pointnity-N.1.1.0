@@ -73,3 +73,4 @@ class MyEnvironment : public testing::Environment
 void PrintMap(std::map<std::string, std::string> one_map) {
     for (std::map<std::string, std::string>::iterator it
          = one_map.begin(); it != one_map.end(); ++it) {
+        std::cout << it->first << "-----" << it->second << std::endl;
