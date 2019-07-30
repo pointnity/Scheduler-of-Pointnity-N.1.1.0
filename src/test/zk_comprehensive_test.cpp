@@ -50,3 +50,4 @@ class MyEnvironment : public testing::Environment
                 my_zk.CreateDefaultCluster();
                 /// set some config items
                 my_zk.SetOneConf("global", "collector_endpoint", "10.6.207.227:9618");
+                my_zk.SetOneConf("global", "scheduler_endpoint", "10.6.207.227:9618");
