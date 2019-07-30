@@ -56,3 +56,5 @@ class MyEnvironment : public testing::Environment
                 my_zk.SetOneConf("collector", "borg_dbhost", "10.6.207.228");
             }
         }
+
+        virtual void TearDown() {
