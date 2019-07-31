@@ -116,3 +116,4 @@ TEST(TestZookeeperCommon, CheckPathExist) {
         LOG(ERROR) << "connect zk failed.";
     } else {
         EXPECT_EQ(rt, 0);
+        /// create a node
