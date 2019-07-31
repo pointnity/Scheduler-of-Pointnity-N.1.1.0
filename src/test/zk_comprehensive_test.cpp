@@ -136,3 +136,4 @@ TEST(TestZookeeperCommon, TestCreateNodeWithValue) {
     int rt = my_zk.Init(FLAGS_cluster_name, FLAGS_zk_servers);
     if (rt < 0) {
         LOG(ERROR) << "connect zk failed.";
+    } else {
