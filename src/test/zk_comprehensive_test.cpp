@@ -149,3 +149,4 @@ TEST(TestZookeeperCommon, TestCreateNodeWithValue) {
         EXPECT_EQ(rt, 0);
         rt = my_zk.GetValueOfNode(test_node, &value);
         // std::cout << value << std::endl;
+        EXPECT_EQ(value, "test_value_2");
