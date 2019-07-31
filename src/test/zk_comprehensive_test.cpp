@@ -122,3 +122,4 @@ TEST(TestZookeeperCommon, CheckPathExist) {
         rt = my_zk.CheckPathExist(test_node);
         EXPECT_EQ(rt, 0);
         /// delete the node
+        rt = my_zk.DeleteNode(test_node);
