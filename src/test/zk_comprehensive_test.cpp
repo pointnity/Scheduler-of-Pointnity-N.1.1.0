@@ -138,3 +138,4 @@ TEST(TestZookeeperCommon, TestCreateNodeWithValue) {
         LOG(ERROR) << "connect zk failed.";
     } else {
         EXPECT_EQ(rt, 0);
+        // in order to ensure the test node exists, delete it first
