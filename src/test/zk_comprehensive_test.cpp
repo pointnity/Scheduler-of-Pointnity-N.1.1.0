@@ -93,3 +93,4 @@ TEST(TestZookeeperCommon, TestCreateNode) {
         /// if you create a node already exists, the result is also 0
         rt = my_zk.CreateNode(test_node);
         EXPECT_EQ(rt, 0);
+        rt = my_zk.CheckPathExist(test_node);
