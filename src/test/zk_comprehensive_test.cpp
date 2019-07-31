@@ -155,3 +155,4 @@ TEST(TestZookeeperCommon, TestCreateNodeWithValue) {
                                       "/no_node/no_node/no_node/no_node/no_node",
                                       "test_value");
         // std::cout << value << std::endl;
+        EXPECT_EQ(rt, -1);
