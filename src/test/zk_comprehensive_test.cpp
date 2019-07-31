@@ -140,3 +140,5 @@ TEST(TestZookeeperCommon, TestCreateNodeWithValue) {
         EXPECT_EQ(rt, 0);
         // in order to ensure the test node exists, delete it first
         my_zk.DeleteNode(test_node);
+
+        rt = my_zk.CreateNodeWithValue(test_node, "test_value");
