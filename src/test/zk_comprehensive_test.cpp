@@ -130,3 +130,4 @@ TEST(TestZookeeperCommon, CheckPathExist) {
 }
 
 /// test: create a node with its value
+TEST(TestZookeeperCommon, TestCreateNodeWithValue) {
