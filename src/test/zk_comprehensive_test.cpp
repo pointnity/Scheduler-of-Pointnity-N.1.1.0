@@ -159,3 +159,5 @@ TEST(TestZookeeperCommon, TestCreateNodeWithValue) {
         my_zk.DeleteNodeForceRecursively(test_node);
     }
 }
+
+/// test: set a node with its value
