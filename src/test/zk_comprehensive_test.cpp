@@ -85,3 +85,4 @@ TEST(TestZookeeperCommon, TestCreateNode) {
         LOG(ERROR) << "connect zk failed.";
     } else {
         EXPECT_EQ(rt, 0);
+        /// create a normal node, the result will be 0
