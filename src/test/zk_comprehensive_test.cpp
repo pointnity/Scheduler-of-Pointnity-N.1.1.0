@@ -162,3 +162,4 @@ TEST(TestZookeeperCommon, TestCreateNodeWithValue) {
 
 /// test: set a node with its value
 TEST(TestZookeeperCommon, TestSetValueOfNode) {
+    ZookeeperCommon my_zk;
