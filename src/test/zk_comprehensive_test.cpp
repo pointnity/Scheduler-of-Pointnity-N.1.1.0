@@ -127,3 +127,4 @@ TEST(TestZookeeperCommon, CheckPathExist) {
         rt = my_zk.CheckPathExist(test_node);
         EXPECT_EQ(rt, -1);
     }
+}
