@@ -137,3 +137,4 @@ TEST(TestZookeeperCommon, TestCreateNodeWithValue) {
     if (rt < 0) {
         LOG(ERROR) << "connect zk failed.";
     } else {
+        EXPECT_EQ(rt, 0);
