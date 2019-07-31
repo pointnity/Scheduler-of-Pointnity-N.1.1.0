@@ -133,3 +133,4 @@ TEST(TestZookeeperCommon, CheckPathExist) {
 TEST(TestZookeeperCommon, TestCreateNodeWithValue) {
     ZookeeperCommon my_zk;
     std::string value;
+    int rt = my_zk.Init(FLAGS_cluster_name, FLAGS_zk_servers);
