@@ -153,3 +153,4 @@ TEST(TestZookeeperCommon, TestCreateNodeWithValue) {
         // create with value will fail if you create a node has no parent
         rt = my_zk.CreateNodeWithValue(test_node +
                                       "/no_node/no_node/no_node/no_node/no_node",
+                                      "test_value");
