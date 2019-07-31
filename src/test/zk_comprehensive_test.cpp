@@ -111,3 +111,4 @@ TEST(TestZookeeperCommon, TestCreateNode) {
 /// test: check if a node(path) exists
 TEST(TestZookeeperCommon, CheckPathExist) {
     ZookeeperCommon my_zk;
+    int rt = my_zk.Init(FLAGS_cluster_name, FLAGS_zk_servers);
