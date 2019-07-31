@@ -117,3 +117,4 @@ TEST(TestZookeeperCommon, CheckPathExist) {
     } else {
         EXPECT_EQ(rt, 0);
         /// create a node
+        rt = my_zk.CreateNode(test_node);
