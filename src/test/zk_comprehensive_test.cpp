@@ -97,3 +97,4 @@ TEST(TestZookeeperCommon, TestCreateNode) {
         EXPECT_EQ(rt, 0);
         /// if you create a node which has no parent, the result is -1
         rt = my_zk.CreateNode(test_node + "/no_parent/node");
+        EXPECT_EQ(rt, -1);
