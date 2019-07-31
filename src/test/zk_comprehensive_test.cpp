@@ -109,3 +109,4 @@ TEST(TestZookeeperCommon, TestCreateNode) {
 }
 
 /// test: check if a node(path) exists
+TEST(TestZookeeperCommon, CheckPathExist) {
