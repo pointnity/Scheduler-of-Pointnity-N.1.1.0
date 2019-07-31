@@ -157,3 +157,4 @@ TEST(TestZookeeperCommon, TestCreateNodeWithValue) {
         // std::cout << value << std::endl;
         EXPECT_EQ(rt, -1);
         my_zk.DeleteNodeForceRecursively(test_node);
+    }
