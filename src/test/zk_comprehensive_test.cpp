@@ -107,3 +107,5 @@ TEST(TestZookeeperCommon, TestCreateNode) {
         EXPECT_EQ(rt, -1);
     }
 }
+
+/// test: check if a node(path) exists
