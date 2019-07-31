@@ -101,3 +101,4 @@ TEST(TestZookeeperCommon, TestCreateNode) {
         rt = my_zk.CheckPathExist(test_node + "/no_parent/node");
         EXPECT_EQ(rt, -1);
         /// delete the node that created just now
+        rt = my_zk.DeleteNodeForceRecursively(test_node);
