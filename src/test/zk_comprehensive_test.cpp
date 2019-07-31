@@ -152,3 +152,4 @@ TEST(TestZookeeperCommon, TestCreateNodeWithValue) {
         EXPECT_EQ(value, "test_value_2");
         // create with value will fail if you create a node has no parent
         rt = my_zk.CreateNodeWithValue(test_node +
+                                      "/no_node/no_node/no_node/no_node/no_node",
