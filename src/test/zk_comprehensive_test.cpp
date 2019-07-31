@@ -150,3 +150,4 @@ TEST(TestZookeeperCommon, TestCreateNodeWithValue) {
         rt = my_zk.GetValueOfNode(test_node, &value);
         // std::cout << value << std::endl;
         EXPECT_EQ(value, "test_value_2");
+        // create with value will fail if you create a node has no parent
