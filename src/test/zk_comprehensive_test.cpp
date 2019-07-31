@@ -154,3 +154,4 @@ TEST(TestZookeeperCommon, TestCreateNodeWithValue) {
         rt = my_zk.CreateNodeWithValue(test_node +
                                       "/no_node/no_node/no_node/no_node/no_node",
                                       "test_value");
+        // std::cout << value << std::endl;
