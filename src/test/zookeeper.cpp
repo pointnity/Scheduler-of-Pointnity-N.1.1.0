@@ -23,3 +23,4 @@ int32_t main(int argc, char* argv[]){
     } else {
         buffer[buflen]='\0';
         printf("%s\n", buffer);
+        printf("version %d\n", stat.version);
