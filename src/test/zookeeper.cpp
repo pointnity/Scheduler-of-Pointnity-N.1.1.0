@@ -25,3 +25,5 @@ int32_t main(int argc, char* argv[]){
         printf("%s\n", buffer);
         printf("version %d\n", stat.version);
     }
+    
+    zookeeper_close(zh);
