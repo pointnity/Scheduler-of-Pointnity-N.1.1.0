@@ -12,3 +12,5 @@ int32_t main(int argc, char* argv[]){
     if(!zh) {
         return errno;
     }
+
+    int32_t rc = zoo_create(zh, "/nimei", "value", 5, &ZOO_OPEN_ACL_UNSAFE,  
