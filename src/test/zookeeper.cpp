@@ -22,3 +22,4 @@ int32_t main(int argc, char* argv[]){
         printf("error\n");
     } else {
         buffer[buflen]='\0';
+        printf("%s\n", buffer);
