@@ -27,3 +27,4 @@ int32_t main(int argc, char* argv[]){
     }
     
     zookeeper_close(zh);
+    sleep(1);
