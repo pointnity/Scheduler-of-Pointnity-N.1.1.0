@@ -16,3 +16,4 @@ int32_t main(int argc, char* argv[]){
     int32_t rc = zoo_create(zh, "/nimei", "value", 5, &ZOO_OPEN_ACL_UNSAFE,  
                             ZOO_EPHEMERAL, buffer, sizeof(buffer) - 1); 
     int buflen = sizeof(buffer);
+    struct Stat stat;
