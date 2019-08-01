@@ -20,3 +20,4 @@ int32_t main(int argc, char* argv[]){
     rc = zoo_get(zh, "/nimei", 0, buffer, &buflen, &stat);
     if(rc) {
         printf("error\n");
+    } else {
