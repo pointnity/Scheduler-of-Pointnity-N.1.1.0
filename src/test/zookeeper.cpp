@@ -11,3 +11,4 @@ int32_t main(int argc, char* argv[]){
     char buffer[512];
     if(!zh) {
         return errno;
+    }
