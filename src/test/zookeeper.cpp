@@ -10,3 +10,4 @@ int32_t main(int argc, char* argv[]){
     zhandle_t *zh = zookeeper_init("localhost:2181", watcher, 10000, 0, 0, 0);
     char buffer[512];
     if(!zh) {
+        return errno;
