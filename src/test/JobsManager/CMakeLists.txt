@@ -58,3 +58,4 @@ SET (SUBMIT_JOB_DAEMON
      submit_job_daemon.cpp)
 
 ADD_EXECUTABLE(submit-job-daemon ${SUBMIT_JOB_DAEMON})
+TARGET_LINK_LIBRARIES(submit-job-daemon thrift)
