@@ -45,3 +45,4 @@ ADD_CUSTOM_COMMAND (
 
 #### submit job ####
 SET (SUBMIT_JOB
+     ${JOBS_MANAGER_THRIFT_SOURCE}
