@@ -56,3 +56,5 @@ TARGET_LINK_LIBRARIES(submit-job classad)
 SET (SUBMIT_JOB_DAEMON
      ${JOBS_MANAGER_THRIFT_SOURCE}
      submit_job_daemon.cpp)
+
+ADD_EXECUTABLE(submit-job-daemon ${SUBMIT_JOB_DAEMON})
