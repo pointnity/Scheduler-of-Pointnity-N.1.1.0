@@ -63,3 +63,4 @@ TARGET_LINK_LIBRARIES(submit-job-daemon classad)
 
 # INSTALL(TARGETS ${TEST_EXECUTOR} RUNTIME DESTINATION test/executor)
 INSTALL(TARGETS submit-job RUNTIME DESTINATION test/JobsManager)
+INSTALL(TARGETS submit-job-daemon RUNTIME DESTINATION test/JobsManager)
