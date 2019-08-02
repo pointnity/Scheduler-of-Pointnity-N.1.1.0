@@ -60,3 +60,5 @@ SET (SUBMIT_JOB_DAEMON
 ADD_EXECUTABLE(submit-job-daemon ${SUBMIT_JOB_DAEMON})
 TARGET_LINK_LIBRARIES(submit-job-daemon thrift)
 TARGET_LINK_LIBRARIES(submit-job-daemon classad)
+
+# INSTALL(TARGETS ${TEST_EXECUTOR} RUNTIME DESTINATION test/executor)
