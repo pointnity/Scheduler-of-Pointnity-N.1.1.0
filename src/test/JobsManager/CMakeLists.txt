@@ -49,3 +49,4 @@ SET (SUBMIT_JOB
      submit_job_xml.cpp)
 
 ADD_EXECUTABLE(submit-job ${SUBMIT_JOB})
+TARGET_LINK_LIBRARIES(submit-job thrift)
