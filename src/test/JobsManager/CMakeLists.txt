@@ -47,3 +47,5 @@ ADD_CUSTOM_COMMAND (
 SET (SUBMIT_JOB
      ${JOBS_MANAGER_THRIFT_SOURCE}
      submit_job_xml.cpp)
+
+ADD_EXECUTABLE(submit-job ${SUBMIT_JOB})
