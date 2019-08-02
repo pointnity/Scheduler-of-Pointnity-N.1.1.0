@@ -62,3 +62,4 @@ TARGET_LINK_LIBRARIES(submit-job-daemon thrift)
 TARGET_LINK_LIBRARIES(submit-job-daemon classad)
 
 # INSTALL(TARGETS ${TEST_EXECUTOR} RUNTIME DESTINATION test/executor)
+INSTALL(TARGETS submit-job RUNTIME DESTINATION test/JobsManager)
