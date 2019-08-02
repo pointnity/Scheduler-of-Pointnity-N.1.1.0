@@ -51,3 +51,5 @@ SET (SUBMIT_JOB
 ADD_EXECUTABLE(submit-job ${SUBMIT_JOB})
 TARGET_LINK_LIBRARIES(submit-job thrift)
 TARGET_LINK_LIBRARIES(submit-job classad)
+
+#### submit job ####
