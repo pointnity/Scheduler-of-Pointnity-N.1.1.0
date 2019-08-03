@@ -38,3 +38,4 @@ int main(int argc, char ** argv) {
 
     // task_num 
     int32_t task_num = atoi(argv[4]);
+    if (task_num <= 0) {
