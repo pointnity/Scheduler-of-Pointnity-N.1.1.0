@@ -35,3 +35,5 @@ int main(int argc, char ** argv) {
     
     // job_type
     string job_type = argv[3];
+
+    // task_num 
