@@ -27,3 +27,4 @@ int main(int argc, char ** argv) {
     }
     
     // group name
+    string name = argv[1];
