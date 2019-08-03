@@ -74,3 +74,4 @@ int main(int argc, char ** argv) {
         Proxy<JobsManagerClient> proxy = RpcClient<JobsManagerClient>::GetProxy(endpoint);
         proxy().SubmitJob(result, str_ad);
     } catch (TException &tx) {
+        cout<<"error"<<endl;
