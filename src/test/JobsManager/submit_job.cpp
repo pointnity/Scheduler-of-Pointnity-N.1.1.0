@@ -61,3 +61,4 @@ int main(int argc, char ** argv) {
     ad.InsertAttr(ATTR_EXE_PATH, "my_loop");
 
     // classad -> string
+    ClassAdUnParser unparser;
