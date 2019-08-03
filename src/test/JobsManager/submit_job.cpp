@@ -67,3 +67,5 @@ int main(int argc, char ** argv) {
     unparser.Unparse(str_ad, &ad);
  
     struct SubmitJobResult result;
+
+    cout << str_ad << endl;
