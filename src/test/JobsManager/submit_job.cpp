@@ -75,3 +75,4 @@ int main(int argc, char ** argv) {
         proxy().SubmitJob(result, str_ad);
     } catch (TException &tx) {
         cout<<"error"<<endl;
+        return -1;
