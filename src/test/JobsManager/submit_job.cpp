@@ -42,3 +42,4 @@ int main(int argc, char ** argv) {
         cout << "Usage is wrong." << endl;
         cout << "Usage is: " << usage << endl;
         cout << "Task_num must be a positive interger." << endl;
+        return -1;
