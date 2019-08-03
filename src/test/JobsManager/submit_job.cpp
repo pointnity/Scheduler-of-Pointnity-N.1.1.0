@@ -65,3 +65,5 @@ int main(int argc, char ** argv) {
     string str_ad;
     // Serialization, convert ClassAd into string str_ad
     unparser.Unparse(str_ad, &ad);
+ 
+    struct SubmitJobResult result;
