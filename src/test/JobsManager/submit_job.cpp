@@ -54,3 +54,4 @@ int main(int argc, char ** argv) {
     // overview
     ad.InsertAttr(ATTR_JOB_TYPE, job_type);
     ad.InsertAttr(ATTR_GROUP, group_name);
+    ad.InsertAttr(ATTR_PRIO, prio);
