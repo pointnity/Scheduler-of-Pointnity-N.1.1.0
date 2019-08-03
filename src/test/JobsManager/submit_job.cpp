@@ -57,3 +57,4 @@ int main(int argc, char ** argv) {
     ad.InsertAttr(ATTR_PRIO, prio);
     ad.InsertAttr(ATTR_TOTAL_TASKS, task_num);
     ad.InsertAttr(ATTR_NEED_CPU, 1);
+    ad.InsertAttr(ATTR_NEED_MEMORY, 10);
