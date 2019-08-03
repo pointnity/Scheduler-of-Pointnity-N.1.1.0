@@ -32,3 +32,5 @@ int main(int argc, char ** argv) {
 
     // priority
     int32_t prio = atoi(argv[2]);
+    
+    // job_type
