@@ -52,3 +52,4 @@ int main(int argc, char ** argv) {
     // build job ClassAd 
     ClassAd ad;
     // overview
+    ad.InsertAttr(ATTR_JOB_TYPE, job_type);
