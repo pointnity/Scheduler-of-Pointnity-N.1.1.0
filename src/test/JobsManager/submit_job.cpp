@@ -69,3 +69,5 @@ int main(int argc, char ** argv) {
     struct SubmitJobResult result;
 
     cout << str_ad << endl;
+
+    try {
