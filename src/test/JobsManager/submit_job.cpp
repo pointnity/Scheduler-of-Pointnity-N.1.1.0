@@ -34,3 +34,4 @@ int main(int argc, char ** argv) {
     int32_t prio = atoi(argv[2]);
     
     // job_type
+    string job_type = argv[3];
