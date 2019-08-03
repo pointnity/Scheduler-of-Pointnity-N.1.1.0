@@ -71,3 +71,4 @@ int main(int argc, char ** argv) {
     cout << str_ad << endl;
 
     try {
+        Proxy<JobsManagerClient> proxy = RpcClient<JobsManagerClient>::GetProxy(endpoint);
