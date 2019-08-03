@@ -31,3 +31,4 @@ int main(int argc, char ** argv) {
     string group_name = "Group " + name;
 
     // priority
+    int32_t prio = atoi(argv[2]);
