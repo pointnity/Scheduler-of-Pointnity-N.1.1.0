@@ -29,3 +29,5 @@ int main(int argc, char ** argv) {
     // group name
     string name = argv[1];
     string group_name = "Group " + name;
+
+    // priority
