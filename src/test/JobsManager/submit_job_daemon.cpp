@@ -34,3 +34,7 @@ string total_result_file = "./total_result";
 int64_t finished_task_num = 0;
 int64_t failed_task_num = 0;
 int64_t task_num = 0;
+
+
+void* TaskResultProcessor(void* unused) {
+    ofstream file_in;
