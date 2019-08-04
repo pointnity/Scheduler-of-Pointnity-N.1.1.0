@@ -43,3 +43,4 @@ void* TaskResultProcessor(void* unused) {
     file_in.close();
     while(true) {
         cout << "job list size:"<<job_id_list.size() << endl;
+	if(job_id_list.size() == 0) {
