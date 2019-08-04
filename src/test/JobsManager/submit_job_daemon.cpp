@@ -65,3 +65,4 @@ void* TaskResultProcessor(void* unused) {
     	        if((*it_task).state == 0 || (*it_task).state == 1 || (*it_task).state == 2) {
 		    // task is running
 		    flag = false;
+		    break;
