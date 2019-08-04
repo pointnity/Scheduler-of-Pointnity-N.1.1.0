@@ -66,3 +66,4 @@ void* TaskResultProcessor(void* unused) {
 		    // task is running
 		    flag = false;
 		    break;
+	        }
