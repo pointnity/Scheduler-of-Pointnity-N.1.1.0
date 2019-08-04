@@ -61,3 +61,4 @@ void* TaskResultProcessor(void* unused) {
 	    if(task_state_info_list.size() == 0) {
 		continue;
 	    } 
+	    for( vector<TaskStateInfo>::iterator it_task = task_state_info_list.begin(); it_task != task_state_info_list.end(); ++it_task) {
