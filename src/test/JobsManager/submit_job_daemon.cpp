@@ -42,3 +42,4 @@ void* TaskResultProcessor(void* unused) {
     file_in << "job number task number status" <<"\n";
     file_in.close();
     while(true) {
+        cout << "job list size:"<<job_id_list.size() << endl;
