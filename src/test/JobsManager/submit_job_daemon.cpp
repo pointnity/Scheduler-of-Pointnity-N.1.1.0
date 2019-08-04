@@ -22,3 +22,6 @@ std::string str((std::istreambuf_iterator<char>(t)),
 #include "include/proxy.h"
 
 using namespace std;
+
+static string usage = "./submit-job-daemon  -job_num -max_waiting_job_num -user -xml_file";
+static int32_t interval = 2;
