@@ -64,3 +64,4 @@ void* TaskResultProcessor(void* unused) {
 	    for( vector<TaskStateInfo>::iterator it_task = task_state_info_list.begin(); it_task != task_state_info_list.end(); ++it_task) {
     	        if((*it_task).state == 0 || (*it_task).state == 1 || (*it_task).state == 2) {
 		    // task is running
+		    flag = false;
