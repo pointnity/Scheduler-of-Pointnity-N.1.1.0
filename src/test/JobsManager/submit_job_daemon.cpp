@@ -60,3 +60,4 @@ void* TaskResultProcessor(void* unused) {
 
 	    if(task_state_info_list.size() == 0) {
 		continue;
+	    } 
