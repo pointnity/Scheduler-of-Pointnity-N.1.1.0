@@ -12,3 +12,4 @@
 #include <streambuf>  
 
 #include <sys/stat.h>
+#include <sys/wait.h>
