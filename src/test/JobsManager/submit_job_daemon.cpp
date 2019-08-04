@@ -69,3 +69,18 @@ void* TaskResultProcessor(void* unused) {
 	        }
 	    }
 		continue;
+	    }
+	    //open result file 
+	    ofstream file_in;
+            file_in.open(result_file.c_str(),ios::out|ios::app);
+
+	    string result;
+	    stringstream job_id_ss;
+	    stringstream task_id_ss;
+	    for( vector<TaskStateInfo>::iterator it_1 = task_state_info_list.begin(); it_1 != task_state_info_list.end(); ++it_1) {
+		job_id_ss.str("");
+		task_id_ss.str("");
+		job_id_ss << (*it_1).job_id;
+		task_id_ss << (*it_1).task_id;
+		if((*it_1).state == 3) {
+		    //task is finished
