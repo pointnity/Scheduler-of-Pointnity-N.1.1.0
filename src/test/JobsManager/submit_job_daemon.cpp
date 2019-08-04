@@ -53,3 +53,4 @@ void* TaskResultProcessor(void* unused) {
 	    bool flag = true;
 	    try {
         	Proxy<JobsManagerClient> proxy = RpcClient<JobsManagerClient>::GetProxy(endpoint);
+        	proxy().GetTaskStateInfo(task_state_info_list, job_id);
