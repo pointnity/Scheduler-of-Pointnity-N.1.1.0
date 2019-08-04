@@ -51,3 +51,4 @@ void* TaskResultProcessor(void* unused) {
 	    int32_t job_id = *it;
 	    vector<TaskStateInfo> task_state_info_list;
 	    bool flag = true;
+	    try {
