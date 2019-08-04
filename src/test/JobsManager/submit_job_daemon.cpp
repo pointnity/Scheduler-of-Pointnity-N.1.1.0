@@ -52,3 +52,4 @@ void* TaskResultProcessor(void* unused) {
 	    vector<TaskStateInfo> task_state_info_list;
 	    bool flag = true;
 	    try {
+        	Proxy<JobsManagerClient> proxy = RpcClient<JobsManagerClient>::GetProxy(endpoint);
