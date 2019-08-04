@@ -39,4 +39,5 @@ int64_t task_num = 0;
 void* TaskResultProcessor(void* unused) {
     ofstream file_in;
     file_in.open(result_file.c_str());
-File_in << "job number task number status" <<"\n";
+    File_in << "job number task number status" <<"\n";
+    file_in.close();
