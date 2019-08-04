@@ -49,3 +49,4 @@ void* TaskResultProcessor(void* unused) {
 	}
 	for(vector<int32_t>::iterator it = job_id_list.begin(); it != job_id_list.end(); ++it) {
 	    int32_t job_id = *it;
+	    vector<TaskStateInfo> task_state_info_list;
