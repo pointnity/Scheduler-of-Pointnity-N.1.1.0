@@ -57,3 +57,5 @@ void* TaskResultProcessor(void* unused) {
     	    } catch (TException &tx) {
         	return NULL;
     	    }
+
+	    if(task_state_info_list.size() == 0) {
