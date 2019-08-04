@@ -56,3 +56,4 @@ void* TaskResultProcessor(void* unused) {
         	proxy().GetTaskStateInfo(task_state_info_list, job_id);
     	    } catch (TException &tx) {
         	return NULL;
+    	    }
