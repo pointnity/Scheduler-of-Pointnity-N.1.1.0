@@ -29,3 +29,4 @@ static string endpoint = "10.128.85.10:9999";
 
 vector<int32_t> job_id_list;
 vector<int32_t> del_job_id_list;
+string result_file = "./result";
