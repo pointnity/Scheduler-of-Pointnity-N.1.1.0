@@ -31,3 +31,4 @@ vector<int32_t> job_id_list;
 vector<int32_t> del_job_id_list;
 string result_file = "./result";
 string total_result_file = "./total_result";
+int64_t finished_task_num = 0;
