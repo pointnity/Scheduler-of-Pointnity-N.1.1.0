@@ -26,3 +26,5 @@ using namespace std;
 static string usage = "./submit-job-daemon  -job_num -max_waiting_job_num -user -xml_file";
 static int32_t interval = 2;
 static string endpoint = "10.128.85.10:9999";   
+
+vector<int32_t> job_id_list;
