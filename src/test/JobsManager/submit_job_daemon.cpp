@@ -46,3 +46,6 @@ void* TaskResultProcessor(void* unused) {
 	if(job_id_list.size() == 0) {
 	    sleep(1);
 	    continue;
+	}
+	for(vector<int32_t>::iterator it = job_id_list.begin(); it != job_id_list.end(); ++it) {
+	    int32_t job_id = *it;
