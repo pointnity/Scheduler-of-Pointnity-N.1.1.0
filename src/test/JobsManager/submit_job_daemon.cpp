@@ -55,3 +55,4 @@ void* TaskResultProcessor(void* unused) {
         	Proxy<JobsManagerClient> proxy = RpcClient<JobsManagerClient>::GetProxy(endpoint);
         	proxy().GetTaskStateInfo(task_state_info_list, job_id);
     	    } catch (TException &tx) {
+        	return NULL;
