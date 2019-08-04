@@ -68,3 +68,4 @@ void* TaskResultProcessor(void* unused) {
 		    break;
 	        }
 	    }
+		continue;
