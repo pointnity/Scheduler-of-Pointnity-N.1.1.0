@@ -129,3 +129,6 @@ void* TaskResultProcessor(void* unused) {
 	sleep(2);
     }
     return NULL;
+} 
+
+int main(int argc, char ** argv) {
