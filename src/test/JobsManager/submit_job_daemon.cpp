@@ -133,3 +133,4 @@ void* TaskResultProcessor(void* unused) {
 
 int main(int argc, char ** argv) {
     if(argc != 5) {
+        cout << "Usage is wrong." << endl;
