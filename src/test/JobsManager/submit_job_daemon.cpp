@@ -176,3 +176,4 @@ int main(int argc, char ** argv) {
                 cout<<"error"<<endl;
                 return -1;
             }
+	    job_id_list.push_back(result.job_id);
