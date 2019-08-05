@@ -147,3 +147,4 @@ int main(int argc, char ** argv) {
     string xml_file = argv[4];
   
     int32_t job_num = 0;
+    //create thread to get task result
