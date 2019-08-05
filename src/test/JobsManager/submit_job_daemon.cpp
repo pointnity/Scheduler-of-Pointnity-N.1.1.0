@@ -126,3 +126,4 @@ void* TaskResultProcessor(void* unused) {
         file_in.open(total_result_file.c_str(),ios::out);
 	file_in << total_result;
 	file_in.close();
+	sleep(2);
