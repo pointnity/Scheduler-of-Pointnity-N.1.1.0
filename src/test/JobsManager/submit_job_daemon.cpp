@@ -169,3 +169,4 @@ int main(int argc, char ** argv) {
 	cout<<"waiting job num:"<<job_num<<endl;
 	if(waiting_job_num < max_waiting_job_num) {
             struct SubmitJobResult result;
+            try {
