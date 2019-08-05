@@ -152,3 +152,4 @@ int main(int argc, char ** argv) {
     //pthread_create(&task_result_t, NULL, TaskResultProcessor, NULL);
 
     ifstream in(xml_file);
+    //open file error ?
