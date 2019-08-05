@@ -144,3 +144,4 @@ int main(int argc, char ** argv) {
     char* ch_ = argv[2];
     int32_t max_waiting_job_num = atoi(ch_);
     string user = argv[3];
+    string xml_file = argv[4];
