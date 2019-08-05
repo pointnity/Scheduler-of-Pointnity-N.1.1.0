@@ -170,3 +170,4 @@ int main(int argc, char ** argv) {
 	if(waiting_job_num < max_waiting_job_num) {
             struct SubmitJobResult result;
             try {
+                Proxy<JobsManagerClient> proxy = RpcClient<JobsManagerClient>::GetProxy(endpoint);
