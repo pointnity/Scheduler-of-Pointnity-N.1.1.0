@@ -140,3 +140,4 @@ int main(int argc, char ** argv) {
     
     // cmd parse
     char* ch = argv[1];
+    int32_t max_job_num = atoi(ch);
