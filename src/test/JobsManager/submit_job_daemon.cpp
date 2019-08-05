@@ -97,3 +97,4 @@ void* TaskResultProcessor(void* unused) {
             } 
 	    file_in.close();
 	    del_job_id_list.push_back(job_id);
+	}
