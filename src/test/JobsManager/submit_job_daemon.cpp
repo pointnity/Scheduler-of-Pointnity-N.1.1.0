@@ -167,3 +167,4 @@ int main(int argc, char ** argv) {
 	Proxy<JobsManagerClient> proxy = RpcClient<JobsManagerClient>::GetProxy(endpoint);
         int32_t waiting_job_num = proxy().GetWaitJobNumByGroupName(user);
 	cout<<"waiting job num:"<<job_num<<endl;
+	if(waiting_job_num < max_waiting_job_num) {
