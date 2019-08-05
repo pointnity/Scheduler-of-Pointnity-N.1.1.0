@@ -181,3 +181,4 @@ int main(int argc, char ** argv) {
         }
 	if(job_num == max_job_num) {
 	    cout<< "job num:" << job_num << endl;
+	    return 0;
