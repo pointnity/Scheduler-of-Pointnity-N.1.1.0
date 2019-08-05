@@ -155,3 +155,4 @@ int main(int argc, char ** argv) {
     //open file error ?
     if(!in){
         cout<< "Failed to open xml file." << endl;
+        return -1;
