@@ -157,3 +157,5 @@ int main(int argc, char ** argv) {
         cout<< "Failed to open xml file." << endl;
         return -1;
     }
+
+    cout<< "max job num:" << max_job_num << endl;
