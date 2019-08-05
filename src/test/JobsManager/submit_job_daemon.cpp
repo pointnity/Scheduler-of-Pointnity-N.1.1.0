@@ -85,3 +85,4 @@ void* TaskResultProcessor(void* unused) {
 		if((*it_1).state == 3) {
 		    //task is finished
 		   result = job_id_ss.str() + "       " + task_id_ss.str() + "      carry out";
+		   finished_task_num += 1;
