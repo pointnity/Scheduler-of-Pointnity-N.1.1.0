@@ -177,3 +177,4 @@ int main(int argc, char ** argv) {
                 return -1;
             }
 	    job_id_list.push_back(result.job_id);
+            job_num ++;
