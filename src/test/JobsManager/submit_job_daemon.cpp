@@ -139,3 +139,4 @@ int main(int argc, char ** argv) {
     }
     
     // cmd parse
+    char* ch = argv[1];
