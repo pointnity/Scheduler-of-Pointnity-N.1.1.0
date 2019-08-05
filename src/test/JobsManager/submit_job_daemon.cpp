@@ -107,3 +107,4 @@ void* TaskResultProcessor(void* unused) {
 	}
 
 	//clear delete job id list
+	del_job_id_list.clear();	
