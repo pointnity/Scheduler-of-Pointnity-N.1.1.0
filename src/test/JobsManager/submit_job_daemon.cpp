@@ -110,3 +110,4 @@ void* TaskResultProcessor(void* unused) {
 	del_job_id_list.clear();	
 
 	//write result to file
+	task_num = finished_task_num + failed_task_num;
