@@ -160,3 +160,6 @@ int main(int argc, char ** argv) {
 
     cout<< "max job num:" << max_job_num << endl;
     cout<< "max waiting job num:" << max_waiting_job_num <<endl;
+
+    string xml_content((istreambuf_iterator<char>(in)),istreambuf_iterator<char>());
+    in.close();
