@@ -174,3 +174,4 @@ int main(int argc, char ** argv) {
                 proxy().SubmitJob(result, xml_content);
             } catch (TException &tx) {
                 cout<<"error"<<endl;
+                return -1;
