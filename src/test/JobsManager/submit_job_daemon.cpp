@@ -88,3 +88,4 @@ void* TaskResultProcessor(void* unused) {
 		   finished_task_num += 1;
 		} else {
 		    //task is failed
+		   result = job_id_ss.str() + "       " + task_id_ss.str() + "       failure";			
