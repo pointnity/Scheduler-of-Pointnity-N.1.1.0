@@ -184,3 +184,6 @@ int main(int argc, char ** argv) {
 	    return 0;
 	}
 	sleep(interval);
+    }
+    return 0;
+}
