@@ -127,3 +127,5 @@ void* TaskResultProcessor(void* unused) {
 	file_in << total_result;
 	file_in.close();
 	sleep(2);
+    }
+    return NULL;
