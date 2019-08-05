@@ -149,3 +149,4 @@ int main(int argc, char ** argv) {
     int32_t job_num = 0;
     //create thread to get task result
     //pthread_t task_result_t;
+    //pthread_create(&task_result_t, NULL, TaskResultProcessor, NULL);
