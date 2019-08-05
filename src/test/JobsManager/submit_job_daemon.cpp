@@ -111,3 +111,4 @@ void* TaskResultProcessor(void* unused) {
 
 	//write result to file
 	task_num = finished_task_num + failed_task_num;
+	stringstream task_num_ss;
