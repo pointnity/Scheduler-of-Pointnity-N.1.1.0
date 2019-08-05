@@ -93,3 +93,4 @@ void* TaskResultProcessor(void* unused) {
 		}
 		cout << "result:" << result << endl;
                 file_in << result <<"\n";
+		result = "";
