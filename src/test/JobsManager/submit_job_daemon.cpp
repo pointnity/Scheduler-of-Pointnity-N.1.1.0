@@ -100,3 +100,4 @@ void* TaskResultProcessor(void* unused) {
 	}
 
 	for(vector<int32_t>::iterator it = del_job_id_list.begin(); it != del_job_id_list.end(); ++it) {
+	    vector<int32_t>::iterator iter = find(job_id_list.begin(), job_id_list.end(), *it);
