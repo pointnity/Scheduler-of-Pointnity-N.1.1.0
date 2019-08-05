@@ -118,3 +118,4 @@ void* TaskResultProcessor(void* unused) {
         finished_task_num_ss << finished_task_num;
 
 	stringstream failed_task_num_ss;
+        failed_task_num_ss << failed_task_num;
