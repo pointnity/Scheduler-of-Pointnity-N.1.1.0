@@ -91,3 +91,4 @@ void* TaskResultProcessor(void* unused) {
 		   result = job_id_ss.str() + "       " + task_id_ss.str() + "       failure";			
 		   failed_task_num += 1;
 		}
+		cout << "result:" << result << endl;
