@@ -115,3 +115,4 @@ void* TaskResultProcessor(void* unused) {
         task_num_ss << task_num;
 
 	stringstream finished_task_num_ss;
+        finished_task_num_ss << finished_task_num;
