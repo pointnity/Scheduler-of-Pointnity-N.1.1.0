@@ -142,3 +142,4 @@ int main(int argc, char ** argv) {
     char* ch = argv[1];
     int32_t max_job_num = atoi(ch);
     char* ch_ = argv[2];
+    int32_t max_waiting_job_num = atoi(ch_);
