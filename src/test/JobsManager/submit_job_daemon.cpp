@@ -92,3 +92,4 @@ void* TaskResultProcessor(void* unused) {
 		   failed_task_num += 1;
 		}
 		cout << "result:" << result << endl;
+                file_in << result <<"\n";
