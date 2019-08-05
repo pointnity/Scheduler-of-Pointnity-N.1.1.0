@@ -153,3 +153,4 @@ int main(int argc, char ** argv) {
 
     ifstream in(xml_file);
     //open file error ?
+    if(!in){
