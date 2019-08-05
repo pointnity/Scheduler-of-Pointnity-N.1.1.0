@@ -119,3 +119,6 @@ void* TaskResultProcessor(void* unused) {
 
 	stringstream failed_task_num_ss;
         failed_task_num_ss << failed_task_num;
+
+	string total_result = "Task_num: " + task_num_ss.str() + "\nFinished task num: " + finished_task_num_ss.str() 
+	       + "\nFaile task num: " + failed_task_num_ss.str();
