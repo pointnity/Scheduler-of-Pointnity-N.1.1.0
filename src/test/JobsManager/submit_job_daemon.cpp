@@ -179,3 +179,4 @@ int main(int argc, char ** argv) {
 	    job_id_list.push_back(result.job_id);
             job_num ++;
         }
+	if(job_num == max_job_num) {
