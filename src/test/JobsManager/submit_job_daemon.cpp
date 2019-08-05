@@ -95,3 +95,4 @@ void* TaskResultProcessor(void* unused) {
                 file_in << result <<"\n";
 		result = "";
             } 
+	    file_in.close();
