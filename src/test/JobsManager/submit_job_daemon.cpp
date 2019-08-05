@@ -98,3 +98,5 @@ void* TaskResultProcessor(void* unused) {
 	    file_in.close();
 	    del_job_id_list.push_back(job_id);
 	}
+
+	for(vector<int32_t>::iterator it = del_job_id_list.begin(); it != del_job_id_list.end(); ++it) {
