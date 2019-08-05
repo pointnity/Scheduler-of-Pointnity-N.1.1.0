@@ -164,3 +164,4 @@ int main(int argc, char ** argv) {
     string xml_content((istreambuf_iterator<char>(in)),istreambuf_iterator<char>());
     in.close();
     while(true) {
+	Proxy<JobsManagerClient> proxy = RpcClient<JobsManagerClient>::GetProxy(endpoint);
