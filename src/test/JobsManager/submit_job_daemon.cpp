@@ -124,3 +124,4 @@ void* TaskResultProcessor(void* unused) {
 	       + "\nFaile task num: " + failed_task_num_ss.str();
 	ofstream file_in;
         file_in.open(total_result_file.c_str(),ios::out);
+	file_in << total_result;
