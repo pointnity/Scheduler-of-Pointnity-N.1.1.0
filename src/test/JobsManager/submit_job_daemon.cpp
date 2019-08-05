@@ -150,3 +150,5 @@ int main(int argc, char ** argv) {
     //create thread to get task result
     //pthread_t task_result_t;
     //pthread_create(&task_result_t, NULL, TaskResultProcessor, NULL);
+
+    ifstream in(xml_file);
