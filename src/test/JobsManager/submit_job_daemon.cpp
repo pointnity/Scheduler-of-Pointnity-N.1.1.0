@@ -103,3 +103,7 @@ void* TaskResultProcessor(void* unused) {
 	    vector<int32_t>::iterator iter = find(job_id_list.begin(), job_id_list.end(), *it);
 	    if(iter != job_id_list.end()) {
 		job_id_list.erase(iter);
+	    }
+	}
+
+	//clear delete job id list
