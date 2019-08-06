@@ -43,3 +43,4 @@ int main(int argc, char ** argv) {
     struct SubmitJobResult result;
  
     try {
+        Proxy<JobsManagerClient> proxy = RpcClient<JobsManagerClient>::GetProxy(endpoint);
