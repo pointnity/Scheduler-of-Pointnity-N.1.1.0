@@ -19,3 +19,5 @@
 using namespace std;
 
 static string usage = "./submit-job xml_file";
+
+int main(int argc, char ** argv) {
