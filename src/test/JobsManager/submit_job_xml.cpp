@@ -31,3 +31,4 @@ int main(int argc, char ** argv) {
     string xml_file = argv[1];
 
     ifstream in(xml_file);
+    string xml_content((istreambuf_iterator<char>(in)),istreambuf_iterator<char>());
