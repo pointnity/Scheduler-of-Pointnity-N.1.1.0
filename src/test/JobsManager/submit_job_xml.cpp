@@ -17,3 +17,5 @@
 #include "include/proxy.h"
 
 using namespace std;
+
+static string usage = "./submit-job xml_file";
