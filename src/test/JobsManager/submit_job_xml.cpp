@@ -29,3 +29,5 @@ int main(int argc, char ** argv) {
     
     // xml_file
     string xml_file = argv[1];
+
+    ifstream in(xml_file);
