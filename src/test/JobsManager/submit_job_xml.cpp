@@ -35,3 +35,5 @@ int main(int argc, char ** argv) {
     in.close();
 
     cout << xml_content << endl;
+
+    string endpoint = "127.0.0.1:9999";   // general
