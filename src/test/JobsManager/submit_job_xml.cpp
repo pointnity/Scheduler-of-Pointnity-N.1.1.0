@@ -8,3 +8,5 @@
 #include <string>
 #include <fstream>  
 #include <streambuf>  
+      
+    std::ifstream t("file.txt");  
