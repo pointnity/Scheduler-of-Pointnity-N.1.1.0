@@ -33,3 +33,5 @@ int main(int argc, char ** argv) {
     ifstream in(xml_file);
     string xml_content((istreambuf_iterator<char>(in)),istreambuf_iterator<char>());
     in.close();
+
+    cout << xml_content << endl;
