@@ -14,3 +14,4 @@
                      std::istreambuf_iterator<char>());  
 
 #include "common/clynn/rpc.h"
+#include "include/proxy.h"
