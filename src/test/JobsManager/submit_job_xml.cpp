@@ -44,3 +44,4 @@ int main(int argc, char ** argv) {
  
     try {
         Proxy<JobsManagerClient> proxy = RpcClient<JobsManagerClient>::GetProxy(endpoint);
+        proxy().SubmitJob(result, xml_content);
