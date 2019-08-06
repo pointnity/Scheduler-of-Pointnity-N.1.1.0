@@ -23,3 +23,4 @@ static string usage = "./submit-job xml_file";
 int main(int argc, char ** argv) {
     if(argc != 2) {
         cout << "Usage is wrong." << endl;
+        cout << "Usage is: " << usage << endl;
