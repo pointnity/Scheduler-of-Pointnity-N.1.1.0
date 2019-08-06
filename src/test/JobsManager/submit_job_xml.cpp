@@ -41,3 +41,5 @@ int main(int argc, char ** argv) {
     // string endpoint = "192.168.120.88:9999"; // iie
 
     struct SubmitJobResult result;
+ 
+    try {
