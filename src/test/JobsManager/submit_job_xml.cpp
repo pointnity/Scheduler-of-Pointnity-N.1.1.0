@@ -37,3 +37,4 @@ int main(int argc, char ** argv) {
     cout << xml_content << endl;
 
     string endpoint = "127.0.0.1:9999";   // general
+    // string endpoint = "192.168.10.80:9999"; // hy
