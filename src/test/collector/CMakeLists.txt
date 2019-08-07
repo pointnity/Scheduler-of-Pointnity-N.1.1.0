@@ -20,3 +20,4 @@ SET(COLLECTOR_THRIFT_SOURCE
     ${THRIFT_SOURCE_PREFIX}/collector/gen-cpp/collector_types.cpp
     ${THRIFT_SOURCE_PREFIX}/collector/gen-cpp/Collector.h
     ${THRIFT_SOURCE_PREFIX}/collector/gen-cpp/Collector.cpp)
+ADD_CUSTOM_COMMAND (
