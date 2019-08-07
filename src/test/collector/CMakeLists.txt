@@ -45,3 +45,5 @@ ADD_CUSTOM_COMMAND (
 SET (SUBMIT_JOB
      ${SCHEDULER_THRIFT_SOURCE}
      submit_job.cpp)
+
+ADD_EXECUTABLE(submit-job ${SUBMIT_JOB})
