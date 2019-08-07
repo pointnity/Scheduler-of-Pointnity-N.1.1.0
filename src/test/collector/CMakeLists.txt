@@ -42,3 +42,4 @@ ADD_CUSTOM_COMMAND (
 )
 
 #### submit job ####
+SET (SUBMIT_JOB
