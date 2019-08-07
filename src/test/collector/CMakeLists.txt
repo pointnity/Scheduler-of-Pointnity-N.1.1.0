@@ -16,3 +16,4 @@ ADD_CUSTOM_COMMAND (
 SET(COLLECTOR_THRIFT_SOURCE
     ${THRIFT_SOURCE_PREFIX}/collector/gen-cpp/collector_constants.h
     ${THRIFT_SOURCE_PREFIX}/collector/gen-cpp/collector_constants.cpp
+    ${THRIFT_SOURCE_PREFIX}/collector/gen-cpp/collector_types.h
