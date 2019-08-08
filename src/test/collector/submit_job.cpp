@@ -18,3 +18,5 @@
 using namespace std;
 
 static string usage = "./submit-job job_type task_num";
+
+int main(int argc, char ** argv) {
