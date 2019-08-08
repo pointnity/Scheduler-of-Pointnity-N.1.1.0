@@ -46,3 +46,4 @@ int main(int argc, char ** argv) {
     ClassAd ad;
     // overview
     ad.InsertAttr(ATTR_JOB_TYPE, job_type);
+    ad.InsertAttr(ATTR_GROUP, "abc");
