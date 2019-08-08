@@ -62,3 +62,4 @@ int main(int argc, char ** argv) {
     cout << str_ad << endl;
  
     try {
+        Proxy<CollectorClient> proxy = RpcClient<CollectorClient>::GetProxy(endpoint);
