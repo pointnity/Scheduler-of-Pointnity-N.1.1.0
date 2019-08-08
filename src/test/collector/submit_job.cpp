@@ -37,3 +37,5 @@ int main(int argc, char ** argv) {
         cout << "Task_num must be a positive interger." << endl;
         return -1;
     }
+
+    cout << "submit job, job_type:" << job_type << ", task_num:" << task_num << endl;
