@@ -22,3 +22,4 @@ static string usage = "./submit-job job_type task_num";
 int main(int argc, char ** argv) {
     if(argc != 3) {
         cout << "Usage is wrong." << endl;
+        cout << "Usage is: " << usage << endl;
