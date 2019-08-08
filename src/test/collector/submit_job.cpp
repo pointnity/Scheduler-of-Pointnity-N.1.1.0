@@ -39,3 +39,4 @@ int main(int argc, char ** argv) {
     }
 
     cout << "submit job, job_type:" << job_type << ", task_num:" << task_num << endl;
+    string endpoint = "192.168.10.187:9999"; // hy
