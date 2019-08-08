@@ -51,3 +51,5 @@ int main(int argc, char ** argv) {
     ad.InsertAttr(ATTR_NEED_CPU, 1);
     ad.InsertAttr(ATTR_NEED_MEMORY, 10);
     ad.InsertAttr(ATTR_EXE_PATH, "my_loop");
+
+    // classad -> string
