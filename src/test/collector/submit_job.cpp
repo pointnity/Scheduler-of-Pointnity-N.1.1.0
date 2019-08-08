@@ -63,3 +63,4 @@ int main(int argc, char ** argv) {
  
     try {
         Proxy<CollectorClient> proxy = RpcClient<CollectorClient>::GetProxy(endpoint);
+        proxy().SubmitJob(result, str_ad);
