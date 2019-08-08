@@ -55,3 +55,4 @@ int main(int argc, char ** argv) {
     // classad -> string
     ClassAdUnParser unparser;
     string str_ad;
+    // Serialization, convert ClassAd into string str_ad
