@@ -14,3 +14,5 @@
 #include "common/clynn/rpc.h"
 #include "include/proxy.h"
 #include "include/classad_attr.h"
+
+using namespace std;
