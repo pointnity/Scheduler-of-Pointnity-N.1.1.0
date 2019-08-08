@@ -30,3 +30,4 @@ int main(int argc, char ** argv) {
     string job_type = argv[1];
 
     // task_num 
+    int32_t task_num = atoi(argv[2]);
