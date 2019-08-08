@@ -16,3 +16,5 @@
 #include "include/classad_attr.h"
 
 using namespace std;
+
+static string usage = "./submit-job job_type task_num";
