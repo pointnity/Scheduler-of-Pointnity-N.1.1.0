@@ -83,3 +83,4 @@ TARGET_LINK_LIBRARIES(kill-task thrift)
 #     stop_task.cpp)
 
 #ADD_EXECUTABLE(stop-task ${STOP_TASK})
+#TARGET_LINK_LIBRARIES(stop-task thrift)
