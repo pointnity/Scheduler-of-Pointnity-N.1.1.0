@@ -1,1 +1,2 @@
 #ADD_SUBDIRECTORY(test_rpc_server)
+SET(THRIFT_SOURCE_PREFIX ${CMAKE_SOURCE_DIR}/src/proxy)
