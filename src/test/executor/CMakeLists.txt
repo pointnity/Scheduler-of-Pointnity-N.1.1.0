@@ -53,3 +53,4 @@ ADD_CUSTOM_COMMAND (
 #ADD_EXECUTABLE(system_test system_test.cpp ../../executor/system.cpp)
 #ADD_EXECUTABLE(container_test container_test.cpp ../../slave/container.cpp
 #                              ${COMMON_SOURCE} ../../slave/config.cpp
+#                              ../../slave/system.cpp 
