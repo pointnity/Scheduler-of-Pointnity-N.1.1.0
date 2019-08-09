@@ -68,3 +68,4 @@ SET (START_TASK
 
 ADD_EXECUTABLE(start-task ${START_TASK})
 TARGET_LINK_LIBRARIES(start-task thrift)
+TARGET_LINK_LIBRARIES(start-task classad)
