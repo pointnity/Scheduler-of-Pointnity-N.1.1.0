@@ -50,3 +50,4 @@ ADD_CUSTOM_COMMAND (
 
 
 # test
+#ADD_EXECUTABLE(system_test system_test.cpp ../../executor/system.cpp)
