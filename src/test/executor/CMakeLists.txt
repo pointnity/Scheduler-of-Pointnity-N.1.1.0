@@ -75,3 +75,5 @@ TARGET_LINK_LIBRARIES(start-task classad)
 SET (KILL_TASK
      ${EXECUTOR_THRIFT_SOURCE}
      kill_task.cpp)
+
+ADD_EXECUTABLE(kill-task ${KILL_TASK})
