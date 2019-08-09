@@ -67,3 +67,4 @@ SET (START_TASK
      start_task.cpp)
 
 ADD_EXECUTABLE(start-task ${START_TASK})
+TARGET_LINK_LIBRARIES(start-task thrift)
