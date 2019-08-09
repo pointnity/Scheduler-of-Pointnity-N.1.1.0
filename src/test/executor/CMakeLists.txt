@@ -77,3 +77,4 @@ SET (KILL_TASK
      kill_task.cpp)
 
 ADD_EXECUTABLE(kill-task ${KILL_TASK})
+TARGET_LINK_LIBRARIES(kill-task thrift)
