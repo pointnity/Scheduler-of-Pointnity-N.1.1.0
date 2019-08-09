@@ -62,3 +62,4 @@ ADD_CUSTOM_COMMAND (
 #ENDFOREACH(t ${TEST_EXECUTOR})
 
 #### start task ####
+SET (START_TASK
