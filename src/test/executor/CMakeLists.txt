@@ -57,3 +57,4 @@ ADD_CUSTOM_COMMAND (
 #                              ../../slave/message_manager.cpp)
 #FOREACH(t ${TEST_EXECUTOR})
 #    TARGET_LINK_LIBRARIES(${t} pthread)
+#    TARGET_LINK_LIBRARIES(${t} log4cplus)
