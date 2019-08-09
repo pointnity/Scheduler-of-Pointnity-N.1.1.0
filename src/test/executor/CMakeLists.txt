@@ -80,3 +80,4 @@ ADD_EXECUTABLE(kill-task ${KILL_TASK})
 TARGET_LINK_LIBRARIES(kill-task thrift)
 #SET (STOP_TASK
 #     ${EXECUTOR_THRIFT_SOURCE}
+#     stop_task.cpp)
