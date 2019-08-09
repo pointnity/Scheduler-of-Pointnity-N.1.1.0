@@ -60,3 +60,5 @@ ADD_CUSTOM_COMMAND (
 #    TARGET_LINK_LIBRARIES(${t} log4cplus)
 #    TARGET_LINK_LIBRARIES(${t} gtest)
 #ENDFOREACH(t ${TEST_EXECUTOR})
+
+#### start task ####
