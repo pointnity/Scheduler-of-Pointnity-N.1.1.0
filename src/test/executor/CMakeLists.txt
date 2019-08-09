@@ -55,3 +55,4 @@ ADD_CUSTOM_COMMAND (
 #                              ${COMMON_SOURCE} ../../slave/config.cpp
 #                              ../../slave/system.cpp 
 #                              ../../slave/message_manager.cpp)
+#FOREACH(t ${TEST_EXECUTOR})
