@@ -46,3 +46,4 @@ ADD_CUSTOM_COMMAND (
 
 #SET (TEST_EXECUTOR
 #     system_test)
+     #container_test)
