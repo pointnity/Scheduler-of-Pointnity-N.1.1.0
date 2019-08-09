@@ -65,3 +65,5 @@ ADD_CUSTOM_COMMAND (
 SET (START_TASK
      ${EXECUTOR_THRIFT_SOURCE}
      start_task.cpp)
+
+ADD_EXECUTABLE(start-task ${START_TASK})
