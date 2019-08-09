@@ -63,3 +63,4 @@ ADD_CUSTOM_COMMAND (
 
 #### start task ####
 SET (START_TASK
+     ${EXECUTOR_THRIFT_SOURCE}
