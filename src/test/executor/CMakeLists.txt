@@ -54,3 +54,4 @@ ADD_CUSTOM_COMMAND (
 #ADD_EXECUTABLE(container_test container_test.cpp ../../slave/container.cpp
 #                              ${COMMON_SOURCE} ../../slave/config.cpp
 #                              ../../slave/system.cpp 
+#                              ../../slave/message_manager.cpp)
