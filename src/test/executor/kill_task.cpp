@@ -55,3 +55,4 @@ int main(int argc, char ** argv) {
     } catch (TException &tx) {
         cout<<"error"<<endl;
         return -1;
+    }
