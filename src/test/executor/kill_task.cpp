@@ -15,3 +15,4 @@ static string usage = "./kill_task job_id task_id";
 
 int main(int argc, char ** argv) {
     if(argc != 3) {
+        cout << "Usage is wrong." << endl;
