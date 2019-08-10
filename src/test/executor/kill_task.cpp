@@ -50,3 +50,4 @@ int main(int argc, char ** argv) {
     task_info.need_memory = 500;*/
 
     try {
+        Proxy<ExecutorClient> proxy = Rpc<ExecutorClient, ExecutorClient>::GetProxy(endpoint);
