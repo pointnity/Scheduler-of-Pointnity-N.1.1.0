@@ -51,3 +51,4 @@ int main(int argc, char ** argv) {
 
     try {
         Proxy<ExecutorClient> proxy = Rpc<ExecutorClient, ExecutorClient>::GetProxy(endpoint);
+        proxy().KillTask(job_id, task_id);
