@@ -24,3 +24,4 @@ int main(int argc, char ** argv) {
     int32_t job_id = atoi(argv[1]);
     if (job_id <= 0) {
         cout << "Usage is wrong." << endl;
+        cout << "Usage is: " << usage << endl;
