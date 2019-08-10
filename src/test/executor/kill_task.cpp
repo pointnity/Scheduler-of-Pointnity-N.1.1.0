@@ -4,3 +4,5 @@
 
 #include <classad/classad.h>
 #include <classad/classad_distribution.h>
+
+#include "common/clynn/rpc.h"
