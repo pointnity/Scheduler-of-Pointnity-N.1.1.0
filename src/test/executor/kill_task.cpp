@@ -25,3 +25,4 @@ int main(int argc, char ** argv) {
     if (job_id <= 0) {
         cout << "Usage is wrong." << endl;
         cout << "Usage is: " << usage << endl;
+        return -1;
