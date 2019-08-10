@@ -10,3 +10,5 @@
 #include "include/classad_attr.h"
 
 using namespace std;
+
+static string usage = "./kill_task job_id task_id";
