@@ -35,3 +35,5 @@ int main(int argc, char ** argv) {
         cout << "Usage is: " << usage << endl;
         return -1;
     }
+
+    cout << "kill task, job_id:" << job_id << ", task_id:"<< task_id << endl;
