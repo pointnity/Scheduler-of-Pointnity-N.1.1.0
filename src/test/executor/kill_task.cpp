@@ -6,3 +6,4 @@
 #include <classad/classad_distribution.h>
 
 #include "common/clynn/rpc.h"
+#include "include/proxy.h"
