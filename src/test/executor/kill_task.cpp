@@ -41,3 +41,4 @@ int main(int argc, char ** argv) {
 
 
     // build a task
+    /*TaskInfo task_info;
