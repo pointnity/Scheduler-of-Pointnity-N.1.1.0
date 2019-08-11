@@ -114,3 +114,5 @@ int main(int argc, char ** argv) {
     task_info.need_memory = 500;*/
 
     cout << str_ad << endl;
+ 
+    try {
