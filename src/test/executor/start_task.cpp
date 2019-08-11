@@ -67,3 +67,4 @@ int main(int argc, char ** argv) {
     // string endpoint = "192.168.120.88:9999"; // iie
     string endpoint = "10.138.80.66:9997";
     // build task    
+    ClassAd ad;
