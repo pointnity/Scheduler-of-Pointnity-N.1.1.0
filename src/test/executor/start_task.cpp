@@ -45,3 +45,4 @@ int main(int argc, char ** argv) {
     }
 
     // vm type
+    string vm_type = argv[4];
