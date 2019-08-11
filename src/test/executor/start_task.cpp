@@ -73,3 +73,4 @@ int main(int argc, char ** argv) {
     ad.InsertAttr(ATTR_TASK_ID, task_id);
     ad.InsertAttr(ATTR_VMTYPE, vm_t);
     ad.InsertAttr(ATTR_IS_RUN, true);
+    ad.InsertAttr(ATTR_USER, "common");
