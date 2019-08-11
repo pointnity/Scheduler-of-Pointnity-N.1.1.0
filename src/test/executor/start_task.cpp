@@ -94,3 +94,4 @@ int main(int argc, char ** argv) {
     // ad.InsertAttr(ATTR_INSTALL_DIR, "/usr/bin/");
     ad.InsertAttr(ATTR_EXE_PATH, "getURL");
     // ad.InsertAttr(ATTR_EXE_PATH, "a");
+    // ad.InsertAttr(ATTR_ARGUMENT, "-a -b -c");
