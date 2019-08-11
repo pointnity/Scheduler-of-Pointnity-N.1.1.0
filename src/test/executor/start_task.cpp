@@ -59,3 +59,4 @@ int main(int argc, char ** argv) {
         vm_t = 2;
         is_run = true;
     } else {
+        cout << "No the VM Type '" << vm_type << "'." << endl;
