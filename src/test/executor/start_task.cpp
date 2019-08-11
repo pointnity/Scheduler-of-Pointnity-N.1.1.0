@@ -109,3 +109,4 @@ int main(int argc, char ** argv) {
     task_info.framework_name = "Hadoop1.0.4";
     task_info.id = task_id;
     task_info.cmd = "bash";
+    task_info.arguments = "/home/wm/work/hadoop/hadoop-1.0.4/bin/hadoop --config /home/wm/work/hadoop/hadoop-1.0.4/conf tasktracker";
