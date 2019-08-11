@@ -31,3 +31,4 @@ int main(int argc, char ** argv) {
     // task id
     int32_t task_id = atoi(argv[2]);
     if (task_id <= 0) {    
+        cout << "Usage is wrong." << endl;
