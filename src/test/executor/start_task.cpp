@@ -56,3 +56,4 @@ int main(int argc, char ** argv) {
         vm_t = 1;
         is_run = false; 
     } else if ("LXC" == vm_type) {
+        vm_t = 2;
