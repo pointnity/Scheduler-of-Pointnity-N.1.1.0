@@ -60,3 +60,6 @@ int main(int argc, char ** argv) {
         is_run = true;
     } else {
         cout << "No the VM Type '" << vm_type << "'." << endl;
+    }
+    
+    cout << "start task, job_id:" << job_id << ", task_id:" << task_id << endl;
