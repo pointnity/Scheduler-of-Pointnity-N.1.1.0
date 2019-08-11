@@ -116,3 +116,4 @@ int main(int argc, char ** argv) {
     cout << str_ad << endl;
  
     try {
+        Proxy<ExecutorClient> proxy = RpcClient<ExecutorClient>::GetProxy(endpoint);
