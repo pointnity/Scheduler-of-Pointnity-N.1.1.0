@@ -32,3 +32,4 @@ int main(int argc, char ** argv) {
     int32_t task_id = atoi(argv[2]);
     if (task_id <= 0) {    
         cout << "Usage is wrong." << endl;
+        cout << "Usage is: " << usage << endl;
