@@ -80,3 +80,4 @@ int main(int argc, char ** argv) {
     ad.InsertAttr(ATTR_VCPU, 1);
     ad.InsertAttr(ATTR_IP, "192.168.10.163");
     ad.InsertAttr(ATTR_PORT, 9991);
+    ad.InsertAttr(ATTR_OS, "ubuntu");
