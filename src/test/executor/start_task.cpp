@@ -63,3 +63,4 @@ int main(int argc, char ** argv) {
     }
     
     cout << "start task, job_id:" << job_id << ", task_id:" << task_id << endl;
+    //string endpoint = "192.168.11.51:9997"; // hy
