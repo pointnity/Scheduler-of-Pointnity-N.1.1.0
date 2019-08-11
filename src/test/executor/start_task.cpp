@@ -78,3 +78,4 @@ int main(int argc, char ** argv) {
     // vm info
     ad.InsertAttr(ATTR_MEMORY, 1024);
     ad.InsertAttr(ATTR_VCPU, 1);
+    ad.InsertAttr(ATTR_IP, "192.168.10.163");
