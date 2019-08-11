@@ -41,3 +41,4 @@ int main(int argc, char ** argv) {
     if (vnc_port < 0) {
         cout << "Usage is wrong." << endl;
         cout << "Usage is: " << usage << endl;
+        return -1;
