@@ -88,3 +88,4 @@ int main(int argc, char ** argv) {
     ad.InsertAttr(ATTR_RPC_RUNNING, false);
     // app info
     ad.InsertAttr(ATTR_APP_ID, 1);
+    ad.InsertAttr(ATTR_APP_NAME, "getURL");
