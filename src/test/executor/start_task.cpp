@@ -112,3 +112,5 @@ int main(int argc, char ** argv) {
     task_info.arguments = "/home/wm/work/hadoop/hadoop-1.0.4/bin/hadoop --config /home/wm/work/hadoop/hadoop-1.0.4/conf tasktracker";
     task_info.need_cpu = 0.5;
     task_info.need_memory = 500;*/
+
+    cout << str_ad << endl;
