@@ -91,3 +91,4 @@ int main(int argc, char ** argv) {
     ad.InsertAttr(ATTR_APP_NAME, "getURL");
     // ad.InsertAttr(ATTR_APP_SRC_PATH, "/user/root/");
     // ad.InsertAttr(ATTR_APP_OUT_DIR, "");
+    // ad.InsertAttr(ATTR_INSTALL_DIR, "/usr/bin/");
