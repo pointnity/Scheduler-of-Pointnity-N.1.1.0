@@ -71,3 +71,4 @@ int main(int argc, char ** argv) {
     // overview
     ad.InsertAttr(ATTR_JOB_ID, job_id);
     ad.InsertAttr(ATTR_TASK_ID, task_id);
+    ad.InsertAttr(ATTR_VMTYPE, vm_t);
