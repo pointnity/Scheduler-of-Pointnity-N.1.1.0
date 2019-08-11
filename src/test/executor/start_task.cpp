@@ -76,3 +76,4 @@ int main(int argc, char ** argv) {
     ad.InsertAttr(ATTR_USER, "common");
 
     // vm info
+    ad.InsertAttr(ATTR_MEMORY, 1024);
