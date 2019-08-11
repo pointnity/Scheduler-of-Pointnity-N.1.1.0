@@ -70,3 +70,4 @@ int main(int argc, char ** argv) {
     ClassAd ad;
     // overview
     ad.InsertAttr(ATTR_JOB_ID, job_id);
+    ad.InsertAttr(ATTR_TASK_ID, task_id);
