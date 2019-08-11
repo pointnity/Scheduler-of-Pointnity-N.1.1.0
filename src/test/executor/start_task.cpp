@@ -17,3 +17,4 @@ int main(int argc, char ** argv) {
     if(argc != 5) {
         cout << "Usage is wrong." << endl;
         cout << "Usage is: " << usage << endl;
+        return -1;
