@@ -118,3 +118,4 @@ int main(int argc, char ** argv) {
     try {
         Proxy<ExecutorClient> proxy = RpcClient<ExecutorClient>::GetProxy(endpoint);
         proxy().StartTask(str_ad);
+    } catch (TException &tx) {
