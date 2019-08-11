@@ -48,3 +48,4 @@ int main(int argc, char ** argv) {
     string vm_type = argv[4];
     int32_t vm_t = 0;
     bool is_run = false;
+    if ("" == vm_type) {
