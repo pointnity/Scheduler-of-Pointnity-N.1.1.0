@@ -40,3 +40,4 @@ int main(int argc, char ** argv) {
     int32_t vnc_port = atoi(argv[3]);
     if (vnc_port < 0) {
         cout << "Usage is wrong." << endl;
+        cout << "Usage is: " << usage << endl;
