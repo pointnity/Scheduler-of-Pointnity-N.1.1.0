@@ -77,3 +77,4 @@ int main(int argc, char ** argv) {
 
     // vm info
     ad.InsertAttr(ATTR_MEMORY, 1024);
+    ad.InsertAttr(ATTR_VCPU, 1);
