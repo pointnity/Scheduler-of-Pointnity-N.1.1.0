@@ -69,3 +69,4 @@ int main(int argc, char ** argv) {
     // build task    
     ClassAd ad;
     // overview
+    ad.InsertAttr(ATTR_JOB_ID, job_id);
