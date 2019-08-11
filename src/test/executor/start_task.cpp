@@ -83,3 +83,4 @@ int main(int argc, char ** argv) {
     ad.InsertAttr(ATTR_OS, "ubuntu");
     ad.InsertAttr(ATTR_Image, "ubuntu.qcow2");
     ad.InsertAttr(ATTR_SIZE, 10);
+    ad.InsertAttr(ATTR_SIZE, 10);
