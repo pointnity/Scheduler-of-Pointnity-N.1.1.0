@@ -37,3 +37,4 @@ int main(int argc, char ** argv) {
     }
 
     // vnc port
+    int32_t vnc_port = atoi(argv[3]);
