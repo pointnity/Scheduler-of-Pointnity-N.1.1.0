@@ -84,3 +84,4 @@ int main(int argc, char ** argv) {
     ad.InsertAttr(ATTR_Image, "ubuntu.qcow2");
     ad.InsertAttr(ATTR_SIZE, 10);
     ad.InsertAttr(ATTR_ISO, "");
+    ad.InsertAttr(ATTR_VNC_PORT, vnc_port);
