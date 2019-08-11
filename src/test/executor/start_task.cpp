@@ -97,3 +97,5 @@ int main(int argc, char ** argv) {
     // ad.InsertAttr(ATTR_ARGUMENT, "-a -b -c");
     // ad.InsertAttr(ATTR_STOP_PATH, "killall a");
     // ad.InsertAttr(ATTR_OUT_DIR, "");
+
+    // classad -> string
