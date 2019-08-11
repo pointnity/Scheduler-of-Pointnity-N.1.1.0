@@ -100,3 +100,4 @@ int main(int argc, char ** argv) {
 
     // classad -> string
     ClassAdUnParser unparser;
+    string str_ad;
