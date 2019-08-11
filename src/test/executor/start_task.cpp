@@ -49,3 +49,4 @@ int main(int argc, char ** argv) {
     int32_t vm_t = 0;
     bool is_run = false;
     if ("" == vm_type) {
+        cout << "Usage is wrong." << endl;
