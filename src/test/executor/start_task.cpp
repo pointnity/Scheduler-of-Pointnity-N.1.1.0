@@ -50,3 +50,4 @@ int main(int argc, char ** argv) {
     bool is_run = false;
     if ("" == vm_type) {
         cout << "Usage is wrong." << endl;
+        cout << "Usage is: " << usage << endl;
