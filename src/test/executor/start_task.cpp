@@ -53,3 +53,4 @@ int main(int argc, char ** argv) {
         cout << "Usage is: " << usage << endl;
         return -1;
     } else if ("KVM" == vm_type) {
+        vm_t = 1;
