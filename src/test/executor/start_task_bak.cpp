@@ -23,3 +23,4 @@ int main(int argc, char ** argv)
         cout << "Usage is wrong." << endl;
         cout << "Usage is: " << usage << endl;
         return -1;
+    }
