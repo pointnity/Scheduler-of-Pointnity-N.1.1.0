@@ -21,3 +21,4 @@ int main(int argc, char ** argv)
     if (task_id <= 0)
     {    
         cout << "Usage is wrong." << endl;
+        cout << "Usage is: " << usage << endl;
