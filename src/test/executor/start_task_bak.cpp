@@ -43,3 +43,4 @@ int main(int argc, char ** argv)
         proxy().Hello("abc");
         proxy().StartTask(task_info);
     }
+    catch (TException &tx)
