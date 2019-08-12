@@ -17,3 +17,4 @@ int main(int argc, char ** argv)
         cout << "Usage is: " << usage << endl;
         return -1;
     }
+    uint64_t task_id = atoi(argv[1]);
