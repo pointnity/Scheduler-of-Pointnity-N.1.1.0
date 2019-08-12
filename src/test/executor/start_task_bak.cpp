@@ -39,3 +39,4 @@ int main(int argc, char ** argv)
 
     try
     {
+        Proxy<SlaveClient> proxy = Rpc<SlaveClient, SlaveClient>::GetProxy(endpoint);
