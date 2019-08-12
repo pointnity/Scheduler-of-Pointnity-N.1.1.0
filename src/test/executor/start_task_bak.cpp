@@ -42,3 +42,4 @@ int main(int argc, char ** argv)
         Proxy<SlaveClient> proxy = Rpc<SlaveClient, SlaveClient>::GetProxy(endpoint);
         proxy().Hello("abc");
         proxy().StartTask(task_info);
+    }
