@@ -6,3 +6,5 @@
 #include "include/proxy.h"
 
 using namespace std;
+
+static string usage = "./start_task task_id";
