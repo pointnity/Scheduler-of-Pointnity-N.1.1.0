@@ -30,3 +30,4 @@ int main(int argc, char ** argv)
 
     // build a task
     TaskInfo task_info;
+    task_info.framework_name = "Hadoop1.0.4";
