@@ -20,3 +20,4 @@ int main(int argc, char ** argv)
     uint64_t task_id = atoi(argv[1]);
     if (task_id <= 0)
     {    
+        cout << "Usage is wrong." << endl;
