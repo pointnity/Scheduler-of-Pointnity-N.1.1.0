@@ -4,3 +4,5 @@
 
 #include "common/clynn/rpc.h"
 #include "include/proxy.h"
+
+using namespace std;
