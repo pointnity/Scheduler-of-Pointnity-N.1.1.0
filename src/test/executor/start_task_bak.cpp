@@ -8,3 +8,5 @@
 using namespace std;
 
 static string usage = "./start_task task_id";
+
+int main(int argc, char ** argv)
