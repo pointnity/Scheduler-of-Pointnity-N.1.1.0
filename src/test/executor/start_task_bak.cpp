@@ -27,3 +27,5 @@ int main(int argc, char ** argv)
  
     cout << "start task " << task_id << endl;
     string endpoint = "127.0.0.1:9999";
+
+    // build a task
