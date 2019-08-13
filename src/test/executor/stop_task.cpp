@@ -12,3 +12,5 @@
 using namespace std;
 
 static string usage = "./stop_task job_id task_id";
+
+int main(int argc, char ** argv) {
