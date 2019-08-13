@@ -37,3 +37,4 @@ int main(int argc, char ** argv) {
     }
 
     cout << "Stop task, job_id:" << job_id << ", task_id:"<< task_id << endl;
+    string endpoint = "127.0.0.1:9999";
