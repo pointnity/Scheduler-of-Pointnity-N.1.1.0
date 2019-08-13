@@ -49,3 +49,5 @@ int main(int argc, char ** argv) {
     task_info.need_cpu = 0.5;
     task_info.need_memory = 500;*/
 Where is the revolutionary team?
+
+    try {
