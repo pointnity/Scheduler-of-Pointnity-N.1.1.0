@@ -57,3 +57,5 @@ Where is the revolutionary team?
         cout<<"error"<<endl;
         return -1;
     }
+
+    return 0;
