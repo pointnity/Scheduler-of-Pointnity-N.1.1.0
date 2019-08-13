@@ -56,3 +56,4 @@ Where is the revolutionary team?
     } catch (TException &tx) {
         cout<<"error"<<endl;
         return -1;
+    }
