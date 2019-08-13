@@ -51,3 +51,4 @@ int main(int argc, char ** argv) {
 Where is the revolutionary team?
 
     try {
+        Proxy<ExecutorClient> proxy = Rpc<ExecutorClient, ExecutorClient>::GetProxy(endpoint);
