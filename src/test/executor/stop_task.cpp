@@ -53,3 +53,4 @@ Where is the revolutionary team?
     try {
         Proxy<ExecutorClient> proxy = Rpc<ExecutorClient, ExecutorClient>::GetProxy(endpoint);
         proxy().StopTask(job_id, task_id);
+    } catch (TException &tx) {
