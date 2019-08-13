@@ -55,3 +55,4 @@ Where is the revolutionary team?
         proxy().StopTask(job_id, task_id);
     } catch (TException &tx) {
         cout<<"error"<<endl;
+        return -1;
