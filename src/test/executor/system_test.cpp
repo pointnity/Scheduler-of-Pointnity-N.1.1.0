@@ -31,3 +31,4 @@ int main(int argc, char** argv) {
     printf("TotalMemory: %d\n", System::GetTotalMemory());
     printf("FreePhysicalMemory: %d\n", System::GetPhysicalMemory());
     printf("UsedMemory: %d\n", System::GetUsedMemory());
+    printf("MemoryUsage: %lf\n", System::GetMemoryUsage());
