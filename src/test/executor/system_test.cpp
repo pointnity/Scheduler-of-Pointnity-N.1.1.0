@@ -18,3 +18,4 @@ int main(int argc, char** argv) {
     // load
     printf("LoadAvginOne: %lf\n", System::GetLoadAvginOne());
     printf("LoadAvginFive: %lf\n", System::GetLoadAvginFive());
+    printf("LoadAvginFifteen: %lf\n", System::GetLoadAvginFifteen());
