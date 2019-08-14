@@ -41,3 +41,4 @@ int main(int argc, char** argv) {
     System::GetNetFlowinBytes(interface.c_str(), in ,out);
     printf("IN: %d, OUT: %d\n", in , out);
     System::GetNetFlowinbits(interface.c_str(), in ,out);
+    printf("IN: %d, OUT: %d\n", in , out);
