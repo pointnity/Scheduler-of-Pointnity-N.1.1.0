@@ -26,3 +26,5 @@ int main(int argc, char** argv) {
     printf("CpuUsage: %lf\n", System::GetCpuUsage());
     sleep(1);
     printf("CpuUsage: %lf\n", System::GetCpuUsage());
+
+    // Memory
