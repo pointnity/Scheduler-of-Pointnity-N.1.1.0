@@ -19,3 +19,5 @@ int main(int argc, char** argv) {
     printf("LoadAvginOne: %lf\n", System::GetLoadAvginOne());
     printf("LoadAvginFive: %lf\n", System::GetLoadAvginFive());
     printf("LoadAvginFifteen: %lf\n", System::GetLoadAvginFifteen());
+
+    // cpu
