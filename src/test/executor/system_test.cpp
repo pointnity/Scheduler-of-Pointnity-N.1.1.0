@@ -55,3 +55,5 @@ int main(int argc, char** argv) {
     cout << System::GetOSVersion() << endl;
 
     System::RemoveDir("/tmp/cellos");
+ 
+    char* curTime;
