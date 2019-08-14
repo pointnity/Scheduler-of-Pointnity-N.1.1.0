@@ -53,3 +53,5 @@ int main(int argc, char** argv) {
  
     // others
     cout << System::GetOSVersion() << endl;
+
+    System::RemoveDir("/tmp/cellos");
