@@ -36,3 +36,4 @@ int main(int argc, char** argv) {
     printf("SwapFreeMemory: %d\n", System::GetSwapFreeMemory());
    
     // net flow
+    string interface = "eth0";
