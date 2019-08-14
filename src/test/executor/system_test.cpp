@@ -30,3 +30,4 @@ int main(int argc, char** argv) {
     // Memory
     printf("TotalMemory: %d\n", System::GetTotalMemory());
     printf("FreePhysicalMemory: %d\n", System::GetPhysicalMemory());
+    printf("UsedMemory: %d\n", System::GetUsedMemory());
