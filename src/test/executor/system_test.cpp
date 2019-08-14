@@ -17,3 +17,4 @@ int main(int argc, char** argv) {
     //tesing::InitGoogleTest(&argc, argv);
     // load
     printf("LoadAvginOne: %lf\n", System::GetLoadAvginOne());
+    printf("LoadAvginFive: %lf\n", System::GetLoadAvginFive());
