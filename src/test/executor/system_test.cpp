@@ -47,3 +47,4 @@ int main(int argc, char** argv) {
     cout << "NICType: " << System::GetNICType(interface.c_str()) << endl;
 
     // disk
+    printf("TotalDisk: %d\n", System::GetTotalDisk());
