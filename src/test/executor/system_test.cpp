@@ -28,3 +28,4 @@ int main(int argc, char** argv) {
     printf("CpuUsage: %lf\n", System::GetCpuUsage());
 
     // Memory
+    printf("TotalMemory: %d\n", System::GetTotalMemory());
