@@ -45,3 +45,5 @@ int main(int argc, char** argv) {
     printf("Bandwidth: %dMb/s\n", System::GetBandWidth(interface.c_str()));
     cout << "NICType: " << System::GetNICType(interface.c_str()) << endl;
     cout << "NICType: " << System::GetNICType(interface.c_str()) << endl;
+
+    // disk
