@@ -38,3 +38,4 @@ int main(int argc, char** argv) {
     // net flow
     string interface = "eth0";
     int32_t in, out;
+    System::GetNetFlowinBytes(interface.c_str(), in ,out);
