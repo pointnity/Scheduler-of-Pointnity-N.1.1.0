@@ -48,3 +48,4 @@ int main(int argc, char** argv) {
 
     // disk
     printf("TotalDisk: %d\n", System::GetTotalDisk());
+    printf("UsedDisk: %d\n", System::GetUsedDisk());
