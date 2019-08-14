@@ -61,3 +61,6 @@ int main(int argc, char** argv) {
     System::GetCurrentTime(curTime, 30);
     printf("GetCurTime: %s\n", curTime);
     delete []curTime;
+
+    return 0;
+}
