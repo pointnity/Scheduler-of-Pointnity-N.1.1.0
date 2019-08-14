@@ -42,3 +42,4 @@ int main(int argc, char** argv) {
     printf("IN: %d, OUT: %d\n", in , out);
     System::GetNetFlowinbits(interface.c_str(), in ,out);
     printf("IN: %d, OUT: %d\n", in , out);
+    printf("Bandwidth: %dMb/s\n", System::GetBandWidth(interface.c_str()));
