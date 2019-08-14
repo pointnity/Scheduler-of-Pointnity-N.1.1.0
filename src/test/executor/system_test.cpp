@@ -21,3 +21,4 @@ int main(int argc, char** argv) {
     printf("LoadAvginFifteen: %lf\n", System::GetLoadAvginFifteen());
 
     // cpu
+    printf("CpuNum: %d\n", System::GetCpuNum());
