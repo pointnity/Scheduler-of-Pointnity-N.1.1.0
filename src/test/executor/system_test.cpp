@@ -57,3 +57,4 @@ int main(int argc, char** argv) {
     System::RemoveDir("/tmp/cellos");
  
     char* curTime;
+    curTime = new char[30];
