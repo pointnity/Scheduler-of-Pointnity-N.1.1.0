@@ -23,3 +23,4 @@ int main(int argc, char** argv) {
     // cpu
     printf("CpuNum: %d\n", System::GetCpuNum());
     printf("CpuTime: %ld\n", System::GetCpuTime());
+    printf("CpuUsage: %lf\n", System::GetCpuUsage());
