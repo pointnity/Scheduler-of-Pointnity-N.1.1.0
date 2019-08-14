@@ -52,3 +52,4 @@ int main(int argc, char** argv) {
     printf("DiskUsage: %f\n", System::GetDiskUsage());
  
     // others
+    cout << System::GetOSVersion() << endl;
