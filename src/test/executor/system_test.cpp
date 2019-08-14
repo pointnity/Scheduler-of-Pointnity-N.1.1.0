@@ -40,3 +40,4 @@ int main(int argc, char** argv) {
     int32_t in, out;
     System::GetNetFlowinBytes(interface.c_str(), in ,out);
     printf("IN: %d, OUT: %d\n", in , out);
+    System::GetNetFlowinbits(interface.c_str(), in ,out);
