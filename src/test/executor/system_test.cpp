@@ -34,3 +34,5 @@ int main(int argc, char** argv) {
     printf("MemoryUsage: %lf\n", System::GetMemoryUsage());
     printf("SwapTotalMemory: %d\n", System::GetSwapTotalMemory());
     printf("SwapFreeMemory: %d\n", System::GetSwapFreeMemory());
+   
+    // net flow
