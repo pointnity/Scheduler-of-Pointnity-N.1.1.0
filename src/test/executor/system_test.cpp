@@ -58,3 +58,4 @@ int main(int argc, char** argv) {
  
     char* curTime;
     curTime = new char[30];
+    System::GetCurrentTime(curTime, 30);
