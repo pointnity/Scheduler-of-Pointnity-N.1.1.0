@@ -25,3 +25,4 @@ int main(int argc, char** argv) {
     printf("CpuTime: %ld\n", System::GetCpuTime());
     printf("CpuUsage: %lf\n", System::GetCpuUsage());
     sleep(1);
+    printf("CpuUsage: %lf\n", System::GetCpuUsage());
