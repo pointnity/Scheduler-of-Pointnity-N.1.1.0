@@ -6,3 +6,4 @@ SET(TEST_THRIFT_SOURCE
     ${THRIFT_SOURCE_PREFIX}/test/gen-cpp/test_types.h
     ${THRIFT_SOURCE_PREFIX}/test/gen-cpp/test_types.cpp
     ${THRIFT_SOURCE_PREFIX}/test/gen-cpp/Test.h
+    ${THRIFT_SOURCE_PREFIX}/test/gen-cpp/Test.cpp)
