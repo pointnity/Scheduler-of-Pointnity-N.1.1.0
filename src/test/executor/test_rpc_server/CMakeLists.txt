@@ -12,3 +12,5 @@ ADD_CUSTOM_COMMAND (
     COMMAND thrift --gen cpp -r -o ${CMAKE_SOURCE_DIR}/src/proxy/test
     ${CMAKE_SOURCE_DIR}/src/proxy/test/test.thrift
 )
+
+SET(SRC 
