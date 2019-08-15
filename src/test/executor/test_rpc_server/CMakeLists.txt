@@ -19,3 +19,5 @@ SET(SRC
     test.cpp)
 
 ADD_EXECUTABLE(test_server ${SRC})
+
+TARGET_LINK_LIBRARIES(test_server thrift)
