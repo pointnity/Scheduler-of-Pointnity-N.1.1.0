@@ -18,3 +18,4 @@ int main(int argc, char ** argv) {
         proxy().Helloworld();
     } catch (TException &tx) {
         cout<<"error"<<endl;
+        return -1;
