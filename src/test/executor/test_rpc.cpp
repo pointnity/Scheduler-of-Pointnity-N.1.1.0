@@ -14,3 +14,4 @@ using namespace std;
 int main(int argc, char ** argv) {
     string endpoint = "10.138.80.66:9997";
     try {
+        Proxy<TestClient> proxy = RpcClient<TestClient>::GetProxy(endpoint);
