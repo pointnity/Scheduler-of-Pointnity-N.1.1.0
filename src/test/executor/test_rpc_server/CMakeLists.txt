@@ -1,3 +1,4 @@
 SET(THRIFT_SOURCE_PREFIX ${CMAKE_SOURCE_DIR}/src/proxy)
 
 SET(TEST_THRIFT_SOURCE
+    ${THRIFT_SOURCE_PREFIX}/test/gen-cpp/test_constants.h
