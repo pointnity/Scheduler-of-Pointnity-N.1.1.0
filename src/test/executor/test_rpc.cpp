@@ -17,3 +17,4 @@ int main(int argc, char ** argv) {
         Proxy<TestClient> proxy = RpcClient<TestClient>::GetProxy(endpoint);
         proxy().Helloworld();
     } catch (TException &tx) {
+        cout<<"error"<<endl;
