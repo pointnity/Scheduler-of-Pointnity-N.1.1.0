@@ -16,3 +16,4 @@ int main(int argc, char ** argv) {
     try {
         Proxy<TestClient> proxy = RpcClient<TestClient>::GetProxy(endpoint);
         proxy().Helloworld();
+    } catch (TException &tx) {
