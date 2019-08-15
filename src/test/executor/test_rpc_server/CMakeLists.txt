@@ -17,3 +17,5 @@ SET(SRC
     ${TEST_THRIFT_SOURCE}
     service.cpp
     test.cpp)
+
+ADD_EXECUTABLE(test_server ${SRC})
