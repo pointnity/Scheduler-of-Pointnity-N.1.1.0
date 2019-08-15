@@ -26,3 +26,5 @@ TARGET_LINK_LIBRARIES(test_server classad)
 #TARGET_LINK_LIBRARIES(test gtest)
 #TARGET_LINK_LIBRARIES(test boost_thread-mt)
 #TARGET_LINK_LIBRARIES(test zookeeper_mt)
+
+INSTALL(TARGETS test_server RUNTIME DESTINATION test_server)
