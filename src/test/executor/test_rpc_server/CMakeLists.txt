@@ -9,3 +9,4 @@ SET(TEST_THRIFT_SOURCE
     ${THRIFT_SOURCE_PREFIX}/test/gen-cpp/Test.cpp)
 ADD_CUSTOM_COMMAND (
     OUTPUT ${TEST_THRIFT_SOURCE}
+    COMMAND thrift --gen cpp -r -o ${CMAKE_SOURCE_DIR}/src/proxy/test
