@@ -11,3 +11,4 @@ ADD_CUSTOM_COMMAND (
     OUTPUT ${TEST_THRIFT_SOURCE}
     COMMAND thrift --gen cpp -r -o ${CMAKE_SOURCE_DIR}/src/proxy/test
     ${CMAKE_SOURCE_DIR}/src/proxy/test/test.thrift
+)
