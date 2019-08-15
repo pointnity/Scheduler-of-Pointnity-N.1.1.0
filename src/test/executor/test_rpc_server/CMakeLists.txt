@@ -15,3 +15,4 @@ ADD_CUSTOM_COMMAND (
 
 SET(SRC 
     ${TEST_THRIFT_SOURCE}
+    service.cpp
