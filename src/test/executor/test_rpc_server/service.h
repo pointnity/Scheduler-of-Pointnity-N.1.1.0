@@ -14,3 +14,5 @@ using std::string;
 class TestService : public TestIf {
 public:
     int32_t  Helloworld();
+
+};
