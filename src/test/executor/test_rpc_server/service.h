@@ -12,3 +12,4 @@
 using std::string;
 
 class TestService : public TestIf {
+public:
