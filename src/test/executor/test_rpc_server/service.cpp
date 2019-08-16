@@ -14,3 +14,4 @@
 int32_t TestService::Helloworld() {
     printf("Hello world\n");
     return 0;
+}
