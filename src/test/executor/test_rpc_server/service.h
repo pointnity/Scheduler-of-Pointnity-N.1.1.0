@@ -10,3 +10,5 @@
 #include "include/proxy.h"
 
 using std::string;
+
+class TestService : public TestIf {
