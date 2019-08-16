@@ -12,3 +12,4 @@
 
 // test, hello world
 int32_t TestService::Helloworld() {
+    printf("Hello world\n");
