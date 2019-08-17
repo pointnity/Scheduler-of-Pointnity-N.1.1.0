@@ -39,3 +39,4 @@ int main(int argc, char **argv) {
     /* while(true) {
         int32_t status;
         int32_t pid = fork();
+        if (pid != 0) {
