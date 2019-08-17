@@ -10,3 +10,5 @@
 #include <unistd.h>
 #include "common/clynn/rpc.h"
 #include "service.h"
+
+using std::string;
