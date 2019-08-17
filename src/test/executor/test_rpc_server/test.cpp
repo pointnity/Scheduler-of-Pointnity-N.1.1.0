@@ -9,3 +9,4 @@
 #include <sys/wait.h>
 #include <unistd.h>
 #include "common/clynn/rpc.h"
+#include "service.h"
