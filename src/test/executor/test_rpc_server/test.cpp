@@ -8,3 +8,4 @@
 #include <sys/stat.h>
 #include <sys/wait.h>
 #include <unistd.h>
+#include "common/clynn/rpc.h"
