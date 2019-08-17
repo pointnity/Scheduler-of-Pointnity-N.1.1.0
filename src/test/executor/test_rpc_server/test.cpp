@@ -25,3 +25,4 @@ int ExecutorEntity(int argc, char **argv) {
     //Rpc<ExecutorService, ExecutorProcessor>::Listen(port);
 
     return EXIT_SUCCESS;
+}
