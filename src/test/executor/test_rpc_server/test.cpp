@@ -19,3 +19,4 @@ using std::auto_ptr;
 
 // executor
 int ExecutorEntity(int argc, char **argv) {
+    int port = 9997; 
