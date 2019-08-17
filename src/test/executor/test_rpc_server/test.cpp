@@ -18,3 +18,4 @@ using std::auto_ptr;
 
 
 // executor
+int ExecutorEntity(int argc, char **argv) {
