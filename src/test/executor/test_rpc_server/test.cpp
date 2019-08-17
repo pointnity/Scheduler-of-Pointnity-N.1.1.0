@@ -12,3 +12,4 @@
 #include "service.h"
 
 using std::string;
+using std::cout;
