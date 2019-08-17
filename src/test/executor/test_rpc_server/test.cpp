@@ -46,3 +46,4 @@ int main(int argc, char **argv) {
             }
         } else {
             // child process
+            ExecutorEntity(argc, argv);
