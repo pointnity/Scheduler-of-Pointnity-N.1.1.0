@@ -19,3 +19,4 @@
  "GET /media/mjs/table.js HTTP/1.1" 404 2250
  "GET /media/mjs/rrd.js HTTP/1.1" 404 2244
  "GET /job_add/ HTTP/1.1" 200 3287
+ "GET /media/css/basic.css HTTP/1.1" 404 2253
