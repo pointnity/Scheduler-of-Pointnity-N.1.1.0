@@ -6,3 +6,4 @@ import sys
 from service.demo import DemoThread
 
 if __name__ == "__main__":
+    DemoThread()
