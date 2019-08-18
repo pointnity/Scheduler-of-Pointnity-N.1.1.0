@@ -1,2 +1,4 @@
 /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
   DeprecationWarning)
+
+[21/May/2014 16:00:18] "GET /task_state_info_list HTTP/1.1" 200 2743
