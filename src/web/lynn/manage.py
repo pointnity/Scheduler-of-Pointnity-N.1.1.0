@@ -4,3 +4,5 @@ import sys
 
 #for monitor daemon
 from service.demo import DemoThread
+
+if __name__ == "__main__":
