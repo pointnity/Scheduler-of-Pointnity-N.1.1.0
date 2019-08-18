@@ -21,3 +21,4 @@
  "GET /job_add/ HTTP/1.1" 200 3287
  "GET /media/css/basic.css HTTP/1.1" 404 2253
  "GET /media/js/jquery-1.4.2.min.js HTTP/1.1" 404 2280
+ "GET /task_state_info_list HTTP/1.1" 200 2743
