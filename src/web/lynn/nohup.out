@@ -105,3 +105,4 @@
  "GET /media/mjs/rrd.js HTTP/1.1" 404 2244
  "GET /media/mjs/rrd.js HTTP/1.1" 404 2244
  "GET /task_state_info_list HTTP/1.1" 200 5719
+ "GET /media/css/basic.css HTTP/1.1" 404 2253
