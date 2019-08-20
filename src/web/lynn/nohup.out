@@ -193,3 +193,4 @@ machine_ip='10.156.80.66'), TaskStateInfo(state='\xe5\xae\x8c\xe6\x88\x90', rest
 [TaskStateInfo(state='\xe5\xae\x8c\xe6\x88\x90', restart_times=0, job_id=0, task_id=0, machine_ip='10.156.80.66'), TaskStateInfo(state='\xe5\xae\x8c\xe6\x88\x90', restart_times=0, job_id=0, task_id=1, machine_ip='10.156.80.67'), TaskStateInfo(state='\xe5\xae\x8c\xe6\x88\x90', restart_times=0, job_id=0, t[21/May/2014 16:19:14] "GET /task_state_info_list HTTP/1.1" 200 14647
  "GET /media/css/basic.css HTTP/1.1" 404 2253
  "GET /media/js/jquery-1.4.2.min.js HTTP/1.1" 404 2280
+ "GET /media/mjs/table.js HTTP/1.1" 404 2250
