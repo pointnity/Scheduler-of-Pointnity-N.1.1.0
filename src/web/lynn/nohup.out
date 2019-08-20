@@ -152,3 +152,4 @@ te='\xe5\xae\x8c\xe6\x88\x90', restart_times=0, job_id=1, task_id=3, machine_ip=
  "GET /media/js/jquery-1.4.2.min.js HTTP/1.1" 404 2280
  "GET /media/mjs/table.js HTTP/1.1" 404 2250
  "GET /media/mjs/rrd.js HTTP/1.1" 404 2244
+ "GET /media/mjs/rrd.js HTTP/1.1" 404 2244
