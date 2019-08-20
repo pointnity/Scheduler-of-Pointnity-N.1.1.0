@@ -145,3 +145,4 @@ Quit the server with CONTROL-C.
  "GET /media/js/jquery-1.4.2.min.js HTTP/1.1" 404 2280
  "GET /media/mjs/table.js HTTP/1.1" 404 2250
  "GET /media/mjs/rrd.js HTTP/1.1" 404 2244
+ "GET /media/mjs/rrd.js HTTP/1.1" 404 2244
