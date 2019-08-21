@@ -58,3 +58,4 @@ Traceback (most recent call last):
 TypeError: coercing to Unicode: need string or buffer, int found
 225 ERROR Internal Server Error: /job_add/
 Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 115, in get_response
