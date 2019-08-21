@@ -46,3 +46,4 @@ Traceback (most recent call last):
     s = string.replace(s, "T_TIME", timeout)
   File "/usr/lib/python2.7/string.py", line 519, in replace
     return s.replace(old, new, maxreplace)
+TypeError: coercing to Unicode: need string or buffer, int found
