@@ -74,4 +74,4 @@ Traceback (most recent call last):
   File "/usr/lib/python2.7/string.py", line 519, in replace
     return s.replace(old, new, maxreplace)
 TypeError: coercing to Unicode: need string or buffer, int found
-2014-05-21 17:01:09,215 ERROR Internal Server Error: /job_add/
+215 ERROR Internal Server Error: /job_add/
