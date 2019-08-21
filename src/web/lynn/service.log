@@ -23,3 +23,6 @@ Traceback (most recent call last):
   File "/home/yes/yesw/git/lynn-2.0.0/src/web/lynn/service/views.py", line 70, in job_add
     timeout = form.cleaned_date["timeout"]
 AttributeError: 'JobSubmit' object has no attribute 'cleaned_date'
+934 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
