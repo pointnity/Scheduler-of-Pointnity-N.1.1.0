@@ -83,3 +83,5 @@ Traceback (most recent call last):
   File "/usr/lib/python2.7/string.py", line 519, in replace
     return s.replace(old, new, maxreplace)
 TypeError: coercing to Unicode: need string or buffer, int found
+066 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
