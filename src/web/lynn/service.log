@@ -11,3 +11,5 @@
 
 774 ERROR Internal Server Error: /job_add/
 Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
