@@ -44,3 +44,4 @@ Traceback (most recent call last):
     response = callback(request, *callback_args, **callback_kwargs)
   File "/home/yes/yesw/git/lynn-2.0.0/src/web/lynn/service/views.py", line 85, in job_add
     s = string.replace(s, "T_TIME", timeout)
+  File "/usr/lib/python2.7/string.py", line 519, in replace
