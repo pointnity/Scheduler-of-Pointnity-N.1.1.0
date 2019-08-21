@@ -22,3 +22,4 @@ Traceback (most recent call last):
     response = callback(request, *callback_args, **callback_kwargs)
   File "/home/yes/yesw/git/lynn-2.0.0/src/web/lynn/service/views.py", line 70, in job_add
     timeout = form.cleaned_date["timeout"]
+AttributeError: 'JobSubmit' object has no attribute 'cleaned_date'
