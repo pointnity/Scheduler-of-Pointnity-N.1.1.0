@@ -69,3 +69,4 @@ TypeError: coercing to Unicode: need string or buffer, int found
 Traceback (most recent call last):
   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 115, in get_response
     response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/yes/yesw/git/lynn-2.0.0/src/web/lynn/service/views.py", line 85, in job_add
