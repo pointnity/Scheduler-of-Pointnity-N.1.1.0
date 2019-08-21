@@ -72,3 +72,4 @@ Traceback (most recent call last):
   File "/home/yes/yesw/git/lynn-2.0.0/src/web/lynn/service/views.py", line 85, in job_add
     str(timeout)
   File "/usr/lib/python2.7/string.py", line 519, in replace
+    return s.replace(old, new, maxreplace)
