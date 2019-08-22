@@ -89,7 +89,8 @@ TypeError: coercing to Unicode: need string or buffer, int found
 066 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
   DeprecationWarning)
 
-2014-05-21 17:01:22,107 ERROR Internal Server Error: /job_add/
+
+107 ERROR Internal Server Error: /job_add/
 Traceback (most recent call last):
   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 115, in get_response
     response = callback(request, *callback_args, **callback_kwargs)
@@ -98,7 +99,7 @@ Traceback (most recent call last):
   File "/usr/lib/python2.7/string.py", line 519, in replace
     return s.replace(old, new, maxreplace)
 TypeError: coercing to Unicode: need string or buffer, int found
-2014-05-21 17:01:22,107 ERROR Internal Server Error: /job_add/
+107 ERROR Internal Server Error: /job_add/
 Traceback (most recent call last):
   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 115, in get_response
     response = callback(request, *callback_args, **callback_kwargs)
@@ -107,7 +108,7 @@ Traceback (most recent call last):
   File "/usr/lib/python2.7/string.py", line 519, in replace
     return s.replace(old, new, maxreplace)
 TypeError: coercing to Unicode: need string or buffer, int found
-2014-05-21 17:04:00,286 ERROR Internal Server Error: /job_add/
+286 ERROR Internal Server Error: /job_add/
 Traceback (most recent call last):
   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 115, in get_response
     response = callback(request, *callback_args, **callback_kwargs)
@@ -116,7 +117,7 @@ Traceback (most recent call last):
   File "/usr/lib/python2.7/string.py", line 519, in replace
     return s.replace(old, new, maxreplace)
 TypeError: coercing to Unicode: need string or buffer, int found
-2014-05-21 17:04:00,286 ERROR Internal Server Error: /job_add/
+286 ERROR Internal Server Error: /job_add/
 Traceback (most recent call last):
   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 115, in get_response
     response = callback(request, *callback_args, **callback_kwargs)
@@ -125,30 +126,30 @@ Traceback (most recent call last):
   File "/usr/lib/python2.7/string.py", line 519, in replace
     return s.replace(old, new, maxreplace)
 TypeError: coercing to Unicode: need string or buffer, int found
-2014-05-21 17:14:32,183 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+183 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
   DeprecationWarning)
 
-2014-05-21 17:14:32,183 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+183 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
   DeprecationWarning)
 
-2014-05-21 17:14:32,222 ERROR Internal Server Error: /job_add/
+222 ERROR Internal Server Error: /job_add/
 Traceback (most recent call last):
   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 115, in get_response
     response = callback(request, *callback_args, **callback_kwargs)
   File "/home/yes/yesw/git/lynn-2.0.0/src/web/lynn/service/views.py", line 111, in job_add
     return HttpResponse("haha")
 NameError: global name 'HttpResponse' is not defined
-2014-05-21 17:14:32,222 ERROR Internal Server Error: /job_add/
+222 ERROR Internal Server Error: /job_add/
 Traceback (most recent call last):
   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 115, in get_response
     response = callback(request, *callback_args, **callback_kwargs)
   File "/home/yes/yesw/git/lynn-2.0.0/src/web/lynn/service/views.py", line 111, in job_add
     return HttpResponse("haha")
 NameError: global name 'HttpResponse' is not defined
-2014-05-21 19:42:26,085 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+085 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
   DeprecationWarning)
 
-2014-05-21 19:42:26,085 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+085 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
   DeprecationWarning)
 
 2014-05-21 19:43:13,011 ERROR Could not connect to 10.128.85.10:9999
