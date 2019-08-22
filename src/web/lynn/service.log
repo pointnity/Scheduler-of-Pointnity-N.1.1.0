@@ -274,7 +274,7 @@ NameError: global name 'HttpResponse' is not defined
 2014-05-21 20:02:45,171 ERROR Could not connect to 10.128.85.10:9999
 2014-05-21 20:02:45,171 ERROR Could not connect to 10.128.85.10:9999
 2014-05-21 20:02:45,171 ERROR set task info error
-2014-05-21 20:02:45,171 ERROR set task info error
+171 ERROR set task info error
 027 ERROR Could not connect to 10.128.85.10:9999
 027 ERROR Could not connect to 10.128.85.10:9999
 027 ERROR set task info error
