@@ -175,38 +175,38 @@ NameError: global name 'HttpResponse' is not defined
 155 ERROR Could not connect to 10.128.85.10:9999
 155 ERROR Could not connect to 10.128.85.10:9999
 155 ERROR set task info error
-2014-05-21 19:45:51,155 ERROR set task info error
-2014-05-21 19:47:07,443 ERROR Could not connect to 10.128.85.10:9999
-2014-05-21 19:47:07,443 ERROR Could not connect to 10.128.85.10:9999
-2014-05-21 19:47:07,443 ERROR set task info error
-2014-05-21 19:47:07,443 ERROR set task info error
-2014-05-21 19:47:09,299 ERROR Could not connect to 10.128.85.10:9999
-2014-05-21 19:47:09,299 ERROR Could not connect to 10.128.85.10:9999
-2014-05-21 19:47:09,299 ERROR set task info error
-2014-05-21 19:47:09,299 ERROR set task info error
-2014-05-21 19:48:25,587 ERROR Could not connect to 10.128.85.10:9999
-2014-05-21 19:48:25,587 ERROR Could not connect to 10.128.85.10:9999
-2014-05-21 19:48:25,587 ERROR set task info error
-2014-05-21 19:48:25,587 ERROR set task info error
-2014-05-21 19:48:27,443 ERROR Could not connect to 10.128.85.10:9999
-2014-05-21 19:48:27,443 ERROR Could not connect to 10.128.85.10:9999
-2014-05-21 19:48:27,443 ERROR set task info error
-2014-05-21 19:48:27,443 ERROR set task info error
-2014-05-21 19:49:43,731 ERROR Could not connect to 10.128.85.10:9999
-2014-05-21 19:49:43,731 ERROR Could not connect to 10.128.85.10:9999
-2014-05-21 19:49:43,731 ERROR set task info error
-2014-05-21 19:49:43,731 ERROR set task info error
-2014-05-21 19:49:45,587 ERROR Could not connect to 10.128.85.10:9999
-2014-05-21 19:49:45,587 ERROR Could not connect to 10.128.85.10:9999
-2014-05-21 19:49:45,587 ERROR set task info error
-2014-05-21 19:49:45,587 ERROR set task info error
-2014-05-21 19:51:01,875 ERROR Could not connect to 10.128.85.10:9999
-2014-05-21 19:51:01,875 ERROR Could not connect to 10.128.85.10:9999
-2014-05-21 19:51:01,875 ERROR set task info error
-2014-05-21 19:51:01,875 ERROR set task info error
-2014-05-21 19:51:03,731 ERROR Could not connect to 10.128.85.10:9999
-2014-05-21 19:51:03,731 ERROR Could not connect to 10.128.85.10:9999
-2014-05-21 19:51:03,731 ERROR set task info error
+155 ERROR set task info error
+443 ERROR Could not connect to 10.128.85.10:9999
+443 ERROR Could not connect to 10.128.85.10:9999
+443 ERROR set task info error
+443 ERROR set task info error
+299 ERROR Could not connect to 10.128.85.10:9999
+299 ERROR Could not connect to 10.128.85.10:9999
+299 ERROR set task info error
+299 ERROR set task info error
+587 ERROR Could not connect to 10.128.85.10:9999
+587 ERROR Could not connect to 10.128.85.10:9999
+587 ERROR set task info error
+587 ERROR set task info error
+443 ERROR Could not connect to 10.128.85.10:9999
+443 ERROR Could not connect to 10.128.85.10:9999
+443 ERROR set task info error
+443 ERROR set task info error
+731 ERROR Could not connect to 10.128.85.10:9999
+731 ERROR Could not connect to 10.128.85.10:9999
+731 ERROR set task info error
+731 ERROR set task info error
+587 ERROR Could not connect to 10.128.85.10:9999
+587 ERROR Could not connect to 10.128.85.10:9999
+587 ERROR set task info error
+587 ERROR set task info error
+875 ERROR Could not connect to 10.128.85.10:9999
+875 ERROR Could not connect to 10.128.85.10:9999
+875 ERROR set task info error
+875 ERROR set task info error
+731 ERROR Could not connect to 10.128.85.10:9999
+731 ERROR Could not connect to 10.128.85.10:9999
+731 ERROR set task info error
 2014-05-21 19:51:03,731 ERROR set task info error
 2014-05-21 19:52:20,019 ERROR Could not connect to 10.128.85.10:9999
 2014-05-21 19:52:20,019 ERROR Could not connect to 10.128.85.10:9999
