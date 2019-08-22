@@ -207,28 +207,28 @@ NameError: global name 'HttpResponse' is not defined
 731 ERROR Could not connect to 10.128.85.10:9999
 731 ERROR Could not connect to 10.128.85.10:9999
 731 ERROR set task info error
-2014-05-21 19:51:03,731 ERROR set task info error
-2014-05-21 19:52:20,019 ERROR Could not connect to 10.128.85.10:9999
-2014-05-21 19:52:20,019 ERROR Could not connect to 10.128.85.10:9999
-2014-05-21 19:52:20,019 ERROR set task info error
-2014-05-21 19:52:20,019 ERROR set task info error
-2014-05-21 19:52:21,875 ERROR Could not connect to 10.128.85.10:9999
-2014-05-21 19:52:21,875 ERROR Could not connect to 10.128.85.10:9999
-2014-05-21 19:52:21,875 ERROR set task info error
-2014-05-21 19:52:21,875 ERROR set task info error
-2014-05-21 19:53:38,163 ERROR Could not connect to 10.128.85.10:9999
-2014-05-21 19:53:38,163 ERROR Could not connect to 10.128.85.10:9999
-2014-05-21 19:53:38,163 ERROR set task info error
-2014-05-21 19:53:38,163 ERROR set task info error
-2014-05-21 19:53:40,019 ERROR Could not connect to 10.128.85.10:9999
-2014-05-21 19:53:40,019 ERROR Could not connect to 10.128.85.10:9999
-2014-05-21 19:53:40,019 ERROR set task info error
-2014-05-21 19:53:40,019 ERROR set task info error
-2014-05-21 19:54:56,307 ERROR Could not connect to 10.128.85.10:9999
-2014-05-21 19:54:56,307 ERROR Could not connect to 10.128.85.10:9999
-2014-05-21 19:54:56,307 ERROR set task info error
-2014-05-21 19:54:56,307 ERROR set task info error
-2014-05-21 19:54:58,163 ERROR Could not connect to 10.128.85.10:9999
+731 ERROR set task info error
+019 ERROR Could not connect to 10.128.85.10:9999
+019 ERROR Could not connect to 10.128.85.10:9999
+019 ERROR set task info error
+019 ERROR set task info error
+875 ERROR Could not connect to 10.128.85.10:9999
+875 ERROR Could not connect to 10.128.85.10:9999
+875 ERROR set task info error
+875 ERROR set task info error
+163 ERROR Could not connect to 10.128.85.10:9999
+163 ERROR Could not connect to 10.128.85.10:9999
+163 ERROR set task info error
+163 ERROR set task info error
+019 ERROR Could not connect to 10.128.85.10:9999
+019 ERROR Could not connect to 10.128.85.10:9999
+019 ERROR set task info error
+019 ERROR set task info error
+307 ERROR Could not connect to 10.128.85.10:9999
+307 ERROR Could not connect to 10.128.85.10:9999
+307 ERROR set task info error
+307 ERROR set task info error
+163 ERROR Could not connect to 10.128.85.10:9999
 163 ERROR Could not connect to 10.128.85.10:9999
 163 ERROR set task info error
 163 ERROR set task info error
