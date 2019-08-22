@@ -152,29 +152,29 @@ NameError: global name 'HttpResponse' is not defined
 085 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
   DeprecationWarning)
 
-2014-05-21 19:43:13,011 ERROR Could not connect to 10.128.85.10:9999
-2014-05-21 19:43:13,011 ERROR Could not connect to 10.128.85.10:9999
-2014-05-21 19:43:13,012 ERROR set task info error
-2014-05-21 19:43:13,012 ERROR set task info error
-2014-05-21 19:43:14,867 ERROR Could not connect to 10.128.85.10:9999
-2014-05-21 19:43:14,867 ERROR Could not connect to 10.128.85.10:9999
-2014-05-21 19:43:14,868 ERROR set task info error
-2014-05-21 19:43:14,868 ERROR set task info error
-2014-05-21 19:44:31,155 ERROR Could not connect to 10.128.85.10:9999
-2014-05-21 19:44:31,155 ERROR Could not connect to 10.128.85.10:9999
-2014-05-21 19:44:31,155 ERROR set task info error
-2014-05-21 19:44:31,155 ERROR set task info error
-2014-05-21 19:44:33,011 ERROR Could not connect to 10.128.85.10:9999
-2014-05-21 19:44:33,011 ERROR Could not connect to 10.128.85.10:9999
-2014-05-21 19:44:33,011 ERROR set task info error
-2014-05-21 19:44:33,011 ERROR set task info error
-2014-05-21 19:45:49,299 ERROR Could not connect to 10.128.85.10:9999
-2014-05-21 19:45:49,299 ERROR Could not connect to 10.128.85.10:9999
-2014-05-21 19:45:49,299 ERROR set task info error
-2014-05-21 19:45:49,299 ERROR set task info error
-2014-05-21 19:45:51,155 ERROR Could not connect to 10.128.85.10:9999
-2014-05-21 19:45:51,155 ERROR Could not connect to 10.128.85.10:9999
-2014-05-21 19:45:51,155 ERROR set task info error
+011 ERROR Could not connect to 10.128.85.10:9999
+011 ERROR Could not connect to 10.128.85.10:9999
+012 ERROR set task info error
+012 ERROR set task info error
+867 ERROR Could not connect to 10.128.85.10:9999
+867 ERROR Could not connect to 10.128.85.10:9999
+868 ERROR set task info error
+868 ERROR set task info error
+155 ERROR Could not connect to 10.128.85.10:9999
+155 ERROR Could not connect to 10.128.85.10:9999
+155 ERROR set task info error
+155 ERROR set task info error
+011 ERROR Could not connect to 10.128.85.10:9999
+011 ERROR Could not connect to 10.128.85.10:9999
+011 ERROR set task info error
+011 ERROR set task info error
+299 ERROR Could not connect to 10.128.85.10:9999
+299 ERROR Could not connect to 10.128.85.10:9999
+299 ERROR set task info error
+299 ERROR set task info error
+155 ERROR Could not connect to 10.128.85.10:9999
+155 ERROR Could not connect to 10.128.85.10:9999
+155 ERROR set task info error
 2014-05-21 19:45:51,155 ERROR set task info error
 2014-05-21 19:47:07,443 ERROR Could not connect to 10.128.85.10:9999
 2014-05-21 19:47:07,443 ERROR Could not connect to 10.128.85.10:9999
