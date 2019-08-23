@@ -596,3 +596,8 @@ NameError: global name 'HttpResponse' is not defined
 605 ERROR Could not connect to 127.0.0.1:9999
 606 ERROR set task info error
 606 ERROR set task info error
+204 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+204 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
