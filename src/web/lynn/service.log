@@ -590,3 +590,9 @@ NameError: global name 'HttpResponse' is not defined
 315 ERROR set task info error
 603 ERROR Could not connect to 10.128.85.10:9999
 603 ERROR Could not connect to 10.128.85.10:9999
+324 ERROR set task info error
+2014-05-22 11:22:25,324 ERROR set task info error
+2014-05-22 11:22:25,605 ERROR Could not connect to 127.0.0.1:9999
+2014-05-22 11:22:25,605 ERROR Could not connect to 127.0.0.1:9999
+2014-05-22 11:22:25,606 ERROR set task info error
+2014-05-22 11:22:25,606 ERROR set task info error
