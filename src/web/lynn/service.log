@@ -603,7 +603,7 @@ NameError: global name 'HttpResponse' is not defined
   DeprecationWarning)
 
 345 ERROR Could not connect to 127.0.0.1:9999
-2014-05-22 11:22:40,345 ERROR Could not connect to 127.0.0.1:9999
+345 ERROR Could not connect to 127.0.0.1:9999
 2014-05-22 11:22:40,345 ERROR set task info error
 2014-05-22 11:22:40,345 ERROR set task info error
 2014-05-22 11:22:40,634 ERROR Could not connect to 127.0.0.1:9999
