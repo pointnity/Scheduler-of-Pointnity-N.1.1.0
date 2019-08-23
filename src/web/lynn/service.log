@@ -593,6 +593,6 @@ NameError: global name 'HttpResponse' is not defined
 324 ERROR set task info error
 324 ERROR set task info error
 605 ERROR Could not connect to 127.0.0.1:9999
-2014-05-22 11:22:25,605 ERROR Could not connect to 127.0.0.1:9999
+605 ERROR Could not connect to 127.0.0.1:9999
 2014-05-22 11:22:25,606 ERROR set task info error
 2014-05-22 11:22:25,606 ERROR set task info error
