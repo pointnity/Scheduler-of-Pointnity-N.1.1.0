@@ -8,3 +8,5 @@ ADMINS = (
 )
 
 MANAGERS = ADMINS
+
+STATIC_PATH='./medias'
