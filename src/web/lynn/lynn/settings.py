@@ -13,3 +13,4 @@ STATIC_PATH='./medias'
 
 DATABASES = {
     'default': {
+        'ENGINE': 'django.db.backends.', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
