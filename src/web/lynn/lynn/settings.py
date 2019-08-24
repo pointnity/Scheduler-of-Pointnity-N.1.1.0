@@ -12,3 +12,4 @@ MANAGERS = ADMINS
 STATIC_PATH='./medias'
 
 DATABASES = {
+    'default': {
