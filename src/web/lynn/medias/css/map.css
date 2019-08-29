@@ -69,3 +69,6 @@ body {
 #dataMap a.hotcity {
 	color:#f00;
 	font-weight:700;
+}
+
+#dataMap num {display:none;}
