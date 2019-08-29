@@ -15,3 +15,4 @@ body {
 	font-size:12px;}/*background:url(static_net.png) no-repeat left top;}*/
 
 #dataMap span {
+	position:absolute;
