@@ -60,3 +60,5 @@ body {
 	line-height:1.8;
 	text-decoration:none;
 	color:#000;background:url(/media/jvmap/focus.gif) no-repeat left 4px;}
+
+#dataMap a:hover,#dataMap a:active {
