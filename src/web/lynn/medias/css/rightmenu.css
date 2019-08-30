@@ -1,3 +1,4 @@
 .DreamMenu { 
 position:absolute; 
 visibility:hidden; 
+z-index:100; 
