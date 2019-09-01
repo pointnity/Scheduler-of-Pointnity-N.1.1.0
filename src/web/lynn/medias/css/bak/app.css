@@ -66,3 +66,5 @@ header nav {
 				background:#fff;
 				background-image: gradient(top, #ccffff, #77dddd); /* FF3.6 */
 				background-image: -moz-linear-gradient(top, #ccffff, #77dddd); /* FF3.6 */
+		
+		header nav ul li:nth-of-type(2) a {
