@@ -17,3 +17,4 @@ header{
    width:99.7%;
 	overflow:hidden;
    position:fixed;
+   z-index:1;
