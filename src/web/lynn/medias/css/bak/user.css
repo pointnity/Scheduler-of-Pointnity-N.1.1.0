@@ -89,3 +89,138 @@ header nav {
 			filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#017bc8', EndColorStr='#018ed3'); /* IE6,IE7 */
 			-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#017bc8', EndColorStr='#018ed3')"; /* IE8 */
 		}
+		header nav ul li:nth-of-type(4) a {
+			background:#ffbc00;
+			background-image: gradient(top, #ccffff, #77dddd); /* FF3.6 */
+			background-image: -moz-linear-gradient(top, #ccffff, #77dddd); /* FF3.6 */
+			background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #017bc8),color-stop(1, #018ed3)); /* Saf4+, Chrome */
+			filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#017bc8', EndColorStr='#018ed3'); /* IE6,IE7 */
+			-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#017bc8', EndColorStr='#018ed3')"; /* IE8 */
+		}
+		header nav ul li:nth-of-type(5) a {
+			background:#f07502;
+			background-image: gradient(top, #ccffff, #77dddd); /* FF3.6 */
+			background-image: -moz-linear-gradient(top, #ccffff, #77dddd); /* FF3.6 */
+			background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #017bc8),color-stop(1, #018ed3)); /* Saf4+, Chrome */
+			filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#017bc8', EndColorStr='#018ed3'); /* IE6,IE7 */
+			-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#017bc8', EndColorStr='#018ed3')"; /* IE8 */
+		}
+		header nav ul li:nth-of-type(6) a {
+			background:#d00110;
+			background-image: gradient(top, #ccffff, #77dddd); /* FF3.6 */
+			background-image: -moz-linear-gradient(top, #ccffff, #77dddd); /* FF3.6 */
+			background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #017bc8),color-stop(1, #018ed3)); /* Saf4+, Chrome */
+			filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#017bc8', EndColorStr='#018ed3'); /* IE6,IE7 */
+			-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#017bc8', EndColorStr='#018ed3')"; /* IE8 */
+		}
+
+ a {
+    color:#242424;
+    text-decoration:none;
+    }
+
+
+/* tables */
+.module, .usermodule, .add_module, .edit_module {
+    border: 1px solid #ccc;
+	 position:relative;
+  	 top:65px;
+	 width:300px;
+    margin:20px;
+    background: #fff;
+    font-size: 15px;
+}
+
+.edit_module {
+    width:950px;
+}
+.usermodule {
+    width:700px;
+}
+.add_module {
+  	 width:480px;
+}
+
+.errorlist {
+    float:right;
+    margin:0px 0px 0px 0px;
+}
+#id_name {
+    float:left;
+    margin:0px 0px 0px 0px;
+}
+
+.tables {
+    background: #fff;
+ 	 width:100%;
+}
+ caption {
+    margin: 0;
+    padding: 2px 5px 3px 5px;
+    font-size: 15px;
+    text-align: left;
+    font-weight: bold;
+    background: #118080;
+    color: white;
+}
+ .caption {
+    margin: 0;
+    padding: 2px 5px 3px 5px;
+    font-size: 15px;
+    text-align: left;
+    font-weight: bold;
+    background: #118080;
+    color: white;
+}
+  .formfield {
+   margin-top: 4px;
+   margin-bottom: 3px;
+}
+.word {
+    margin-left:15px;
+    color: red;
+}
+.addsubmit{
+    background: #118080;
+    color: white;
+}
+/* change password */
+.changepassword {
+    border: 1px solid #ccc;
+	 position:relative;
+  	 top:120px;
+  	 left:450px;
+	 width:300px;
+    margin: 20px;
+    background: #fff;
+    font-size: 15px;
+}
+
+
+/* ACTION ICONS */
+
+.addlink {
+    padding-left: 12px;
+    margin:20px;
+    background: url(../img/icon_addlink.gif) 0 .2em no-repeat;
+}
+
+.changelink {
+    padding-left: 12px;
+    background: url(../img/icon_changelink.gif) 0 .2em no-repeat;
+}
+
+.deletelink {
+    padding-left: 12px;
+    background: url(../img/icon_deletelink.gif) 0 .2em no-repeat;
+}
+
+/* list */
+thead {
+    text-align: left;
+}
+
+
+
+
+/*--------------over----------------*/
