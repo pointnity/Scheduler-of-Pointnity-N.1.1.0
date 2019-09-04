@@ -16,3 +16,4 @@
 		$("#progressbar").progressbar("option","value",newvalue);
 		if (newvalue >= 100)
 			return;
+		setTimeout(updateProgressbarValue, 500);
