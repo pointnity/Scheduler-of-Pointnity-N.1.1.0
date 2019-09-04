@@ -15,3 +15,4 @@
 		var newvalue= $("#progressbar").progressbar("value")+10;
 		$("#progressbar").progressbar("option","value",newvalue);
 		if (newvalue >= 100)
+			return;
