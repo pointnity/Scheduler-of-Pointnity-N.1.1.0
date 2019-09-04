@@ -8,3 +8,4 @@
   <script>
   $(function() {
 	$("#progressbar").progressbar({ value: 10,
+		  complete: function(event, ui) { alert('has complete!!');  }
