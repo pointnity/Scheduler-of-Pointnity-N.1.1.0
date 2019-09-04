@@ -19,3 +19,4 @@
 }
 .dtree a.node, .dtree a.nodeSel {
 	white-space: nowrap;
+	padding: 1px 2px 1px 2px;
