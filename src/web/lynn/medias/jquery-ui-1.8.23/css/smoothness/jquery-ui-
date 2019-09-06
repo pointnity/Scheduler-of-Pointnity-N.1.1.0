@@ -15,3 +15,4 @@
 
 /* Interaction Cues
 ----------------------------------*/
+.ui-state-disabled { cursor: default !important; }
