@@ -5,9 +5,10 @@ individuals. For exact contribution history, see the revision history
 and logs
 
 Brandon Aaron
-Paul Bakaus (paulbakaus.com)
+Paul Bakaus 
 David Bolter
 Rich Caloggero
-Chi Cheng (cloudream@gmail.com)
+Chi Cheng 
 Colin Clark
 Michelle D'Souza
+Aaron Eisenberger
