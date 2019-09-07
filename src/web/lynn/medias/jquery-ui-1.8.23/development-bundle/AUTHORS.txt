@@ -16,3 +16,4 @@ Ariel Flesler
 Bohdan Ganicky
 Scott González
 Marc Grabanski
+Klaus Hartl
