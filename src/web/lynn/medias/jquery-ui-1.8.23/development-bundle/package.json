@@ -8,3 +8,4 @@
     "name": "AUTHORS.txt"
   },
   "repository": {
+    "type": "git",
