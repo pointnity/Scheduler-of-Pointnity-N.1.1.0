@@ -27,3 +27,4 @@
   "dependencies": {},
   "devDependencies": {
     "grunt": "0.3.9",
+    "grunt-css": "0.1.1",
