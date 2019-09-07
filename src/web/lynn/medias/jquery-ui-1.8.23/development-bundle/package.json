@@ -31,3 +31,6 @@
     "grunt-compare-size": "0.1.1",
     "request": "2.9.153",
     "rimraf": "2.0.1"
+  },
+  "keywords": []
+}
