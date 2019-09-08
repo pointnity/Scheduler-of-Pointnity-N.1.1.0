@@ -29,3 +29,4 @@ body {
 }
 
 .layout-grid td.normal {
+	border-left: 1px solid #eee;
