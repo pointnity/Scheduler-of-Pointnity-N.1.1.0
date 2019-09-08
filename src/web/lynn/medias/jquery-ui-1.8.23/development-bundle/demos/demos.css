@@ -21,3 +21,4 @@ body {
 }
 
 .layout-grid td {
+	vertical-align: top;
