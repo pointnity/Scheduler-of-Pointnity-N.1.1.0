@@ -23,3 +23,5 @@ body {
 .layout-grid td {
 	vertical-align: top;
 }
+
+.layout-grid td.left-nav {
