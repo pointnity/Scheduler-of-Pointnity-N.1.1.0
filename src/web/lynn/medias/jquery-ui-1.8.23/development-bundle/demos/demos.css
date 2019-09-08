@@ -37,3 +37,4 @@ body {
 .layout-grid td.demos {
 	background: url('/images/demos_bg.jpg') no-repeat;
 	height: 337px;
+	overflow: hidden;
