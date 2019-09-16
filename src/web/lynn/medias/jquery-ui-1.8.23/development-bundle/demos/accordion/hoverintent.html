@@ -26,3 +26,4 @@
 			$( this ).bind( "mouseover", jQuery.event.special.hoverintent.handler );
 		},
 		teardown: function() {
+			$( this ).unbind( "mouseover", jQuery.event.special.hoverintent.handler );
