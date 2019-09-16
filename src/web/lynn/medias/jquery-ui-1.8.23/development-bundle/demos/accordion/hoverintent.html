@@ -43,3 +43,4 @@
 			function clear() {
 				target
 					.unbind( "mousemove", track )
+					.unbind( "mouseout", arguments.callee );
