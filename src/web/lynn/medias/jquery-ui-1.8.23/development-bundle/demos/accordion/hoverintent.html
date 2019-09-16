@@ -47,3 +47,4 @@
 				clearTimeout( timeout );
 			}
 			function handler() {
+				if ( ( Math.abs( pX - cX ) + Math.abs( pY - cY ) ) < cfg.sensitivity ) {
