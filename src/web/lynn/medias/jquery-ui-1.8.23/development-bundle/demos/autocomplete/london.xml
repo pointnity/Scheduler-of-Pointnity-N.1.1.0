@@ -68,3 +68,47 @@
 <fcode>CSTL</fcode>
 </geoname>
 <geoname>
+<name>London Reefs</name>
+<lat>8.85</lat>
+<lng>112.5333333</lng>
+<geonameId>1879967</geonameId>
+<countryCode>  </countryCode>
+<countryName>  </countryName>
+
+<fcl>U</fcl>
+<fcode>RFSU</fcode>
+</geoname>
+<geoname>
+<name>Greater London</name>
+<lat>51.5</lat>
+<lng>-0.1666667</lng>
+<geonameId>2648110</geonameId>
+<countryCode>GB</countryCode>
+<countryName>United Kingdom</countryName>
+
+<fcl>A</fcl>
+<fcode>ADM2</fcode>
+</geoname>
+<geoname>
+<name>London</name>
+<lat>46.1666667</lat>
+<lng>6.0166667</lng>
+<geonameId>2661811</geonameId>
+<countryCode>CH</countryCode>
+<countryName>Switzerland</countryName>
+
+<fcl>H</fcl>
+<fcode>STM</fcode>
+</geoname>
+<geoname>
+<name>London Borough of Islington</name>
+<lat>51.5333333</lat>
+<lng>-0.1333333</lng>
+<geonameId>3333156</geonameId>
+<countryCode>GB</countryCode>
+<countryName>United Kingdom</countryName>
+
+<fcl>A</fcl>
+<fcode>ADM2</fcode>
+</geoname>
+</geonames>
