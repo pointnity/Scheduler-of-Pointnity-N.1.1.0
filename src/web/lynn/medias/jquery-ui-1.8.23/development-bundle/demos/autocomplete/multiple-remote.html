@@ -34,3 +34,4 @@
 				source: function( request, response ) {
 					$.getJSON( "search.php", {
 						term: extractLast( request.term )
+					}, response );
