@@ -33,3 +33,4 @@
 						name_startsWith: request.term
 					},
 					success: function( data ) {
+						response( $.map( data.geonames, function( item ) {
