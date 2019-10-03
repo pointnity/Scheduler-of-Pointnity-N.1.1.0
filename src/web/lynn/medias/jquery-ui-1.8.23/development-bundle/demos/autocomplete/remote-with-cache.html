@@ -27,3 +27,4 @@
 				}
 
 				lastXhr = $.getJSON( "search.php", request, function( data, status, xhr ) {
+					cache[ term ] = data;
