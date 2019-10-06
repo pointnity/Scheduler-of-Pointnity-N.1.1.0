@@ -28,3 +28,4 @@ $items = array(
 "Ruff"=>"Philomachus pugnax",
 "Common Snipe"=>"Gallinago gallinago",
 "Black-tailed Godwit"=>"Limosa limosa",
+"Common Redshank"=>"Tringa totanus",
