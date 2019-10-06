@@ -22,3 +22,4 @@ $items = array(
 "Corncrake"=>"Crex crex",
 "Common Crane"=>"Grus grus",
 "Avocet"=>"Recurvirostra avosetta",
+"Stone Curlew"=>"Burhinus oedicnemus",
