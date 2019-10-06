@@ -37,3 +37,4 @@ $items = array(
 "Barn Owl"=>"Tyto alba",
 "Little Owl"=>"Athene noctua",
 "Short-eared Owl"=>"Asio flammeus",
+"European Nightjar"=>"Caprimulgus europaeus",
