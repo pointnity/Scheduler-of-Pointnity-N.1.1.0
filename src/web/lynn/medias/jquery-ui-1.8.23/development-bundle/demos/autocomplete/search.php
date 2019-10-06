@@ -21,3 +21,4 @@ $items = array(
 "Spotted Crake"=>"Porzana porzana",
 "Corncrake"=>"Crex crex",
 "Common Crane"=>"Grus grus",
+"Avocet"=>"Recurvirostra avosetta",
