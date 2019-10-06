@@ -14,3 +14,4 @@ $items = array(
 "Red-crested Pochard"=>"Netta rufina",
 "Common Eider"=>"Somateria mollissima",
 "Red Kite"=>"Milvus milvus",
+"Hen Harrier"=>"Circus cyaneus",
