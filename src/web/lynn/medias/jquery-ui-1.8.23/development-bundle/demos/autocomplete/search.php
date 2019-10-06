@@ -55,3 +55,4 @@ $items = array(
 "Bearded Reedling"=>"Panurus biarmicus",
 "Red-backed Shrike"=>"Lanius collurio",
 "Great Grey Shrike"=>"Lanius excubitor",
+"Woodchat Shrike"=>"Lanius senator",
