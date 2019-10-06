@@ -13,3 +13,4 @@ $items = array(
 "Spoonbill"=>"Platalea leucorodia",
 "Red-crested Pochard"=>"Netta rufina",
 "Common Eider"=>"Somateria mollissima",
+"Red Kite"=>"Milvus milvus",
