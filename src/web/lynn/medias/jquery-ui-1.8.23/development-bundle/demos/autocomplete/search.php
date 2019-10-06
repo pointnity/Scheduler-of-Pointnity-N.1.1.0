@@ -46,3 +46,4 @@ $items = array(
 "White-headed Duck"=>"Oxyura leucocephala",
 "Pale-bellied Brent Goose"=>"Branta hrota",
 "Tawny Pipit"=>"Anthus campestris",
+"Whinchat"=>"Saxicola rubetra",
