@@ -11,3 +11,4 @@ $items = array(
 "Purple Heron"=>"Ardea purpurea",
 "White Stork"=>"Ciconia ciconia",
 "Spoonbill"=>"Platalea leucorodia",
+"Red-crested Pochard"=>"Netta rufina",
