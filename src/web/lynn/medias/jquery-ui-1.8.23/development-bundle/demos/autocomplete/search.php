@@ -32,3 +32,4 @@ $items = array(
 "Sandwich Tern"=>"Sterna sandvicensis",
 "Common Tern"=>"Sterna hirundo",
 "Arctic Tern"=>"Sterna paradisaea",
+"Little Tern"=>"Sternula albifrons",
