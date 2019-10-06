@@ -54,3 +54,4 @@ $items = array(
 "Great Reed Warbler"=>"Acrocephalus arundinaceus",
 "Bearded Reedling"=>"Panurus biarmicus",
 "Red-backed Shrike"=>"Lanius collurio",
+"Great Grey Shrike"=>"Lanius excubitor",
