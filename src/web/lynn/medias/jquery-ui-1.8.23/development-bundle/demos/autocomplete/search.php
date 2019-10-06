@@ -49,3 +49,4 @@ $items = array(
 "Whinchat"=>"Saxicola rubetra",
 "European Stonechat"=>"Saxicola rubicola",
 "Northern Wheatear"=>"Oenanthe oenanthe",
+"Savi`s Warbler"=>"Locustella luscinioides",
