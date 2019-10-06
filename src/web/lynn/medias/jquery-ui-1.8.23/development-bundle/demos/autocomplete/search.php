@@ -41,3 +41,4 @@ $items = array(
 "Common Kingfisher"=>"Alcedo atthis",
 "Eurasian Hoopoe"=>"Upupa epops",
 "Eurasian Wryneck"=>"Jynx torquilla",
+"European Green Woodpecker"=>"Picus viridis",
