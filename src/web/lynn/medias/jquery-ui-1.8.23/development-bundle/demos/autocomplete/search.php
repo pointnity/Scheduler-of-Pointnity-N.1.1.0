@@ -15,3 +15,4 @@ $items = array(
 "Common Eider"=>"Somateria mollissima",
 "Red Kite"=>"Milvus milvus",
 "Hen Harrier"=>"Circus cyaneus",
+"Montagu`s Harrier"=>"Circus pygargus",
