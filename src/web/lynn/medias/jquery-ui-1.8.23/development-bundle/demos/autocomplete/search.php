@@ -48,3 +48,4 @@ $items = array(
 "Tawny Pipit"=>"Anthus campestris",
 "Whinchat"=>"Saxicola rubetra",
 "European Stonechat"=>"Saxicola rubicola",
+"Northern Wheatear"=>"Oenanthe oenanthe",
