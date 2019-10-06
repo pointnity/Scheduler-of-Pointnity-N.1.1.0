@@ -36,3 +36,4 @@ $items = array(
 "Black Tern"=>"Chlidonias niger",
 "Barn Owl"=>"Tyto alba",
 "Little Owl"=>"Athene noctua",
+"Short-eared Owl"=>"Asio flammeus",
