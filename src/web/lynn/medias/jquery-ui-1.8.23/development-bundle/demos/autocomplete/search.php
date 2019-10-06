@@ -52,3 +52,4 @@ $items = array(
 "Savi`s Warbler"=>"Locustella luscinioides",
 "Sedge Warbler"=>"Acrocephalus schoenobaenus",
 "Great Reed Warbler"=>"Acrocephalus arundinaceus",
+"Bearded Reedling"=>"Panurus biarmicus",
