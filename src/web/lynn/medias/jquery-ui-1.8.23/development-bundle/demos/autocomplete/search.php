@@ -57,3 +57,4 @@ $items = array(
 "Great Grey Shrike"=>"Lanius excubitor",
 "Woodchat Shrike"=>"Lanius senator",
 "Common Raven"=>"Corvus corax",
+"Yellowhammer"=>"Emberiza citrinella",
