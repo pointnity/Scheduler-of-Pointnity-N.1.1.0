@@ -40,3 +40,4 @@ $items = array(
 "European Nightjar"=>"Caprimulgus europaeus",
 "Common Kingfisher"=>"Alcedo atthis",
 "Eurasian Hoopoe"=>"Upupa epops",
+"Eurasian Wryneck"=>"Jynx torquilla",
