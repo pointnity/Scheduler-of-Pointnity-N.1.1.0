@@ -29,3 +29,4 @@ $items = array(
 "Common Snipe"=>"Gallinago gallinago",
 "Black-tailed Godwit"=>"Limosa limosa",
 "Common Redshank"=>"Tringa totanus",
+"Sandwich Tern"=>"Sterna sandvicensis",
