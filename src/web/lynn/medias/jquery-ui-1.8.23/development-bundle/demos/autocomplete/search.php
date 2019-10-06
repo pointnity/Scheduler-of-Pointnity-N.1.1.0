@@ -12,3 +12,4 @@ $items = array(
 "White Stork"=>"Ciconia ciconia",
 "Spoonbill"=>"Platalea leucorodia",
 "Red-crested Pochard"=>"Netta rufina",
+"Common Eider"=>"Somateria mollissima",
