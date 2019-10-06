@@ -16,3 +16,4 @@ $items = array(
 "Red Kite"=>"Milvus milvus",
 "Hen Harrier"=>"Circus cyaneus",
 "Montagu`s Harrier"=>"Circus pygargus",
+"Black Grouse"=>"Tetrao tetrix",
