@@ -47,3 +47,4 @@ $items = array(
 "Pale-bellied Brent Goose"=>"Branta hrota",
 "Tawny Pipit"=>"Anthus campestris",
 "Whinchat"=>"Saxicola rubetra",
+"European Stonechat"=>"Saxicola rubicola",
