@@ -8,3 +8,4 @@ $items = array(
 "Black-necked Grebe"=>"Podiceps nigricollis",
 "Little Bittern"=>"Ixobrychus minutus",
 "Black-crowned Night Heron"=>"Nycticorax nycticorax",
+"Purple Heron"=>"Ardea purpurea",
