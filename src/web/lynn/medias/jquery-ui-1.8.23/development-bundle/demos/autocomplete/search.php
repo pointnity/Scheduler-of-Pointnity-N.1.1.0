@@ -30,3 +30,4 @@ $items = array(
 "Black-tailed Godwit"=>"Limosa limosa",
 "Common Redshank"=>"Tringa totanus",
 "Sandwich Tern"=>"Sterna sandvicensis",
+"Common Tern"=>"Sterna hirundo",
