@@ -23,3 +23,4 @@ $items = array(
 "Common Crane"=>"Grus grus",
 "Avocet"=>"Recurvirostra avosetta",
 "Stone Curlew"=>"Burhinus oedicnemus",
+"Common Ringed Plover"=>"Charadrius hiaticula",
