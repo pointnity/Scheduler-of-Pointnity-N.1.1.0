@@ -43,3 +43,4 @@ $items = array(
 "Eurasian Wryneck"=>"Jynx torquilla",
 "European Green Woodpecker"=>"Picus viridis",
 "Crested Lark"=>"Galerida cristata",
+"White-headed Duck"=>"Oxyura leucocephala",
