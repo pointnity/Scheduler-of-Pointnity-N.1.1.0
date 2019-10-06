@@ -10,3 +10,4 @@ $items = array(
 "Black-crowned Night Heron"=>"Nycticorax nycticorax",
 "Purple Heron"=>"Ardea purpurea",
 "White Stork"=>"Ciconia ciconia",
+"Spoonbill"=>"Platalea leucorodia",
