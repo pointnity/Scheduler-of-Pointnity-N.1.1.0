@@ -25,3 +25,4 @@ $items = array(
 "Stone Curlew"=>"Burhinus oedicnemus",
 "Common Ringed Plover"=>"Charadrius hiaticula",
 "Kentish Plover"=>"Charadrius alexandrinus",
+"Ruff"=>"Philomachus pugnax",
