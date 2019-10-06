@@ -26,3 +26,4 @@ $items = array(
 "Common Ringed Plover"=>"Charadrius hiaticula",
 "Kentish Plover"=>"Charadrius alexandrinus",
 "Ruff"=>"Philomachus pugnax",
+"Common Snipe"=>"Gallinago gallinago",
