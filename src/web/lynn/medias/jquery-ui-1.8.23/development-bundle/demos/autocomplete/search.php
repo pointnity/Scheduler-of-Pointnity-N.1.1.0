@@ -61,3 +61,4 @@ $items = array(
 "Ortolan Bunting"=>"Emberiza hortulana",
 "Corn Bunting"=>"Emberiza calandra",
 "Great Cormorant"=>"Phalacrocorax carbo",
+"Hawfinch"=>"Coccothraustes coccothraustes",
