@@ -25,3 +25,4 @@
 			dataType: "xml",
 			success: function( xmlResponse ) {
 				var data = $( "geoname", xmlResponse ).map(function() {
+					return {
