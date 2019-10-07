@@ -26,3 +26,4 @@
 			success: function( xmlResponse ) {
 				var data = $( "geoname", xmlResponse ).map(function() {
 					return {
+						value: $( "name", this ).text() + ", " +
