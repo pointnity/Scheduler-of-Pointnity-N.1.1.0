@@ -27,3 +27,4 @@
 				var data = $( "geoname", xmlResponse ).map(function() {
 					return {
 						value: $( "name", this ).text() + ", " +
+							( $.trim( $( "countryName", this ).text() ) || "(unknown country)" ),
