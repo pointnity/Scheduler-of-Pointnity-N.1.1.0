@@ -24,3 +24,4 @@
 			changeMonth: true,
 			numberOfMonths: 3,
 			onSelect: function( selectedDate ) {
+				$( "#from" ).datepicker( "option", "maxDate", selectedDate );
