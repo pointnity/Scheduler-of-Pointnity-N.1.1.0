@@ -16,3 +16,4 @@
 			changeMonth: true,
 			numberOfMonths: 3,
 			onSelect: function( selectedDate ) {
+				$( "#to" ).datepicker( "option", "minDate", selectedDate );
