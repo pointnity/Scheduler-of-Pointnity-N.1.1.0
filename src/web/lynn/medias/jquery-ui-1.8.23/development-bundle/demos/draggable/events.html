@@ -26,3 +26,4 @@
 		$( "#draggable" ).draggable({
 			start: function() {
 				counts[ 0 ]++;
+				updateCounterStatus( $start_counter, counts[ 0 ] );
