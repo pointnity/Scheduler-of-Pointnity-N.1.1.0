@@ -35,3 +35,4 @@
 				$( "<li></li>" ).text( ui.draggable.text() ).appendTo( this );
 			}
 		}).sortable({
+			items: "li:not(.placeholder)",
