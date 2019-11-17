@@ -30,3 +30,4 @@
 			var graph = $( "<div>" ).addClass( "graph" ).appendTo( "#graphs" ),
 				text = $( "<div>" ).text( ++i + ". " + name ).appendTo( graph ),
 				wrap = $( "<div>" ).appendTo( graph ).css( 'overflow', 'hidden' ),
+				canvas = $( "<canvas>" ).appendTo( wrap )[ 0 ];
