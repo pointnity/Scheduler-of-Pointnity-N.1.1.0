@@ -77,3 +77,14 @@
 					drawHeight - drawHeight * val * 0.7 );
 			});
 			ctx.stroke();
+
+			// animate on click
+			graph.click(function() {
+				wrap
+					.animate( { height: "hide" }, 2000, name )
+					.delay( 800 )
+					.animate( { height: "show" }, 2000, name );
+			});
+			graph.width( width ).height( height + text.height() + 10 );
+		});
+	});
