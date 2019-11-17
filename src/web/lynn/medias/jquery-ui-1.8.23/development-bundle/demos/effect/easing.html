@@ -55,3 +55,20 @@
 			ctx.strokeStyle = "#555";
 			ctx.beginPath();
 			ctx.moveTo( width * 0.1, drawHeight + .5 );
+			ctx.lineTo( width * 0.9, drawHeight + .5 );
+			ctx.stroke();
+			
+			// draw top line
+			ctx.strokeStyle = "#555";
+			ctx.beginPath();
+			ctx.moveTo( width * 0.1, drawHeight * .3 - .5 );
+			ctx.lineTo( width * 0.9, drawHeight * .3 - .5 );
+			ctx.stroke();
+			
+			// plot easing
+			ctx.strokeStyle = "white";
+			ctx.beginPath();
+			ctx.lineWidth = 2;
+			ctx.moveTo( width * 0.1, drawHeight );
+			$.each( new Array( width ), function( position ) {
+				var state = position / width,
