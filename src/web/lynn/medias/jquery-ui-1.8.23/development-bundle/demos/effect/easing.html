@@ -72,3 +72,8 @@
 			ctx.moveTo( width * 0.1, drawHeight );
 			$.each( new Array( width ), function( position ) {
 				var state = position / width,
+					val = impl( state, position, 0, 1, width );
+				ctx.lineTo( position * 0.8 + width * 0.1,
+					drawHeight - drawHeight * val * 0.7 );
+			});
+			ctx.stroke();
