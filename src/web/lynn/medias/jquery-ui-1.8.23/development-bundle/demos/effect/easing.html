@@ -28,3 +28,4 @@
 
 		$.each( $.easing, function( name, impl ) {
 			var graph = $( "<div>" ).addClass( "graph" ).appendTo( "#graphs" ),
+				text = $( "<div>" ).text( ++i + ". " + name ).appendTo( graph ),
