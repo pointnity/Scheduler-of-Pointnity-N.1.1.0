@@ -47,3 +47,21 @@
 		// callback function to bring a hidden box back
 		function callback() {
 			setTimeout(function() {
+				$( "#effect" ).removeAttr( "style" ).hide().fadeIn();
+			}, 1000 );
+		};
+		// set effect from select menu value
+		$( "#button" ).click(function() {
+			runEffect();
+			return false;
+		});
+	});
+	</script>
+</head>
+<body>
+
+<div class="demo">
+
+<div class="toggler">
+	<div id="effect" class="ui-widget-content ui-corner-all">
+		<h3 class="ui-widget-header ui-corner-all">Hide</h3>
