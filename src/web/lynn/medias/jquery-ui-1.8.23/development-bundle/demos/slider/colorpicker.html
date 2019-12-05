@@ -54,3 +54,42 @@
 		$( "#swatch" ).css( "background-color", "#" + hex );
 	}
 	$(function() {
+		$( "#red, #green, #blue" ).slider({
+			orientation: "horizontal",
+			range: "min",
+			max: 255,
+			value: 127,
+			slide: refreshSwatch,
+			change: refreshSwatch
+		});
+		$( "#red" ).slider( "value", 255 );
+		$( "#green" ).slider( "value", 140 );
+		$( "#blue" ).slider( "value", 60 );
+	});
+	</script>
+</head>
+<body class="ui-widget-content" style="border:0;">
+
+<div class="demo">
+
+<p class="ui-state-default ui-corner-all ui-helper-clearfix" style="padding:4px;">
+	<span class="ui-icon ui-icon-pencil" style="float:left; margin:-2px 5px 0 0;"></span>
+	Simple Colorpicker
+</p>
+
+<div id="red"></div>
+<div id="green"></div>
+<div id="blue"></div>
+
+<div id="swatch" class="ui-widget-content ui-corner-all"></div>
+
+</div><!-- End demo -->
+
+
+
+<div class="demo-description" style="clear:left;">
+<p>Combine three sliders to create a simple RGB colorpicker.</p>
+</div><!-- End demo-description -->
+
+</body>
+</html>
