@@ -84,3 +84,57 @@
 					scrollContent.css( "margin-left", parseInt( scrollContent.css( "margin-left" ), 10 ) + gap );
 				}
 		}
+		
+		//change handle position on window resize
+		$( window ).resize(function() {
+			resetValue();
+			sizeScrollbar();
+			reflowContent();
+		});
+		//init scrollbar size
+		setTimeout( sizeScrollbar, 10 );//safari wants a timeout
+	});
+	</script>
+</head>
+<body>
+
+<div class="demo">
+
+<div class="scroll-pane ui-widget ui-widget-header ui-corner-all">
+	<div class="scroll-content">
+		<div class="scroll-content-item ui-widget-header">1</div>
+		<div class="scroll-content-item ui-widget-header">2</div>
+		<div class="scroll-content-item ui-widget-header">3</div>
+		<div class="scroll-content-item ui-widget-header">4</div>
+		<div class="scroll-content-item ui-widget-header">5</div>
+		<div class="scroll-content-item ui-widget-header">6</div>
+		<div class="scroll-content-item ui-widget-header">7</div>
+		<div class="scroll-content-item ui-widget-header">8</div>
+		<div class="scroll-content-item ui-widget-header">9</div>
+		<div class="scroll-content-item ui-widget-header">10</div>
+		<div class="scroll-content-item ui-widget-header">11</div>
+		<div class="scroll-content-item ui-widget-header">12</div>
+		<div class="scroll-content-item ui-widget-header">13</div>
+		<div class="scroll-content-item ui-widget-header">14</div>
+		<div class="scroll-content-item ui-widget-header">15</div>
+		<div class="scroll-content-item ui-widget-header">16</div>
+		<div class="scroll-content-item ui-widget-header">17</div>
+		<div class="scroll-content-item ui-widget-header">18</div>
+		<div class="scroll-content-item ui-widget-header">19</div>
+		<div class="scroll-content-item ui-widget-header">20</div>
+	</div>
+	<div class="scroll-bar-wrap ui-widget-content ui-corner-bottom">
+		<div class="scroll-bar"></div>
+	</div>
+</div>
+
+</div><!-- End demo -->
+
+
+
+<div class="demo-description">
+<p>Use a slider to manipulate the positioning of content on the page. In this case, it acts as a scrollbar with the potential to capture values if needed.</p>
+</div><!-- End demo-description -->
+
+</body>
+</html>
