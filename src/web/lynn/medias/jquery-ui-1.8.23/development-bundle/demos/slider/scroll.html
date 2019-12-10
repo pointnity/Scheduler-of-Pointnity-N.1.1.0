@@ -31,3 +31,4 @@
 		//build slider
 		var scrollbar = $( ".scroll-bar" ).slider({
 			slide: function( event, ui ) {
+				if ( scrollContent.width() > scrollPane.width() ) {
