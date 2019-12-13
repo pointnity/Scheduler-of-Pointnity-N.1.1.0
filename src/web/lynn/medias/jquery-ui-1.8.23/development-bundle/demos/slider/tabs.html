@@ -18,3 +18,4 @@
 	$(function() {
 		$( "#tabs" ).tabs({
 			select: function( event, ui ) {
+				$( "#slider" ).slider( "value", ui.index );
