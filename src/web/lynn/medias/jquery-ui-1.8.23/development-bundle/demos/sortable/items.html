@@ -19,3 +19,16 @@
 		$( "#sortable1" ).sortable({
 			items: "li:not(.ui-state-disabled)"
 		});
+
+		$( "#sortable2" ).sortable({
+			cancel: ".ui-state-disabled"
+		});
+		$( "#sortable1 li, #sortable2 li" ).disableSelection();		
+	});
+	</script>
+</head>
+<body>
+<div class="demo">
+
+<h3 class="docs">Specify which items are sortable:</h3>
+
