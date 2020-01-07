@@ -32,3 +32,38 @@
 
 <h3 class="docs">Specify which items are sortable:</h3>
 
+<ul id="sortable1">
+	<li class="ui-state-default">Item 1</li>
+	<li class="ui-state-default ui-state-disabled">(I'm not sortable or a drop target)</li>
+	<li class="ui-state-default ui-state-disabled">(I'm not sortable or a drop target)</li>
+	<li class="ui-state-default">Item 4</li>
+</ul>
+
+<h3 class="docs">Cancel sorting (but keep as drop targets):</h3>
+
+<ul id="sortable2">
+	<li class="ui-state-default">Item 1</li>
+	<li class="ui-state-default ui-state-disabled">(I'm not sortable)</li>
+	<li class="ui-state-default ui-state-disabled">(I'm not sortable)</li>
+	<li class="ui-state-default">Item 4</li>
+</ul>
+
+</div><!-- End demo -->
+
+
+
+<div class="demo-description">
+<p>
+	Specify which items are eligible to sort by passing a jQuery selector into
+	the <code>items</code> option. Items excluded from this option are not
+	sortable, nor are they valid targets for sortable items.
+</p>
+<p>
+	To only prevent sorting on certain items, pass a jQuery selector into the
+	<code>cancel</code> option. Cancelled items remain valid sort targets for
+	others.
+</p>
+</div><!-- End demo-description -->
+
+</body>
+</html>
