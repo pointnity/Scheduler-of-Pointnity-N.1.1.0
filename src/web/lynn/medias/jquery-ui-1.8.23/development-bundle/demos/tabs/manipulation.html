@@ -25,3 +25,6 @@
 		var $tab_title_input = $( "#tab_title"),
 			$tab_content_input = $( "#tab_content" );
 		var tab_counter = 2;
+
+		// tabs init with a custom tab template and an "add" callback filling in the content
+		var $tabs = $( "#tabs").tabs({
