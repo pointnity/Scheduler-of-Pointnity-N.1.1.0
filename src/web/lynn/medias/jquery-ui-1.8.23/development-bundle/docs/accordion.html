@@ -26,3 +26,4 @@
 <p>An accordion doesn't allow more than one content panel to be open at the same time, and it takes a lot of effort to do that. If you are looking for a widget that allows more than one content panel to be open, don't use this. Usually it can be written with a few lines of jQuery instead, something like this:</p>
 <pre>jQuery(document).ready(function(){
 	$('.accordion .head').click(function() {
+		$(this).next().toggle();
