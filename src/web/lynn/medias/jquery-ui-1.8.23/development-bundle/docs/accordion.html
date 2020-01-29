@@ -33,3 +33,427 @@
 <p>Or animated:</p>
 <pre>jQuery(document).ready(function(){
 	$('.accordion .head').click(function() {
+		$(this).next().toggle('slow');
+		return false;
+	}).next().hide();
+});</pre>
+    </div>
+    <div id="overview-dependencies">
+        <h3>Dependencies</h3>
+        <ul>
+<li>UI Core</li>
+<li>UI Widget</li>
+<li>UI Effects Core (Optional - only for non-default animations)</li>
+</ul>
+    </div>
+    <div id="overview-example">
+        <h3>Example</h3>
+        <div id="overview-example" class="example">
+<ul><li><a href="#demo"><span>Demo</span></a></li><li><a href="#source"><span>View Source</span></a></li></ul>
+<p><div id="demo" class="tabs-container" rel="310">
+A simple jQuery UI Accordion.<br />
+</p>
+<pre>$(&quot;#accordion&quot;).accordion();
+</pre>
+<p></div><div id="source" class="tabs-container">
+</p>
+<pre>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;link href=&quot;http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;/&gt;
+  &lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js&quot;&gt;&lt;/script&gt;
+  
+  &lt;script&gt;
+  $(document).ready(function() {
+    $(&quot;#accordion&quot;).accordion();
+  });
+  &lt;/script&gt;
+&lt;/head&gt;
+&lt;body style="font-size:62.5%;"&gt;
+  
+&lt;div id=&quot;accordion&quot;&gt;
+	&lt;h3&gt;&lt;a href=&quot;#&quot;&gt;Section 1&lt;/a&gt;&lt;/h3&gt;
+	&lt;div&gt;
+		&lt;p&gt;
+		Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+		ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+		amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+		odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+		&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;h3&gt;&lt;a href=&quot;#&quot;&gt;Section 2&lt;/a&gt;&lt;/h3&gt;
+	&lt;div&gt;
+		&lt;p&gt;
+		Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+		purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+		velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+		suscipit faucibus urna.
+		&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;h3&gt;&lt;a href=&quot;#&quot;&gt;Section 3&lt;/a&gt;&lt;/h3&gt;
+	&lt;div&gt;
+		&lt;p&gt;
+		Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+		Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+		ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+		lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+		&lt;/p&gt;
+		&lt;ul&gt;
+			&lt;li&gt;List item one&lt;/li&gt;
+			&lt;li&gt;List item two&lt;/li&gt;
+			&lt;li&gt;List item three&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;h3&gt;&lt;a href=&quot;#&quot;&gt;Section 4&lt;/a&gt;&lt;/h3&gt;
+	&lt;div&gt;
+		&lt;p&gt;
+		Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+		et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+		faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+		mauris vel est.
+		&lt;/p&gt;
+		&lt;p&gt;
+		Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+		Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+		inceptos himenaeos.
+		&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<p></div>
+</p><p></div>
+    </div>
+  </div>
+  <div id="options">
+    <h2 class="top-header">Options</h2>
+    <ul class="options-list">
+      
+<li class="option" id="option-disabled">
+  <div class="option-header">
+    <h3 class="option-name"><a href="#option-disabled">disabled</a></h3>
+    <dl>
+      <dt class="option-type-label">Type:</dt>
+        <dd class="option-type">Boolean</dd>
+      
+      <dt class="option-default-label">Default:</dt>
+        <dd class="option-default">false</dd>
+      
+    </dl>
+  </div>
+  <div class="option-description">
+    <p>Disables (true) or enables (false) the accordion. Can be set when initialising (first creating) the accordion.</p>
+  </div>
+  <div class="option-examples">
+    <h4>Code examples</h4>
+    <dl class="option-examples-list">
+    
+<dt>
+  Initialize a accordion with the <code>disabled</code> option specified.
+</dt>
+<dd>
+<pre><code>$( ".selector" ).accordion({ disabled: true });</code></pre>
+</dd>
+
+    
+<dt>
+  Get or set the <code>disabled</code> option, after init.
+</dt>
+<dd>
+<pre><code>//getter
+var disabled = $( ".selector" ).accordion( "option", "disabled" );
+//setter
+$( ".selector" ).accordion( "option", "disabled", true );</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="option" id="option-active">
+  <div class="option-header">
+    <h3 class="option-name"><a href="#option-active">active</a></h3>
+    <dl>
+      <dt class="option-type-label">Type:</dt>
+        <dd class="option-type">Selector, Element, jQuery, Boolean, Number</dd>
+      
+      <dt class="option-default-label">Default:</dt>
+        <dd class="option-default">first child</dd>
+      
+    </dl>
+  </div>
+  <div class="option-description">
+    <p>Selector for the active element. Set to false to display none at start. Needs <code>collapsible: true</code>.</p>
+  </div>
+  <div class="option-examples">
+    <h4>Code examples</h4>
+    <dl class="option-examples-list">
+    
+<dt>
+  Initialize a accordion with the <code>active</code> option specified.
+</dt>
+<dd>
+<pre><code>$( ".selector" ).accordion({ active: 2 });</code></pre>
+</dd>
+
+    
+<dt>
+  Get or set the <code>active</code> option, after init.
+</dt>
+<dd>
+<pre><code>//getter
+var active = $( ".selector" ).accordion( "option", "active" );
+//setter
+$( ".selector" ).accordion( "option", "active", 2 );</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="option" id="option-animated">
+  <div class="option-header">
+    <h3 class="option-name"><a href="#option-animated">animated</a></h3>
+    <dl>
+      <dt class="option-type-label">Type:</dt>
+        <dd class="option-type">Boolean, String</dd>
+      
+      <dt class="option-default-label">Default:</dt>
+        <dd class="option-default">"slide"</dd>
+      
+    </dl>
+  </div>
+  <div class="option-description">
+    <p>Choose your favorite animation, or disable them (set to false). In addition to the default, 'bounceslide' and all defined easing methods are supported ('bounceslide' requires UI Effects Core).</p>
+  </div>
+  <div class="option-examples">
+    <h4>Code examples</h4>
+    <dl class="option-examples-list">
+    
+<dt>
+  Initialize a accordion with the <code>animated</code> option specified.
+</dt>
+<dd>
+<pre><code>$( ".selector" ).accordion({ animated: 'bounceslide' });</code></pre>
+</dd>
+
+    
+<dt>
+  Get or set the <code>animated</code> option, after init.
+</dt>
+<dd>
+<pre><code>//getter
+var animated = $( ".selector" ).accordion( "option", "animated" );
+//setter
+$( ".selector" ).accordion( "option", "animated", 'bounceslide' );</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="option" id="option-autoHeight">
+  <div class="option-header">
+    <h3 class="option-name"><a href="#option-autoHeight">autoHeight</a></h3>
+    <dl>
+      <dt class="option-type-label">Type:</dt>
+        <dd class="option-type">Boolean</dd>
+      
+      <dt class="option-default-label">Default:</dt>
+        <dd class="option-default">true</dd>
+      
+    </dl>
+  </div>
+  <div class="option-description">
+    <p>If set, the highest content part is used as height reference for all other parts. Provides more consistent animations.</p>
+  </div>
+  <div class="option-examples">
+    <h4>Code examples</h4>
+    <dl class="option-examples-list">
+    
+<dt>
+  Initialize a accordion with the <code>autoHeight</code> option specified.
+</dt>
+<dd>
+<pre><code>$( ".selector" ).accordion({ autoHeight: false });</code></pre>
+</dd>
+
+    
+<dt>
+  Get or set the <code>autoHeight</code> option, after init.
+</dt>
+<dd>
+<pre><code>//getter
+var autoHeight = $( ".selector" ).accordion( "option", "autoHeight" );
+//setter
+$( ".selector" ).accordion( "option", "autoHeight", false );</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="option" id="option-clearStyle">
+  <div class="option-header">
+    <h3 class="option-name"><a href="#option-clearStyle">clearStyle</a></h3>
+    <dl>
+      <dt class="option-type-label">Type:</dt>
+        <dd class="option-type">Boolean</dd>
+      
+      <dt class="option-default-label">Default:</dt>
+        <dd class="option-default">false</dd>
+      
+    </dl>
+  </div>
+  <div class="option-description">
+    <p>If set, clears height and overflow styles after finishing animations. This enables accordions to work with dynamic content. Won't work together with autoHeight.</p>
+  </div>
+  <div class="option-examples">
+    <h4>Code examples</h4>
+    <dl class="option-examples-list">
+    
+<dt>
+  Initialize a accordion with the <code>clearStyle</code> option specified.
+</dt>
+<dd>
+<pre><code>$( ".selector" ).accordion({ clearStyle: true });</code></pre>
+</dd>
+
+    
+<dt>
+  Get or set the <code>clearStyle</code> option, after init.
+</dt>
+<dd>
+<pre><code>//getter
+var clearStyle = $( ".selector" ).accordion( "option", "clearStyle" );
+//setter
+$( ".selector" ).accordion( "option", "clearStyle", true );</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="option" id="option-collapsible">
+  <div class="option-header">
+    <h3 class="option-name"><a href="#option-collapsible">collapsible</a></h3>
+    <dl>
+      <dt class="option-type-label">Type:</dt>
+        <dd class="option-type">Boolean</dd>
+      
+      <dt class="option-default-label">Default:</dt>
+        <dd class="option-default">false</dd>
+      
+    </dl>
+  </div>
+  <div class="option-description">
+    <p>Whether all the sections can be closed at once. Allows collapsing the active section by the triggering event (click is the default).</p>
+  </div>
+  <div class="option-examples">
+    <h4>Code examples</h4>
+    <dl class="option-examples-list">
+    
+<dt>
+  Initialize a accordion with the <code>collapsible</code> option specified.
+</dt>
+<dd>
+<pre><code>$( ".selector" ).accordion({ collapsible: true });</code></pre>
+</dd>
+
+    
+<dt>
+  Get or set the <code>collapsible</code> option, after init.
+</dt>
+<dd>
+<pre><code>//getter
+var collapsible = $( ".selector" ).accordion( "option", "collapsible" );
+//setter
+$( ".selector" ).accordion( "option", "collapsible", true );</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="option" id="option-event">
+  <div class="option-header">
+    <h3 class="option-name"><a href="#option-event">event</a></h3>
+    <dl>
+      <dt class="option-type-label">Type:</dt>
+        <dd class="option-type">String</dd>
+      
+      <dt class="option-default-label">Default:</dt>
+        <dd class="option-default">"click"</dd>
+      
+    </dl>
+  </div>
+  <div class="option-description">
+    <p>The event on which to trigger the accordion.</p>
+  </div>
+  <div class="option-examples">
+    <h4>Code examples</h4>
+    <dl class="option-examples-list">
+    
+<dt>
+  Initialize a accordion with the <code>event</code> option specified.
+</dt>
+<dd>
+<pre><code>$( ".selector" ).accordion({ event: 'mouseover' });</code></pre>
+</dd>
+
+    
+<dt>
+  Get or set the <code>event</code> option, after init.
+</dt>
+<dd>
+<pre><code>//getter
+var event = $( ".selector" ).accordion( "option", "event" );
+//setter
+$( ".selector" ).accordion( "option", "event", 'mouseover' );</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="option" id="option-fillSpace">
+  <div class="option-header">
+    <h3 class="option-name"><a href="#option-fillSpace">fillSpace</a></h3>
+    <dl>
+      <dt class="option-type-label">Type:</dt>
+        <dd class="option-type">Boolean</dd>
+      
+      <dt class="option-default-label">Default:</dt>
+        <dd class="option-default">false</dd>
+      
+    </dl>
+  </div>
+  <div class="option-description">
+    <p>If set, the accordion completely fills the height of the parent element. Overrides autoheight.</p>
+  </div>
+  <div class="option-examples">
+    <h4>Code examples</h4>
+    <dl class="option-examples-list">
+    
+<dt>
+  Initialize a accordion with the <code>fillSpace</code> option specified.
+</dt>
+<dd>
+<pre><code>$( ".selector" ).accordion({ fillSpace: true });</code></pre>
+</dd>
+
+    
+<dt>
+  Get or set the <code>fillSpace</code> option, after init.
+</dt>
+<dd>
