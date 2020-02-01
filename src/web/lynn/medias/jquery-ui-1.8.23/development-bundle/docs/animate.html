@@ -42,3 +42,10 @@ A simple color animation.<br />
 
   &lt;script&gt;
   $(document).ready(function(){
+    $(&quot;.block&quot;).<a href="docs.jquery/Events/toggle" title="Events/toggle">toggle</a>(function() {
+    $(this).<a href="docs.jquery/Effects/animate" title="Effects/animate">animate</a>({ backgroundColor: &quot;black&quot; }, 1000);
+},function() {
+    $(this).<a href="docs.jquery/Effects/animate" title="Effects/animate">animate</a>({ backgroundColor: &quot;#68BFEF&quot; }, 500);
+});
+
+  });
