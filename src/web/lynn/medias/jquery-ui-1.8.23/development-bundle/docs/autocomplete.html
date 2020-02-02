@@ -31,3 +31,4 @@
 <p>When a String is used, the Autocomplete plugin expects that string to point to a URL resource that will return JSON data. It can be on the same host or on a different one (must provide JSONP). The Autocomplete plugin does not filter the results, instead the request parameter "term" gets added to the URL, which the server-side script should use for filtering the results. The data itself can be in the same format as the local data described above.</p>
 <p>The third variation, the callback, provides the most flexibility, and can be used to connect any data source to Autocomplete. The callback gets two arguments:</p>
 <ul>
+<li>A request object, with a single property called "term", which refers to the value currently in the text input. For example, when the user entered "new yo" in a city field, the Autocomplete term will equal "new yo".</li>
