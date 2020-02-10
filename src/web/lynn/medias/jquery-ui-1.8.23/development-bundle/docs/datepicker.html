@@ -205,3 +205,193 @@ $( ".selector" ).datepicker( "option", "altField", "#actualDate" );</code></pre>
     
 <dt>
   Initialize a datepicker with the <code>altFormat</code> option specified.
+</dt>
+<dd>
+<pre><code>$( ".selector" ).datepicker({ altFormat: "yy-mm-dd" });</code></pre>
+</dd>
+
+    
+<dt>
+  Get or set the <code>altFormat</code> option, after init.
+</dt>
+<dd>
+<pre><code>//getter
+var altFormat = $( ".selector" ).datepicker( "option", "altFormat" );
+//setter
+$( ".selector" ).datepicker( "option", "altFormat", "yy-mm-dd" );</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="option" id="option-appendText">
+  <div class="option-header">
+    <h3 class="option-name"><a href="#option-appendText">appendText</a></h3>
+    <dl>
+      <dt class="option-type-label">Type:</dt>
+        <dd class="option-type">String</dd>
+      
+      <dt class="option-default-label">Default:</dt>
+        <dd class="option-default">&quot;&quot;</dd>
+      
+    </dl>
+  </div>
+  <div class="option-description">
+    <p>The text to display after each date field, e.g. to show the required format.</p>
+  </div>
+  <div class="option-examples">
+    <h4>Code examples</h4>
+    <dl class="option-examples-list">
+    
+<dt>
+  Initialize a datepicker with the <code>appendText</code> option specified.
+</dt>
+<dd>
+<pre><code>$( ".selector" ).datepicker({ appendText: "(yyyy-mm-dd)" });</code></pre>
+</dd>
+
+    
+<dt>
+  Get or set the <code>appendText</code> option, after init.
+</dt>
+<dd>
+<pre><code>//getter
+var appendText = $( ".selector" ).datepicker( "option", "appendText" );
+//setter
+$( ".selector" ).datepicker( "option", "appendText", "(yyyy-mm-dd)" );</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="option" id="option-autoSize">
+  <div class="option-header">
+    <h3 class="option-name"><a href="#option-autoSize">autoSize</a></h3>
+    <dl>
+      <dt class="option-type-label">Type:</dt>
+        <dd class="option-type">Boolean</dd>
+      
+      <dt class="option-default-label">Default:</dt>
+        <dd class="option-default">false</dd>
+      
+    </dl>
+  </div>
+  <div class="option-description">
+    <p>Set to true to automatically resize the input field to accommodate dates in the current <code><a href="http://docs.jquery.com/UI/Datepicker#option-dateFormat" title="UI/Datepicker">dateFormat</a></code>.</p>
+  </div>
+  <div class="option-examples">
+    <h4>Code examples</h4>
+    <dl class="option-examples-list">
+    
+<dt>
+  Initialize a datepicker with the <code>autoSize</code> option specified.
+</dt>
+<dd>
+<pre><code>$( ".selector" ).datepicker({ autoSize: true });</code></pre>
+</dd>
+
+    
+<dt>
+  Get or set the <code>autoSize</code> option, after init.
+</dt>
+<dd>
+<pre><code>//getter
+var autoSize = $( ".selector" ).datepicker( "option", "autoSize" );
+//setter
+$( ".selector" ).datepicker( "option", "autoSize", true );</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="option" id="option-buttonImage">
+  <div class="option-header">
+    <h3 class="option-name"><a href="#option-buttonImage">buttonImage</a></h3>
+    <dl>
+      <dt class="option-type-label">Type:</dt>
+        <dd class="option-type">String</dd>
+      
+      <dt class="option-default-label">Default:</dt>
+        <dd class="option-default">&quot;&quot;</dd>
+      
+    </dl>
+  </div>
+  <div class="option-description">
+    <p>The URL for the popup button image. If set, <code><a href="http://docs.jquery.com/UI/Datepicker#option-buttonText" title="UI/Datepicker">buttonText</a></code> becomes the <i>alt</i> value and is not directly displayed.</p>
+  </div>
+  <div class="option-examples">
+    <h4>Code examples</h4>
+    <dl class="option-examples-list">
+    
+<dt>
+  Initialize a datepicker with the <code>buttonImage</code> option specified.
+</dt>
+<dd>
+<pre><code>$( ".selector" ).datepicker({ buttonImage: "/images/datepicker.gif" });</code></pre>
+</dd>
+
+    
+<dt>
+  Get or set the <code>buttonImage</code> option, after init.
+</dt>
+<dd>
+<pre><code>//getter
+var buttonImage = $( ".selector" ).datepicker( "option", "buttonImage" );
+//setter
+$( ".selector" ).datepicker( "option", "buttonImage", "/images/datepicker.gif" );</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="option" id="option-buttonImageOnly">
+  <div class="option-header">
+    <h3 class="option-name"><a href="#option-buttonImageOnly">buttonImageOnly</a></h3>
+    <dl>
+      <dt class="option-type-label">Type:</dt>
+        <dd class="option-type">Boolean</dd>
+      
+      <dt class="option-default-label">Default:</dt>
+        <dd class="option-default">false</dd>
+      
+    </dl>
+  </div>
+  <div class="option-description">
+    <p>Set to true to place an image after the field to use as the trigger without it appearing on a button.</p>
+  </div>
+  <div class="option-examples">
+    <h4>Code examples</h4>
+    <dl class="option-examples-list">
+    
+<dt>
+  Initialize a datepicker with the <code>buttonImageOnly</code> option specified.
+</dt>
+<dd>
+<pre><code>$( ".selector" ).datepicker({ buttonImageOnly: true });</code></pre>
+</dd>
+
+    
+<dt>
+  Get or set the <code>buttonImageOnly</code> option, after init.
+</dt>
+<dd>
+<pre><code>//getter
+var buttonImageOnly = $( ".selector" ).datepicker( "option", "buttonImageOnly" );
+//setter
+$( ".selector" ).datepicker( "option", "buttonImageOnly", true );</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="option" id="option-buttonText">
