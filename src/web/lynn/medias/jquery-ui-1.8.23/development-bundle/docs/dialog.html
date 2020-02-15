@@ -1287,3 +1287,291 @@ $( ".selector" ).dialog( "option", "zIndex", 3999 );</code></pre>
 
 
 <li class="event" id="event-drag">
+  <div class="event-header">
+    <h3 class="event-name"><a href="#event-drag">drag</a></h3>
+    <dl>
+      <dt class="event-type-label">Type:</dt>
+        <dd class="event-type">dialogdrag</dd>
+    </dl>
+  </div>
+  <div class="event-description">
+    <p>This event is triggered when the dialog is dragged.</p>
+  </div>
+  <div class="event-examples">
+    <h4>Code examples</h4>
+    <dl class="event-examples-list">
+    
+<dt>
+  Supply a callback function to handle the <code>drag</code> event as an init option.
+</dt>
+<dd>
+<pre><code>$( &quot;.selector&quot; ).dialog({
+   drag: function(event, ui) { ... }
+});</code></pre>
+</dd>
+
+    
+<dt>
+  Bind to the <code>drag</code> event by type: <code>dialogdrag</code>.
+</dt>
+<dd>
+<pre><code>$( &quot;.selector&quot; ).bind( &quot;dialogdrag&quot;, function(event, ui) {
+  ...
+});</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="event" id="event-dragStop">
+  <div class="event-header">
+    <h3 class="event-name"><a href="#event-dragStop">dragStop</a></h3>
+    <dl>
+      <dt class="event-type-label">Type:</dt>
+        <dd class="event-type">dialogdragstop</dd>
+    </dl>
+  </div>
+  <div class="event-description">
+    <p>This event is triggered after the dialog has been dragged.</p>
+  </div>
+  <div class="event-examples">
+    <h4>Code examples</h4>
+    <dl class="event-examples-list">
+    
+<dt>
+  Supply a callback function to handle the <code>dragStop</code> event as an init option.
+</dt>
+<dd>
+<pre><code>$( &quot;.selector&quot; ).dialog({
+   dragStop: function(event, ui) { ... }
+});</code></pre>
+</dd>
+
+    
+<dt>
+  Bind to the <code>dragStop</code> event by type: <code>dialogdragstop</code>.
+</dt>
+<dd>
+<pre><code>$( &quot;.selector&quot; ).bind( &quot;dialogdragstop&quot;, function(event, ui) {
+  ...
+});</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="event" id="event-resizeStart">
+  <div class="event-header">
+    <h3 class="event-name"><a href="#event-resizeStart">resizeStart</a></h3>
+    <dl>
+      <dt class="event-type-label">Type:</dt>
+        <dd class="event-type">dialogresizestart</dd>
+    </dl>
+  </div>
+  <div class="event-description">
+    <p>This event is triggered at the beginning of the dialog being resized.</p>
+  </div>
+  <div class="event-examples">
+    <h4>Code examples</h4>
+    <dl class="event-examples-list">
+    
+<dt>
+  Supply a callback function to handle the <code>resizeStart</code> event as an init option.
+</dt>
+<dd>
+<pre><code>$( &quot;.selector&quot; ).dialog({
+   resizeStart: function(event, ui) { ... }
+});</code></pre>
+</dd>
+
+    
+<dt>
+  Bind to the <code>resizeStart</code> event by type: <code>dialogresizestart</code>.
+</dt>
+<dd>
+<pre><code>$( &quot;.selector&quot; ).bind( &quot;dialogresizestart&quot;, function(event, ui) {
+  ...
+});</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="event" id="event-resize">
+  <div class="event-header">
+    <h3 class="event-name"><a href="#event-resize">resize</a></h3>
+    <dl>
+      <dt class="event-type-label">Type:</dt>
+        <dd class="event-type">dialogresize</dd>
+    </dl>
+  </div>
+  <div class="event-description">
+    <p>This event is triggered when the dialog is resized. <a href="http://www.jsfiddle.net/Jp7TM/18/" class="external text" title="http://www.jsfiddle.net/Jp7TM/18/">demo</a></p>
+  </div>
+  <div class="event-examples">
+    <h4>Code examples</h4>
+    <dl class="event-examples-list">
+    
+<dt>
+  Supply a callback function to handle the <code>resize</code> event as an init option.
+</dt>
+<dd>
+<pre><code>$( &quot;.selector&quot; ).dialog({
+   resize: function(event, ui) { ... }
+});</code></pre>
+</dd>
+
+    
+<dt>
+  Bind to the <code>resize</code> event by type: <code>dialogresize</code>.
+</dt>
+<dd>
+<pre><code>$( &quot;.selector&quot; ).bind( &quot;dialogresize&quot;, function(event, ui) {
+  ...
+});</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="event" id="event-resizeStop">
+  <div class="event-header">
+    <h3 class="event-name"><a href="#event-resizeStop">resizeStop</a></h3>
+    <dl>
+      <dt class="event-type-label">Type:</dt>
+        <dd class="event-type">dialogresizestop</dd>
+    </dl>
+  </div>
+  <div class="event-description">
+    <p>This event is triggered after the dialog has been resized.</p>
+  </div>
+  <div class="event-examples">
+    <h4>Code examples</h4>
+    <dl class="event-examples-list">
+    
+<dt>
+  Supply a callback function to handle the <code>resizeStop</code> event as an init option.
+</dt>
+<dd>
+<pre><code>$( &quot;.selector&quot; ).dialog({
+   resizeStop: function(event, ui) { ... }
+});</code></pre>
+</dd>
+
+    
+<dt>
+  Bind to the <code>resizeStop</code> event by type: <code>dialogresizestop</code>.
+</dt>
+<dd>
+<pre><code>$( &quot;.selector&quot; ).bind( &quot;dialogresizestop&quot;, function(event, ui) {
+  ...
+});</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="event" id="event-close">
+  <div class="event-header">
+    <h3 class="event-name"><a href="#event-close">close</a></h3>
+    <dl>
+      <dt class="event-type-label">Type:</dt>
+        <dd class="event-type">dialogclose</dd>
+    </dl>
+  </div>
+  <div class="event-description">
+    <p>This event is triggered when the dialog is closed.</p>
+  </div>
+  <div class="event-examples">
+    <h4>Code examples</h4>
+    <dl class="event-examples-list">
+    
+<dt>
+  Supply a callback function to handle the <code>close</code> event as an init option.
+</dt>
+<dd>
+<pre><code>$( &quot;.selector&quot; ).dialog({
+   close: function(event, ui) { ... }
+});</code></pre>
+</dd>
+
+    
+<dt>
+  Bind to the <code>close</code> event by type: <code>dialogclose</code>.
+</dt>
+<dd>
+<pre><code>$( &quot;.selector&quot; ).bind( &quot;dialogclose&quot;, function(event, ui) {
+  ...
+});</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+    </ul>
+  </div>
+  <div id="methods">
+    <h2 class="top-header">Methods</h2>
+    <ul class="methods-list">
+      
+<li class="method" id="method-destroy">
+  <div class="method-header">
+    <h3 class="method-name"><a href="#method-destroy">destroy</a></h3>
+    <dl>
+      <dt class="method-signature-label">Signature:</dt>
+        <dd class="method-signature">.dialog( "destroy"
+
+
+
+
+
+
+
+)</dd>
+    </dl>
+  </div>
+  <div class="method-description">
+    <p>Remove the dialog functionality completely. This will return the element back to its pre-init state.</p>
+  </div>
+</li>
+
+
+<li class="method" id="method-disable">
+  <div class="method-header">
+    <h3 class="method-name"><a href="#method-disable">disable</a></h3>
+    <dl>
+      <dt class="method-signature-label">Signature:</dt>
+        <dd class="method-signature">.dialog( "disable"
+
+
+
+
+
+
+
+)</dd>
+    </dl>
+  </div>
+  <div class="method-description">
+    <p>Disable the dialog.</p>
+  </div>
+</li>
+
+
+<li class="method" id="method-enable">
+  <div class="method-header">
+    <h3 class="method-name"><a href="#method-enable">enable</a></h3>
+    <dl>
+      <dt class="method-signature-label">Signature:</dt>
+        <dd class="method-signature">.dialog( "enable"
