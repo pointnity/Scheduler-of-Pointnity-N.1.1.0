@@ -1575,3 +1575,199 @@ $( ".selector" ).dialog( "option", "zIndex", 3999 );</code></pre>
     <dl>
       <dt class="method-signature-label">Signature:</dt>
         <dd class="method-signature">.dialog( "enable"
+
+
+
+
+
+
+
+)</dd>
+    </dl>
+  </div>
+  <div class="method-description">
+    <p>Enable the dialog.</p>
+  </div>
+</li>
+
+
+<li class="method" id="method-option">
+  <div class="method-header">
+    <h3 class="method-name"><a href="#method-option">option</a></h3>
+    <dl>
+      <dt class="method-signature-label">Signature:</dt>
+        <dd class="method-signature">.dialog( "option"
+
+, optionName
+
+, <span class="optional">[</span>value<span class="optional">] </span>
+
+
+
+)</dd>
+    </dl>
+  </div>
+  <div class="method-description">
+    <p>Get or set any dialog option. If no value is specified, will act as a getter.</p>
+  </div>
+</li>
+
+
+<li class="method" id="method-option">
+  <div class="method-header">
+    <h3 class="method-name"><a href="#method-option">option</a></h3>
+    <dl>
+      <dt class="method-signature-label">Signature:</dt>
+        <dd class="method-signature">.dialog( "option"
+
+, options
+
+
+
+
+
+)</dd>
+    </dl>
+  </div>
+  <div class="method-description">
+    <p>Set multiple dialog options at once by providing an options object.</p>
+  </div>
+</li>
+
+
+<li class="method" id="method-widget">
+  <div class="method-header">
+    <h3 class="method-name"><a href="#method-widget">widget</a></h3>
+    <dl>
+      <dt class="method-signature-label">Signature:</dt>
+        <dd class="method-signature">.dialog( "widget"
+
+
+
+
+
+
+
+)</dd>
+    </dl>
+  </div>
+  <div class="method-description">
+    <p>Returns the .ui-dialog element.</p>
+  </div>
+</li>
+
+
+<li class="method" id="method-close">
+  <div class="method-header">
+    <h3 class="method-name"><a href="#method-close">close</a></h3>
+    <dl>
+      <dt class="method-signature-label">Signature:</dt>
+        <dd class="method-signature">.dialog( "close"
+
+
+
+
+
+
+
+)</dd>
+    </dl>
+  </div>
+  <div class="method-description">
+    <p>Close the dialog.</p>
+  </div>
+</li>
+
+
+<li class="method" id="method-isOpen">
+  <div class="method-header">
+    <h3 class="method-name"><a href="#method-isOpen">isOpen</a></h3>
+    <dl>
+      <dt class="method-signature-label">Signature:</dt>
+        <dd class="method-signature">.dialog( "isOpen"
+
+
+
+
+
+
+
+)</dd>
+    </dl>
+  </div>
+  <div class="method-description">
+    <p>Returns true if the dialog is currently open.</p>
+  </div>
+</li>
+
+
+<li class="method" id="method-moveToTop">
+  <div class="method-header">
+    <h3 class="method-name"><a href="#method-moveToTop">moveToTop</a></h3>
+    <dl>
+      <dt class="method-signature-label">Signature:</dt>
+        <dd class="method-signature">.dialog( "moveToTop"
+
+
+
+
+
+
+
+)</dd>
+    </dl>
+  </div>
+  <div class="method-description">
+    <p>Move the dialog to the top of the dialogs stack.</p>
+  </div>
+</li>
+
+
+<li class="method" id="method-open">
+  <div class="method-header">
+    <h3 class="method-name"><a href="#method-open">open</a></h3>
+    <dl>
+      <dt class="method-signature-label">Signature:</dt>
+        <dd class="method-signature">.dialog( "open"
+
+
+
+
+
+
+
+)</dd>
+    </dl>
+  </div>
+  <div class="method-description">
+    <p>Open the dialog.</p>
+  </div>
+</li>
+
+    </ul>
+  </div>
+  <div id="theming">
+    <h2 class="top-header">Theming</h2>
+    <p>The jQuery UI Dialog plugin uses the jQuery UI CSS Framework to style its look and feel, including colors and background textures. We recommend using the ThemeRoller tool to create and download custom themes that are easy to build and maintain.
+</p>
+  <p>If a deeper level of customization is needed, there are widget-specific classes referenced within the jquery.ui.dialog.css stylesheet that can be modified. These classes are highlighed in bold below.
+</p>
+    
+  <h3>Sample markup with jQuery UI CSS Framework classes</h3>
+  &lt;div class=&quot;<strong>ui-dialog</strong> ui-widget ui-widget-content ui-corner-all ui-draggable ui-resizable&quot;&gt;<br />
+&nbsp;&nbsp;&nbsp;&lt;div class=&quot;<strong>ui-dialog-titlebar</strong> ui-widget-header ui-corner-all ui-helper-clearfix&quot;&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;span id=&quot;<strong>ui-dialog-title-dialog</strong>&quot; class=&quot;ui-dialog-title&quot;&gt;Dialog title&lt;/span&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a class=&quot;<strong>ui-dialog-titlebar-close</strong> ui-corner-all&quot; href=&quot;#&quot;&gt;&lt;span class=&quot;ui-icon ui-icon-closethick&quot;&gt;close&lt;/span&gt;&lt;/a&gt;<br />
+&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br />
+&nbsp;&nbsp;&nbsp;&lt;div style=&quot;height: 200px; min-height: 109px; width: auto;&quot; class=&quot;<strong>ui-dialog-content</strong> ui-widget-content&quot; id=&quot;dialog&quot;&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Dialog content goes here.&lt;/p&gt;<br />
+&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br />
+&lt;/div&gt;<br />
+  <p class="theme-note">
+    <strong>
+      Note: This is a sample of markup generated by the dialog plugin, not markup you should use to create a dialog. The only markup needed for that is &lt;div&gt;&lt;/div&gt;.
+    </strong>
+  </p>
+
+  </div>
+</div
