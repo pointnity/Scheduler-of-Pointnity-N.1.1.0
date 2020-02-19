@@ -1,4 +1,4 @@
-    
+     
 <ul class="UIAPIPlugin-toc">
 <li><a href="#overview">Overview</a></li>
 <li><a href="#options">Options</a></li>
@@ -130,3 +130,21 @@ $( ".selector" ).draggable( "option", "disabled", true );</code></pre>
     <p>If set to false, will prevent the <code>ui-draggable</code> class from being added. This may be desired as a performance optimization when calling <code>.draggable()</code> init on many hundreds of elements.</p>
   </div>
   <div class="option-examples">
+    <h4>Code examples</h4>
+    <dl class="option-examples-list">
+    
+<dt>
+  Initialize a draggable with the <code>addClasses</code> option specified.
+</dt>
+<dd>
+<pre><code>$( ".selector" ).draggable({ addClasses: false });</code></pre>
+</dd>
+
+    
+<dt>
+  Get or set the <code>addClasses</code> option, after init.
+</dt>
+<dd>
+<pre><code>//getter
+var addClasses = $( ".selector" ).draggable( "option", "addClasses" );
+//setter
