@@ -303,3 +303,29 @@ $( ".selector" ).draggable( "option", "cancel", "button" );</code></pre>
     <dl class="option-examples-list">
     
 <dt>
+  Initialize a draggable with the <code>connectToSortable</code> option specified.
+</dt>
+<dd>
+<pre><code>$( ".selector" ).draggable({ connectToSortable: "ul#myList" });</code></pre>
+</dd>
+
+    
+<dt>
+  Get or set the <code>connectToSortable</code> option, after init.
+</dt>
+<dd>
+<pre><code>//getter
+var connectToSortable = $( ".selector" ).draggable( "option", "connectToSortable" );
+//setter
+$( ".selector" ).draggable( "option", "connectToSortable", "ul#myList" );</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="option" id="option-containment">
+  <div class="option-header">
+    <h3 class="option-name"><a href="#option-containment">containment</a></h3>
+    <dl>
