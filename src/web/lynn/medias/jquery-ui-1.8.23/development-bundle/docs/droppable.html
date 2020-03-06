@@ -473,3 +473,26 @@ $( ".selector" ).droppable( "option", "tolerance", "fit" );</code></pre>
       <dt class="event-type-label">Type:</dt>
         <dd class="event-type">dropactivate</dd>
   </div>
+  <div class="event-description">
+    <p>This event is triggered any time an accepted draggable starts dragging. This can be useful if you want to make the droppable 'light up' when it can be dropped on.</p>
+  </div>
+  <div class="event-examples">
+    <h4>Code examples</h4>
+    <dl class="event-examples-list">
+    
+<dt>
+  Supply a callback function to handle the <code>activate</code> event as an init option.
+</dt>
+<dd>
+<pre><code>$( &quot;.selector&quot; ).droppable({
+   activate: function(event, ui) { ... }
+});</code></pre>
+</dd>
+
+    
+<dt>
+  Bind to the <code>activate</code> event by type: <code>dropactivate</code>.
+</dt>
+<dd>
+<pre><code>$( &quot;.selector&quot; ).bind( &quot;dropactivate&quot;, function(event, ui) {
+  ...
