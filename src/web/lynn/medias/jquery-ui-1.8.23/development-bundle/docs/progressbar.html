@@ -242,3 +242,219 @@ $( ".selector" ).progressbar( "option", "value", 37 );</code></pre>
   <div class="event-description">
     <p>This event is triggered when the value of the progressbar reaches the maximum value of 100.</p>
   </div>
+  <div class="event-examples">
+    <h4>Code examples</h4>
+    <dl class="event-examples-list">
+    
+<dt>
+  Supply a callback function to handle the <code>complete</code> event as an init option.
+</dt>
+<dd>
+<pre><code>$( &quot;.selector&quot; ).progressbar({
+   complete: function(event, ui) { ... }
+});</code></pre>
+</dd>
+
+    
+<dt>
+  Bind to the <code>complete</code> event by type: <code>progressbarcomplete</code>.
+</dt>
+<dd>
+<pre><code>$( &quot;.selector&quot; ).bind( &quot;progressbarcomplete&quot;, function(event, ui) {
+  ...
+});</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+    </ul>
+  </div>
+  <div id="methods">
+    <h2 class="top-header">Methods</h2>
+    <ul class="methods-list">
+      
+<li class="method" id="method-destroy">
+  <div class="method-header">
+    <h3 class="method-name"><a href="#method-destroy">destroy</a></h3>
+    <dl>
+      <dt class="method-signature-label">Signature:</dt>
+        <dd class="method-signature">.progressbar( "destroy"
+
+
+
+
+
+
+
+)</dd>
+    </dl>
+  </div>
+  <div class="method-description">
+    <p>Remove the progressbar functionality completely. This will return the element back to its pre-init state.</p>
+  </div>
+</li>
+
+
+<li class="method" id="method-disable">
+  <div class="method-header">
+    <h3 class="method-name"><a href="#method-disable">disable</a></h3>
+    <dl>
+      <dt class="method-signature-label">Signature:</dt>
+        <dd class="method-signature">.progressbar( "disable"
+
+
+
+
+
+
+
+)</dd>
+    </dl>
+  </div>
+  <div class="method-description">
+    <p>Disable the progressbar.</p>
+  </div>
+</li>
+
+
+<li class="method" id="method-enable">
+  <div class="method-header">
+    <h3 class="method-name"><a href="#method-enable">enable</a></h3>
+    <dl>
+      <dt class="method-signature-label">Signature:</dt>
+        <dd class="method-signature">.progressbar( "enable"
+
+
+
+
+
+
+
+)</dd>
+    </dl>
+  </div>
+  <div class="method-description">
+    <p>Enable the progressbar.</p>
+  </div>
+</li>
+
+
+<li class="method" id="method-option">
+  <div class="method-header">
+    <h3 class="method-name"><a href="#method-option">option</a></h3>
+    <dl>
+      <dt class="method-signature-label">Signature:</dt>
+        <dd class="method-signature">.progressbar( "option"
+
+, optionName
+
+, <span class="optional">[</span>value<span class="optional">] </span>
+
+
+
+)</dd>
+    </dl>
+  </div>
+  <div class="method-description">
+    <p>Get or set any progressbar option. If no value is specified, will act as a getter.</p>
+  </div>
+</li>
+
+
+<li class="method" id="method-option">
+  <div class="method-header">
+    <h3 class="method-name"><a href="#method-option">option</a></h3>
+    <dl>
+      <dt class="method-signature-label">Signature:</dt>
+        <dd class="method-signature">.progressbar( "option"
+
+, options
+
+
+
+
+
+)</dd>
+    </dl>
+  </div>
+  <div class="method-description">
+    <p>Set multiple progressbar options at once by providing an options object.</p>
+  </div>
+</li>
+
+
+<li class="method" id="method-widget">
+  <div class="method-header">
+    <h3 class="method-name"><a href="#method-widget">widget</a></h3>
+    <dl>
+      <dt class="method-signature-label">Signature:</dt>
+        <dd class="method-signature">.progressbar( "widget"
+
+
+
+
+
+
+
+)</dd>
+    </dl>
+  </div>
+  <div class="method-description">
+    <p>Returns the .ui-progressbar element.</p>
+  </div>
+</li>
+
+
+<li class="method" id="method-value">
+  <div class="method-header">
+    <h3 class="method-name"><a href="#method-value">value</a></h3>
+    <dl>
+      <dt class="method-signature-label">Signature:</dt>
+        <dd class="method-signature">.progressbar( "value"
+
+, <span class="optional">[</span>value<span class="optional">] </span>
+
+
+
+
+
+)</dd>
+    </dl>
+  </div>
+  <div class="method-description">
+    <p>This method gets or sets the current value of the progressbar.</p>
+  </div>
+</li>
+
+    </ul>
+  </div>
+  <div id="theming">
+    <h2 class="top-header">Theming</h2>
+    <p>The jQuery UI Progressbar plugin uses the jQuery UI CSS Framework to style its look and feel, including colors and background textures. We recommend using the ThemeRoller tool to create and download custom themes that are easy to build and maintain.
+</p>
+  <p>If a deeper level of customization is needed, there are widget-specific classes referenced within the jquery.ui.progressbar.css stylesheet that can be modified. These classes are highlighed in bold below.
+</p>
+    
+  <h3>Sample markup with jQuery UI CSS Framework classes</h3>
+  &lt;div class=&quot;<strong>ui-progressbar </strong>ui-widget ui-widget-content ui-corner-all&quot;&gt;<br />
+	&nbsp;&nbsp;&nbsp;&lt;div style=&quot;width: 37%;&quot; class=&quot;<strong>ui-progressbar-value</strong> ui-widget-header ui-corner-left&quot;&gt;&lt;/div&gt;<br />
+	&lt;/div&gt;
+  <p class="theme-note">
+    <strong>
+      Note: This is a sample of markup generated by the progressbar plugin, not markup you should use to create a progressbar. The only markup needed for that is &lt;div&gt;&lt;/div&gt;.
+    </strong>
+  </p>
+
+  </div>
+</div>
+
+</p><!-- 
+Pre-expand include size: 21686 bytes
+Post-expand include size: 27328 bytes
+Template argument size: 10881 bytes
+Maximum: 2097152 bytes
+-->
+
+<!-- Saved in parser cache with key jqdocs_docs:pcache:idhash:3780-1!1!0!!en!2 and timestamp  -->
