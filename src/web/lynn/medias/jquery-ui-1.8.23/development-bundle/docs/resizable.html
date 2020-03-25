@@ -428,4 +428,589 @@ $( ".selector" ).resizable( "option", "cancel", ":input,option" );</code></pre>
 <dt>
   Initialize a resizable with the <code>containment</code> option specified.
 </dt>
+<dd>
+<pre><code>$( ".selector" ).resizable({ containment: "parent" });</code></pre>
+</dd>
+
+    
+<dt>
+  Get or set the <code>containment</code> option, after init.
+</dt>
+<dd>
+<pre><code>//getter
+var containment = $( ".selector" ).resizable( "option", "containment" );
+//setter
+$( ".selector" ).resizable( "option", "containment", "parent" );</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="option" id="option-delay">
+  <div class="option-header">
+    <h3 class="option-name"><a href="#option-delay">delay</a></h3>
+    <dl>
+      <dt class="option-type-label">Type:</dt>
+        <dd class="option-type">Integer</dd>
+      
+      <dt class="option-default-label">Default:</dt>
+        <dd class="option-default">0</dd>
+      
+    </dl>
+  </div>
+  <div class="option-description">
+    <p>Tolerance, in milliseconds, for when resizing should start. If specified, resizing will not start until after mouse is moved beyond duration. This can help prevent unintended resizing when clicking on an element.</p>
+  </div>
+  <div class="option-examples">
+    <h4>Code examples</h4>
+    <dl class="option-examples-list">
+    
+<dt>
+  Initialize a resizable with the <code>delay</code> option specified.
+</dt>
+<dd>
+<pre><code>$( ".selector" ).resizable({ delay: 20 });</code></pre>
+</dd>
+
+    
+<dt>
+  Get or set the <code>delay</code> option, after init.
+</dt>
+<dd>
+<pre><code>//getter
+var delay = $( ".selector" ).resizable( "option", "delay" );
+//setter
+$( ".selector" ).resizable( "option", "delay", 20 );</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="option" id="option-distance">
+  <div class="option-header">
+    <h3 class="option-name"><a href="#option-distance">distance</a></h3>
+    <dl>
+      <dt class="option-type-label">Type:</dt>
+        <dd class="option-type">Integer</dd>
+      
+      <dt class="option-default-label">Default:</dt>
+        <dd class="option-default">1</dd>
+      
+    </dl>
+  </div>
+  <div class="option-description">
+    <p>Tolerance, in pixels, for when resizing should start. If specified, resizing will not start until after mouse is moved beyond distance. This can help prevent unintended resizing when clicking on an element.</p>
+  </div>
+  <div class="option-examples">
+    <h4>Code examples</h4>
+    <dl class="option-examples-list">
+    
+<dt>
+  Initialize a resizable with the <code>distance</code> option specified.
+</dt>
+<dd>
+<pre><code>$( ".selector" ).resizable({ distance: 20 });</code></pre>
+</dd>
+
+    
+<dt>
+  Get or set the <code>distance</code> option, after init.
+</dt>
+<dd>
+<pre><code>//getter
+var distance = $( ".selector" ).resizable( "option", "distance" );
+//setter
+$( ".selector" ).resizable( "option", "distance", 20 );</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="option" id="option-ghost">
+  <div class="option-header">
+    <h3 class="option-name"><a href="#option-ghost">ghost</a></h3>
+    <dl>
+      <dt class="option-type-label">Type:</dt>
+        <dd class="option-type">Boolean</dd>
+      
+      <dt class="option-default-label">Default:</dt>
+        <dd class="option-default">false</dd>
+      
+    </dl>
+  </div>
+  <div class="option-description">
+    <p>If set to true, a semi-transparent helper element is shown for resizing.</p>
+  </div>
+  <div class="option-examples">
+    <h4>Code examples</h4>
+    <dl class="option-examples-list">
+    
+<dt>
+  Initialize a resizable with the <code>ghost</code> option specified.
+</dt>
+<dd>
+<pre><code>$( ".selector" ).resizable({ ghost: true });</code></pre>
+</dd>
+
+    
+<dt>
+  Get or set the <code>ghost</code> option, after init.
+</dt>
+<dd>
+<pre><code>//getter
+var ghost = $( ".selector" ).resizable( "option", "ghost" );
+//setter
+$( ".selector" ).resizable( "option", "ghost", true );</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="option" id="option-grid">
+  <div class="option-header">
+    <h3 class="option-name"><a href="#option-grid">grid</a></h3>
+    <dl>
+      <dt class="option-type-label">Type:</dt>
+        <dd class="option-type">Array</dd>
+      
+      <dt class="option-default-label">Default:</dt>
+        <dd class="option-default">false</dd>
+      
+    </dl>
+  </div>
+  <div class="option-description">
+    <p>Snaps the resizing element to a grid, every x and y pixels. Array values: [x, y]</p>
+  </div>
+  <div class="option-examples">
+    <h4>Code examples</h4>
+    <dl class="option-examples-list">
+    
+<dt>
+  Initialize a resizable with the <code>grid</code> option specified.
+</dt>
+<dd>
+<pre><code>$( ".selector" ).resizable({ grid: [50, 50] });</code></pre>
+</dd>
+
+    
+<dt>
+  Get or set the <code>grid</code> option, after init.
+</dt>
+<dd>
+<pre><code>//getter
+var grid = $( ".selector" ).resizable( "option", "grid" );
+//setter
+$( ".selector" ).resizable( "option", "grid", [50, 50] );</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="option" id="option-handles">
+  <div class="option-header">
+    <h3 class="option-name"><a href="#option-handles">handles</a></h3>
+    <dl>
+      <dt class="option-type-label">Type:</dt>
+        <dd class="option-type">String, Object</dd>
+      
+      <dt class="option-default-label">Default:</dt>
+        <dd class="option-default">"e, s, se"</dd>
+      
+    </dl>
+  </div>
+  <div class="option-description">
+    <p>If specified as a string, should be a comma-split list of any of the following: 'n, e, s, w, ne, se, sw, nw, all'. The necessary handles will be auto-generated by the plugin.
+</p><p>If specified as an object, the following keys are supported: { n, e, s, w, ne, se, sw, nw }. The value of any specified should be a jQuery selector matching the child element of the resizable to use as that handle. If the handle is not a child of the resizable, you can pass in the DOMElement or a valid jQuery object directly.</p>
+  </div>
+  <div class="option-examples">
+    <h4>Code examples</h4>
+    <dl class="option-examples-list">
+    
+<dt>
+  Initialize a resizable with the <code>handles</code> option specified.
+</dt>
+<dd>
+<pre><code>$( ".selector" ).resizable({ handles: "n, e, s, w" });</code></pre>
+</dd>
+
+    
+<dt>
+  Get or set the <code>handles</code> option, after init.
+</dt>
+<dd>
+<pre><code>//getter
+var handles = $( ".selector" ).resizable( "option", "handles" );
+//setter
+$( ".selector" ).resizable( "option", "handles", "n, e, s, w" );</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="option" id="option-helper">
+  <div class="option-header">
+    <h3 class="option-name"><a href="#option-helper">helper</a></h3>
+    <dl>
+      <dt class="option-type-label">Type:</dt>
+        <dd class="option-type">String</dd>
+      
+      <dt class="option-default-label">Default:</dt>
+        <dd class="option-default">false</dd>
+      
+    </dl>
+  </div>
+  <div class="option-description">
+    <p>This is the css class that will be added to a proxy element to outline the resize during the drag of the resize handle. Once the resize is complete, the original element is sized.</p>
+  </div>
+  <div class="option-examples">
+    <h4>Code examples</h4>
+    <dl class="option-examples-list">
+    
+<dt>
+  Initialize a resizable with the <code>helper</code> option specified.
+</dt>
+<dd>
+<pre><code>$( ".selector" ).resizable({ helper: "ui-state-highlight" });</code></pre>
+</dd>
+
+    
+<dt>
+  Get or set the <code>helper</code> option, after init.
+</dt>
+<dd>
+<pre><code>//getter
+var helper = $( ".selector" ).resizable( "option", "helper" );
+//setter
+$( ".selector" ).resizable( "option", "helper", "ui-state-highlight" );</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="option" id="option-maxHeight">
+  <div class="option-header">
+    <h3 class="option-name"><a href="#option-maxHeight">maxHeight</a></h3>
+    <dl>
+      <dt class="option-type-label">Type:</dt>
+        <dd class="option-type">Integer</dd>
+      
+      <dt class="option-default-label">Default:</dt>
+        <dd class="option-default">null</dd>
+      
+    </dl>
+  </div>
+  <div class="option-description">
+    <p>This is the maximum height the resizable should be allowed to resize to.</p>
+  </div>
+  <div class="option-examples">
+    <h4>Code examples</h4>
+    <dl class="option-examples-list">
+    
+<dt>
+  Initialize a resizable with the <code>maxHeight</code> option specified.
+</dt>
+<dd>
+<pre><code>$( ".selector" ).resizable({ maxHeight: 300 });</code></pre>
+</dd>
+
+    
+<dt>
+  Get or set the <code>maxHeight</code> option, after init.
+</dt>
+<dd>
+<pre><code>//getter
+var maxHeight = $( ".selector" ).resizable( "option", "maxHeight" );
+//setter
+$( ".selector" ).resizable( "option", "maxHeight", 300 );</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="option" id="option-maxWidth">
+  <div class="option-header">
+    <h3 class="option-name"><a href="#option-maxWidth">maxWidth</a></h3>
+    <dl>
+      <dt class="option-type-label">Type:</dt>
+        <dd class="option-type">Integer</dd>
+      
+      <dt class="option-default-label">Default:</dt>
+        <dd class="option-default">null</dd>
+      
+    </dl>
+  </div>
+  <div class="option-description">
+    <p>This is the maximum width the resizable should be allowed to resize to.</p>
+  </div>
+  <div class="option-examples">
+    <h4>Code examples</h4>
+    <dl class="option-examples-list">
+    
+<dt>
+  Initialize a resizable with the <code>maxWidth</code> option specified.
+</dt>
+<dd>
+<pre><code>$( ".selector" ).resizable({ maxWidth: 250 });</code></pre>
+</dd>
+
+    
+<dt>
+  Get or set the <code>maxWidth</code> option, after init.
+</dt>
+<dd>
+<pre><code>//getter
+var maxWidth = $( ".selector" ).resizable( "option", "maxWidth" );
+//setter
+$( ".selector" ).resizable( "option", "maxWidth", 250 );</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="option" id="option-minHeight">
+  <div class="option-header">
+    <h3 class="option-name"><a href="#option-minHeight">minHeight</a></h3>
+    <dl>
+      <dt class="option-type-label">Type:</dt>
+        <dd class="option-type">Integer</dd>
+      
+      <dt class="option-default-label">Default:</dt>
+        <dd class="option-default">10</dd>
+      
+    </dl>
+  </div>
+  <div class="option-description">
+    <p>This is the minimum height the resizable should be allowed to resize to.</p>
+  </div>
+  <div class="option-examples">
+    <h4>Code examples</h4>
+    <dl class="option-examples-list">
+    
+<dt>
+  Initialize a resizable with the <code>minHeight</code> option specified.
+</dt>
+<dd>
+<pre><code>$( ".selector" ).resizable({ minHeight: 150 });</code></pre>
+</dd>
+
+    
+<dt>
+  Get or set the <code>minHeight</code> option, after init.
+</dt>
+<dd>
+<pre><code>//getter
+var minHeight = $( ".selector" ).resizable( "option", "minHeight" );
+//setter
+$( ".selector" ).resizable( "option", "minHeight", 150 );</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="option" id="option-minWidth">
+  <div class="option-header">
+    <h3 class="option-name"><a href="#option-minWidth">minWidth</a></h3>
+    <dl>
+      <dt class="option-type-label">Type:</dt>
+        <dd class="option-type">Integer</dd>
+      
+      <dt class="option-default-label">Default:</dt>
+        <dd class="option-default">10</dd>
+      
+    </dl>
+  </div>
+  <div class="option-description">
+    <p>This is the minimum width the resizable should be allowed to resize to.</p>
+  </div>
+  <div class="option-examples">
+    <h4>Code examples</h4>
+    <dl class="option-examples-list">
+    
+<dt>
+  Initialize a resizable with the <code>minWidth</code> option specified.
+</dt>
+<dd>
+<pre><code>$( ".selector" ).resizable({ minWidth: 75 });</code></pre>
+</dd>
+
+    
+<dt>
+  Get or set the <code>minWidth</code> option, after init.
+</dt>
+<dd>
+<pre><code>//getter
+var minWidth = $( ".selector" ).resizable( "option", "minWidth" );
+//setter
+$( ".selector" ).resizable( "option", "minWidth", 75 );</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+    </ul>
+  </div>
+  <div id="events">
+    <h2 class="top-header">Events</h2>
+    <ul class="events-list">
+      
+<li class="event" id="event-create">
+  <div class="event-header">
+    <h3 class="event-name"><a href="#event-create">create</a></h3>
+    <dl>
+      <dt class="event-type-label">Type:</dt>
+        <dd class="event-type">resizecreate</dd>
+    </dl>
+  </div>
+  <div class="event-description">
+    <p>This event is triggered when resizable is created.</p>
+  </div>
+  <div class="event-examples">
+    <h4>Code examples</h4>
+    <dl class="event-examples-list">
+    
+<dt>
+  Supply a callback function to handle the <code>create</code> event as an init option.
+</dt>
+<dd>
+<pre><code>$( &quot;.selector&quot; ).resizable({
+   create: function(event, ui) { ... }
+});</code></pre>
+</dd>
+
+    
+<dt>
+  Bind to the <code>create</code> event by type: <code>resizecreate</code>.
+</dt>
+<dd>
+<pre><code>$( &quot;.selector&quot; ).bind( &quot;resizecreate&quot;, function(event, ui) {
+  ...
+});</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="event" id="event-start">
+  <div class="event-header">
+    <h3 class="event-name"><a href="#event-start">start</a></h3>
+    <dl>
+      <dt class="event-type-label">Type:</dt>
+        <dd class="event-type">resizestart</dd>
+    </dl>
+  </div>
+  <div class="event-description">
+    <p>This event is triggered at the start of a resize operation.</p>
+  </div>
+  <div class="event-examples">
+    <h4>Code examples</h4>
+    <dl class="event-examples-list">
+    
+<dt>
+  Supply a callback function to handle the <code>start</code> event as an init option.
+</dt>
+<dd>
+<pre><code>$( &quot;.selector&quot; ).resizable({
+   start: function(event, ui) { ... }
+});</code></pre>
+</dd>
+
+    
+<dt>
+  Bind to the <code>start</code> event by type: <code>resizestart</code>.
+</dt>
+<dd>
+<pre><code>$( &quot;.selector&quot; ).bind( &quot;resizestart&quot;, function(event, ui) {
+  ...
+});</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="event" id="event-resize">
+  <div class="event-header">
+    <h3 class="event-name"><a href="#event-resize">resize</a></h3>
+    <dl>
+      <dt class="event-type-label">Type:</dt>
+        <dd class="event-type">resize</dd>
+    </dl>
+  </div>
+  <div class="event-description">
+    <p>This event is triggered during the resize, on the drag of the resize handler.</p>
+  </div>
+  <div class="event-examples">
+    <h4>Code examples</h4>
+    <dl class="event-examples-list">
+    
+<dt>
+  Supply a callback function to handle the <code>resize</code> event as an init option.
+</dt>
+<dd>
+<pre><code>$( &quot;.selector&quot; ).resizable({
+   resize: function(event, ui) { ... }
+});</code></pre>
+</dd>
+
+    
+<dt>
+  Bind to the <code>resize</code> event by type: <code>resize</code>.
+</dt>
+<dd>
+<pre><code>$( &quot;.selector&quot; ).bind( &quot;resize&quot;, function(event, ui) {
+  ...
+});</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="event" id="event-stop">
+  <div class="event-header">
+    <h3 class="event-name"><a href="#event-stop">stop</a></h3>
+    <dl>
+      <dt class="event-type-label">Type:</dt>
+        <dd class="event-type">resizestop</dd>
+    </dl>
+  </div>
+  <div class="event-description">
+    <p>This event is triggered at the end of a resize operation.</p>
+  </div>
+  <div class="event-examples">
+    <h4>Code examples</h4>
+    <dl class="event-examples-list">
+    
+<dt>
+  Supply a callback function to handle the <code>stop</code> event as an init option.
+</dt>
+<dd>
+<pre><code>$( &quot;.selector&quot; ).resizable({
+   stop: function(event, ui) { ... }
+
 
