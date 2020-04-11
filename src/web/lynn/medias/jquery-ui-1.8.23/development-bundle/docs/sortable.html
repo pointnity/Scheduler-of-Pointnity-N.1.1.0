@@ -237,3 +237,203 @@ var cancel = $( ".selector" ).sortable( "option", "cancel" );
 //setter
 $( ".selector" ).sortable( "option", "cancel", 'button' );</code></pre>
 </dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="option" id="option-connectWith">
+  <div class="option-header">
+    <h3 class="option-name"><a href="#option-connectWith">connectWith</a></h3>
+    <dl>
+      <dt class="option-type-label">Type:</dt>
+        <dd class="option-type">Selector</dd>
+      
+      <dt class="option-default-label">Default:</dt>
+        <dd class="option-default">false</dd>
+      
+    </dl>
+  </div>
+  <div class="option-description">
+    <p>Takes a jQuery selector with items that also have sortables applied. If used, the sortable is now connected to the other one-way, so you can drag from this sortable to the other.</p>
+  </div>
+  <div class="option-examples">
+    <h4>Code examples</h4>
+    <dl class="option-examples-list">
+    
+<dt>
+  Initialize a sortable with the <code>connectWith</code> option specified.
+</dt>
+<dd>
+<pre><code>$( ".selector" ).sortable({ connectWith: '.otherlist' });</code></pre>
+</dd>
+
+    
+<dt>
+  Get or set the <code>connectWith</code> option, after init.
+</dt>
+<dd>
+<pre><code>//getter
+var connectWith = $( ".selector" ).sortable( "option", "connectWith" );
+//setter
+$( ".selector" ).sortable( "option", "connectWith", '.otherlist' );</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="option" id="option-containment">
+  <div class="option-header">
+    <h3 class="option-name"><a href="#option-containment">containment</a></h3>
+    <dl>
+      <dt class="option-type-label">Type:</dt>
+        <dd class="option-type">Element, String, Selector</dd>
+      
+      <dt class="option-default-label">Default:</dt>
+        <dd class="option-default">false</dd>
+      
+    </dl>
+  </div>
+  <div class="option-description">
+    <p>Constrains dragging to within the bounds of the specified element - can be a DOM element, 'parent', 'document', 'window', or a jQuery selector.
+</p><p>Note: the element specified for containment must have a calculated width and height (though it need not be explicit), so for example, if you have float:left sortable children and specify containment:'parent' be sure to have float:left on the sortable/parent container as well or it will have height: 0, causing undefined behavior.</p>
+  </div>
+  <div class="option-examples">
+    <h4>Code examples</h4>
+    <dl class="option-examples-list">
+    
+<dt>
+  Initialize a sortable with the <code>containment</code> option specified.
+</dt>
+<dd>
+<pre><code>$( ".selector" ).sortable({ containment: 'parent' });</code></pre>
+</dd>
+
+    
+<dt>
+  Get or set the <code>containment</code> option, after init.
+</dt>
+<dd>
+<pre><code>//getter
+var containment = $( ".selector" ).sortable( "option", "containment" );
+//setter
+$( ".selector" ).sortable( "option", "containment", 'parent' );</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="option" id="option-cursor">
+  <div class="option-header">
+    <h3 class="option-name"><a href="#option-cursor">cursor</a></h3>
+    <dl>
+      <dt class="option-type-label">Type:</dt>
+        <dd class="option-type">String</dd>
+      
+      <dt class="option-default-label">Default:</dt>
+        <dd class="option-default">'auto'</dd>
+      
+    </dl>
+  </div>
+  <div class="option-description">
+    <p>Defines the cursor that is being shown while sorting.</p>
+  </div>
+  <div class="option-examples">
+    <h4>Code examples</h4>
+    <dl class="option-examples-list">
+    
+<dt>
+  Initialize a sortable with the <code>cursor</code> option specified.
+</dt>
+<dd>
+<pre><code>$( ".selector" ).sortable({ cursor: 'crosshair' });</code></pre>
+</dd>
+
+    
+<dt>
+  Get or set the <code>cursor</code> option, after init.
+</dt>
+<dd>
+<pre><code>//getter
+var cursor = $( ".selector" ).sortable( "option", "cursor" );
+//setter
+$( ".selector" ).sortable( "option", "cursor", 'crosshair' );</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="option" id="option-cursorAt">
+  <div class="option-header">
+    <h3 class="option-name"><a href="#option-cursorAt">cursorAt</a></h3>
+    <dl>
+      <dt class="option-type-label">Type:</dt>
+        <dd class="option-type">Object</dd>
+      
+      <dt class="option-default-label">Default:</dt>
+        <dd class="option-default">false</dd>
+      
+    </dl>
+  </div>
+  <div class="option-description">
+    <p>Moves the sorting element or helper so the cursor always appears to drag from the same position. Coordinates can be given as a hash using a combination of one or two keys: <code>{ top, left, right, bottom }</code>.</p>
+  </div>
+  <div class="option-examples">
+    <h4>Code examples</h4>
+    <dl class="option-examples-list">
+    
+<dt>
+  Initialize a sortable with the <code>cursorAt</code> option specified.
+</dt>
+<dd>
+<pre><code>$( ".selector" ).sortable({ cursorAt: { left: 5 } });</code></pre>
+</dd>
+
+    
+<dt>
+  Get or set the <code>cursorAt</code> option, after init.
+</dt>
+<dd>
+<pre><code>//getter
+var cursorAt = $( ".selector" ).sortable( "option", "cursorAt" );
+//setter
+$( ".selector" ).sortable( "option", "cursorAt", { left: 5 } );</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="option" id="option-delay">
+  <div class="option-header">
+    <h3 class="option-name"><a href="#option-delay">delay</a></h3>
+    <dl>
+      <dt class="option-type-label">Type:</dt>
+        <dd class="option-type">Integer</dd>
+      
+      <dt class="option-default-label">Default:</dt>
+        <dd class="option-default">0</dd>
+      
+    </dl>
+  </div>
+  <div class="option-description">
+    <p>Time in milliseconds to define when the sorting should start. It helps preventing unwanted drags when clicking on an element.</p>
+  </div>
+  <div class="option-examples">
+    <h4>Code examples</h4>
+    <dl class="option-examples-list">
+    
+<dt>
+  Initialize a sortable with the <code>delay</code> option specified.
+</dt>
+<dd>
+<pre><code>$( ".selector" ).sortable({ delay: 500 });</code></pre>
+</dd>
