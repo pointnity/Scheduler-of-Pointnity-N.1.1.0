@@ -99,3 +99,4 @@ var selected = $tabs.tabs('option', 'selected'); // =&gt; 0</pre>
 </p>
 <pre>$('#example').tabs({
     load: function(event, ui) {
+        $(ui.panel).delegate('a', 'click', function(event) {
