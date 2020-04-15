@@ -107,3 +107,5 @@ var selected = $tabs.tabs('option', 'selected'); // =&gt; 0</pre>
 });</pre>
 <div class="editsection" style="float:right;margin-left:5px;">[<a href=" action/edit/Template:UIAPIPlugin?section=7" title="Template:UIAPIPlugin">edit</a>]</div><a name="...select_a_tab_from_a_text_link_instead_of_clicking_a_tab_itself"></a><h3>...select a tab from a text link instead of clicking a tab itself</h3>
 <pre>var $tabs = $('#example').tabs(); // first tab selected
+
+$('#my-text-link').click(function() { // bind click event to link
