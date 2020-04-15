@@ -101,3 +101,4 @@ var selected = $tabs.tabs('option', 'selected'); // =&gt; 0</pre>
     load: function(event, ui) {
         $(ui.panel).delegate('a', 'click', function(event) {
             $(ui.panel).load(this.href);
+            event.preventDefault();
