@@ -224,3 +224,257 @@ A simple jQuery UI Tabs.<br />
     <dl>
       <dt class="option-type-label">Type:</dt>
         <dd class="option-type">Boolean</dd>
+      
+      <dt class="option-default-label">Default:</dt>
+        <dd class="option-default">false</dd>
+      
+    </dl>
+  </div>
+  <div class="option-description">
+    <p>Disables (true) or enables (false) the tabs. Can be set when initialising (first creating) the tabs.</p>
+  </div>
+  <div class="option-examples">
+    <h4>Code examples</h4>
+    <dl class="option-examples-list">
+    
+<dt>
+  Initialize a tabs with the <code>disabled</code> option specified.
+</dt>
+<dd>
+<pre><code>$( ".selector" ).tabs({ disabled: true });</code></pre>
+</dd>
+
+    
+<dt>
+  Get or set the <code>disabled</code> option, after init.
+</dt>
+<dd>
+<pre><code>//getter
+var disabled = $( ".selector" ).tabs( "option", "disabled" );
+//setter
+$( ".selector" ).tabs( "option", "disabled", true );</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="option" id="option-ajaxOptions">
+  <div class="option-header">
+    <h3 class="option-name"><a href="#option-ajaxOptions">ajaxOptions</a></h3>
+    <dl>
+      <dt class="option-type-label">Type:</dt>
+        <dd class="option-type">Options</dd>
+      
+      <dt class="option-default-label">Default:</dt>
+        <dd class="option-default">null</dd>
+      
+    </dl>
+  </div>
+  <div class="option-description">
+    <p>Additional Ajax options to consider when loading tab content (see $.ajax).</p>
+  </div>
+  <div class="option-examples">
+    <h4>Code examples</h4>
+    <dl class="option-examples-list">
+    
+<dt>
+  Initialize a tabs with the <code>ajaxOptions</code> option specified.
+</dt>
+<dd>
+<pre><code>$( ".selector" ).tabs({ ajaxOptions: { async: false } });</code></pre>
+</dd>
+
+    
+<dt>
+  Get or set the <code>ajaxOptions</code> option, after init.
+</dt>
+<dd>
+<pre><code>//getter
+var ajaxOptions = $( ".selector" ).tabs( "option", "ajaxOptions" );
+//setter
+$( ".selector" ).tabs( "option", "ajaxOptions", { async: false } );</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="option" id="option-cache">
+  <div class="option-header">
+    <h3 class="option-name"><a href="#option-cache">cache</a></h3>
+    <dl>
+      <dt class="option-type-label">Type:</dt>
+        <dd class="option-type">Boolean</dd>
+      
+      <dt class="option-default-label">Default:</dt>
+        <dd class="option-default">false</dd>
+      
+    </dl>
+  </div>
+  <div class="option-description">
+    <p>Whether or not to cache remote tabs content, e.g. load only once or with every click. Cached content is being lazy loaded, e.g once and only once for the first click. Note that to prevent the actual Ajax requests from being cached by the browser you need to provide an extra cache: false flag to ajaxOptions.</p>
+  </div>
+  <div class="option-examples">
+    <h4>Code examples</h4>
+    <dl class="option-examples-list">
+    
+<dt>
+  Initialize a tabs with the <code>cache</code> option specified.
+</dt>
+<dd>
+<pre><code>$( ".selector" ).tabs({ cache: true });</code></pre>
+</dd>
+
+    
+<dt>
+  Get or set the <code>cache</code> option, after init.
+</dt>
+<dd>
+<pre><code>//getter
+var cache = $( ".selector" ).tabs( "option", "cache" );
+//setter
+$( ".selector" ).tabs( "option", "cache", true );</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="option" id="option-collapsible">
+  <div class="option-header">
+    <h3 class="option-name"><a href="#option-collapsible">collapsible</a></h3>
+    <dl>
+      <dt class="option-type-label">Type:</dt>
+        <dd class="option-type">Boolean</dd>
+      
+      <dt class="option-default-label">Default:</dt>
+        <dd class="option-default">false</dd>
+      
+    </dl>
+  </div>
+  <div class="option-description">
+    <p>Set to true to allow an already selected tab to become unselected again upon reselection.</p>
+  </div>
+  <div class="option-examples">
+    <h4>Code examples</h4>
+    <dl class="option-examples-list">
+    
+<dt>
+  Initialize a tabs with the <code>collapsible</code> option specified.
+</dt>
+<dd>
+<pre><code>$( ".selector" ).tabs({ collapsible: true });</code></pre>
+</dd>
+
+    
+<dt>
+  Get or set the <code>collapsible</code> option, after init.
+</dt>
+<dd>
+<pre><code>//getter
+var collapsible = $( ".selector" ).tabs( "option", "collapsible" );
+//setter
+$( ".selector" ).tabs( "option", "collapsible", true );</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="option" id="option-cookie">
+  <div class="option-header">
+    <h3 class="option-name"><a href="#option-cookie">cookie</a></h3>
+    <dl>
+      <dt class="option-type-label">Type:</dt>
+        <dd class="option-type">Object</dd>
+      
+      <dt class="option-default-label">Default:</dt>
+        <dd class="option-default">null</dd>
+      
+    </dl>
+  </div>
+  <div class="option-description">
+    <p>Store the latest selected tab in a cookie. The cookie is then used to determine the initially selected tab if the <i>selected</i> option is not defined. Requires <a href="http://plugins.jquery.com/project/cookie" class="external text" title="http://plugins.jquery.com/project/cookie">cookie plugin</a>, which can also be found in the development-bundle&gt;external folder from the download builder. The object needs to have key/value pairs of the form the cookie plugin expects as options. Available options (example): &#123; expires: 7, path: '/', domain: 'jquery.com', secure: true &#125;. Since jQuery UI 1.7 it is also possible to define the cookie name being used via <i>name</i> property.</p>
+  </div>
+  <div class="option-examples">
+    <h4>Code examples</h4>
+    <dl class="option-examples-list">
+    
+<dt>
+  Initialize a tabs with the <code>cookie</code> option specified.
+</dt>
+<dd>
+<pre><code>$( ".selector" ).tabs({ cookie: { expires: 30 } });</code></pre>
+</dd>
+
+    
+<dt>
+  Get or set the <code>cookie</code> option, after init.
+</dt>
+<dd>
+<pre><code>//getter
+var cookie = $( ".selector" ).tabs( "option", "cookie" );
+//setter
+$( ".selector" ).tabs( "option", "cookie", { expires: 30 } );</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="option" id="option-deselectable">
+  <div class="option-header">
+    <h3 class="option-name"><a href="#option-deselectable">deselectable</a></h3>
+    <dl>
+      <dt class="option-type-label">Type:</dt>
+        <dd class="option-type">Boolean</dd>
+      
+      <dt class="option-default-label">Default:</dt>
+        <dd class="option-default">false</dd>
+      
+    </dl>
+  </div>
+  <div class="option-description">
+    <p>deprecated in jQuery UI 1.7, use collapsible.</p>
+  </div>
+  <div class="option-examples">
+    <h4>Code examples</h4>
+    <dl class="option-examples-list">
+    
+<dt>
+  Initialize a tabs with the <code>deselectable</code> option specified.
+</dt>
+<dd>
+<pre><code>$( ".selector" ).tabs({ deselectable: true });</code></pre>
+</dd>
+
+    
+<dt>
+  Get or set the <code>deselectable</code> option, after init.
+</dt>
+<dd>
+<pre><code>//getter
+var deselectable = $( ".selector" ).tabs( "option", "deselectable" );
+//setter
+$( ".selector" ).tabs( "option", "deselectable", true );</code></pre>
+</dd>
+
+    </dl>
+  </div>
+</li>
+
+
+<li class="option" id="option-disabled">
+  <div class="option-header">
+    <h3 class="option-name"><a href="#option-disabled">disabled</a></h3>
+    <dl>
+      <dt class="option-type-label">Type:</dt>
+        <dd class="option-type">Array&lt;Number&gt;</dd>
+      
+      <dt class="option-default-label">Default:</dt>
