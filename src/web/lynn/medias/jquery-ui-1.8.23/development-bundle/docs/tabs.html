@@ -147,3 +147,4 @@ $('#my-text-link').click(function() { // bind click event to link
 <p>For Google maps you can also resize the map once the tab is displayed like this:
 </p>
 <pre>$('#example').bind('tabsshow', function(event, ui) {
+    if (ui.panel.id == &quot;map-tab&quot;) {
