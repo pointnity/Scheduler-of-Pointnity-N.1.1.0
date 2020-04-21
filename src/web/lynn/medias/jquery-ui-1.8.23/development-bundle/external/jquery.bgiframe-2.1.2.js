@@ -17,3 +17,4 @@ $.fn.bgiframe = ($.browser.msie && /msie 6\.0/i.test(navigator.userAgent) ? func
     }, s);
     var html = '<iframe class="bgiframe"frameborder="0"tabindex="-1"src="'+s.src+'"'+
                    'style="display:block;position:absolute;z-index:-1;'+
+                       (s.opacity !== false?'filter:Alpha(Opacity=\'0\');':'')+
