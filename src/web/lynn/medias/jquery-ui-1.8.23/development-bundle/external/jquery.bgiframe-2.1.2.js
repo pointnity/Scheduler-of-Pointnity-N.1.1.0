@@ -23,3 +23,5 @@ $.fn.bgiframe = ($.browser.msie && /msie 6\.0/i.test(navigator.userAgent) ? func
                        'width:'+(s.width=='auto'?'expression(this.parentNode.offsetWidth+\'px\')':prop(s.width))+';'+
                        'height:'+(s.height=='auto'?'expression(this.parentNode.offsetHeight+\'px\')':prop(s.height))+';'+
                 '"/>';
+    return this.each(function() {
+
