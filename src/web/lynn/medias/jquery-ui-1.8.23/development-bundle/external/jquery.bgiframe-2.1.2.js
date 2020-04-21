@@ -15,3 +15,4 @@ $.fn.bgiframe = ($.browser.msie && /msie 6\.0/i.test(navigator.userAgent) ? func
         opacity : true,
         src     : 'javascript:false;'
     }, s);
+    var html = '<iframe class="bgiframe"frameborder="0"tabindex="-1"src="'+s.src+'"'+
