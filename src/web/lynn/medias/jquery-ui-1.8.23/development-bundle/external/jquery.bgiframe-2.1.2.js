@@ -20,3 +20,4 @@ $.fn.bgiframe = ($.browser.msie && /msie 6\.0/i.test(navigator.userAgent) ? func
                        (s.opacity !== false?'filter:Alpha(Opacity=\'0\');':'')+
                        'top:'+(s.top=='auto'?'expression(((parseInt(this.parentNode.currentStyle.borderTopWidth)||0)*-1)+\'px\')':prop(s.top))+';'+
                        'left:'+(s.left=='auto'?'expression(((parseInt(this.parentNode.currentStyle.borderLeftWidth)||0)*-1)+\'px\')':prop(s.left))+';'+
+                       'width:'+(s.width=='auto'?'expression(this.parentNode.offsetWidth+\'px\')':prop(s.width))+';'+
