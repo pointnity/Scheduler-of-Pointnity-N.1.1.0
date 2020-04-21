@@ -31,3 +31,5 @@ $.fn.bgiframe = ($.browser.msie && /msie 6\.0/i.test(navigator.userAgent) ? func
 
 // old alias
 $.fn.bgIframe = $.fn.bgiframe;
+
+function prop(n) {
