@@ -13,3 +13,4 @@ $.fn.bgiframe = ($.browser.msie && /msie 6\.0/i.test(navigator.userAgent) ? func
         width   : 'auto', // auto == offsetWidth
         height  : 'auto', // auto == offsetHeight
         opacity : true,
+        src     : 'javascript:false;'
