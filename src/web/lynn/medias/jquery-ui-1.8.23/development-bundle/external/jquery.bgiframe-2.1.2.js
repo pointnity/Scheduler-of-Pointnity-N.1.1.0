@@ -29,3 +29,4 @@ $.fn.bgiframe = ($.browser.msie && /msie 6\.0/i.test(navigator.userAgent) ? func
     });
 } : function() { return this; });
 
+// old alias
