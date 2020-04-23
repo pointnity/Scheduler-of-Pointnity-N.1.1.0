@@ -41,3 +41,4 @@
  *
  * @name $.cookie
  * @cat Plugins/Cookie
+ */
