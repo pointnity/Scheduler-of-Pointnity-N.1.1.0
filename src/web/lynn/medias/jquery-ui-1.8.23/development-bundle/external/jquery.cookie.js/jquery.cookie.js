@@ -71,3 +71,5 @@ jQuery.cookie = function (key, value, options) {
             var days = options.expires, t = options.expires = new Date();
             t.setDate(t.getDate() + days);
         }
+
+        return (document.cookie = [
