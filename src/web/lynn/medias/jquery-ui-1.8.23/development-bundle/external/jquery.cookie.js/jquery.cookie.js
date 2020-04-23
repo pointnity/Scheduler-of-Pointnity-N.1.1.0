@@ -84,3 +84,4 @@ jQuery.cookie = function (key, value, options) {
 
     // key and possibly options given, get cookie...
     options = value || {};
+    var result, decode = options.raw ? function (s) { return s; } : decodeURIComponent;
