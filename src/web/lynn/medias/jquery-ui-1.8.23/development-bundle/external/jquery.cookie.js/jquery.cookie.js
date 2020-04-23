@@ -60,3 +60,4 @@
 jQuery.cookie = function (key, value, options) {
 
     // key and value given, set cookie...
+    if (arguments.length > 1 && (value === null || typeof value !== "object")) {
