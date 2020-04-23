@@ -54,3 +54,4 @@
  * @type String
  *
  * @name $.cookie
+ * @cat Plugins/Cookie
