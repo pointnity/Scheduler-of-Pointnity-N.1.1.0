@@ -64,3 +64,4 @@ jQuery.cookie = function (key, value, options) {
         options = jQuery.extend({}, options);
 
         if (value === null) {
+            options.expires = -1;
