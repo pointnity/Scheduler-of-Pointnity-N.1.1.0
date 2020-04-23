@@ -17,3 +17,4 @@
  * Create a cookie with the given key and value and other optional parameters.
  *
  * @example $.cookie('the_cookie', 'the_value');
+ * @desc Set the value of a cookie.
