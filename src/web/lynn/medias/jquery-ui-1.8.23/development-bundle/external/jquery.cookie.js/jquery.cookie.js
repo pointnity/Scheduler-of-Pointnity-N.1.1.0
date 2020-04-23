@@ -26,3 +26,4 @@
  * @desc Delete a cookie by passing null as value. Keep in mind that you have to use the same path and domain
  *       used when the cookie was set.
  *
+ * @param String key The key of the cookie.
