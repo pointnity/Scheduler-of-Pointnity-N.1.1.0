@@ -81,3 +81,6 @@ jQuery.cookie = function (key, value, options) {
             options.secure ? '; secure' : ''
         ].join(''));
     }
+
+    // key and possibly options given, get cookie...
+    options = value || {};
