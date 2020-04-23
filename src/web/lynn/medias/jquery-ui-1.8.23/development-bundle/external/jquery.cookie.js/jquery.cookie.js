@@ -2,3 +2,4 @@
 
 /**
  * jQuery Cookie plugin
+ *
