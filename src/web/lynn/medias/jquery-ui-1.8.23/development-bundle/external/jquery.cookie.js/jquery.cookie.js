@@ -39,3 +39,4 @@
  *                        require a secure protocol (like HTTPS).
  * @type undefined
  *
+ * @name $.cookie
