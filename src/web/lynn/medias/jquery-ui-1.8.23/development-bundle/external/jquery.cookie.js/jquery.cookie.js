@@ -33,3 +33,4 @@
  *                             If a negative value is specified (e.g. a date in the past), the cookie will be deleted.
  *                             If set to null or omitted, the cookie will be a session cookie and will not be retained
  *                             when the the browser exits.
+ * @option String path The value of the path atribute of the cookie (default: path of page that created the cookie).
