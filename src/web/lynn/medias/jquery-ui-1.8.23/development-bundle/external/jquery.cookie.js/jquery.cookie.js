@@ -46,3 +46,4 @@
 /**
  * Get the value of a cookie with the given key.
  *
+ * @example $.cookie('the_cookie');
