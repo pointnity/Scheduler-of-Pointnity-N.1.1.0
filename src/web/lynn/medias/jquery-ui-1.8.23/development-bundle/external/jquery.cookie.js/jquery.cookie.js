@@ -19,3 +19,4 @@
  * @example $.cookie('the_cookie', 'the_value');
  * @desc Set the value of a cookie.
  * @example $.cookie('the_cookie', 'the_value', { expires: 7, path: '/', domain: 'jquery.com', secure: true });
+ * @desc Create a cookie with all available options.
