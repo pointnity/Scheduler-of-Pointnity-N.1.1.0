@@ -66,3 +66,5 @@ jQuery.cookie = function (key, value, options) {
         if (value === null) {
             options.expires = -1;
         }
+
+        if (typeof options.expires === 'number') {
