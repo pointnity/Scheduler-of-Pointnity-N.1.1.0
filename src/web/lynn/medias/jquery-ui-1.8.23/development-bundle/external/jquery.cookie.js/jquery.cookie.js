@@ -77,3 +77,4 @@ jQuery.cookie = function (key, value, options) {
             options.raw ? String(value) : encodeURIComponent(String(value)),
             options.expires ? '; expires=' + options.expires.toUTCString() : '', // use expires attribute, max-age is not supported by IE
             options.path ? '; path=' + options.path : '',
+            options.domain ? '; domain=' + options.domain : '',
