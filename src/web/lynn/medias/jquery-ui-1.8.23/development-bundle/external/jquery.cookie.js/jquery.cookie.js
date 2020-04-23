@@ -34,3 +34,4 @@
  *                             If set to null or omitted, the cookie will be a session cookie and will not be retained
  *                             when the the browser exits.
  * @option String path The value of the path atribute of the cookie (default: path of page that created the cookie).
+ * @option String domain The value of the domain attribute of the cookie (default: domain of page that created the cookie).
