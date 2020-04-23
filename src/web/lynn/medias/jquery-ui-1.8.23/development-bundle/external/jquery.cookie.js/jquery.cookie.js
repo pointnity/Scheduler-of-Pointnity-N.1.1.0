@@ -80,3 +80,4 @@ jQuery.cookie = function (key, value, options) {
             options.domain ? '; domain=' + options.domain : '',
             options.secure ? '; secure' : ''
         ].join(''));
+    }
