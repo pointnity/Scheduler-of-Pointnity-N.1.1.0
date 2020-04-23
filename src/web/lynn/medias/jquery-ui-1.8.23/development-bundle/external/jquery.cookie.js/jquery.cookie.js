@@ -28,3 +28,4 @@
  *
  * @param String key The key of the cookie.
  * @param String value The value of the cookie.
+ * @param Object options An object literal containing key/value pairs to provide optional cookie attributes.
