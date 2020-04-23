@@ -48,3 +48,4 @@
  *
  * @example $.cookie('the_cookie');
  * @desc Get the value of a cookie.
+ *
