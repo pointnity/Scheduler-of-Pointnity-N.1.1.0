@@ -56,3 +56,4 @@
  * @name $.cookie
  * @cat Plugins/Cookie
  * @author Klaus Hartl/klaus.hartl@stilbuero.de
+ */
