@@ -53,3 +53,4 @@
  * @return The value of the cookie.
  * @type String
  *
+ * @name $.cookie
