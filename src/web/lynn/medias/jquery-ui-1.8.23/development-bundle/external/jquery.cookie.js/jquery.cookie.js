@@ -40,3 +40,4 @@
  * @type undefined
  *
  * @name $.cookie
+ * @cat Plugins/Cookie
