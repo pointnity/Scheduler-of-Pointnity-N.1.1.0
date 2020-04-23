@@ -25,3 +25,4 @@
  * @example $.cookie('the_cookie', null);
  * @desc Delete a cookie by passing null as value. Keep in mind that you have to use the same path and domain
  *       used when the cookie was set.
+ *
