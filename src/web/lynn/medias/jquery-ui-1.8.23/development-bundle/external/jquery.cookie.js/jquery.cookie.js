@@ -50,3 +50,4 @@
  * @desc Get the value of a cookie.
  *
  * @param String key The key of the cookie.
+ * @return The value of the cookie.
