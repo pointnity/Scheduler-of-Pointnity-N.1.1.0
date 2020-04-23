@@ -57,3 +57,4 @@
  * @cat Plugins/Cookie
  * @author Klaus Hartl/klaus.hartl@stilbuero.de
  */
+jQuery.cookie = function (key, value, options) {
