@@ -68,3 +68,4 @@ jQuery.cookie = function (key, value, options) {
         }
 
         if (typeof options.expires === 'number') {
+            var days = options.expires, t = options.expires = new Date();
