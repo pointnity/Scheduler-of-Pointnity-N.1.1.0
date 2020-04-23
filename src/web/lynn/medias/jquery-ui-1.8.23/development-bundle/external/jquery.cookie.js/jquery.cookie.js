@@ -27,3 +27,4 @@
  *       used when the cookie was set.
  *
  * @param String key The key of the cookie.
+ * @param String value The value of the cookie.
