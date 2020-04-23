@@ -73,3 +73,4 @@ jQuery.cookie = function (key, value, options) {
         }
 
         return (document.cookie = [
+            encodeURIComponent(key), '=',
