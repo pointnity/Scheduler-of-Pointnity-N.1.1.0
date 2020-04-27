@@ -30,3 +30,4 @@
  * matched by expr, then redefine the metadata type and run another $(expr) for other elements.
  * 
  * @name $.metadata.setType
+ *
