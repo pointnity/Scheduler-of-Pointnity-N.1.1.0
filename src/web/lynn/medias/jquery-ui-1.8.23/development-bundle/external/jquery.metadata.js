@@ -36,3 +36,4 @@
  * @after $("#one").metadata().item_id == 1; $("#one").metadata().item_label == "Label"
  * @desc Reads metadata from the class attribute
  * 
+ * @example <p id="one" class="some_class" data="{item_id: 1, item_label: 'Label'}">This is a p</p>
