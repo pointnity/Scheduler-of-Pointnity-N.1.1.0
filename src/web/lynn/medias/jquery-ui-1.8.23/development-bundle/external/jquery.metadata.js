@@ -16,3 +16,4 @@
  * in the JSON will become a property of the element itself.
  *
  * There are three supported types of metadata storage:
+ *
