@@ -19,3 +19,4 @@
  *
  *   attr:  Inside an attribute. The name parameter indicates *which* attribute.
  *          
+ *   class: Inside the class attribute, wrapped in curly braces: { }
