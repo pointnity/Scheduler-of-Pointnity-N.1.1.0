@@ -37,3 +37,4 @@
  * @desc Reads metadata from the class attribute
  * 
  * @example <p id="one" class="some_class" data="{item_id: 1, item_label: 'Label'}">This is a p</p>
+ * @before $.metadata.setType("attr", "data")
