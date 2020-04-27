@@ -35,3 +35,4 @@
  * @before $.metadata.setType("class")
  * @after $("#one").metadata().item_id == 1; $("#one").metadata().item_label == "Label"
  * @desc Reads metadata from the class attribute
+ * 
