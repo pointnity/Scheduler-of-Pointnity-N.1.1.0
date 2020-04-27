@@ -29,3 +29,4 @@
  * As a result, you can define the metadata type, use $(expr) to load the metadata into the elements
  * matched by expr, then redefine the metadata type and run another $(expr) for other elements.
  * 
+ * @name $.metadata.setType
