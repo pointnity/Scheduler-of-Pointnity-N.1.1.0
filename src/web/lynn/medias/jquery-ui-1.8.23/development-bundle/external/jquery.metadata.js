@@ -9,3 +9,4 @@
  *
  * Revision: $Id: jquery.metadata.js 4187 2007-12-16 17:15:27Z joern.zaefferer $
  *
+ */
