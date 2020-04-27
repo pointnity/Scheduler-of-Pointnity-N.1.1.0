@@ -18,3 +18,4 @@
  * There are three supported types of metadata storage:
  *
  *   attr:  Inside an attribute. The name parameter indicates *which* attribute.
+ *          
