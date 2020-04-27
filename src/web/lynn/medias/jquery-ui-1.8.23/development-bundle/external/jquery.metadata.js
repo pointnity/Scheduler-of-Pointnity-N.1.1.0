@@ -12,3 +12,4 @@
  */
 
 /**
+ * Sets the type of metadata to use. Metadata is encoded in JSON, and each property
