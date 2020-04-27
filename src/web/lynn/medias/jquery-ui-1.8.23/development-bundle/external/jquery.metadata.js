@@ -21,3 +21,4 @@
  *          
  *   class: Inside the class attribute, wrapped in curly braces: { }
  *   
+ *   elem:  Inside a child element (e.g. a script tag). The
