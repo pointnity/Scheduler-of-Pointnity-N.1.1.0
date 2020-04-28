@@ -37,3 +37,11 @@
 	font-size: 1.5em;
 	line-height: 1em;
 	font-weight: normal;
+
+	border-radius: 15px 15px 0 0;
+	-moz-border-radius: 15px 15px 0 0;
+	-webkit-border-top-right-radius: 15px;
+	-webkit-border-top-left-radius: 15px;
+}
+
+#qunit-header a {
