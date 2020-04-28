@@ -19,3 +19,7 @@
 
 
 /** Resets */
+
+#qunit-tests, #qunit-tests ol, #qunit-header, #qunit-banner, #qunit-userAgent, #qunit-testresult {
+	margin: 0;
+	padding: 0;
