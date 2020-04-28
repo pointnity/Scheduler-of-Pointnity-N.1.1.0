@@ -3,3 +3,4 @@
  *
  * http://docs.jquery.com/QUnit
  *
+ * Copyright (c) 2011 John Resig, Jörn Zaefferer
