@@ -12,3 +12,4 @@
 
 var defined = {
 	setTimeout: typeof window.setTimeout !== "undefined",
+	sessionStorage: (function() {
