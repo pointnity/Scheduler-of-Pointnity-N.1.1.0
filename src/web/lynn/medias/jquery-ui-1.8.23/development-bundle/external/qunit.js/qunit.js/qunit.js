@@ -29,3 +29,4 @@ var Test = function(name, testName, expected, testEnvironmentArg, async, callbac
 	this.testName = testName;
 	this.expected = expected;
 	this.testEnvironmentArg = testEnvironmentArg;
+	this.async = async;
