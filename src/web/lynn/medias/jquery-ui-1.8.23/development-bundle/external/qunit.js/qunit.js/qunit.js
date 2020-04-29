@@ -34,3 +34,4 @@ var Test = function(name, testName, expected, testEnvironmentArg, async, callbac
 	this.assertions = [];
 };
 Test.prototype = {
+	init: function() {
