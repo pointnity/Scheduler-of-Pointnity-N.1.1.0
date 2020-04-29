@@ -30,3 +30,4 @@ var Test = function(name, testName, expected, testEnvironmentArg, async, callbac
 	this.expected = expected;
 	this.testEnvironmentArg = testEnvironmentArg;
 	this.async = async;
+	this.callback = callback;
