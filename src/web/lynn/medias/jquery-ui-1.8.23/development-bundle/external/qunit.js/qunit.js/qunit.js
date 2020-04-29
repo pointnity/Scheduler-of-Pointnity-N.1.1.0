@@ -45,3 +45,4 @@ Test.prototype = {
 				li.id = this.id = "test-output" + testId++;
 			tests.appendChild( li );
 		}
+	},
