@@ -54,3 +54,30 @@ Test.prototype = {
 					passed: config.moduleStats.all - config.moduleStats.bad,
 					total: config.moduleStats.all
 				} );
+			}
+			config.previousModule = this.module;
+			config.moduleStats = { all: 0, bad: 0 };
+			QUnit.moduleStart( {
+				name: this.module
+			} );
+		}
+
+		config.current = this;
+		this.testEnvironment = extend({
+			setup: function() {},
+			teardown: function() {}
+		}, this.moduleTestEnvironment);
+		if (this.testEnvironmentArg) {
+			extend(this.testEnvironment, this.testEnvironmentArg);
+		}
+
+		QUnit.testStart( {
+			name: this.testName
+		} );
+
+		// allow utility functions to access the current test environment
+		// TODO why??
+		QUnit.current_testEnvironment = this.testEnvironment;
+
+		try {
+			if ( !config.pollution ) {
