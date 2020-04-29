@@ -11,3 +11,4 @@
 (function(window) {
 
 var defined = {
+	setTimeout: typeof window.setTimeout !== "undefined",
