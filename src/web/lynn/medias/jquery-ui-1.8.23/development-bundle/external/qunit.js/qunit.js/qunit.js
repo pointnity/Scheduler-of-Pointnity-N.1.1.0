@@ -33,3 +33,4 @@ var Test = function(name, testName, expected, testEnvironmentArg, async, callbac
 	this.callback = callback;
 	this.assertions = [];
 };
+Test.prototype = {
