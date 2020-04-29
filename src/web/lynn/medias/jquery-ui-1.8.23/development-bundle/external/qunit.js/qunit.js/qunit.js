@@ -45,7 +45,6 @@ Test.prototype = {
 				li.id = this.id = "test-output" + testId++;
 			tests.appendChild( li );
 		}
-	},
 	setup: function() {
 		if (this.module != config.previousModule) {
 			if ( config.previousModule ) {
@@ -54,3 +53,4 @@ Test.prototype = {
 					failed: config.moduleStats.bad,
 					passed: config.moduleStats.all - config.moduleStats.bad,
 					total: config.moduleStats.all
+				} );
