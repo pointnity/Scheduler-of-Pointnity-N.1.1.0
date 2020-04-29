@@ -38,3 +38,4 @@ Test.prototype = {
 		var tests = id("qunit-tests");
 		if (tests) {
 			var b = document.createElement("strong");
+				b.innerHTML = "Running " + this.name;
