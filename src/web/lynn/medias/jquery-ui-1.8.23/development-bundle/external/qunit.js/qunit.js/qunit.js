@@ -27,3 +27,4 @@ var testId = 0;
 var Test = function(name, testName, expected, testEnvironmentArg, async, callback) {
 	this.name = name;
 	this.testName = testName;
+	this.expected = expected;
