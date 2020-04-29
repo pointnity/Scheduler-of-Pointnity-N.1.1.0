@@ -19,3 +19,4 @@ var defined = {
 			return false;
 		}
   })()
+};
