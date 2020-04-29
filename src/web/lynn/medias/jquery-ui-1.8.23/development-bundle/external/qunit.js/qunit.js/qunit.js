@@ -50,3 +50,4 @@ Test.prototype = {
 		if (this.module != config.previousModule) {
 			if ( config.previousModule ) {
 				QUnit.moduleDone( {
+					name: config.previousModule,
