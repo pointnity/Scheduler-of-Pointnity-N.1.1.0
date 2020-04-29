@@ -37,3 +37,4 @@ Test.prototype = {
 	init: function() {
 		var tests = id("qunit-tests");
 		if (tests) {
+			var b = document.createElement("strong");
