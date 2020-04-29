@@ -40,3 +40,4 @@ Test.prototype = {
 			var b = document.createElement("strong");
 				b.innerHTML = "Running " + this.name;
 			var li = document.createElement("li");
+				li.appendChild( b );
