@@ -14,3 +14,4 @@ var defined = {
 	setTimeout: typeof window.setTimeout !== "undefined",
 	sessionStorage: (function() {
 		try {
+			return !!sessionStorage.getItem;
