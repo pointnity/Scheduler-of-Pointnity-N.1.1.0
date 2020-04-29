@@ -36,3 +36,4 @@ var Test = function(name, testName, expected, testEnvironmentArg, async, callbac
 Test.prototype = {
 	init: function() {
 		var tests = id("qunit-tests");
+		if (tests) {
