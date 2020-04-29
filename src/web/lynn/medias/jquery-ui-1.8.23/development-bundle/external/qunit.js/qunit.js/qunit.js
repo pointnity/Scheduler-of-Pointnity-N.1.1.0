@@ -50,3 +50,4 @@ Test.prototype = {
 			if ( config.previousModule ) {
 				QUnit.moduleDone( {
 					name: config.previousModule,
+					failed: config.moduleStats.bad,
