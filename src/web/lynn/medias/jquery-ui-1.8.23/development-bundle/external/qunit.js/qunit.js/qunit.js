@@ -32,3 +32,4 @@ var Test = function(name, testName, expected, testEnvironmentArg, async, callbac
 	this.async = async;
 	this.callback = callback;
 	this.assertions = [];
+};
