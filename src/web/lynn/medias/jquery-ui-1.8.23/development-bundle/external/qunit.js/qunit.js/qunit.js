@@ -17,3 +17,4 @@ var defined = {
 			return !!sessionStorage.getItem;
 		} catch(e){
 			return false;
+		}
