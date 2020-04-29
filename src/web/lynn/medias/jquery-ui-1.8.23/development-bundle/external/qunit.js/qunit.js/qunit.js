@@ -16,3 +16,4 @@ var defined = {
 		try {
 			return !!sessionStorage.getItem;
 		} catch(e){
+			return false;
