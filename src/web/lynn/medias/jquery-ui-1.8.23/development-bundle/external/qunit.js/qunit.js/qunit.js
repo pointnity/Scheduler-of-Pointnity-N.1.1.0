@@ -47,3 +47,4 @@ Test.prototype = {
 		}
 	},
 	setup: function() {
+		if (this.module != config.previousModule) {
