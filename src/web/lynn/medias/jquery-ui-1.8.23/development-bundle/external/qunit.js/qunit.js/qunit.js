@@ -15,3 +15,4 @@ var defined = {
 	sessionStorage: (function() {
 		try {
 			return !!sessionStorage.getItem;
+		} catch(e){
