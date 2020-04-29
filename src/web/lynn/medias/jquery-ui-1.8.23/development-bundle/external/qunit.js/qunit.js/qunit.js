@@ -18,3 +18,4 @@ var defined = {
 		} catch(e){
 			return false;
 		}
+  })()
