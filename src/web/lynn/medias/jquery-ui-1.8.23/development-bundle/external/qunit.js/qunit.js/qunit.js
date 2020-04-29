@@ -39,3 +39,4 @@ Test.prototype = {
 		if (tests) {
 			var b = document.createElement("strong");
 				b.innerHTML = "Running " + this.name;
+			var li = document.createElement("li");
