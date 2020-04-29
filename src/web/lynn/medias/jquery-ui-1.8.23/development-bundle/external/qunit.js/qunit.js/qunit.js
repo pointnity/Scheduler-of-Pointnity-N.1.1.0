@@ -44,3 +44,4 @@ Test.prototype = {
 				li.className = "running";
 				li.id = this.id = "test-output" + testId++;
 			tests.appendChild( li );
+		}
