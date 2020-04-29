@@ -41,3 +41,4 @@ Test.prototype = {
 				b.innerHTML = "Running " + this.name;
 			var li = document.createElement("li");
 				li.appendChild( b );
+				li.className = "running";
