@@ -21,7 +21,6 @@ var defined = {
   })()
 };
 
-
 var testId = 0;
 
 var Test = function(name, testName, expected, testEnvironmentArg, async, callback) {
@@ -45,12 +44,8 @@ Test.prototype = {
 				li.id = this.id = "test-output" + testId++;
 			tests.appendChild( li );
 		}
+	},
 	setup: function() {
 		if (this.module != config.previousModule) {
 			if ( config.previousModule ) {
 				QUnit.moduleDone( {
-					name: config.previousModule,
-					failed: config.moduleStats.bad,
-					passed: config.moduleStats.all - config.moduleStats.bad,
-					total: config.moduleStats.all
-				} );
