@@ -53,3 +53,4 @@ Test.prototype = {
 					failed: config.moduleStats.bad,
 					passed: config.moduleStats.all - config.moduleStats.bad,
 					total: config.moduleStats.all
+				} );
