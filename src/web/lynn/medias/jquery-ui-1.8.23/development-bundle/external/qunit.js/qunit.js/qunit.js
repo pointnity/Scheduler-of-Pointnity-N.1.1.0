@@ -9,3 +9,5 @@
  */
 
 (function(window) {
+
+var defined = {
