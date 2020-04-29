@@ -42,3 +42,4 @@ Test.prototype = {
 			var li = document.createElement("li");
 				li.appendChild( b );
 				li.className = "running";
+				li.id = this.id = "test-output" + testId++;
