@@ -52,3 +52,4 @@ Test.prototype = {
 				QUnit.moduleDone( {
 					name: config.previousModule,
 					failed: config.moduleStats.bad,
+					passed: config.moduleStats.all - config.moduleStats.bad,
