@@ -46,3 +46,4 @@ Test.prototype = {
 			tests.appendChild( li );
 		}
 	},
+	setup: function() {
