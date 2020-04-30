@@ -8,3 +8,4 @@
  * http://docs.jquery.com/UI/Accordion#theming
  */
 /* IE/Win - Fix animation bug - #4615 */
+.ui-accordion { width: 100%; }
