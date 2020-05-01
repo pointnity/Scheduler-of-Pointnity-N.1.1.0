@@ -21,3 +21,4 @@
  * http://docs.jquery.com/UI/Menu#theming
  */
 .ui-menu {
+	list-style:none;
