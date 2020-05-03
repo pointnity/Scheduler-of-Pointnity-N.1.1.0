@@ -63,3 +63,4 @@ $.extend({
 			name: 'metadata',
 			cre: /({.*})/,
 			single: 'metadata'
+		},
