@@ -61,3 +61,4 @@ $.extend({
 		defaults : {
 			type: 'class',
 			name: 'metadata',
+			cre: /({.*})/,
