@@ -62,3 +62,4 @@ $.extend({
 			type: 'class',
 			name: 'metadata',
 			cre: /({.*})/,
+			single: 'metadata'
