@@ -60,3 +60,4 @@ $.extend({
 	metadata : {
 		defaults : {
 			type: 'class',
+			name: 'metadata',
