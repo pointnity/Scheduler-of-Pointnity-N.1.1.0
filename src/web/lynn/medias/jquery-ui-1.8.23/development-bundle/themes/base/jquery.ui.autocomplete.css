@@ -64,3 +64,4 @@ $.extend({
 			cre: /({.*})/,
 			single: 'metadata'
 		},
+		setType: function( type, name ){
