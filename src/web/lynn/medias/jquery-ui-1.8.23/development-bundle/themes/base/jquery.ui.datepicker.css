@@ -7,3 +7,4 @@
  *
  * http://docs.jquery.com/UI/Datepicker#theming
  */
+.ui-datepicker { width: 17em; padding: .2em .2em 0; display: none; }
