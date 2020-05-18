@@ -42,3 +42,4 @@
 .ui-datepicker-row-break { clear:both; width:100%; font-size:0em; }
 
 /* RTL support */
+.ui-datepicker-rtl { direction: rtl; }
