@@ -52,3 +52,4 @@
 .ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current { float:right; }
 .ui-datepicker-rtl .ui-datepicker-group { float:right; }
 .ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header { border-right-width:0; border-left-width:1px; }
+.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header { border-right-width:0; border-left-width:1px; }
