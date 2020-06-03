@@ -7,3 +7,4 @@
     <need_cpu>1</need_cpu>
     <need_memory>512</need_memory>
     <vm_type>KVM</vm_type>
+    <img_template>centos_10G</img_template>
