@@ -5,3 +5,5 @@
     <job_type>batch</job_type>
     <sched_model>WideDistribution</sched_model>
     <timeout>10<timeout>
+
+    <need_cpu>1</need_cpu>
