@@ -12,3 +12,4 @@
     <img_template>centos.qcow2</img_template>
     <size>10</size>
     <app_name>getURL</app_name>
+<tasks>
