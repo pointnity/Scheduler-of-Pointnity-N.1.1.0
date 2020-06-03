@@ -38,3 +38,4 @@
 <task_num>1</task_num>
 </task>
 <task>
+<exe_path>getURL -b</exe_path>
