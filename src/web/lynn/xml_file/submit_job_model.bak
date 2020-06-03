@@ -3,3 +3,5 @@
     <group>common</group>
     <priority>middle</priority>
     <job_type>batch</job_type>
+
+    <need_cpu>1</need_cpu>
