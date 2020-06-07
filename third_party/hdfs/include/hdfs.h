@@ -42,3 +42,4 @@ extern  "C" {
     typedef uint16_t  tPort; /// port
     typedef enum tObjectKind {
         kObjectKindFile = 'F',
+        kObjectKindDirectory = 'D',
