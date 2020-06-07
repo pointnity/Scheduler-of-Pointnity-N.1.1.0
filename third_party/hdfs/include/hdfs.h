@@ -84,3 +84,17 @@ extern  "C" {
     /** 
      * hdfsConnect - Connect to a hdfs file system.
      * Connect to the hdfs.
+     * @param host A string containing either a host name, or an ip address
+     * of the namenode of a hdfs cluster. 'host' should be passed as NULL if
+     * you want to connect to local filesystem. 'host' should be passed as
+     * 'default' (and port as 0) to used the 'configured' filesystem
+     * (core-site/core-default.xml).
+     * @param port The port on which the server is listening.
+     * @return Returns a handle to the filesystem or NULL on error.
+     */
+     hdfsFS hdfsConnect(const char* host, tPort port);
+
+
+    /** 
+     * hdfsDisconnect - Disconnect from the hdfs file system.
+     * Disconnect from hdfs.
