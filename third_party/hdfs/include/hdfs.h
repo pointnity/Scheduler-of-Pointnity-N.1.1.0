@@ -73,3 +73,4 @@ extern  "C" {
      * of the namenode of a hdfs cluster. 'host' should be passed as NULL if
      * you want to connect to local filesystem. 'host' should be passed as
      * 'default' (and port as 0) to used the 'configured' filesystem
+     * (core-site/core-default.xml).
