@@ -71,3 +71,4 @@ extern  "C" {
      * Connect to the hdfs.
      * @param host A string containing either a host name, or an ip address
      * of the namenode of a hdfs cluster. 'host' should be passed as NULL if
+     * you want to connect to local filesystem. 'host' should be passed as
