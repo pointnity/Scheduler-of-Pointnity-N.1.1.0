@@ -118,3 +118,23 @@ extern  "C" {
      * default configured values.
      * @return Returns the handle to the open file or NULL on error.
      */
+    hdfsFile hdfsOpenFile(hdfsFS fs, const char* path, int flags,
+                          int bufferSize, short replication, tSize blocksize);
+
+
+    /** 
+     * hdfsCloseFile - Close an open file. 
+     * @param fs The configured filesystem handle.
+     * @param file The file handle.
+     * @return Returns 0 on success, -1 on error.  
+     */
+    int hdfsCloseFile(hdfsFS fs, hdfsFile file);
+
+
+    /** 
+     * hdfsExists - Checks if a given path exsits on the filesystem 
+     * @param fs The configured filesystem handle.
+     * @param path The path to look for
+     * @return Returns 0 on success, -1 on error.  
+     */
+    int hdfsExists(hdfsFS fs, const char *path);
