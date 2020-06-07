@@ -194,3 +194,20 @@ extern  "C" {
      * @param length The no. of bytes to write. 
      * @return Returns the number of bytes written, -1 on error.
      */
+    tSize hdfsWrite(hdfsFS fs, hdfsFile file, const void* buffer,
+                    tSize length);
+
+
+    /** 
+     * hdfsWrite - Flush the data. 
+     * @param fs The configured filesystem handle.
+     * @param file The file handle.
+     * @return Returns 0 on success, -1 on error. 
+     */
+    int hdfsFlush(hdfsFS fs, hdfsFile file);
+
+
+    /**
+     * hdfsAvailable - Number of bytes that can be read from this
+     * input stream without blocking.
+     * @param fs The configured filesystem handle.
