@@ -98,3 +98,23 @@ extern  "C" {
     /** 
      * hdfsDisconnect - Disconnect from the hdfs file system.
      * Disconnect from hdfs.
+     * @param fs The configured filesystem handle.
+     * @return Returns 0 on success, -1 on error.  
+     */
+    int hdfsDisconnect(hdfsFS fs);
+        
+
+    /** 
+     * hdfsOpenFile - Open a hdfs file in given mode.
+     * @param fs The configured filesystem handle.
+     * @param path The full path to the file.
+     * @param flags - an | of bits/fcntl.h file flags - supported flags are O_RDONLY, O_WRONLY (meaning create or overwrite i.e., implies O_TRUNCAT), 
+     * O_WRONLY|O_APPEND. Other flags are generally ignored other than (O_RDWR || (O_EXCL & O_CREAT)) which return NULL and set errno equal ENOTSUP.
+     * @param bufferSize Size of buffer for read/write - pass 0 if you want
+     * to use the default configured values.
+     * @param replication Block replication - pass 0 if you want to use
+     * the default configured values.
+     * @param blocksize Size of block - pass 0 if you want to use the
+     * default configured values.
+     * @return Returns the handle to the open file or NULL on error.
+     */
