@@ -30,3 +30,4 @@
 /** All APIs set errno to meaningful values */
 #ifdef __cplusplus
 extern  "C" {
+#endif
