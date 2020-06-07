@@ -230,3 +230,22 @@ extern  "C" {
 
     /**
      * hdfsMove - Move file from one filesystem to another.
+     * @param srcFS The handle to source filesystem.
+     * @param src The path of source file. 
+     * @param dstFS The handle to destination filesystem.
+     * @param dst The path of destination file. 
+     * @return Returns 0 on success, -1 on error. 
+     */
+    int hdfsMove(hdfsFS srcFS, const char* src, hdfsFS dstFS, const char* dst);
+
+
+    /**
+     * hdfsDelete - Delete file. 
+     * @param fs The configured filesystem handle.
+     * @param path The path of the file. 
+     * @return Returns 0 on success, -1 on error. 
+     */
+    int hdfsDelete(hdfsFS fs, const char* path);
+
+
+    /**
