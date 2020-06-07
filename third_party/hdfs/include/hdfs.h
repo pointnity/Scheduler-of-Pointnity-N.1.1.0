@@ -58,3 +58,4 @@ extern  "C" {
     enum hdfsStreamType
     {
         UNINITIALIZED = 0,
+        INPUT = 1,
