@@ -270,3 +270,13 @@ extern  "C" {
 
 
     /** 
+     * hdfsSetWorkingDirectory - Set the working directory. All relative
+     * paths will be resolved relative to it.
+     * @param fs The configured filesystem handle.
+     * @param path The path of the new 'cwd'. 
+     * @return Returns 0 on success, -1 on error. 
+     */
+    int hdfsSetWorkingDirectory(hdfsFS fs, const char* path);
+
+
+    /** 
