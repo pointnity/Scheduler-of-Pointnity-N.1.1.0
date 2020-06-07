@@ -40,3 +40,4 @@ extern  "C" {
     typedef time_t    tTime; /// time type in seconds
     typedef int64_t   tOffset;/// offset within the file
     typedef uint16_t  tPort; /// port
+    typedef enum tObjectKind {
