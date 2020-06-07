@@ -249,3 +249,24 @@ extern  "C" {
 
 
     /**
+     * hdfsRename - Rename file. 
+     * @param fs The configured filesystem handle.
+     * @param oldPath The path of the source file. 
+     * @param newPath The path of the destination file. 
+     * @return Returns 0 on success, -1 on error. 
+     */
+    int hdfsRename(hdfsFS fs, const char* oldPath, const char* newPath);
+
+
+    /** 
+     * hdfsGetWorkingDirectory - Get the current working directory for
+     * the given filesystem.
+     * @param fs The configured filesystem handle.
+     * @param buffer The user-buffer to copy path of cwd into. 
+     * @param bufferSize The length of user-buffer.
+     * @return Returns buffer, NULL on error.
+     */
+    char* hdfsGetWorkingDirectory(hdfsFS fs, char *buffer, size_t bufferSize);
+
+
+    /** 
