@@ -67,3 +67,4 @@ extern  "C" {
       
 
     /** 
+     * hdfsConnectAsUser - Connect to a hdfs file system as a specific user
