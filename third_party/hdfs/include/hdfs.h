@@ -61,3 +61,4 @@ extern  "C" {
         INPUT = 1,
         OUTPUT = 2,
         void* file;
+        enum hdfsStreamType type;
