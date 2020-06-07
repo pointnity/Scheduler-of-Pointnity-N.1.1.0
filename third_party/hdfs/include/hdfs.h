@@ -173,3 +173,24 @@ extern  "C" {
 
 
     /** 
+     * hdfsPread - Positional read of data from an open file.
+     * @param fs The configured filesystem handle.
+     * @param file The file handle.
+     * @param position Position from which to read
+     * @param buffer The buffer to copy read bytes into.
+     * @param length The length of the buffer.
+     * @return Returns the number of bytes actually read, possibly less than
+     * than length;-1 on error.
+     */
+    tSize hdfsPread(hdfsFS fs, hdfsFile file, tOffset position,
+                    void* buffer, tSize length);
+
+
+    /** 
+     * hdfsWrite - Write data into an open file.
+     * @param fs The configured filesystem handle.
+     * @param file The file handle.
+     * @param buffer The data.
+     * @param length The no. of bytes to write. 
+     * @return Returns the number of bytes written, -1 on error.
+     */
