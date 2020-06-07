@@ -72,3 +72,4 @@ extern  "C" {
      * @param host A string containing either a host name, or an ip address
      * of the namenode of a hdfs cluster. 'host' should be passed as NULL if
      * you want to connect to local filesystem. 'host' should be passed as
+     * 'default' (and port as 0) to used the 'configured' filesystem
