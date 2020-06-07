@@ -62,3 +62,5 @@ extern  "C" {
         OUTPUT = 2,
         void* file;
         enum hdfsStreamType type;
+    };
+    typedef struct hdfsFile_internal* hdfsFile;
