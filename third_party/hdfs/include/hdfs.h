@@ -309,3 +309,30 @@ extern  "C" {
         tOffset mSize;       /* the size of the file in bytes */
         short mReplication;    /* the count of replicas */
         tOffset mBlockSize;  /* the block size for the file */
+        char *mOwner;        /* the owner of the file */
+        char *mGroup;        /* the group associated with the file */
+        short mPermissions;  /* the permissions associated with the file */
+        tTime mLastAccess;    /* the last access time for the file in seconds */
+    } hdfsFileInfo;
+
+
+    /** 
+     * hdfsListDirectory - Get list of files/directories for a given
+     * directory-path. hdfsFreeFileInfo should be called to deallocate memory. 
+     * @param fs The configured filesystem handle.
+     * @param path The path of the directory. 
+     * @param numEntries Set to the number of files/directories in path.
+     * @return Returns a dynamically-allocated array of hdfsFileInfo
+     * objects; NULL on error.
+     */
+    hdfsFileInfo *hdfsListDirectory(hdfsFS fs, const char* path,
+                                    int *numEntries);
+
+
+    /** 
+     * hdfsGetPathInfo - Get information about a path as a (dynamically
+     * allocated) single hdfsFileInfo struct. hdfsFreeFileInfo should be
+     * called when the pointer is no longer needed.
+     * @param fs The configured filesystem handle.
+     * @param path The path of the file. 
+     * @return Returns a dynamically-allocated hdfsFileInfo object;
