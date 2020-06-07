@@ -354,3 +354,85 @@ extern  "C" {
      * hdfsGetHosts - Get hostnames where a particular block (determined by
      * pos & blocksize) of a file is stored. The last element in the array
      * is NULL. Due to replication, a single block could be present on
+    * multiple hosts.
+     * @param fs The configured filesystem handle.
+     * @param path The path of the file. 
+     * @param start The start of the block.
+     * @param length The length of the block.
+     * @return Returns a dynamically-allocated 2-d array of blocks-hosts;
+     * NULL on error.
+     */
+    char*** hdfsGetHosts(hdfsFS fs, const char* path, 
+            tOffset start, tOffset length);
+
+
+    /** 
+     * hdfsFreeHosts - Free up the structure returned by hdfsGetHosts
+     * @param hdfsFileInfo The array of dynamically-allocated hdfsFileInfo
+     * objects.
+     * @param numEntries The size of the array.
+     */
+    void hdfsFreeHosts(char ***blockHosts);
+
+
+    /** 
+     * hdfsGetDefaultBlockSize - Get the optimum blocksize.
+     * @param fs The configured filesystem handle.
+     * @return Returns the blocksize; -1 on error. 
+     */
+    tOffset hdfsGetDefaultBlockSize(hdfsFS fs);
+
+
+    /** 
+     * hdfsGetCapacity - Return the raw capacity of the filesystem.  
+     * @param fs The configured filesystem handle.
+     * @return Returns the raw-capacity; -1 on error. 
+     */
+    tOffset hdfsGetCapacity(hdfsFS fs);
+
+
+    /** 
+     * hdfsGetUsed - Return the total raw size of all files in the filesystem.
+     * @param fs The configured filesystem handle.
+     * @return Returns the total-size; -1 on error. 
+     */
+    tOffset hdfsGetUsed(hdfsFS fs);
+
+    /** 
+     * hdfsChown 
+     * @param fs The configured filesystem handle.
+     * @param path the path to the file or directory
+     * @param owner this is a string in Hadoop land. Set to null or "" if only setting group
+     * @param group  this is a string in Hadoop land. Set to null or "" if only setting user
+     * @return 0 on success else -1
+     */
+    int hdfsChown(hdfsFS fs, const char* path, const char *owner, const char *group);
+
+    /** 
+     * hdfsChmod
+     * @param fs The configured filesystem handle.
+     * @param path the path to the file or directory
+     * @param mode the bitmask to set it to
+     * @return 0 on success else -1
+     */
+      int hdfsChmod(hdfsFS fs, const char* path, short mode);
+
+    /** 
+     * hdfsUtime
+     * @param fs The configured filesystem handle.
+     * @param path the path to the file or directory
+     * @param mtime new modification time or 0 for only set access time in seconds
+     * @param atime new access time or 0 for only set modification time in seconds
+     * @return 0 on success else -1
+     */
+    int hdfsUtime(hdfsFS fs, const char* path, tTime mtime, tTime atime);
+    
+#ifdef __cplusplus
+}
+#endif
+
+#endif /*LIBHDFS_HDFS_H*/
+
+/**
+ * vim: ts=4: sw=4: et
+ */
