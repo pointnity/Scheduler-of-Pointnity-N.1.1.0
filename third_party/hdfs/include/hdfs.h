@@ -44,3 +44,8 @@ extern  "C" {
         kObjectKindFile = 'F',
         kObjectKindDirectory = 'D',
     } tObjectKind;
+
+
+    /**
+     * The C reflection of org.apache.org.hadoop.FileSystem .
+     */
