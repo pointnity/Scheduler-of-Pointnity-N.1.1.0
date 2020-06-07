@@ -11,3 +11,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <errno.h>
+
+#include <jni.h>
+
+#ifndef O_RDONLY
