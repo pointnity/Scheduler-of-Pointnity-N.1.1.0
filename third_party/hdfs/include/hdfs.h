@@ -43,3 +43,4 @@ extern  "C" {
     typedef enum tObjectKind {
         kObjectKindFile = 'F',
         kObjectKindDirectory = 'D',
+    } tObjectKind;
