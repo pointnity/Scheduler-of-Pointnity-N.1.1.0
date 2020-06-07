@@ -280,3 +280,32 @@ extern  "C" {
 
 
     /** 
+     * hdfsCreateDirectory - Make the given file and all non-existent
+     * parents into directories.
+     * @param fs The configured filesystem handle.
+     * @param path The path of the directory. 
+     * @return Returns 0 on success, -1 on error. 
+     */
+    int hdfsCreateDirectory(hdfsFS fs, const char* path);
+
+
+    /** 
+     * hdfsSetReplication - Set the replication of the specified
+     * file to the supplied value
+     * @param fs The configured filesystem handle.
+     * @param path The path of the file. 
+     * @return Returns 0 on success, -1 on error. 
+     */
+    int hdfsSetReplication(hdfsFS fs, const char* path, int16_t replication);
+
+
+    /** 
+     * hdfsFileInfo - Information about a file/directory.
+     */
+    typedef struct  {
+        tObjectKind mKind;   /* file or directory */
+        char *mName;         /* the name of the file */
+        tTime mLastMod;      /* the last modification time for the file in seconds */
+        tOffset mSize;       /* the size of the file in bytes */
+        short mReplication;    /* the count of replicas */
+        tOffset mBlockSize;  /* the block size for the file */
