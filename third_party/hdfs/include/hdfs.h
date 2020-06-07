@@ -138,3 +138,27 @@ extern  "C" {
      * @return Returns 0 on success, -1 on error.  
      */
     int hdfsExists(hdfsFS fs, const char *path);
+
+
+    /** 
+     * hdfsSeek - Seek to given offset in file. 
+     * This works only for files opened in read-only mode. 
+     * @param fs The configured filesystem handle.
+     * @param file The file handle.
+     * @param desiredPos Offset into the file to seek into.
+     * @return Returns 0 on success, -1 on error.  
+     */
+    int hdfsSeek(hdfsFS fs, hdfsFile file, tOffset desiredPos); 
+
+
+    /** 
+     * hdfsTell - Get the current offset in the file, in bytes.
+     * @param fs The configured filesystem handle.
+     * @param file The file handle.
+     * @return Current offset, -1 on error.
+     */
+    tOffset hdfsTell(hdfsFS fs, hdfsFile file);
+
+
+    /** 
+     * hdfsRead - Read data from an open file.
