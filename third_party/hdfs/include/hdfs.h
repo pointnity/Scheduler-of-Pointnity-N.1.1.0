@@ -69,3 +69,4 @@ extern  "C" {
     /** 
      * hdfsConnectAsUser - Connect to a hdfs file system as a specific user
      * Connect to the hdfs.
+     * @param host A string containing either a host name, or an ip address
