@@ -37,3 +37,4 @@ extern  "C" {
      */
 
     typedef int32_t   tSize; /// size of data for read/write io ops
+    typedef time_t    tTime; /// time type in seconds
