@@ -336,3 +336,21 @@ extern  "C" {
      * @param fs The configured filesystem handle.
      * @param path The path of the file. 
      * @return Returns a dynamically-allocated hdfsFileInfo object;
+     * NULL on error.
+     */
+    hdfsFileInfo *hdfsGetPathInfo(hdfsFS fs, const char* path);
+
+
+    /** 
+     * hdfsFreeFileInfo - Free up the hdfsFileInfo array (including fields) 
+     * @param hdfsFileInfo The array of dynamically-allocated hdfsFileInfo
+     * objects.
+     * @param numEntries The size of the array.
+     */
+    void hdfsFreeFileInfo(hdfsFileInfo *hdfsFileInfo, int numEntries);
+
+
+    /** 
+     * hdfsGetHosts - Get hostnames where a particular block (determined by
+     * pos & blocksize) of a file is stored. The last element in the array
+     * is NULL. Due to replication, a single block could be present on
