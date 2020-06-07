@@ -211,3 +211,22 @@ extern  "C" {
      * hdfsAvailable - Number of bytes that can be read from this
      * input stream without blocking.
      * @param fs The configured filesystem handle.
+     * @param file The file handle.
+     * @return Returns available bytes; -1 on error. 
+     */
+    int hdfsAvailable(hdfsFS fs, hdfsFile file);
+
+
+    /**
+     * hdfsCopy - Copy file from one filesystem to another.
+     * @param srcFS The handle to source filesystem.
+     * @param src The path of source file. 
+     * @param dstFS The handle to destination filesystem.
+     * @param dst The path of destination file. 
+     * @return Returns 0 on success, -1 on error. 
+     */
+    int hdfsCopy(hdfsFS srcFS, const char* src, hdfsFS dstFS, const char* dst);
+
+
+    /**
+     * hdfsMove - Move file from one filesystem to another.
