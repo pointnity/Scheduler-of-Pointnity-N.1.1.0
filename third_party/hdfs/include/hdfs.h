@@ -31,6 +31,9 @@
 #ifdef __cplusplus
 extern  "C" {
 #endif
-#
-    /**
 
+    /**
+     * Some utility decls used in libhdfs.
+     */
+
+    typedef int32_t   tSize; /// size of data for read/write io ops
