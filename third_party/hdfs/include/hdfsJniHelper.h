@@ -38,3 +38,4 @@ typedef jthrowable Exc;
  * env: The JNIEnv pointer
  * retval: The pointer to a union type which will contain the result of the
    method invocation, e.g. if the method returns an Object, retval will be
+   set to that, if the method returns boolean, retval will be set to the
