@@ -31,3 +31,4 @@ typedef jthrowable Exc;
 /** invokeMethod: Invoke a Static or Instance method.
  * className: Name of the class where the method can be found
  * methName: Name of the method
+ * methSignature: the signature of the method "(arg-types)ret-type"
