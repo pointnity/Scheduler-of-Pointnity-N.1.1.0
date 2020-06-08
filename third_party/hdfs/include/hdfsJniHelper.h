@@ -17,3 +17,4 @@
 typedef enum {
     STATIC,
     INSTANCE
+} MethType;
