@@ -57,3 +57,34 @@ int invokeMethod(JNIEnv *env, RetVal *retval, Exc *exc, MethType methType,
  */
 jobject constructNewObjectOfClass(JNIEnv *env, Exc *exc, const char *className, 
                                   const char *ctorSignature, ...);
+
+jmethodID methodIdFromClass(const char *className, const char *methName, 
+                            const char *methSignature, MethType methType, 
+                            JNIEnv *env);
+
+jclass globalClassReference(const char *className, JNIEnv *env);
+
+/** classNameOfObject: Get an object's class name.
+ * @param jobj: The object.
+ * @param env: The JNIEnv pointer.
+ * @return Returns a pointer to a string containing the class name. This string
+ * must be freed by the caller.
+ */
+char *classNameOfObject(jobject jobj, JNIEnv *env);
+
+/** getJNIEnv: A helper function to get the JNIEnv* for the given thread.
+ * If no JVM exists, then one will be created. JVM command line arguments
+ * are obtained from the LIBHDFS_OPTS environment variable.
+ * @param: None.
+ * @return The JNIEnv* corresponding to the thread.
+ * */
+JNIEnv* getJNIEnv(void);
+
+jarray constructNewArrayString(JNIEnv *env, Exc *exc, const char **elements, int size) ;
+
+#endif /*LIBHDFS_JNI_HELPER_H*/
+
+/**
+ * vim: ts=4: sw=4: et:
+ */
+
