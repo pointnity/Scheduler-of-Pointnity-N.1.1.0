@@ -43,3 +43,4 @@ typedef jthrowable Exc;
  * exc: If the methods throws any exception, this will contain the reference
  * Arguments (the method arguments) must be passed after methSignature
  * RETURNS: -1 on error and 0 on success. If -1 is returned, exc will have 
+ */
