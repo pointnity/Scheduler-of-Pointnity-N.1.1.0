@@ -55,3 +55,4 @@ int invokeMethod(JNIEnv *env, RetVal *retval, Exc *exc, MethType methType,
  * exc: If the ctor throws any exception, this will contain the reference
  * Arguments to the ctor must be passed after ctorSignature 
  */
+jobject constructNewObjectOfClass(JNIEnv *env, Exc *exc, const char *className, 
