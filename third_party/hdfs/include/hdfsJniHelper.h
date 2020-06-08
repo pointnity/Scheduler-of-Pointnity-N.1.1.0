@@ -16,3 +16,4 @@
 /** Denote the method we want to invoke as STATIC or INSTANCE */
 typedef enum {
     STATIC,
+    INSTANCE
