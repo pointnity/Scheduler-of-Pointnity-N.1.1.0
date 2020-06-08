@@ -51,3 +51,4 @@ int invokeMethod(JNIEnv *env, RetVal *retval, Exc *exc, MethType methType,
 /** constructNewObjectOfClass: Invoke a constructor.
  * className: Name of the class
  * ctorSignature: the signature of the constructor "(arg-types)V"
+ * env: The JNIEnv pointer
