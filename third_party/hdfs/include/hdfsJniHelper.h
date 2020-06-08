@@ -45,3 +45,4 @@ typedef jthrowable Exc;
  * RETURNS: -1 on error and 0 on success. If -1 is returned, exc will have 
  */
 int invokeMethod(JNIEnv *env, RetVal *retval, Exc *exc, MethType methType,
+                 jobject instObj, const char *className, const char *methName, 
