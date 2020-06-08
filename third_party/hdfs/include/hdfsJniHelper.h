@@ -44,3 +44,4 @@ typedef jthrowable Exc;
  * Arguments (the method arguments) must be passed after methSignature
  * RETURNS: -1 on error and 0 on success. If -1 is returned, exc will have 
  */
+int invokeMethod(JNIEnv *env, RetVal *retval, Exc *exc, MethType methType,
