@@ -40,3 +40,5 @@ typedef jthrowable Exc;
    method invocation, e.g. if the method returns an Object, retval will be
    set to that, if the method returns boolean, retval will be set to the
    value (JNI_TRUE or JNI_FALSE), etc.
+ * exc: If the methods throws any exception, this will contain the reference
+ * Arguments (the method arguments) must be passed after methSignature
