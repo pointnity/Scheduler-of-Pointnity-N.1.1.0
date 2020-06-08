@@ -35,3 +35,4 @@ typedef jthrowable Exc;
  * methType: The type of the method (STATIC or INSTANCE)
  * instObj: Required if the methType is INSTANCE. The object to invoke
    the method on.
+ * env: The JNIEnv pointer
