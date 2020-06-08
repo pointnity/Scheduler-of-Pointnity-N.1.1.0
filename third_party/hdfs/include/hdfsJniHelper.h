@@ -47,3 +47,7 @@ typedef jthrowable Exc;
 int invokeMethod(JNIEnv *env, RetVal *retval, Exc *exc, MethType methType,
                  jobject instObj, const char *className, const char *methName, 
                  const char *methSignature, ...);
+
+/** constructNewObjectOfClass: Invoke a constructor.
+ * className: Name of the class
+ * ctorSignature: the signature of the constructor "(arg-types)V"
