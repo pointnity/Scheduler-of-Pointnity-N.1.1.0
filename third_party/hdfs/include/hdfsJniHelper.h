@@ -1,0 +1,1 @@
+#ifndef LIBHDFS_JNI_HELPER_H
