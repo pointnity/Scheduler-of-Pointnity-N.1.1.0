@@ -3,3 +3,5 @@
 #
 # Please DO NOT delete this file!
 # It is necessary for linking the library.
+
+# The name that we can dlopen(3).
