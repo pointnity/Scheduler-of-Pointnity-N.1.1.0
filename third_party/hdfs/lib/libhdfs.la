@@ -32,4 +32,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-
+libdir='/grid/0/dev/mfoley/hadoop-1.0/build/c++/Linux-i386-32/lib'
