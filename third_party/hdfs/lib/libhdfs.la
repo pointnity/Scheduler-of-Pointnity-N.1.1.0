@@ -5,6 +5,9 @@
 # It is necessary for linking the library.
 
 # The name that we can dlopen(3).
+dlname='libhdfs.so.0'
 
 # Names of this library.
 library_names='libhdfs.so.0.0.0 libhdfs.so.0 libhdfs.so'
+
+# The name of the static archive.
