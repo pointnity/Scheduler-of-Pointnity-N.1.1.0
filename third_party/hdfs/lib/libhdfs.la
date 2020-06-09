@@ -18,3 +18,4 @@ dependency_libs=' -L/grid/0/dev/acm/tools/jdk1.6.0_26/jre/lib/i386/server -ljvm 
 
 # Version information for libhdfs.
 current=0
+age=0
