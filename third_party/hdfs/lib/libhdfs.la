@@ -22,3 +22,4 @@ age=0
 revision=0
 
 # Is this an already installed library?
+installed=yes
