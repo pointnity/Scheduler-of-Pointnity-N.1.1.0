@@ -23,3 +23,5 @@ revision=0
 
 # Is this an already installed library?
 installed=yes
+
+# Should we warn about portability when linking against -modules?
