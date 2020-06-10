@@ -26,3 +26,6 @@ installed=yes
 
 # Should we warn about portability when linking against -modules?
 shouldnotlink=no
+
+# Files to dlopen/dlpreopen
+dlopen=''
