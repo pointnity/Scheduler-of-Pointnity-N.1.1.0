@@ -5,3 +5,5 @@
 # It is necessary for linking the library.
 
 # The name that we can dlopen(3).
+dlname='libhdfs.so.0'
+
