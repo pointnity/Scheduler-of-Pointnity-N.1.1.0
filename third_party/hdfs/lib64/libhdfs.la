@@ -14,3 +14,6 @@ library_names='libhdfs.so.0.0.0 libhdfs.so.0 libhdfs.so'
 old_library='libhdfs.a'
 
 # Libraries that this one depends upon.
+dependency_libs=' -L/grid/0/dev/acm/tools/jdk1.6.0_26-x64/jre/lib/amd64/server -ljvm -ldl -lpthread'
+
+# Version information for libhdfs.
