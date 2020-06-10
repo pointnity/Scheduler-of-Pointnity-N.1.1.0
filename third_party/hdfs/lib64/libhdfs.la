@@ -25,3 +25,4 @@ revision=0
 installed=yes
 
 # Should we warn about portability when linking against -modules?
+shouldnotlink=no
