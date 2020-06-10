@@ -30,3 +30,5 @@ shouldnotlink=no
 # Files to dlopen/dlpreopen
 dlopen=''
 dlpreopen=''
+
+# Directory that this library needs to be installed in:
