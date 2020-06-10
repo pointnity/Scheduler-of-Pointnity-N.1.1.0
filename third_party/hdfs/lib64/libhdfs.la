@@ -7,3 +7,4 @@
 # The name that we can dlopen(3).
 dlname='libhdfs.so.0'
 
+# Names of this library.
