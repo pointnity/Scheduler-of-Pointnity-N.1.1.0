@@ -26,3 +26,13 @@ enum {
  * @address   : ipv4 address
  * @broadcast : ipv4 broadcast address
  * @mask      : network mask
+ */
+struct lxc_inetdev {
+	struct in_addr addr;
+	struct in_addr bcast;
+	int prefix;
+};
+
+struct lxc_route {
+	struct in_addr addr;
+};
