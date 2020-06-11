@@ -20,3 +20,6 @@ enum {
 	LXC_NET_VLAN,
 	LXC_NET_MAXCONFTYPE,
 };
+
+/*
+ * Defines the structure to configure an ipv4 address
