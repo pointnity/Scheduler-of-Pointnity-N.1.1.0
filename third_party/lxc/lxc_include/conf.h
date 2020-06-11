@@ -2,3 +2,4 @@
 #define _conf_h
 
 #ifdef __cplusplus
+extern "C" {
