@@ -9,3 +9,7 @@ extern "C" {
 #include <sys/param.h>
 
 #include <lxc/list.h>
+
+#include <lxc/start.h> /* for lxc_handler */
+
+enum {
