@@ -13,3 +13,4 @@ extern "C" {
 #include <lxc/start.h> /* for lxc_handler */
 
 enum {
+	LXC_NET_EMPTY,
