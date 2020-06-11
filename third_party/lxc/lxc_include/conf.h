@@ -23,3 +23,4 @@ enum {
 
 /*
  * Defines the structure to configure an ipv4 address
+ * @address   : ipv4 address
