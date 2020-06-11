@@ -7,3 +7,5 @@ extern "C" {
 
 #include <netinet/in.h>
 #include <sys/param.h>
+
+#include <lxc/list.h>
