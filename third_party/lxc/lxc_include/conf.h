@@ -36,3 +36,12 @@ struct lxc_inetdev {
 struct lxc_route {
 	struct in_addr addr;
 };
+
+/*
+ * Defines the structure to configure an ipv6 address
+ * @flags     : set the address up
+ * @address   : ipv6 address
+ * @broadcast : ipv6 broadcast address
+ * @mask      : network mask
+ */
+struct lxc_inet6dev {
