@@ -14,3 +14,4 @@ extern "C" {
 
 enum {
 	LXC_NET_EMPTY,
+	LXC_NET_VETH,
