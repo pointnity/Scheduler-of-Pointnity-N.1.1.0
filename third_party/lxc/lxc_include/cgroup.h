@@ -5,3 +5,4 @@
 
 struct lxc_handler;
 int lxc_cgroup_create(const char *name, pid_t pid);
+int lxc_cgroup_destroy(const char *name);
