@@ -64,3 +64,5 @@ static inline void lxc_list_add_tail(struct lxc_list *head,
 static inline void lxc_list_del(struct lxc_list *list)
 {
 	struct lxc_list *next, *prev;
+
+	next = list->next;
