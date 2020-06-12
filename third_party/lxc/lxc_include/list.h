@@ -21,3 +21,5 @@ static inline void lxc_list_init(struct lxc_list *list)
 
 static inline void lxc_list_add_elem(struct lxc_list *list, void *elem)
 {
+	list->elem = elem;
+}
