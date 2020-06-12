@@ -5,6 +5,7 @@ struct lxc_list {
 	void *elem;
 	struct lxc_list *next;
 	struct lxc_list *prev;
+};
 
 #define lxc_init_list(l) { .next = l, .prev = l }
 
@@ -41,6 +42,7 @@ static inline int lxc_list_empty(struct lxc_list *list)
 
 static inline void __lxc_list_add(struct lxc_list *newp,
 				  struct lxc_list *prev,
+				  struct lxc_list *next)
 {
         next->prev = newp;
         newp->next = next;
