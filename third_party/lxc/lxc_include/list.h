@@ -41,3 +41,4 @@ static inline int lxc_list_empty(struct lxc_list *list)
 
 static inline void __lxc_list_add(struct lxc_list *newp,
 				  struct lxc_list *prev,
+{
