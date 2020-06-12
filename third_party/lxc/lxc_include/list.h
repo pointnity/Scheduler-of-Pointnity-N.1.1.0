@@ -18,3 +18,6 @@ static inline void lxc_list_init(struct lxc_list *list)
 	list->elem = NULL;
 	list->next = list->prev = list;
 }
+
+static inline void lxc_list_add_elem(struct lxc_list *list, void *elem)
+{
