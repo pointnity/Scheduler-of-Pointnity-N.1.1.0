@@ -17,3 +17,4 @@ static inline void lxc_list_init(struct lxc_list *list)
 {
 	list->elem = NULL;
 	list->next = list->prev = list;
+}
