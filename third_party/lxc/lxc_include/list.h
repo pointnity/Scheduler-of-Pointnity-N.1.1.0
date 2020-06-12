@@ -2,3 +2,4 @@
 #define _list_h
 
 struct lxc_list {
+	void *elem;
