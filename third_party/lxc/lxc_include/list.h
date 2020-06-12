@@ -12,3 +12,6 @@ struct lxc_list {
 	for (__iterator = (__list)->next;				\
 	     __iterator != __list;					\
 	     __iterator = __iterator->next)
+
+static inline void lxc_list_init(struct lxc_list *list)
+{
