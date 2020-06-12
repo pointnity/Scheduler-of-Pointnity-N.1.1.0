@@ -58,3 +58,4 @@ static inline void lxc_list_add(struct lxc_list *head, struct lxc_list *list)
 static inline void lxc_list_add_tail(struct lxc_list *head,
 				     struct lxc_list *list)
 {
+	__lxc_list_add(list, head->prev, head);
