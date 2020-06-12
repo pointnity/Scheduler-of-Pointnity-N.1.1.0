@@ -66,3 +66,4 @@ static inline void lxc_list_del(struct lxc_list *list)
 	struct lxc_list *next, *prev;
 
 	next = list->next;
+	prev = list->prev;
