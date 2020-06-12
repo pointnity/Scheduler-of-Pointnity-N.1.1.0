@@ -9,3 +9,4 @@ struct lxc_list {
 #define lxc_init_list(l) { .next = l, .prev = l }
 
 #define lxc_list_for_each(__iterator, __list)		
+	for (__iterator = (__list)->next;				\
