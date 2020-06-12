@@ -27,3 +27,4 @@ static inline void lxc_list_add_elem(struct lxc_list *list, void *elem)
 static inline void *lxc_list_first_elem(struct lxc_list *list)
 {
 	return list->next->elem;
+}
