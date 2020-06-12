@@ -37,3 +37,4 @@ static inline void *lxc_list_last_elem(struct lxc_list *list)
 static inline int lxc_list_empty(struct lxc_list *list)
 {
 	return list == list->next;
+}
