@@ -7,3 +7,4 @@ struct lxc_list {
 	struct lxc_list *prev;
 
 #define lxc_init_list(l) { .next = l, .prev = l }
+	for (__iterator = (__list)->next;				\
