@@ -3,3 +3,4 @@
 
 struct lxc_list {
 	void *elem;
+	struct lxc_list *next;
