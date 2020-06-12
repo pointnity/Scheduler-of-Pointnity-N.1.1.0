@@ -10,3 +10,4 @@ struct lxc_list {
 
 #define lxc_list_for_each(__iterator, __list)		
 	for (__iterator = (__list)->next;				\
+	     __iterator != __list;					\
