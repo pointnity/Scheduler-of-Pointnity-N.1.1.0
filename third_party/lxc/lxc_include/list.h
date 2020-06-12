@@ -43,3 +43,4 @@ static inline void __lxc_list_add(struct lxc_list *newp,
 				  struct lxc_list *prev,
 {
         next->prev = newp;
+        newp->next = next;
