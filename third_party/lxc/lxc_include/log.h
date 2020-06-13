@@ -11,3 +11,4 @@
 #endif
 
 #ifndef F_DUPFD_CLOEXEC
+#define F_DUPFD_CLOEXEC 1030
