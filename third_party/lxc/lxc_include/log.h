@@ -18,3 +18,4 @@
 #define LXC_LOG_BUFFER_SIZE	512
 
 /* predefined priorities. */
+enum {
