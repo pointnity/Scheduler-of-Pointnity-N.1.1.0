@@ -5,3 +5,5 @@
 #include <stdio.h>
 #include <sys/time.h>
 #include <string.h>
+
+#ifndef O_CLOEXEC
