@@ -16,3 +16,5 @@
 
 #define LXC_LOG_PREFIX_SIZE	32
 #define LXC_LOG_BUFFER_SIZE	512
+
+/* predefined priorities. */
