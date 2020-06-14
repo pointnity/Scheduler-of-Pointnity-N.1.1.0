@@ -10,3 +10,5 @@ extern "C" {
 
 struct lxc_msg;
 struct lxc_conf;
+
+/**
