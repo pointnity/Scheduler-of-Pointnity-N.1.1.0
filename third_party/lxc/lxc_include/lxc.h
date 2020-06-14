@@ -21,3 +21,4 @@ struct lxc_conf;
  * Start the specified command inside a container
  * @name     : the name of the container
  * @argv     : an array of char * corresponding to the commande line
+ * @conf     : configuration
