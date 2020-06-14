@@ -35,3 +35,4 @@ extern int lxc_start(const char *name, char *const argv[], struct lxc_conf *conf
 extern int lxc_stop(const char *name);
 
 /*
+ * Open the monitoring mechanism for a specific container
