@@ -33,3 +33,5 @@ extern int lxc_start(const char *name, char *const argv[], struct lxc_conf *conf
  * Returns 0 on success, < 0 otherwise
  */
 extern int lxc_stop(const char *name);
+
+/*
