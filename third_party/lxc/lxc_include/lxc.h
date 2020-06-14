@@ -25,3 +25,5 @@ struct lxc_conf;
  * Returns 0 on sucess, < 0 otherwise
  */
 extern int lxc_start(const char *name, char *const argv[], struct lxc_conf *conf);
+
+/*
