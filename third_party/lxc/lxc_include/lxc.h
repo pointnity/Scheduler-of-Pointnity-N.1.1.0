@@ -40,3 +40,5 @@ extern int lxc_stop(const char *name);
  * Returns a file descriptor on success, < 0 otherwise
  */
 extern int lxc_monitor_open(void);
+
+/*
