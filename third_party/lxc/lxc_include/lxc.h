@@ -50,3 +50,5 @@ extern int lxc_monitor_open(void);
  * data was readen, < 0 otherwise
  */
 extern int lxc_monitor_read(int fd, struct lxc_msg *msg);
+
+/*
