@@ -44,3 +44,4 @@ extern int lxc_monitor_open(void);
 /*
  * Read the state of the container if this one has changed
  * The function will block until there is an event available
+ * @fd : the file descriptor provided by lxc_monitor_open
