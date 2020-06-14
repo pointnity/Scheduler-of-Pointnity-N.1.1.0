@@ -7,3 +7,5 @@ extern "C" {
 
 #include <stddef.h>
 #include <lxc/state.h>
+
+struct lxc_msg;
