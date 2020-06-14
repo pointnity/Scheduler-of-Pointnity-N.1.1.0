@@ -31,3 +31,4 @@ extern int lxc_start(const char *name, char *const argv[], struct lxc_conf *conf
  * the processes running inside this container will be killed.
  * @name : the name of the container
  * Returns 0 on success, < 0 otherwise
+ */
