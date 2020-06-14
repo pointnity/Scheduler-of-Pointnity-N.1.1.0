@@ -59,3 +59,4 @@ extern int lxc_monitor_read(int fd, struct lxc_msg *msg);
 extern int lxc_monitor_close(int fd);
 
 /*
+ * @name : the name of container
