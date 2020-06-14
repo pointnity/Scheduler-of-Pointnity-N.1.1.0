@@ -65,3 +65,86 @@ extern int lxc_monitor_close(int fd);
  * @fd   : a pointer to a tty file descriptor
  * Returns 0 on sucess, < 0 otherwise
  */
+extern int lxc_console(const char *name, int ttynum, int *fd);
+
+/*
+ * Freeze all the tasks running inside the container <name>
+ * @name : the container name
+ * Returns 0 on success, < 0 otherwise
+ */
+extern int lxc_freeze(const char *name);
+
+/*
+ * Unfreeze all previously frozen tasks.
+ * @name : the name of the container
+ * Return 0 on sucess, < 0 otherwise
+ */
+extern int lxc_unfreeze(const char *name);
+
+/*
+ * Retrieve the container state
+ * @name : the name of the container
+ * Returns the state of the container on success, < 0 otherwise
+ */
+extern lxc_state_t lxc_state(const char *name);
+
+/*
+ * Set a specified value for a specified subsystem. The specified
+ * subsystem must be fully specified, eg. "cpu.shares"
+ * @name      : the name of the container
+ * @filename : the cgroup attribute filename
+ * @value     : the value to be set
+ * Returns 0 on success, < 0 otherwise
+ */
+extern int lxc_cgroup_set(const char *name, const char *filename, const char *value);
+
+/*
+ * Get a specified value for a specified subsystem. The specified
+ * subsystem must be fully specified, eg. "cpu.shares"
+ * @name      : the name of the container
+ * @filename : the cgroup attribute filename
+ * @value     : the value to be set
+ * @len       : the len of the value variable
+ * Returns the number of bytes read, < 0 on error
+ */
+extern int lxc_cgroup_get(const char *name, const char *filename,
+			  char *value, size_t len);
+
+/*
+ * Retrieve the error string associated with the error returned by
+ * the function.
+ * @error : the value of the error
+ * Returns a string on success or NULL otherwise.
+ */
+extern const char *lxc_strerror(int error);
+
+/*
+ * Checkpoint a container
+ * @name : the name of the container being checkpointed
+ * @sfd: fd on which the container is checkpointed
+ * @flags : checkpoint flags (an ORed value)
+ * Returns 0 on success, < 0 otherwise
+ */
+extern int lxc_checkpoint(const char *name, int sfd, int flags);
+#define LXC_FLAG_PAUSE 1
+#define LXC_FLAG_HALT  2
+
+/*
+ * Restart a container
+ * @name : the name of the container being restarted
+ * @sfd: fd from which the container is restarted
+ * @conf: lxc_conf structure.
+ * @flags : restart flags (an ORed value)
+ * Returns 0 on success, < 0 otherwise
+ */
+extern int lxc_restart(const char *, int, struct lxc_conf *, int);
+
+/*
+ * Returns the version number of the library
+ */
+extern const char *lxc_version(void);
+
+#ifdef __cplusplus
+}
+#endif
+
