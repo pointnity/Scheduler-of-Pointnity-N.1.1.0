@@ -48,3 +48,4 @@ extern int lxc_monitor_open(void);
  * @state : the variable which will be filled with the state
  * Returns 0 if the monitored container has exited, > 0 if
  * data was readen, < 0 otherwise
+ */
