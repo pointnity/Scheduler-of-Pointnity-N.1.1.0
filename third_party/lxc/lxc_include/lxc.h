@@ -56,3 +56,4 @@ extern int lxc_monitor_read(int fd, struct lxc_msg *msg);
  * @fd : the file descriptor provided by lxc_monitor_open
  * Returns 0 on success, < 0 otherwise
  */
+extern int lxc_monitor_close(int fd);
