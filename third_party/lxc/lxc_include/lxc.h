@@ -6,3 +6,4 @@ extern "C" {
 #endif
 
 #include <stddef.h>
+#include <lxc/state.h>
