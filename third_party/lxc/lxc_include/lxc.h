@@ -39,3 +39,4 @@ extern int lxc_stop(const char *name);
  * The function will return an fd corresponding to the events
  * Returns a file descriptor on success, < 0 otherwise
  */
+extern int lxc_monitor_open(void);
