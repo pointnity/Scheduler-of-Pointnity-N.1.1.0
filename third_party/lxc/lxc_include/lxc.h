@@ -42,3 +42,4 @@ extern int lxc_stop(const char *name);
 extern int lxc_monitor_open(void);
 
 /*
+ * Read the state of the container if this one has changed
