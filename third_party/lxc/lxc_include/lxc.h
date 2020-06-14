@@ -12,3 +12,4 @@ struct lxc_msg;
 struct lxc_conf;
 
 /**
+ Following code is for liblxc.
