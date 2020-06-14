@@ -59,4 +59,6 @@ extern int lxc_monitor_read(int fd, struct lxc_msg *msg);
 extern int lxc_monitor_close(int fd);
 
 /*
+ * Show the console of the container.
  * @name : the name of container
+ * @tty  : the tty number
