@@ -37,3 +37,4 @@ extern int lxc_stop(const char *name);
 /*
  * Open the monitoring mechanism for a specific container
  * The function will return an fd corresponding to the events
+ * Returns a file descriptor on success, < 0 otherwise
