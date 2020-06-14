@@ -30,3 +30,4 @@ extern int lxc_start(const char *name, char *const argv[], struct lxc_conf *conf
  * Stop the container previously started with lxc_start, all
  * the processes running inside this container will be killed.
  * @name : the name of the container
+ * Returns 0 on success, < 0 otherwise
