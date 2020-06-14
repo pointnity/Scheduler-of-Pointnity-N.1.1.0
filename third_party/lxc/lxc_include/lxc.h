@@ -49,3 +49,4 @@ extern int lxc_monitor_open(void);
  * Returns 0 if the monitored container has exited, > 0 if
  * data was readen, < 0 otherwise
  */
+extern int lxc_monitor_read(int fd, struct lxc_msg *msg);
