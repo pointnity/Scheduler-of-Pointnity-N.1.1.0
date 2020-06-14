@@ -64,3 +64,4 @@ extern int lxc_monitor_close(int fd);
  * @tty  : the tty number
  * @fd   : a pointer to a tty file descriptor
  * Returns 0 on sucess, < 0 otherwise
+ */
