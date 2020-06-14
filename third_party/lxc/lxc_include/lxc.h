@@ -22,3 +22,4 @@ struct lxc_conf;
  * @name     : the name of the container
  * @argv     : an array of char * corresponding to the commande line
  * @conf     : configuration
+ * Returns 0 on sucess, < 0 otherwise
