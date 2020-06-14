@@ -13,3 +13,5 @@ struct lxc_conf;
 
 /**
  Following code is for liblxc.
+
+ lxc/lxc.h will contain exports of liblxc
