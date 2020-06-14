@@ -9,3 +9,4 @@ extern "C" {
 #include <lxc/state.h>
 
 struct lxc_msg;
+struct lxc_conf;
