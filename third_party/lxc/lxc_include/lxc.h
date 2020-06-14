@@ -2,3 +2,4 @@
 #define __lxc_h
 
 #ifdef __cplusplus
+extern "C" {
