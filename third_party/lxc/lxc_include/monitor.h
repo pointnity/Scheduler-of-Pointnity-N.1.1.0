@@ -9,3 +9,4 @@ typedef enum {
 } lxc_msg_type_t;
 
 struct lxc_msg {
+	lxc_msg_type_t type;
