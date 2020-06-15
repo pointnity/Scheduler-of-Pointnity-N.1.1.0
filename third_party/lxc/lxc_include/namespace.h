@@ -15,3 +15,4 @@
 #endif
 #ifndef CLONE_NEWIPC
 #  define CLONE_NEWIPC            0x08000000
+#endif
