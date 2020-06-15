@@ -24,3 +24,4 @@
 #endif
 #ifndef CLONE_NEWNET
 #  define CLONE_NEWNET            0x40000000
+#endif
