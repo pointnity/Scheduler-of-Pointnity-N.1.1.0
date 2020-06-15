@@ -10,3 +10,4 @@
 #ifndef CLONE_NEWNS
 #  define CLONE_NEWNS             0x00020000
 #endif
+#ifndef CLONE_NEWUTS
