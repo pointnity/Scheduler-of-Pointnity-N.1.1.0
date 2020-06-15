@@ -11,3 +11,4 @@
 #  define CLONE_NEWNS             0x00020000
 #endif
 #ifndef CLONE_NEWUTS
+#  define CLONE_NEWUTS            0x04000000
