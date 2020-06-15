@@ -2,3 +2,4 @@
 #define __namespace_h
 
 #include <syscall.h>
+#include <sched.h>
