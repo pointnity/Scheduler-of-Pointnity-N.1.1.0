@@ -27,3 +27,4 @@
 #endif
 
 extern pid_t lxc_clone(int (*fn)(void *), void *arg, int flags);
+extern int lxc_attach(pid_t pid);
