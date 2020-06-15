@@ -3,3 +3,5 @@
 
 #include <syscall.h>
 #include <sched.h>
+
+#ifndef CLONE_FS
