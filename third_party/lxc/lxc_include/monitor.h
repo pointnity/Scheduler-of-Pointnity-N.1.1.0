@@ -4,3 +4,4 @@
 #include <sys/param.h>
 
 typedef enum {
+	lxc_msg_state,
