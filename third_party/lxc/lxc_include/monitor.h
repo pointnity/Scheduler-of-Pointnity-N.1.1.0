@@ -16,3 +16,4 @@ struct lxc_msg {
 
 void lxc_monitor_send_state(const char *name, lxc_state_t state);
 void lxc_monitor_send_priority(const char *name, int priority);
+void lxc_monitor_cleanup(const char *name);
