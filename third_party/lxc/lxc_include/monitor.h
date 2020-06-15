@@ -5,3 +5,5 @@
 
 typedef enum {
 	lxc_msg_state,
+	lxc_msg_priority,
+} lxc_msg_type_t;
