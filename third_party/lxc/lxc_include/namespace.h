@@ -18,3 +18,4 @@
 #endif
 #ifndef CLONE_NEWUSER
 #  define CLONE_NEWUSER           0x10000000
+#endif
