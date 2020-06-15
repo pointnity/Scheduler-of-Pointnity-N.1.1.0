@@ -12,3 +12,4 @@
 #endif
 #ifndef CLONE_NEWUTS
 #  define CLONE_NEWUTS            0x04000000
+#endif
