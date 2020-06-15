@@ -22,3 +22,4 @@
 #ifndef CLONE_NEWPID
 #  define CLONE_NEWPID            0x20000000
 #endif
+#ifndef CLONE_NEWNET
