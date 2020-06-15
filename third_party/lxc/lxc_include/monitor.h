@@ -10,3 +10,4 @@ typedef enum {
 
 struct lxc_msg {
 	lxc_msg_type_t type;
+	char name[MAXPATHLEN];
