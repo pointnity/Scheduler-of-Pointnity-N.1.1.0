@@ -8,3 +8,5 @@
 #  define CLONE_FS                0x00000200
 #endif
 #ifndef CLONE_NEWNS
+#  define CLONE_NEWNS             0x00020000
+#endif
