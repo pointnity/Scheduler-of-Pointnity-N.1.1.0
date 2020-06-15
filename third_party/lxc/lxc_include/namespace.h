@@ -14,3 +14,4 @@
 #  define CLONE_NEWUTS            0x04000000
 #endif
 #ifndef CLONE_NEWIPC
+#  define CLONE_NEWIPC            0x08000000
