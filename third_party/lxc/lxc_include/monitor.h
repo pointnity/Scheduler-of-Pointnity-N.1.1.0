@@ -13,3 +13,5 @@ struct lxc_msg {
 	char name[MAXPATHLEN];
 	int value;
 };
+
+void lxc_monitor_send_state(const char *name, lxc_state_t state);
