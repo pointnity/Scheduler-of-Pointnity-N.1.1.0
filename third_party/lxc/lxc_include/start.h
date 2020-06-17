@@ -24,3 +24,5 @@ struct lxc_handler {
 	void *data;
 	int sv[2];
 };
+
+extern struct lxc_handler *lxc_init(const char *name, struct lxc_conf *);
