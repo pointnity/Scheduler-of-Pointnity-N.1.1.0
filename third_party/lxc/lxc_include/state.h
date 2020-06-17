@@ -2,3 +2,4 @@
 #define _state_h
 
 typedef enum {
+	STOPPED, STARTING, RUNNING, STOPPING,
