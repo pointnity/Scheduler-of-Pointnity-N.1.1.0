@@ -7,3 +7,5 @@
 struct lxc_conf;
 
 struct lxc_handler;
+
+struct lxc_operations {
