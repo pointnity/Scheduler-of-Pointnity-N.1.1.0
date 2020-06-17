@@ -34,3 +34,4 @@ extern void lxc_fini(const char *name, struct lxc_handler *handler);
 extern int lxc_set_state(const char *, struct lxc_handler *, lxc_state_t);
 extern int lxc_check_inherited(int fd_to_ignore);
 int __lxc_start(const char *, struct lxc_conf *, struct lxc_operations *,
+		void *);
