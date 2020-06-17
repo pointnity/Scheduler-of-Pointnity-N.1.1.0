@@ -15,3 +15,4 @@ struct lxc_operations {
 
 struct lxc_handler {
 	pid_t pid;
+	char *name;
