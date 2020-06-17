@@ -3,3 +3,5 @@
 
 #include <lxc/state.h>
 #include <sys/param.h>
+
+struct lxc_conf;
