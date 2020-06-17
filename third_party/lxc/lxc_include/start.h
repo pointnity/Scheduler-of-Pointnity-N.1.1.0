@@ -26,3 +26,4 @@ struct lxc_handler {
 };
 
 extern struct lxc_handler *lxc_init(const char *name, struct lxc_conf *);
+extern int lxc_spawn(struct lxc_handler *);
