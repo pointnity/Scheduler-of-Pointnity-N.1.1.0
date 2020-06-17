@@ -5,3 +5,5 @@
 #include <sys/param.h>
 
 struct lxc_conf;
+
+struct lxc_handler;
