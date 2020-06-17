@@ -16,3 +16,4 @@ struct lxc_operations {
 struct lxc_handler {
 	pid_t pid;
 	char *name;
+	lxc_state_t state;
