@@ -10,3 +10,4 @@ struct lxc_handler;
 
 struct lxc_operations {
 	int (*start)(struct lxc_handler *, void *);
+	int (*post_start)(struct lxc_handler *, void *);
