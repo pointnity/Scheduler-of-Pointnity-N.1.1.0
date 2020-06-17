@@ -21,3 +21,4 @@ struct lxc_handler {
 	sigset_t oldmask;
 	struct lxc_conf *conf;
 	struct lxc_operations *ops;
+	void *data;
