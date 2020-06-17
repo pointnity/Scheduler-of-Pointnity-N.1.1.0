@@ -22,3 +22,4 @@ struct lxc_handler {
 	struct lxc_conf *conf;
 	struct lxc_operations *ops;
 	void *data;
+	int sv[2];
