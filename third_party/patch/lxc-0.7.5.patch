@@ -47,3 +47,4 @@
 -        new->next = next;
 -        new->prev = prev;
 -        prev->next = new;
++        next->prev = newp;
