@@ -40,3 +40,4 @@
 
 -static inline void __lxc_list_add(struct lxc_list *new,
 +static inline void __lxc_list_add(struct lxc_list *newp,
+ 				  struct lxc_list *prev,
