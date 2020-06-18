@@ -45,3 +45,4 @@
  {
 -        next->prev = new;
 -        new->next = next;
+-        new->prev = prev;
