@@ -5,3 +5,4 @@
 	static struct sigaction lxc_tty_sa_##s;				\
 	static void tty_##s##_handler(int sig, siginfo_t *info, void *ctx) \
 	{								\
+		if (lxc_tty_sa_##s.sa_handler == SIG_DFL ||		\
