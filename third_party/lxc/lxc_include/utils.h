@@ -19,3 +19,5 @@
 		sigfillset(&sa.sa_mask); \
 		/* No error expected with sigaction. */ \
 		sigaction(s, &sa, &lxc_tty_sa_##s); \
+
+#define LXC_TTY_DEL_HANDLER(s) \
