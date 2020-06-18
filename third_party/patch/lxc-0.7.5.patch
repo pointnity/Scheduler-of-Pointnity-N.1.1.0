@@ -6,3 +6,5 @@
   */
 -extern const char const *lxc_version(void);
 +extern const char *lxc_version(void);
+
+ #ifdef __cplusplus
