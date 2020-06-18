@@ -24,3 +24,5 @@
 	do { \
 		sigaction(s, &lxc_tty_sa_##s, NULL); \
 	} while (0)
+
+extern int lxc_copy_file(const char *src, const char *dst);
