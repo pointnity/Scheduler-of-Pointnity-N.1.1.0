@@ -27,3 +27,4 @@
 
 extern int lxc_copy_file(const char *src, const char *dst);
 extern int get_u16(ushort *val, const char *arg, int base);
+extern int mkdir_p(const char *dir, mode_t mode);
