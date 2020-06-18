@@ -50,3 +50,4 @@
 +        next->prev = newp;
 +        newp->next = next;
 +        newp->prev = prev;
++        prev->next = newp;
