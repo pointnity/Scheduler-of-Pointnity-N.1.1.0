@@ -28,3 +28,4 @@
  extern int lxc_setup(const char *name, struct lxc_conf *lxc_conf);
 +
 +#ifdef __cplusplus
++}
