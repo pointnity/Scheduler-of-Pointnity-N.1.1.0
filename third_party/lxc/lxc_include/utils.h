@@ -17,3 +17,4 @@
 		sa.sa_sigaction = tty_##s##_handler; \
 		sa.sa_flags = SA_SIGINFO; \
 		sigfillset(&sa.sa_mask); \
+		/* No error expected with sigaction. */ \
