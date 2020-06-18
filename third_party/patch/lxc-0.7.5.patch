@@ -8,3 +8,4 @@
 +extern const char *lxc_version(void);
 
  #ifdef __cplusplus
+ }
