@@ -18,3 +18,4 @@
 		sa.sa_flags = SA_SIGINFO; \
 		sigfillset(&sa.sa_mask); \
 		/* No error expected with sigaction. */ \
+		sigaction(s, &sa, &lxc_tty_sa_##s); \
