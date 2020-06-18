@@ -43,3 +43,4 @@
  				  struct lxc_list *prev,
  				  struct lxc_list *next)
  {
+-        next->prev = new;
