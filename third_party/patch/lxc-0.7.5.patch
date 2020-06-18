@@ -48,3 +48,4 @@
 -        new->prev = prev;
 -        prev->next = new;
 +        next->prev = newp;
++        newp->next = next;
