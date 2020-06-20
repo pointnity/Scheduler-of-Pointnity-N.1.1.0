@@ -17,3 +17,4 @@ STRING(REGEX REPLACE "([^\n]+/)[^\n/]+$" "\\1" JVM_LIBRARAY_DIR "${JAVA_JVM_LIBR
 SET(LIBRARY ${JVM_LIBRARAY_DIR})
 
 # the RPATH to be add when installing, if only it's not system directory
+FOREACH(LIB ${LIBRARY})
