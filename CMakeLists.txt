@@ -19,3 +19,4 @@ SET(LIBRARY ${JVM_LIBRARAY_DIR})
 # the RPATH to be add when installing, if only it's not system directory
 FOREACH(LIB ${LIBRARY})
     LIST(FIND CMAKE_PLATFORM_IMPLICIT_LINK_DIRECTORIES
+        "${LIB}" isSystemDir)
