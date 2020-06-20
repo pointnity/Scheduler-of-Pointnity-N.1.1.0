@@ -13,3 +13,4 @@ FIND_PACKAGE(Boost REQUIRED)
 FIND_PACKAGE(JNI REQUIRED)
 
 # get jvm library directory
+STRING(REGEX REPLACE "([^\n]+/)[^\n/]+$" "\\1" JVM_LIBRARAY_DIR "${JAVA_JVM_LIBRARY}")
