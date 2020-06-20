@@ -8,3 +8,4 @@ PROJECT(LYNN)
 SET(CMAKE_CXX_FLAGS "-g -Wall -std=c++0x -DTHREADED -Wno-deprecated -DHAVE_NETINET_IN_H -O1")
 
 # 3rd party
+FIND_PACKAGE(Thrift REQUIRED)
