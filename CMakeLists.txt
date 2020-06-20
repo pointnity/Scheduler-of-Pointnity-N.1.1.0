@@ -11,3 +11,5 @@ SET(CMAKE_CXX_FLAGS "-g -Wall -std=c++0x -DTHREADED -Wno-deprecated -DHAVE_NETIN
 FIND_PACKAGE(Thrift REQUIRED)
 FIND_PACKAGE(Boost REQUIRED)
 FIND_PACKAGE(JNI REQUIRED)
+
+# get jvm library directory
