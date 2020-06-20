@@ -15,3 +15,5 @@ FIND_PACKAGE(JNI REQUIRED)
 # get jvm library directory
 STRING(REGEX REPLACE "([^\n]+/)[^\n/]+$" "\\1" JVM_LIBRARAY_DIR "${JAVA_JVM_LIBRARY}")
 SET(LIBRARY ${JVM_LIBRARAY_DIR})
+
+# the RPATH to be add when installing, if only it's not system directory
