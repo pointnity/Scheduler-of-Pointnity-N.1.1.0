@@ -24,3 +24,6 @@ struct GroupStateInfo {
     6:double used_memory,
     7:double total_cpu,
     8:double total_memory,
+}
+
+service JobsManager {
