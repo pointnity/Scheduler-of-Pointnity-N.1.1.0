@@ -3,3 +3,4 @@
 3 build:
     cd $LYNN_HOME
     mkdir build
+    cd build
