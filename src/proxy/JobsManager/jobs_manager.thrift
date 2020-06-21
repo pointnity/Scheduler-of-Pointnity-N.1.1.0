@@ -34,3 +34,4 @@ service JobsManager {
    GroupStateInfo GetGroupStateInfo(1:string group),
 
    bool TaskStarted(1:i32 job_id, 2:i32 task_id),
+   bool TaskFinished(1:i32 job_id, 2:i32 task_id),
