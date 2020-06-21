@@ -7,3 +7,5 @@
     cmake ..      # twice
     make
     make install  # install scheduler collector executor into bin/
+
+To compile common lib, you need to do the following:
