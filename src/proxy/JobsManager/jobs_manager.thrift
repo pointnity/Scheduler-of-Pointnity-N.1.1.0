@@ -36,3 +36,4 @@ service JobsManager {
    bool TaskStarted(1:i32 job_id, 2:i32 task_id),
    bool TaskFinished(1:i32 job_id, 2:i32 task_id),
    bool TaskFailed(1:i32 job_id, 2:i32 task_id),
+   bool TaskMissed(1:i32 job_id, 2:i32 task_id),
