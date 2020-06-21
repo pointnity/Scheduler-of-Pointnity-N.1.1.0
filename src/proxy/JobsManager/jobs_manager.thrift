@@ -42,3 +42,4 @@ service JobsManager {
    bool TaskStartError(1:i32 job_id, 2:i32 task_id, 3:i32 err_num), 
    bool UpdateImage(1:string user, 2:string name, 3:i32 size 4:bool is_update_all),
    bool CreateApp(1:string user, 2:string app_name),
+}
