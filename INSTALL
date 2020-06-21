@@ -5,3 +5,4 @@
     mkdir build
     cd build
     cmake ..      # twice
+    make
