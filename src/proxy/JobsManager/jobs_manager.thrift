@@ -31,3 +31,4 @@ service JobsManager {
    list<i32> GetJobId(),
    list<TaskStateInfo> GetTaskStateInfo(1:i32 job_id),
    i32 GetWaitJobNumByGroupName(1:string group),
+   GroupStateInfo GetGroupStateInfo(1:string group),
