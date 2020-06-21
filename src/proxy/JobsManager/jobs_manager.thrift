@@ -30,3 +30,4 @@ service JobsManager {
    SubmitJobResult SubmitJob(1:string job_xml),
    list<i32> GetJobId(),
    list<TaskStateInfo> GetTaskStateInfo(1:i32 job_id),
+   i32 GetWaitJobNumByGroupName(1:string group),
