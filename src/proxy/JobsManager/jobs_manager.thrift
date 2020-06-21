@@ -21,3 +21,4 @@ struct GroupStateInfo {
     3:double quota_pct,
     4:double maxlimit_pct,
     5:double used_cpu,
+    6:double used_memory,
