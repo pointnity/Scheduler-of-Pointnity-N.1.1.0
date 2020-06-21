@@ -8,3 +8,4 @@ struct TaskStateInfo {
     2:i32 task_id,
     3:i32 state,
     4:string machine_ip,
+    5:i32 restart_times,
