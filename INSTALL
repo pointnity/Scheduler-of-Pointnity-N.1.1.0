@@ -4,3 +4,4 @@
     cd $LYNN_HOME
     mkdir build
     cd build
+    cmake ..      # twice
