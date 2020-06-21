@@ -29,3 +29,4 @@ struct GroupStateInfo {
 service JobsManager {
    SubmitJobResult SubmitJob(1:string job_xml),
    list<i32> GetJobId(),
+   list<TaskStateInfo> GetTaskStateInfo(1:i32 job_id),
