@@ -6,3 +6,4 @@
     cd build
     cmake ..      # twice
     make
+    make install  # install scheduler collector executor into bin/
