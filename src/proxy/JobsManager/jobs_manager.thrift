@@ -4,3 +4,4 @@ struct SubmitJobResult {
 }
 
 struct TaskStateInfo {
+    1:i32 job_id,
