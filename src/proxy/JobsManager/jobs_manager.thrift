@@ -23,3 +23,4 @@ struct GroupStateInfo {
     5:double used_cpu,
     6:double used_memory,
     7:double total_cpu,
+    8:double total_memory,
