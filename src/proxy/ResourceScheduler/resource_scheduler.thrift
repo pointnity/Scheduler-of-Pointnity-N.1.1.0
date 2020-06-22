@@ -5,3 +5,5 @@ enum MachineError {
     MACHINE_ERROR_NUM_LIMIT,
     MACHINE_ERROR_NOT_FOUND,
 }
+
+struct MultiD_Resource {
