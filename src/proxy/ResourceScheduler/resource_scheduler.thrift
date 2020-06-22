@@ -29,3 +29,4 @@ service ResourceScheduler {
     string MatchMachineConstraint(1: string task_ad, 2: list<string> soft_list),
     string QueryMachine(1: string machine),
     list<string> ListAllMachines(),  
+    list<string> Negotiate(1: string requeset),
