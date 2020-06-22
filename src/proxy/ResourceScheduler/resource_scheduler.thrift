@@ -13,3 +13,4 @@ struct MultiD_Resource {
 }
 
 enum RSEventType {
+    MACHINE_UPDATE_EVENT,
