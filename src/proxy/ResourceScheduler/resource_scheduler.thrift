@@ -19,3 +19,4 @@ MACHINE_DELETE_EVENT
 
 
 service ResourceScheduler {
+    string GetCurVersion();
