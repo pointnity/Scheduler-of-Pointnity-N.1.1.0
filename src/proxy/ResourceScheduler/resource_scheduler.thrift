@@ -3,4 +3,4 @@ enum MachineError {
     MACHINE_ERROR_CLASSAD_SYNTAX,
     1,3
 3
-3
+32
