@@ -16,3 +16,6 @@ enum RSEventType {
     MACHINE_UPDATE_EVENT,
 MACHINE_DELETE_EVENT
 }
+
+
+service ResourceScheduler {
