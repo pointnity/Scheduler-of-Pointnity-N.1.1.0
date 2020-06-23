@@ -26,3 +26,4 @@ service ResourceScheduler {
     i32 DeleteMachine(1: string ip),
     MultiD_Resource GetTotalResource(),
     string MatchMachine(1: string task_ad),
+    string MatchMachineConstraint(1: string task_ad, 2: list<string> soft_list),
