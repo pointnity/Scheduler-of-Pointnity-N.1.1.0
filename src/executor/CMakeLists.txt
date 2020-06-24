@@ -27,7 +27,4 @@ ADD_CUSTOM_COMMAND (
 ${CMAKE_SOURCE_DIR}/src/proxy/ResourceScheduler
     ${CMAKE_SOURCE_DIR}/src/proxy/ResourceScheduler/resource_scheduler.thrift
 )
-
-SET(EXECUTOR_THRIFT_SOURCE
-    ${THRIFT_SOURCE_PREFIX}/executor/gen-cpp/executor_constants.h
     ${THRIFT_SOURCE_PREFIX}/executor/gen-cpp/executor_constants.cpp
