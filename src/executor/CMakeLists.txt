@@ -23,8 +23,4 @@ SET(RESOURCE_SCHEDULER_THRIFT_SOURCE
     ${THRIFT_SOURCE_PREFIX}/ResourceScheduler/gen-cpp/ResourceScheduler.cpp)
 ADD_CUSTOM_COMMAND (
     OUTPUT ${RESOURCE_SCHEDULER_THRIFT_SOURCE}
-    COMMAND thrift --gen cpp -r -o
-    ${THRIFT_SOURCE_PREFIX}/executor/gen-cpp/executor_constants.cpp
-
-
-
+      ${THRIFT_SOURCE_PREFIX}/executor/gen-cpp/executor_constants.cpp
