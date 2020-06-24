@@ -24,7 +24,7 @@ SET(RESOURCE_SCHEDULER_THRIFT_SOURCE
 ADD_CUSTOM_COMMAND (
     OUTPUT ${RESOURCE_SCHEDULER_THRIFT_SOURCE}
     COMMAND thrift --gen cpp -r -o
-${CMAKE_SOURCE_DIR}/src/proxy/ResourceScheduler
     ${THRIFT_SOURCE_PREFIX}/executor/gen-cpp/executor_constants.cpp
+
 
 
