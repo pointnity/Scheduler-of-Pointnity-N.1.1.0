@@ -58,3 +58,4 @@ ADD_CUSTOM_COMMAND (
 # INCLUDE_DIRECTORIES($ENV{JAVA_HOME}/include/linux)
 # -L
 # LINK_DIRECTORIES(${CMAKE_SOURCE_DIR}/third_party/hdfs/lib64)
+# LINK_DIRECTORIES(/etc/alternatives/jre/lib/amd64/server)
