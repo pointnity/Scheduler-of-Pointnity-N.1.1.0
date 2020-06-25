@@ -100,3 +100,5 @@ SET(SRC
     executor_register.cpp
     task_action.cpp
     executor_main.cpp)
+
+ADD_EXECUTABLE(executor ${SRC})
