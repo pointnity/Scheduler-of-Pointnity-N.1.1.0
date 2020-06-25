@@ -61,3 +61,4 @@ ADD_CUSTOM_COMMAND (
 # LINK_DIRECTORIES(/etc/alternatives/jre/lib/amd64/server)
 
 ## hdfs new ##
+# -I
