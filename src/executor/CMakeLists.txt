@@ -81,3 +81,4 @@ SET(SRC
     ${VMWORKER_THRIFT_SOURCE}
     ${LXC_SOURCE}
     config.cpp
+    system.cpp
