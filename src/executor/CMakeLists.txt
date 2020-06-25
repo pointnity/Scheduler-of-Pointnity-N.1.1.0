@@ -104,3 +104,5 @@ SET(SRC
 ADD_EXECUTABLE(executor ${SRC})
 ADD_EXECUTABLE(clean_environment clean_environment.cpp)
 
+TARGET_LINK_LIBRARIES(executor pthread)
+
