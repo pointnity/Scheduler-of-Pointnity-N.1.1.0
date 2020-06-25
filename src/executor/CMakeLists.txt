@@ -83,3 +83,4 @@ SET(SRC
     config.cpp
     system.cpp
     task_entity.cpp
+    task_entity_pool.cpp
