@@ -73,5 +73,6 @@ SET(LXC_SOURCE
     ../common/lxc/confile.c
     ../common/lxc/parse.c
     ../common/lxc/utils.c)
-    ${JOBS_MANAGER_THRIFT_SOURCE}
-    ${RESOURCE_SCHEDULER_THRIFT_SOURCE}
+
+SET(SRC 
+
