@@ -70,3 +70,4 @@ LINK_DIRECTORIES(${CMAKE_SOURCE_DIR}/third_party/hdfs/lib64)
 set_source_files_properties(lxc_test.c PROPERTIES LANGUAGE CXX)
 
 SET(LXC_SOURCE
+    ../common/lxc/confile.c
