@@ -65,3 +65,4 @@ ADD_CUSTOM_COMMAND (
 INCLUDE_DIRECTORIES(${JNI_INCLUDE_DIRS})  # for jni.h, jni.h use in /usr/local/include/hdfs/hdfs.h
 # -L
 LINK_DIRECTORIES(${JVM_LIBRARAY_DIR})
+LINK_DIRECTORIES(${CMAKE_SOURCE_DIR}/third_party/hdfs/lib64)
