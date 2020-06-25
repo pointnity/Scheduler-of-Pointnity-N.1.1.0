@@ -46,3 +46,4 @@ ADD_CUSTOM_COMMAND (
 
 # SET(COMMON_SOURCE
     # ../common/clynn/cond.cpp
+    # ../common/clynn/thread.cpp)
