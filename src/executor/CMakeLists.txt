@@ -86,3 +86,4 @@ SET(SRC
     task_entity_pool.cpp
     vm.cpp
     kvm.cpp
+    lxc.cpp
