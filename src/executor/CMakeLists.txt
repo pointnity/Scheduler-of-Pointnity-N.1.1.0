@@ -93,3 +93,4 @@ SET(SRC
     event.cpp
     handler.cpp
     dispatcher.cpp
+    hdfs_wrapper.cpp
