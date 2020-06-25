@@ -71,3 +71,4 @@ set_source_files_properties(lxc_test.c PROPERTIES LANGUAGE CXX)
 
 SET(LXC_SOURCE
     ../common/lxc/confile.c
+    ../common/lxc/parse.c
