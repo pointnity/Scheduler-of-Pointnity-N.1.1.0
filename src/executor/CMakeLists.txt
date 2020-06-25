@@ -102,3 +102,5 @@ SET(SRC
     executor_main.cpp)
 
 ADD_EXECUTABLE(executor ${SRC})
+ADD_EXECUTABLE(clean_environment clean_environment.cpp)
+
