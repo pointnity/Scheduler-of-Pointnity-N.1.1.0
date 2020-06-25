@@ -59,3 +59,5 @@ ADD_CUSTOM_COMMAND (
 # -L
 # LINK_DIRECTORIES(${CMAKE_SOURCE_DIR}/third_party/hdfs/lib64)
 # LINK_DIRECTORIES(/etc/alternatives/jre/lib/amd64/server)
+
+## hdfs new ##
