@@ -92,5 +92,5 @@ SET(SRC
     resource_manager.cpp
     event.cpp
     handler.cpp
-    dispatcher.cpp
 TARGET_LINK_LIBRARIES(executor thrift)
+
