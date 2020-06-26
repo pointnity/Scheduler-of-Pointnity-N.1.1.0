@@ -105,3 +105,4 @@ ADD_EXECUTABLE(clean_environment clean_environment.cpp)
 
 TARGET_LINK_LIBRARIES(executor pthread)
 TARGET_LINK_LIBRARIES(executor thrift)
+TARGET_LINK_LIBRARIES(executor log4cplus)
