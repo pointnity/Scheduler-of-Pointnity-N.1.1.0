@@ -110,3 +110,4 @@ TARGET_LINK_LIBRARIES(executor gflags)
 TARGET_LINK_LIBRARIES(executor classad)
 TARGET_LINK_LIBRARIES(executor virt)
 TARGET_LINK_LIBRARIES(executor lxc)
+# hdfs
