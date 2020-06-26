@@ -89,5 +89,4 @@ SET(SRC
     lxc.cpp
     vm_pool.cpp
     ip_pool.cpp
-    resource_manager.cpp
 TARGET_LINK_LIBRARIES(executor thrift)
