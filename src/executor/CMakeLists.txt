@@ -99,4 +99,5 @@ SET(SRC
     service.cpp
     executor_register.cpp
 TARGET_LINK_LIBRARIES(executor thrift)
+TARGET_LINK_LIBRARIES(executor thrift)
 
