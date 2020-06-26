@@ -81,3 +81,4 @@ SET(SRC
     ${LXC_SOURCE}
     config.cpp
     system.cpp
+    task_entity.cpp
