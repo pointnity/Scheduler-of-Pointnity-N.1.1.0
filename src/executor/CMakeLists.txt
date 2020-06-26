@@ -111,3 +111,4 @@ TARGET_LINK_LIBRARIES(executor classad)
 TARGET_LINK_LIBRARIES(executor virt)
 TARGET_LINK_LIBRARIES(executor lxc)
 # hdfs
+TARGET_LINK_LIBRARIES(executor hdfs)
