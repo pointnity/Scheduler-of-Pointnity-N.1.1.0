@@ -72,4 +72,4 @@ set_source_files_properties(lxc_test.c PROPERTIES LANGUAGE CXX)
 SET(LXC_SOURCE
     ../common/lxc/confile.c
     ../common/lxc/parse.c
-TARGET_LINK_LIBRARIES(executor thrift)
+    ../common/lxc/utils.c)
