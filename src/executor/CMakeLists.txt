@@ -88,5 +88,4 @@ SET(SRC
     kvm.cpp
     lxc.cpp
     vm_pool.cpp
-    ip_pool.cpp
 TARGET_LINK_LIBRARIES(executor thrift)
