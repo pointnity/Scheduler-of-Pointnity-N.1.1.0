@@ -75,5 +75,4 @@ SET(LXC_SOURCE
     ../common/lxc/utils.c)
 
 SET(SRC 
-    ${JOBS_MANAGER_THRIFT_SOURCE}
 TARGET_LINK_LIBRARIES(executor thrift)
