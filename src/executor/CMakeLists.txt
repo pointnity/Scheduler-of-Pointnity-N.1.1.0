@@ -96,3 +96,4 @@ SET(SRC
     image_manager.cpp
     work_thread.cpp
     service.cpp
+    executor_register.cpp
