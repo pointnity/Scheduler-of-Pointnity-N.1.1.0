@@ -97,7 +97,4 @@ SET(SRC
     image_manager.cpp
     work_thread.cpp
     service.cpp
-    executor_register.cpp
 TARGET_LINK_LIBRARIES(executor thrift)
-TARGET_LINK_LIBRARIES(executor thrift)
-
