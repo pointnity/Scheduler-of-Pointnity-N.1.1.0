@@ -80,5 +80,4 @@ SET(SRC
     ${EXECUTOR_THRIFT_SOURCE}
     ${VMWORKER_THRIFT_SOURCE}
     ${LXC_SOURCE}
-    config.cpp
 TARGET_LINK_LIBRARIES(executor thrift)
