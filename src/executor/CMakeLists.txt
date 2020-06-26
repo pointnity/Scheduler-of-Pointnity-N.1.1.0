@@ -82,5 +82,4 @@ SET(SRC
     ${LXC_SOURCE}
     config.cpp
     system.cpp
-    task_entity.cpp
 TARGET_LINK_LIBRARIES(executor thrift)
