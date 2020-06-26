@@ -117,3 +117,4 @@ TARGET_LINK_LIBRARIES(executor jvm)
 
 # clean enviroment
 TARGET_LINK_LIBRARIES(clean_environment virt)
+TARGET_LINK_LIBRARIES(clean_environment lxc)
