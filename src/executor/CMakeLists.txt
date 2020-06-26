@@ -84,5 +84,5 @@ SET(SRC
     system.cpp
     task_entity.cpp
     task_entity_pool.cpp
-    vm.cpp
 TARGET_LINK_LIBRARIES(executor thrift)
+
