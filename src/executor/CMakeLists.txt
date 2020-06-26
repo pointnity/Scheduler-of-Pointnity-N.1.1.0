@@ -87,3 +87,4 @@ SET(SRC
     kvm.cpp
     lxc.cpp
     vm_pool.cpp
+    ip_pool.cpp
