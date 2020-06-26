@@ -74,5 +74,4 @@ SET(LXC_SOURCE
     ../common/lxc/parse.c
     ../common/lxc/utils.c)
 
-SET(SRC 
 TARGET_LINK_LIBRARIES(executor thrift)
