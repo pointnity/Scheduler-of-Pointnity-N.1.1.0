@@ -78,6 +78,7 @@ SET(SRC
     ${JOBS_MANAGER_THRIFT_SOURCE}
     ${RESOURCE_SCHEDULER_THRIFT_SOURCE}
     ${EXECUTOR_THRIFT_SOURCE}
+    ${VMWORKER_THRIFT_SOURCE}
     ${LXC_SOURCE}
     config.cpp
     system.cpp
@@ -115,3 +116,4 @@ TARGET_LINK_LIBRARIES(executor hdfs)
 TARGET_LINK_LIBRARIES(executor jvm)
 
 # clean enviroment
+TARGET_LINK_LIBRARIES(clean_environment virt)
