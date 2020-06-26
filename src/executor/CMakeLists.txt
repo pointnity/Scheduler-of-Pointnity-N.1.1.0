@@ -113,3 +113,5 @@ TARGET_LINK_LIBRARIES(executor lxc)
 # hdfs
 TARGET_LINK_LIBRARIES(executor hdfs)
 TARGET_LINK_LIBRARIES(executor jvm)
+
+# clean enviroment
