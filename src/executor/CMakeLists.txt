@@ -91,3 +91,4 @@ SET(SRC
     resource_manager.cpp
     event.cpp
     handler.cpp
+    dispatcher.cpp
