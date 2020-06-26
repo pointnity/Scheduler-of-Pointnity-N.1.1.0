@@ -97,3 +97,4 @@ SET(SRC
     work_thread.cpp
     service.cpp
     executor_register.cpp
+    task_action.cpp
