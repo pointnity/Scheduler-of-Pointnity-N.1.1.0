@@ -73,3 +73,5 @@ SET(LXC_SOURCE
     ../common/lxc/confile.c
     ../common/lxc/parse.c
     ../common/lxc/utils.c)
+
+SET(SRC 
