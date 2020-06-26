@@ -96,5 +96,4 @@ SET(SRC
     hdfs_wrapper.cpp
     image_manager.cpp
     work_thread.cpp
-    service.cpp
 TARGET_LINK_LIBRARIES(executor thrift)
