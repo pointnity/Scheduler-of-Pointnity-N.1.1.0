@@ -94,3 +94,4 @@ SET(SRC
     dispatcher.cpp
     hdfs_wrapper.cpp
     image_manager.cpp
+    work_thread.cpp
