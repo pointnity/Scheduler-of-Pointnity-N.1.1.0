@@ -101,6 +101,5 @@ SET(SRC
     task_action.cpp
     executor_main.cpp)
 
-ADD_EXECUTABLE(executor ${SRC})
 TARGET_LINK_LIBRARIES(executor thrift)
 
