@@ -43,3 +43,4 @@ ADD_CUSTOM_COMMAND (
 
 SET(VMWORKER_THRIFT_SOURCE
     ${THRIFT_SOURCE_PREFIX}/vm_worker/gen-cpp/vm_worker_constants.h
+    ${THRIFT_SOURCE_PREFIX}/vm_worker/gen-cpp/vm_worker_constants.cpp
