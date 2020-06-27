@@ -5,3 +5,4 @@ SET(SCHEDULER_THRIFT_SOURCE
     ${THRIFT_SOURCE_PREFIX}/scheduler/gen-cpp/scheduler_constants.cpp
     ${THRIFT_SOURCE_PREFIX}/scheduler/gen-cpp/scheduler_types.h
     ${THRIFT_SOURCE_PREFIX}/scheduler/gen-cpp/scheduler_types.cpp
+    ${THRIFT_SOURCE_PREFIX}/scheduler/gen-cpp/Scheduler.h
