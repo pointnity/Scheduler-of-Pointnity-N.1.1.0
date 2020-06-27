@@ -24,3 +24,4 @@ ADD_CUSTOM_COMMAND (
     OUTPUT ${COLLECTOR_THRIFT_SOURCE}
     COMMAND thrift --gen cpp -r -o ${CMAKE_SOURCE_DIR}/src/proxy/collector
     ${CMAKE_SOURCE_DIR}/src/proxy/collector/collector.thrift
+)
