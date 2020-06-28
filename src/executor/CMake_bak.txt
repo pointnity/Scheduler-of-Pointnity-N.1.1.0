@@ -66,3 +66,4 @@ SET(COMMON_SOURCE
 # SET(JAVA_HOME /usr/lib/java/jdk1.7.0_40)
 # -I
 include_directories($ENV{HADOOP_DIR}/src/c++/libhdfs)
+include_directories($ENV{JAVA_HOME}/include)
