@@ -88,3 +88,4 @@ SET(SRC
     vm_pool.cpp
     resource_manager.cpp
     event.cpp
+    handler.cpp
