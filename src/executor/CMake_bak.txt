@@ -92,3 +92,6 @@ SET(SRC
     dispatcher.cpp
     work_thread.cpp
     service.cpp
+    executor.cpp)
+
+ADD_EXECUTABLE(executor ${SRC})
