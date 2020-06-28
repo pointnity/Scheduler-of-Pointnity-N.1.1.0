@@ -91,3 +91,4 @@ SET(SRC
     handler.cpp
     dispatcher.cpp
     work_thread.cpp
+    service.cpp
