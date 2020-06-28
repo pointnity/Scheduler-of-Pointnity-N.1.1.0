@@ -48,3 +48,4 @@ SET(VMWORKER_THRIFT_SOURCE
     ${THRIFT_SOURCE_PREFIX}/vm_worker/gen-cpp/vm_worker_types.cpp
     ${THRIFT_SOURCE_PREFIX}/vm_worker/gen-cpp/VMWorker.h
     ${THRIFT_SOURCE_PREFIX}/vm_worker/gen-cpp/VMWorker.cpp)
+ADD_CUSTOM_COMMAND (
