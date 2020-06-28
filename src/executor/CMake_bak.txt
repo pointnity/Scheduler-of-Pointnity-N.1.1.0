@@ -90,3 +90,4 @@ SET(SRC
     event.cpp
     handler.cpp
     dispatcher.cpp
+    work_thread.cpp
