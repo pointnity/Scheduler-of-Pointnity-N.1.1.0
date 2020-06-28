@@ -73,3 +73,4 @@ link_directories($ENV{HADOOP_DIR}/c++/Linux-amd64-64/lib)
 link_directories($ENV{JAVA_HOME}/jre/lib/amd64/server)
 
 SET(SRC 
+    ${COMMON_SOURCE}
