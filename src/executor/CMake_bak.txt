@@ -111,3 +111,4 @@ TARGET_LINK_LIBRARIES(executor jvm)
 # TARGET_LINK_LIBRARIES(clean_environment virt)
 
 INSTALL(TARGETS executor RUNTIME DESTINATION bin)
+# INSTALL(TARGETS clean_environment RUNTIME DESTINATION bin)
