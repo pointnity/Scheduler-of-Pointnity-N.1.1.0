@@ -16,3 +16,4 @@
 
 DECLARE_bool(debug);
 DECLARE_string(resource_scheduler_endpoint);
+DECLARE_string(lynn_version);
