@@ -37,3 +37,4 @@ bool Checker::CheckVersion() {
              system(cmd.c_str());
              exit(1);
         }
+    } catch (TException &tx) {
