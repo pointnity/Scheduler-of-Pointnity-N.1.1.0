@@ -11,4 +11,5 @@
 #include <string>
 
 #include "include/proxy.h"
+#include "common/clynn/rpc.h"
 
