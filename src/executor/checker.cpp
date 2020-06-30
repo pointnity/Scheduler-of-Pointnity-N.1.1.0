@@ -15,3 +15,4 @@
 #include "executor/checker.h"
 
 DECLARE_bool(debug);
+DECLARE_string(resource_scheduler_endpoint);
