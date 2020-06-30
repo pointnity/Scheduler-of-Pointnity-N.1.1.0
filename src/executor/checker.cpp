@@ -29,3 +29,4 @@ bool Checker::CheckVersion() {
     string new_lynn_version;
     try {
         Proxy<ResourceSchedulerClient> proxy = RpcClient<ResourceSchedulerClient>::GetProxy(FLAGS_resource_scheduler_endpoint);
+        proxy().GetCurVersion(new_lynn_version);
