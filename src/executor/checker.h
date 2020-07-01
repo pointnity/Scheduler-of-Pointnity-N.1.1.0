@@ -12,3 +12,4 @@
 class Checker {
 public:
     bool CheckVersion();
+};
