@@ -12,3 +12,5 @@
 class Checker {
 
 class Checker {
+
+class Checker {
