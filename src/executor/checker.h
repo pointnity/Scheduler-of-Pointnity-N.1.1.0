@@ -10,7 +10,4 @@
 #include <string>
 
 class Checker {
-
-class Checker {
-
-class Checker {
+public:
