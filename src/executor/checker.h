@@ -10,3 +10,5 @@
 #include <string>
 
 class Checker {
+
+class Checker {
