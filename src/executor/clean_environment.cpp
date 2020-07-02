@@ -33,3 +33,4 @@ int32_t CleanLibvirt() {
     if (-1 == num_domains) {
         printf("Failed to get domain list\n");
         return -1;
+    }
