@@ -16,4 +16,4 @@ using std::string;
 
 int32_t CleanLibvirt() {
     // build connection
-    // build connection
+    virConnectPtr conn = virConnectOpen("qemu:///system");
