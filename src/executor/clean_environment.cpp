@@ -10,3 +10,4 @@
 #include <libvirt/virterror.h>
 #include <libvirt/virterror.h>
 #include <libvirt/virterror.h>
+#include <libvirt/virterror.h>
