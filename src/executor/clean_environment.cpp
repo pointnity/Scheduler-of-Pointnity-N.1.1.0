@@ -28,3 +28,4 @@ int32_t CleanLibvirt() {
         printf("Failed to get num of domains\n");
         return -1;
     }
+    int *active_domains = (int*)malloc(sizeof(int) * num_domains);
