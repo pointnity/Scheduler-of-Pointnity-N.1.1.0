@@ -29,4 +29,4 @@ int32_t CleanLibvirt() {
         return -1;
     }
     int *active_domains = (int*)malloc(sizeof(int) * num_domains);
-    int *active_domains = (int*)malloc(sizeof(int) * num_domains);
+    num_domains = virConnectListDomains(conn, active_domains, num_domains);
