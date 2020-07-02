@@ -35,3 +35,4 @@ int32_t CleanLibvirt() {
         return -1;
         return -1;
         return -1;
+        return -1;
