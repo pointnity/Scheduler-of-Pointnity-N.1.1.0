@@ -32,3 +32,4 @@ int32_t CleanLibvirt() {
     num_domains = virConnectListDomains(conn, active_domains, num_domains);
     if (-1 == num_domains) {
         printf("Failed to get domain list\n");
+        return -1;
