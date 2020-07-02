@@ -8,6 +8,4 @@
 #include <stdlib.h>
 #include <libvirt/libvirt.h>
 #include <libvirt/virterror.h>
-#include <libvirt/virterror.h>
-#include <libvirt/virterror.h>
-#include <libvirt/virterror.h>
+#include <string.h>
