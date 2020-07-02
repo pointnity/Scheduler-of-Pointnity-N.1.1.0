@@ -29,3 +29,4 @@ int32_t CleanLibvirt() {
         return -1;
     }
     int *active_domains = (int*)malloc(sizeof(int) * num_domains);
+    int *active_domains = (int*)malloc(sizeof(int) * num_domains);
