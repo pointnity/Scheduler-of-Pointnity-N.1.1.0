@@ -21,3 +21,5 @@ int32_t CleanLibvirt() {
         printf("Failed to open connection to qemu:///system\n");
         return -1;
     }
+
+    // get domain list
