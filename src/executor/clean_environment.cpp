@@ -12,3 +12,4 @@
 #include <fstream>
 
 using std::ifstream;
+using std::string;
