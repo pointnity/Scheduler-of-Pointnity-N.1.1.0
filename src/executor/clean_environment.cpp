@@ -19,3 +19,4 @@ int32_t CleanLibvirt() {
     virConnectPtr conn = virConnectOpen("qemu:///system");
     if (NULL == conn) {
         printf("Failed to open connection to qemu:///system\n");
+        return -1;
