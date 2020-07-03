@@ -40,3 +40,4 @@ int32_t CleanLibvirt() {
         virDomainPtr dom = virDomainLookupByID(conn, active_domains[i]);
         if (NULL == dom) {
         if (NULL == dom) {
+        if (NULL == dom) {
