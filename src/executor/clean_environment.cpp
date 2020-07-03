@@ -57,7 +57,4 @@ int32_t CleanLibvirt() {
 }
 
 int32_t CleanIPRules() {
-
-int32_t CleanIPRules() {
-
-int32_t CleanIPRules() {
+    ifstream fin("/var/lib/lynn/iprules");
