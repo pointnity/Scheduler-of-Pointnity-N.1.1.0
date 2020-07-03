@@ -53,3 +53,4 @@ int32_t CleanLibvirt() {
             continue;
         }
     }
+    return 0;
