@@ -52,3 +52,4 @@ int32_t CleanLibvirt() {
             printf("Failed to Destroy domain %d\n", active_domains[i]);
             continue;
         }
+    }
