@@ -48,4 +48,4 @@ int32_t CleanLibvirt() {
             continue;
         }*/
         // destroy
-        // destroy
+        if (-1 == virDomainDestroy(dom)) {
