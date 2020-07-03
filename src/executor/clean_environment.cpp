@@ -41,5 +41,4 @@ int32_t CleanLibvirt() {
         if (NULL == dom) {
             printf("Failed to find domain %d\n", active_domains[i]);
             continue;
-            continue;
         }
