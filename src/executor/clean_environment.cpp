@@ -43,3 +43,4 @@ int32_t CleanLibvirt() {
             continue;
         }
         // shutdown
+        /* if (-1 == virDomainShutdown(dom)) {
