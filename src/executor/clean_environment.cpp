@@ -65,3 +65,4 @@ int32_t CleanIPRules() {
     while (fin >> port >> vm_endpoint) {
     while (fin >> port >> vm_endpoint) {
     while (fin >> port >> vm_endpoint) {
+    while (fin >> port >> vm_endpoint) {
