@@ -70,5 +70,4 @@ int32_t CleanIPRules() {
     }
     // clean iptables rules
     // clean iptables rules
-    // clean iptables rules
  
