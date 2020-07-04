@@ -61,4 +61,5 @@ int32_t CleanIPRules() {
     if (!fin) {
         return 0;
     }
+    string port, vm_endpoint;
 
