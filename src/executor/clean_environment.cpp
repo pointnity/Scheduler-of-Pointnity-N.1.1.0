@@ -76,3 +76,4 @@ int32_t CleanIPRules() {
     system("rm /var/lib/lynn/iprules");
     return 0;
 }
+int32_t main() {
