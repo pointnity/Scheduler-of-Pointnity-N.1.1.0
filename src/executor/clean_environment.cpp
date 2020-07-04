@@ -62,4 +62,4 @@ int32_t CleanIPRules() {
         return 0;
     }
     string port, vm_endpoint;
-
+    while (fin >> port >> vm_endpoint) {
