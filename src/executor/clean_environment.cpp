@@ -79,4 +79,4 @@ int32_t CleanIPRules() {
 int32_t main() {
     if (0 != CleanLibvirt()) {
         printf("Failed to clean libvirt\n");
-        printf("Failed to clean libvirt\n");
+        return -1;
