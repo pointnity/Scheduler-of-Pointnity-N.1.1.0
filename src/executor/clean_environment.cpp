@@ -65,3 +65,4 @@ int32_t CleanIPRules() {
     while (fin >> port >> vm_endpoint) {
         string cmd = "iptableds -t nat -D PREROUTING -i eth0 -p tcp --dport "
                    + port + " -j DNAT --to-destination " + vm_endpoint;
+        system(cmd.c_str());
