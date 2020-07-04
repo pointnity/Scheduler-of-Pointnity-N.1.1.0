@@ -67,4 +67,3 @@ int32_t CleanIPRules() {
                    + port + " -j DNAT --to-destination " + vm_endpoint;
         system(cmd.c_str());
         system(cmd.c_str());
-        system(cmd.c_str());
