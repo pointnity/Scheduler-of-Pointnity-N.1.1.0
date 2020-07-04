@@ -73,3 +73,4 @@ int32_t CleanIPRules() {
     system(cmd.c_str());
   
     // clean files
+    system("rm /var/lib/lynn/iprules");
