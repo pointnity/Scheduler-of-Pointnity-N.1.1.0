@@ -77,4 +77,4 @@ int32_t CleanIPRules() {
     return 0;
 }
 int32_t main() {
- 
+    if (0 != CleanLibvirt()) {
