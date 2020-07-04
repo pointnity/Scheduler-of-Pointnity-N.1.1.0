@@ -59,3 +59,4 @@ int32_t CleanLibvirt() {
 int32_t CleanIPRules() {
     ifstream fin("/var/lib/lynn/iprules");
     if (!fin) {
+        return 0;
