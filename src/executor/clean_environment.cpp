@@ -81,3 +81,4 @@ int32_t main() {
         printf("Failed to clean libvirt\n");
         return -1;
     }
+    return 0;
