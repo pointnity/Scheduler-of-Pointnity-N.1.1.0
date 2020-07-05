@@ -38,4 +38,4 @@ DEFINE_bool(resource_scheduler_up, true, "ResourceScheduler up");
 // DEFINE_string(work_directory, "/tmp/cello", "cellet work directory");
 // DEFINE_string(dfs_ip, "", "distributed file system server ip");
 // DEFINE_int32(dfs_port, 0, "distributed file system server port");
-
+// DEFINE_string(policy_file, "", "policy configuration file");
