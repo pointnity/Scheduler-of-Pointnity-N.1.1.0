@@ -23,3 +23,5 @@ DEFINE_int32(hdfs_port, 9000, "hdfs default port");
 DEFINE_bool(lxc_create, true, "include lxc-create -n 'lxc-name'");
 DEFINE_bool(lxc_relative_path, true, "lxc relative path");
 DEFINE_string(image_path, "/var/lib/lynn/kvm/", "executor image path");
+
+DEFINE_int32(starting_timeout, 5, "task starting timeout");
