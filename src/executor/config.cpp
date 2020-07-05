@@ -36,4 +36,5 @@ DEFINE_bool(jobs_manager_up, true, "JobsManager up");
 DEFINE_bool(resource_scheduler_up, true, "ResourceScheduler up");
 
 // DEFINE_string(work_directory, "/tmp/cello", "cellet work directory");
- 
+// DEFINE_string(dfs_ip, "", "distributed file system server ip");
+
