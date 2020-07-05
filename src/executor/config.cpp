@@ -14,3 +14,4 @@ DEFINE_int32(vm_hb_interval, 15, "vm heartbeat interval");
 DEFINE_string(interface, "br0", "network interface, communicate with master");
 DEFINE_string(if_bridge, "br0", "network interface, communicate with vms");
 DEFINE_string(log_path, "../log/", "executor log path");
+DEFINE_string(libvirt_dir, "/var/lib/libvirt/images/", "libvirt work dir");
