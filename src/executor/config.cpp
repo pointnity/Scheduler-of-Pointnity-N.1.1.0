@@ -37,3 +37,5 @@ DEFINE_bool(resource_scheduler_up, true, "ResourceScheduler up");
 
 // DEFINE_string(work_directory, "/tmp/cello", "cellet work directory");
 
+// DEFINE_string(work_directory, "/tmp/cello", "cellet work directory");
+
