@@ -26,3 +26,5 @@ DEFINE_string(image_path, "/var/lib/lynn/kvm/", "executor image path");
 
 DEFINE_int32(starting_timeout, 5, "task starting timeout");
 DEFINE_string(lynn_version, "", "executor version");
+
+// ip pool
