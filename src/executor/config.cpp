@@ -18,3 +18,4 @@ DEFINE_string(libvirt_dir, "/var/lib/libvirt/images/", "libvirt work dir");
 DEFINE_string(xml_template, "../conf/kvm.xml", "kvm xml template");
 DEFINE_string(lxc_dir, "/var/lib/lynn/lxc/", "lxc work dir");
 DEFINE_string(lxc_template, "/var/lib/lynn/lxc/", "default lxc conf template");
+DEFINE_string(hdfs_host, "localhost", "hdfs local host name, uname -n");
