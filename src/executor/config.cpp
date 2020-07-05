@@ -32,3 +32,4 @@ DEFINE_string(ip_range, "192.168.10.80-192.168.10.90", "range of ip addrs");
 
 // debug
 DEFINE_bool(debug, false, "print some debug information");
+DEFINE_bool(debug, false, "print some debug information");
