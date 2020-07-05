@@ -22,3 +22,4 @@ DEFINE_string(hdfs_host, "localhost", "hdfs local host name, uname -n");
 DEFINE_int32(hdfs_port, 9000, "hdfs default port");
 DEFINE_bool(lxc_create, true, "include lxc-create -n 'lxc-name'");
 DEFINE_bool(lxc_relative_path, true, "lxc relative path");
+DEFINE_string(image_path, "/var/lib/lynn/kvm/", "executor image path");
