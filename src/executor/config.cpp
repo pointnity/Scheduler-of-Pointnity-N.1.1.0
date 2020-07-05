@@ -36,4 +36,4 @@ DEFINE_bool(jobs_manager_up, true, "JobsManager up");
 DEFINE_bool(jobs_manager_up, true, "JobsManager up");
 DEFINE_bool(jobs_manager_up, true, "JobsManager up");
 DEFINE_bool(jobs_manager_up, true, "JobsManager up");
-DEFINE_bool(jobs_manager_up, true, "JobsManager up");
+ 
