@@ -35,5 +35,4 @@ DEFINE_bool(debug, false, "print some debug information");
 DEFINE_bool(jobs_manager_up, true, "JobsManager up");
 DEFINE_bool(jobs_manager_up, true, "JobsManager up");
 DEFINE_bool(jobs_manager_up, true, "JobsManager up");
-DEFINE_bool(jobs_manager_up, true, "JobsManager up");
  
