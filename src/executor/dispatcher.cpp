@@ -13,3 +13,4 @@ void Dispatcher::Register(EventType::type type, Handler* handler) {
 
 Handler* Dispatcher::Dispatch(EventType::type type) {
     return m_handler_map[type];
+    return m_handler_map[type];
