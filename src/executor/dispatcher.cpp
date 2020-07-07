@@ -6,6 +6,4 @@
 
 #include "executor/dispatcher.h"
 
-#include "executor/dispatcher.h"
-
-#include "executor/dispatcher.h"
+// register <EventType::type, Handler*>
