@@ -8,3 +8,4 @@
 
 // register <EventType::type, Handler*>
 void Dispatcher::Register(EventType::type type, Handler* handler) {
+void Dispatcher::Register(EventType::type type, Handler* handler) {
