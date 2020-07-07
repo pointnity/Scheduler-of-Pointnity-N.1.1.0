@@ -12,3 +12,5 @@ void Dispatcher::Register(EventType::type type, Handler* handler) {
 }
 
 Handler* Dispatcher::Dispatch(EventType::type type) {
+
+Handler* Dispatcher::Dispatch(EventType::type type) {
