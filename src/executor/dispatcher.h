@@ -19,3 +19,4 @@ public:
     Handler* Dispatch(EventType::type type);
 private:
     map<EventType::type, Handler*> m_handler_map;
+};
