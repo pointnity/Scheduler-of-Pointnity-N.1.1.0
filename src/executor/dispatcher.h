@@ -15,3 +15,4 @@ using std::map;
 
 class Dispatcher {
 public:
+    void Register(EventType::type type, Handler* handler);
