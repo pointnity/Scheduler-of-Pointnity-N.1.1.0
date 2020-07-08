@@ -8,3 +8,4 @@
 #define SRC_EXECUTOR_DISPATCHER_H
 
 #include <map>
+#include "common/clynn/singleton.h"
