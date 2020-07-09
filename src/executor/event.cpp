@@ -31,3 +31,6 @@ bool StartActionEvent::Handle() {
         LOG4CPLUS_ERROR(logger, "Failed to start task, job_id:" << id.job_id << ", task_id:" << id.task_id);
         return false;
     }
+
+    LOG4CPLUS_INFO(logger, "Handle event of start task action, job_id:" << id.job_id << ", task_id:" << id.task_id);
+    return true;
