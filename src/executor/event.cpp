@@ -9,3 +9,4 @@
 #include <gflags/gflags.h>
 
 #include "executor/event.h"
+#include "executor/task_entity_pool.h"
