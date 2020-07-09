@@ -29,3 +29,4 @@ bool StartActionEvent::Handle() {
     }
     if (!TaskPoolI::Instance()->StartTaskByID(id)) {
         LOG4CPLUS_ERROR(logger, "Failed to start task, job_id:" << id.job_id << ", task_id:" << id.task_id);
+        return false;
