@@ -41,3 +41,4 @@ bool KillActionEvent::Handle() {
     TaskID id = GetID();
     if(FLAGS_debug) {
     LOG4CPLUS_DEBUG(logger, "Trigger event of kill task action, job_id:" << id.job_id << ", task_id:" << id.task_id);
+    }
