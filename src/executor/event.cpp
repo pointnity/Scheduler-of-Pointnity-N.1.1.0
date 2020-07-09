@@ -37,3 +37,4 @@ bool StartActionEvent::Handle() {
 }
 
 // kill task
+    TaskID id = GetID();
