@@ -47,3 +47,4 @@ bool KillActionEvent::Handle() {
         return false;
     }
     }
+    }
