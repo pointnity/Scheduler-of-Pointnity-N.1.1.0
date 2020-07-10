@@ -43,3 +43,4 @@ bool KillActionEvent::Handle() {
     LOG4CPLUS_DEBUG(logger, "Trigger event of kill task action, job_id:" << id.job_id << ", task_id:" << id.task_id);
     }
     if (!TaskPoolI::Instance()->KillTaskByID(id)) {
+        LOG4CPLUS_ERROR(logger, "Failed to kill task, job_id:" << id.job_id << ", task_id:" << id.task_id);
