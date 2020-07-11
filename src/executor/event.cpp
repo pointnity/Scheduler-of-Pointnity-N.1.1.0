@@ -62,3 +62,4 @@ bool StopActionEvent::Handle() {
 // task starting
 bool StartingTaskEvent::Handle() {
     TaskID id = GetID();
+    if(FLAGS_debug) {
