@@ -65,3 +65,4 @@ bool StartingTaskEvent::Handle() {
     if(FLAGS_debug) {
         LOG4CPLUS_DEBUG(logger, "Trigger event of taskstarting state, job_id:" << id.job_id << ", task_id:" << id.task_id);
     }
+    TaskPoolI::Instance()->GetTaskPtr(id)->TaskStarting();
