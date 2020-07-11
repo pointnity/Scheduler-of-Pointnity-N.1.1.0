@@ -79,3 +79,4 @@ bool RunningTaskEvent::Handle() {
     //LOG4CPLUS_INFO(logger, "Handle event of taskrunning state, job_id:" << id.job_id << ", task_id:" << id.task_id);
     TaskActionI::Instance()->TaskRunning(id);
     return true;
+}
