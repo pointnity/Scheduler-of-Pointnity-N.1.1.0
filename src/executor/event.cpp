@@ -56,3 +56,4 @@ bool KillActionEvent::Handle() {
 
 bool StopActionEvent::Handle() {
     return true;
+}
