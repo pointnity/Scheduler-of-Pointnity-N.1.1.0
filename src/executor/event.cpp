@@ -74,3 +74,4 @@ bool StartingTaskEvent::Handle() {
 bool RunningTaskEvent::Handle() {
     TaskID id = GetID();
     if(FLAGS_debug) {
+        LOG4CPLUS_DEBUG(logger, "Trigger event of taskrunning state, job_id:" << id.job_id << ", task_id:" << id.task_id);
