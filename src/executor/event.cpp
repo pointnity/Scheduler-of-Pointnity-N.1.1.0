@@ -72,3 +72,4 @@ bool StartingTaskEvent::Handle() {
 
 // task running
 bool RunningTaskEvent::Handle() {
+    TaskID id = GetID();
