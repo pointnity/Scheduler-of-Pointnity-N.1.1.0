@@ -57,3 +57,5 @@ bool KillActionEvent::Handle() {
 bool StopActionEvent::Handle() {
     return true;
 }
+
+/* task state handle */
