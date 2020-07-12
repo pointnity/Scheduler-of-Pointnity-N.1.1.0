@@ -9,3 +9,5 @@
 
 #include <string>
 #include <boost/shared_ptr.hpp>
+
+#include "common/clynn/block_queue.h"
