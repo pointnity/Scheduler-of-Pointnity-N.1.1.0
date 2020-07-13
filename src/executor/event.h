@@ -79,4 +79,5 @@ public:
 private:
     string  m_hb_vm_info_ad;
 };
-};
+
+class ExitExecutorEvent : public Event {
