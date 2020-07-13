@@ -77,3 +77,4 @@ public:
         return  m_hb_vm_info_ad;
     }
 private:
+    string  m_hb_vm_info_ad;
