@@ -28,3 +28,4 @@ public:
         return m_type;
     }
 private:
+    EventType::type m_type;
