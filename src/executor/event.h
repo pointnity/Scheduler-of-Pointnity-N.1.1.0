@@ -57,3 +57,4 @@ public:
     string GetUser() const {
         return m_user;
     }
+    int32_t GetSize() const {
