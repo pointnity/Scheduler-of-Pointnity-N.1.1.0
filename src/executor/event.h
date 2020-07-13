@@ -30,3 +30,6 @@ public:
 private:
     EventType::type m_type;
 };
+
+
+class TaskEvent : public Event {
