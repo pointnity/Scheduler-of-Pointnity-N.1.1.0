@@ -41,3 +41,4 @@ public:
     }
 private:
     TaskID m_id;
+}; 
