@@ -67,3 +67,4 @@ private:
 };
 
 class HeartbeatEvent : public Event {
+public:
