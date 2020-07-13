@@ -42,3 +42,6 @@ public:
 private:
     TaskID m_id;
 }; 
+
+
+class ImageEvent : public Event {
