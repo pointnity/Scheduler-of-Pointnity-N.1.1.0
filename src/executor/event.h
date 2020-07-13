@@ -26,3 +26,4 @@ public:
     virtual bool Handle() = 0;
     EventType::type GetType() const {
         return m_type;
+    }
