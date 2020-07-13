@@ -63,3 +63,4 @@ public:
 private:
     string m_name;
     string m_user;
+    int32_t m_size;
