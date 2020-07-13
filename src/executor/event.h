@@ -68,3 +68,4 @@ private:
 
 class HeartbeatEvent : public Event {
 public:
+    HeartbeatEvent(const string&  hb_vm_info_ad) : Event(EventType::HEARTBEAT_EVENT),
