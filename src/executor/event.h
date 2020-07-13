@@ -56,3 +56,4 @@ public:
     }
     string GetUser() const {
         return m_user;
+    }
