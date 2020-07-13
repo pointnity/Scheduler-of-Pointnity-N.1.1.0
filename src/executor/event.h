@@ -59,3 +59,4 @@ public:
     }
     int32_t GetSize() const {
         return m_size;
+    }
