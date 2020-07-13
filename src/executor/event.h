@@ -27,3 +27,4 @@ public:
     EventType::type GetType() const {
         return m_type;
     }
+private:
