@@ -73,3 +73,4 @@ public:
 
     ~HeartbeatEvent() {}
     bool Handle();
+    string GetHbInfo() const {
