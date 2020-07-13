@@ -72,3 +72,4 @@ public:
              m_hb_vm_info_ad(hb_vm_info_ad) {}
 
     ~HeartbeatEvent() {}
+    bool Handle();
