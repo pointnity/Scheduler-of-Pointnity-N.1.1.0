@@ -47,3 +47,4 @@ private:
 class ImageEvent : public Event {
 public:
     ImageEvent(const string& user, const string& name, const int32_t size) : Event(EventType::IMAGE_EVENT),
+             m_name(name), m_user(user), m_size(size) {}
