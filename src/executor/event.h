@@ -65,3 +65,5 @@ private:
     string m_user;
     int32_t m_size;
 };
+
+class HeartbeatEvent : public Event {
