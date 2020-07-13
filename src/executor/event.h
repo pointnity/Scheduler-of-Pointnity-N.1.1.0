@@ -46,3 +46,4 @@ private:
 
 class ImageEvent : public Event {
 public:
+public:
