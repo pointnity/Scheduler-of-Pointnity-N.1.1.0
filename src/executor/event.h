@@ -81,3 +81,4 @@ private:
 };
 
 class ExitExecutorEvent : public Event {
+public:
