@@ -75,3 +75,4 @@ public:
     bool Handle();
     string GetHbInfo() const {
         return  m_hb_vm_info_ad;
+    }
