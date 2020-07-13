@@ -83,3 +83,4 @@ private:
 class ExitExecutorEvent : public Event {
 public:
      ExitExecutorEvent() : Event(EventType::EXIT_EXECUTOR_EVENT) {}
+     ExitExecutorEvent() : Event(EventType::EXIT_EXECUTOR_EVENT) {}
