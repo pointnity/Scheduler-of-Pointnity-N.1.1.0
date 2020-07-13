@@ -40,3 +40,4 @@ public:
         return m_id;
     }
 private:
+    TaskID m_id;
