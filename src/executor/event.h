@@ -142,3 +142,4 @@ public:
 class FinishedTaskEvent : public TaskStateEvent {
 public:
     FinishedTaskEvent(TaskID id) : TaskStateEvent(id) {}
+    bool Handle();
