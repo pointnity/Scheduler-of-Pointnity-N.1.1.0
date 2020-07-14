@@ -117,3 +117,4 @@ public:
 
 //stop task
 //TODO
+class StopActionEvent : public TaskActionEvent {
