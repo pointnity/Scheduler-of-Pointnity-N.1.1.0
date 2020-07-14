@@ -140,3 +140,4 @@ public:
 }; 
 
 class FinishedTaskEvent : public TaskStateEvent {
+public:
