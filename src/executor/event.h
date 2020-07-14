@@ -128,3 +128,4 @@ public:
 //task state event starting/running/finished/failed/missed
 
 class StartingTaskEvent : public TaskStateEvent {
+public:
