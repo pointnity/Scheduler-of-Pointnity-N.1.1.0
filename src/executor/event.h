@@ -121,3 +121,4 @@ public:
 class StopActionEvent : public TaskActionEvent {
 public:
     StopActionEvent(TaskID id) : TaskActionEvent(id) {}
+    bool Handle();
