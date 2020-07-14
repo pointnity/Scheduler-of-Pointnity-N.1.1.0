@@ -105,4 +105,4 @@ public:
 class StartActionEvent : public TaskActionEvent {
 public:
     StartActionEvent(TaskID id) : TaskActionEvent(id) {}
-    StartActionEvent(TaskID id) : TaskActionEvent(id) {}
+    bool Handle();
