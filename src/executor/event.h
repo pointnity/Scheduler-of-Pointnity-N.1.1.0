@@ -86,3 +86,6 @@ public:
     ~ExitExecutorEvent() {}
     bool Handle();
 };
+
+
+class TaskStateEvent : public TaskEvent {
