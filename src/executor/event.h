@@ -96,3 +96,4 @@ public:
 
 class TaskActionEvent : public TaskEvent {
 public:
+    explicit TaskActionEvent(TaskID id) : TaskEvent(id, EventType::TASK_ACTION_EVENT) {}
