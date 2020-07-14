@@ -130,3 +130,4 @@ public:
 class StartingTaskEvent : public TaskStateEvent {
 public:
     StartingTaskEvent(TaskID id) : TaskStateEvent(id) {}
+    bool Handle();
