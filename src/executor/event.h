@@ -99,3 +99,4 @@ public:
     explicit TaskActionEvent(TaskID id) : TaskEvent(id, EventType::TASK_ACTION_EVENT) {}
     virtual ~TaskActionEvent() {} 
 };
+};
