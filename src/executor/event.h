@@ -114,3 +114,5 @@ public:
     KillActionEvent(TaskID id) : TaskActionEvent(id) {}
     bool Handle();
 };
+
+//stop task
