@@ -134,3 +134,4 @@ public:
 };
 
 class RunningTaskEvent : public TaskStateEvent {
+public:
