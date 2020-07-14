@@ -32,7 +32,8 @@ private:
 };
 
 
-class TaskEvent : public Event {
+class TaskEvent : public Evenpublic:
+{
 public:
     explicit TaskEvent(TaskID id, EventType::type type) : Event(type), m_id(id) {}
     virtual ~TaskEvent() {}
@@ -118,3 +119,4 @@ public:
 //stop task
 //TODO
 class StopActionEvent : public TaskActionEvent {
+public:
