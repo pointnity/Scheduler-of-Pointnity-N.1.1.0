@@ -102,3 +102,4 @@ public:
 
 //task action event start/kill/stop
 //start task 
+class StartActionEvent : public TaskActionEvent {
