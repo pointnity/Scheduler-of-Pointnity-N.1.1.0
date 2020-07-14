@@ -131,3 +131,6 @@ class StartingTaskEvent : public TaskStateEvent {
 public:
     StartingTaskEvent(TaskID id) : TaskStateEvent(id) {}
     bool Handle();
+};
+
+class RunningTaskEvent : public TaskStateEvent {
