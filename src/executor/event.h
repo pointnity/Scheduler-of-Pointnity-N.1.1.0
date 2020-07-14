@@ -112,3 +112,4 @@ public:
 class KillActionEvent : public TaskActionEvent {
 public:
     KillActionEvent(TaskID id) : TaskActionEvent(id) {}
+    KillActionEvent(TaskID id) : TaskActionEvent(id) {}
