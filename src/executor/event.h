@@ -89,3 +89,4 @@ public:
 
 
 class TaskStateEvent : public TaskEvent {
+public:
