@@ -113,3 +113,4 @@ class KillActionEvent : public TaskActionEvent {
 public:
     KillActionEvent(TaskID id) : TaskActionEvent(id) {}
     bool Handle();
+};
