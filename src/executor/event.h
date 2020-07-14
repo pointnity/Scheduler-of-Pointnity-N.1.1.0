@@ -93,3 +93,5 @@ public:
     explicit TaskStateEvent(TaskID id) : TaskEvent(id, EventType::TASK_STATE_EVENT) {}
     virtual ~TaskStateEvent() {}
 };
+
+class TaskActionEvent : public TaskEvent {
