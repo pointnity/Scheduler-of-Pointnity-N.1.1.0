@@ -109,3 +109,4 @@ public:
 };
 
 //kill task
+class KillActionEvent : public TaskActionEvent {
