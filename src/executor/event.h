@@ -104,3 +104,4 @@ public:
 //start task 
 class StartActionEvent : public TaskActionEvent {
 public:
+    StartActionEvent(TaskID id) : TaskActionEvent(id) {}
