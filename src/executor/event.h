@@ -122,3 +122,7 @@ class StopActionEvent : public TaskActionEvent {
 public:
     StopActionEvent(TaskID id) : TaskActionEvent(id) {}
     bool Handle();
+};
+
+
+//task state event starting/running/finished/failed/missed
