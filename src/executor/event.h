@@ -95,3 +95,4 @@ public:
 };
 
 class TaskActionEvent : public TaskEvent {
+public:
