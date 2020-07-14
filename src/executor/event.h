@@ -90,3 +90,4 @@ public:
 
 class TaskStateEvent : public TaskEvent {
 public:
+    explicit TaskStateEvent(TaskID id) : TaskEvent(id, EventType::TASK_STATE_EVENT) {}
