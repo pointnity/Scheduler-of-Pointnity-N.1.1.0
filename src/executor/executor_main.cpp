@@ -35,7 +35,9 @@ using std::auto_ptr;
 using log4cplus::Logger;
 using log4cplus::ConsoleAppender;
 using log4cplus::FileAppender;
+using log4cplus::Appender;
 using log4cplus::Layout;
+using log4cplus::PatternLayout;
 using log4cplus::helpers::SharedObjectPtr;
 
 // gflag, config for executor
@@ -58,6 +60,9 @@ extern void* HeartbeatProcessor(void* unused);
 // executor
 int ExecutorEntity(int argc, char **argv) {
     // config file
+    if (argc > 1)
         google::ParseCommandLineFlags(&argc, &argv, true);
     else
         google::ReadFromFlagsFile("../conf/executor.conf", argv[0], true);
+
+    // get time
