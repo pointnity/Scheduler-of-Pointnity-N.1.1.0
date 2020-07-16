@@ -41,3 +41,4 @@ using log4cplus::helpers::SharedObjectPtr;
 // gflag, config for executor
 DECLARE_int32(port);
 DECLARE_string(collector_endpoint);
+DECLARE_string(scheduler_endpoint);
