@@ -18,3 +18,4 @@
 #include <gflags/gflags.h>
 
 #include "common/clynn/rpc.h"
+#include "executor/service.h"
