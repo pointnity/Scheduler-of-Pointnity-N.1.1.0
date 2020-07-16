@@ -42,3 +42,4 @@ using log4cplus::helpers::SharedObjectPtr;
 DECLARE_int32(port);
 DECLARE_string(collector_endpoint);
 DECLARE_string(scheduler_endpoint);
+/*DECLARE_string(interface);
