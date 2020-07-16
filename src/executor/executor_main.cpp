@@ -43,3 +43,4 @@ DECLARE_int32(port);
 DECLARE_string(collector_endpoint);
 DECLARE_string(scheduler_endpoint);
 /*DECLARE_string(interface);
+DECLARE_string(img_dir);*/
