@@ -48,3 +48,4 @@ DECLARE_string(log_path);
 DECLARE_string(libvirt_dir);
 DECLARE_string(xml_template);
 DECLARE_string(lxc_dir);
+DECLARE_string(lxc_template);
