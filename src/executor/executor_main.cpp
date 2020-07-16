@@ -33,3 +33,5 @@ using std::endl;
 using std::auto_ptr;
 
 using log4cplus::Logger;
+
+using log4cplus::Logger;
