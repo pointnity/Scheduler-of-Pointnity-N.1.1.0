@@ -24,3 +24,4 @@
 #include "executor/resource_manager.h"
 #include "executor/hdfs_wrapper.h"
 #include "executor/ip_pool.h"
+#include "executor/executor_register.h"
