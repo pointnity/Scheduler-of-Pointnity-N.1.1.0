@@ -39,3 +39,4 @@ using log4cplus::Layout;
 using log4cplus::helpers::SharedObjectPtr;
 
 // gflag, config for executor
+DECLARE_int32(port);
