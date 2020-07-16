@@ -19,3 +19,4 @@
 
 #include "common/clynn/rpc.h"
 #include "executor/service.h"
+#include "executor/dispatcher.h"
