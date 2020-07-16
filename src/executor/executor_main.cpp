@@ -50,3 +50,5 @@ DECLARE_string(xml_template);
 DECLARE_string(lxc_dir);
 DECLARE_string(lxc_template);
 DECLARE_string(hdfs_host);
+
+//extern void* TaskProcessor(void* unused);
