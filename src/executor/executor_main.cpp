@@ -21,3 +21,4 @@
 #include "executor/service.h"
 #include "executor/dispatcher.h"
 #include "executor/resource_manager.h"
+#include "executor/hdfs_wrapper.h"
