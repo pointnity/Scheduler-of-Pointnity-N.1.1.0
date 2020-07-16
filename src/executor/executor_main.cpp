@@ -60,3 +60,4 @@ int ExecutorEntity(int argc, char **argv) {
     // config file
         google::ParseCommandLineFlags(&argc, &argv, true);
     else
+        google::ReadFromFlagsFile("../conf/executor.conf", argv[0], true);
