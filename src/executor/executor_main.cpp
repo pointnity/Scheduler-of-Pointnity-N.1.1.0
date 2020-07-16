@@ -25,3 +25,6 @@
 #include "executor/hdfs_wrapper.h"
 #include "executor/ip_pool.h"
 #include "executor/executor_register.h"
+
+
+using std::string;
