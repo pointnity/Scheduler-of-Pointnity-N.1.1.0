@@ -56,3 +56,4 @@ extern void* VMProcessor(void* unused);
 extern void* HeartbeatProcessor(void* unused);
 
 // executor
+int ExecutorEntity(int argc, char **argv) {
