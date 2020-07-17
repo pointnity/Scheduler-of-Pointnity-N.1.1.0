@@ -159,3 +159,4 @@ int ExecutorEntity(int argc, char **argv) {
 
     //executor exit event
     Handler* executor_event_handler = new Handler;
+    executor_event_handler->Start();
