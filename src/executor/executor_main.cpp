@@ -137,5 +137,7 @@ int ExecutorEntity(int argc, char **argv) {
     pthread_create(&hb_t, NULL, HeartbeatProcessor, NULL);
 
     /* event dispatcher */
+    //heartbeat event
     Handler* heartbeat_event_handler = new Handler;
     heartbeat_event_handler->Start();
+    EventDispatcherI::Instance()->Register(EventType::HEARTBEAT_EVENT, heartbeat_event_handler);
