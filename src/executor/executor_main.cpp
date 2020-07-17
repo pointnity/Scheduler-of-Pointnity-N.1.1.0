@@ -148,3 +148,4 @@ int ExecutorEntity(int argc, char **argv) {
     EventDispatcherI::Instance()->Register(EventType::TASK_ACTION_EVENT, task_action_event_handler);
 
     // task state event
+    Handler* task_state_event_handler = new Handler;
