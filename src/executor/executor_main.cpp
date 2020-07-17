@@ -162,3 +162,4 @@ int ExecutorEntity(int argc, char **argv) {
     executor_event_handler->Start();
 
     cout << "Executor is OK." << endl;
+    RpcServer<ExecutorService, ExecutorProcessor>::Listen(FLAGS_port);
