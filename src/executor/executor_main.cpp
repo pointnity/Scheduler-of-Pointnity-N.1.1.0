@@ -184,3 +184,11 @@ int main(int argc, char **argv) {
         if (pid != 0) {
             // parent process, start executorEntity when ExecutorEntity fail
                 continue;
+            }
+        } else {
+            // child process
+            ExecutorEntity(argc, argv);
+        }
+    }*/
+    return EXIT_SUCCESS;
+}
