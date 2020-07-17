@@ -138,3 +138,4 @@ int ExecutorEntity(int argc, char **argv) {
 
     /* event dispatcher */
     Handler* heartbeat_event_handler = new Handler;
+    heartbeat_event_handler->Start();
