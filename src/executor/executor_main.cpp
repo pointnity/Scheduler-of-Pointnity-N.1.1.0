@@ -121,3 +121,4 @@ int ExecutorEntity(int argc, char **argv) {
     if (!IPPoolI::Instance()->ReleaseIp(ip)) {
          LOG4CPLUS_ERROR(logger, "Failed to relase ip in IPPool.");
          return -1;
+    } 
