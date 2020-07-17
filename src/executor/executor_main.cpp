@@ -143,3 +143,4 @@ int ExecutorEntity(int argc, char **argv) {
     EventDispatcherI::Instance()->Register(EventType::HEARTBEAT_EVENT, heartbeat_event_handler);
 
     // task action event
+    Handler* task_action_event_handler = new Handler;
