@@ -88,3 +88,4 @@ int ExecutorEntity(int argc, char **argv) {
     if(registerptr->RegistMachine() == false) {
         delete registerptr;
 	exit(1);
+    }
