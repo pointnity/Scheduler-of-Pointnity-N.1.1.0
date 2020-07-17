@@ -128,3 +128,5 @@ int ExecutorEntity(int argc, char **argv) {
     // work thread
     //pthread_t task_t;
     //pthread_create(&task_t, NULL, TaskProcessor, NULL);
+
+    pthread_t vm_t;
