@@ -156,3 +156,5 @@ int ExecutorEntity(int argc, char **argv) {
     Handler* image_event_handler = new Handler;
     image_event_handler->Start();
     EventDispatcherI::Instance()->Register(EventType::IMAGE_EVENT, image_event_handler);
+
+    //executor exit event
