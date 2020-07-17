@@ -103,3 +103,4 @@ int ExecutorEntity(int argc, char **argv) {
     FLAGS_lxc_template = cur_dir + separator + FLAGS_lxc_template;
 
     // init resource_manager
+    if (!ResourceMgrI::Instance()->Init()) {
