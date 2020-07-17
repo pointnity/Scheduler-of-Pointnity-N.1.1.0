@@ -110,3 +110,4 @@ int ExecutorEntity(int argc, char **argv) {
 
     // init ip pool
     if (!IPPoolI::Instance()->Init()) {
+        LOG4CPLUS_ERROR(logger, "Failed to initialize IPPool.");
