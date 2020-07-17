@@ -106,3 +106,6 @@ int ExecutorEntity(int argc, char **argv) {
     if (!ResourceMgrI::Instance()->Init()) {
         LOG4CPLUS_ERROR(logger, "Failed to initialize resource manager.");
         return EXIT_FAILURE;
+    }
+
+    // init ip pool
