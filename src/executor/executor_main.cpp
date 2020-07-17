@@ -83,3 +83,4 @@ int ExecutorEntity(int argc, char **argv) {
     LOG4CPLUS_ERROR(logger, "This is the FIRST error message");
 
     // TODO
+    //check version
