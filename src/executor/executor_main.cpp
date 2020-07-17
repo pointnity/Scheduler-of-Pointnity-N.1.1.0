@@ -76,3 +76,4 @@ int ExecutorEntity(int argc, char **argv) {
     auto_ptr<Layout> layout(new PatternLayout(LOG4CPLUS_TEXT("%d{%y/%m/%d %H:%M:%S} %p [%l]: %m %n")));
     append->setLayout(layout);
     Logger logger = Logger::getInstance(LOG4CPLUS_TEXT("executor"));
+    logger.addAppender(append);
