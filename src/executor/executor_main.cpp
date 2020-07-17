@@ -118,3 +118,4 @@ int ExecutorEntity(int argc, char **argv) {
     IPPoolI::Instance()->PrintAll();
     string ip =  IPPoolI::Instance()->GetAvailIp();
     IPPoolI::Instance()->PrintAll();
+    if (!IPPoolI::Instance()->ReleaseIp(ip)) {
