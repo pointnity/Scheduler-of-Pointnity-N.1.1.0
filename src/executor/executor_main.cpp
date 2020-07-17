@@ -90,3 +90,5 @@ int ExecutorEntity(int argc, char **argv) {
 	exit(1);
     }
     delete registerptr;
+
+    // get current dir
