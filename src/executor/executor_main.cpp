@@ -183,3 +183,4 @@ int main(int argc, char **argv) {
         int32_t pid = fork();
         if (pid != 0) {
             // parent process, start executorEntity when ExecutorEntity fail
+                continue;
