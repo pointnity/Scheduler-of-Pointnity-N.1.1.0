@@ -160,8 +160,11 @@ int ExecutorEntity(int argc, char **argv) {
     //executor exit event
     Handler* executor_event_handler = new Handler;
     executor_event_handler->Start();
+    EventDispatcherI::Instance()->Register(EventType::EXIT_EXECUTOR_EVENT, executor_event_handler);
 
     cout << "Executor is OK." << endl;
+
+    // Listen for service 
     RpcServer<ExecutorService, ExecutorProcessor>::Listen(FLAGS_port);
     //int port = 9999; 
     //Rpc<ExecutorService, ExecutorProcessor>::Listen(port);
@@ -183,6 +186,7 @@ int main(int argc, char **argv) {
         int32_t pid = fork();
         if (pid != 0) {
             // parent process, start executorEntity when ExecutorEntity fail
+            if (waitpid(pid, &status, 0) > 0) {
                 continue;
             }
         } else {
