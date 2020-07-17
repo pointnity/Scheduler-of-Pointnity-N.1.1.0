@@ -154,3 +154,4 @@ int ExecutorEntity(int argc, char **argv) {
 
     //image event
     Handler* image_event_handler = new Handler;
+    image_event_handler->Start();
