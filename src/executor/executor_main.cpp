@@ -79,3 +79,4 @@ int ExecutorEntity(int argc, char **argv) {
     logger.addAppender(append);
     logger.setLogLevel(log4cplus::DEBUG_LOG_LEVEL);
     LOG4CPLUS_DEBUG(logger, "This is the FIRST debug message");
+    LOG4CPLUS_INFO(logger, "This is the FIRST info message");
