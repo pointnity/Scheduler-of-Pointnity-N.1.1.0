@@ -66,3 +66,4 @@ int ExecutorEntity(int argc, char **argv) {
         google::ReadFromFlagsFile("../conf/executor.conf", argv[0], true);
 
     // get time
+    /* char time_c[64] = {0};
