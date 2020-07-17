@@ -119,3 +119,4 @@ int ExecutorEntity(int argc, char **argv) {
     string ip =  IPPoolI::Instance()->GetAvailIp();
     IPPoolI::Instance()->PrintAll();
     if (!IPPoolI::Instance()->ReleaseIp(ip)) {
+         LOG4CPLUS_ERROR(logger, "Failed to relase ip in IPPool.");
