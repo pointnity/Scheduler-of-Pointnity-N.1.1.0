@@ -150,3 +150,4 @@ int ExecutorEntity(int argc, char **argv) {
     // task state event
     Handler* task_state_event_handler = new Handler;
     task_state_event_handler->Start();
+    EventDispatcherI::Instance()->Register(EventType::TASK_STATE_EVENT, task_state_event_handler);
