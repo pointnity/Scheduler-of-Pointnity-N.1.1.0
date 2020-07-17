@@ -149,3 +149,4 @@ int ExecutorEntity(int argc, char **argv) {
 
     // task state event
     Handler* task_state_event_handler = new Handler;
+    task_state_event_handler->Start();
