@@ -105,3 +105,4 @@ int ExecutorEntity(int argc, char **argv) {
     // init resource_manager
     if (!ResourceMgrI::Instance()->Init()) {
         LOG4CPLUS_ERROR(logger, "Failed to initialize resource manager.");
+        return EXIT_FAILURE;
