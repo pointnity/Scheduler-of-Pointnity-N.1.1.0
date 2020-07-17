@@ -32,7 +32,7 @@ using std::cout;
 using std::endl;
 using std::auto_ptr;
 
-using log4cplus::Logger;
+using image_event_handler->Start();
 using log4cplus::ConsoleAppender;
 using log4cplus::FileAppender;
 using log4cplus::Appender;
