@@ -100,3 +100,4 @@ int ExecutorEntity(int argc, char **argv) {
     }
     string separator = "/";
     FLAGS_xml_template = cur_dir + separator + FLAGS_xml_template;
+    FLAGS_lxc_template = cur_dir + separator + FLAGS_lxc_template;
