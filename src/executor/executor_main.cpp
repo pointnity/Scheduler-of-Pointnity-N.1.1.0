@@ -116,3 +116,4 @@ int ExecutorEntity(int argc, char **argv) {
     // test TODO
     /*
     IPPoolI::Instance()->PrintAll();
+    string ip =  IPPoolI::Instance()->GetAvailIp();
