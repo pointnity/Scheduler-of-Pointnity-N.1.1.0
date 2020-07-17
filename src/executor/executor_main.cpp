@@ -109,3 +109,4 @@ int ExecutorEntity(int argc, char **argv) {
     }
 
     // init ip pool
+    if (!IPPoolI::Instance()->Init()) {
