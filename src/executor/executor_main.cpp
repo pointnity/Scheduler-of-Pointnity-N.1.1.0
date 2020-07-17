@@ -137,3 +137,4 @@ int ExecutorEntity(int argc, char **argv) {
     pthread_create(&hb_t, NULL, HeartbeatProcessor, NULL);
 
     /* event dispatcher */
+    Handler* heartbeat_event_handler = new Handler;
