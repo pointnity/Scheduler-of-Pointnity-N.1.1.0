@@ -92,3 +92,4 @@ int ExecutorEntity(int argc, char **argv) {
     delete registerptr;
 
     // get current dir
+    char cur_dir[100];
