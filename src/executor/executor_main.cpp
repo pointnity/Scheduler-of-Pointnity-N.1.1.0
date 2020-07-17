@@ -165,3 +165,6 @@ int ExecutorEntity(int argc, char **argv) {
     RpcServer<ExecutorService, ExecutorProcessor>::Listen(FLAGS_port);
     //int port = 9999; 
     //Rpc<ExecutorService, ExecutorProcessor>::Listen(port);
+
+    return EXIT_SUCCESS;
+}
