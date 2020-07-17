@@ -153,3 +153,4 @@ int ExecutorEntity(int argc, char **argv) {
     EventDispatcherI::Instance()->Register(EventType::TASK_STATE_EVENT, task_state_event_handler);
 
     //image event
+    Handler* image_event_handler = new Handler;
