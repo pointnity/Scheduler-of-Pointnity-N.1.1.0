@@ -89,3 +89,4 @@ int ExecutorEntity(int argc, char **argv) {
         delete registerptr;
 	exit(1);
     }
+    delete registerptr;
