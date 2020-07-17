@@ -133,3 +133,4 @@ int ExecutorEntity(int argc, char **argv) {
     pthread_create(&vm_t, NULL, VMProcessor, NULL);
 
     // TODO
+    pthread_t hb_t;
