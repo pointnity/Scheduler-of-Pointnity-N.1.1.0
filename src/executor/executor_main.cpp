@@ -134,3 +134,4 @@ int ExecutorEntity(int argc, char **argv) {
 
     // TODO
     pthread_t hb_t;
+    pthread_create(&hb_t, NULL, HeartbeatProcessor, NULL);
