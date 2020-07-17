@@ -144,3 +144,4 @@ int ExecutorEntity(int argc, char **argv) {
 
     // task action event
     Handler* task_action_event_handler = new Handler;
+    task_action_event_handler->Start();
