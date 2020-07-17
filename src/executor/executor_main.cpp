@@ -67,3 +67,4 @@ int ExecutorEntity(int argc, char **argv) {
 
     // get time
     /* char time_c[64] = {0};
+    System::GetCurrentTime(time_c, sizeof(time_c)-1);
