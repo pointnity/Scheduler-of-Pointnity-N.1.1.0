@@ -164,3 +164,4 @@ int ExecutorEntity(int argc, char **argv) {
     cout << "Executor is OK." << endl;
     RpcServer<ExecutorService, ExecutorProcessor>::Listen(FLAGS_port);
     //int port = 9999; 
+    //Rpc<ExecutorService, ExecutorProcessor>::Listen(port);
