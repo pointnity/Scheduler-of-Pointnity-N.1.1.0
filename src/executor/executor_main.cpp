@@ -112,3 +112,5 @@ int ExecutorEntity(int argc, char **argv) {
     if (!IPPoolI::Instance()->Init()) {
         LOG4CPLUS_ERROR(logger, "Failed to initialize IPPool.");
         return EXIT_FAILURE;
+    }
+    // test TODO
