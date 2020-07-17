@@ -86,3 +86,4 @@ int ExecutorEntity(int argc, char **argv) {
     //check version
     ExecutorRegister* registerptr = new ExecutorRegister();
     if(registerptr->RegistMachine() == false) {
+        delete registerptr;
