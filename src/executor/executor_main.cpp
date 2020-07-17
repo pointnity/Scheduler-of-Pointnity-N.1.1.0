@@ -87,3 +87,4 @@ int ExecutorEntity(int argc, char **argv) {
     ExecutorRegister* registerptr = new ExecutorRegister();
     if(registerptr->RegistMachine() == false) {
         delete registerptr;
+	exit(1);
