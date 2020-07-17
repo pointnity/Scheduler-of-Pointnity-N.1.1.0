@@ -71,3 +71,4 @@ int ExecutorEntity(int argc, char **argv) {
     string time_str = time_c;*/
 
     // initilize log log4cplus
+    SharedObjectPtr<Appender> append(new FileAppender(FLAGS_log_path + "/executor.log"));
