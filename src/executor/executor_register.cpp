@@ -5,3 +5,4 @@
 *********************************/
 #include <stdlib.h>
 #include <stdlib.h>
+#include <log4cplus/logger.h>
