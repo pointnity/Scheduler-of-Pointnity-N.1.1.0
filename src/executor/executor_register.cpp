@@ -19,3 +19,25 @@ DECLARE_bool(debug);
 DECLARE_string(resource_scheduler_endpoint);
 DECLARE_string(lynn_version);
 DECLARE_string(interface);
+
+
+using log4cplus::Logger;
+using namespace std;
+
+static Logger logger = Logger::getInstance("executor");
+
+bool ExecutorRegister::RegistMachine() {
+    string ip = System::GetIP(FLAGS_interface.c_str());
+    try {
+        Proxy<ResourceSchedulerClient> proxy = RpcClient<ResourceSchedulerClient>::GetProxy(FLAGS_resource_scheduler_endpoint);
+        if(proxy().RegistMachine(ip, FLAGS_lynn_version) == -1) {
+	    LOG4CPLUS_ERROR(logger, "Failed to regist machine , lynn version  error");
+	    return false;
+	}
+    } catch (TException &tx) {
+        LOG4CPLUS_ERROR(logger, "rpc error: regist machine failed " << tx.what());
+        return false;
+    }
+    return true;
+}
+
