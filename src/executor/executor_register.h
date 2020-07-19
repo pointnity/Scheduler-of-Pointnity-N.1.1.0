@@ -13,3 +13,5 @@ class ExecutorRegister {
 public:
     bool RegistMachine();
 };
+
+#endif  
