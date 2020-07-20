@@ -26,3 +26,4 @@ void Handler::Handle() {
         m_event_queue.PopFront(&event);
         // virtual func
         event->Handle();
+    }
