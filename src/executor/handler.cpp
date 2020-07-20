@@ -20,3 +20,4 @@ void Handler::Start() {
 }
 
 void Handler::Handle() {
+    while (true) {
