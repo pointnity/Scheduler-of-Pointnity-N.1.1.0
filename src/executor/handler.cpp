@@ -27,3 +27,4 @@ void Handler::Handle() {
         // virtual func
         event->Handle();
     }
+}
