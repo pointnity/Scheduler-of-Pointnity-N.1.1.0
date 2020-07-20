@@ -18,3 +18,5 @@ void Handler::Start() {
     m_work_thread = new Thread(func);
     m_work_thread->Start();
 }
+
+void Handler::Handle() {
