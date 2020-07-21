@@ -24,9 +24,12 @@ bool HDFSWrapper::OpenConnect() {
            m_local_fs = hdfsConnect(NULL, 0);
            } catch (hdfsFS &tx) {
                LOG4CPLUS_ERROR(logger, "Hdfs connect local error:");
-
-DECLARE_string(hdfs_host);
-DECLARE_int32(hdfs_port);
-
-
-bool HDFSWrapper::OpenConnect() {
+           } catch(const runtime_error& error){
+               LOG4CPLUS_ERROR(logger, "Hdfs connect local error:");
+	   }
+    if (NULL == m_local_fs) {
+        LOG4CPLUS_ERROR(logger, "Failed to connect local fs");
+        return false;
+    }
+    m_h_fs = hdfsConnect(FLAGS_hdfs_host.c_str(), FLAGS_hdfs_port);
+    if (NULL == m_h_fs) {
