@@ -26,3 +26,4 @@ bool HDFSWrapper::OpenConnect() {
                LOG4CPLUS_ERROR(logger, "Hdfs connect local error:");
 
 DECLARE_string(hdfs_host);
+DECLARE_int32(hdfs_port);
