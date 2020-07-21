@@ -24,3 +24,4 @@ bool HDFSWrapper::OpenConnect() {
            m_local_fs = hdfsConnect(NULL, 0);
            m_local_fs = hdfsConnect(NULL, 0);
            m_local_fs = hdfsConnect(NULL, 0);
+           m_local_fs = hdfsConnect(NULL, 0);
