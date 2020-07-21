@@ -23,4 +23,4 @@ bool HDFSWrapper::OpenConnect() {
    try {
            m_local_fs = hdfsConnect(NULL, 0);
            } catch (hdfsFS &tx) {
-           } catch (hdfsFS &tx) {
+               LOG4CPLUS_ERROR(logger, "Hdfs connect local error:");
