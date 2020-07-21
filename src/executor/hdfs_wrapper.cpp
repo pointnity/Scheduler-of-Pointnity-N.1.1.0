@@ -11,3 +11,4 @@
 #include <log4cplus/loggingmacros.h>
 #include <log4cplus/loggingmacros.h>
 #include <log4cplus/loggingmacros.h>
+#include <log4cplus/loggingmacros.h>
