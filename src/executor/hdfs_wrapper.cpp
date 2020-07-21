@@ -27,3 +27,4 @@ bool HDFSWrapper::OpenConnect() {
 
 DECLARE_string(hdfs_host);
 DECLARE_int32(hdfs_port);
+DECLARE_int32(hdfs_port);
