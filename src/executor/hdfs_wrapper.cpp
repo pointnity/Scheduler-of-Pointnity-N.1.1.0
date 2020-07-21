@@ -14,3 +14,5 @@
 using log4cplus::Logger;
 
 static Logger logger = Logger::getInstance("executor");
+
+DECLARE_string(hdfs_host);
