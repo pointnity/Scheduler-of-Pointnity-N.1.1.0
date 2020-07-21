@@ -21,5 +21,4 @@ DECLARE_int32(hdfs_port);
 
 bool HDFSWrapper::OpenConnect() {
    try {
-   try {
-   try {
+           m_local_fs = hdfsConnect(NULL, 0);
