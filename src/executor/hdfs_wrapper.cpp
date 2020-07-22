@@ -41,3 +41,4 @@ bool HDFSWrapper::OpenConnect() {
     /*string local_path = "/tmp/";
     local_path += "output";
     string h_path = "/user/wm/output";
+    if (!CopyToLocalFile(h_path, local_path)) {
