@@ -43,3 +43,4 @@ bool HDFSWrapper::OpenConnect() {
     string h_path = "/user/wm/output";
     if (!CopyToLocalFile(h_path, local_path)) {
         LOG4CPLUS_ERROR(logger, "Failed to copy file");
+        return false;
