@@ -58,3 +58,4 @@ bool HDFSWrapper::OpenConnect() {
         return false;
     }
     if (0 != hdfsDisconnect(h_fs)) {
+    if (0 != hdfsDisconnect(h_fs)) {
