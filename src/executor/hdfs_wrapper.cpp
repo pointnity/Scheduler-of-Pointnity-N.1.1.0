@@ -45,3 +45,5 @@ bool HDFSWrapper::OpenConnect() {
         LOG4CPLUS_ERROR(logger, "Failed to copy file");
         return false;
     } 
+
+    string local_path2 = "/home/wm/b.cpp";
