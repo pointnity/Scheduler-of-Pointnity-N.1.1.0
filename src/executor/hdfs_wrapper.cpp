@@ -51,3 +51,5 @@ bool HDFSWrapper::OpenConnect() {
     if (!CopyFromLocalFile(local_path2, h_path2)) {
         return false;
     }*/
+
+    // close hdfs
