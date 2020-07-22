@@ -70,4 +70,4 @@ bool HDFSWrapper::CloseConnect() {
         LOG4CPLUS_ERROR(logger, "Failed to disconnect local fs");
         return false;
     }
-    }
+    if (0 != hdfsDisconnect(m_h_fs)) {
