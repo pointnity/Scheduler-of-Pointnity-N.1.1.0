@@ -49,3 +49,4 @@ bool HDFSWrapper::OpenConnect() {
     string local_path2 = "/home/wm/b.cpp";
     string h_path2 = "/user/root/b.cpp";
     if (!CopyFromLocalFile(local_path2, h_path2)) {
+        return false;
