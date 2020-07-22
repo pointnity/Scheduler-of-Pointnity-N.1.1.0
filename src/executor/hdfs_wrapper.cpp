@@ -36,3 +36,5 @@ bool HDFSWrapper::OpenConnect() {
         LOG4CPLUS_ERROR(logger, "Failed to connect hdfs, hdfs_host:" << FLAGS_hdfs_host << ", hdfs_port:" << FLAGS_hdfs_port);
         return false;
     }
+
+    // test
