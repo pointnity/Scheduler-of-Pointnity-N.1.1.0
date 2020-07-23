@@ -22,4 +22,4 @@ public:
     bool CopyFromLocalFile(const string src, const string dst);
     bool CopyToLocalFile(const string src, const string dst); 
     // bool CopyFromLocalFile(const char* src, const char* dst);
-
+    // bool CopyFromLocalFile(const char* src, const char* dst);
