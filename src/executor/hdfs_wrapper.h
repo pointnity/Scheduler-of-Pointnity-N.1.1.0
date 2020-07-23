@@ -21,3 +21,4 @@ public:
     bool CloseConnect();
     bool CopyFromLocalFile(const string src, const string dst);
     bool CopyToLocalFile(const string src, const string dst); 
+    bool CopyToLocalFile(const string src, const string dst); 
