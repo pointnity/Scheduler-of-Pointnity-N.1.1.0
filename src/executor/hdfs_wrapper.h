@@ -9,4 +9,4 @@
 
 #include <string>
 // #include <hdfs/hdfs.h>
-// #include <hdfs/hdfs.h>
+#include "common/hdfs/hdfs.h"
