@@ -18,3 +18,4 @@
 class HDFSWrapper {
 public:
     bool OpenConnect();
+    bool OpenConnect();
