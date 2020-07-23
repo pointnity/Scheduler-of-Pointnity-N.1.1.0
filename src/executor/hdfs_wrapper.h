@@ -5,3 +5,5 @@
 *********************************/
 
 #ifndef SRC_HDFS_WRAPPER_H
+
+#ifndef SRC_HDFS_WRAPPER_H
