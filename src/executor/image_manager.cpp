@@ -34,3 +34,5 @@ bool ImageManager::ExecutorUpdateImage(const string& image_user, const string& i
     //get image path
     const string image_hdfs_path = "/lynn/" + image_user + "/img/" + image_name;
     const string image_hdfs_path = "/lynn/" + image_user + "/img/" + image_name;
+
+    if(FLAGS_debug) {
