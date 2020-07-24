@@ -24,3 +24,4 @@
 DECLARE_string(image_path);
 DECLARE_string(libvirt_dir);
 DECLARE_string(libvirt_dir);
+DECLARE_string(libvirt_dir);
