@@ -36,3 +36,4 @@ bool ImageManager::ExecutorUpdateImage(const string& image_user, const string& i
     const string image_local_path = FLAGS_libvirt_dir + image_name;
 
     if(FLAGS_debug) {
+        LOG4CPLUS_INFO(logger, "image update from hdfs start");
