@@ -44,3 +44,4 @@ bool ImageManager::ExecutorUpdateImage(const string& image_user, const string& i
     if(false == HDFSMgrI::Instance()->CopyToLocalFile(image_hdfs_path, image_local_path)){
         LOG4CPLUS_ERROR(logger, "copy hdfs imge to local error");
         //fprintf(stderr, "copy local image to hdfs error");
+        return false;
