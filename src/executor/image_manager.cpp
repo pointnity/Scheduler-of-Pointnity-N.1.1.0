@@ -38,3 +38,4 @@ bool ImageManager::ExecutorUpdateImage(const string& image_user, const string& i
     if(FLAGS_debug) {
         LOG4CPLUS_INFO(logger, "image update from hdfs start");
      }
+    //open hdfs
