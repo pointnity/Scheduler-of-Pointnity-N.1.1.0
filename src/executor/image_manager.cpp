@@ -20,3 +20,5 @@
 #include "include/classad_attr.h"
 #include "executor/image_manager.h"
 #include "executor/hdfs_wrapper.h"
+
+DECLARE_string(image_path);
