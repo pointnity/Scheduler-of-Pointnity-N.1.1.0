@@ -33,6 +33,5 @@ static Logger logger = Logger::getInstance("executor");
 bool ImageManager::ExecutorUpdateImage(const string& image_user, const string& image_name, const int32_t image_size) {
     //get image path
     const string image_hdfs_path = "/lynn/" + image_user + "/img/" + image_name;
-    const string image_hdfs_path = "/lynn/" + image_user + "/img/" + image_name;
 
     if(FLAGS_debug) {
