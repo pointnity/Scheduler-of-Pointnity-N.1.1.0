@@ -15,3 +15,4 @@
 #include <boost/algorithm/string/split.hpp>
 
 #include <classad/classad.h>
+#include <classad/classad_distribution.h>
