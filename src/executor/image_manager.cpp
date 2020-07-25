@@ -87,3 +87,4 @@ string ImageManager::GetImageAttrFromFile() {
     bool is_first_str = true;
     bool image_flag;
     string image_attr_all; 
+    vector<string> image_attr_list;
