@@ -83,3 +83,4 @@ bool ImageManager::CheckImageAttrFromFile(const string& image) {
 }
 
 string ImageManager::GetImageAttrFromFile() {
+    bool is_first_attr = true;  
