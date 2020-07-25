@@ -70,3 +70,4 @@ bool ImageManager::CheckImageAttrFromFile(const string& image) {
     string image_attr;
     //open file error ?
     if(!in_file){
+    if(!in_file){
