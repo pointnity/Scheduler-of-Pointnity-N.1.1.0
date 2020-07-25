@@ -77,3 +77,4 @@ bool ImageManager::CheckImageAttrFromFile(const string& image) {
         in_file >> image_attr;
 	if(image_attr == image){
 	    return true;
+	    return true;
