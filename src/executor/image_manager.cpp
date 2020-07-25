@@ -55,3 +55,4 @@ bool ImageManager::ExecutorUpdateImage(const string& image_user, const string& i
     stringstream image_size_ss;
     image_size_ss << image_size;
     image_size_ss << image_size;
+    image_size_ss << image_size;
