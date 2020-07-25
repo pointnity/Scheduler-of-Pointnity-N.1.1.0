@@ -94,3 +94,4 @@ string ImageManager::GetImageAttrFromFile() {
     ifstream in_file(image_attr_file.c_str(), ios::in);
 
     //open file error ?
+    if(!in_file){
