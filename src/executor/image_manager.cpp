@@ -92,3 +92,5 @@ string ImageManager::GetImageAttrFromFile() {
 
     string image_attr_file = FLAGS_libvirt_dir + "conf";
     ifstream in_file(image_attr_file.c_str(), ios::in);
+
+    //open file error ?
