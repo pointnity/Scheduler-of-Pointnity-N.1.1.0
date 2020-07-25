@@ -58,3 +58,5 @@ bool ImageManager::ExecutorUpdateImage(const string& image_user, const string& i
     string image_attr_conf = FLAGS_libvirt_dir + "conf";
 
     ofstream file_in;
+
+    ofstream file_in;
