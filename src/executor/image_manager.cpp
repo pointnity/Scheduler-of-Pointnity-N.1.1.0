@@ -75,3 +75,4 @@ bool ImageManager::CheckImageAttrFromFile(const string& image) {
     }
     while(!in_file.eof()) {
         in_file >> image_attr;
+	if(image_attr == image){
