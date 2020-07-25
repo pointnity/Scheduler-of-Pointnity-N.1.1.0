@@ -69,4 +69,4 @@ bool ImageManager::CheckImageAttrFromFile(const string& image) {
     ifstream in_file(image_attr_file.c_str(), ios::in);
     string image_attr;
     //open file error ?
-    //open file error ?
+    if(!in_file){
