@@ -81,3 +81,5 @@ bool ImageManager::CheckImageAttrFromFile(const string& image) {
     }
     return false;
 }
+
+string ImageManager::GetImageAttrFromFile() {
