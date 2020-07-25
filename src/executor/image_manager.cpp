@@ -69,3 +69,4 @@ bool ImageManager::CheckImageAttrFromFile(const string& image) {
     ifstream in_file(image_attr_file.c_str(), ios::in);
     string image_attr;
     string image_attr;
+    string image_attr;
