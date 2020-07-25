@@ -50,3 +50,4 @@ bool ImageManager::ExecutorUpdateImage(const string& image_user, const string& i
     HDFSMgrI::Instance()->CloseConnect();
     if (FLAGS_debug) {
         LOG4CPLUS_INFO(logger, "image update from hdfs finished");
+        LOG4CPLUS_INFO(logger, "image update from hdfs finished");
