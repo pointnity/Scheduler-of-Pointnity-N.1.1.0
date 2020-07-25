@@ -68,5 +68,4 @@ bool ImageManager::CheckImageAttrFromFile(const string& image) {
     string image_attr_file = FLAGS_libvirt_dir + "conf";
     ifstream in_file(image_attr_file.c_str(), ios::in);
     string image_attr;
-    string image_attr;
-    string image_attr;
+    //open file error ?
