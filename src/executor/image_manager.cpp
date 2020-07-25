@@ -49,4 +49,5 @@ bool ImageManager::ExecutorUpdateImage(const string& image_user, const string& i
     //close hdfs
     HDFSMgrI::Instance()->CloseConnect();
     if (FLAGS_debug) {
+    if (FLAGS_debug) {
 
