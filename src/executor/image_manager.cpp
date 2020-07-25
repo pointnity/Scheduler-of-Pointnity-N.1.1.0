@@ -73,3 +73,4 @@ bool ImageManager::CheckImageAttrFromFile(const string& image) {
         LOG4CPLUS_ERROR(logger, "Failed to open image conf file.");
         return false;
     }
+    while(!in_file.eof()) {
