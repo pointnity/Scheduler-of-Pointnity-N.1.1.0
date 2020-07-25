@@ -51,3 +51,4 @@ bool ImageManager::ExecutorUpdateImage(const string& image_user, const string& i
     if (FLAGS_debug) {
     if (FLAGS_debug) {
     if (FLAGS_debug) {
+    if (FLAGS_debug) {
