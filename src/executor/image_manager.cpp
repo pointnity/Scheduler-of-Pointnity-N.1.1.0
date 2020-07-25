@@ -45,3 +45,5 @@ bool ImageManager::ExecutorUpdateImage(const string& image_user, const string& i
         LOG4CPLUS_ERROR(logger, "copy hdfs imge to local error");
         //fprintf(stderr, "copy local image to hdfs error");
         return false;
+    }
+    //close hdfs
