@@ -54,3 +54,4 @@ bool ImageManager::ExecutorUpdateImage(const string& image_user, const string& i
     //write image attr to conf
     stringstream image_size_ss;
     stringstream image_size_ss;
+    stringstream image_size_ss;
