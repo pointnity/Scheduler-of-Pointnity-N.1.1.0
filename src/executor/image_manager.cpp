@@ -89,3 +89,4 @@ string ImageManager::GetImageAttrFromFile() {
     string image_attr_all; 
     vector<string> image_attr_list;
     string image_attr;
+    string image_attr;
