@@ -65,5 +65,4 @@ bool ImageManager::ExecutorUpdateImage(const string& image_user, const string& i
 }
 
 bool ImageManager::CheckImageAttrFromFile(const string& image) {
-
-bool ImageManager::CheckImageAttrFromFile(const string& image) {
+    string image_attr_file = FLAGS_libvirt_dir + "conf";
