@@ -65,3 +65,5 @@ bool ImageManager::ExecutorUpdateImage(const string& image_user, const string& i
 }
 
 bool ImageManager::CheckImageAttrFromFile(const string& image) {
+
+bool ImageManager::CheckImageAttrFromFile(const string& image) {
