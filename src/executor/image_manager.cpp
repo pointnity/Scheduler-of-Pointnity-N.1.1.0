@@ -101,3 +101,4 @@ string ImageManager::GetImageAttrFromFile() {
 
 
     //read file from line to line
+    while(!in_file.eof()) {
