@@ -120,3 +120,4 @@ string ImageManager::GetImageAttrFromFile() {
 	//check file stream object to know file is exist or not
 	if(!image_file) {
 	    continue;
+	}
