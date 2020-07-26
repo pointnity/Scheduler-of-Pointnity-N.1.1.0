@@ -121,3 +121,5 @@ string ImageManager::GetImageAttrFromFile() {
 	if(!image_file) {
 	    continue;
 	}
+
+        //first line ?
