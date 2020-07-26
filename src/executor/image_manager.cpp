@@ -106,3 +106,4 @@ string ImageManager::GetImageAttrFromFile() {
         in_file >> image_attr;
 
 	//check image about image_attr
+	//parse image name from image_attr
