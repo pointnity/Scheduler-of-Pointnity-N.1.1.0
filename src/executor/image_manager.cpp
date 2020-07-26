@@ -108,3 +108,4 @@ string ImageManager::GetImageAttrFromFile() {
 	//check image about image_attr
 	//parse image name from image_attr
 	string image_name;
+        vector<string> user_name_size_list;
