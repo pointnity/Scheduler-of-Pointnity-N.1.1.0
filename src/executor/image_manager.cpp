@@ -148,3 +148,6 @@ string ImageManager::GetImageAttrFromFile() {
     if(!out_file) {
         LOG4CPLUS_ERROR(logger, "Failed to open image conf file.");
         return "";
+    }
+
+    //check image_attr_list is null
