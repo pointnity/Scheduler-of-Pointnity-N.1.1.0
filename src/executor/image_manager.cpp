@@ -156,3 +156,4 @@ string ImageManager::GetImageAttrFromFile() {
 	//delete conf file
 	string cmd = "rm -rf " + FLAGS_libvirt_dir + "conf";
 	system(cmd.c_str()); 
+	return "";
