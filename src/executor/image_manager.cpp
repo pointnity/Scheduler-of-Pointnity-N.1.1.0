@@ -109,3 +109,4 @@ string ImageManager::GetImageAttrFromFile() {
 	//parse image name from image_attr
 	string image_name;
         vector<string> user_name_size_list;
+	boost::split(user_name_size_list, image_attr, boost::is_any_of( "&" ), boost::token_compress_on);     
