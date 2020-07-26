@@ -152,3 +152,4 @@ string ImageManager::GetImageAttrFromFile() {
 
     //check image_attr_list is null
     if(image_attr_list.size() == 0) {
+	out_file.close();
