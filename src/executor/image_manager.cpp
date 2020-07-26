@@ -144,3 +144,4 @@ string ImageManager::GetImageAttrFromFile() {
     //update conf file to delete unused_image_attr and rename image_attr
     ofstream out_file(image_attr_file, ios::out);
 
+    //open file error ?
