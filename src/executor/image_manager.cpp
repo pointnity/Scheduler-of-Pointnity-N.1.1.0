@@ -129,3 +129,4 @@ string ImageManager::GetImageAttrFromFile() {
         }
         else {
             for(vector<string>::iterator it = image_attr_list.begin(); it != image_attr_list.end(); ++it) {
+                if(image_attr == *it) {
