@@ -98,3 +98,6 @@ string ImageManager::GetImageAttrFromFile() {
         LOG4CPLUS_ERROR(logger, "Failed to open image conf file.");
 	return "";
     }
+
+
+    //read file from line to line
