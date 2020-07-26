@@ -139,3 +139,4 @@ string ImageManager::GetImageAttrFromFile() {
 	    }
         } //--else
     } //--while
+    in_file.close();
