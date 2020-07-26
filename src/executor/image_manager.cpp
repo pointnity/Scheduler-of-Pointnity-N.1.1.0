@@ -123,3 +123,4 @@ string ImageManager::GetImageAttrFromFile() {
 	}
 
         //first line ?
+        if(is_first_attr == true) {
