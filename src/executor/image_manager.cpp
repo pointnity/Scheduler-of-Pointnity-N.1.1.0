@@ -134,3 +134,4 @@ string ImageManager::GetImageAttrFromFile() {
 		    break;
 		}
 	    }
+	    if(image_flag == false) {
