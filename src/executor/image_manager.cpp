@@ -111,3 +111,4 @@ string ImageManager::GetImageAttrFromFile() {
 	boost::split(user_name_size_list, image_attr, boost::is_any_of( "&" ), boost::token_compress_on);     
 	if(user_name_size_list.size() != 3) {
 	    continue;
+	}
