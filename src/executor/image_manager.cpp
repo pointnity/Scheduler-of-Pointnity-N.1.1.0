@@ -157,3 +157,20 @@ string ImageManager::GetImageAttrFromFile() {
 	string cmd = "rm -rf " + FLAGS_libvirt_dir + "conf";
 	system(cmd.c_str()); 
 	return "";
+    }
+
+    //make image_attr_list to string
+    for(vector<string>::iterator it = image_attr_list.begin(); it != image_attr_list.end(); ++it) {
+	//update conf file
+	out_file << *it << "\n";
+	//compose image attr list
+        if(true == is_first_str) {
+	    image_attr_all = *it;
+	    is_first_str = false;
+	}
+	else {
+            image_attr_all = image_attr_all + ":" + *it;
+	}
+    }
+    return image_attr_all;    
+}
