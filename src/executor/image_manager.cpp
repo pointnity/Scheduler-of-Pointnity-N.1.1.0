@@ -136,3 +136,4 @@ string ImageManager::GetImageAttrFromFile() {
 	    }
 	    if(image_flag == false) {
 		image_attr_list.push_back(image_attr);
+	    }
