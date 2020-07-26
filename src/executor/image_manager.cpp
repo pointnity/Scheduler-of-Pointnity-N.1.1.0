@@ -128,3 +128,4 @@ string ImageManager::GetImageAttrFromFile() {
 	    is_first_attr = false;
         }
         else {
+            for(vector<string>::iterator it = image_attr_list.begin(); it != image_attr_list.end(); ++it) {
