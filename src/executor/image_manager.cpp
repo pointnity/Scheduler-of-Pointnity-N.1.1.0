@@ -145,3 +145,4 @@ string ImageManager::GetImageAttrFromFile() {
     ofstream out_file(image_attr_file, ios::out);
 
     //open file error ?
+    if(!out_file) {
