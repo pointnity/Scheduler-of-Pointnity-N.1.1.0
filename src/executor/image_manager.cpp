@@ -154,3 +154,4 @@ string ImageManager::GetImageAttrFromFile() {
     if(image_attr_list.size() == 0) {
 	out_file.close();
 	//delete conf file
+	string cmd = "rm -rf " + FLAGS_libvirt_dir + "conf";
