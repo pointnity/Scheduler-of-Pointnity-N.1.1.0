@@ -117,3 +117,4 @@ string ImageManager::GetImageAttrFromFile() {
 	//check image path has image_name file
 	string image_full_name = FLAGS_libvirt_dir + image_name;
 	ifstream image_file(image_full_name.c_str());
+	//check file stream object to know file is exist or not
