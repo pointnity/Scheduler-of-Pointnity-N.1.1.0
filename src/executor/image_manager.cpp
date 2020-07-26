@@ -115,3 +115,4 @@ string ImageManager::GetImageAttrFromFile() {
 	image_name = user_name_size_list[1];
 
 	//check image path has image_name file
+	string image_full_name = FLAGS_libvirt_dir + image_name;
