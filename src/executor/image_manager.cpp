@@ -132,3 +132,4 @@ string ImageManager::GetImageAttrFromFile() {
                 if(image_attr == *it) {
 		    image_flag = true;
 		    break;
+		}
