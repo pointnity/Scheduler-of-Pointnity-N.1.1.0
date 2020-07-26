@@ -113,3 +113,5 @@ string ImageManager::GetImageAttrFromFile() {
 	    continue;
 	}
 	image_name = user_name_size_list[1];
+
+	//check image path has image_name file
