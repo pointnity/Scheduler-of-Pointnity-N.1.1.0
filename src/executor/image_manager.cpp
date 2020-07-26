@@ -104,3 +104,5 @@ string ImageManager::GetImageAttrFromFile() {
     while(!in_file.eof()) {
 	image_flag = false;
         in_file >> image_attr;
+
+	//check image about image_attr
