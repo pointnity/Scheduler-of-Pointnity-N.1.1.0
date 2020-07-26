@@ -112,3 +112,4 @@ string ImageManager::GetImageAttrFromFile() {
 	if(user_name_size_list.size() != 3) {
 	    continue;
 	}
+	image_name = user_name_size_list[1];
