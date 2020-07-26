@@ -96,4 +96,4 @@ string ImageManager::GetImageAttrFromFile() {
     //open file error ?
     if(!in_file){
         LOG4CPLUS_ERROR(logger, "Failed to open image conf file.");
-        LOG4CPLUS_ERROR(logger, "Failed to open image conf file.");
+	return "";
