@@ -18,3 +18,4 @@ public:
     bool CheckImageAttrFromFile(const string& image);
     string GetImageAttrFromFile();
 
+private:
