@@ -12,6 +12,4 @@
 
 #include "common/clynn/singleton.h"
 
-#include "common/clynn/singleton.h"
-
 class ImageManager {
