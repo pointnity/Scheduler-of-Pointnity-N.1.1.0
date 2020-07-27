@@ -19,3 +19,4 @@ public:
     string GetImageAttrFromFile();
 
 private:
+    string m_name;
