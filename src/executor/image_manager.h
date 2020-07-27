@@ -14,3 +14,4 @@
 
 class ImageManager {
 public:
+    bool ExecutorUpdateImage(const string& image_user, const string& image_name, const int32_t image_size);
