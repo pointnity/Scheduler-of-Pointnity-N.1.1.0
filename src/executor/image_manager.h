@@ -13,5 +13,4 @@
 #include "common/clynn/singleton.h"
 
 class ImageManager {
-
-class ImageManager {
+public:
