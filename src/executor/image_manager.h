@@ -8,5 +8,4 @@
 #define SRC_EXECUTOR_IMAGE_MANAGER_H
 
 #include <string>
-
-#include <string>
+#include <boost/shared_ptr.hpp>
