@@ -49,3 +49,4 @@ bool IPPool::Init() {
     } 
 
     int32_t ip_number = ip_end - ip_start + 1;
+    for (int32_t i = 0; i < ip_number; ++i) { 
