@@ -12,3 +12,4 @@
 #include <vector>
 
 #include <gflags/gflags.h>
+#include <log4cplus/logger.h>
