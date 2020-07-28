@@ -17,3 +17,5 @@
 
 #include "executor/ip_pool.h"
 #include "common/clynn/string_utility.h"
+
+using std::vector;
