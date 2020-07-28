@@ -20,3 +20,4 @@
 
 using std::vector;
 using log4cplus::Logger;
+using clynn::ReadLocker;
