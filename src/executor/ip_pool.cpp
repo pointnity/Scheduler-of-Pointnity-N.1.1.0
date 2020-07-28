@@ -40,3 +40,4 @@ bool IPPool::Init() {
     if (-1 == ip_start) {
         LOG4CPLUS_ERROR(logger, "ip_start is illegal, ip_start:" << vec_ips[0]);
         return false;
+    }
