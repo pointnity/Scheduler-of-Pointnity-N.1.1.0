@@ -30,3 +30,5 @@ DECLARE_string(ip_range);
 bool IPPool::Init() {
     vector<string> vec_ips;
     StringUtility::Split(FLAGS_ip_range.c_str(), vec_ips, "-");
+
+    if (vec_ips.size() != 2) {
