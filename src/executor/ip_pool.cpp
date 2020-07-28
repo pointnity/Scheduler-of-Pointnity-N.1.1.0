@@ -35,3 +35,5 @@ bool IPPool::Init() {
         LOG4CPLUS_ERROR(logger, "ip_range is illegal, ip_range:" << FLAGS_ip_range);
         return false;
     }
+
+    int32_t ip_start = iptoint(vec_ips[0].c_str());
