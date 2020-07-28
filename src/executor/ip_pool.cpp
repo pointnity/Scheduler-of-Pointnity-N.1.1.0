@@ -33,3 +33,4 @@ bool IPPool::Init() {
 
     if (vec_ips.size() != 2) {
         LOG4CPLUS_ERROR(logger, "ip_range is illegal, ip_range:" << FLAGS_ip_range);
+        return false;
