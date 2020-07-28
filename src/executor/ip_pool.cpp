@@ -26,3 +26,5 @@ using clynn::WriteLocker;
 static Logger logger = Logger::getInstance("executor");
 
 DECLARE_string(ip_range);
+
+bool IPPool::Init() {
