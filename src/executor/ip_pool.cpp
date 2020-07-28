@@ -32,3 +32,4 @@ bool IPPool::Init() {
     StringUtility::Split(FLAGS_ip_range.c_str(), vec_ips, "-");
 
     if (vec_ips.size() != 2) {
+        LOG4CPLUS_ERROR(logger, "ip_range is illegal, ip_range:" << FLAGS_ip_range);
