@@ -37,3 +37,4 @@ bool IPPool::Init() {
     }
 
     int32_t ip_start = iptoint(vec_ips[0].c_str());
+    if (-1 == ip_start) {
