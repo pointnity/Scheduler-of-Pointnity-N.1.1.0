@@ -41,3 +41,5 @@ bool IPPool::Init() {
         LOG4CPLUS_ERROR(logger, "ip_start is illegal, ip_start:" << vec_ips[0]);
         return false;
     }
+
+    int32_t ip_end = iptoint(vec_ips[1].c_str());
