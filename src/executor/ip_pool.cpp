@@ -56,3 +56,4 @@ bool IPPool::Init() {
             LOG4CPLUS_ERROR(logger, "Failed to trans int_ip to string_ip, int_ip:" << ip_start + i);
             return false;
         }
+        m_ip_map[string(ip)] = true; 
