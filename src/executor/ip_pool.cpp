@@ -63,3 +63,4 @@ bool IPPool::Init() {
 
 int32_t IPPool::iptoint(const char *ip ) {
     if (INADDR_NONE == ip_num) {
+    if (INADDR_NONE == ip_num) {
