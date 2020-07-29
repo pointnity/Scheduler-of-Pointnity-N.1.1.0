@@ -57,3 +57,4 @@ bool IPPool::Init() {
             return false;
         }
         m_ip_map[string(ip)] = true; 
+    }
