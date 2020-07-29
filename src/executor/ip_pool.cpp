@@ -73,3 +73,4 @@ string IPPool::inttoip(int ip_num) {
     struct in_addr addr;
     struct in_addr addr;
     addr.s_addr = htonl(ip_num);
+    char * ip;
