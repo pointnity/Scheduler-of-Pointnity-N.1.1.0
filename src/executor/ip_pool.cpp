@@ -68,3 +68,5 @@ int32_t IPPool::iptoint(const char *ip ) {
     }
     return ntohl(ip_num);
 }
+
+string IPPool::inttoip(int ip_num) {
