@@ -75,3 +75,4 @@ string IPPool::inttoip(int ip_num) {
     addr.s_addr = htonl(ip_num);
     char * ip;
     ip = inet_ntoa(addr);
+    if (!ip) {
