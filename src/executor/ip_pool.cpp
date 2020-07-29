@@ -60,3 +60,5 @@ bool IPPool::Init() {
     }
     return true;
 }
+
+int32_t IPPool::iptoint(const char *ip ) {
