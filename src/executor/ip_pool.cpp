@@ -54,3 +54,4 @@ bool IPPool::Init() {
         string ip = inttoip(int_ip);
         if (ip.empty()) {
             LOG4CPLUS_ERROR(logger, "Failed to trans int_ip to string_ip, int_ip:" << ip_start + i);
+            return false;
