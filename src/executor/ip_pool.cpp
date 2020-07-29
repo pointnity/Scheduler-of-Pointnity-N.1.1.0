@@ -66,3 +66,4 @@ int32_t IPPool::iptoint(const char *ip ) {
         LOG4CPLUS_ERROR(logger, "ip is illegal, ip:" << ip);
         return -1;
     }
+    return ntohl(ip_num);
