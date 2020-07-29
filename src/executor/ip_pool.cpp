@@ -70,3 +70,4 @@ int32_t IPPool::iptoint(const char *ip ) {
 }
 
 string IPPool::inttoip(int ip_num) {
+    struct in_addr addr;
