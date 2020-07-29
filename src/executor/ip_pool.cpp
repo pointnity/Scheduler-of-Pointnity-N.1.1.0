@@ -58,3 +58,4 @@ bool IPPool::Init() {
         }
         m_ip_map[string(ip)] = true; 
     }
+    return true;
