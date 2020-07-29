@@ -52,3 +52,4 @@ bool IPPool::Init() {
     for (int32_t i = 0; i < ip_number; ++i) { 
         int32_t int_ip = ip_start + i;
         string ip = inttoip(int_ip);
+        if (ip.empty()) {
