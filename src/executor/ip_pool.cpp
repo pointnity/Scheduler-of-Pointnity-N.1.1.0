@@ -76,3 +76,4 @@ string IPPool::inttoip(int ip_num) {
     char * ip;
     ip = inet_ntoa(addr);
     if (!ip) {
+        string null_str;
