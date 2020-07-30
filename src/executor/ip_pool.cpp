@@ -115,3 +115,4 @@ string IPPool::GetAvailIp() {
 bool IPPool::ReleaseIp(const string& ip) {
     WriteLocker locker(m_lock);
     map<string, bool>::iterator it = m_ip_map.find(ip);
+    if (m_ip_map.end() == it) {
