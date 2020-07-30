@@ -142,3 +142,5 @@ bool IPPool::IsIPAddress(const char *s, int32_t& sub4) {
              return false;
         }  
     } */
+
+    sub4 = tmp4;      
