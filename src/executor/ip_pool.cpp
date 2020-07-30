@@ -138,3 +138,4 @@ bool IPPool::IsIPAddress(const char *s, int32_t& sub4) {
 
     /* const char *pChar;            
     for (pChar = s; *pChar != 0; pChar++) {  
+        if( (*pChar != '.') && ((*pChar < '0') || (*pChar > '9')) )  {  
