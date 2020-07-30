@@ -104,3 +104,4 @@ string IPPool::GetAvailIp() {
     for (map<string, bool>::iterator it = m_ip_map.begin();
          it != m_ip_map.end(); ++it) {
         if (it->second) {
+            it->second = false;
