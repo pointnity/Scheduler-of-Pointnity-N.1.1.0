@@ -127,3 +127,4 @@ bool IPPool::IsIPAddress(const char *s, int32_t& sub4) {
     int tmp1, tmp2, tmp3, tmp4, number;  
 
     number = sscanf(s, "%d.%d.%d.%d", &tmp1, &tmp2, &tmp3, &tmp4);  
+    if (number != 4) {  
