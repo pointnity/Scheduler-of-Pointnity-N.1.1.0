@@ -107,3 +107,4 @@ string IPPool::GetAvailIp() {
             it->second = false;
             return it->first;
         }
+    }
