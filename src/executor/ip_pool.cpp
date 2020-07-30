@@ -124,3 +124,4 @@ bool IPPool::ReleaseIp(const string& ip) {
 }
 
 bool IPPool::IsIPAddress(const char *s, int32_t& sub4) {
+    int tmp1, tmp2, tmp3, tmp4, number;  
