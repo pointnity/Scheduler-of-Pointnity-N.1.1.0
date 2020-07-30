@@ -105,3 +105,4 @@ string IPPool::GetAvailIp() {
          it != m_ip_map.end(); ++it) {
         if (it->second) {
             it->second = false;
+            return it->first;
