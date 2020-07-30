@@ -122,3 +122,5 @@ bool IPPool::ReleaseIp(const string& ip) {
     it->second = true;
     return true;
 }
+
+bool IPPool::IsIPAddress(const char *s, int32_t& sub4) {
