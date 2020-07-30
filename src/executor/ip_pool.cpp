@@ -85,3 +85,4 @@ string IPPool::inttoip(int ip_num) {
 
 // TODO just for test
 void IPPool::PrintAll() {
+    ReadLocker locker(m_lock);
