@@ -97,3 +97,5 @@ void IPPool::PrintAll() {
     }
     printf("*****************************\n");
 }
+
+string IPPool::GetAvailIp() {
