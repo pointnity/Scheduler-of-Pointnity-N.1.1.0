@@ -100,3 +100,4 @@ void IPPool::PrintAll() {
 
 string IPPool::GetAvailIp() {
     string null_str;
+    WriteLocker locker(m_lock);
