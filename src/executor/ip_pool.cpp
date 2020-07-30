@@ -108,3 +108,4 @@ string IPPool::GetAvailIp() {
             return it->first;
         }
     }
+    LOG4CPLUS_ERROR(logger, "No avail ip addr");
