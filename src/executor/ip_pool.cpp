@@ -119,3 +119,4 @@ bool IPPool::ReleaseIp(const string& ip) {
         LOG4CPLUS_ERROR(logger, "Failed to find ip in the Pool, ip:" << ip);
         return false;
     }
+    it->second = true;
