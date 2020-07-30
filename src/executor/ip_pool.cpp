@@ -91,3 +91,4 @@ void IPPool::PrintAll() {
     for (map<string, bool>::iterator it = m_ip_map.begin();
          it != m_ip_map.end(); ++it) {
         string avail = "avail";
+        if (!(it->second))
