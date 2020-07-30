@@ -92,3 +92,4 @@ void IPPool::PrintAll() {
          it != m_ip_map.end(); ++it) {
         string avail = "avail";
         if (!(it->second))
+            avail = "not avail";
