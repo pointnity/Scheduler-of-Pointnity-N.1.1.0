@@ -133,3 +133,4 @@ bool IPPool::IsIPAddress(const char *s, int32_t& sub4) {
 
     if ( (tmp1 > 255) || (tmp2 > 255) || (tmp3 > 255) || (tmp4 > 255) ||
          (tmp1 < 0) || (tmp2 < 0) || (tmp3 < 0) || (tmp4 < 0)) {
+        return false; 
