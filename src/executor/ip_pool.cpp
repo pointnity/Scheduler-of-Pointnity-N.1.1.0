@@ -116,3 +116,4 @@ bool IPPool::ReleaseIp(const string& ip) {
     WriteLocker locker(m_lock);
     map<string, bool>::iterator it = m_ip_map.find(ip);
     if (m_ip_map.end() == it) {
+        LOG4CPLUS_ERROR(logger, "Failed to find ip in the Pool, ip:" << ip);
