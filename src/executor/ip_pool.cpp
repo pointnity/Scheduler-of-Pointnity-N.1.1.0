@@ -145,3 +145,4 @@ bool IPPool::IsIPAddress(const char *s, int32_t& sub4) {
 
     sub4 = tmp4;      
     return true;  
+}  
