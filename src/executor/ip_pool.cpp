@@ -111,3 +111,5 @@ string IPPool::GetAvailIp() {
     LOG4CPLUS_ERROR(logger, "No avail ip addr");
     return null_str;
 }
+
+bool IPPool::ReleaseIp(const string& ip) {
