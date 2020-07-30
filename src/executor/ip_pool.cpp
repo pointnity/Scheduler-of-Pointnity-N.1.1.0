@@ -135,3 +135,5 @@ bool IPPool::IsIPAddress(const char *s, int32_t& sub4) {
          (tmp1 < 0) || (tmp2 < 0) || (tmp3 < 0) || (tmp4 < 0)) {
         return false; 
     }  
+
+    /* const char *pChar;            
