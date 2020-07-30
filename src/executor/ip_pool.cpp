@@ -140,3 +140,4 @@ bool IPPool::IsIPAddress(const char *s, int32_t& sub4) {
     for (pChar = s; *pChar != 0; pChar++) {  
         if( (*pChar != '.') && ((*pChar < '0') || (*pChar > '9')) )  {  
              return false;
+        }  
