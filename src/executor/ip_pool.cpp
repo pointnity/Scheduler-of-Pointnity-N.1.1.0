@@ -96,3 +96,4 @@ void IPPool::PrintAll() {
         printf("IP: %s, %s\n", it->first.c_str(), avail.c_str());
     }
     printf("*****************************\n");
+}
