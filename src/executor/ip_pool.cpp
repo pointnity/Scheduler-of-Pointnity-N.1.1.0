@@ -121,3 +121,4 @@ bool IPPool::ReleaseIp(const string& ip) {
     }
     it->second = true;
     return true;
+}
