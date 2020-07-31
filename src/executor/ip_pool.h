@@ -28,3 +28,5 @@ public:
     string GetAvailIp();
 
     // release a ip
+
+private:
