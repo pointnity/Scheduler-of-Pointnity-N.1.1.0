@@ -42,3 +42,5 @@ private:
     map<string, bool> m_ip_map;
 
 };
+
+typedef Singleton<IPPool> IPPoolI;
