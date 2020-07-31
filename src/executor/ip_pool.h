@@ -22,3 +22,4 @@ public:
     bool Init();
 
     // TODO print all
+    void PrintAll();
