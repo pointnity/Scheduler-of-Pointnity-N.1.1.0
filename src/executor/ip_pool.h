@@ -8,3 +8,5 @@
 #define SRC_EXECUTOR_IP_POOL_H
 
 #include <map>
+
+#include "common/clynn/singleton.h"
