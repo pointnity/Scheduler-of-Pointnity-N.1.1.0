@@ -35,3 +35,5 @@ private:
     string inttoip(int ip_num);
 
     bool IsIPAddress(const char *s, int32_t& sub4);
+
+private:
