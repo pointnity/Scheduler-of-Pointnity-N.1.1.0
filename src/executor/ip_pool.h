@@ -44,3 +44,5 @@ private:
 };
 
 typedef Singleton<IPPool> IPPoolI;
+
+#endif 
