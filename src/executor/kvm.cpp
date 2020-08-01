@@ -28,3 +28,4 @@
 #include "include/proxy.h"
 #include "executor/hdfs_wrapper.h"
 #include "executor/kvm.h"
+#include "executor/task_entity_pool.h"
