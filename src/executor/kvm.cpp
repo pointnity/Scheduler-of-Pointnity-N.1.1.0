@@ -35,3 +35,5 @@
 #include "executor/vm_pool.h"
 
 using std::cout;
+
+using std::cout;
