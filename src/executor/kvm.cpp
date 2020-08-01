@@ -27,3 +27,4 @@
 
 #include "include/proxy.h"
 #include "executor/hdfs_wrapper.h"
+#include "executor/kvm.h"
