@@ -11,7 +11,5 @@
 #include <sys/stat.h>
 #include <sys/types.h>
 #include <sys/time.h>
-#include <sys/time.h>
-#include <sys/time.h>
-#include <sys/time.h>
-#include <sys/time.h>
+
+#include <log4cplus/logger.h>
