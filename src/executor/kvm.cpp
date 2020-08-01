@@ -37,4 +37,4 @@
 using std::cout;
 using std::stringstream;
 using std::ifstream;
-using std::ifstream;
+using std::ofstream;
