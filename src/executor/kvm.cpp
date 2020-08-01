@@ -26,3 +26,5 @@
 #include "include/classad_attr.h"
 
 #include "include/proxy.h"
+
+#include "include/proxy.h"
