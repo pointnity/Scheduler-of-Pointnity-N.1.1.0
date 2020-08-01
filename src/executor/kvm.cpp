@@ -32,3 +32,4 @@
 #include "executor/resource_manager.h"
 #include "executor/dispatcher.h"
 #include "executor/image_manager.h"
+#include "executor/vm_pool.h"
