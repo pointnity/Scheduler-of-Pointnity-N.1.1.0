@@ -40,3 +40,4 @@ using std::ifstream;
 using std::ofstream;
 using std::endl;
 using namespace rapidxml;
+using namespace rapidxml;
