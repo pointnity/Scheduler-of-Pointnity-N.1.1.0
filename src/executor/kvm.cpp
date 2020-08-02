@@ -57,5 +57,5 @@ DECLARE_int32(starting_timeout);
 static Logger logger = Logger::getInstance("executor");
 
 string KVM::m_xml_template = "";
+virConnectPtr KVM::m_conn = NULL;
 
-string KVM::m_xml_template = "";
