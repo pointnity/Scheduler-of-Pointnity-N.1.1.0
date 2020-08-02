@@ -65,3 +65,4 @@ virConnectPtr KVM::m_conn = NULL;
 
 /// virtual function, from V
 // virtual C, include CreateVM and Install 
+int32_t KVM::Execute() {
