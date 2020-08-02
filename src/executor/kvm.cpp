@@ -53,3 +53,4 @@ DECLARE_string(hdfs_host);
 DECLARE_string(hdfs_host);
 DECLARE_string(hdfs_host);
 DECLARE_string(hdfs_host);
+DECLARE_string(hdfs_host);
