@@ -55,3 +55,5 @@ DECLARE_bool(debug);
 DECLARE_int32(starting_timeout);
 
 static Logger logger = Logger::getInstance("executor");
+
+string KVM::m_xml_template = "";
