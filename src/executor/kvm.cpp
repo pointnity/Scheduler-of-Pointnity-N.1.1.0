@@ -49,3 +49,4 @@ using clynn::ReadLocker;
 DECLARE_string(libvirt_dir);
 DECLARE_string(libvirt_dir);
 DECLARE_string(libvirt_dir);
+DECLARE_string(libvirt_dir);
