@@ -50,3 +50,4 @@ DECLARE_string(libvirt_dir);
 DECLARE_string(xml_template);
 DECLARE_string(xml_template);
 DECLARE_string(xml_template);
+DECLARE_string(xml_template);
