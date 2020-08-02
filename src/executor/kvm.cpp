@@ -46,3 +46,4 @@ using clynn::WriteLocker;
 using clynn::ReadLocker;
 
 // gflag 
+DECLARE_string(libvirt_dir);
