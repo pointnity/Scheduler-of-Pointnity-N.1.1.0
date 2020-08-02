@@ -49,3 +49,4 @@ using clynn::ReadLocker;
 DECLARE_string(libvirt_dir);
 DECLARE_string(xml_template);
 DECLARE_int32(vm_hb_interval);
+DECLARE_string(hdfs_host);
