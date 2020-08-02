@@ -62,3 +62,4 @@ virConnectPtr KVM::m_conn = NULL;
 
 /// @brief: public function
 // KVM & ~KVM are inplement in kvm.h
+// KVM & ~KVM are inplement in kvm.h
