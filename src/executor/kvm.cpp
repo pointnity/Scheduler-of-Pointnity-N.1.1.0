@@ -51,4 +51,4 @@ DECLARE_string(xml_template);
 DECLARE_int32(vm_hb_interval);
 DECLARE_string(hdfs_host);
 DECLARE_int32(hdfs_port);
-DECLARE_int32(hdfs_port);
+DECLARE_bool(debug);
