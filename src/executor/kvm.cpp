@@ -48,6 +48,4 @@ using clynn::ReadLocker;
 // gflag 
 DECLARE_string(libvirt_dir);
 DECLARE_string(xml_template);
-DECLARE_string(xml_template);
-DECLARE_string(xml_template);
-DECLARE_string(xml_template);
+DECLARE_int32(vm_hb_interval);
