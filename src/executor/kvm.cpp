@@ -99,3 +99,4 @@ bool KVM::Kill() {
 
         //open file error ?
         if(in_file){
+            string cmd = "rm -r " + m_dir;
