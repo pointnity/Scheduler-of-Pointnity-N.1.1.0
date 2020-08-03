@@ -105,3 +105,4 @@ bool KVM::Kill() {
 	return true;
     }
     if (!m_domain_ptr) {
+        LOG4CPLUS_ERROR(logger, "Invalid domain pointer, Kill VM directly.");
