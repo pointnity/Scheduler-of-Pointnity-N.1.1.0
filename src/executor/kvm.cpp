@@ -121,3 +121,4 @@ bool KVM::Kill() {
 
     // delete work dir
      // delete work dir
+    ifstream in_file(m_dir.c_str(), ios::in);
