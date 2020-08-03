@@ -92,3 +92,4 @@ bool KVM::Stop() {
 }
 
 bool KVM::Kill() {
+    if(FLAGS_debug){
