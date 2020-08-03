@@ -127,3 +127,4 @@ bool KVM::Kill() {
     if(in_file){
         string cmd = "rm -r " + m_dir;
         system(cmd.c_str());
+    }
