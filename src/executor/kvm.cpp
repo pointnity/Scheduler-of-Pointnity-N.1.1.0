@@ -96,3 +96,5 @@ bool KVM::Kill() {
         LOG4CPLUS_DEBUG(logger, "Kill KVM, name:" << GetName());
         // delete work dir
         ifstream in_file(m_dir.c_str(), ios::in);
+
+        //open file error ?
