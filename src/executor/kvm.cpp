@@ -124,3 +124,4 @@ bool KVM::Kill() {
     ifstream in_file(m_dir.c_str(), ios::in);
 
     //open file error ?
+    if(in_file){
