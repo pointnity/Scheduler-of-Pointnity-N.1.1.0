@@ -118,4 +118,5 @@ bool KVM::Kill() {
         LOG4CPLUS_ERROR(logger, "Can't kill kvm, name:" << GetName() << ", job_id:" << GetID().job_id << ", task_id:" << GetID().task_id);
         return true;
     }
-    }
+
+    // delete work dir
