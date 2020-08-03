@@ -114,3 +114,4 @@ bool KVM::Kill() {
 
     if (virDomainDestroy(m_domain_ptr) != 0) {
         virErrorPtr error = virGetLastError();
+        LOG4CPLUS_ERROR(logger, error->message);
