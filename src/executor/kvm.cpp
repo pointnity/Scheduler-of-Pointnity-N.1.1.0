@@ -104,3 +104,4 @@ bool KVM::Kill() {
         }
 	return true;
     }
+    if (!m_domain_ptr) {
