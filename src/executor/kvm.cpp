@@ -107,3 +107,4 @@ bool KVM::Kill() {
     if (!m_domain_ptr) {
         LOG4CPLUS_ERROR(logger, "Invalid domain pointer, Kill VM directly.");
         // delete work dir
+        // delete work dir
