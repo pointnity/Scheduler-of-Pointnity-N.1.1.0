@@ -102,3 +102,4 @@ bool KVM::Kill() {
             string cmd = "rm -r " + m_dir;
             system(cmd.c_str());
         }
+	return true;
