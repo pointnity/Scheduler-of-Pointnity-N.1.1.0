@@ -120,3 +120,4 @@ bool KVM::Kill() {
     }
 
     // delete work dir
+     // delete work dir
