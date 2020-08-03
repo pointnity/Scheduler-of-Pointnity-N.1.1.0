@@ -79,3 +79,5 @@ int32_t KVM::CreateVM() {
         LOG4CPLUS_ERROR(logger, "Failed to create kvm, name:" << GetName() << ", job_id:" << GetID().job_id << ", task_id:" << GetID().task_id);
         return -1;
     }
+
+    if (SetVNetByXML() != 0) {
