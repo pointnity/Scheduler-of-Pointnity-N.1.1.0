@@ -93,3 +93,4 @@ bool KVM::Stop() {
 
 bool KVM::Kill() {
     if(FLAGS_debug){
+        LOG4CPLUS_DEBUG(logger, "Kill KVM, name:" << GetName());
