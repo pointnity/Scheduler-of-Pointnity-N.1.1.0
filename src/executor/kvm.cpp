@@ -75,3 +75,4 @@ int32_t KVM::Execute() {
 
 // create vm
 int32_t KVM::CreateVM() {
+    if (CreateKVM() != 0) {
