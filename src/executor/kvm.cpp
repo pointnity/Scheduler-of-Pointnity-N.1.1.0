@@ -86,3 +86,5 @@ int32_t KVM::CreateVM() {
     }
     return 0;
 }
+
+bool KVM::Stop() {
