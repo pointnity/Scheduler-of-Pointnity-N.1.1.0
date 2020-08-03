@@ -111,3 +111,5 @@ bool KVM::Kill() {
         system(cmd.c_str());
         return true;
     }
+
+    if (virDomainDestroy(m_domain_ptr) != 0) {
