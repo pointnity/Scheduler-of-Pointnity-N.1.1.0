@@ -129,3 +129,4 @@ bool KVM::Kill() {
         system(cmd.c_str());
     }
     return true;
+}
