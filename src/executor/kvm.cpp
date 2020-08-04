@@ -163,3 +163,4 @@ HbVMInfo KVM::GetHbVMInfo(){
 	int32_t timeout = GetTaskInfo().timeout;
 	if(time(NULL) - m_running_time > timeout) {
 	    HbVMInfo empty;
+            empty.id = GetID();
