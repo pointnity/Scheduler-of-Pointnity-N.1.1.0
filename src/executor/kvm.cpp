@@ -145,3 +145,4 @@ HbVMInfo KVM::GetHbVMInfo(){
             EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
 	}
         HbVMInfo empty;
+        empty.id = GetID();
