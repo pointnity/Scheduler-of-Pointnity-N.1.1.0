@@ -156,3 +156,4 @@ HbVMInfo KVM::GetHbVMInfo(){
               empty.app_state = AppState::APP_STARTING;
         }
 	return empty;
+    } else if(task_state == TaskEntityState::TASKENTITY_FAILED || task_state == TaskEntityState::TASKENTITY_FINISHED) {
