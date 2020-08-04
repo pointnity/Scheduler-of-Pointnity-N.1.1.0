@@ -161,3 +161,4 @@ HbVMInfo KVM::GetHbVMInfo(){
         return m_hb_vm_info;
     } else if(task_state == TaskEntityState::TASKENTITY_RUNNING) {
 	int32_t timeout = GetTaskInfo().timeout;
+	int32_t timeout = GetTaskInfo().timeout;
