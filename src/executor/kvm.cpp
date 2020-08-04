@@ -130,3 +130,5 @@ bool KVM::Kill() {
     }
     return true;
 }
+
+HbVMInfo KVM::GetHbVMInfo(){
