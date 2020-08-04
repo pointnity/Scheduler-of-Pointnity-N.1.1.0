@@ -140,3 +140,4 @@ HbVMInfo KVM::GetHbVMInfo(){
 	    //set vm state is false
 	    VMPoolI::Instance()->SetVMStateByTaskID(id, false);
 	    // new timeoutActionEvent
+            EventPtr event(new TimeoutTaskEvent(id));
