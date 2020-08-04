@@ -135,3 +135,4 @@ HbVMInfo KVM::GetHbVMInfo(){
     TaskID id = GetID();
     TaskPtr task_ptr = GetTaskPtr();
     TaskEntityState::type task_state = task_ptr->GetState();
+    if (task_state == TaskEntityState::TASKENTITY_WAITING || task_state == TaskEntityState::TASKENTITY_STARTING){
