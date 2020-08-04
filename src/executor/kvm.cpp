@@ -169,3 +169,4 @@ HbVMInfo KVM::GetHbVMInfo(){
             empty.bytes_in = 0;
             empty.bytes_out = 0;
             empty.app_state = AppState::APP_MISSED;
+	    //set vm state is false
