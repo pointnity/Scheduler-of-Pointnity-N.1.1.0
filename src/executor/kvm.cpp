@@ -152,3 +152,4 @@ HbVMInfo KVM::GetHbVMInfo(){
         empty.bytes_out = 0;
         if(task_state == TaskEntityState::TASKENTITY_WAITING) {
               empty.app_state = AppState::APP_WAITING;
+        } else {
