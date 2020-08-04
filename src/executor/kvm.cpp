@@ -183,3 +183,4 @@ HbVMInfo KVM::GetHbVMInfo(){
 	if ((m_timestamp != -1) && (time(NULL) - m_timestamp > m_time_to_death)) {
             HbVMInfo empty;
             empty.id = GetID();
+            empty.cpu_usage = 0;
