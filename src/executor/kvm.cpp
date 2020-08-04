@@ -138,3 +138,4 @@ HbVMInfo KVM::GetHbVMInfo(){
     if (task_state == TaskEntityState::TASKENTITY_WAITING || task_state == TaskEntityState::TASKENTITY_STARTING){
 	if(time(NULL) - m_starting_time > FLAGS_starting_timeout) {
 	    //set vm state is false
+	    VMPoolI::Instance()->SetVMStateByTaskID(id, false);
