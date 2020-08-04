@@ -184,3 +184,4 @@ HbVMInfo KVM::GetHbVMInfo(){
             HbVMInfo empty;
             empty.id = GetID();
             empty.cpu_usage = 0;
+            empty.memory_usage = 0;
