@@ -197,4 +197,4 @@ HbVMInfo KVM::GetHbVMInfo(){
             // Push event into Queue
             EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
             return empty;
-            return empty;
+         } else {
