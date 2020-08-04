@@ -167,3 +167,4 @@ HbVMInfo KVM::GetHbVMInfo(){
             empty.cpu_usage = 0;
             empty.memory_usage = 0;
             empty.bytes_in = 0;
+            empty.bytes_out = 0;
