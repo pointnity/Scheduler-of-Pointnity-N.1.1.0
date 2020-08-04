@@ -190,3 +190,5 @@ HbVMInfo KVM::GetHbVMInfo(){
             empty.app_state = AppState::APP_MISSED;
 	    //set vm state is false
             VMPoolI::Instance()->SetVMStateByTaskID(id, false);
+
+            // update task  state into missed
