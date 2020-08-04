@@ -132,3 +132,4 @@ bool KVM::Kill() {
 }
 
 HbVMInfo KVM::GetHbVMInfo(){
+    TaskID id = GetID();
