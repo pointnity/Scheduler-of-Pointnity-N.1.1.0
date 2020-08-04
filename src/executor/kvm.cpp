@@ -160,3 +160,4 @@ HbVMInfo KVM::GetHbVMInfo(){
 	ReadLocker locker(m_lock);
         return m_hb_vm_info;
     } else if(task_state == TaskEntityState::TASKENTITY_RUNNING) {
+	int32_t timeout = GetTaskInfo().timeout;
