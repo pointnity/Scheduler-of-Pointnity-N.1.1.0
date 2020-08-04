@@ -195,3 +195,4 @@ HbVMInfo KVM::GetHbVMInfo(){
             // new missedActionEvent
             EventPtr event(new MissedTaskEvent(id));
             // Push event into Queue
+            EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
