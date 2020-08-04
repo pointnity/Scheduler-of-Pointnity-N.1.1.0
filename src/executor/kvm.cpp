@@ -155,3 +155,4 @@ HbVMInfo KVM::GetHbVMInfo(){
         } else {
               empty.app_state = AppState::APP_STARTING;
         }
+	return empty;
