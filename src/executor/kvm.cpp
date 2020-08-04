@@ -154,3 +154,4 @@ HbVMInfo KVM::GetHbVMInfo(){
               empty.app_state = AppState::APP_WAITING;
         } else {
               empty.app_state = AppState::APP_STARTING;
+        }
