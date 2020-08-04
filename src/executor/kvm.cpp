@@ -139,3 +139,4 @@ HbVMInfo KVM::GetHbVMInfo(){
 	if(time(NULL) - m_starting_time > FLAGS_starting_timeout) {
 	    //set vm state is false
 	    VMPoolI::Instance()->SetVMStateByTaskID(id, false);
+	    // new timeoutActionEvent
