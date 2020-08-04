@@ -136,3 +136,4 @@ HbVMInfo KVM::GetHbVMInfo(){
     TaskPtr task_ptr = GetTaskPtr();
     TaskEntityState::type task_state = task_ptr->GetState();
     if (task_state == TaskEntityState::TASKENTITY_WAITING || task_state == TaskEntityState::TASKENTITY_STARTING){
+	if(time(NULL) - m_starting_time > FLAGS_starting_timeout) {
