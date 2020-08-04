@@ -192,3 +192,4 @@ HbVMInfo KVM::GetHbVMInfo(){
             VMPoolI::Instance()->SetVMStateByTaskID(id, false);
 
             // update task  state into missed
+            // new missedActionEvent
