@@ -141,3 +141,4 @@ HbVMInfo KVM::GetHbVMInfo(){
 	    VMPoolI::Instance()->SetVMStateByTaskID(id, false);
 	    // new timeoutActionEvent
             EventPtr event(new TimeoutTaskEvent(id));
+            // Push event into Queue
