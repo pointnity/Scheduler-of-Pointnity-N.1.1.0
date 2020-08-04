@@ -153,3 +153,4 @@ HbVMInfo KVM::GetHbVMInfo(){
         if(task_state == TaskEntityState::TASKENTITY_WAITING) {
               empty.app_state = AppState::APP_WAITING;
         } else {
+              empty.app_state = AppState::APP_STARTING;
