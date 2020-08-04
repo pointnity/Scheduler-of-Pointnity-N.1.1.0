@@ -175,3 +175,4 @@ HbVMInfo KVM::GetHbVMInfo(){
             // new timeoutActionEvent
             EventPtr event(new TimeoutTaskEvent(id));
             // Push event into Queue
+            EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
