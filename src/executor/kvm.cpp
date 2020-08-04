@@ -159,3 +159,4 @@ HbVMInfo KVM::GetHbVMInfo(){
     } else if(task_state == TaskEntityState::TASKENTITY_FAILED || task_state == TaskEntityState::TASKENTITY_FINISHED) {
 	ReadLocker locker(m_lock);
         return m_hb_vm_info;
+    } else if(task_state == TaskEntityState::TASKENTITY_RUNNING) {
