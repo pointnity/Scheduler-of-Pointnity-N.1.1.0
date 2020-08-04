@@ -164,3 +164,4 @@ HbVMInfo KVM::GetHbVMInfo(){
 	if(time(NULL) - m_running_time > timeout) {
 	    HbVMInfo empty;
             empty.id = GetID();
+            empty.cpu_usage = 0;
