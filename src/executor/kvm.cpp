@@ -202,3 +202,4 @@ HbVMInfo KVM::GetHbVMInfo(){
 	    return m_hb_vm_info;
          } 
     }else {
+	ReadLocker locker(m_lock);
