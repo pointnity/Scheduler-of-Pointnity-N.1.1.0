@@ -229,3 +229,4 @@ void KVM::SetHbVMInfo(const string& hb_vm_info_ad) {
         LOG4CPLUS_ERROR(logger, "Parse " << ATTR_JOB_ID << " error.");
         return;
     }
+    if (!ad_ptr->EvaluateAttrNumber(ATTR_TASK_ID, m_hb_vm_info.id.task_id)) {
