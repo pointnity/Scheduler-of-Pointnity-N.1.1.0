@@ -215,3 +215,4 @@ void KVM::SetHbVMInfo(const string& hb_vm_info_ad) {
     if(m_running_time == -1) {
 	m_running_time = time(NULL);
     }
+    m_timestamp = time(NULL);
