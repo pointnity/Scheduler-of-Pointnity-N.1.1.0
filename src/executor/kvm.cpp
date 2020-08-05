@@ -222,3 +222,4 @@ void KVM::SetHbVMInfo(const string& hb_vm_info_ad) {
 
     if (!ad_ptr) {
         LOG4CPLUS_ERROR(logger, "Failed to parse classad, ClassAd pointer is NULL.");
+        return;
