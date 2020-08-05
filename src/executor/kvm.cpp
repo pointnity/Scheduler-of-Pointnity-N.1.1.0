@@ -238,4 +238,5 @@ void KVM::SetHbVMInfo(const string& hb_vm_info_ad) {
         LOG4CPLUS_ERROR(logger, "Parse " << ATTR_VMHB_CPU << " error.");
         return;
     }
-    }
+
+    if (!ad_ptr->EvaluateAttrNumber(ATTR_VMHB_MEMORY, m_hb_vm_info.memory_usage)) {
