@@ -198,3 +198,4 @@ HbVMInfo KVM::GetHbVMInfo(){
             EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
             return empty;
          } else {
+	    ReadLocker locker(m_lock);
