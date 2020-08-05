@@ -218,3 +218,4 @@ void KVM::SetHbVMInfo(const string& hb_vm_info_ad) {
     m_timestamp = time(NULL);
 
     ClassAdParser parser;
+    ClassAd* ad_ptr = parser.ParseClassAd(hb_vm_info_ad);
