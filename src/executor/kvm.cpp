@@ -213,3 +213,4 @@ void KVM::SetHbVMInfo(const string& hb_vm_info_ad) {
     // classad init, string vmhb_info --> ClassAd *ad_ptr
 
     if(m_running_time == -1) {
+	m_running_time = time(NULL);
