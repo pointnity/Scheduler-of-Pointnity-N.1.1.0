@@ -209,3 +209,4 @@ HbVMInfo KVM::GetHbVMInfo(){
 }
 
 void KVM::SetHbVMInfo(const string& hb_vm_info_ad) {
+    WriteLocker locker(m_lock);
