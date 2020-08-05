@@ -216,3 +216,5 @@ void KVM::SetHbVMInfo(const string& hb_vm_info_ad) {
 	m_running_time = time(NULL);
     }
     m_timestamp = time(NULL);
+
+    ClassAdParser parser;
