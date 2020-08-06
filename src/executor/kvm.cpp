@@ -250,3 +250,5 @@ void KVM::SetHbVMInfo(const string& hb_vm_info_ad) {
     }
 
     if (!ad_ptr->EvaluateAttrNumber(ATTR_VMHB_BYTES_OUT, m_hb_vm_info.bytes_out)) {
+
+    if (!ad_ptr->EvaluateAttrNumber(ATTR_VMHB_BYTES_OUT, m_hb_vm_info.bytes_out)) {
