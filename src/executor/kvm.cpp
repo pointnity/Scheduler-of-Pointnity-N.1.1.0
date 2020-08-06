@@ -253,3 +253,5 @@ void KVM::SetHbVMInfo(const string& hb_vm_info_ad) {
         LOG4CPLUS_ERROR(logger, "Parse " << ATTR_VMHB_BYTES_OUT << " error.");
         return;
     }
+
+    int32_t app_state;
