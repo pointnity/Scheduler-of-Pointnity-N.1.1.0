@@ -259,3 +259,5 @@ void KVM::SetHbVMInfo(const string& hb_vm_info_ad) {
         LOG4CPLUS_ERROR(logger, "Parse " << ATTR_VMHB_STATE << " error.");
         return;
     }
+
+    TaskID id = GetID();
