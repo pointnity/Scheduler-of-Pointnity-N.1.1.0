@@ -255,3 +255,4 @@ void KVM::SetHbVMInfo(const string& hb_vm_info_ad) {
     }
 
     int32_t app_state;
+    if (!ad_ptr->EvaluateAttrNumber(ATTR_VMHB_STATE, app_state)) {
