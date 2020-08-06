@@ -261,3 +261,4 @@ void KVM::SetHbVMInfo(const string& hb_vm_info_ad) {
     }
 
     TaskID id = GetID();
+    if(app_state == 2) {
