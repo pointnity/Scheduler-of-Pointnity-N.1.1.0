@@ -247,3 +247,4 @@ void KVM::SetHbVMInfo(const string& hb_vm_info_ad) {
     if (!ad_ptr->EvaluateAttrNumber(ATTR_VMHB_BYTES_IN, m_hb_vm_info.bytes_in)) {
         LOG4CPLUS_ERROR(logger, "Parse " << ATTR_VMHB_BYTES_IN << " error.");
         return;
+    }
