@@ -263,3 +263,4 @@ void KVM::SetHbVMInfo(const string& hb_vm_info_ad) {
     TaskID id = GetID();
     if(app_state == 2) {
 	if(m_hb_vm_info.app_state == AppState::APP_RUNNING) {
+            LOG4CPLUS_INFO(logger, "Handle event of taskrunning state, job_id:" << id.job_id << ", task_id:" << id.task_id);
