@@ -16,3 +16,4 @@
 DECLARE_int32(vm_hb_interval);
 
 class KVM : public VM {
+public:
