@@ -29,3 +29,4 @@ public:
 
     ~KVM() {
         // free domain
+        if(m_domain_ptr) {
