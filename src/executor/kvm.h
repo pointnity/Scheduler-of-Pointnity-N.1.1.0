@@ -9,7 +9,4 @@
 
 #include <sys/time.h>
 #include <libvirt/libvirt.h>
-#include <libvirt/libvirt.h>
-#include <libvirt/libvirt.h>
-#include <libvirt/libvirt.h>
-#include <libvirt/libvirt.h>
+#include <libvirt/virterror.h>
