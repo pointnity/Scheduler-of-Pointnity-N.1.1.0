@@ -28,3 +28,4 @@ public:
     }
 
     ~KVM() {
+        // free domain
