@@ -26,3 +26,5 @@ public:
         m_created = false;
         m_installed = false;
     }
+
+    ~KVM() {
