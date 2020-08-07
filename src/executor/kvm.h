@@ -8,3 +8,4 @@
 #define SRC_EXECUTOR_KVM_H
 
 #include <sys/time.h>
+#include <libvirt/libvirt.h>
