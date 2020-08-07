@@ -18,3 +18,4 @@ DECLARE_int32(vm_hb_interval);
 class KVM : public VM {
 public:
     explicit KVM(const TaskInfo& info) : VM(info) {
+        m_domain_ptr = NULL;
