@@ -6,5 +6,5 @@
 
 #ifndef SRC_EXECUTOR_KVM_H
 #define SRC_EXECUTOR_KVM_H
-#define SRC_EXECUTOR_KVM_H
-#define SRC_EXECUTOR_KVM_H
+
+#include <sys/time.h>
