@@ -19,4 +19,4 @@ class KVM : public VM {
 public:
     explicit KVM(const TaskInfo& info) : VM(info) {
         m_domain_ptr = NULL;
-        m_domain_ptr = NULL;
+        m_timestamp = -1;
