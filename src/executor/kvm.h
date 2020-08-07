@@ -11,3 +11,4 @@
 #include <libvirt/libvirt.h>
 #include <libvirt/virterror.h>
 #include <gflags/gflags.h>
+#include <gflags/gflags.h>
