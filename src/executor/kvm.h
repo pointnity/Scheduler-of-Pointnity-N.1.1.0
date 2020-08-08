@@ -54,3 +54,5 @@ public:
 
     // Judge State
     //VMState::type GetState();
+
+    HbVMInfo GetHbVMInfo();    //get heartbeart
