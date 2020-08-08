@@ -45,3 +45,6 @@ public:
     int32_t CreateVM(); // create kvm, and install? TODO
 
     //int32_t InstallApp();
+
+    //int32_t StartApp();  // Start the task
+
