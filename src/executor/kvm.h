@@ -65,3 +65,5 @@ public:
     string GetEndpoint() const;
 
     //void SetDomainPtr(virDomainPtr ptr);
+
+    int32_t GetVNCPort() const;
