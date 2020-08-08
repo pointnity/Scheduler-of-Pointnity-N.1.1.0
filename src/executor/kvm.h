@@ -35,3 +35,4 @@ public:
         // clear the work directory
         if (!m_dir.empty()) {
             string cmd = "rm -r " + m_dir;
+            system(cmd.c_str());
