@@ -86,3 +86,5 @@ private:
 
     // cp img, type = raw
     int32_t CopyImage();
+
+    // clone img from template img, type = qcow2
