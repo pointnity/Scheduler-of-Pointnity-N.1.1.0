@@ -67,3 +67,5 @@ public:
     //void SetDomainPtr(virDomainPtr ptr);
 
     int32_t GetVNCPort() const;
+
+    //void SetVNCPort(int32_t port);
