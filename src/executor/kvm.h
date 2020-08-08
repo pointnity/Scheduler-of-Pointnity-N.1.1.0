@@ -38,3 +38,5 @@ public:
             system(cmd.c_str());
         }
     }
+
+    // virtual function, from VM
