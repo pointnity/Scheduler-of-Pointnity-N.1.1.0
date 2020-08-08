@@ -32,3 +32,4 @@ public:
         if(m_domain_ptr) {
             virDomainFree(m_domain_ptr);
         }
+        // clear the work directory
