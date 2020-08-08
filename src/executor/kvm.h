@@ -49,3 +49,5 @@ public:
     //int32_t StartApp();  // Start the task
 
     bool Stop();
+
+    bool Kill();
