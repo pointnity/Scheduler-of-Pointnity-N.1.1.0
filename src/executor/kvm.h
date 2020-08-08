@@ -85,3 +85,4 @@ private:
     int32_t Init();
 
     // cp img, type = raw
+    int32_t CopyImage();
