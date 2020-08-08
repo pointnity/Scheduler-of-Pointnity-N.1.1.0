@@ -95,3 +95,5 @@ private:
     int32_t CreateKVM();
 
     int32_t SetVNetByXML();
+
+    // get hb
