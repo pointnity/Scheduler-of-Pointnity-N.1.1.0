@@ -82,3 +82,4 @@ private:
     void InitHeartbeat();    
 
     // set Member Variable 
+    int32_t Init();
