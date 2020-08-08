@@ -53,3 +53,4 @@ public:
     bool Kill();
 
     // Judge State
+    //VMState::type GetState();
