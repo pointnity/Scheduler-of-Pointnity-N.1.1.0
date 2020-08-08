@@ -98,3 +98,5 @@ private:
 
     // get hb
     // double GetCpuUsage();
+
+    // double GetMemoryUsage();
