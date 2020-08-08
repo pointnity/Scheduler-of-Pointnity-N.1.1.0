@@ -51,3 +51,5 @@ public:
     bool Stop();
 
     bool Kill();
+
+    // Judge State
