@@ -77,3 +77,5 @@ public:
 private:
     // virtual function, from VM
     void SetName();
+
+    // Init Heartbeat
