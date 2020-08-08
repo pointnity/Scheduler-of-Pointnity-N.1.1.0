@@ -61,3 +61,5 @@ public:
 
     // unique in KVM 
     virDomainPtr GetDomainPtr() const;
+
+    string GetEndpoint() const;
