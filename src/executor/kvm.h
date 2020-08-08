@@ -41,3 +41,5 @@ public:
 
     // virtual function, from VM
     int32_t Execute();
+
+    int32_t CreateVM(); // create kvm, and install? TODO
