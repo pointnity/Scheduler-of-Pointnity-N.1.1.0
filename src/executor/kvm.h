@@ -40,3 +40,4 @@ public:
     }
 
     // virtual function, from VM
+    int32_t Execute();
