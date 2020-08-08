@@ -73,3 +73,5 @@ public:
     string GetVNet() const;
 
     void SetVNet(string vnet);
+
+private:
