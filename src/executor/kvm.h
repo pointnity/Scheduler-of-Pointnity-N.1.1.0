@@ -75,3 +75,4 @@ public:
     void SetVNet(string vnet);
 
 private:
+    // virtual function, from VM
