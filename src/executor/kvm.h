@@ -91,3 +91,5 @@ private:
     int32_t CloneImage();
 
     int32_t ConfigVirXML();
+
+    int32_t CreateKVM();
