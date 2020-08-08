@@ -93,3 +93,5 @@ private:
     int32_t ConfigVirXML();
 
     int32_t CreateKVM();
+
+    int32_t SetVNetByXML();
