@@ -56,3 +56,5 @@ public:
     //VMState::type GetState();
 
     HbVMInfo GetHbVMInfo();    //get heartbeart
+
+    void SetHbVMInfo(const string& hb_vm_info_ad);
