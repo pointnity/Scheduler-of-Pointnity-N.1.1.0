@@ -31,3 +31,4 @@ public:
         // free domain
         if(m_domain_ptr) {
             virDomainFree(m_domain_ptr);
+        }
