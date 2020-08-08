@@ -33,3 +33,4 @@ public:
             virDomainFree(m_domain_ptr);
         }
         // clear the work directory
+        if (!m_dir.empty()) {
