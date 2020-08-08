@@ -89,3 +89,5 @@ private:
 
     // clone img from template img, type = qcow2
     int32_t CloneImage();
+
+    int32_t ConfigVirXML();
