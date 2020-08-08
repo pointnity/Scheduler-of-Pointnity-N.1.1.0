@@ -83,3 +83,5 @@ private:
 
     // set Member Variable 
     int32_t Init();
+
+    // cp img, type = raw
