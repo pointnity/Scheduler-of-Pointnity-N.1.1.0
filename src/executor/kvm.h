@@ -43,3 +43,5 @@ public:
     int32_t Execute();
 
     int32_t CreateVM(); // create kvm, and install? TODO
+
+    //int32_t InstallApp();
