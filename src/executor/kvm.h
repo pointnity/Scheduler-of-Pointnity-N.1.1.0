@@ -71,3 +71,5 @@ public:
     //void SetVNCPort(int32_t port);
 
     string GetVNet() const;
+
+    void SetVNet(string vnet);
