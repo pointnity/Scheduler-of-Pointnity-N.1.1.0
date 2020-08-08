@@ -79,3 +79,4 @@ private:
     void SetName();
 
     // Init Heartbeat
+    void InitHeartbeat();    
