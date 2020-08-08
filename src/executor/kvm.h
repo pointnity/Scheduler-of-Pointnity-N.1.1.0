@@ -97,3 +97,4 @@ private:
     int32_t SetVNetByXML();
 
     // get hb
+    // double GetCpuUsage();
