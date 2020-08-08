@@ -80,3 +80,5 @@ private:
 
     // Init Heartbeat
     void InitHeartbeat();    
+
+    // set Member Variable 
