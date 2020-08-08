@@ -63,3 +63,5 @@ public:
     virDomainPtr GetDomainPtr() const;
 
     string GetEndpoint() const;
+
+    //void SetDomainPtr(virDomainPtr ptr);
