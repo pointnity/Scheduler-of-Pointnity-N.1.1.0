@@ -127,3 +127,4 @@ private:
     static virConnectPtr m_conn;  // libvirt qemu connect
 
     // report resource, is first?
+    // bool m_first;
