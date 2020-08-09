@@ -112,3 +112,4 @@ private:
     string m_vnet;
 
     // Heartbeat and state
+    HbVMInfo m_hb_vm_info;
