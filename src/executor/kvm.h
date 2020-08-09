@@ -123,3 +123,4 @@ private:
     bool m_installed;
 
     // static
+    static string m_xml_template; // libvirt xml config template content
