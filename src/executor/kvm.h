@@ -125,3 +125,5 @@ private:
     // static
     static string m_xml_template; // libvirt xml config template content
     static virConnectPtr m_conn;  // libvirt qemu connect
+
+    // report resource, is first?
