@@ -124,3 +124,4 @@ private:
 
     // static
     static string m_xml_template; // libvirt xml config template content
+    static string m_xml_template; // libvirt xml config template content
