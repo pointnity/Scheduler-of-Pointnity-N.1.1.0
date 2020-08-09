@@ -120,3 +120,4 @@ private:
     int32_t m_starting_time;
 
     bool m_created;
+    bool m_installed;
