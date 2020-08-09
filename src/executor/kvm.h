@@ -132,3 +132,5 @@ private:
     // double m_prev_total;
 
 };
+
+#endif
