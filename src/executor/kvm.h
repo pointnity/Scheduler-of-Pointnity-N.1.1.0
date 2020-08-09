@@ -121,3 +121,5 @@ private:
 
     bool m_created;
     bool m_installed;
+
+    // static
