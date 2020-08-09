@@ -118,3 +118,5 @@ private:
     int32_t m_time_to_death;
     int32_t m_running_time;
     int32_t m_starting_time;
+
+    bool m_created;
