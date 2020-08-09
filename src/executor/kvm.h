@@ -102,3 +102,5 @@ private:
     // double GetMemoryUsage();
 
 private:
+
+private:
