@@ -108,3 +108,4 @@ private:
     string m_iso;   // .iso
     string m_conf;  // CONF
     string m_xml;   // libvirt xml config content
+    int32_t m_vnc_port;
