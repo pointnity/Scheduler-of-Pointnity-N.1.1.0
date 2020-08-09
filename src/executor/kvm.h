@@ -103,3 +103,4 @@ private:
 
 private:
     virDomainPtr m_domain_ptr;
+    string m_dir;   // work dir
