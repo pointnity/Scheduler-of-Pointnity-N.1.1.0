@@ -110,3 +110,5 @@ private:
     string m_xml;   // libvirt xml config content
     int32_t m_vnc_port;
     string m_vnet;
+
+    // Heartbeat and state
