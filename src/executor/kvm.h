@@ -102,5 +102,4 @@ private:
     // double GetMemoryUsage();
 
 private:
-
-private:
+    virDomainPtr m_domain_ptr;
