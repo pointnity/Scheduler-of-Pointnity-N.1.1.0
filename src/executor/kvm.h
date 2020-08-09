@@ -100,3 +100,5 @@ private:
     // double GetCpuUsage();
 
     // double GetMemoryUsage();
+
+private:
