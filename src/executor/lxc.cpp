@@ -29,3 +29,4 @@
 #include "lxc/conf.h"
 
 #include "common/clynn/string_utility.h"
+#include "common/lxc/confile.h"
