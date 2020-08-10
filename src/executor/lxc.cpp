@@ -26,3 +26,4 @@
 #include <gflags/gflags.h>
 
 #include "lxc/lxc.h"
+#include "lxc/conf.h"
