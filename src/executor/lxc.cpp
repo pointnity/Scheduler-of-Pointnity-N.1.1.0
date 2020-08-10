@@ -32,3 +32,4 @@
 #include "common/lxc/confile.h"
 #include "executor/hdfs_wrapper.h"
 #include "include/proxy.h"
+#include "executor/system.h"
