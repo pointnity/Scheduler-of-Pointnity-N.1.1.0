@@ -19,3 +19,5 @@
 #include <fcntl.h> // for func open
 //#include <time.h>
 //#include <signal.h>
+
+#include <boost/algorithm/string.hpp>
