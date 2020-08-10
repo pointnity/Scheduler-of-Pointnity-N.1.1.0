@@ -33,3 +33,4 @@
 #include "executor/hdfs_wrapper.h"
 #include "include/proxy.h"
 #include "executor/system.h"
+#include "executor/lxc.h"
