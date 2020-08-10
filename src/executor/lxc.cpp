@@ -40,3 +40,25 @@
 using std::cout;
 using std::endl;
 using std::stringstream;
+using std::stringstream;
+using std::ifstream;
+using std::ofstream;
+using boost::trim;
+using log4cplus::Logger;
+using clynn::WriteLocker;
+using clynn::ReadLocker;
+
+DECLARE_string(lxc_dir);
+DECLARE_string(lxc_template);
+DECLARE_bool(lxc_create);
+DECLARE_bool(lxc_relative_path);
+
+static Logger logger = Logger::getInstance("executor");
+
+static const double DEFAULT_CPU_SHARE = 1.0;
+
+string LXC::m_conf_template = "";
+
+/// @brief: public function
+// virtual function, from VM
+// virtual CreateEnv, include ..
