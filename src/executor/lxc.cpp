@@ -21,3 +21,4 @@
 //#include <signal.h>
 
 #include <boost/algorithm/string.hpp>
+#include <log4cplus/logger.h>
