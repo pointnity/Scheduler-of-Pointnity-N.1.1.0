@@ -61,3 +61,4 @@ string LXC::m_conf_template = "";
 /// @brief: public function
 // virtual function, from VM
 // virtual CreateEnv, include ..
+int32_t LXC::Execute() {
