@@ -95,3 +95,4 @@ int32_t LXC::InstallApp() {
         LOG4CPLUS_ERROR(logger, "Failed to install app, from hdfs:" << GetTaskInfo().app_info.app_src_path  << ", to local fs:" << m_dir);
         return -1;
     }
+    return 0;
