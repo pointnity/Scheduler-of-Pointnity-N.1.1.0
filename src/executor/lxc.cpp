@@ -120,3 +120,4 @@ bool LXC::Stop() {
 }
 
 bool LXC::Kill() {
+    string cmd_stop = "lxc-stop -n " + GetName();
