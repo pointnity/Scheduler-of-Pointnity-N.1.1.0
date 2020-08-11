@@ -92,3 +92,4 @@ int32_t LXC::CreateVM() {
 // install app from hdfs
 int32_t LXC::InstallApp() {
     if (!HDFSMgrI::Instance()->CopyToLocalFile(GetTaskInfo().app_info.app_src_path, m_dir)) {
+        LOG4CPLUS_ERROR(logger, "Failed to install app, from hdfs:" << GetTaskInfo().app_info.app_src_path  << ", to local fs:" << m_dir);
