@@ -118,3 +118,5 @@ bool LXC::Stop() {
     }
     return true;
 }
+
+bool LXC::Kill() {
