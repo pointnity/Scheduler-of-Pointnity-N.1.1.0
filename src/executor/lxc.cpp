@@ -116,3 +116,4 @@ bool LXC::Stop() {
         LOG4CPLUS_ERROR(logger, "Failed to stop lxc, name:" << GetName());
         return false;
     }
+    return true;
