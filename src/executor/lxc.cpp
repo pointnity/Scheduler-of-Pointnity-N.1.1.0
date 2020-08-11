@@ -82,3 +82,4 @@ int32_t LXC::Execute() {
 }
 
 int32_t LXC::CreateVM() {
+    if (CreateLXC() != 0) {
