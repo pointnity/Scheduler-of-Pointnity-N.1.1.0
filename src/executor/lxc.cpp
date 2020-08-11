@@ -124,3 +124,4 @@ bool LXC::Kill() {
     int32_t ret_stop = system(cmd_stop.c_str());
     ret_stop = ret_stop >> 8;
     if (ret_stop != 0) {
+        LOG4CPLUS_ERROR(logger, "Failed to stop lxc, name:" << GetName());
