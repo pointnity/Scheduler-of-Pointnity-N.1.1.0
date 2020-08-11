@@ -84,3 +84,4 @@ int32_t LXC::Execute() {
 int32_t LXC::CreateVM() {
     if (CreateLXC() != 0) {
         LOG4CPLUS_ERROR(logger, "Failed to create lxc, name:" << GetName() << ", job_id:" << GetID().job_id << ", task_id:" << GetID().task_id);
+        return -1;
