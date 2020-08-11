@@ -126,3 +126,4 @@ bool LXC::Kill() {
     if (ret_stop != 0) {
         LOG4CPLUS_ERROR(logger, "Failed to stop lxc, name:" << GetName());
         return false;
+    }
