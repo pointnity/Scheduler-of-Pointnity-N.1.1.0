@@ -101,3 +101,4 @@ int32_t LXC::InstallApp() {
 // execute the task, run the app
 int32_t LXC::StartApp() {
     if (ExecuteLXC() != 0) {
+        LOG4CPLUS_ERROR(logger, "Failed to execute lxc, name:" << GetName() << ", job_id:" << GetID().job_id << ", task_id:" << GetID().task_id);
