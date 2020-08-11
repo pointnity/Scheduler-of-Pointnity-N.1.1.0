@@ -106,3 +106,5 @@ int32_t LXC::StartApp() {
     }
     return 0;
 }
+
+bool LXC::Stop() {
