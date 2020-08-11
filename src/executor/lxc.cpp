@@ -90,3 +90,4 @@ int32_t LXC::CreateVM() {
 }
 
 // install app from hdfs
+int32_t LXC::InstallApp() {
