@@ -88,3 +88,5 @@ int32_t LXC::CreateVM() {
     }
     return 0;
 }
+
+// install app from hdfs
