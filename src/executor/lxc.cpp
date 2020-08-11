@@ -121,3 +121,4 @@ bool LXC::Stop() {
 
 bool LXC::Kill() {
     string cmd_stop = "lxc-stop -n " + GetName();
+    int32_t ret_stop = system(cmd_stop.c_str());
