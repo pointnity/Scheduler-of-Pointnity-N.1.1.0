@@ -105,3 +105,4 @@ int32_t LXC::StartApp() {
         return -1;
     }
     return 0;
+}
