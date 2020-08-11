@@ -109,3 +109,4 @@ int32_t LXC::StartApp() {
 
 bool LXC::Stop() {
     // 
+    string cmd = "lxc-stop -n " + GetName();
