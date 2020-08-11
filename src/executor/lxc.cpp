@@ -96,3 +96,4 @@ int32_t LXC::InstallApp() {
         return -1;
     }
     return 0;
+}
