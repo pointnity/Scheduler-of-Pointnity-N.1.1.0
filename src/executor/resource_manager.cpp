@@ -41,3 +41,4 @@ static Logger logger = Logger::getInstance("executor");
 bool ResourceManager::Init() {
     /// @brief: set private info
     // ip
+    m_ip = System::GetIP(FLAGS_interface.c_str());
