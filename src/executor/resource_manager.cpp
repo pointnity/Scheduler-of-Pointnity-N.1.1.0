@@ -28,3 +28,4 @@ using clynn::ReadLocker;
 using clynn::WriteLocker;
 
 DECLARE_int32(port);
+DECLARE_string(resource_scheduler_endpoint);
