@@ -38,3 +38,4 @@ static Logger logger = Logger::getInstance("executor");
 
 // init, set static info 
 // TODO
+bool ResourceManager::Init() {
