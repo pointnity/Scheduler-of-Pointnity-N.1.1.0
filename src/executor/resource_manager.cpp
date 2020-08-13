@@ -13,3 +13,4 @@
 #include <classad/classad_distribution.h>
 
 #include "common/classad/classad_complement.h"
+#include "include/classad_attr.h"
