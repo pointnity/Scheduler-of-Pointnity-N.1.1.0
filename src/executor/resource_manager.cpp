@@ -25,3 +25,4 @@ using std::endl;
 using std::stringstream;
 using log4cplus::Logger;
 using clynn::ReadLocker;
+using clynn::WriteLocker;
