@@ -46,3 +46,4 @@ bool ResourceManager::Init() {
     m_port = FLAGS_port;
 
     // machine & arch
+    m_name = m_ip;
