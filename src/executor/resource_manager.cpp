@@ -6,3 +6,4 @@
 
 #include <stdlib.h>
 #include <iostream>
+#include <log4cplus/logger.h>
