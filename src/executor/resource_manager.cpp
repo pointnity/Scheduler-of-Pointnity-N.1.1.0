@@ -23,3 +23,4 @@
 using std::cout;
 using std::endl;
 using std::stringstream;
+using log4cplus::Logger;
