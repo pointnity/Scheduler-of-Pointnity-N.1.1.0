@@ -10,3 +10,4 @@
 #include <log4cplus/loggingmacros.h>
 #include <gflags/gflags.h>
 #include <classad/classad.h>
+#include <classad/classad_distribution.h>
