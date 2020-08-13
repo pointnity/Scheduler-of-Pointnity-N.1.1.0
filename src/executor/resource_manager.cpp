@@ -29,3 +29,4 @@ using clynn::WriteLocker;
 
 DECLARE_int32(port);
 DECLARE_string(resource_scheduler_endpoint);
+DECLARE_string(interface);
