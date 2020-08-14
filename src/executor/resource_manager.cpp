@@ -66,3 +66,6 @@ bool ResourceManager::Init() {
     string machine_info = GetMachineInfo();
     // TODO
     cout << machine_info << endl; 
+
+     
+    // VMPool Init check libvirt dir and lxc dir
