@@ -64,3 +64,4 @@ bool ResourceManager::Init() {
 
     /// @brief: get info, send info to collector
     string machine_info = GetMachineInfo();
+    // TODO
