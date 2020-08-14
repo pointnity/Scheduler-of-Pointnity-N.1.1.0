@@ -74,3 +74,4 @@ bool ResourceManager::Init() {
         return false;
     }
     return true;
+}
