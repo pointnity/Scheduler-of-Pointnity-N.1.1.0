@@ -55,3 +55,4 @@ bool ResourceManager::Init() {
     m_total_cpu = System::GetCpuNum();
     m_total_memory = System::GetTotalMemory(); 
     m_total_disk = System::GetTotalDisk();
+    m_avail_cpu = m_total_cpu;
