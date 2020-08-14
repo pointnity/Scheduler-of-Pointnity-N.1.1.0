@@ -77,3 +77,4 @@ bool ResourceManager::Init() {
 }
 
 string ResourceManager::GetMachineInfo() {
+    ReadLocker lock(m_lock);
