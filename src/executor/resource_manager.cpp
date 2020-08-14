@@ -63,3 +63,4 @@ bool ResourceManager::Init() {
     m_nic_type = System::GetNICType(FLAGS_interface.c_str());
 
     /// @brief: get info, send info to collector
+    string machine_info = GetMachineInfo();
