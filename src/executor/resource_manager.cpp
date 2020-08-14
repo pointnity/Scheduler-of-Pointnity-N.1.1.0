@@ -73,3 +73,4 @@ bool ResourceManager::Init() {
         LOG4CPLUS_ERROR(logger, "error in VMPool Init.");
         return false;
     }
+    return true;
