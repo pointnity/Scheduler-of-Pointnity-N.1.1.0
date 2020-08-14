@@ -61,3 +61,5 @@ bool ResourceManager::Init() {
 
     m_band_width = System::GetBandWidth(FLAGS_interface.c_str());
     m_nic_type = System::GetNICType(FLAGS_interface.c_str());
+
+    /// @brief: get info, send info to collector
