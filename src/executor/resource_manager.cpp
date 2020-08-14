@@ -96,3 +96,4 @@ string ResourceManager::GetMachineInfo() {
 
     // classad -> string
     ClassAdUnParser unparser;
+    string str_ad;
