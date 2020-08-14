@@ -80,3 +80,4 @@ string ResourceManager::GetMachineInfo() {
     ReadLocker lock(m_lock);
 
     // init classad
+    ClassAd ad;
