@@ -50,3 +50,4 @@ bool ResourceManager::Init() {
     m_machine_type = "A";
     m_shelf_number = -1;
     m_arch = "Intel";
+    m_os = System::GetOSVersion();
