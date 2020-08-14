@@ -95,3 +95,4 @@ string ResourceManager::GetMachineInfo() {
     ad.InsertAttr(ATTR_NICType, m_nic_type);
 
     // classad -> string
+    ClassAdUnParser unparser;
