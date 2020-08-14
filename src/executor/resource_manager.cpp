@@ -81,3 +81,4 @@ string ResourceManager::GetMachineInfo() {
 
     // init classad
     ClassAd ad;
+    ad.InsertAttr(ATTR_Machine, m_name);
