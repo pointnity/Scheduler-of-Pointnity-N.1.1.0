@@ -93,3 +93,5 @@ string ResourceManager::GetMachineInfo() {
     ad.InsertAttr(ATTR_TotalDisk, m_total_disk);
     ad.InsertAttr(ATTR_BandWidth, m_band_width);
     ad.InsertAttr(ATTR_NICType, m_nic_type);
+
+    // classad -> string
