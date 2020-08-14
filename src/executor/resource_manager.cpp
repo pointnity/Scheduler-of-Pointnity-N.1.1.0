@@ -69,3 +69,4 @@ bool ResourceManager::Init() {
 
      
     // VMPool Init check libvirt dir and lxc dir
+    if (!VMPoolI::Instance()->Init()) {
