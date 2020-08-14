@@ -89,3 +89,4 @@ string ResourceManager::GetMachineInfo() {
     ad.InsertAttr(ATTR_Arch, m_arch);
     ad.InsertAttr(ATTR_OpSys, m_os);
     ad.InsertAttr(ATTR_TotalCPUNum, m_total_cpu);
+    ad.InsertAttr(ATTR_TotalMemory, m_total_memory);
