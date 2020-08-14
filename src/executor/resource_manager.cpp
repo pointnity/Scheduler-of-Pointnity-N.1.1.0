@@ -58,3 +58,5 @@ bool ResourceManager::Init() {
     m_avail_cpu = m_total_cpu;
     m_avail_memory = m_total_memory;
     m_avail_disk = m_total_disk - System::GetUsedDisk();
+
+    m_band_width = System::GetBandWidth(FLAGS_interface.c_str());
