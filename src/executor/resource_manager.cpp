@@ -102,3 +102,5 @@ string ResourceManager::GetMachineInfo() {
     
     return str_ad; 
 }
+
+string ResourceManager::GetBridgeEndpoint() {
