@@ -141,3 +141,4 @@ void ResourceManager::GenerateHb(string& machine_str_ad, vector<string>& task_li
     cout << "VMHeartbeatList:" << endl;
 
     // classad
+    ClassAd ad;
