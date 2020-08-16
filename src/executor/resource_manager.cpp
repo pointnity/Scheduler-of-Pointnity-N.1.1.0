@@ -158,3 +158,4 @@ void ResourceManager::GenerateHb(string& machine_str_ad, vector<string>& task_li
     ad.InsertAttr(ATTR_AvailDisk, m_avail_disk);
     ad.InsertAttr(ATTR_BandWidth, m_band_width);
     ad.InsertAttr(ATTR_NICType, m_nic_type);
+    ad.InsertAttr(ATTR_Image, m_image_attr);
