@@ -124,3 +124,4 @@ void ResourceManager::GenerateHb(string& machine_str_ad, vector<string>& task_li
     m_image_attr = ImageMgrI::Instance()->GetImageAttrFromFile();
 
     hb_m_info.cpu_usage = System::GetCpuUsage();
+    hb_m_info.memory_usage = System::GetMemoryUsage();
