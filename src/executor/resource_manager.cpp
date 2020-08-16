@@ -146,3 +146,4 @@ void ResourceManager::GenerateHb(string& machine_str_ad, vector<string>& task_li
     ad.InsertAttr(ATTR_MachineType, m_machine_type);
     ad.InsertAttr(ATTR_Shelf, m_shelf_number);
     ad.InsertAttr(ATTR_Machine_IP, m_ip);
+    ad.InsertAttr(ATTR_Port, m_port);
