@@ -143,3 +143,4 @@ void ResourceManager::GenerateHb(string& machine_str_ad, vector<string>& task_li
     // classad
     ClassAd ad;
     ad.InsertAttr(ATTR_Machine, m_name);
+    ad.InsertAttr(ATTR_MachineType, m_machine_type);
