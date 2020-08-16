@@ -125,3 +125,4 @@ void ResourceManager::GenerateHb(string& machine_str_ad, vector<string>& task_li
 
     hb_m_info.cpu_usage = System::GetCpuUsage();
     hb_m_info.memory_usage = System::GetMemoryUsage();
+    System::GetNetFlowinBytes(FLAGS_interface.c_str(), hb_m_info.bytes_in, hb_m_info.bytes_out);
