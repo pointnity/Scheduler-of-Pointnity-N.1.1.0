@@ -129,3 +129,4 @@ void ResourceManager::GenerateHb(string& machine_str_ad, vector<string>& task_li
 
     cout << "-------resource_manager.cpp------" << endl;
     cout << "Heartbeat:" << endl;
+    cout << "--ip: " << hb_m_info.ip << endl;
