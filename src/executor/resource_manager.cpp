@@ -153,3 +153,4 @@ void ResourceManager::GenerateHb(string& machine_str_ad, vector<string>& task_li
     ad.InsertAttr(ATTR_TotalCPUNum, m_total_cpu);
     ad.InsertAttr(ATTR_TotalMemory, m_total_memory);
     ad.InsertAttr(ATTR_TotalDisk, m_total_disk);
+    ad.InsertAttr(ATTR_AvailCPUNum, m_avail_cpu);
