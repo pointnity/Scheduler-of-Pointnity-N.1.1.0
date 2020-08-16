@@ -149,3 +149,4 @@ void ResourceManager::GenerateHb(string& machine_str_ad, vector<string>& task_li
     ad.InsertAttr(ATTR_Port, m_port);
     ad.InsertAttr(ATTR_Arch, m_arch);
     ad.InsertAttr(ATTR_OpSys, m_os);
+    ad.InsertAttr(ATTR_LOAD_AVG, m_loadavg);
