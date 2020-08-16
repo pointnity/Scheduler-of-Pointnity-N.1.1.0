@@ -108,3 +108,6 @@ string ResourceManager::GetBridgeEndpoint() {
     ss << m_port;
     return m_bridge_ip + ":" + ss.str();
 }
+
+void ResourceManager::GenerateHb(string& machine_str_ad, vector<string>& task_list) {
+    HbMachineInfo hb_m_info;
