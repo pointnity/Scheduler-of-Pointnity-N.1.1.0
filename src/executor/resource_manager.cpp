@@ -121,3 +121,4 @@ void ResourceManager::GenerateHb(string& machine_str_ad, vector<string>& task_li
     m_avail_cpu = m_total_cpu - VMPoolI::Instance()->GetAllocatedCPU();
     m_avail_disk = m_total_disk - System::GetUsedDisk();
     // image attr
+    m_image_attr = ImageMgrI::Instance()->GetImageAttrFromFile();
