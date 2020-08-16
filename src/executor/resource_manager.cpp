@@ -112,3 +112,4 @@ string ResourceManager::GetBridgeEndpoint() {
 void ResourceManager::GenerateHb(string& machine_str_ad, vector<string>& task_list) {
     HbMachineInfo hb_m_info;
     // node machine
+    hb_m_info.ip = m_ip;
