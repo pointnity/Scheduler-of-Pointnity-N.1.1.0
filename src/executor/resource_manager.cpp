@@ -106,3 +106,4 @@ string ResourceManager::GetMachineInfo() {
 string ResourceManager::GetBridgeEndpoint() {
     stringstream ss;
     ss << m_port;
+    return m_bridge_ip + ":" + ss.str();
