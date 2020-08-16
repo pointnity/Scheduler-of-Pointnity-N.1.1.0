@@ -116,3 +116,4 @@ void ResourceManager::GenerateHb(string& machine_str_ad, vector<string>& task_li
     hb_m_info.port = m_port;
     // m_total_cpu = System::GetCpuNum();
     // m_total_memory = System::GetTotalMemory();
+    // m_total_disk = System::GetTotalDisk();
