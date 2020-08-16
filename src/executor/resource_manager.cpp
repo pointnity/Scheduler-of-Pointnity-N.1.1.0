@@ -128,3 +128,4 @@ void ResourceManager::GenerateHb(string& machine_str_ad, vector<string>& task_li
     System::GetNetFlowinBytes(FLAGS_interface.c_str(), hb_m_info.bytes_in, hb_m_info.bytes_out);
 
     cout << "-------resource_manager.cpp------" << endl;
+    cout << "Heartbeat:" << endl;
