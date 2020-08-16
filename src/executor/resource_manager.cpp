@@ -104,3 +104,4 @@ string ResourceManager::GetMachineInfo() {
 }
 
 string ResourceManager::GetBridgeEndpoint() {
+    stringstream ss;
