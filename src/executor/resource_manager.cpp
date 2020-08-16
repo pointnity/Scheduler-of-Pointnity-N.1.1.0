@@ -136,3 +136,4 @@ void ResourceManager::GenerateHb(string& machine_str_ad, vector<string>& task_li
     cout << "--avail_disk: " << m_avail_disk << endl;
     cout << "--image_attr: " << m_image_attr << endl;
     cout << "--cpu_usage: " << hb_m_info.cpu_usage << endl;
+    cout << "--memory_usage: " << hb_m_info.memory_usage << endl;
