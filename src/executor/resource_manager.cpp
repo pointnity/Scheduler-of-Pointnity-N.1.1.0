@@ -203,3 +203,6 @@ void ResourceManager::AllocateResource(double cpu, int32_t memory, int32_t disk)
     m_avail_cpu -= cpu;
     m_avail_memory -= memory;
     m_avail_disk -= disk;
+}
+
+void ResourceManager::ReleaseResource(double cpu, int32_t memory, int32_t disk) {
