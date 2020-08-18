@@ -184,3 +184,4 @@ void ResourceManager::GenerateHb(string& machine_str_ad, vector<string>& task_li
         ClassAd task_ad;
         task_ad.InsertAttr(ATTR_JOB_ID_RS, (it->id).job_id);
         task_ad.InsertAttr(ATTR_TASK_ID_RS, (it->id).task_id);
+        task_ad.InsertAttr(ATTR_VMHB_CPU, it->cpu_usage);
