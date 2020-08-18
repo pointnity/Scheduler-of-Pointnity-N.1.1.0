@@ -208,3 +208,4 @@ void ResourceManager::AllocateResource(double cpu, int32_t memory, int32_t disk)
 void ResourceManager::ReleaseResource(double cpu, int32_t memory, int32_t disk) {
     WriteLocker locker(m_lock);
     m_avail_cpu += cpu;
+    m_avail_memory += memory;
