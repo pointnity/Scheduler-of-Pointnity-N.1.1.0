@@ -180,3 +180,5 @@ void ResourceManager::GenerateHb(string& machine_str_ad, vector<string>& task_li
         cout << "----memory_usage: " << it->memory_usage << endl;
         cout << "----bytes_in: " << it->bytes_in << endl;
         cout << "----bytes_out: " << it->bytes_out << endl;
+
+        ClassAd task_ad;
