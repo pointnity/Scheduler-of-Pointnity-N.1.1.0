@@ -199,3 +199,4 @@ void ResourceManager::GenerateHb(string& machine_str_ad, vector<string>& task_li
 
 
 void ResourceManager::AllocateResource(double cpu, int32_t memory, int32_t disk) {
+    WriteLocker locker(m_lock);
