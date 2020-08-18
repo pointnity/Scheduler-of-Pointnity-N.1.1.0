@@ -168,3 +168,4 @@ void ResourceManager::GenerateHb(string& machine_str_ad, vector<string>& task_li
     // vm list
     hb_m_info.hb_vminfo_list = VMPoolI::Instance()->GetAllHbVMInfo();
     vector<HbVMInfo> vm_list = hb_m_info.hb_vminfo_list;
+    for (vector<HbVMInfo>::iterator it = vm_list.begin();
