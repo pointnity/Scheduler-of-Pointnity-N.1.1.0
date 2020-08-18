@@ -171,3 +171,4 @@ void ResourceManager::GenerateHb(string& machine_str_ad, vector<string>& task_li
     for (vector<HbVMInfo>::iterator it = vm_list.begin();
          it != vm_list.end(); ++it) {
         cout << "--VM:" << endl;
+        cout << "----job_id: " << (it->id).job_id << endl;
