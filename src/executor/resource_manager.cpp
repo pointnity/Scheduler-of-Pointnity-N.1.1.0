@@ -188,3 +188,4 @@ void ResourceManager::GenerateHb(string& machine_str_ad, vector<string>& task_li
         task_ad.InsertAttr(ATTR_VMHB_MEMORY, it->memory_usage);
         task_ad.InsertAttr(ATTR_VMHB_BYTES_IN, it->bytes_in);
         task_ad.InsertAttr(ATTR_VMHB_BYTES_OUT, it->bytes_out);
+        task_ad.InsertAttr(ATTR_VMHB_STATE, it->app_state);
