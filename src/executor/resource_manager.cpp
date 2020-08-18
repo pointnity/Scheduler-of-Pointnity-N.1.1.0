@@ -175,3 +175,4 @@ void ResourceManager::GenerateHb(string& machine_str_ad, vector<string>& task_li
         cout << "----task_id: " << (it->id).task_id << endl;
         //cout << "----name: " << it->name << endl;
         //cout << "----type: " << it->type << endl;
+        cout << "----app_state: " << it->app_state << endl;
