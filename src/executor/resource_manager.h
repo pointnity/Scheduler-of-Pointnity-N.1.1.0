@@ -13,3 +13,5 @@
 #include <boost/shared_ptr.hpp>
 
 #include "include/proxy.h"
+
+#include "include/proxy.h"
