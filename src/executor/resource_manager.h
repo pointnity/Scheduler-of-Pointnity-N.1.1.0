@@ -60,3 +60,4 @@ private:
     int32_t m_total_disk;   // G
     double m_avail_cpu;
     int32_t m_avail_memory;
+    int32_t m_avail_disk;
