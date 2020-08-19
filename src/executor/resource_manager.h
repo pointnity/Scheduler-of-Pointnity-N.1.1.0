@@ -34,3 +34,5 @@ public:
     string GetBridgeEndpoint();
 
     void GenerateHb(string& machine_str_ad, vector<string>& task_list);    
+
+    void AllocateResource(double cpu, int32_t memory, int32_t disk);
