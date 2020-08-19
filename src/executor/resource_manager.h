@@ -13,5 +13,5 @@
 #include <boost/shared_ptr.hpp>
 
 #include "include/proxy.h"
+#include "common/clynn/rpc.h"
 
-#include "include/proxy.h"
