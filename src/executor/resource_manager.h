@@ -6,3 +6,5 @@
 
 #ifndef SRC_EXECUTOR_RESOURCE_MANAGER_H
 #define SRC_EXECUTOR_RESOURCE_MANAGER_H
+
+#include <string>
