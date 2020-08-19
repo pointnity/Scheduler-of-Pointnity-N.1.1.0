@@ -38,3 +38,5 @@ public:
     void AllocateResource(double cpu, int32_t memory, int32_t disk);
 
     void ReleaseResource(double cpu, int32_t memory, int32_t disk);
+    
+private:
