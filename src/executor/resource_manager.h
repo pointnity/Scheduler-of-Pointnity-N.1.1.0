@@ -41,3 +41,4 @@ public:
     
 private:
     RWLock m_lock;
+    // machine & arch
