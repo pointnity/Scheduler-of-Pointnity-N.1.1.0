@@ -43,3 +43,4 @@ private:
     RWLock m_lock;
     // machine & arch
     string m_name;
+    string m_machine_type;
