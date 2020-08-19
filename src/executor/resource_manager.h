@@ -18,3 +18,4 @@
 #include "common/clynn/rwlock.h"
 
 using std::string;
+using std::map;
