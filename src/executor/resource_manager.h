@@ -42,3 +42,4 @@ public:
 private:
     RWLock m_lock;
     // machine & arch
+    string m_name;
