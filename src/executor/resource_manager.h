@@ -27,3 +27,5 @@ class ResourceManager {
 public:
     // init, set static info 
     bool Init();
+
+    // get static register info
