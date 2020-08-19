@@ -63,3 +63,9 @@ private:
     int32_t m_avail_disk;
     int32_t m_band_width;
     string m_nic_type;      // interface type;
+    string m_image_attr;    //image attr
+};
+
+typedef Singleton<ResourceManager> ResourceMgrI;
+
+#endif 
