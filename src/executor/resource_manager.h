@@ -26,3 +26,4 @@ using clynn::RWLock;
 class ResourceManager {
 public:
     // init, set static info 
+    bool Init();
