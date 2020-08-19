@@ -47,3 +47,7 @@ private:
     int32_t m_shelf_number;
     string m_arch;
     string m_os;
+
+    // ip 
+    string m_ip;        // communicate with master
+    string m_bridge_ip; // communicate with vm
