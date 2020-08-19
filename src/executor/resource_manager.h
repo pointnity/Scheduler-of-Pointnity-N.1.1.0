@@ -54,3 +54,4 @@ private:
     int m_port; 
 
     // resource
+    double m_loadavg;
