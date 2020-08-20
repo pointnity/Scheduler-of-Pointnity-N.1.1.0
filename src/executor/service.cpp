@@ -46,3 +46,6 @@ bool ExecutorService::StartTask(const string& info) {
         LOG4CPLUS_ERROR(logger, "The task had exist in the executor, job_id:" << ptr->GetID().job_id << ", task_id:" << ptr->GetID().task_id);
         TaskPoolI::Instance()->PrintAll();
         return false;
+    }
+
+    //get task id
