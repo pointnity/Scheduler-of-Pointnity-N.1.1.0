@@ -15,3 +15,5 @@
 #include "executor/dispatcher.h"
 #include "executor/service.h"
 #include "executor/image_manager.h"
+
+using log4cplus::Logger;
