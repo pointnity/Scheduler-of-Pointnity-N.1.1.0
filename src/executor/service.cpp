@@ -45,3 +45,4 @@ bool ExecutorService::StartTask(const string& info) {
     if (false == TaskPoolI::Instance()->InsertIfAbsent(ptr)) {
         LOG4CPLUS_ERROR(logger, "The task had exist in the executor, job_id:" << ptr->GetID().job_id << ", task_id:" << ptr->GetID().task_id);
         TaskPoolI::Instance()->PrintAll();
+        return false;
