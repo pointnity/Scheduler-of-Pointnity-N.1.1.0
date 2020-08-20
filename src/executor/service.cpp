@@ -24,3 +24,4 @@ DECLARE_bool(debug);
 
 // test, hello world
 int32_t ExecutorService::Helloworld() {
+    printf("Hello world\n");
