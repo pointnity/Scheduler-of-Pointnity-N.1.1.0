@@ -32,3 +32,4 @@ int32_t ExecutorService::Helloworld() {
 bool ExecutorService::Exit() {
     // new KillActionEvent
     EventPtr event(new ExitExecutorEvent());
+    // Push event into Queue
