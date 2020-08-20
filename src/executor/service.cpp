@@ -36,3 +36,4 @@ bool ExecutorService::Exit() {
     EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
     return true;
 // task
+bool ExecutorService::StartTask(const string& info) {
