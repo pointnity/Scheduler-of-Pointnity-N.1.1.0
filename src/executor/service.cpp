@@ -31,3 +31,4 @@ int32_t ExecutorService::Helloworld() {
 //RS
 bool ExecutorService::Exit() {
     // new KillActionEvent
+    EventPtr event(new ExitExecutorEvent());
