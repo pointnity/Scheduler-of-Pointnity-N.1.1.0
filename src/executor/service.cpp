@@ -11,3 +11,4 @@
 #include <iostream>
 #include "include/type.h"
 #include "executor/task_entity_pool.h"
+#include "executor/vm_pool.h"
