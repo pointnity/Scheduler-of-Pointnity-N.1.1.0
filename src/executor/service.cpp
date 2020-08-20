@@ -3,7 +3,6 @@
  Version:  0.1
  Description: executor service
 *********************************/
-
 #include <log4cplus/logger.h>
 #include <log4cplus/loggingmacros.h>
 #include <gflags/gflags.h>
@@ -35,5 +34,6 @@ bool ExecutorService::Exit() {
     // Push event into Queue
     EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
     return true;
+}
 // task
 bool ExecutorService::StartTask(const string& info) {
