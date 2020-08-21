@@ -73,3 +73,4 @@ bool ExecutorService::KillTask(const int32_t job_id, const int32_t task_id) {
     EventPtr event(new KillActionEvent(id));
     // Push event into Queue
     EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
+    return true;
