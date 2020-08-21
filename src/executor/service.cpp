@@ -64,3 +64,4 @@ bool ExecutorService::StartTask(const string& info) {
 bool ExecutorService::KillTask(const int32_t job_id, const int32_t task_id) {
     if (job_id < 0 || task_id < 0) {
         LOG4CPLUS_ERROR(logger, "TaskID is illegal, job_id:" << job_id << ", task_id:" << task_id);
+        return false;
