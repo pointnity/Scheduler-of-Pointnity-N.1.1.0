@@ -75,3 +75,6 @@ bool ExecutorService::KillTask(const int32_t job_id, const int32_t task_id) {
     EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
     return true;
 }
+
+bool ExecutorService::KillTaskForFT(const int32_t job_id, const int32_t task_id) {
+    if (job_id < 0 || task_id < 0) {
