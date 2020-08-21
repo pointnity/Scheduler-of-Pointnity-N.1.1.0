@@ -93,3 +93,5 @@ bool ExecutorService::KillTaskForFT(const int32_t job_id, const int32_t task_id)
     return true;
 
 }
+
+bool ExecutorService::SendVMHeartbeat(const string& hb_vm_info_ad) {
