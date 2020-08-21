@@ -96,3 +96,4 @@ bool ExecutorService::KillTaskForFT(const int32_t job_id, const int32_t task_id)
 
 bool ExecutorService::SendVMHeartbeat(const string& hb_vm_info_ad) {
     //std::cout<< "vm_hb:" << hb_vm_info_ad << std::endl;
+    //return VMPoolI::Instance()->ProcessHbVMInfo(hb_vm_info_ad);
