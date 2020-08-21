@@ -91,3 +91,5 @@ bool ExecutorService::KillTaskForFT(const int32_t job_id, const int32_t task_id)
 
     LOG4CPLUS_INFO(logger, "Kill task for FT, job_id:" << job_id << ", task_id:" << task_id);
     return true;
+
+}
