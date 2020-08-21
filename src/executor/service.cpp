@@ -49,3 +49,4 @@ bool ExecutorService::StartTask(const string& info) {
     }
 
     //get task id
+    TaskID id = ptr->GetID();
