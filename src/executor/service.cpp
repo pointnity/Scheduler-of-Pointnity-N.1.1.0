@@ -67,3 +67,4 @@ bool ExecutorService::KillTask(const int32_t job_id, const int32_t task_id) {
         return false;
     }
     TaskID id;
+    id.job_id = job_id;
