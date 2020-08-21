@@ -60,3 +60,5 @@ bool ExecutorService::StartTask(const string& info) {
     return true;
     
 }
+
+bool ExecutorService::KillTask(const int32_t job_id, const int32_t task_id) {
