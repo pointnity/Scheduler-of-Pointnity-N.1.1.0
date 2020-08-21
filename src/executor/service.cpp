@@ -109,3 +109,8 @@ bool ExecutorService::SendVMHeartbeat(const string& hb_vm_info_ad) {
 //image manager
 bool ExecutorService::UpdateImage(const string& user, const string& name, const int32_t size) {
     // new UpdateImageEvent
+    EventPtr event(new ImageEvent(user, name, size));
+    // Push event into Queue
+    EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
+    return true;
+}
