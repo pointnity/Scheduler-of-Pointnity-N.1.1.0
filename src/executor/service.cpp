@@ -108,3 +108,4 @@ bool ExecutorService::SendVMHeartbeat(const string& hb_vm_info_ad) {
 
 //image manager
 bool ExecutorService::UpdateImage(const string& user, const string& name, const int32_t size) {
+    // new UpdateImageEvent
