@@ -99,3 +99,4 @@ bool ExecutorService::SendVMHeartbeat(const string& hb_vm_info_ad) {
     //return VMPoolI::Instance()->ProcessHbVMInfo(hb_vm_info_ad);
     // new UpdateHeartbeatEvent
     EventPtr event(new HeartbeatEvent(hb_vm_info_ad));
+    // Push event into Queue
