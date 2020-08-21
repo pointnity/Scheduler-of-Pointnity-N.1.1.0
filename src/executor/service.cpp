@@ -84,3 +84,4 @@ bool ExecutorService::KillTaskForFT(const int32_t job_id, const int32_t task_id)
     TaskID id;
     id.job_id = job_id;
     id.task_id = task_id;
+    // new KillActionEvent
