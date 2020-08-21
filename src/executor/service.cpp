@@ -53,3 +53,4 @@ bool ExecutorService::StartTask(const string& info) {
     // new startActionEvent
     EventPtr event(new StartActionEvent(id));
     // Push event into Queue
+    EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
