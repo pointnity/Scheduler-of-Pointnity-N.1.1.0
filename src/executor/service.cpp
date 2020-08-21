@@ -98,3 +98,4 @@ bool ExecutorService::SendVMHeartbeat(const string& hb_vm_info_ad) {
     //std::cout<< "vm_hb:" << hb_vm_info_ad << std::endl;
     //return VMPoolI::Instance()->ProcessHbVMInfo(hb_vm_info_ad);
     // new UpdateHeartbeatEvent
+    EventPtr event(new HeartbeatEvent(hb_vm_info_ad));
