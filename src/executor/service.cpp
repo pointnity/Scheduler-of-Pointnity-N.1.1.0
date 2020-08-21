@@ -56,5 +56,5 @@ bool ExecutorService::StartTask(const string& info) {
     EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
 
     if (FLAGS_debug)
+        TaskPoolI::Instance()->PrintAll();
 
-    if (FLAGS_debug)
