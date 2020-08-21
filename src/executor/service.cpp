@@ -86,3 +86,4 @@ bool ExecutorService::KillTaskForFT(const int32_t job_id, const int32_t task_id)
     id.task_id = task_id;
     // new KillActionEvent
     EventPtr event(new KillActionEvent(id));
+    // Push event into Queue
