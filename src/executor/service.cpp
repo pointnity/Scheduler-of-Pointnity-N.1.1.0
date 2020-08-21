@@ -101,3 +101,4 @@ bool ExecutorService::SendVMHeartbeat(const string& hb_vm_info_ad) {
     EventPtr event(new HeartbeatEvent(hb_vm_info_ad));
     // Push event into Queue
     EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
+    return true;
