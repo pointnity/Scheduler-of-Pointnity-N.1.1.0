@@ -27,3 +27,5 @@ public:
     
     // vm heartbeat
     bool SendVMHeartbeat(const string& hb_vm_info_ad);
+
+    //update image
