@@ -8,3 +8,5 @@
 #define SRC_EXECUTOR_SERVICE_H
 
 #include "include/proxy.h"
+
+using std::string;
