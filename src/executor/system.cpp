@@ -23,3 +23,5 @@
 #include <boost/algorithm/string.hpp>
 
 #include "executor/system.h"
+
+using boost::trim;
