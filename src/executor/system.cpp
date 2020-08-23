@@ -30,3 +30,4 @@ using boost::trim;
 #include <inttypes.h> // for scanf uint64_t
 
 /// @brief: Load
+// @return: return avg load in 1 minute if success, or return -1
