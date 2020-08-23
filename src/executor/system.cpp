@@ -80,3 +80,4 @@ double System::GetLoadAvginFifteen() {
 
 /// @brief: CPU
 // @return: logic cpu numbers
+int32_t System::GetCpuNum() {
