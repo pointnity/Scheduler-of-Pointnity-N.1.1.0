@@ -27,3 +27,4 @@
 using boost::trim;
 
 #define __STDC_FORMAT_MACROS
+#include <inttypes.h> // for scanf uint64_t
