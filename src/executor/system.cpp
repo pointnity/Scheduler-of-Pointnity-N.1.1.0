@@ -75,3 +75,4 @@ double System::GetLoadAvginFifteen() {
 
     // close file
     fclose(fp);
+    return avg_15;
