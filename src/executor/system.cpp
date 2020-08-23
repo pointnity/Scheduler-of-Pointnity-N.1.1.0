@@ -52,3 +52,5 @@ double System::GetLoadAvginFive() {
     FILE* fp = fopen("/proc/loadavg", "r");
     if (!fp)
         return -1.0;
+
+    // get info from /proc/loadavg 
