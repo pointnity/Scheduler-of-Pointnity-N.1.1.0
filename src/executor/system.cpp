@@ -71,3 +71,4 @@ double System::GetLoadAvginFifteen() {
 
     // get infoi from /proc/loadavg 
     double avg_1, avg_5, avg_15;
+    fscanf(fp, "%lf %lf %lf", &avg_1, &avg_5, &avg_15);
