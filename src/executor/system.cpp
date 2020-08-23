@@ -82,3 +82,4 @@ double System::GetLoadAvginFifteen() {
 // @return: logic cpu numbers
 int32_t System::GetCpuNum() {
     // fs /proc
+    FILE* fp = fopen("/proc/cpuinfo", "r");
