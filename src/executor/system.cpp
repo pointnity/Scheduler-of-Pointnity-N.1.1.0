@@ -60,3 +60,4 @@ double System::GetLoadAvginFive() {
     // close file
     fclose(fp);
     return avg_5;
+}
