@@ -44,3 +44,4 @@ double System::GetLoadAvginOne() {
     // close file
     fclose(fp);
     return avg_1;
+}
