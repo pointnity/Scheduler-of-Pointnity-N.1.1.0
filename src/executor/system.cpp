@@ -65,3 +65,4 @@ double System::GetLoadAvginFive() {
 // @return: return avg load in 15 minutes if success, or return -1
 double System::GetLoadAvginFifteen() {
     // fs /proc
+    FILE* fp = fopen("/proc/loadavg", "r");
