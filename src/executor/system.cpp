@@ -77,3 +77,5 @@ double System::GetLoadAvginFifteen() {
     fclose(fp);
     return avg_15;
 }
+
+/// @brief: CPU
