@@ -70,3 +70,4 @@ double System::GetLoadAvginFifteen() {
         return -1.0;
 
     // get infoi from /proc/loadavg 
+    double avg_1, avg_5, avg_15;
