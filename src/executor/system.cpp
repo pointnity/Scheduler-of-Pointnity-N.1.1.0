@@ -79,3 +79,4 @@ double System::GetLoadAvginFifteen() {
 }
 
 /// @brief: CPU
+// @return: logic cpu numbers
