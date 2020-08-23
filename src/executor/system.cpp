@@ -66,3 +66,4 @@ double System::GetLoadAvginFive() {
 double System::GetLoadAvginFifteen() {
     // fs /proc
     FILE* fp = fopen("/proc/loadavg", "r");
+    if (!fp)
