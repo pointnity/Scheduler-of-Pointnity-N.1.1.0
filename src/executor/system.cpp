@@ -101,3 +101,4 @@ int32_t System::GetCpuNum() {
 }
 
 // @return: cpu time
+uint64_t System::GetCpuTime() {
