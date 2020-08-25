@@ -168,3 +168,4 @@ double System::GetCpuUsage() {
             total = used + cpu_idle;
             break;
         }
+    }
