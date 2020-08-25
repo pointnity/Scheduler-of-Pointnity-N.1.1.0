@@ -115,3 +115,4 @@ uint64_t System::GetCpuTime() {
     uint64_t cpu_hardirq = 0;
     uint64_t cpu_softirq = 0;
     uint64_t total = 0;
+    char line[8192];
