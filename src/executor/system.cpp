@@ -171,3 +171,4 @@ double System::GetCpuUsage() {
     }
 
     if (first) {
+        first = false;
