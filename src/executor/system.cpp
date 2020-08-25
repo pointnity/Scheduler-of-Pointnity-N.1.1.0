@@ -113,3 +113,4 @@ uint64_t System::GetCpuTime() {
     uint64_t cpu_idle = 0;
     uint64_t cpu_iowait = 0;
     uint64_t cpu_hardirq = 0;
+    uint64_t cpu_softirq = 0;
