@@ -132,3 +132,4 @@ uint64_t System::GetCpuTime() {
     // close file
     fclose(fp);
     return total;
+}
