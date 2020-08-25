@@ -167,3 +167,4 @@ double System::GetCpuUsage() {
                    cpu_iowait + cpu_hardirq + cpu_softirq;
             total = used + cpu_idle;
             break;
+        }
