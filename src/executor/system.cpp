@@ -139,3 +139,5 @@ double System::GetCpuUsage() {
     FILE* fp = fopen("/proc/stat", "r");
     if (!fp)
         return -1.0;
+
+    char line[8192];
