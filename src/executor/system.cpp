@@ -93,3 +93,4 @@ int32_t System::GetCpuNum() {
         if (strncmp(buf, "processor", 9) == 0) {
             cpu_num++;
         }
+    }
