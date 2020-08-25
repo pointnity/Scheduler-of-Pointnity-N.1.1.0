@@ -105,3 +105,4 @@ uint64_t System::GetCpuTime() {
     // fs /porc
     FILE* fp = fopen("/proc/stat", "r");
     if (!fp)
+         return 1;
