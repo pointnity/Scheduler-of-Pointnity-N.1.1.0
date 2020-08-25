@@ -128,3 +128,5 @@ uint64_t System::GetCpuTime() {
             break;
         }
     }
+
+    // close file
