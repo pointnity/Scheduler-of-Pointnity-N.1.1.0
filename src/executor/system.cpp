@@ -141,3 +141,4 @@ double System::GetCpuUsage() {
         return -1.0;
 
     char line[8192];
+    // previous cpu time 
