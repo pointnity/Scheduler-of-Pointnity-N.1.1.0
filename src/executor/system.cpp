@@ -103,3 +103,4 @@ int32_t System::GetCpuNum() {
 // @return: cpu time
 uint64_t System::GetCpuTime() {
     // fs /porc
+    FILE* fp = fopen("/proc/stat", "r");
