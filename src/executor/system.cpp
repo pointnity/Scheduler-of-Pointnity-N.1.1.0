@@ -87,3 +87,4 @@ int32_t System::GetCpuNum() {
         return 1;
 
     int32_t cpu_num = 0;
+    char buf[256] = {0};
