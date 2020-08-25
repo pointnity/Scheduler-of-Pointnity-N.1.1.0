@@ -172,3 +172,4 @@ double System::GetCpuUsage() {
 
     if (first) {
         first = false;
+        prev_used = used;
