@@ -118,3 +118,4 @@ uint64_t System::GetCpuTime() {
     char line[8192];
     // get cpu time
     while (fgets(line, 8192, fp) != NULL) {
+        if (!strncmp(line, "cpu ", 4)) {
