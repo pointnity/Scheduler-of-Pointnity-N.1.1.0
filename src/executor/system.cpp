@@ -145,3 +145,5 @@ double System::GetCpuUsage() {
     static uint64_t prev_used = 0;
     static uint64_t prev_total = 0;
     static bool first = true;
+
+    // cpu time now
