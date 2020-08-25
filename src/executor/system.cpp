@@ -162,3 +162,4 @@ double System::GetCpuUsage() {
             //sscanf(line + 5, "%"PRIu64" %"PRIu64" %"PRIu64" %"PRIu64" %"PRIu64" %"PRIu64" %"PRIu64"",
 	    sscanf(line + 5, "%llu %llu %llu %llu %llu %llu %llu",
                    &cpu_user, &cpu_nice, &cpu_sys, &cpu_idle,
+                   &cpu_iowait, &cpu_hardirq, &cpu_softirq);
