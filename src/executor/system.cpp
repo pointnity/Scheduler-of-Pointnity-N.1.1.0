@@ -133,3 +133,5 @@ uint64_t System::GetCpuTime() {
     fclose(fp);
     return total;
 }
+
+// @return: cpu usage
