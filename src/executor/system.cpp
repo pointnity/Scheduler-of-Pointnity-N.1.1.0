@@ -166,3 +166,4 @@ double System::GetCpuUsage() {
             used = cpu_user + cpu_nice + cpu_sys +
                    cpu_iowait + cpu_hardirq + cpu_softirq;
             total = used + cpu_idle;
+            break;
