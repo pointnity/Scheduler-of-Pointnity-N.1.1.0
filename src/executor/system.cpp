@@ -156,3 +156,5 @@ double System::GetCpuUsage() {
     uint64_t cpu_softirq = 0;
     uint64_t used = 0;
     uint64_t total = 0;
+
+    while (fgets(line, 8192, fp) != NULL) {
