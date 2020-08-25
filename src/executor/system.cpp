@@ -90,3 +90,4 @@ int32_t System::GetCpuNum() {
     char buf[256] = {0};
     // read each line, count cpu number as line number
     while (fgets(buf, sizeof(buf)-1, fp)) {
+        if (strncmp(buf, "processor", 9) == 0) {
