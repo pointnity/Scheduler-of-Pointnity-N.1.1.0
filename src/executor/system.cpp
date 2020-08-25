@@ -174,3 +174,4 @@ double System::GetCpuUsage() {
         first = false;
         prev_used = used;
         prev_total = total;
+        fclose(fp);
