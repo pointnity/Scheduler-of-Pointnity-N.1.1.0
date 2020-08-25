@@ -142,3 +142,4 @@ double System::GetCpuUsage() {
 
     char line[8192];
     // previous cpu time 
+    static uint64_t prev_used = 0;
