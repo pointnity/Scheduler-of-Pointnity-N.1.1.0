@@ -127,3 +127,4 @@ uint64_t System::GetCpuTime() {
                    cpu_iowait + cpu_hardirq + cpu_softirq + cpu_idle;
             break;
         }
+    }
