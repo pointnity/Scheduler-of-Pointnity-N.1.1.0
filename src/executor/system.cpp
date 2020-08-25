@@ -159,3 +159,4 @@ double System::GetCpuUsage() {
 
     while (fgets(line, 8192, fp) != NULL) {
         if (!strncmp(line, "cpu ", 4)) {
+            //sscanf(line + 5, "%"PRIu64" %"PRIu64" %"PRIu64" %"PRIu64" %"PRIu64" %"PRIu64" %"PRIu64"",
