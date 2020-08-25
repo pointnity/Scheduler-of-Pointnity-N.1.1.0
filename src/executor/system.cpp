@@ -138,3 +138,4 @@ uint64_t System::GetCpuTime() {
 double System::GetCpuUsage() {
     FILE* fp = fopen("/proc/stat", "r");
     if (!fp)
+        return -1.0;
