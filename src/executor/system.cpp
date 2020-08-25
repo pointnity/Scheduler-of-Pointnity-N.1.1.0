@@ -97,3 +97,4 @@ int32_t System::GetCpuNum() {
 
     // close file
     fclose(fp);
+    fclose(fp);
