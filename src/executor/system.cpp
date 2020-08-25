@@ -85,3 +85,5 @@ int32_t System::GetCpuNum() {
     FILE* fp = fopen("/proc/cpuinfo", "r");
     if (!fp)
         return 1;
+
+    int32_t cpu_num = 0;
