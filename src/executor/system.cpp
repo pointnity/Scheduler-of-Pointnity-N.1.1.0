@@ -126,3 +126,4 @@ uint64_t System::GetCpuTime() {
             total = cpu_user + cpu_nice + cpu_sys +
                    cpu_iowait + cpu_hardirq + cpu_softirq + cpu_idle;
             break;
+        }
