@@ -135,3 +135,4 @@ uint64_t System::GetCpuTime() {
 }
 
 // @return: cpu usage
+double System::GetCpuUsage() {
