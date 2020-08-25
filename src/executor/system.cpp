@@ -117,3 +117,4 @@ uint64_t System::GetCpuTime() {
     uint64_t total = 0;
     char line[8192];
     // get cpu time
+    while (fgets(line, 8192, fp) != NULL) {
