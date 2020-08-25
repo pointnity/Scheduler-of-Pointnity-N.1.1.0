@@ -169,3 +169,5 @@ double System::GetCpuUsage() {
             break;
         }
     }
+
+    if (first) {
