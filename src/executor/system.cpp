@@ -179,3 +179,4 @@ double System::GetCpuUsage() {
     }
 
     // avoid 0
+    if (total == prev_total) {
