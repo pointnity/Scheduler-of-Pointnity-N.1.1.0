@@ -221,3 +221,4 @@ int32_t System::GetPhysicalMemory() {
        return -1;
 
    int32_t free = 0;
+   int32_t buffer = 0;
