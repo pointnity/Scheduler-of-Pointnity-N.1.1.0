@@ -254,3 +254,5 @@ int32_t System::GetUsedMemory() {
         return -1;
     return total - free;
 }
+
+// @return usage of memory
