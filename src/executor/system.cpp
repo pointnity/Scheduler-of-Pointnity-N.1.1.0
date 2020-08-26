@@ -234,3 +234,4 @@ int32_t System::GetPhysicalMemory() {
            sscanf(b, "Buffers: %d", &buffer);
            continue;
        } else if (0 == strncmp(buf, "Cached:", 7)) {
+           char* b = strstr(buf, "Cached: ");
