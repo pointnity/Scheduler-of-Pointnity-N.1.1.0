@@ -212,3 +212,4 @@ int32_t System::GetTotalMemory() {
     // close file
     fclose(fp);
     total /= 1024;
+    return total;
