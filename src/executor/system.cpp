@@ -225,3 +225,4 @@ int32_t System::GetPhysicalMemory() {
    int32_t cache = 0;
    char buf[1024];
    while (fgets(buf, sizeof(buf)-1, fp)) {
+       if (0 == strncmp(buf, "MemFree:", 8)) {
