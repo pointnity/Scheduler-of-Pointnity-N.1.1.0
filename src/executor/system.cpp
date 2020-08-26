@@ -239,3 +239,5 @@ int32_t System::GetPhysicalMemory() {
            break;
        }
    }
+
+   // close file
