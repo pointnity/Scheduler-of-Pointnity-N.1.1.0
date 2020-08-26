@@ -193,3 +193,4 @@ double System::GetCpuUsage() {
 
 /// @brief: Memory
 // @return: total physical memory, size(MB)
+int32_t System::GetTotalMemory() {
