@@ -190,3 +190,5 @@ double System::GetCpuUsage() {
     fclose(fp);
     return cpu_usage;
 }
+
+/// @brief: Memory
