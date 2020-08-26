@@ -187,3 +187,4 @@ double System::GetCpuUsage() {
     prev_total = total;
 
     // close file
+    fclose(fp);
