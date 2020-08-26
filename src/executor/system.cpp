@@ -226,4 +226,4 @@ int32_t System::GetPhysicalMemory() {
    char buf[1024];
    while (fgets(buf, sizeof(buf)-1, fp)) {
        if (0 == strncmp(buf, "MemFree:", 8)) {
-           sscanf(b, "MemFree: %d", &free);
+           char* b = strstr(buf, "MemFree: ");
