@@ -214,3 +214,4 @@ int32_t System::GetTotalMemory() {
     total /= 1024;
     return total;
 }    
+int32_t System::GetPhysicalMemory() {
