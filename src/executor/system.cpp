@@ -202,3 +202,4 @@ int32_t System::GetTotalMemory() {
     int32_t total = 0;
     char buf[1024];
     // get memory info
+    while (fgets(buf, sizeof(buf)-1, fp)) {
