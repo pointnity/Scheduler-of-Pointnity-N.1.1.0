@@ -247,3 +247,4 @@ int32_t System::GetPhysicalMemory() {
 
 // @return: used memory size(MB)
 int32_t System::GetUsedMemory() {
+    int32_t total = GetTotalMemory();
