@@ -235,3 +235,4 @@ int32_t System::GetPhysicalMemory() {
            continue;
        } else if (0 == strncmp(buf, "Cached:", 7)) {
            char* b = strstr(buf, "Cached: ");
+           sscanf(b, "Cached: %d", &cache);
