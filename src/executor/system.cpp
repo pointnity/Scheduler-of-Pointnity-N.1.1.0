@@ -189,3 +189,4 @@ double System::GetCpuUsage() {
     // close file
     fclose(fp);
     return cpu_usage;
+}
