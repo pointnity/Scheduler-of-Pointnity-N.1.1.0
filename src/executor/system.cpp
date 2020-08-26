@@ -180,3 +180,4 @@ double System::GetCpuUsage() {
 
     // avoid 0
     if (total == prev_total) {
+        total = prev_total + 1;
