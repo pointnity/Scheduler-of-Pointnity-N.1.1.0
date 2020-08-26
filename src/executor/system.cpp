@@ -206,3 +206,4 @@ int32_t System::GetTotalMemory() {
         if (strncmp(buf, "MemTotal:", 9) != 0)
             continue;
         char* b = strstr(buf, "MemTotal:");
+        sscanf(b, "MemTotal: %d", &total);
