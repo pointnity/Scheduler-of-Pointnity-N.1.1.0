@@ -231,3 +231,4 @@ int32_t System::GetPhysicalMemory() {
            continue;
        } else if (0 == strncmp(buf, "Buffers:", 8)) {
            char* b = strstr(buf, "Buffers: ");
+           sscanf(b, "Buffers: %d", &buffer);
