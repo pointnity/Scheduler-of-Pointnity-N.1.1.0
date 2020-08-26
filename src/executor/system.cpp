@@ -244,3 +244,5 @@ int32_t System::GetPhysicalMemory() {
    fclose(fp);
    return (free + buffer + cache) / 1024;
 }
+
+// @return: used memory size(MB)
