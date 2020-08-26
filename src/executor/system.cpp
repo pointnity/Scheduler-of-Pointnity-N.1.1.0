@@ -253,3 +253,4 @@ int32_t System::GetUsedMemory() {
     if (total == -1 || free == -1 || free > total)
         return -1;
     return total - free;
+}
