@@ -177,3 +177,5 @@ double System::GetCpuUsage() {
         fclose(fp);
         return 0.0;
     }
+
+    // avoid 0
