@@ -242,3 +242,4 @@ int32_t System::GetPhysicalMemory() {
 
    // close file
    fclose(fp);
+   return (free + buffer + cache) / 1024;
