@@ -256,3 +256,4 @@ int32_t System::GetUsedMemory() {
 }
 
 // @return usage of memory
+double System::GetMemoryUsage() {
