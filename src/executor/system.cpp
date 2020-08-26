@@ -205,3 +205,4 @@ int32_t System::GetTotalMemory() {
     while (fgets(buf, sizeof(buf)-1, fp)) {
         if (strncmp(buf, "MemTotal:", 9) != 0)
             continue;
+        char* b = strstr(buf, "MemTotal:");
