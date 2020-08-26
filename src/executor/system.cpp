@@ -217,3 +217,4 @@ int32_t System::GetTotalMemory() {
   
 // @return: free physical memoryi, size(MB)
 int32_t System::GetPhysicalMemory() {
+   FILE* fp = fopen("/proc/meminfo", "r");
