@@ -249,3 +249,5 @@ int32_t System::GetPhysicalMemory() {
 int32_t System::GetUsedMemory() {
     int32_t total = GetTotalMemory();
     int32_t free = GetPhysicalMemory();
+
+    if (total == -1 || free == -1 || free > total)
