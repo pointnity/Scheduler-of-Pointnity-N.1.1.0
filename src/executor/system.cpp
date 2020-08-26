@@ -230,3 +230,4 @@ int32_t System::GetPhysicalMemory() {
            sscanf(b, "MemFree: %d", &free);
            continue;
        } else if (0 == strncmp(buf, "Buffers:", 8)) {
+           char* b = strstr(buf, "Buffers: ");
