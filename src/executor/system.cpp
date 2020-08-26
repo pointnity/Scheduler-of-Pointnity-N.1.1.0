@@ -195,3 +195,4 @@ double System::GetCpuUsage() {
 // @return: total physical memory, size(MB)
 int32_t System::GetTotalMemory() {
     // fs /proc
+    FILE* fp = fopen("/proc/meminfo", "r");
