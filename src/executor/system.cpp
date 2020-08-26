@@ -222,3 +222,4 @@ int32_t System::GetPhysicalMemory() {
 
    int32_t free = 0;
    int32_t buffer = 0;
+   int32_t cache = 0;
