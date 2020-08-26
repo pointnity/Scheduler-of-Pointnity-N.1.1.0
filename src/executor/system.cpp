@@ -214,4 +214,6 @@ int32_t System::GetTotalMemory() {
     total /= 1024;
     return total;
 }    
+  
+// @return: free physical memoryi, size(MB)
 int32_t System::GetPhysicalMemory() {
