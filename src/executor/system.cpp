@@ -264,3 +264,5 @@ double System::GetMemoryUsage() {
         return -1;
     return (double)used / total;
 }
+
+// @return: return SwapTotal memory(size:MB) if success, or return -1
