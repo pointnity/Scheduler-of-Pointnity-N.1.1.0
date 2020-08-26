@@ -200,3 +200,4 @@ int32_t System::GetTotalMemory() {
         return -1;
 
     int32_t total = 0;
+    char buf[1024];
