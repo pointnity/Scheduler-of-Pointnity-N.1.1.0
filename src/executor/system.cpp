@@ -262,3 +262,4 @@ double System::GetMemoryUsage() {
 
     if (total == -1 || used == -1 || used > total)
         return -1;
+    return (double)used / total;
