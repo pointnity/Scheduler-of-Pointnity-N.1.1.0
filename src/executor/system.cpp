@@ -210,3 +210,4 @@ int32_t System::GetTotalMemory() {
     }
 
     // close file
+    fclose(fp);
