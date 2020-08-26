@@ -182,3 +182,4 @@ double System::GetCpuUsage() {
     if (total == prev_total) {
         total = prev_total + 1;
     }
+                       / static_cast<double>(total - prev_total);
