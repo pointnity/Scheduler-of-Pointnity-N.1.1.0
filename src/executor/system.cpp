@@ -203,3 +203,4 @@ int32_t System::GetTotalMemory() {
     char buf[1024];
     // get memory info
     while (fgets(buf, sizeof(buf)-1, fp)) {
+        if (strncmp(buf, "MemTotal:", 9) != 0)
