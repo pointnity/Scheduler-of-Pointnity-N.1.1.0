@@ -197,3 +197,4 @@ int32_t System::GetTotalMemory() {
     // fs /proc
     FILE* fp = fopen("/proc/meminfo", "r");
     if (!fp)
+        return -1;
