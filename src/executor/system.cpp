@@ -224,3 +224,4 @@ int32_t System::GetPhysicalMemory() {
    int32_t buffer = 0;
    int32_t cache = 0;
    char buf[1024];
+   while (fgets(buf, sizeof(buf)-1, fp)) {
