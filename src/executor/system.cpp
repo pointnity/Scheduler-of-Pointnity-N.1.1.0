@@ -241,3 +241,4 @@ int32_t System::GetPhysicalMemory() {
    }
 
    // close file
+   fclose(fp);
