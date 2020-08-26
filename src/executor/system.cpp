@@ -238,3 +238,4 @@ int32_t System::GetPhysicalMemory() {
            sscanf(b, "Cached: %d", &cache);
            break;
        }
+   }
