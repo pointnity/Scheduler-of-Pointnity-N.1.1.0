@@ -228,3 +228,4 @@ int32_t System::GetPhysicalMemory() {
        if (0 == strncmp(buf, "MemFree:", 8)) {
            char* b = strstr(buf, "MemFree: ");
            sscanf(b, "MemFree: %d", &free);
+           continue;
