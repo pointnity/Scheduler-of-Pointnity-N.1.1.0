@@ -207,3 +207,4 @@ int32_t System::GetTotalMemory() {
             continue;
         char* b = strstr(buf, "MemTotal:");
         sscanf(b, "MemTotal: %d", &total);
+    }
