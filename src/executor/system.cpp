@@ -269,4 +269,4 @@ double System::GetMemoryUsage() {
 int32_t System::GetSwapTotalMemory() {
     // fs /proc
     FILE* fp = fopen("/proc/meminfo", "r");
-    FILE* fp = fopen("/proc/meminfo", "r");
+    if (!fp)
