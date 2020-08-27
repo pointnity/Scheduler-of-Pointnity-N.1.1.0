@@ -280,3 +280,4 @@ int32_t System::GetSwapTotalMemory() {
                 return -1;
             }
             break;
+        }
