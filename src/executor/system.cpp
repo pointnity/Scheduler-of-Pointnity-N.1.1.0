@@ -288,3 +288,6 @@ int32_t System::GetSwapTotalMemory() {
     swap_total /= 1024;
     return swap_total;
 }
+
+// @return: return SwapFree memory(size:MB) if success, or return -1
+int32_t System::GetSwapFreeMemory() {
