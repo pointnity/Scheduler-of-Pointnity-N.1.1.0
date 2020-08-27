@@ -271,3 +271,4 @@ int32_t System::GetSwapTotalMemory() {
     FILE* fp = fopen("/proc/meminfo", "r");
     if (!fp)
         return -1;
+    char buf[256] = {0};
