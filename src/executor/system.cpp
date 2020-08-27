@@ -274,4 +274,4 @@ int32_t System::GetSwapTotalMemory() {
     char buf[256] = {0};
     // get SwapTotal from /proc/meminfo
     while (fgets(buf, sizeof(buf) - 1, fp)) {
-    while (fgets(buf, sizeof(buf) - 1, fp)) {
+        if (0 == strncmp(buf, "SwapTotal", 9)) {
