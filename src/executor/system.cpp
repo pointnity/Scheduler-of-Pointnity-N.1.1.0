@@ -270,3 +270,4 @@ int32_t System::GetSwapTotalMemory() {
     // fs /proc
     FILE* fp = fopen("/proc/meminfo", "r");
     if (!fp)
+        return -1;
