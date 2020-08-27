@@ -273,3 +273,4 @@ int32_t System::GetSwapTotalMemory() {
         return -1;
     char buf[256] = {0};
     // get SwapTotal from /proc/meminfo
+    while (fgets(buf, sizeof(buf) - 1, fp)) {
