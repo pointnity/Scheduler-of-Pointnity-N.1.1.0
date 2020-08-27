@@ -268,3 +268,4 @@ double System::GetMemoryUsage() {
 // @return: return SwapTotal memory(size:MB) if success, or return -1
 int32_t System::GetSwapTotalMemory() {
     // fs /proc
+    FILE* fp = fopen("/proc/meminfo", "r");
