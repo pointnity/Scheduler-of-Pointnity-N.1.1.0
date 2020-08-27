@@ -278,3 +278,4 @@ int32_t System::GetSwapTotalMemory() {
             if (sscanf(buf, "SwapTotal: %d", &swap_total) < 1) {
                 fclose(fp);
                 return -1;
+            }
