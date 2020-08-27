@@ -293,3 +293,4 @@ int32_t System::GetSwapTotalMemory() {
 int32_t System::GetSwapFreeMemory() {
     // fs /proc
     FILE* fp = fopen("/proc/meminfo", "r");
+    if (!fp)
