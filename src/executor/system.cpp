@@ -282,3 +282,5 @@ int32_t System::GetSwapTotalMemory() {
             break;
         }
     }
+
+    // close file
