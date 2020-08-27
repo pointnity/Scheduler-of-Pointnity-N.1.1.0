@@ -287,3 +287,4 @@ int32_t System::GetSwapTotalMemory() {
     fclose(fp);
     swap_total /= 1024;
     return swap_total;
+}
