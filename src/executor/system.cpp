@@ -276,3 +276,4 @@ int32_t System::GetSwapTotalMemory() {
     while (fgets(buf, sizeof(buf) - 1, fp)) {
         if (0 == strncmp(buf, "SwapTotal", 9)) {
             if (sscanf(buf, "SwapTotal: %d", &swap_total) < 1) {
+                fclose(fp);
