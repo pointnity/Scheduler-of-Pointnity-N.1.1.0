@@ -279,3 +279,4 @@ int32_t System::GetSwapTotalMemory() {
                 fclose(fp);
                 return -1;
             }
+            break;
