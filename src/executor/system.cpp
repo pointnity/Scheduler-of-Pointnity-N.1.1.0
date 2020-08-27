@@ -284,3 +284,4 @@ int32_t System::GetSwapTotalMemory() {
     }
 
     // close file
+    fclose(fp);
