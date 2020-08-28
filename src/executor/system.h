@@ -19,3 +19,5 @@
 #include <string>
 #include <errno.h>
 #include <stdio.h>
+
+using std::string;
