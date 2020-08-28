@@ -36,3 +36,4 @@ public:
 
     /// @brief: CPU
     // get cpu logic core number
+    static int32_t GetCpuNum();
