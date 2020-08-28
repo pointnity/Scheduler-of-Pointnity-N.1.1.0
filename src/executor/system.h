@@ -35,3 +35,4 @@ public:
     static double GetLoadAvginFifteen();
 
     /// @brief: CPU
+    // get cpu logic core number
