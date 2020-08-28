@@ -21,3 +21,5 @@
 #include <stdio.h>
 
 using std::string;
+
+class System {
