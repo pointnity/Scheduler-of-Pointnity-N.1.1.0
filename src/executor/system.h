@@ -30,3 +30,5 @@ public:
 
     // get cpu average load(5 min)
     static double GetLoadAvginFive();
+
+    // get cpu average load(15 min)
