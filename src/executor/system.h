@@ -25,3 +25,4 @@ using std::string;
 class System {
 public:
     /// @brief: Load 
+    // get cpu average load(1 min)
