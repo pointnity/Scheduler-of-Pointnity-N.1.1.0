@@ -85,3 +85,4 @@ public:
     static string GetNICType(const char* interface);
 
     /// @brief: Disk
+    // get total disk size(GB)
