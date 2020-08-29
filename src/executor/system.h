@@ -47,3 +47,4 @@ public:
 
     /// @brief: Memory
     // get total physical memroy size(MB)
+    static int32_t GetTotalMemory();
