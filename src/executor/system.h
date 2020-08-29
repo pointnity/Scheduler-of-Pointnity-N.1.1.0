@@ -95,3 +95,4 @@ public:
     static double GetDiskUsage();
 
     // for img
+    static int32_t GetFakeSpace();
