@@ -83,3 +83,5 @@ public:
 
     // get if type
     static string GetNICType(const char* interface);
+
+    /// @brief: Disk
