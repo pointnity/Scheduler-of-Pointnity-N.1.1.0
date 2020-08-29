@@ -62,3 +62,4 @@ public:
     static int32_t GetSwapTotalMemory();
 
     // get swapfree memory size(MB)
+    static int32_t GetSwapFreeMemory();
