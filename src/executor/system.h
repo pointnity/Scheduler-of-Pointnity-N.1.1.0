@@ -98,3 +98,4 @@ public:
     static int32_t GetFakeSpace();
 
     /// @brief: others
+    // get os version
