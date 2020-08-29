@@ -92,3 +92,4 @@ public:
     static int32_t GetUsedDisk();
 
     // get disk usage
+    static double GetDiskUsage();
