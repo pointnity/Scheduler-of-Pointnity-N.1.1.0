@@ -89,3 +89,4 @@ public:
     static int32_t GetTotalDisk();
 
     // get used disk(GB)
+    static int32_t GetUsedDisk();
