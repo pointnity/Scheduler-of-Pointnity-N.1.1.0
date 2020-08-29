@@ -100,3 +100,5 @@ public:
     /// @brief: others
     // get os version
     static string GetOSVersion();
+
+    // remove the directory
