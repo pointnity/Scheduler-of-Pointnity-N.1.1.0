@@ -80,3 +80,5 @@ public:
 
     // get static net bandwidth, mbits/s
     static int32_t GetBandWidth(const char* interface);
+
+    // get if type
