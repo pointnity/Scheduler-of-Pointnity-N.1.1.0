@@ -93,3 +93,5 @@ public:
 
     // get disk usage
     static double GetDiskUsage();
+
+    // for img
