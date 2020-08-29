@@ -46,3 +46,4 @@ public:
 
 
     /// @brief: Memory
+    // get total physical memroy size(MB)
