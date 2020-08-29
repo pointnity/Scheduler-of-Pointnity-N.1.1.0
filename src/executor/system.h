@@ -102,3 +102,4 @@ public:
     static string GetOSVersion();
 
     // remove the directory
+    static void RemoveDir(const char* path);
