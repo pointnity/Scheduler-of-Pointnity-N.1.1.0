@@ -42,3 +42,4 @@ public:
     static uint64_t GetCpuTime();
 
     // get cpu usage
+    static double GetCpuUsage();
