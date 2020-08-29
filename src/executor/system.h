@@ -90,3 +90,5 @@ public:
 
     // get used disk(GB)
     static int32_t GetUsedDisk();
+
+    // get disk usage
