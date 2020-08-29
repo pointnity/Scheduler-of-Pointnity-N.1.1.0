@@ -103,3 +103,5 @@ public:
 
     // remove the directory
     static void RemoveDir(const char* path);
+
+    // get current time
