@@ -96,3 +96,5 @@ public:
 
     // for img
     static int32_t GetFakeSpace();
+
+    /// @brief: others
