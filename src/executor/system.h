@@ -77,3 +77,5 @@ public:
 
     // get net flow(size: bits)
     static void GetNetFlowinbits(const char* interface, int32_t& bits_in, int32_t& bits_out);
+
+    // get static net bandwidth, mbits/s
