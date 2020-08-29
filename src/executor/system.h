@@ -87,3 +87,5 @@ public:
     /// @brief: Disk
     // get total disk size(GB)
     static int32_t GetTotalDisk();
+
+    // get used disk(GB)
