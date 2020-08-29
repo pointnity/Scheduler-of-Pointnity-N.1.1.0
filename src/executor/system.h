@@ -105,3 +105,4 @@ public:
     static void RemoveDir(const char* path);
 
     // get current time
+    static void GetCurrentTime(char* str, int32_t len);
