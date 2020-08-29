@@ -82,3 +82,4 @@ public:
     static int32_t GetBandWidth(const char* interface);
 
     // get if type
+    static string GetNICType(const char* interface);
