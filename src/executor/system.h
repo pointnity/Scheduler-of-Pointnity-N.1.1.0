@@ -76,3 +76,4 @@ public:
     static void GetNetFlowinBytes(const char* interface, int32_t& bytes_in, int32_t& bytes_out);
 
     // get net flow(size: bits)
+    static void GetNetFlowinbits(const char* interface, int32_t& bits_in, int32_t& bits_out);
