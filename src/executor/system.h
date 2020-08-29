@@ -73,3 +73,4 @@ public:
     static string GetIP(const char* interface);
 
     // get net flow(size: Bytes)
+    static void GetNetFlowinBytes(const char* interface, int32_t& bytes_in, int32_t& bytes_out);
