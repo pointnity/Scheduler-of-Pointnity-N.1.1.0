@@ -59,3 +59,4 @@ void TaskAction::TaskFinished(TaskID id) {
     //update task state to JM
     try {
             Proxy<JobsManagerClient> proxy = RpcClient<JobsManagerClient>::GetProxy(FLAGS_jobs_manager_endpoint);
+            proxy().TaskFinished(id.job_id, id.task_id);
