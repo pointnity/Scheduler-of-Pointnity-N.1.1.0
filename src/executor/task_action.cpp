@@ -18,3 +18,4 @@
 
 using log4cplus::Logger;
 using clynn::WriteLocker;
+using clynn::ReadLocker;
