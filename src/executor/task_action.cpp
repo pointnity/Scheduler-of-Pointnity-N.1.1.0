@@ -46,3 +46,5 @@ void TaskAction::TaskRunning(TaskID id) {
         LOG4CPLUS_INFO(logger, "Task has running, job_id:" << id.job_id << ", task_id:" << id.task_id);
     }
 }
+
+void TaskAction::TaskFinished(TaskID id) {
