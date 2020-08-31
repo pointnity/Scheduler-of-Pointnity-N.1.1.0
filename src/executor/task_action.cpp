@@ -42,3 +42,4 @@ void TaskAction::TaskRunning(TaskID id) {
 
     //update task state
     task_ptr->SetState(TaskEntityState::TASKENTITY_RUNNING);
+    if(FLAGS_debug) {
