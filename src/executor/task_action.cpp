@@ -31,3 +31,4 @@ void TaskAction::TaskRunning(TaskID id) {
     TaskEntityState::type m_state = task_ptr->GetState();
     //update task state to JM
         try {
+            Proxy<JobsManagerClient> proxy = RpcClient<JobsManagerClient>::GetProxy(FLAGS_jobs_manager_endpoint);
