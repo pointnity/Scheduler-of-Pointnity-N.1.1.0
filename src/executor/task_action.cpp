@@ -9,6 +9,7 @@
 #include <gflags/gflags.h>
 
 #include <iostream>
+#include "include/proxy.h"
 #include "common/clynn/rpc.h"
 #include "executor/task_action.h"
 #include "executor/task_entity_pool.h"
@@ -30,5 +31,6 @@ void TaskAction::TaskRunning(TaskID id) {
     TaskPtr task_ptr = TaskPoolI::Instance()->GetTaskPtr(id);
     TaskEntityState::type m_state = task_ptr->GetState();
     //update task state to JM
+    if(m_state != TaskEntityState::TASKENTITY_RUNNING) {
         try {
             Proxy<JobsManagerClient> proxy = RpcClient<JobsManagerClient>::GetProxy(FLAGS_jobs_manager_endpoint);
