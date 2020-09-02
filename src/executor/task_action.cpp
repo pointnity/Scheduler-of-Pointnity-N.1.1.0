@@ -89,3 +89,4 @@ void TaskAction::TaskMissed(TaskID id) {
             LOG4CPLUS_ERROR(logger, "Failed to kill task, job_id:" << id.job_id << ", task_id:" << id.task_id);
             return ;
     }
+    TaskPoolI::Instance()->Delete(id);
