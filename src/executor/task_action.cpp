@@ -84,3 +84,4 @@ void TaskAction::TaskFailed(TaskID id) {
 }
 
 void TaskAction::TaskMissed(TaskID id) {
+    //delete task object
