@@ -82,3 +82,5 @@ void TaskAction::TaskFailed(TaskID id) {
             LOG4CPLUS_ERROR(logger, "Update failed of task state to JM error: " << tx.what());         
     }
 }
+
+void TaskAction::TaskMissed(TaskID id) {
