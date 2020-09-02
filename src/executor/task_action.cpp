@@ -98,3 +98,4 @@ void TaskAction::TaskMissed(TaskID id) {
         } catch (TException &tx) {
             LOG4CPLUS_ERROR(logger, "Update missed of task state to JM error: " << tx.what());
     }
+}
