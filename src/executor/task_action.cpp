@@ -91,3 +91,4 @@ void TaskAction::TaskMissed(TaskID id) {
     }
     TaskPoolI::Instance()->Delete(id);
     LOG4CPLUS_INFO(logger, "Task missed, handle event of kill task action, job_id:" << id.job_id << ", task_id:" << id.task_id);
+    //update task state to JM
