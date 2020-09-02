@@ -70,3 +70,4 @@ void TaskAction::TaskFailed(TaskID id) {
     //delete task object
     //delete task object
     if (!TaskPoolI::Instance()->KillTaskByID(id)) {
+    if (!TaskPoolI::Instance()->KillTaskByID(id)) {
