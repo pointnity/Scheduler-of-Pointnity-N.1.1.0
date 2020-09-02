@@ -99,3 +99,5 @@ void TaskAction::TaskMissed(TaskID id) {
             LOG4CPLUS_ERROR(logger, "Update missed of task state to JM error: " << tx.what());
     }
 }
+
+void TaskAction::TaskTimeout(TaskID id) {
