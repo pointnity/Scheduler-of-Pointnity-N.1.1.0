@@ -80,3 +80,4 @@ void TaskAction::TaskFailed(TaskID id) {
             proxy().TaskFailed(id.job_id, id.task_id);
         } catch (TException &tx) {
             LOG4CPLUS_ERROR(logger, "Update failed of task state to JM error: " << tx.what());         
+    }
