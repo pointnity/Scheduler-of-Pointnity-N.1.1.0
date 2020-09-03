@@ -28,3 +28,5 @@ public:
     void TaskFailed(TaskID id);
 
     void TaskTimeout(TaskID id);
+
+};
