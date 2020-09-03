@@ -14,3 +14,5 @@
 #include "include/type.h"
 #include "common/clynn/rwlock.h"
 #include "common/clynn/singleton.h"
+
+class TaskAction {
