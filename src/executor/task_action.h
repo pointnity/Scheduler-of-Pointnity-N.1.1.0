@@ -26,3 +26,5 @@ public:
     void TaskMissed(TaskID id);
 
     void TaskFailed(TaskID id);
+
+    void TaskTimeout(TaskID id);
