@@ -8,3 +8,4 @@
 #define SRC_EXECUTOR_TASKACTION_H
 
 #include <string>
+#include <boost/shared_ptr.hpp>
