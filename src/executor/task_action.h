@@ -30,3 +30,5 @@ public:
     void TaskTimeout(TaskID id);
 
 };
+
+typedef Singleton<TaskAction> TaskActionI;
