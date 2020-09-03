@@ -22,3 +22,5 @@ public:
     void TaskRunning(TaskID id);
 
     void TaskFinished(TaskID id);
+
+    void TaskMissed(TaskID id);
