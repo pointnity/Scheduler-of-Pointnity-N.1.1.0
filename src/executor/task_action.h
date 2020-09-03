@@ -16,3 +16,4 @@
 #include "common/clynn/singleton.h"
 
 class TaskAction {
+public:
