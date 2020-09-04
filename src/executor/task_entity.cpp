@@ -47,3 +47,4 @@ bool TaskEntity::IsLegal() {
         return false;
     }
     // task overview
+    if (!ad_ptr->EvaluateAttrNumber(ATTR_JOB_ID, m_info.id.job_id)) {
