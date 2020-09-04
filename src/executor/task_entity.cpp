@@ -74,3 +74,4 @@ bool TaskEntity::IsLegal() {
     if (!ad_ptr->EvaluateAttrNumber(ATTR_TIMEOUT, timeout)) {
         LOG4CPLUS_ERROR(logger, "Parse " << ATTR_TIMEOUT << " error.");
     }
+    m_info.timeout = 60 * timeout;
