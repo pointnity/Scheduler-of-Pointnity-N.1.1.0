@@ -63,3 +63,5 @@ bool TaskEntity::IsLegal() {
     }
     m_info.type = VMType::type(type);
     // printf("VMType: %d\n", m_info.type);
+
+    if (!ad_ptr->EvaluateAttrBool(ATTR_IS_RUN, m_info.is_run)) {
