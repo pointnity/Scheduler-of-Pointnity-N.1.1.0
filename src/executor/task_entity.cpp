@@ -16,3 +16,4 @@
 #include "include/proxy.h"
 #include "common/clynn/rpc.h"
 #include "executor/task_entity.h"
+#include "executor/vm_pool.h"
