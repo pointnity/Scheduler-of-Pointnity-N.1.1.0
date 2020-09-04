@@ -38,3 +38,4 @@ TaskEntity::TaskEntity(const string& task_info) {
 }
 
 bool TaskEntity::IsLegal() {
+    // classad init, string task_info --> ClassAd *ad_ptr
