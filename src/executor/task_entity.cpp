@@ -19,3 +19,6 @@
 #include "executor/vm_pool.h"
 #include "executor/ip_pool.h"
 #include "executor/dispatcher.h"
+
+
+using log4cplus::Logger;
