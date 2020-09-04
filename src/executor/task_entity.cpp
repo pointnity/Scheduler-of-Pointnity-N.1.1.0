@@ -41,3 +41,5 @@ bool TaskEntity::IsLegal() {
     // classad init, string task_info --> ClassAd *ad_ptr
     ClassAdParser parser;
     ClassAd* ad_ptr = parser.ParseClassAd(m_string_info);
+
+    if (!ad_ptr) {
