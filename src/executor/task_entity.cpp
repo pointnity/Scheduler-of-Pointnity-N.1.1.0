@@ -71,3 +71,4 @@ bool TaskEntity::IsLegal() {
 
     // seconds to min
     int32_t timeout;
+    if (!ad_ptr->EvaluateAttrNumber(ATTR_TIMEOUT, timeout)) {
