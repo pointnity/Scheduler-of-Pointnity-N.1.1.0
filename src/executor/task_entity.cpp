@@ -58,3 +58,4 @@ bool TaskEntity::IsLegal() {
 
     int32_t type = -1;
     if (!ad_ptr->EvaluateAttrNumber(ATTR_VMTYPE, type)) {
+        LOG4CPLUS_ERROR(logger, "Parse " << ATTR_VMTYPE << " error.");
