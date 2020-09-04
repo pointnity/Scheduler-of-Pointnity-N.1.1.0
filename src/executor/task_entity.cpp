@@ -9,5 +9,5 @@
 #include <gflags/gflags.h>
 
 #include <iostream>
-
-#include <iostream>
+#include <classad/classad.h>
+#include <classad/classad_distribution.h>
