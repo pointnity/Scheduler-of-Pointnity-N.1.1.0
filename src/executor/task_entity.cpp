@@ -43,3 +43,4 @@ bool TaskEntity::IsLegal() {
     ClassAd* ad_ptr = parser.ParseClassAd(m_string_info);
 
     if (!ad_ptr) {
+        LOG4CPLUS_ERROR(logger, "Failed to parse classad, ClassAd pointer is NULL."); 
