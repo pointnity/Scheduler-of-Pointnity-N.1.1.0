@@ -45,3 +45,4 @@ bool TaskEntity::IsLegal() {
     if (!ad_ptr) {
         LOG4CPLUS_ERROR(logger, "Failed to parse classad, ClassAd pointer is NULL."); 
         return false;
+    }
