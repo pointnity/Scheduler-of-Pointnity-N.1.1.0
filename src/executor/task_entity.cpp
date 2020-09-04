@@ -35,3 +35,4 @@ TaskEntity::TaskEntity(const string& task_info) {
     m_string_info = task_info;
     m_state = TaskEntityState::TASKENTITY_WAITING;
     m_percentage = 0;
+}
