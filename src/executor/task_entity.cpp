@@ -62,3 +62,4 @@ bool TaskEntity::IsLegal() {
         return false;
     }
     m_info.type = VMType::type(type);
+    // printf("VMType: %d\n", m_info.type);
