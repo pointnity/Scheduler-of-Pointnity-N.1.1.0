@@ -51,3 +51,5 @@ bool TaskEntity::IsLegal() {
         LOG4CPLUS_ERROR(logger, "Parse " << ATTR_JOB_ID << " error.");
         return false;
     }
+
+    if (!ad_ptr->EvaluateAttrNumber(ATTR_TASK_ID, m_info.id.task_id)) {
