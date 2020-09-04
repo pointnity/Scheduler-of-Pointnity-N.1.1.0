@@ -65,3 +65,4 @@ bool TaskEntity::IsLegal() {
     // printf("VMType: %d\n", m_info.type);
 
     if (!ad_ptr->EvaluateAttrBool(ATTR_IS_RUN, m_info.is_run)) {
+        LOG4CPLUS_ERROR(logger, "Parse " << ATTR_IS_RUN << " error.");
