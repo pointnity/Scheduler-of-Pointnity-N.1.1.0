@@ -90,3 +90,4 @@ bool TaskEntity::IsLegal() {
     // task vm_info
     if (!ad_ptr->EvaluateAttrNumber(ATTR_MEMORY, m_info.vm_info.memory)) {
         LOG4CPLUS_ERROR(logger, "Parse " << ATTR_MEMORY << " error.");
+        return false;
