@@ -115,3 +115,4 @@ bool TaskEntity::IsLegal() {
     }
 
     if (!ad_ptr->EvaluateAttrNumber(ATTR_SIZE, m_info.vm_info.size)) {
+        LOG4CPLUS_ERROR(logger, "Parse " << ATTR_SIZE << " error.");
