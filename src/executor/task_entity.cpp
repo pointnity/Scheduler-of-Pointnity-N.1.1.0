@@ -128,3 +128,4 @@ bool TaskEntity::IsLegal() {
         LOG4CPLUS_ERROR(logger, "Parse " << ATTR_VNC_PORT << " error.");
         return false;
     }
+    if(FLAGS_debug) {
