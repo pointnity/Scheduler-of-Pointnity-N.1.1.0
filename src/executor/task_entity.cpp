@@ -88,3 +88,4 @@ bool TaskEntity::IsLegal() {
     }
 
     // task vm_info
+    if (!ad_ptr->EvaluateAttrNumber(ATTR_MEMORY, m_info.vm_info.memory)) {
