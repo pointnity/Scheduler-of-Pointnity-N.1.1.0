@@ -134,3 +134,4 @@ bool TaskEntity::IsLegal() {
     // is_run = false, no app_info
     if (false == m_info.is_run) {
         // only create vm, not install or run app
+        m_id = m_info.id;
