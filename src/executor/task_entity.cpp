@@ -78,3 +78,4 @@ bool TaskEntity::IsLegal() {
     
     if (!ad_ptr->EvaluateAttrString(ATTR_USER, m_info.user)) {
         LOG4CPLUS_ERROR(logger, "Parse " << ATTR_USER << " error.");
+        return false;
