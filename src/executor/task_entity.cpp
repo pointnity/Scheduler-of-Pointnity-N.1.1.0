@@ -138,3 +138,4 @@ bool TaskEntity::IsLegal() {
         m_state = TaskEntityState::TASKENTITY_WAITING;
         m_percentage = 0;
         return true;
+    }
