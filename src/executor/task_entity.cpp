@@ -147,3 +147,4 @@ bool TaskEntity::IsLegal() {
     }
 
     // task, app_file
+    if (!ad_ptr->EvaluateAttrString(ATTR_APP_FILE, m_info.app_info.app_file)) {
