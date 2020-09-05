@@ -103,3 +103,4 @@ bool TaskEntity::IsLegal() {
         return false;
     }
     /*
+    if (!ad_ptr->EvaluateAttrString(ATTR_OS, m_info.vm_info.os)) {
