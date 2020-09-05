@@ -98,3 +98,4 @@ bool TaskEntity::IsLegal() {
         return false;
     }
     /*
+    if (!ad_ptr->EvaluateAttrNumber(ATTR_PORT, m_info.vm_info.port)) {
