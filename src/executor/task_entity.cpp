@@ -143,3 +143,4 @@ bool TaskEntity::IsLegal() {
     // task, app_info
     if (!ad_ptr->EvaluateAttrString(ATTR_APP_NAME, m_info.app_info.name)) {
         LOG4CPLUS_ERROR(logger, "Parse " << ATTR_APP_NAME << " error.");
+        return false;
