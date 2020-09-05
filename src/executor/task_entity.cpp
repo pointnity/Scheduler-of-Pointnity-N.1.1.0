@@ -110,3 +110,4 @@ bool TaskEntity::IsLegal() {
     */
     // only for kvm 
     if (!ad_ptr->EvaluateAttrString(ATTR_Image, m_info.vm_info.img_template)) {
+        LOG4CPLUS_ERROR(logger, "Parse " << ATTR_IMG << " error.");
