@@ -139,3 +139,5 @@ bool TaskEntity::IsLegal() {
         m_percentage = 0;
         return true;
     }
+
+    // task, app_info
