@@ -105,3 +105,4 @@ bool TaskEntity::IsLegal() {
     /*
     if (!ad_ptr->EvaluateAttrString(ATTR_OS, m_info.vm_info.os)) {
         LOG4CPLUS_ERROR(logger, "Parse " << ATTR_OS << " error.");
+        return false;
