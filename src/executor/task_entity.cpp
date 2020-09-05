@@ -95,3 +95,4 @@ bool TaskEntity::IsLegal() {
 
     if (!ad_ptr->EvaluateAttrNumber(ATTR_VCPU, m_info.vm_info.vcpu)) {
         LOG4CPLUS_ERROR(logger, "Parse " << ATTR_VCPU << " error.");
+        return false;
