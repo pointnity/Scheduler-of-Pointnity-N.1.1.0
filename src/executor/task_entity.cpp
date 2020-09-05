@@ -132,3 +132,4 @@ bool TaskEntity::IsLegal() {
         LOG4CPLUS_DEBUG(logger, "IS_RUN?: " << m_info.is_run );
     }
     // is_run = false, no app_info
+    if (false == m_info.is_run) {
