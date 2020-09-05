@@ -108,3 +108,4 @@ bool TaskEntity::IsLegal() {
         return false;
     }
     */
+    // only for kvm 
