@@ -99,3 +99,4 @@ bool TaskEntity::IsLegal() {
     }
     /*
     if (!ad_ptr->EvaluateAttrNumber(ATTR_PORT, m_info.vm_info.port)) {
+        LOG4CPLUS_ERROR(logger, "Parse " << ATTR_PORT << " error.");
