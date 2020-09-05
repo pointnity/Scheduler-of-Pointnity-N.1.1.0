@@ -102,3 +102,4 @@ bool TaskEntity::IsLegal() {
         LOG4CPLUS_ERROR(logger, "Parse " << ATTR_PORT << " error.");
         return false;
     }
+    /*
