@@ -97,3 +97,4 @@ bool TaskEntity::IsLegal() {
         LOG4CPLUS_ERROR(logger, "Parse " << ATTR_VCPU << " error.");
         return false;
     }
+    /*
