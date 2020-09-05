@@ -153,3 +153,4 @@ bool TaskEntity::IsLegal() {
     }
 
     //exe and argument
+    if (!ad_ptr->EvaluateAttrString(ATTR_EXE_PATH, m_info.app_info.exe)) {
