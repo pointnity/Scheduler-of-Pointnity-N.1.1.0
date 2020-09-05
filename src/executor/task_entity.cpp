@@ -86,3 +86,5 @@ bool TaskEntity::IsLegal() {
         LOG4CPLUS_ERROR(logger, "Parse " << ATTR_MEMORY << " error.");
         return false;
     }
+
+    // task vm_info
