@@ -112,3 +112,4 @@ bool TaskEntity::IsLegal() {
     if (!ad_ptr->EvaluateAttrString(ATTR_Image, m_info.vm_info.img_template)) {
         LOG4CPLUS_ERROR(logger, "Parse " << ATTR_IMG << " error.");
         return false;
+    }
