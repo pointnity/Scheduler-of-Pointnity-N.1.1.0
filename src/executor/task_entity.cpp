@@ -107,3 +107,4 @@ bool TaskEntity::IsLegal() {
         LOG4CPLUS_ERROR(logger, "Parse " << ATTR_OS << " error.");
         return false;
     }
+    */
