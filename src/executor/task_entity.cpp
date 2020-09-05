@@ -136,3 +136,4 @@ bool TaskEntity::IsLegal() {
         // only create vm, not install or run app
         m_id = m_info.id;
         m_state = TaskEntityState::TASKENTITY_WAITING;
+        m_percentage = 0;
