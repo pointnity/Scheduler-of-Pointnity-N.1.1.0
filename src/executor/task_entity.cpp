@@ -122,3 +122,4 @@ bool TaskEntity::IsLegal() {
     if (!ad_ptr->EvaluateAttrNumber(ATTR_VNC_PORT, m_info.vm_info.vnc_port)) {
         LOG4CPLUS_ERROR(logger, "Parse " << ATTR_VNC_PORT << " error.");
         return false;
+    }
