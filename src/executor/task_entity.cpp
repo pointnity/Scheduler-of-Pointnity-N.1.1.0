@@ -192,3 +192,5 @@ bool TaskEntity::SetPercentage(const double percentage) {
     m_percentage = percentage;
     return true;
 }
+
+void TaskEntity::TaskStarting() {
