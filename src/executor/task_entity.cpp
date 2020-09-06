@@ -219,3 +219,4 @@ void TaskEntity::TaskRunning() {
     if(FLAGS_debug) {
         LOG4CPLUS_INFO(logger, "Task has running, job_id:" << m_id.job_id << ", task_id:" << m_id.task_id);
     }
+}
