@@ -160,3 +160,4 @@ bool TaskEntity::IsLegal() {
     m_info.vm_info.ip = IPPoolI::Instance()->GetAvailIp();
     m_id = m_info.id;
     return true;
+}
