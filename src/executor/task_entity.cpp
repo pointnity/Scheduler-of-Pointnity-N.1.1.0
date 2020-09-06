@@ -185,3 +185,6 @@ bool TaskEntity::SetState(const TaskEntityState::type state) {
     m_state = state;
     return true;
 }
+
+
+bool TaskEntity::SetPercentage(const double percentage) {
