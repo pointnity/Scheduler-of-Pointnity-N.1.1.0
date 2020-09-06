@@ -172,3 +172,5 @@ double TaskEntity::GetPercentage() {
     ReadLocker locker(m_lock);
     return m_percentage;
 }
+
+bool TaskEntity::SetStates(const TaskEntityState::type state, const double percentage) {
