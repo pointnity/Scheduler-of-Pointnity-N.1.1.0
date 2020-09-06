@@ -207,3 +207,4 @@ void TaskEntity::TaskRunning() {
     if(m_state != TaskEntityState::TASKENTITY_RUNNING) {
         try {
             Proxy<JobsManagerClient> proxy = RpcClient<JobsManagerClient>::GetProxy(FLAGS_jobs_manager_endpoint);
+            proxy().TaskStarted(m_id.job_id, m_id.task_id);
