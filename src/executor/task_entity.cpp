@@ -212,3 +212,5 @@ void TaskEntity::TaskRunning() {
               LOG4CPLUS_ERROR(logger, "Update running of task state to JM error: " << tx.what());
             } 	
     }
+
+    //update task state
