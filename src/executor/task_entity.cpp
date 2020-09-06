@@ -190,3 +190,4 @@ bool TaskEntity::SetState(const TaskEntityState::type state) {
 bool TaskEntity::SetPercentage(const double percentage) {
     WriteLocker locker(m_lock);
     m_percentage = percentage;
+    return true;
