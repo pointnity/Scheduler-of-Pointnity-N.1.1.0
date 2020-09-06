@@ -210,3 +210,4 @@ void TaskEntity::TaskRunning() {
             proxy().TaskStarted(m_id.job_id, m_id.task_id);
             } catch (TException &tx) {
               LOG4CPLUS_ERROR(logger, "Update running of task state to JM error: " << tx.what());
+            } 	
