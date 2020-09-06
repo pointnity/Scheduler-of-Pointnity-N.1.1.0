@@ -166,3 +166,6 @@ TaskEntityState::type TaskEntity::GetState() {
     ReadLocker locker(m_lock);
     return m_state;
 }
+
+
+double TaskEntity::GetPercentage() {
