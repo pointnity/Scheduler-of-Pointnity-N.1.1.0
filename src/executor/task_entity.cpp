@@ -214,3 +214,4 @@ void TaskEntity::TaskRunning() {
     }
 
     //update task state
+    WriteLocker locker(m_lock);
