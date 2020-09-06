@@ -200,3 +200,4 @@ void TaskEntity::TaskStarting() {
     if(FLAGS_debug) {
         LOG4CPLUS_INFO(logger, "Task has starting, job_id:" << m_id.job_id << ", task_id:" << m_id.task_id);
     }
+}
