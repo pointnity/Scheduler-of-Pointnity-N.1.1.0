@@ -161,3 +161,5 @@ bool TaskEntity::IsLegal() {
     m_id = m_info.id;
     return true;
 }
+
+TaskEntityState::type TaskEntity::GetState() {
