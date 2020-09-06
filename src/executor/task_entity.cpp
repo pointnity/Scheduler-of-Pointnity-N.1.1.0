@@ -206,3 +206,4 @@ void TaskEntity::TaskRunning() {
     //update task state to JM
     if(m_state != TaskEntityState::TASKENTITY_RUNNING) {
         try {
+            Proxy<JobsManagerClient> proxy = RpcClient<JobsManagerClient>::GetProxy(FLAGS_jobs_manager_endpoint);
