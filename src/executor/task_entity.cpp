@@ -156,3 +156,4 @@ bool TaskEntity::IsLegal() {
     if (!ad_ptr->EvaluateAttrString(ATTR_EXE_PATH, m_info.app_info.exe)) {
         return false;
     }
+    //get ip from ip_pool
