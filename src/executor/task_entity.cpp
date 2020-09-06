@@ -194,3 +194,4 @@ bool TaskEntity::SetPercentage(const double percentage) {
 }
 
 void TaskEntity::TaskStarting() {
+    WriteLocker locker(m_lock);
