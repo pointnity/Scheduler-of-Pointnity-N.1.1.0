@@ -182,3 +182,4 @@ bool TaskEntity::SetStates(const TaskEntityState::type state, const double perce
 
 bool TaskEntity::SetState(const TaskEntityState::type state) {
     WriteLocker locker(m_lock);
+    m_state = state;
