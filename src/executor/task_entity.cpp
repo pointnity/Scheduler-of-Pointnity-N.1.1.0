@@ -157,3 +157,4 @@ bool TaskEntity::IsLegal() {
         return false;
     }
     //get ip from ip_pool
+    m_info.vm_info.ip = IPPoolI::Instance()->GetAvailIp();
