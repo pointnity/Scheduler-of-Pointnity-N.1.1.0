@@ -204,3 +204,4 @@ void TaskEntity::TaskStarting() {
 
 void TaskEntity::TaskRunning() {
     //update task state to JM
+    if(m_state != TaskEntityState::TASKENTITY_RUNNING) {
