@@ -258,3 +258,5 @@ void TaskEntity::TaskFailed() {
               LOG4CPLUS_ERROR(logger, "Update failed of task state to JM error: " << tx.what());
             }
     }
+
+    //update task state
