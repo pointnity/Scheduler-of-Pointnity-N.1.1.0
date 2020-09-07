@@ -254,3 +254,4 @@ void TaskEntity::TaskFailed() {
         try {
             Proxy<JobsManagerClient> proxy = RpcClient<JobsManagerClient>::GetProxy(FLAGS_jobs_manager_endpoint);
             proxy().TaskFailed(m_id.job_id, m_id.task_id);
+            } catch (TException &tx) {
