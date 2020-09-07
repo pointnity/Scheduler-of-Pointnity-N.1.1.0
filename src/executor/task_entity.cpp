@@ -234,3 +234,4 @@ void TaskEntity::TaskFinished() {
 
     //update task state
     WriteLocker locker(m_lock);
+    m_state = TaskEntityState::TASKENTITY_FINISHED;
