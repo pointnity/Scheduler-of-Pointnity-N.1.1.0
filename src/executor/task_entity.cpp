@@ -256,3 +256,4 @@ void TaskEntity::TaskFailed() {
             proxy().TaskFailed(m_id.job_id, m_id.task_id);
             } catch (TException &tx) {
               LOG4CPLUS_ERROR(logger, "Update failed of task state to JM error: " << tx.what());
+            }
