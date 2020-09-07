@@ -246,3 +246,4 @@ void TaskEntity::TaskFinished() {
         // Push event into Queue
         EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
     }
+}
