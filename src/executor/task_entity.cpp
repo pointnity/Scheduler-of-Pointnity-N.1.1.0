@@ -238,3 +238,4 @@ void TaskEntity::TaskFinished() {
     m_percentage = 100.0;
 
     if(FLAGS_debug) {
+        LOG4CPLUS_INFO(logger, "Task has finished, job_id:" << m_id.job_id << ", task_id:" << m_id.task_id);
