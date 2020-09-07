@@ -222,3 +222,4 @@ void TaskEntity::TaskRunning() {
 }
 
 void TaskEntity::TaskFinished() {
+    //update task state to JM
