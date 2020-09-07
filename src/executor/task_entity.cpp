@@ -249,3 +249,4 @@ void TaskEntity::TaskFinished() {
 }
 
 void TaskEntity::TaskFailed() {
+    //update task state to JM
