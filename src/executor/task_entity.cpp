@@ -224,3 +224,4 @@ void TaskEntity::TaskRunning() {
 void TaskEntity::TaskFinished() {
     //update task state to JM
     if(m_state != TaskEntityState::TASKENTITY_FINISHED) {
+        try {
