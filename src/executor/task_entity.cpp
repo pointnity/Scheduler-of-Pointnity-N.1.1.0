@@ -241,3 +241,4 @@ void TaskEntity::TaskFinished() {
         LOG4CPLUS_INFO(logger, "Task has finished, job_id:" << m_id.job_id << ", task_id:" << m_id.task_id);
     } else { 
         //kill task and vm
+        //new event
