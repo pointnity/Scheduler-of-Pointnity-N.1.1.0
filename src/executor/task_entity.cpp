@@ -269,3 +269,110 @@ void TaskEntity::TaskFailed() {
     } else {
         //kill task and vm
         //new event
+        EventPtr event(new KillActionEvent(m_id));
+        // Push event into Queue
+        EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
+    }
+}
+
+void TaskEntity::TaskMissed() {
+    //update task state to JM
+    if(m_state != TaskEntityState::TASKENTITY_MISSED) {
+        try {
+            Proxy<JobsManagerClient> proxy = RpcClient<JobsManagerClient>::GetProxy(FLAGS_jobs_manager_endpoint);
+            proxy().TaskMissed(m_id.job_id, m_id.task_id);
+            } catch (TException &tx) {
+              LOG4CPLUS_ERROR(logger, "Update missed of task state to JM error: " << tx.what());
+            }
+    }
+  
+    //update task state
+    WriteLocker locker(m_lock);
+    m_state = TaskEntityState::TASKENTITY_MISSED;
+    m_percentage = 0.0;
+
+    if(FLAGS_debug) {
+        LOG4CPLUS_INFO(logger, "Task has missed, job_id:" << m_id.job_id << ", task_id:" << m_id.task_id);
+    } else {
+        //kill task and vm
+        //new event
+        EventPtr event(new KillActionEvent(m_id));
+        // Push event into Queue
+        EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
+    }
+}
+
+void TaskEntity::TaskTimeout() {
+    //update task state to JM
+    try {
+            Proxy<JobsManagerClient> proxy = RpcClient<JobsManagerClient>::GetProxy(FLAGS_jobs_manager_endpoint);
+            proxy().TaskTimeout(m_id.job_id, m_id.task_id);
+         } catch (TException &tx) {
+              LOG4CPLUS_ERROR(logger, "Update timeout of task state to JM error: " << tx.what());
+         }
+
+    //update task state
+    WriteLocker locker(m_lock);
+    m_state = TaskEntityState::TASKENTITY_FAILED;
+    m_percentage = 0.0;
+
+    if(FLAGS_debug) {
+        LOG4CPLUS_INFO(logger, "Task has timeout, job_id:" << m_id.job_id << ", task_id:" << m_id.task_id);
+    } else {
+        //kill task and vm
+        //new event
+        EventPtr event(new KillActionEvent(m_id));
+        // Push event into Queue
+        EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
+    }
+}
+
+
+// TODO
+bool TaskEntity::Start() {
+    //WriteLocker locker(m_lock);
+    // LOG4CPLUS_DEBUG(logger, "Begin to start the task, job_id:" << m_id.job_id << ", task_id:" << m_id.task_id);
+
+    if (GetVMType() == VMType::VM_KVM) {
+        // init vm
+        VMPtr ptr(new KVM(m_info));
+        // insert VMPtr into VMPool
+        VMPoolI::Instance()->Insert(ptr);
+    } else if (GetVMType() == VMType::VM_LXC) {
+        // init vm
+        VMPtr ptr(new LXC(m_info));
+        // insert VMPtr into VMPool
+        VMPoolI::Instance()->Insert(ptr);
+    } else {
+        LOG4CPLUS_ERROR(logger, "Failed to start task, job_id:" << m_id.job_id << ", task_id:" << m_id.task_id 
+                        << ", because there is no the VMType " << m_info.type);
+        return false;
+    }
+    // update task  state into starting
+    // new startActionEvent
+    EventPtr event(new StartingTaskEvent(m_id));
+    // Push event into Queue
+    EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
+
+    return true;
+}
+
+bool TaskEntity::Stop() {
+    if (!VMPoolI::Instance()->StopVMByTaskID(m_id)) {
+        LOG4CPLUS_ERROR(logger, "Failed to stop task, job_id:" << m_id.job_id << ", task_id" << m_id.task_id);
+        return false;
+    }
+    //TaskStoped();
+    return true;
+}
+
+bool TaskEntity::Kill() {
+    if (!VMPoolI::Instance()->KillVMByTaskID(m_id)) {
+        LOG4CPLUS_ERROR(logger, "Failed to kill task, job_id:" << m_id.job_id << ", task_id" << m_id.task_id);
+        return false;
+    }
+    //TaskFinished();
+    //reback ip to ip_pool
+    IPPoolI::Instance()->ReleaseIp(m_info.vm_info.ip);
+    return true;
+}
