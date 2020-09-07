@@ -255,3 +255,4 @@ void TaskEntity::TaskFailed() {
             Proxy<JobsManagerClient> proxy = RpcClient<JobsManagerClient>::GetProxy(FLAGS_jobs_manager_endpoint);
             proxy().TaskFailed(m_id.job_id, m_id.task_id);
             } catch (TException &tx) {
+              LOG4CPLUS_ERROR(logger, "Update failed of task state to JM error: " << tx.what());
