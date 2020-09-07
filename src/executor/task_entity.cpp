@@ -230,3 +230,4 @@ void TaskEntity::TaskFinished() {
             } catch (TException &tx) {
                 LOG4CPLUS_ERROR(logger, "Update finished of task state to JM error: " << tx.what());
             }
+    }
