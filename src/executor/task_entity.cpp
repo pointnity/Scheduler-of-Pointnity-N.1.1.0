@@ -242,3 +242,4 @@ void TaskEntity::TaskFinished() {
     } else { 
         //kill task and vm
         //new event
+        EventPtr event(new KillActionEvent(m_id));
