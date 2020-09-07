@@ -220,3 +220,5 @@ void TaskEntity::TaskRunning() {
         LOG4CPLUS_INFO(logger, "Task has running, job_id:" << m_id.job_id << ", task_id:" << m_id.task_id);
     }
 }
+
+void TaskEntity::TaskFinished() {
