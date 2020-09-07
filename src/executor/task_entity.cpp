@@ -236,3 +236,5 @@ void TaskEntity::TaskFinished() {
     WriteLocker locker(m_lock);
     m_state = TaskEntityState::TASKENTITY_FINISHED;
     m_percentage = 100.0;
+
+    if(FLAGS_debug) {
