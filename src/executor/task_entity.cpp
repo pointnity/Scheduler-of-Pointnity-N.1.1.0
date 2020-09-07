@@ -247,3 +247,5 @@ void TaskEntity::TaskFinished() {
         EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
     }
 }
+
+void TaskEntity::TaskFailed() {
