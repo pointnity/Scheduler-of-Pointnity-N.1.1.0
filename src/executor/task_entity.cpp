@@ -243,3 +243,4 @@ void TaskEntity::TaskFinished() {
         //kill task and vm
         //new event
         EventPtr event(new KillActionEvent(m_id));
+        // Push event into Queue
