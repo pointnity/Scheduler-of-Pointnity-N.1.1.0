@@ -226,3 +226,4 @@ void TaskEntity::TaskFinished() {
     if(m_state != TaskEntityState::TASKENTITY_FINISHED) {
         try {
                 Proxy<JobsManagerClient> proxy = RpcClient<JobsManagerClient>::GetProxy(FLAGS_jobs_manager_endpoint);
+                proxy().TaskFinished(m_id.job_id, m_id.task_id);
