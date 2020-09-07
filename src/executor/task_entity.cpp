@@ -244,3 +244,4 @@ void TaskEntity::TaskFinished() {
         //new event
         EventPtr event(new KillActionEvent(m_id));
         // Push event into Queue
+        EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
