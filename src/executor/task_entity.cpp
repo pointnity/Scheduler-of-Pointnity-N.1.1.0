@@ -253,3 +253,4 @@ void TaskEntity::TaskFailed() {
     if(m_state != TaskEntityState::TASKENTITY_FAILED) {
         try {
             Proxy<JobsManagerClient> proxy = RpcClient<JobsManagerClient>::GetProxy(FLAGS_jobs_manager_endpoint);
+            proxy().TaskFailed(m_id.job_id, m_id.task_id);
