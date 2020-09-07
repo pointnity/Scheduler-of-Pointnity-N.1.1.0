@@ -263,3 +263,9 @@ void TaskEntity::TaskFailed() {
     WriteLocker locker(m_lock);
     m_state = TaskEntityState::TASKENTITY_FAILED;
     m_percentage = 0.0;
+
+    if(FLAGS_debug) {
+        LOG4CPLUS_INFO(logger, "Task has failed, job_id:" << m_id.job_id << ", task_id:" << m_id.task_id);
+    } else {
+        //kill task and vm
+        //new event
