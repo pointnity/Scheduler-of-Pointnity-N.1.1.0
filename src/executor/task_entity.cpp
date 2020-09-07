@@ -251,3 +251,4 @@ void TaskEntity::TaskFinished() {
 void TaskEntity::TaskFailed() {
     //update task state to JM
     if(m_state != TaskEntityState::TASKENTITY_FAILED) {
+        try {
