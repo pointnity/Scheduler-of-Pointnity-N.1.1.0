@@ -72,3 +72,6 @@ private:
     RWLock m_lock;
     double m_percentage;
 };
+
+typedef shared_ptr<TaskEntity> TaskPtr;
+
