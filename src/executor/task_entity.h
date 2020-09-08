@@ -25,3 +25,5 @@ public:
     bool IsLegal();
 
     ~TaskEntity() {} 
+
+    TaskID GetID() const {
