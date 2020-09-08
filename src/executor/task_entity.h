@@ -75,3 +75,4 @@ private:
 
 typedef shared_ptr<TaskEntity> TaskPtr;
 
+#endif  
