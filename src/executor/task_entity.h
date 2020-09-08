@@ -29,3 +29,5 @@ public:
     TaskID GetID() const {
         return m_id;
     }
+
+    VMType::type GetVMType() const {
