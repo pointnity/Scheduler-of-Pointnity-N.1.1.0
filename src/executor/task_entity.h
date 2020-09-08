@@ -63,3 +63,5 @@ public:
     bool Stop();
 
     bool Kill();
+
+private:
