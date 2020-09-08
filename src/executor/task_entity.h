@@ -23,3 +23,5 @@ public:
     explicit TaskEntity(const string& task_info);
 
     bool IsLegal();
+
+    ~TaskEntity() {} 
