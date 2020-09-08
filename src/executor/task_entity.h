@@ -70,3 +70,4 @@ private:
     TaskInfo m_info;               // from executor/type.h
     TaskEntityState::type m_state; // from proxy/executor/executor.thrift
     RWLock m_lock;
+    double m_percentage;
