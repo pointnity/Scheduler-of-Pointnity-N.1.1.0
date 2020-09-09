@@ -31,3 +31,5 @@ void TaskEntityPool::PrintAll() {
     }    
     printf("**************************************\n");
 }
+
+bool TaskEntityPool::Find(const TaskPtr& ptr) {
