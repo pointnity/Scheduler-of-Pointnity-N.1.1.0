@@ -40,3 +40,4 @@ bool TaskEntityPool::Find(const TaskPtr& ptr) {
 
 void TaskEntityPool::Insert(const TaskPtr& ptr) {
     m_task_map[ptr->GetID()] = ptr;
+}
