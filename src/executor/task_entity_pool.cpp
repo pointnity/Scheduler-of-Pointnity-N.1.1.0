@@ -80,3 +80,4 @@ void TaskEntityPool::StartTask() {
     for (map<TaskID, TaskPtr>::iterator it = m_task_map.begin();
          it != m_task_map.end(); ++it) {
         if ((it->second)->GetState() == TaskEntityState::TASKENTITY_WAITING) {
+            if (false == (it->second)->Start()) {
