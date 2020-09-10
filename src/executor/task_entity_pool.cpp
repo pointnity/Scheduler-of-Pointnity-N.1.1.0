@@ -68,3 +68,4 @@ bool TaskEntityPool::FindToDo(const TaskID id, TaskFunc func) {
         // func needs to be assigned
         func((it->second).get());
         return true;
+    }
