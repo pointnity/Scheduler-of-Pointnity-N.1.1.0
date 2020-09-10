@@ -115,3 +115,4 @@ bool TaskEntityPool::StartTaskByID(const TaskID id) {
 	// new failed task Event
         EventPtr event(new FailedTaskEvent(id));
         // Push event into Queue
+        EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
