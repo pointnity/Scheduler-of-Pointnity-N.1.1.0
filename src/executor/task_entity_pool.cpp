@@ -92,4 +92,4 @@ void TaskEntityPool::StartTask() {
 }
 
 // start task by event
-
+bool TaskEntityPool::StartTaskByID(const TaskID id) {
