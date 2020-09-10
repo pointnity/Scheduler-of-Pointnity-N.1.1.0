@@ -132,3 +132,5 @@ bool TaskEntityPool::KillTaskByID(const TaskID id) {
     // PrintAll();
 
     // get task
+    TaskPtr ptr = GetTaskPtr(id);
+
