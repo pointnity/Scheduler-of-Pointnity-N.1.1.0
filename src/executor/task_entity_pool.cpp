@@ -129,3 +129,4 @@ bool TaskEntityPool::StartTaskByID(const TaskID id) {
 // kill a taskEntity, and delete taskPtr from m_task_map
 bool TaskEntityPool::KillTaskByID(const TaskID id) {
     // TODO test
+    // PrintAll();
