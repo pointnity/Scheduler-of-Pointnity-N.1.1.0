@@ -121,3 +121,4 @@ bool TaskEntityPool::StartTaskByID(const TaskID id) {
     if(FLAGS_debug) {
         LOG4CPLUS_INFO(logger, "start task successfully, job_id:" << id.job_id << ", task_id:" << id.task_id);
     }
+    return true;
