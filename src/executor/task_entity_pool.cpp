@@ -78,3 +78,4 @@ bool TaskEntityPool::FindToDo(const TaskID id, TaskFunc func) {
 void TaskEntityPool::StartTask() {
     ReadLocker locker(m_lock);
     for (map<TaskID, TaskPtr>::iterator it = m_task_map.begin();
+         it != m_task_map.end(); ++it) {
