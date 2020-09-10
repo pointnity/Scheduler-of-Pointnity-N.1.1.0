@@ -126,3 +126,4 @@ bool TaskEntityPool::StartTaskByID(const TaskID id) {
 
 
 // bind a function, then invoke it with FindToDo
+// kill a taskEntity, and delete taskPtr from m_task_map
