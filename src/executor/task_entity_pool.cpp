@@ -123,3 +123,6 @@ bool TaskEntityPool::StartTaskByID(const TaskID id) {
     }
     return true;
 }
+
+
+// bind a function, then invoke it with FindToDo
