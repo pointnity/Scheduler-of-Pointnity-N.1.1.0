@@ -28,3 +28,4 @@ void TaskEntityPool::PrintAll() {
     for (map<TaskID, TaskPtr>::iterator it = m_task_map.begin();
          it != m_task_map.end(); ++it) {
         printf("taskentity job_id:%d, task_id:%d\n", (it->first).job_id, (it->first).task_id);
+    }    
