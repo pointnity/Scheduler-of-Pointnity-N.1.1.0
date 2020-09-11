@@ -35,3 +35,4 @@ void TaskEntityPool::PrintAll() {
 bool TaskEntityPool::Find(const TaskPtr& ptr) {
     // ptr->GetID() is TaskID(job_id, task_id)
     map<TaskID, TaskPtr>::iterator it = m_task_map.find(ptr->GetID());
+    return it != m_task_map.end();
