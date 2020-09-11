@@ -47,3 +47,9 @@ bool TaskEntityPool::InsertIfAbsent(const TaskPtr& ptr) {
     if(false == Find(ptr)) {
 	Insert(ptr);
     } else {
+	return false;
+    }
+}
+
+void TaskEntityPool::Delete(const TaskID id ) {
+    WriteLocker locker(m_lock);
