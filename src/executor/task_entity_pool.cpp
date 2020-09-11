@@ -33,3 +33,4 @@ void TaskEntityPool::PrintAll() {
 }
 
 bool TaskEntityPool::Find(const TaskPtr& ptr) {
+    // ptr->GetID() is TaskID(job_id, task_id)
