@@ -23,3 +23,4 @@ DECLARE_bool(debug);
 // TODO just for test
 void TaskEntityPool::PrintAll() {
     ReadLocker locker(m_lock);
+    printf("task_entity_pool.cpp\n");
