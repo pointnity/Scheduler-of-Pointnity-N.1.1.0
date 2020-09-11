@@ -25,3 +25,4 @@ void TaskEntityPool::PrintAll() {
     ReadLocker locker(m_lock);
     printf("task_entity_pool.cpp\n");
     printf("************ Task Entity ************\n");
+    for (map<TaskID, TaskPtr>::iterator it = m_task_map.begin();
