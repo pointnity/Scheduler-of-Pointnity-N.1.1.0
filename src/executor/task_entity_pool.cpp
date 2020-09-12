@@ -152,3 +152,4 @@ bool TaskEntityPool::KillTaskByID(const TaskID id) {
 bool TaskEntityPool::StopTaskByID(const TaskID id) {
     // get task
     TaskPtr ptr = GetTaskPtr(id);
+    TaskPtr ptr = GetTaskPtr(id);
