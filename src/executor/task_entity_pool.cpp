@@ -144,3 +144,4 @@ bool TaskEntityPool::KillTaskByID(const TaskID id) {
     }
 
     // delete task from pool(map)
+    // Delete(id);
