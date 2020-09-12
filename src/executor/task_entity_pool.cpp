@@ -147,3 +147,4 @@ bool TaskEntityPool::KillTaskByID(const TaskID id) {
     // Delete(id);
     // LOG4CPLUS_INFO(logger, "Kill task successfully, job_id:" << id.job_id << ", task_id:" << id.task_id);
     return true;
+}
