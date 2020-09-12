@@ -103,3 +103,4 @@ bool TaskEntityPool::StartTaskByID(const TaskID id) {
 	LOG4CPLUS_ERROR(logger, "Task state is not warting, job_id:" << id.job_id << ", task_id:" << id.task_id);
         // new failed task Event
         EventPtr event(new FailedTaskEvent(id));
+        // Push event into Queue
