@@ -110,3 +110,4 @@ bool TaskEntityPool::StartTaskByID(const TaskID id) {
 
     // start task
     if (!(ptr->Start())) {
+        LOG4CPLUS_ERROR(logger, "Failed to start task, job_id:" << id.job_id << ", task_id:" << id.task_id);
