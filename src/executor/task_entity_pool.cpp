@@ -109,3 +109,4 @@ bool TaskEntityPool::StartTaskByID(const TaskID id) {
     }
 
     // start task
+    if (!(ptr->Start())) {
