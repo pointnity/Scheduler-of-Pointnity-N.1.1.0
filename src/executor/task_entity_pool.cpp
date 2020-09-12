@@ -154,3 +154,4 @@ bool TaskEntityPool::StopTaskByID(const TaskID id) {
     TaskPtr ptr = GetTaskPtr(id);
     TaskPtr ptr = GetTaskPtr(id);
     if (!ptr) {
+        LOG4CPLUS_ERROR(logger, "Failed to find the task, can't stop task, job_id:" << id.job_id << ", task_id:" << id.task_id);
