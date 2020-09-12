@@ -63,3 +63,4 @@ bool TaskEntityPool::FindToDo(const TaskID id, TaskFunc func) {
     // find the task
     map<TaskID, TaskPtr>::iterator it = m_task_map.find(id);
     if (it != m_task_map.end()) {
+        // do sth by func, func is a function pointer
