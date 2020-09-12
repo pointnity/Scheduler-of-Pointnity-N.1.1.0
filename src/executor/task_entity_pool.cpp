@@ -84,3 +84,4 @@ void TaskEntityPool::StartTask() {
                 // task failed
                 (it->second)->TaskFailed();
                 LOG4CPLUS_ERROR(logger, "Failed to start the task, job_id:" << (it->second)->GetID().job_id << ", task_id:" << (it->second)->GetID().task_id);
+            } else
