@@ -76,3 +76,4 @@ bool TaskEntityPool::FindToDo(const TaskID id, TaskFunc func) {
 // other taskentitys will be started periodically
 void TaskEntityPool::StartTask() {
     ReadLocker locker(m_lock);
+    for (map<TaskID, TaskPtr>::iterator it = m_task_map.begin();
