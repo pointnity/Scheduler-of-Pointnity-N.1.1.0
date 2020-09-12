@@ -94,3 +94,4 @@ void TaskEntityPool::StartTask() {
 bool TaskEntityPool::StartTaskByID(const TaskID id) {
     // get task
     TaskPtr ptr = GetTaskPtr(id);
+    if (!ptr) {
