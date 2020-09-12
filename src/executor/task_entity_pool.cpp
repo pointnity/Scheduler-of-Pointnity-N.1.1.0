@@ -71,3 +71,6 @@ bool TaskEntityPool::FindToDo(const TaskID id, TaskFunc func) {
 
     return false;    
 }
+
+// travesal m_task_map by order, start the first waiting taskEntity
+// other taskentitys will be started periodically
