@@ -107,3 +107,5 @@ bool TaskEntityPool::StartTaskByID(const TaskID id) {
         EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
         return false;
     }
+
+    // start task
