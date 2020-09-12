@@ -136,3 +136,5 @@ bool TaskEntityPool::KillTaskByID(const TaskID id) {
         LOG4CPLUS_ERROR(logger, "Failed to find the task, can't kill task, job_id:" << id.job_id << ", task_id:" << id.task_id);
         return false;
     }
+
+    // kill task
