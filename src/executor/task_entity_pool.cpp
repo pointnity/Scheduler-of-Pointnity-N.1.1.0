@@ -99,3 +99,4 @@ bool TaskEntityPool::StartTaskByID(const TaskID id) {
         return false;
     }
     //check tast state
+    if (ptr->GetState() != TaskEntityState::TASKENTITY_WAITING) {
