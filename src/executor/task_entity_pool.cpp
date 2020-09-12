@@ -81,3 +81,4 @@ void TaskEntityPool::StartTask() {
         if ((it->second)->GetState() == TaskEntityState::TASKENTITY_WAITING) {
             if (false == (it->second)->Start()) {
                 WriteLocker locker(m_lock);
+                // task failed
