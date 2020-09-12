@@ -159,3 +159,4 @@ bool TaskEntityPool::StopTaskByID(const TaskID id) {
     }
 
     // stop task
+    if (!(ptr->Stop())) {
