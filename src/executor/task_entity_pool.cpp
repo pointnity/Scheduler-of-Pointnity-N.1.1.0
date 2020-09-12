@@ -132,3 +132,4 @@ bool TaskEntityPool::KillTaskByID(const TaskID id) {
 
     // get task
     TaskPtr ptr = GetTaskPtr(id);
+    if (!ptr) {
