@@ -26,3 +26,5 @@ class TaskEntityPool {
 public:
     // function pointer, from std::tr1::function
     typedef function<void(TaskEntity*)> TaskFunc;
+
+    // TODO print all
