@@ -40,3 +40,5 @@ public:
     void Delete(const TaskID id);
 
     bool InsertIfAbsent(const TaskPtr& ptr);
+
+    bool FindToDo(const TaskID id, TaskFunc func);
