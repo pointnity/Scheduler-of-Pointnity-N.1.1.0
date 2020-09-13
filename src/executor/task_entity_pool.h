@@ -47,3 +47,5 @@ public:
     void StartTask();
 
     bool StartTaskByID(const TaskID id);
+
+    bool StopTaskByID(const TaskID id);
