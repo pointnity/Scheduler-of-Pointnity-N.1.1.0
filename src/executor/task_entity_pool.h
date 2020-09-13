@@ -11,3 +11,5 @@
 // tr1 is lib of c++ std
 #include <tr1/memory>
 #include <tr1/functional>
+
+#include "common/clynn/rwlock.h"
