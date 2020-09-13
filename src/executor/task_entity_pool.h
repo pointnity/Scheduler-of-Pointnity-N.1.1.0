@@ -59,3 +59,5 @@ private:
     map<TaskID, TaskPtr> m_task_map;
     RWLock m_lock;
 };
+
+typedef Singleton<TaskEntityPool> TaskPoolI;
