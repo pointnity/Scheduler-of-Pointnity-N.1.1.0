@@ -24,3 +24,4 @@ using clynn::RWLock;
 
 class TaskEntityPool {
 public:
+    // function pointer, from std::tr1::function
