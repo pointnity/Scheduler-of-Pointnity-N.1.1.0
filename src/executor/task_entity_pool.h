@@ -45,3 +45,5 @@ public:
 
     // @brief: find a waiting taskentity, and start it
     void StartTask();
+
+    bool StartTaskByID(const TaskID id);
