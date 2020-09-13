@@ -42,3 +42,6 @@ public:
     bool InsertIfAbsent(const TaskPtr& ptr);
 
     bool FindToDo(const TaskID id, TaskFunc func);
+
+    // @brief: find a waiting taskentity, and start it
+    void StartTask();
