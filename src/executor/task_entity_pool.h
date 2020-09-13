@@ -55,3 +55,4 @@ public:
     TaskPtr GetTaskPtr(const TaskID id);
 
 private:
+    // <TaskID(job_id, task_id), executor pointer>
