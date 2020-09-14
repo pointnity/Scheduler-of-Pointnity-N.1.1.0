@@ -25,3 +25,5 @@ VMType::type VM::GetVMType() const {
 TaskInfo VM::GetTaskInfo() const {
     return m_info;
 }
+
+// VMState::type VM::GetState() {
