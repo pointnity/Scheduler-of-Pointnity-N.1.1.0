@@ -17,3 +17,5 @@ TaskID VM::GetID() const {
 string VM::GetName() const {
     return m_name;
 }
+
+VMType::type VM::GetVMType() const {
