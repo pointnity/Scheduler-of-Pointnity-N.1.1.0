@@ -7,3 +7,4 @@
 #include "executor/vm.h"
 
 using clynn::WriteLocker;
+using clynn::ReadLocker;
