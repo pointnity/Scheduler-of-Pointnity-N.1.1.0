@@ -30,3 +30,5 @@ TaskInfo VM::GetTaskInfo() const {
 //    ReadLocker locker(m_lock);
 //    return m_state;
 // }
+
+TaskPtr VM::GetTaskPtr() {
