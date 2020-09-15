@@ -21,3 +21,5 @@ string VM::GetName() const {
 VMType::type VM::GetVMType() const {
     return m_type;
 }
+
+TaskInfo VM::GetTaskInfo() const {
