@@ -37,3 +37,6 @@ TaskPtr VM::GetTaskPtr() {
 
 bool VM::IsRun() const {
     return m_info.is_run;
+}
+
+string VM::GetAppName() const {
