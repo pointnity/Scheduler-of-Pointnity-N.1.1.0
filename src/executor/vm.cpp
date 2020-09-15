@@ -46,3 +46,7 @@ string VM::GetAppName() const {
     if ("" == app)
         return "no app name";
     return app;
+}
+
+//void VM::SetState(VMState::type state) {
+//    WriteLocker locker(m_lock);
