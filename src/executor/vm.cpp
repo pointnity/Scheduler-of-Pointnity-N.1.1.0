@@ -13,4 +13,5 @@ using clynn::ReadLocker;
 TaskID VM::GetID() const {
     return m_id;
 }
-}
+
+string VM::GetName() const {
