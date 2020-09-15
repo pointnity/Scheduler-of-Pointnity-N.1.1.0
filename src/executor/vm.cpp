@@ -16,3 +16,4 @@ TaskID VM::GetID() const {
 
 string VM::GetName() const {
     return m_name;
+}
