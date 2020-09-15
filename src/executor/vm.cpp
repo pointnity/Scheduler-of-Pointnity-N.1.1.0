@@ -33,3 +33,4 @@ TaskInfo VM::GetTaskInfo() const {
 
 TaskPtr VM::GetTaskPtr() {
     return TaskPoolI::Instance()->GetTaskPtr(m_id);
+}
