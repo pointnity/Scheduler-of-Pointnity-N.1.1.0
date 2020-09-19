@@ -43,3 +43,4 @@ public:
     TaskPtr GetTaskPtr();
 
     //RWLock& GetLock() {
+    //    return m_lock;
