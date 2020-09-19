@@ -31,3 +31,5 @@ public:
     ~VM() {}
 
     TaskID GetID() const;
+
+    string GetName() const;
