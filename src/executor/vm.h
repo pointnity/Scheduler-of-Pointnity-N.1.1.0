@@ -44,3 +44,4 @@ public:
 
     //RWLock& GetLock() {
     //    return m_lock;
+    // }
