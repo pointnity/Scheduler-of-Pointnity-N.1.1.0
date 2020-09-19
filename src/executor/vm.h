@@ -69,3 +69,5 @@ public:
     virtual bool Stop() = 0;
 
     virtual bool Kill() = 0;
+
+    //virtual VMState::type GetState() = 0;
