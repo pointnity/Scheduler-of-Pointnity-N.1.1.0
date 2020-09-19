@@ -51,3 +51,5 @@ public:
     bool IsRun() const;
 
     string GetAppName() const;
+
+    // void SetState(VMState::type state);
