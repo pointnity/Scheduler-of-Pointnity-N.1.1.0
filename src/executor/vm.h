@@ -57,3 +57,4 @@ public:
     void SetNameByString(string name);
 
     // key function
+    // virtual void SetName();
