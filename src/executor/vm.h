@@ -33,3 +33,5 @@ public:
     TaskID GetID() const;
 
     string GetName() const;
+
+    VMType::type GetVMType() const;
