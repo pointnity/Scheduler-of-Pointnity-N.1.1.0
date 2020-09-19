@@ -37,3 +37,5 @@ public:
     VMType::type GetVMType() const;
 
     TaskInfo GetTaskInfo() const;
+
+    // VMState::type GetState();
