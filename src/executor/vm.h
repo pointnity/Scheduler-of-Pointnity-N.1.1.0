@@ -65,3 +65,5 @@ public:
     //virtual int32_t InstallApp() = 0; // install the app 
 
     //virtual int32_t StartApp() = 0;  // start the app
+
+    virtual bool Stop() = 0;
