@@ -42,3 +42,4 @@ public:
 
     TaskPtr GetTaskPtr();
 
+    //RWLock& GetLock() {
