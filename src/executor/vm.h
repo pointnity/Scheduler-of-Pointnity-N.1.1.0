@@ -55,3 +55,5 @@ public:
     // void SetState(VMState::type state);
 
     void SetNameByString(string name);
+
+    // key function
