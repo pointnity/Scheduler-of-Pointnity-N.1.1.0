@@ -53,3 +53,5 @@ public:
     string GetAppName() const;
 
     // void SetState(VMState::type state);
+
+    void SetNameByString(string name);
