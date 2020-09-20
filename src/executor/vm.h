@@ -98,3 +98,5 @@ protected:
 };
 
 typedef shared_ptr<VM> VMPtr;
+
+#endif
