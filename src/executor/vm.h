@@ -96,3 +96,5 @@ protected:
     // int32_t m_timestamp;
     // int32_t m_time_to_death;
 };
+
+typedef shared_ptr<VM> VMPtr;
