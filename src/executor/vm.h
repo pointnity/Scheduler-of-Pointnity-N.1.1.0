@@ -89,3 +89,5 @@ private:
     // VMState::type m_state;
 protected:
     RWLock m_lock;
+
+    // hb and state
