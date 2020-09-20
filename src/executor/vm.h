@@ -86,3 +86,4 @@ private:
     string m_name;     // vm name, maybe kvm name or lxc name
     VMType::type m_type; // VM_KVM or VM_LXC
     TaskInfo m_info;   // TODO
+    // VMState::type m_state;
