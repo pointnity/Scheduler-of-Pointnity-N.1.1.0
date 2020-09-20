@@ -88,3 +88,4 @@ private:
     TaskInfo m_info;   // TODO
     // VMState::type m_state;
 protected:
+    RWLock m_lock;
