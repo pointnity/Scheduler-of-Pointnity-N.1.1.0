@@ -83,3 +83,4 @@ private:
 
 private:
     TaskID m_id;
+    string m_name;     // vm name, maybe kvm name or lxc name
