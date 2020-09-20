@@ -95,3 +95,4 @@ protected:
     // time_t m_start_time;
     // int32_t m_timestamp;
     // int32_t m_time_to_death;
+};
