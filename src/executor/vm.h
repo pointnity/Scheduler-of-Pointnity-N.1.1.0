@@ -87,3 +87,4 @@ private:
     VMType::type m_type; // VM_KVM or VM_LXC
     TaskInfo m_info;   // TODO
     // VMState::type m_state;
+protected:
