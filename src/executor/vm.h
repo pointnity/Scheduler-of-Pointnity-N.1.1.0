@@ -91,3 +91,4 @@ protected:
     RWLock m_lock;
 
     // hb and state
+    // HbVMInfo m_hb_vm_info;
