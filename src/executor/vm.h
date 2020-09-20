@@ -93,3 +93,4 @@ protected:
     // hb and state
     // HbVMInfo m_hb_vm_info;
     // time_t m_start_time;
+    // int32_t m_timestamp;
