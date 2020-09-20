@@ -79,3 +79,4 @@ public:
     // general
 
 private:
+    virtual void SetName() = 0;
