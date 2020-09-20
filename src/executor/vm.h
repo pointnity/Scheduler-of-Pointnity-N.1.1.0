@@ -84,3 +84,4 @@ private:
 private:
     TaskID m_id;
     string m_name;     // vm name, maybe kvm name or lxc name
+    VMType::type m_type; // VM_KVM or VM_LXC
