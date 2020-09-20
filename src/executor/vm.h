@@ -80,3 +80,5 @@ public:
 
 private:
     virtual void SetName() = 0;
+
+private:
