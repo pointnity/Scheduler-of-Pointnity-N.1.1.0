@@ -47,3 +47,4 @@ bool VMPool::Init() {
     }
 
     return true;
+}
