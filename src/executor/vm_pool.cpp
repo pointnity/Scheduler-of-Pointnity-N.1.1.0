@@ -36,3 +36,4 @@ bool VMPool::Init() {
     }
 
     // check lxc work dir
+    if (access(FLAGS_lxc_dir.c_str(), F_OK) == -1) {
