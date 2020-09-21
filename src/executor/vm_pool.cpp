@@ -55,3 +55,4 @@ void VMPool::PrintAll() {
     printf("vm_pool.cpp\n");
     printf("************ VMs ************\n");
     for (map<TaskID, VMPtr>::iterator it = m_vm_map.begin();
+         it != m_vm_map.end(); ++it) {
