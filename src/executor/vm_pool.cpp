@@ -33,3 +33,4 @@ bool VMPool::Init() {
            LOG4CPLUS_ERROR(logger, "Failed to create libvirt(kvm) work dir: " << FLAGS_libvirt_dir);
            return false;
         }
+    }
