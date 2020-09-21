@@ -42,3 +42,4 @@ bool VMPool::Init() {
         ret = ret >> 8;
         if (ret != 0) {
             LOG4CPLUS_ERROR(logger, "Failed to create lxc work dir, cmd: " << cmd);
+            return false;
