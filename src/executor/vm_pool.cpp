@@ -57,3 +57,4 @@ void VMPool::PrintAll() {
     for (map<TaskID, VMPtr>::iterator it = m_vm_map.begin();
          it != m_vm_map.end(); ++it) {
         printf("VM job_id:%d, task_id:%d\n", (it->first).job_id, (it->first).task_id);
+    }
