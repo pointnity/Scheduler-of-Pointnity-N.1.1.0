@@ -34,3 +34,5 @@ bool VMPool::Init() {
            return false;
         }
     }
+
+    // check lxc work dir
