@@ -38,3 +38,4 @@ bool VMPool::Init() {
     // check lxc work dir
     if (access(FLAGS_lxc_dir.c_str(), F_OK) == -1) {
         string cmd = "mkdir -p " + FLAGS_lxc_dir;
+        int32_t ret = system(cmd.c_str());
