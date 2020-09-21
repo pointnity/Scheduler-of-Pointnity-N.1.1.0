@@ -51,3 +51,4 @@ bool VMPool::Init() {
 
 // TODO just for test
 void VMPool::PrintAll() {
+    ReadLocker locker(m_lock);
