@@ -53,3 +53,4 @@ bool VMPool::Init() {
 void VMPool::PrintAll() {
     ReadLocker locker(m_lock);
     printf("vm_pool.cpp\n");
+    printf("************ VMs ************\n");
