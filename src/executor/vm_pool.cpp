@@ -29,3 +29,4 @@ bool VMPool::Init() {
         string cmd = "mkdir -p " + FLAGS_libvirt_dir;
         int32_t ret = system(cmd.c_str());
         ret = ret >> 8;
+        if (ret != 0) {
