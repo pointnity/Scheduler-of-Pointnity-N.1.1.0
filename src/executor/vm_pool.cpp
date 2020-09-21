@@ -16,3 +16,7 @@
 using log4cplus::Logger;
 using clynn::ReadLocker;
 using clynn::WriteLocker;
+
+static Logger logger = Logger::getInstance("executor");
+
+DECLARE_string(libvirt_dir);
