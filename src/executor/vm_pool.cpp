@@ -27,3 +27,4 @@ bool VMPool::Init() {
     // check libvirt work dir
     if (access(FLAGS_libvirt_dir.c_str(), F_OK) == -1) {
         string cmd = "mkdir -p " + FLAGS_libvirt_dir;
+        int32_t ret = system(cmd.c_str());
