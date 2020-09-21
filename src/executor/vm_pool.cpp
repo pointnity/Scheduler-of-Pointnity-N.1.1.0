@@ -50,3 +50,4 @@ bool VMPool::Init() {
 }
 
 // TODO just for test
+void VMPool::PrintAll() {
