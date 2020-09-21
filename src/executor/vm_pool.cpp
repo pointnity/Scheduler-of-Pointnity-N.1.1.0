@@ -60,3 +60,5 @@ void VMPool::PrintAll() {
     }
     printf("*****************************\n");
 }
+
+// insert VMPtr into map and queue
