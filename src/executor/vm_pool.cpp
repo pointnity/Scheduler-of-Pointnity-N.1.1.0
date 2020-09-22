@@ -88,3 +88,4 @@ void VMPool::DeleteFromPool(const TaskID id) {
 }
 
 bool VMPool::FindByTaskID(const TaskID id) {
+    ReadLocker locker(m_lock);
