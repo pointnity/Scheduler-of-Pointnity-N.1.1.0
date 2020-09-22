@@ -108,3 +108,4 @@ int32_t VMPool::StartVM() {
 
     // vm is exist in pool(map)?
     TaskID id = ptr->GetID();
+    map<TaskID, VMPtr>::iterator it = m_vm_map.find(id);
