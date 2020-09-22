@@ -182,3 +182,4 @@ VMPtr VMPool::GetVMPtr(const TaskID id) {
         return it->second;
     }
     // not find then return NULL
+    return VMPtr();
