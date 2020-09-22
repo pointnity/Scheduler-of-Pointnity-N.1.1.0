@@ -193,3 +193,4 @@ double VMPool::GetAllocatedCPU() {
         allocated_cpu += (it->second)->GetTaskInfo().vm_info.vcpu;
     }
     return allocated_cpu;
+}
