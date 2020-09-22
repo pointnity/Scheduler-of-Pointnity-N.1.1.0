@@ -110,3 +110,4 @@ int32_t VMPool::StartVM() {
     TaskID id = ptr->GetID();
     map<TaskID, VMPtr>::iterator it = m_vm_map.find(id);
     if (m_vm_map.end() == it) {
+        LOG4CPLUS_ERROR(logger, "Failed to find the VM in the Pool, job_id:" << id.job_id << ", task_id:" << id.task_id);
