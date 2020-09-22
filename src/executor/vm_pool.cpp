@@ -190,3 +190,4 @@ double VMPool::GetAllocatedCPU() {
     double allocated_cpu = 0;
     for (map<TaskID, VMPtr>::iterator it = m_vm_map.begin();
         it != m_vm_map.end(); ++it) {
+        allocated_cpu += (it->second)->GetTaskInfo().vm_info.vcpu;
