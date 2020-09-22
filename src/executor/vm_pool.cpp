@@ -147,3 +147,4 @@ bool VMPool::KillVMByTaskID(const TaskID id) {
     }
 
     // Delete task from Pool(map)
+    m_vm_map.erase(id);
