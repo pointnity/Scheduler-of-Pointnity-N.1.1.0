@@ -143,3 +143,4 @@ bool VMPool::KillVMByTaskID(const TaskID id) {
 
     if (!(it->second)->Kill()) {
         LOG4CPLUS_ERROR(logger, "Failed to kill VM, job_id:" << id.job_id << ", task_id:" << id.task_id);
+        return false;
