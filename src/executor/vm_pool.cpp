@@ -201,3 +201,6 @@ int32_t VMPool::GetAllocatedMemory() {
     for (map<TaskID, VMPtr>::iterator it = m_vm_map.begin();
         it != m_vm_map.end(); ++it) {
         allocated_mem += (it->second)->GetTaskInfo().vm_info.memory;
+    }
+    return allocated_mem;
+}
