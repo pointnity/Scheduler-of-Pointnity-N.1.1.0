@@ -156,3 +156,4 @@ bool VMPool::KillVMByTaskID(const TaskID id) {
 // stop vm by task id
 bool VMPool::StopVMByTaskID(const TaskID id) {
     WriteLocker locker(m_lock);
+    WriteLocker locker(m_lock);
