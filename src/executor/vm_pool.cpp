@@ -180,3 +180,4 @@ VMPtr VMPool::GetVMPtr(const TaskID id) {
     map<TaskID, VMPtr>::iterator it = m_vm_map.find(id);
     if (it != m_vm_map.end()) {
         return it->second;
+    }
