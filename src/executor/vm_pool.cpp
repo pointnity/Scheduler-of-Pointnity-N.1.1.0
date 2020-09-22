@@ -112,3 +112,4 @@ int32_t VMPool::StartVM() {
     if (m_vm_map.end() == it) {
         LOG4CPLUS_ERROR(logger, "Failed to find the VM in the Pool, job_id:" << id.job_id << ", task_id:" << id.task_id);
         LOG4CPLUS_ERROR(logger, "Can't start the VM, job_id:" << id.job_id << ", task_id:" << id.task_id); 
+        return -1;
