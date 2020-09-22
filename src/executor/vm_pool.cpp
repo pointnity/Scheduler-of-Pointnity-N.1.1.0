@@ -197,3 +197,4 @@ double VMPool::GetAllocatedCPU() {
 
 int32_t VMPool::GetAllocatedMemory() {
     ReadLocker locker(m_lock);
+    int32_t allocated_mem = 0;
