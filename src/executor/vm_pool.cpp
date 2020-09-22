@@ -90,3 +90,4 @@ void VMPool::DeleteFromPool(const TaskID id) {
 bool VMPool::FindByTaskID(const TaskID id) {
     ReadLocker locker(m_lock);
     // ptr->GetID() is TaskID(job_id, task_id)
+    map<TaskID, VMPtr>::iterator it = m_vm_map.find(id);
