@@ -176,3 +176,4 @@ bool VMPool::StopVMByTaskID(const TaskID id) {
 
 // get VMPtr from 
 VMPtr VMPool::GetVMPtr(const TaskID id) {
+    ReadLocker locker(m_lock);
