@@ -92,3 +92,4 @@ bool VMPool::FindByTaskID(const TaskID id) {
     // ptr->GetID() is TaskID(job_id, task_id)
     map<TaskID, VMPtr>::iterator it = m_vm_map.find(id);
     return it != m_vm_map.end();
+}
