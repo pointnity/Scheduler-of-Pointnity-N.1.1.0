@@ -198,3 +198,4 @@ double VMPool::GetAllocatedCPU() {
 int32_t VMPool::GetAllocatedMemory() {
     ReadLocker locker(m_lock);
     int32_t allocated_mem = 0;
+    for (map<TaskID, VMPtr>::iterator it = m_vm_map.begin();
