@@ -99,3 +99,4 @@ int32_t VMPool::StartVM() {
     WriteLocker locker(m_lock);
     // queue is empty
     if (m_queue.empty()) {
+        return -1;
