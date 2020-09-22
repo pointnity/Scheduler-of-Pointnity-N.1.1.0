@@ -127,3 +127,6 @@ int32_t VMPool::StartVM() {
     }
 
     return 0;
+}
+
+// kill vm by task id
