@@ -123,3 +123,4 @@ int32_t VMPool::StartVM() {
         // LOG4CPLUS_INFO(logger, "Create environment successfully for VM, name:" << ptr->GetName() << ", job_id:" << id.job_id << ", task_id:" << id.task_id);
     } else {
         LOG4CPLUS_ERROR(logger, "Failed to Execute task for VM, name:" << ptr->GetName() << ", job_id:" << id.job_id << ", task_id:" << id.task_id);
+        return -1;
