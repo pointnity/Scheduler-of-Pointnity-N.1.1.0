@@ -86,3 +86,5 @@ void VMPool::DeleteFromPool(const TaskID id) {
     // erase() will invoke destructor(xi gou) func
     m_vm_map.erase(id);
 }
+
+bool VMPool::FindByTaskID(const TaskID id) {
