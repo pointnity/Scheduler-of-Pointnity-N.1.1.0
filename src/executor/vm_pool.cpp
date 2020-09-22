@@ -194,3 +194,5 @@ double VMPool::GetAllocatedCPU() {
     }
     return allocated_cpu;
 }
+
+int32_t VMPool::GetAllocatedMemory() {
