@@ -100,3 +100,4 @@ int32_t VMPool::StartVM() {
     // queue is empty
     if (m_queue.empty()) {
         return -1;
+    }
