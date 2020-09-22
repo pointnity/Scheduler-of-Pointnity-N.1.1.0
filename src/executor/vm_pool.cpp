@@ -136,3 +136,4 @@ bool VMPool::KillVMByTaskID(const TaskID id) {
     // find the vm
     map<TaskID, VMPtr>::iterator it = m_vm_map.find(id);
     if (m_vm_map.end() == it) {
+        LOG4CPLUS_ERROR(logger, "Failed find the VM, job_id:" << id.job_id << ", task_id:" << id.task_id);
