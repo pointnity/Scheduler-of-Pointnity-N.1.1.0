@@ -119,3 +119,4 @@ int32_t VMPool::StartVM() {
    
     // execute, maybe Synchronous and Asynchronous
     if (0 == ptr->Execute()) {
+        // success start
