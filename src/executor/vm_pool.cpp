@@ -181,3 +181,4 @@ VMPtr VMPool::GetVMPtr(const TaskID id) {
     if (it != m_vm_map.end()) {
         return it->second;
     }
+    // not find then return NULL
