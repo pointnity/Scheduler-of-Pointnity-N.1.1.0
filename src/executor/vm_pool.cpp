@@ -152,3 +152,5 @@ bool VMPool::KillVMByTaskID(const TaskID id) {
 
     return true;
 }
+
+// stop vm by task id
