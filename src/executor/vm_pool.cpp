@@ -163,3 +163,4 @@ bool VMPool::StopVMByTaskID(const TaskID id) {
         LOG4CPLUS_ERROR(logger, "Failed find the VM, can't stop it, job_id:" << id.job_id << ", task_id:" << id.task_id);
         // LOG4CPLUS_ERROR(logger, "Stop task directly, job_id:" << id.job_id << ", task_id:" << id.task_id);
         return false;
+    }
