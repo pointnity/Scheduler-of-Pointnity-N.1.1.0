@@ -134,3 +134,4 @@ bool VMPool::KillVMByTaskID(const TaskID id) {
     WriteLocker locker(m_lock);
 
     // find the vm
+    map<TaskID, VMPtr>::iterator it = m_vm_map.find(id);
