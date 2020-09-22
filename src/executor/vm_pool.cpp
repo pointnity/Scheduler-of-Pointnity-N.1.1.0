@@ -97,3 +97,4 @@ bool VMPool::FindByTaskID(const TaskID id) {
 // @brief: find a waiting VM, and start it
 int32_t VMPool::StartVM() {
     WriteLocker locker(m_lock);
+    // queue is empty
