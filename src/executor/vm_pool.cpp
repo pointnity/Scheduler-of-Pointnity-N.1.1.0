@@ -114,3 +114,7 @@ int32_t VMPool::StartVM() {
         LOG4CPLUS_ERROR(logger, "Can't start the VM, job_id:" << id.job_id << ", task_id:" << id.task_id); 
         return -1;
     }
+
+    // LOG4CPLUS_DEBUG(logger, "Begin to start the VM, job_id:" << id.job_id << ", task_id:" << id.task_id);
+   
+    // execute, maybe Synchronous and Asynchronous
