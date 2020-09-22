@@ -104,3 +104,4 @@ int32_t VMPool::StartVM() {
 
     // get first vm_ptr
     VMPtr ptr = m_queue.front();
+    m_queue.pop();
