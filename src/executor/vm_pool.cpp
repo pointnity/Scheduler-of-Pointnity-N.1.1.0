@@ -73,3 +73,5 @@ void VMPool::InsertIntoPool(const VMPtr& ptr) {
     m_vm_map[ptr->GetID()] = ptr;
     m_vm_state_map[ptr->GetID()] = true;
 }
+
+// insert VMPtr into queue
