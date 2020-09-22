@@ -107,3 +107,4 @@ int32_t VMPool::StartVM() {
     m_queue.pop();
 
     // vm is exist in pool(map)?
+    TaskID id = ptr->GetID();
