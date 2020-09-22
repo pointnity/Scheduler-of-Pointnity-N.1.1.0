@@ -101,3 +101,5 @@ int32_t VMPool::StartVM() {
     if (m_queue.empty()) {
         return -1;
     }
+
+    // get first vm_ptr
