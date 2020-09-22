@@ -82,3 +82,4 @@ void VMPool::InsertIntoQueue(const VMPtr& ptr) {
 
 // delete VMPtr from map
 void VMPool::DeleteFromPool(const TaskID id) {
+    WriteLocker locker(m_lock);
