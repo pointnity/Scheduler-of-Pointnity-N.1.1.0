@@ -84,3 +84,4 @@ void VMPool::InsertIntoQueue(const VMPtr& ptr) {
 void VMPool::DeleteFromPool(const TaskID id) {
     WriteLocker locker(m_lock);
     // erase() will invoke destructor(xi gou) func
+    m_vm_map.erase(id);
