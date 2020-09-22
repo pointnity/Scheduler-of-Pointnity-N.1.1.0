@@ -98,3 +98,4 @@ bool VMPool::FindByTaskID(const TaskID id) {
 int32_t VMPool::StartVM() {
     WriteLocker locker(m_lock);
     // queue is empty
+    if (m_queue.empty()) {
