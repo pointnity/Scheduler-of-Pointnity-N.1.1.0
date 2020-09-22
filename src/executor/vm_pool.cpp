@@ -130,3 +130,4 @@ int32_t VMPool::StartVM() {
 }
 
 // kill vm by task id
+bool VMPool::KillVMByTaskID(const TaskID id) {
