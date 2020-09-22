@@ -164,3 +164,5 @@ bool VMPool::StopVMByTaskID(const TaskID id) {
         // LOG4CPLUS_ERROR(logger, "Stop task directly, job_id:" << id.job_id << ", task_id:" << id.task_id);
         return false;
     }
+
+    if (!(it->second)->Stop()) {
