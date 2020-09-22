@@ -93,3 +93,5 @@ bool VMPool::FindByTaskID(const TaskID id) {
     map<TaskID, VMPtr>::iterator it = m_vm_map.find(id);
     return it != m_vm_map.end();
 }
+
+// @brief: find a waiting VM, and start it
