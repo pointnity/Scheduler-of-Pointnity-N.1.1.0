@@ -187,3 +187,4 @@ VMPtr VMPool::GetVMPtr(const TaskID id) {
 
 double VMPool::GetAllocatedCPU() {
     ReadLocker locker(m_lock);
+    double allocated_cpu = 0;
