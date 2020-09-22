@@ -159,3 +159,4 @@ bool VMPool::StopVMByTaskID(const TaskID id) {
 
     // find the vm
     map<TaskID, VMPtr>::iterator it = m_vm_map.find(id);
+    if (m_vm_map.end() == it) {
