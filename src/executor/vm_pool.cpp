@@ -177,3 +177,4 @@ bool VMPool::StopVMByTaskID(const TaskID id) {
 // get VMPtr from 
 VMPtr VMPool::GetVMPtr(const TaskID id) {
     ReadLocker locker(m_lock);
+    map<TaskID, VMPtr>::iterator it = m_vm_map.find(id);
