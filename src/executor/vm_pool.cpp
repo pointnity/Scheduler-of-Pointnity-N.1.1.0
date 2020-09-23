@@ -238,3 +238,4 @@ bool VMPool::ProcessHbVMInfo(const string& hb_vm_info_ad) {
     if (!ad_ptr->EvaluateAttrNumber(ATTR_TASK_ID, id.task_id)) {
         LOG4CPLUS_ERROR(logger, "Parse " << ATTR_TASK_ID << " error.");
         return false;
+    }
