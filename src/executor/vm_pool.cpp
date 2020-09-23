@@ -215,3 +215,4 @@ vector<HbVMInfo> VMPool::GetAllHbVMInfo() {
             vm_list.push_back((it->second)->GetHbVMInfo());
         //}
     }
+    return vm_list;
