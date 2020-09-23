@@ -217,3 +217,6 @@ vector<HbVMInfo> VMPool::GetAllHbVMInfo() {
     }
     return vm_list;
 }
+
+bool VMPool::ProcessHbVMInfo(const string& hb_vm_info_ad) {
+    WriteLocker locker(m_lock);
