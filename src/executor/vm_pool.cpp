@@ -208,3 +208,4 @@ int32_t VMPool::GetAllocatedMemory() {
 vector<HbVMInfo> VMPool::GetAllHbVMInfo() {
     ReadLocker locker(m_lock);
     vector<HbVMInfo> vm_list;
+    for (map<TaskID, VMPtr>::iterator it = m_vm_map.begin();
