@@ -206,3 +206,4 @@ int32_t VMPool::GetAllocatedMemory() {
 }
 
 vector<HbVMInfo> VMPool::GetAllHbVMInfo() {
+    ReadLocker locker(m_lock);
