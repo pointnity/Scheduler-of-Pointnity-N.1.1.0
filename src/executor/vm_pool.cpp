@@ -272,3 +272,8 @@ bool VMPool::ProcessHbVMInfo(const string& hb_vm_info_ad) {
 
     vm_ptr->SetHbVMInfo(hb_vm_info_ad);
     return true; 
+}
+
+
+void VMPool::SetVMStateByTaskID(const TaskID id, bool task_state) {
+   WriteLocker locker(m_new_lock);
