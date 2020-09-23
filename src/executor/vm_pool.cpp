@@ -248,3 +248,4 @@ bool VMPool::ProcessHbVMInfo(const string& hb_vm_info_ad) {
     }
     // get VM_State
     bool vm_state = iter->second;
+    if (!vm_state) {
