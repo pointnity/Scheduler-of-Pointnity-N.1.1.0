@@ -220,3 +220,4 @@ vector<HbVMInfo> VMPool::GetAllHbVMInfo() {
 
 bool VMPool::ProcessHbVMInfo(const string& hb_vm_info_ad) {
     WriteLocker locker(m_lock);
+    // find the VMPtr
