@@ -204,3 +204,5 @@ int32_t VMPool::GetAllocatedMemory() {
     }
     return allocated_mem;
 }
+
+vector<HbVMInfo> VMPool::GetAllHbVMInfo() {
