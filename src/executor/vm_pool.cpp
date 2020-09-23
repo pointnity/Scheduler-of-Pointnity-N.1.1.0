@@ -280,3 +280,4 @@ void VMPool::SetVMStateByTaskID(const TaskID id, bool task_state) {
    map<TaskID, bool>::iterator it = m_vm_state_map.find(id);
        it->second = task_state;
    }
+   LOG4CPLUS_INFO(logger, "Set vm state of false, job_id:" << id.job_id << ", task_id:" << id.task_id);
