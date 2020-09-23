@@ -239,3 +239,5 @@ bool VMPool::ProcessHbVMInfo(const string& hb_vm_info_ad) {
         LOG4CPLUS_ERROR(logger, "Parse " << ATTR_TASK_ID << " error.");
         return false;
     }
+
+    map<TaskID, bool>::iterator iter = m_vm_state_map.find(id);
