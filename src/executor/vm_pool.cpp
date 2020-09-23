@@ -224,3 +224,4 @@ bool VMPool::ProcessHbVMInfo(const string& hb_vm_info_ad) {
     TaskID id;
      // classad init, string vmhb_info --> ClassAd *ad_ptr
     ClassAdParser parser;
+    ClassAd* ad_ptr = parser.ParseClassAd(hb_vm_info_ad);
