@@ -244,3 +244,4 @@ bool VMPool::ProcessHbVMInfo(const string& hb_vm_info_ad) {
     // can't find the VM state
     if (iter == m_vm_state_map.end()) {
         LOG4CPLUS_ERROR(logger, "Failed to find the VM state , job_id:" << id.job_id << ", task_id:" << id.task_id);
+        return false;
