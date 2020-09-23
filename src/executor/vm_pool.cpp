@@ -269,3 +269,5 @@ bool VMPool::ProcessHbVMInfo(const string& hb_vm_info_ad) {
 
     // hb_vm_info include cpu, mem and flow
     // TODO: flow can be got with libvirt
+
+    vm_ptr->SetHbVMInfo(hb_vm_info_ad);
