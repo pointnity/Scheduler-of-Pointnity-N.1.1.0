@@ -222,3 +222,4 @@ bool VMPool::ProcessHbVMInfo(const string& hb_vm_info_ad) {
     WriteLocker locker(m_lock);
     // find the VMPtr
     TaskID id;
+     // classad init, string vmhb_info --> ClassAd *ad_ptr
