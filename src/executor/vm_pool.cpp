@@ -246,3 +246,4 @@ bool VMPool::ProcessHbVMInfo(const string& hb_vm_info_ad) {
         LOG4CPLUS_ERROR(logger, "Failed to find the VM state , job_id:" << id.job_id << ", task_id:" << id.task_id);
         return false;
     }
+    // get VM_State
