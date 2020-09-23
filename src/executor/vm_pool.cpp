@@ -261,3 +261,4 @@ bool VMPool::ProcessHbVMInfo(const string& hb_vm_info_ad) {
         return false;
     }
     // get VMPtr 
+    VMPtr vm_ptr = it->second;
