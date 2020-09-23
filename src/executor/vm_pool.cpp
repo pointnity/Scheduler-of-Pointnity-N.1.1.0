@@ -251,3 +251,4 @@ bool VMPool::ProcessHbVMInfo(const string& hb_vm_info_ad) {
     if (!vm_state) {
         LOG4CPLUS_ERROR(logger, "VM state is false, job_id:" << id.job_id << ", task_id:" << id.task_id);
         return false;
+    }
