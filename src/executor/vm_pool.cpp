@@ -284,3 +284,4 @@ void VMPool::SetVMStateByTaskID(const TaskID id, bool task_state) {
 }
 
 bool VMPool::GetVMStateByTaskID(const TaskID id) {
+   ReadLocker locker(m_new_lock);
