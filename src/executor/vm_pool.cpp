@@ -265,3 +265,4 @@ bool VMPool::ProcessHbVMInfo(const string& hb_vm_info_ad) {
     if (!vm_ptr) {
         LOG4CPLUS_ERROR(logger, "VMPtr is NULL, job_id:" << id.job_id << ", task_id:" << id.task_id); 
         return false;
+    }
