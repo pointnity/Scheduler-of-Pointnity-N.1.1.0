@@ -231,3 +231,4 @@ bool VMPool::ProcessHbVMInfo(const string& hb_vm_info_ad) {
         return false;
     }
     //job id and task id  
+    if (!ad_ptr->EvaluateAttrNumber(ATTR_JOB_ID, id.job_id)) {
