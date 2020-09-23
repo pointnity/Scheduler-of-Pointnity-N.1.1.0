@@ -255,3 +255,4 @@ bool VMPool::ProcessHbVMInfo(const string& hb_vm_info_ad) {
 
 
     map<TaskID, VMPtr>::iterator it = m_vm_map.find(id);
+    // can't find the VMPtr
