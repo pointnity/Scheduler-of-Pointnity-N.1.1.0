@@ -289,3 +289,6 @@ bool VMPool::GetVMStateByTaskID(const TaskID id) {
    if(it != m_vm_state_map.end()) {
        bool vm_state = it->second;
        return vm_state;
+   }
+   return false;
+}
