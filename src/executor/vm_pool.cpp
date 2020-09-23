@@ -214,3 +214,4 @@ vector<HbVMInfo> VMPool::GetAllHbVMInfo() {
         //if((it->second)->GetState() != VMState::VM_OFFLINE){
             vm_list.push_back((it->second)->GetHbVMInfo());
         //}
+    }
