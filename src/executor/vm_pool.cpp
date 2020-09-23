@@ -211,3 +211,4 @@ vector<HbVMInfo> VMPool::GetAllHbVMInfo() {
     for (map<TaskID, VMPtr>::iterator it = m_vm_map.begin();
         it != m_vm_map.end(); ++it) {
         // if vm is down, then not send the heartbeat
+        //if((it->second)->GetState() != VMState::VM_OFFLINE){
