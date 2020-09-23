@@ -271,3 +271,4 @@ bool VMPool::ProcessHbVMInfo(const string& hb_vm_info_ad) {
     // TODO: flow can be got with libvirt
 
     vm_ptr->SetHbVMInfo(hb_vm_info_ad);
+    return true; 
