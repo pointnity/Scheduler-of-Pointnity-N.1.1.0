@@ -277,3 +277,4 @@ bool VMPool::ProcessHbVMInfo(const string& hb_vm_info_ad) {
 
 void VMPool::SetVMStateByTaskID(const TaskID id, bool task_state) {
    WriteLocker locker(m_new_lock);
+   map<TaskID, bool>::iterator it = m_vm_state_map.find(id);
