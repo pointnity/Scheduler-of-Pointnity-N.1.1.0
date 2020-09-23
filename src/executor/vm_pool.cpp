@@ -242,3 +242,4 @@ bool VMPool::ProcessHbVMInfo(const string& hb_vm_info_ad) {
 
     map<TaskID, bool>::iterator iter = m_vm_state_map.find(id);
     // can't find the VM state
+    if (iter == m_vm_state_map.end()) {
