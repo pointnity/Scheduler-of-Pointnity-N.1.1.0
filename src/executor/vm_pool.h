@@ -57,3 +57,4 @@ public:
     int32_t StartVM();
 
     // @brief: stop vm by job_id and task_id 
+    bool StopVMByTaskID(const TaskID id);
