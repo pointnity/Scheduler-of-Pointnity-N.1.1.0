@@ -52,3 +52,5 @@ public:
 
     // find vm by job_id and task_id
     bool FindByTaskID(const TaskID id);
+
+    // @brief: find a waiting VM, and start it
