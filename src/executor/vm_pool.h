@@ -51,3 +51,4 @@ public:
     void DeleteFromPool(const TaskID id);
 
     // find vm by job_id and task_id
+    bool FindByTaskID(const TaskID id);
