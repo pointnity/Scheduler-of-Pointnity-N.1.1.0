@@ -43,3 +43,5 @@ public:
 
     // insert VMPtr into map
     void InsertIntoPool(const VMPtr& ptr);
+
+    // insert VMPtr into queue
