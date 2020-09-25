@@ -23,3 +23,4 @@ using std::map;
 using std::queue;
 using std::vector;
 using std::tr1::function;
+using std::tr1::placeholders::_1;
