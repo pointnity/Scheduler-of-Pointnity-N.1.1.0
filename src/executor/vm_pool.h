@@ -60,3 +60,4 @@ public:
     bool StopVMByTaskID(const TaskID id);
 
     // @brief: kill vm by job_id and task_id
+    bool KillVMByTaskID(const TaskID id);
