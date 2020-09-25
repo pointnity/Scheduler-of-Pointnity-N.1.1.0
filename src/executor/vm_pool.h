@@ -12,3 +12,5 @@
 #include <vector>
 #include <tr1/functional>
 #include <sys/types.h>
+
+#include "common/clynn/singleton.h"
