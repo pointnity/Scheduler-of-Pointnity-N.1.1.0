@@ -63,3 +63,4 @@ public:
     bool KillVMByTaskID(const TaskID id);
 
     // get VMPtr from 
+    VMPtr GetVMPtr(const TaskID id);
