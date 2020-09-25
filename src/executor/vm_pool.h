@@ -37,3 +37,5 @@ public:
 
     // TODO print all
     void PrintAll();
+
+    // insert VMPtr into map and queue
