@@ -55,3 +55,5 @@ public:
 
     // @brief: find a waiting VM, and start it
     int32_t StartVM();
+
+    // @brief: stop vm by job_id and task_id 
