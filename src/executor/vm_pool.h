@@ -45,3 +45,4 @@ public:
     void InsertIntoPool(const VMPtr& ptr);
 
     // insert VMPtr into queue
+    void InsertIntoQueue(const VMPtr& ptr);
