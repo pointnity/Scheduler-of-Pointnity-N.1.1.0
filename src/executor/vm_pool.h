@@ -28,3 +28,4 @@ using std::tr1::placeholders::_2;
 using clynn::RWLock;
 
 class VMPool {
+public:
