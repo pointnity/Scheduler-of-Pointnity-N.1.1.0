@@ -85,3 +85,4 @@ private:
     map<TaskID, VMPtr> m_vm_map;
     //task_id, vm_state
     map<TaskID, bool> m_vm_state_map;
+    // to be processed queue
