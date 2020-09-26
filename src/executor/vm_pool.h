@@ -80,3 +80,4 @@ public:
     bool GetVMStateByTaskID(const TaskID id);
 private:
     RWLock m_lock;
+    RWLock m_new_lock;
