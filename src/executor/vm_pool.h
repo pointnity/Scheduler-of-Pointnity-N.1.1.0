@@ -81,3 +81,4 @@ public:
 private:
     RWLock m_lock;
     RWLock m_new_lock;
+    // task_id, VMPtr
