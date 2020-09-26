@@ -88,3 +88,5 @@ private:
     // to be processed queue
     queue<VMPtr> m_queue;
 };
+
+typedef Singleton<VMPool> VMPoolI;
