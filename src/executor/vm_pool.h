@@ -74,3 +74,6 @@ public:
     double GetAllocatedCPU();
 
     int32_t GetAllocatedMemory();
+
+    void SetVMStateByTaskID(const TaskID id, bool task_state);
+
