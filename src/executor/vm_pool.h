@@ -67,3 +67,5 @@ public:
    
     // get all HbVMInfo
     vector<HbVMInfo> GetAllHbVMInfo();
+
+    // process HbKVM
