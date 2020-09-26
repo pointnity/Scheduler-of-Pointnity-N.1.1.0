@@ -70,3 +70,5 @@ public:
 
     // process HbKVM
     bool ProcessHbVMInfo(const string& hb_vm_info);
+
+    double GetAllocatedCPU();
