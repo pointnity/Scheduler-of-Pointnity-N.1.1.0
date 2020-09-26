@@ -77,3 +77,4 @@ public:
 
     void SetVMStateByTaskID(const TaskID id, bool task_state);
 
+    bool GetVMStateByTaskID(const TaskID id);
