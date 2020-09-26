@@ -69,3 +69,4 @@ public:
     vector<HbVMInfo> GetAllHbVMInfo();
 
     // process HbKVM
+    bool ProcessHbVMInfo(const string& hb_vm_info);
