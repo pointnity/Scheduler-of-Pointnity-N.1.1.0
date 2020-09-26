@@ -83,3 +83,4 @@ private:
     RWLock m_new_lock;
     // task_id, VMPtr
     map<TaskID, VMPtr> m_vm_map;
+    //task_id, vm_state
