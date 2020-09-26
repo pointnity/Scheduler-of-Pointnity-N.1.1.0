@@ -90,3 +90,5 @@ private:
 };
 
 typedef Singleton<VMPool> VMPoolI;
+
+#endif 
