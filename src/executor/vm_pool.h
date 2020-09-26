@@ -66,3 +66,4 @@ public:
     VMPtr GetVMPtr(const TaskID id);
    
     // get all HbVMInfo
+    vector<HbVMInfo> GetAllHbVMInfo();
