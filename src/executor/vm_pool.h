@@ -72,3 +72,5 @@ public:
     bool ProcessHbVMInfo(const string& hb_vm_info);
 
     double GetAllocatedCPU();
+
+    int32_t GetAllocatedMemory();
