@@ -28,3 +28,4 @@ static Logger logger = Logger::getInstance("executor");
 void* TaskProcessor(void* unused) {
     while (true) {
         // at one time, only start task that first found
+        TaskPoolI::Instance()->StartTask();
