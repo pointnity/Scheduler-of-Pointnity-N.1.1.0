@@ -15,3 +15,5 @@
 #include "task_entity_pool.h"
 #include "vm_pool.h"
 #include "resource_manager.h"
+
+using log4cplus::Logger;
