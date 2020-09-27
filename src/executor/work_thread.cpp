@@ -19,3 +19,4 @@
 using log4cplus::Logger;
 
 DECLARE_string(resource_scheduler_endpoint);
+DECLARE_int32(hb_interval);
