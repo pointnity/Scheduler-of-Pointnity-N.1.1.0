@@ -25,3 +25,4 @@ DECLARE_bool(resource_scheduler_up);
 static Logger logger = Logger::getInstance("executor");
 
 // thread, start task
+void* TaskProcessor(void* unused) {
