@@ -17,3 +17,5 @@
 #include "resource_manager.h"
 
 using log4cplus::Logger;
+
+DECLARE_string(resource_scheduler_endpoint);
