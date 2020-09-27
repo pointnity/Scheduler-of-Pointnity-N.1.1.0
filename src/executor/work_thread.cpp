@@ -37,3 +37,4 @@ void* TaskProcessor(void* unused) {
 // thread, start vm
 void* VMProcessor(void* unused) { 
     while (true) {
+        // at one time, only start vm that first found
