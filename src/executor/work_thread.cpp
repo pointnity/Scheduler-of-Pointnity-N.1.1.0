@@ -36,3 +36,4 @@ void* TaskProcessor(void* unused) {
 
 // thread, start vm
 void* VMProcessor(void* unused) { 
+    while (true) {
