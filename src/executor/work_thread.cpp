@@ -26,3 +26,4 @@ static Logger logger = Logger::getInstance("executor");
 
 // thread, start task
 void* TaskProcessor(void* unused) {
+    while (true) {
