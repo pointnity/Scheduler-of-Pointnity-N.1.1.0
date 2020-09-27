@@ -33,3 +33,5 @@ void* TaskProcessor(void* unused) {
     }
     return NULL;
 }
+
+// thread, start vm
