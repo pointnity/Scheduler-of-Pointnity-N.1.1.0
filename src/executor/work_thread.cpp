@@ -38,3 +38,4 @@ void* TaskProcessor(void* unused) {
 void* VMProcessor(void* unused) { 
     while (true) {
         // at one time, only start vm that first found
+        VMPoolI::Instance()->StartVM();
