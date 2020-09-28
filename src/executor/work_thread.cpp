@@ -43,3 +43,5 @@ void* VMProcessor(void* unused) {
     }
     return NULL;
 }
+
+// thread, send heartbeat periodically
