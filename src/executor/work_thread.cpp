@@ -59,3 +59,4 @@ void* HeartbeatProcessor(void* unused) {
                proxy().NewUpdateMachine(hb_str, task_list);
 	       //counter = 0;
            } catch (TException &tx) {
+               //LOG4CPLUS_ERROR(logger, "send heartbeat error: " << tx.what());
