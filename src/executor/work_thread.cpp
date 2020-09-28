@@ -61,3 +61,4 @@ void* HeartbeatProcessor(void* unused) {
            } catch (TException &tx) {
                //LOG4CPLUS_ERROR(logger, "send heartbeat error: " << tx.what());
 	       /*counter ++;
+	       if (counter == 3) {
