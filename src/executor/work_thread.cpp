@@ -71,3 +71,4 @@ void* HeartbeatProcessor(void* unused) {
        sleep(FLAGS_hb_interval);
     }
     return NULL;
+}
