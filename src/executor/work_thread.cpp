@@ -50,3 +50,4 @@ void* HeartbeatProcessor(void* unused) {
     while(true) {
        string hb_str; 
        vector<string> task_list;
+       ResourceMgrI::Instance()->GenerateHb(hb_str, task_list); 
