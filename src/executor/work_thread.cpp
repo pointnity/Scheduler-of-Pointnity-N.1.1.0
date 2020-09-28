@@ -63,3 +63,4 @@ void* HeartbeatProcessor(void* unused) {
 	       /*counter ++;
 	       if (counter == 3) {
 		   LOG4CPLUS_INFO(logger, "Over 3 times faile of send heartbeat to ResourceScheduler");
+		   exit(1);
