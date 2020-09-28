@@ -48,3 +48,4 @@ void* VMProcessor(void* unused) {
 void* HeartbeatProcessor(void* unused) {
     //int32_t counter = 0;
     while(true) {
+       string hb_str; 
