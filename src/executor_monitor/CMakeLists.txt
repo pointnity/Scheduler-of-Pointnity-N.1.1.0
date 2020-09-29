@@ -42,3 +42,6 @@ ADD_CUSTOM_COMMAND (
     ${CMAKE_SOURCE_DIR}/src/proxy/executor/executor.thrift
     COMMAND thrift --gen py -r -o ${CMAKE_SOURCE_DIR}/src/proxy/executor
 )
+
+
+# SET(COMMON_SOURCE
