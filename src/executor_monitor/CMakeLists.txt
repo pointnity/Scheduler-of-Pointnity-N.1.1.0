@@ -27,3 +27,6 @@ ADD_CUSTOM_COMMAND (
 ${CMAKE_SOURCE_DIR}/src/proxy/ResourceScheduler
     ${CMAKE_SOURCE_DIR}/src/proxy/ResourceScheduler/resource_scheduler.thrift
 )
+
+
+SET(EXECUTOR_THRIFT_SOURCE
