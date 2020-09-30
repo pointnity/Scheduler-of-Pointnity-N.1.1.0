@@ -37,3 +37,4 @@ bool Checker::CheckVersion() {
     // check executor version
     string new_lynn_version;
     //update executor version in executor.conf
+    char cur_dir[100];
