@@ -21,3 +21,4 @@
 #include "include/proxy.h"
 #include "common/clynn/rpc.h"
 #include "executor_monitor/checker.h"
+#include "executor_monitor/hdfs_wrapper.h"
