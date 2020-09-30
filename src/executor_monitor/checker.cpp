@@ -43,3 +43,5 @@ bool Checker::CheckVersion() {
          return false;
     }
     string executor_dir(cur_dir);
+
+    try {
