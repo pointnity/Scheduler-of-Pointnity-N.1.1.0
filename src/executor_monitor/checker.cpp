@@ -22,3 +22,5 @@
 #include "common/clynn/rpc.h"
 #include "executor_monitor/checker.h"
 #include "executor_monitor/hdfs_wrapper.h"
+
+DECLARE_string(resource_scheduler_endpoint);
