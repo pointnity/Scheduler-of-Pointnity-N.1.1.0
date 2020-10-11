@@ -108,3 +108,4 @@ bool Checker::UpdateExecutorFromHdfs() {
     ifstream in_file(executor_file.c_str(), ios::in);
     //open file error ?
     if(!in_file){
+        LOG4CPLUS_ERROR(logger, "executor file is no exist.");
