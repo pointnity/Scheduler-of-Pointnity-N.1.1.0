@@ -93,3 +93,5 @@ bool Checker::UpdateExecutorFromHdfs() {
     //rm old executor
     string cmd_rm = "rm -rf " + executor_dir + "/executor";
     system(cmd_rm.c_str());
+
+    //open hdfs	
