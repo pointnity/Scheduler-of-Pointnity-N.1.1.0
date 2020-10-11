@@ -118,3 +118,4 @@ bool Checker::UpdateExecutorFromHdfs() {
     system(cmd.c_str());
     std::cout<< "executor update from hdfs finished"<<std::endl;
     return true;
+}
