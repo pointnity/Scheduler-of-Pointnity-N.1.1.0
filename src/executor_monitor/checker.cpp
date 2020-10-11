@@ -71,3 +71,4 @@ bool Checker::CheckVersion() {
 		    //update executor from hdfs
 	            if(UpdateExecutorFromHdfs() == false) {
                        return false;
+                    }
