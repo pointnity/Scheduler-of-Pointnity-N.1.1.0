@@ -80,3 +80,6 @@ bool Checker::CheckVersion() {
     }
     return true;
 }
+
+bool Checker::UpdateExecutorFromHdfs() {
+    // get current dir
