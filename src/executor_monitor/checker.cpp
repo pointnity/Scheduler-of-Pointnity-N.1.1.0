@@ -119,3 +119,29 @@ bool Checker::UpdateExecutorFromHdfs() {
     std::cout<< "executor update from hdfs finished"<<std::endl;
     return true;
 }
+
+bool Checker::IsProcess(const string& process_name) {
+    FILE* fp;
+    char buf[256];
+    string cmd;
+    int count;
+    string name = process_name;
+    cmd = "ps -C " + name +" |wc -l";
+    if((fp=popen(cmd.c_str(), "r")) == NULL) {
+	LOG4CPLUS_ERROR(logger, "popen error");
+	return false;
+    }
+
+    if((fgets(buf, 128, fp))!= NULL ) {
+	count = atoi(buf);
+	if(count-1 == 1) {
+	    return true;
+	} else {
+	    LOG4CPLUS_ERROR(logger, "process not find");
+	    return false;
+	}
+    } else {
+	LOG4CPLUS_ERROR(logger, "get process num from file  error");
+	return false;
+    }
+}
