@@ -96,3 +96,4 @@ bool Checker::UpdateExecutorFromHdfs() {
 
     //open hdfs	
     HDFSMgrI::Instance()->OpenConnect();
+    if(false == HDFSMgrI::Instance()->CopyToLocalFile(FLAGS_executor_hdfs_path, executor_dir)){
