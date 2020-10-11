@@ -110,3 +110,6 @@ bool Checker::UpdateExecutorFromHdfs() {
     if(!in_file){
         LOG4CPLUS_ERROR(logger, "executor file is no exist.");
         return false;
+    }
+
+    //add write mode to executor
