@@ -107,3 +107,4 @@ bool Checker::UpdateExecutorFromHdfs() {
     string executor_file = executor_dir + "/executor";
     ifstream in_file(executor_file.c_str(), ios::in);
     //open file error ?
+    if(!in_file){
