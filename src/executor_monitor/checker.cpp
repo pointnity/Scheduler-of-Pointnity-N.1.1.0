@@ -101,3 +101,4 @@ bool Checker::UpdateExecutorFromHdfs() {
         //fprintf(stderr, "copy local image to hdfs error");
         return false;
     }
+    //close hdfs
