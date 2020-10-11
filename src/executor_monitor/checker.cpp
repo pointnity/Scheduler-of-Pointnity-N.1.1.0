@@ -102,3 +102,4 @@ bool Checker::UpdateExecutorFromHdfs() {
         return false;
     }
     //close hdfs
+    HDFSMgrI::Instance()->CloseConnect();
