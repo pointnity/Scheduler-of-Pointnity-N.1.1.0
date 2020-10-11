@@ -100,3 +100,4 @@ bool Checker::UpdateExecutorFromHdfs() {
         LOG4CPLUS_ERROR(logger, "copy hdfs imge to local error");
         //fprintf(stderr, "copy local image to hdfs error");
         return false;
+    }
