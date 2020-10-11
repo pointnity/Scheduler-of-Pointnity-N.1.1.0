@@ -64,3 +64,4 @@ bool Checker::CheckVersion() {
 	     std::cout << "cmd write:" << cmd_write << std::endl;
              system(cmd_write.c_str());
         } else {
+		string executor_file = executor_dir + "/executor";
