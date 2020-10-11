@@ -116,3 +116,4 @@ bool Checker::UpdateExecutorFromHdfs() {
     string cmd = "chmod +x  " + executor_dir + "/executor";
     std::cout<<"chmod cmd:"<<cmd<<std::endl;
     system(cmd.c_str());
+    std::cout<< "executor update from hdfs finished"<<std::endl;
