@@ -73,3 +73,4 @@ bool Checker::CheckVersion() {
                        return false;
                     }
     		}
+	}
