@@ -103,3 +103,5 @@ bool Checker::UpdateExecutorFromHdfs() {
     }
     //close hdfs
     HDFSMgrI::Instance()->CloseConnect();
+
+    string executor_file = executor_dir + "/executor";
