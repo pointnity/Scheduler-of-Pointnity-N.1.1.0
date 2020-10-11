@@ -105,3 +105,4 @@ bool Checker::UpdateExecutorFromHdfs() {
     HDFSMgrI::Instance()->CloseConnect();
 
     string executor_file = executor_dir + "/executor";
+    ifstream in_file(executor_file.c_str(), ios::in);
