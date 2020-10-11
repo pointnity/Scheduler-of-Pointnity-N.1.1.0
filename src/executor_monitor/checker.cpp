@@ -79,3 +79,4 @@ bool Checker::CheckVersion() {
         return false;
     }
     return true;
+}
