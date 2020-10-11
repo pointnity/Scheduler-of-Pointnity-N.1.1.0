@@ -59,3 +59,4 @@ bool Checker::CheckVersion() {
 
              string cmd_del = "sed -i '/lynn_version/d' " + executor_conf_file;
 	     std::cout << "cmd del:" << cmd_del << std::endl;
+             system(cmd_del.c_str());
