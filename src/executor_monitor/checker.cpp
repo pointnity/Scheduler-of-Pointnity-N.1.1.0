@@ -54,3 +54,5 @@ bool Checker::CheckVersion() {
              if(UpdateExecutorFromHdfs() == false) {
                 return false;
              }
+
+	     string executor_conf_file = executor_dir + "/../conf/executor.conf";
