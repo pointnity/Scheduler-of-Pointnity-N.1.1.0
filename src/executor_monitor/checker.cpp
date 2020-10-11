@@ -114,3 +114,4 @@ bool Checker::UpdateExecutorFromHdfs() {
 
     //add write mode to executor
     string cmd = "chmod +x  " + executor_dir + "/executor";
+    std::cout<<"chmod cmd:"<<cmd<<std::endl;
