@@ -83,3 +83,4 @@ bool Checker::CheckVersion() {
 
 bool Checker::UpdateExecutorFromHdfs() {
     // get current dir
+    char cur_dir[100];
