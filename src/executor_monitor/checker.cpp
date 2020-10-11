@@ -74,3 +74,4 @@ bool Checker::CheckVersion() {
                     }
     		}
 	}
+    } catch (TException &tx) {
