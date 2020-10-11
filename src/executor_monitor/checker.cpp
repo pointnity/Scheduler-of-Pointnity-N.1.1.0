@@ -78,3 +78,4 @@ bool Checker::CheckVersion() {
         LOG4CPLUS_ERROR(logger, "rpc error: check version is failed " << tx.what());
         return false;
     }
+    return true;
