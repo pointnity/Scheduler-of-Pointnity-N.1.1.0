@@ -66,3 +66,4 @@ bool Checker::CheckVersion() {
         } else {
 		string executor_file = executor_dir + "/executor";
     		ifstream in_file(executor_file.c_str(), ios::in);
+    		//open file error ?
