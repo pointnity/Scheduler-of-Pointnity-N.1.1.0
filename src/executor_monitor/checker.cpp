@@ -95,3 +95,4 @@ bool Checker::UpdateExecutorFromHdfs() {
     system(cmd_rm.c_str());
 
     //open hdfs	
+    HDFSMgrI::Instance()->OpenConnect();
