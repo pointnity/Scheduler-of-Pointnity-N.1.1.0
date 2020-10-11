@@ -92,3 +92,4 @@ bool Checker::UpdateExecutorFromHdfs() {
     std::cout << "executor local path:" << executor_dir << "\nexecutor hdfs path:" << FLAGS_executor_hdfs_path <<std::endl;
     //rm old executor
     string cmd_rm = "rm -rf " + executor_dir + "/executor";
+    system(cmd_rm.c_str());
