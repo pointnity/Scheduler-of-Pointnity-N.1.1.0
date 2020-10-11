@@ -88,3 +88,4 @@ bool Checker::UpdateExecutorFromHdfs() {
         LOG4CPLUS_ERROR(logger, "Failed to get current dir.");
 	return false;
     }
+    string executor_dir(cur_dir);
