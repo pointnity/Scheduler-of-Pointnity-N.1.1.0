@@ -8,3 +8,4 @@
 
 DEFINE_string(resource_scheduler_endpoint, "127.0.0.1:9998", "ResouceScheduler endpoint");
 DEFINE_string(log_path, "../log/", "executor log path");
+DEFINE_string(hdfs_host, "localhost", "hdfs local host name, uname -n");
