@@ -20,3 +20,6 @@
 #include "common/clynn/rpc.h"
 #include "executor_monitor/hdfs_wrapper.h"
 #include "executor_monitor/checker.h"
+
+
+using std::string;
