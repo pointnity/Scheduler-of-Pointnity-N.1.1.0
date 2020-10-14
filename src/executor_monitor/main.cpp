@@ -69,3 +69,5 @@ int ExecutorMonitorEntity(int argc, char **argv) {
     while(true) {
 
     }
+
+    return EXIT_SUCCESS;
