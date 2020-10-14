@@ -36,3 +36,4 @@ using log4cplus::PatternLayout;
 using log4cplus::helpers::SharedObjectPtr;
 
 // gflag, config for executor
+DECLARE_string(log_path);
