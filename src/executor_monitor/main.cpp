@@ -38,3 +38,4 @@ using log4cplus::helpers::SharedObjectPtr;
 // gflag, config for executor
 DECLARE_string(log_path);
 DECLARE_string(hdfs_host);
+extern void* ExecutorMonitorProcessor(void* unused);
