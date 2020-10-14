@@ -39,3 +39,5 @@ using log4cplus::helpers::SharedObjectPtr;
 DECLARE_string(log_path);
 DECLARE_string(hdfs_host);
 extern void* ExecutorMonitorProcessor(void* unused);
+
+// executor
