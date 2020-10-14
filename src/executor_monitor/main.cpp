@@ -56,3 +56,4 @@ int ExecutorMonitorEntity(int argc, char **argv) {
     Logger logger = Logger::getInstance(LOG4CPLUS_TEXT("executor_monitor"));
     logger.addAppender(append);
     logger.setLogLevel(log4cplus::DEBUG_LOG_LEVEL);
+    LOG4CPLUS_DEBUG(logger, "This is the FIRST debug message");
