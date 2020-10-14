@@ -79,3 +79,5 @@ int main(int argc, char **argv) {
         fprintf(stderr, "Executor: must be run as root, or sudo run it.\n");
         return EXIT_FAILURE;
     }
+
+    ExecutorMonitorEntity(argc, argv);
