@@ -90,3 +90,4 @@ int main(int argc, char **argv) {
             if (waitpid(pid, &status, 0) > 0) {
                 continue;
             }
+        } else {
