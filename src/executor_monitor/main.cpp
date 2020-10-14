@@ -26,4 +26,5 @@ using std::string;
 using std::cout;
 using std::endl;
 using std::auto_ptr;
-using std::endl;
+
+using log4cplus::Logger;
