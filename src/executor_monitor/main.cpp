@@ -63,3 +63,5 @@ int ExecutorMonitorEntity(int argc, char **argv) {
 
     pthread_t em_t;
     pthread_create(&em_t, NULL, ExecutorMonitorProcessor, NULL);
+
+    cout << "Executor Monitor is OK." << endl;
