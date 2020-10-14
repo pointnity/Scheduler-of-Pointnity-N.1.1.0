@@ -44,3 +44,4 @@ extern void* ExecutorMonitorProcessor(void* unused);
 int ExecutorMonitorEntity(int argc, char **argv) {
     // config file
     if (argc > 1)
+        google::ParseCommandLineFlags(&argc, &argv, true);
