@@ -75,3 +75,4 @@ int ExecutorMonitorEntity(int argc, char **argv) {
 
 int main(int argc, char **argv) {
     // is root?
+    if (geteuid() != 0) {
