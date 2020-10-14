@@ -49,3 +49,4 @@ int ExecutorMonitorEntity(int argc, char **argv) {
         google::ReadFromFlagsFile("../conf/executor.conf", argv[0], true);
 
     // initilize log log4cplus
+    SharedObjectPtr<Appender> append(new FileAppender(FLAGS_log_path + "/executor_monitor.log"));
