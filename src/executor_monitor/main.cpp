@@ -89,3 +89,4 @@ int main(int argc, char **argv) {
             // parent process, start executorEntity when ExecutorEntity fail
             if (waitpid(pid, &status, 0) > 0) {
                 continue;
+            }
