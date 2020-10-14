@@ -51,3 +51,4 @@ int ExecutorMonitorEntity(int argc, char **argv) {
     // initilize log log4cplus
     SharedObjectPtr<Appender> append(new FileAppender(FLAGS_log_path + "/executor_monitor.log"));
     append->setName(LOG4CPLUS_TEXT("append for executor monitor"));
+    auto_ptr<Layout> layout(new PatternLayout(LOG4CPLUS_TEXT("%d{%y/%m/%d %H:%M:%S} %p [%l]: %m %n")));
