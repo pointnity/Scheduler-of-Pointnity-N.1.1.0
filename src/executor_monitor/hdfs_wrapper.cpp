@@ -37,3 +37,4 @@ bool HDFSWrapper::OpenConnect() {
     }
 
     // test
+    /*string local_path = "/tmp/";
