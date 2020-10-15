@@ -6,3 +6,5 @@
 
 #include "executor/hdfs_wrapper.h"
 #include <iostream>
+
+#include <log4cplus/logger.h>
