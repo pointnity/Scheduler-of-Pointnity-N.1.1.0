@@ -27,3 +27,4 @@ bool HDFSWrapper::OpenConnect() {
            } catch(const runtime_error& error){
 	   }
     if (NULL == m_local_fs) {
+        LOG4CPLUS_ERROR(logger, "Failed to connect local fs");
