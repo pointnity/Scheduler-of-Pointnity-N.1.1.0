@@ -39,3 +39,24 @@ bool HDFSWrapper::OpenConnect() {
     // test
     /*string local_path = "/tmp/";
     local_path += "output";
+    string h_path = "/user/wm/output";
+    if (!CopyToLocalFile(h_path, local_path)) {
+        LOG4CPLUS_ERROR(logger, "Failed to copy file");
+        return false;
+    } 
+    string local_path2 = "/home/wm/b.cpp";
+    string h_path2 = "/user/root/b.cpp";
+    if (!CopyFromLocalFile(local_path2, h_path2)) {
+        LOG4CPLUS_ERROR(logger, "Failed to copy file");
+        return false;
+    }*/
+
+    // close hdfs
+    /* if (0 != hdfsDisconnect(local_fs)) {
+        LOG4CPLUS_ERROR(logger, "Failed to disconnect local fs");
+        return false;
+    }
+    if (0 != hdfsDisconnect(h_fs)) {
+        LOG4CPLUS_ERROR(logger, "Failed to disconnect hdfs, hdfs_host:" << FLAGS_hdfs_host << ", hdfs_port:" << FLAGS_hdfs_port);
+        return false;
+    }*/
