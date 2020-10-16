@@ -86,3 +86,4 @@ bool HDFSWrapper::CopyFromLocalFile(const string src, const string dst) {
 }
 
 bool HDFSWrapper::CopyToLocalFile(const string src, const string dst) {
+    if (0 != hdfsCopy(m_h_fs, src.c_str(), m_local_fs, dst.c_str())) {
