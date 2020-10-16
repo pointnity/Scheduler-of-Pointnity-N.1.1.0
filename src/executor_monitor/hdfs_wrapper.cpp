@@ -79,3 +79,4 @@ bool HDFSWrapper::CloseConnect() {
 
 bool HDFSWrapper::CopyFromLocalFile(const string src, const string dst) {
     if (0 != hdfsCopy(m_local_fs, src.c_str(), m_h_fs, dst.c_str())) {
+        LOG4CPLUS_ERROR(logger, "Failed to copy from local file, src: local file:" << src << ", dest: hdfs file:" << dst);    
