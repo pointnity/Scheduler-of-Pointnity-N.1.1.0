@@ -82,3 +82,4 @@ bool HDFSWrapper::CopyFromLocalFile(const string src, const string dst) {
         LOG4CPLUS_ERROR(logger, "Failed to copy from local file, src: local file:" << src << ", dest: hdfs file:" << dst);    
         return false;
     }
+    return true;
