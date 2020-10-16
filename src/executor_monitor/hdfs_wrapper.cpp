@@ -64,3 +64,4 @@ bool HDFSWrapper::OpenConnect() {
 }
 
 bool HDFSWrapper::CloseConnect() {
+    // close hdfs
