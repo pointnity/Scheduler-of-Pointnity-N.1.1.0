@@ -75,3 +75,4 @@ bool HDFSWrapper::CloseConnect() {
     }
 
     return true;
+}
