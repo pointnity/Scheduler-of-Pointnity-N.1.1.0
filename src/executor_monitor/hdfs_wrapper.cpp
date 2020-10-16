@@ -84,3 +84,5 @@ bool HDFSWrapper::CopyFromLocalFile(const string src, const string dst) {
     }
     return true;
 }
+
+bool HDFSWrapper::CopyToLocalFile(const string src, const string dst) {
