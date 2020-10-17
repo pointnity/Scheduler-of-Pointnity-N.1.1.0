@@ -27,3 +27,4 @@ void* ExecutorMonitorProcessor(void* unused) {
        //executor is exist ?
        Checker* checkerptr = new Checker();
        if((checkerptr->IsProcess("executor")) == false) {
+	    RestartExecutor* ptr = new RestartExecutor();
