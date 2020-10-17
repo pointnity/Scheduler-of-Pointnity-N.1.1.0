@@ -31,3 +31,4 @@ void* ExecutorMonitorProcessor(void* unused) {
 	    ptr->CheckVersionRestartExecutor();
 	    delete ptr;	
        }
+       delete checkerptr;
