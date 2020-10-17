@@ -26,3 +26,4 @@ void* ExecutorMonitorProcessor(void* unused) {
     while(true) {
        //executor is exist ?
        Checker* checkerptr = new Checker();
+       if((checkerptr->IsProcess("executor")) == false) {
