@@ -16,3 +16,5 @@
 #include "executor_monitor/checker.h"
 
 using log4cplus::Logger;
+
+DECLARE_int32(hb_interval);
