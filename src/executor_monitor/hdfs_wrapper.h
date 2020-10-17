@@ -8,3 +8,4 @@
 #define SRC_HDFS_WRAPPER_H
 
 #include <string>
+// #include <hdfs/hdfs.h>
