@@ -27,3 +27,5 @@ bool RestartExecutor::CheckVersionRestartExecutor() {
     Checker* checkerptr = new Checker();
     bool rt = checkerptr->CheckVersion();
     delete checkerptr;
+
+    if(rt != true) {
