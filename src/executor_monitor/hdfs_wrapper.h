@@ -14,3 +14,5 @@
 
 // TODO
 // user ACL
+
+class HDFSWrapper {
