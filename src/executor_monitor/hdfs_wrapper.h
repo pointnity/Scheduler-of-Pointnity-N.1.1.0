@@ -19,3 +19,4 @@ class HDFSWrapper {
 public:
     bool OpenConnect();
     bool CloseConnect();
+    bool CopyFromLocalFile(const string src, const string dst);
