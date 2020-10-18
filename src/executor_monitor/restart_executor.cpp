@@ -40,3 +40,4 @@ bool RestartExecutor::CheckVersionRestartExecutor() {
     }
 
     string dir_str(cur_dir);
+    string cmd;
