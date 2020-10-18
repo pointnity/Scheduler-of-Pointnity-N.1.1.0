@@ -45,3 +45,4 @@ bool RestartExecutor::CheckVersionRestartExecutor() {
     std::cout << "cmd:" << cmd <<std::endl;
     system(cmd.c_str());
     return true;
+}
