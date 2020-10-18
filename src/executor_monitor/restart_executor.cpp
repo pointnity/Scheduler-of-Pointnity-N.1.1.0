@@ -32,3 +32,4 @@ bool RestartExecutor::CheckVersionRestartExecutor() {
 	LOG4CPLUS_ERROR(logger, "Failed to check executor version.");
 	return false;
     }
+    //restart executor
