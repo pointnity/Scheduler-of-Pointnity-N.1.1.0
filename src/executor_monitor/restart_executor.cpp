@@ -34,3 +34,4 @@ bool RestartExecutor::CheckVersionRestartExecutor() {
     }
     //restart executor
     // get current dir
+    char cur_dir[100];
