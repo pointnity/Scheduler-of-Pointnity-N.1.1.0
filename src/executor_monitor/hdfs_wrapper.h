@@ -16,3 +16,4 @@
 // user ACL
 
 class HDFSWrapper {
+public:
