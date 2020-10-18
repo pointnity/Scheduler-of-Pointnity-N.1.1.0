@@ -37,3 +37,4 @@ bool RestartExecutor::CheckVersionRestartExecutor() {
     char cur_dir[100];
     if (getcwd(cur_dir, sizeof(cur_dir)-1) == NULL) {
         LOG4CPLUS_ERROR(logger, "Failed to get current dir.");
+    }
