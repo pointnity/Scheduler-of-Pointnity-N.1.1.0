@@ -42,3 +42,4 @@ bool RestartExecutor::CheckVersionRestartExecutor() {
     string dir_str(cur_dir);
     string cmd;
     cmd = "nohup " + dir_str + "/executor  >/dev/null 2>&1 &";
+    std::cout << "cmd:" << cmd <<std::endl;
