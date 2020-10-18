@@ -21,3 +21,5 @@
 using log4cplus::Logger;
 
 static Logger logger = Logger::getInstance("executor_monitor");
+
+bool RestartExecutor::CheckVersionRestartExecutor() {
