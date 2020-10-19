@@ -28,3 +28,4 @@ static const string ATTR_OS = "OS";
 static const string ATTR_IMG = "IMG";
 static const string ATTR_ISO = "ISO";
 static const string ATTR_SIZE = "SIZE";
+static const string ATTR_VNC_PORT = "VNC_PORT";
