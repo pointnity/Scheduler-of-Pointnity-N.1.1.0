@@ -37,3 +37,4 @@ static const string ATTR_APP_NAME = "APP_NAME";
 static const string ATTR_APP_FILE = "APP_FILE";
 
 // -- outside vm, hdfs
+static const string ATTR_APP_SRC_PATH = "SRC_PATH";
