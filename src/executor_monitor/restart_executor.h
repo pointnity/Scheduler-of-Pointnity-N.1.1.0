@@ -12,3 +12,4 @@
 class RestartExecutor {
 public:
     bool CheckVersionRestartExecutor();
+};
