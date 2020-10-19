@@ -21,3 +21,4 @@ static const string ATTR_USER = "USER";
 // task vminfo
 static const string ATTR_MEMORY = "MEMORY";
 static const string ATTR_VCPU = "VCPU";
+static const string ATTR_IP = "IP";
