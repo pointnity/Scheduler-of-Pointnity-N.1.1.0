@@ -9,3 +9,5 @@
 #include <string>
 
 using std::string;
+
+/// @brief: TaskInfo
