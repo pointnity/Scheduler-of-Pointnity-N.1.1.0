@@ -32,3 +32,4 @@ static const string ATTR_VNC_PORT = "VNC_PORT";
 static const string ATTR_RPC_RUNNING = "RPC_RUNNING";
 
 // task appinfo
+static const string ATTR_APP_ID = "APP_ID";
