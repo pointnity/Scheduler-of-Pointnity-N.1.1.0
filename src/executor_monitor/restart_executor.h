@@ -5,3 +5,4 @@
 *********************************/
 
 #ifndef SRC_EXECUTOR_MONITOR_RESTART_EXECUTOR_H
+#define SRC_EXECUTOR_MONITOR_RESTART_EXECUTOR_H
