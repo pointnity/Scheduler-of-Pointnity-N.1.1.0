@@ -12,3 +12,4 @@ using std::string;
 
 /// @brief: TaskInfo
 // task info overview
+static const string ATTR_JOB_ID = "JOB_ID";
