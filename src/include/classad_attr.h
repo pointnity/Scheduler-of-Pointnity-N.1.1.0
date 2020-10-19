@@ -46,3 +46,6 @@ static const string ATTR_ARGUMENT = "ATTR_ARGUMENT";
 static const string ATTR_STOP_PATH = "STOP_PATH";
 static const string ATTR_OUT_DIR = "EXE_OUT_DIR";
 static const string ATTR_EXE = "EXE";
+
+
+/// @brief: Register MachineInfo
