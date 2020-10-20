@@ -108,3 +108,5 @@ static const string ATTR_VMHB_MEMORY = "VMHB_MEMORY";
 static const string ATTR_VMHB_BYTES_IN = "VMHB_BYTES_IN";
 static const string ATTR_VMHB_BYTES_OUT = "VMHB_BYTES_OUT";
 static const string ATTR_VMHB_STATE = "VMHB_STATE";
+
+static const string ATTR_JOB_ID_RS = "JOB_ID_RS";
