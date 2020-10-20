@@ -74,3 +74,4 @@ static const string ATTR_AVAIL_MEMORY = "AvailMemory";
 static const string ATTR_JOB_TYPE = "JobType";
 static const string ATTR_GROUP = "Group";
 static const string ATTR_PRIO = "Priority";
+static const string ATTR_SCHED_MODEL = "SchedModel";
