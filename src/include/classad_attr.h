@@ -57,3 +57,4 @@ static const string ATTR_Port = "Port";
 static const string ATTR_Arch = "Arch";
 static const string ATTR_OpSys = "OpSys";
 static const string ATTR_TotalCPUNum = "TotalCPUNum";
+static const string ATTR_TotalMemory = "TotalMemory";
