@@ -68,3 +68,4 @@ static const string ATTR_LOAD_AVG = "LoadAvg";
 static const string ATTR_Image = "Image";
 
 static const string ATTR_AVAIL_CPU = "AvailCPUNum";
+static const string ATTR_AVAIL_MEMORY = "AvailMemory";
