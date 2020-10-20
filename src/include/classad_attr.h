@@ -85,3 +85,4 @@ static const string ATTR_JOB_REQUIREMENT = "JobRequirement";
 
 static const string ATTR_MACHINE_STATUS = "MachineStatus";
 static const string ATTR_TASK_STATUS = "TaskStatus";
+static const string ATTR_TASK_START_TIME = "TaskStartTime";
