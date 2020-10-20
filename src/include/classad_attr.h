@@ -88,3 +88,4 @@ static const string ATTR_TASK_STATUS = "TaskStatus";
 static const string ATTR_TASK_START_TIME = "TaskStartTime";
 
 static const string ATTR_TASK_RANK = "TaskRank";
+static const string ATTR_TASK_REQUIREMENT = "TaskRequirement";
