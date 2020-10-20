@@ -66,3 +66,5 @@ static const string ATTR_BandWidth = "BandWidth";
 static const string ATTR_NICType = "NICType";
 static const string ATTR_LOAD_AVG = "LoadAvg";
 static const string ATTR_Image = "Image";
+
+static const string ATTR_AVAIL_CPU = "AvailCPUNum";
