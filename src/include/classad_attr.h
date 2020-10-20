@@ -65,3 +65,4 @@ static const string ATTR_AvailDisk = "AvailDisk";
 static const string ATTR_BandWidth = "BandWidth";
 static const string ATTR_NICType = "NICType";
 static const string ATTR_LOAD_AVG = "LoadAvg";
+static const string ATTR_Image = "Image";
