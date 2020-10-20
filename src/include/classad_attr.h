@@ -103,3 +103,4 @@ static const string ATTR_IMAGE_SIZE = "IMAGE_SIZE";
 static const string ATTR_IMAGE_USER = "IMAGE_USER";
 
 //vm hb
+static const string ATTR_VMHB_CPU = "VMHB_CPU";
