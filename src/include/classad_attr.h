@@ -60,3 +60,4 @@ static const string ATTR_TotalCPUNum = "TotalCPUNum";
 static const string ATTR_TotalMemory = "TotalMemory";
 static const string ATTR_TotalDisk = "TotalDisk";
 static const string ATTR_AvailCPUNum = "AvailCPUNum";
+static const string ATTR_AvailMemory = "AvailMemory";
