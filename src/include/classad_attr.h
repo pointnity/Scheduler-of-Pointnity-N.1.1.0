@@ -79,3 +79,4 @@ static const string ATTR_TOTAL_TASKS = "TotalTasks";
 static const string ATTR_NEED_CPU = "NeedCPU";
 static const string ATTR_NEED_MEMORY = "NeedMemory";
 static const string ATTR_TIMEOUT = "Timeout";
+// static const string ATTR_EXE_PATH = "Exepath";
