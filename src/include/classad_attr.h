@@ -100,3 +100,4 @@ static const string EXP_TASK_REQUIREMENT = ATTR_VCPU + " <=" + ATTR_AvailCPUNum 
 //image info
 static const string ATTR_IMAGE_NAME = "IMAGE_NAME";
 static const string ATTR_IMAGE_SIZE = "IMAGE_SIZE";
+static const string ATTR_IMAGE_USER = "IMAGE_USER";
