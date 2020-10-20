@@ -69,3 +69,6 @@ static const string ATTR_Image = "Image";
 
 static const string ATTR_AVAIL_CPU = "AvailCPUNum";
 static const string ATTR_AVAIL_MEMORY = "AvailMemory";
+
+
+static const string ATTR_JOB_TYPE = "JobType";
