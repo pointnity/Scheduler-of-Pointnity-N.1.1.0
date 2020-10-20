@@ -96,3 +96,5 @@ static const string ATTR_SOFT_VALUE = "SoftValue";
 
 static const string EXP_TASK_RANK = ATTR_VCPU + "/" + ATTR_AvailCPUNum + " > 1.0*" + ATTR_MEMORY + "/" + ATTR_AvailMemory + " ? " + ATTR_VCPU + "/" + ATTR_AvailCPUNum + ": 1.0*" + ATTR_MEMORY+ "/" + ATTR_AvailMemory;
 static const string EXP_TASK_REQUIREMENT = ATTR_VCPU + " <=" + ATTR_AvailCPUNum  + "&&" +  ATTR_MEMORY + "<=" +  ATTR_AvailMemory;
+
+//image info
