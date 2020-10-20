@@ -75,3 +75,4 @@ static const string ATTR_JOB_TYPE = "JobType";
 static const string ATTR_GROUP = "Group";
 static const string ATTR_PRIO = "Priority";
 static const string ATTR_SCHED_MODEL = "SchedModel";
+static const string ATTR_TOTAL_TASKS = "TotalTasks";
