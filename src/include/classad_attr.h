@@ -98,3 +98,4 @@ static const string EXP_TASK_RANK = ATTR_VCPU + "/" + ATTR_AvailCPUNum + " > 1.0
 static const string EXP_TASK_REQUIREMENT = ATTR_VCPU + " <=" + ATTR_AvailCPUNum  + "&&" +  ATTR_MEMORY + "<=" +  ATTR_AvailMemory;
 
 //image info
+static const string ATTR_IMAGE_NAME = "IMAGE_NAME";
