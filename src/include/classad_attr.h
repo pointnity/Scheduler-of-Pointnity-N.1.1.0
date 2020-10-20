@@ -52,3 +52,4 @@ static const string ATTR_EXE = "EXE";
 static const string ATTR_Machine = "Machine";
 static const string ATTR_MachineType = "MachineType";
 static const string ATTR_Shelf = "Shelf";
+static const string ATTR_Machine_IP = "IP";
