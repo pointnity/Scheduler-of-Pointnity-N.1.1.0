@@ -91,3 +91,4 @@ static const string ATTR_TASK_RANK = "TaskRank";
 static const string ATTR_TASK_REQUIREMENT = "TaskRequirement";
 static const string ATTR_HARD_REQUIREMENT = "HardRequirement";
 static const string ATTR_SOFT_REQUIREMENT = "SoftRequirement";
+static const string ATTR_SOFT_VALUE = "SoftValue";
