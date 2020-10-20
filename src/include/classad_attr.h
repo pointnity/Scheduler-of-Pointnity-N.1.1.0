@@ -81,3 +81,4 @@ static const string ATTR_NEED_MEMORY = "NeedMemory";
 static const string ATTR_TIMEOUT = "Timeout";
 // static const string ATTR_EXE_PATH = "Exepath";
 static const string ATTR_JOB_RANK = "JobRank";
+static const string ATTR_JOB_REQUIREMENT = "JobRequirement";
