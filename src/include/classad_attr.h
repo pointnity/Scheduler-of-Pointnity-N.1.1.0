@@ -55,3 +55,4 @@ static const string ATTR_Shelf = "Shelf";
 static const string ATTR_Machine_IP = "IP";
 static const string ATTR_Port = "Port";
 static const string ATTR_Arch = "Arch";
+static const string ATTR_OpSys = "OpSys";
