@@ -110,3 +110,7 @@ static const string ATTR_VMHB_BYTES_OUT = "VMHB_BYTES_OUT";
 static const string ATTR_VMHB_STATE = "VMHB_STATE";
 
 static const string ATTR_JOB_ID_RS = "JOB_ID_RS";
+static const string ATTR_TASK_ID_RS = "TASK_ID_RS";
+
+
+#endif
