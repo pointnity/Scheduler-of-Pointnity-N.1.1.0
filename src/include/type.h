@@ -36,3 +36,4 @@ struct TaskID {
 
 // app
 struct AppInfo {
+    int32_t id;
