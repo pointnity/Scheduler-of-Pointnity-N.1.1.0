@@ -32,3 +32,4 @@ struct TaskID {
            return task_id < other.task_id;
        return false;
    }
+};
