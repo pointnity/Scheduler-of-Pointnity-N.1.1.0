@@ -10,3 +10,4 @@
 #include <sys/types.h>
 // basic data struct in Linux, such as size_t, time_t, pid_t
 #include <sys/ipc.h>
+// inter process communication
