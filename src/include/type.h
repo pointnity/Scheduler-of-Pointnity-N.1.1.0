@@ -25,3 +25,4 @@ struct TaskID {
     int32_t task_id;
 
     // overwrite comparison operators
+    bool operator <(const TaskID& other) const  {
