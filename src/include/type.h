@@ -13,3 +13,5 @@
 // inter process communication
 #include <string>
 #include <vector>
+
+#include "include/proxy.h"
