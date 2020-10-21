@@ -41,3 +41,4 @@ struct AppInfo {
     // string os;
     // outside vm, hdfs
     string app_file;  
+    string app_src_path;
