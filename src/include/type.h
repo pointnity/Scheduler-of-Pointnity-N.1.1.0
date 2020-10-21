@@ -21,3 +21,4 @@ using std::vector;
 
 // TaskID: job id + task id
 struct TaskID {
+    int32_t job_id;
