@@ -20,3 +20,4 @@ using std::string;
 using std::vector;
 
 // TaskID: job id + task id
+struct TaskID {
