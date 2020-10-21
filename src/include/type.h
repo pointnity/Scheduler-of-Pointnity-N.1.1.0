@@ -27,3 +27,4 @@ struct TaskID {
     // overwrite comparison operators
     bool operator <(const TaskID& other) const  {
        if (job_id < other.job_id)
+           return true;
