@@ -38,3 +38,4 @@ struct TaskID {
 struct AppInfo {
     int32_t id;
     string name;
+    // string os;
