@@ -87,3 +87,4 @@ struct HbVMInfo {
     TaskID id;  // job_id + task_id, vm id
     string name;
     VMType::type type;
+    double cpu_usage;
