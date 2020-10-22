@@ -78,3 +78,4 @@ struct TaskInfo {
     VMInfo vm_info;
     // app
     bool is_run;
+    string user;
