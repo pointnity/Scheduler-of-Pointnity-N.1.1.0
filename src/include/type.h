@@ -79,3 +79,4 @@ struct TaskInfo {
     // app
     bool is_run;
     string user;
+    int32_t timeout;
