@@ -84,3 +84,4 @@ struct TaskInfo {
 };
 
 struct HbVMInfo {
+    TaskID id;  // job_id + task_id, vm id
