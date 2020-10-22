@@ -57,3 +57,4 @@ struct AppInfo {
 struct VMInfo {
 
     // resource
+    int32_t memory;
