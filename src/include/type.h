@@ -61,3 +61,4 @@ struct VMInfo {
     int32_t vcpu;
     string ip;
     int32_t port;
+    string os;
