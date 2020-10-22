@@ -59,3 +59,4 @@ struct VMInfo {
     // resource
     int32_t memory;
     int32_t vcpu;
+    string ip;
