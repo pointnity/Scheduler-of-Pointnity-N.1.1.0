@@ -89,3 +89,4 @@ struct HbVMInfo {
     VMType::type type;
     double cpu_usage;
     double memory_usage;
+    int32_t bytes_in;
