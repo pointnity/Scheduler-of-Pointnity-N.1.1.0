@@ -77,3 +77,4 @@ struct TaskInfo {
     VMType::type type;
     VMInfo vm_info;
     // app
+    bool is_run;
