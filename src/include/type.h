@@ -49,3 +49,4 @@ struct AppInfo {
     string exe;          //exe and argument
     string exe_path;     // execute path
     string argument; 
+    string stop_path;    // stop
