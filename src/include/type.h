@@ -67,3 +67,4 @@ struct VMInfo {
     string img_template;
     string iso_location;
     int32_t size;
+    int32_t vnc_port;
