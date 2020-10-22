@@ -55,3 +55,5 @@ struct AppInfo {
 
 // resource vm
 struct VMInfo {
+
+    // resource
