@@ -69,3 +69,4 @@ struct VMInfo {
     int32_t size;
     int32_t vnc_port;
     bool rpc_running;
+};
