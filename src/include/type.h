@@ -62,3 +62,5 @@ struct VMInfo {
     string ip;
     int32_t port;
     string os;
+
+    // only for kvm 
