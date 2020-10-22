@@ -76,3 +76,4 @@ struct TaskInfo {
     // vm resource
     VMType::type type;
     VMInfo vm_info;
+    // app
