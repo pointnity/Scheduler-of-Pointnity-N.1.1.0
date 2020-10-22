@@ -72,3 +72,4 @@ struct VMInfo {
 };
 
 struct TaskInfo {
+    TaskID id;
