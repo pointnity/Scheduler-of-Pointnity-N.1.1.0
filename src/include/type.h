@@ -99,3 +99,4 @@ struct HbMachineInfo {
     int32_t port;
     double cpu_usage;
     double memory_usage;
+    int32_t bytes_in;
