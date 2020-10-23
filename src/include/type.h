@@ -109,3 +109,5 @@ struct AllocResource {
     int32_t cpu;
     int32_t memory;
 };
+
+#endif
