@@ -103,3 +103,5 @@ struct HbMachineInfo {
     int32_t bytes_out;
     vector<HbVMInfo> hb_vminfo_list;
 };
+
+// for resource manager
