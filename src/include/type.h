@@ -101,3 +101,4 @@ struct HbMachineInfo {
     double memory_usage;
     int32_t bytes_in;
     int32_t bytes_out;
+    vector<HbVMInfo> hb_vminfo_list;
