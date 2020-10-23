@@ -106,3 +106,4 @@ struct HbMachineInfo {
 
 // for resource manager
 struct AllocResource {
+    int32_t cpu;
