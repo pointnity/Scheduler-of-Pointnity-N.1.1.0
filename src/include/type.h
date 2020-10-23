@@ -105,3 +105,4 @@ struct HbMachineInfo {
 };
 
 // for resource manager
+struct AllocResource {
