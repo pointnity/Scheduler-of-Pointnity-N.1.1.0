@@ -95,3 +95,4 @@ struct HbVMInfo {
 };
 
 struct HbMachineInfo {
+    string ip;
