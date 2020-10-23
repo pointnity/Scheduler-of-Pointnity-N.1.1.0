@@ -100,3 +100,4 @@ struct HbMachineInfo {
     double cpu_usage;
     double memory_usage;
     int32_t bytes_in;
+    int32_t bytes_out;
