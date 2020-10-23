@@ -92,3 +92,4 @@ struct HbVMInfo {
     int32_t bytes_in;
     int32_t bytes_out;
     AppState::type app_state;
+};
