@@ -97,3 +97,4 @@ struct HbVMInfo {
 struct HbMachineInfo {
     string ip;
     int32_t port;
+    double cpu_usage;
