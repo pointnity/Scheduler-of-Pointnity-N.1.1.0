@@ -168,3 +168,5 @@ nav ul li {
 		nav ul li a.current,  nav ul li a:hover {
 			padding-bottom:5px;
 		}
+		
+		nav ul li:nth-of-type(2) a {
