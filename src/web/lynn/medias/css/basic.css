@@ -135,3 +135,4 @@ nav {
 nav ul li {
 	list-style:none;
 	float:left;
+	border: 1px solid #eee;
