@@ -166,3 +166,4 @@ nav ul li {
 			width:135px;
 		}
 		nav ul li a.current,  nav ul li a:hover {
+			padding-bottom:5px;
