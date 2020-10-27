@@ -147,3 +147,4 @@ nav ul li {
 		text-align:center;
 		float:left;
 		background:#fff;
+		background-image: gradient(top, #ddd, #ccc); /* FF3.6 */
