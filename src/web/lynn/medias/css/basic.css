@@ -148,3 +148,4 @@ nav ul li {
 		float:left;
 		background:#fff;
 		background-image: gradient(top, #ddd, #ccc); /* FF3.6 */
+		background-image: -moz-linear-gradient(top, #ddd, #ccc); /* FF3.6 */
