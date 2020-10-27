@@ -181,3 +181,4 @@ nav ul li {
 			background:#7cbc19;
 			background-image: gradient(top, #ddd, #ccc); /* FF3.6 */
 			background-image: -moz-linear-gradient(top, #ddd, #ccc); /* FF3.6 */
+			background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #017bc8),color-stop(1, #018ed3)); /* Saf4+, Chrome */
