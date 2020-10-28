@@ -218,3 +218,4 @@ header nav {
 }
 header nav ul li {
 	list-style:none;
+	float:left;
