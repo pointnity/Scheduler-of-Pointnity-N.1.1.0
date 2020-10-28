@@ -270,3 +270,4 @@ header nav ul li {
 		header nav ul li:nth-of-type(3) a {
 			background:#7cbc19;
 			background-image: gradient(top, #ccffff, #77dddd); /* FF3.6 */
+			background-image: -moz-linear-gradient(top, #ccffff, #77dddd); /* FF3.6 */
