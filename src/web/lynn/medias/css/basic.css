@@ -370,3 +370,4 @@ a makeing
 .imglist,.imgadd,.imglist_virt,.isolist,.isoadd,.oslist,.osadd,.run_typelist,.run_typeadd {
 	border: 1px solid #ccc;
 	position:relative;
+	top:75px;
