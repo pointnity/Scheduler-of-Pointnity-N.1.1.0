@@ -358,3 +358,4 @@ a makeing
 	font-size: 15px;
 }
 .user_list,.usermodule,.useradd,.userform,.grouplist,.groupadd,.changepwd,.perm_list{
+	border: 1px solid #ccc;
