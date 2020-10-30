@@ -379,3 +379,4 @@ a makeing
 }
 .job_installlist,.job_installadd,.job_runlist,.job_runadd,.job_stoplist,.job_stopadd{
 	border: 1px solid #ccc;
+	position:relative;
