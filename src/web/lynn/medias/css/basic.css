@@ -390,3 +390,4 @@ a makeing
 .workerjob_list,.workerjob_add,.workertask_list,.workertask_list_job,.workertask_add{
 	border: 1px solid #ccc;
 	position:relative;
+	top:75px;
