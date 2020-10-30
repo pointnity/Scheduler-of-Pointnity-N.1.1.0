@@ -408,3 +408,4 @@ a makeing
 	font-size: 15px;
 }
 .file_list,.file,.ghapp_list,.ghapp_add,.gh_list,.gh_add,.pvc_list,.node_list{
+        border: 1px solid #ccc;
