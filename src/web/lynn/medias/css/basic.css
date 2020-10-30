@@ -388,3 +388,4 @@ a makeing
 	font-size: 15px;
 }
 .workerjob_list,.workerjob_add,.workertask_list,.workertask_list_job,.workertask_add{
+	border: 1px solid #ccc;
