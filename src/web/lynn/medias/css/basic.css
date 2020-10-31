@@ -474,3 +474,21 @@ a makeing
 .job_runadd{
         width:500px;
 }
+.job_stoplist{
+        width:850px;
+}
+.job_stopadd{
+        width:500px;
+}
+.workerjob_list {
+	width:930px;
+}
+.workerjob_add{
+	width:500px;
+}
+
+.workertask_list {
+	width:1000px;
+}
+.workertask_list_job {
+        width:850px;
