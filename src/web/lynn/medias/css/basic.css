@@ -492,3 +492,405 @@ a makeing
 }
 .workertask_list_job {
         width:850px;
+}
+
+.workertask_add{
+	width:500px;
+}
+
+.ghjob_list {
+	width:1050px;
+}
+.ghjob_add{
+	width:500px;
+}
+
+.ghtask_list {
+	width:1000px;
+}
+.ghtask_list_job {
+        width:950px;
+}
+
+.ghtask_add{
+	width:500px;
+}
+
+.imgadd {
+	width:400px;
+}
+
+/* app */
+.appmgt {
+	width:500px;
+}
+.applist {
+	width:1000px;
+}
+.applist_user {
+	width:950px;
+}
+.appvirt {
+	width:950px;
+}
+.appadd {
+	width:480px;
+}
+/* physical */
+.serverlist {
+	width:850px;
+}
+.virtlist {
+	width:850px;
+}
+.serveradd {
+	width:450px;
+}
+.virtadd {
+	width:550px;
+}
+.jobadd {
+        width:550px;
+}
+.virt_add_way {
+	width:350px;
+}
+.virtaddxml {
+	width:800px;
+}
+/* user */
+.user_list {
+	width:900px;
+}
+.usermodule {
+	width:800px;
+}
+.userform {
+	width:700px;
+}
+.useradd {
+	width:400px;
+}
+.perm_list {
+	width:1050px;
+}
+.grouplist {
+	width:700px;
+}
+.groupadd {
+	width:400px;
+}
+/* personal information */
+.personmgt,.personperm{
+	border: 1px solid #ccc;
+	position:relative;
+	top:65px;
+	width:300px;
+	text-align:left;
+	margin: 20px;
+	background: #eeeeee;
+	font-size: 15px;
+}
+.personperm {
+	width:800px;
+}
+.changepwd {
+	width:350px;
+}
+/* change password */
+.changepassword {
+	border: 1px solid #ccc;
+	position:relative;
+	top:120px;
+	left:450px;
+	width:300px;
+	margin: 20px;
+	background: #fff;
+	font-size: 15px;
+}
+.myhelptext {
+	margin-left:15px;
+	color: red;
+}
+
+/* table */
+ caption {
+	/*margin: 0 0 5px 0;*/
+	margin: 0;
+	padding: 2px 5px 3px 5px;
+	font-size: 15px;
+	text-align: left;
+	line-height:25px;
+	font-weight: bold;
+	background: #118080;
+	color: white;
+}
+
+.tables {
+	background-color:#eeeeee;
+	border-collapse:collapse;
+	width:100%;
+}
+tr {
+	border-top:1px solid white;
+	background-color:#eeeeee;
+	line-height:25px;
+	text-align:left;
+	padding-right:5px;
+}
+th {
+	font-weight:normal; 
+}
+th, td{
+	/*vertical-align:bottom;*/
+	padding-left:7px;
+}
+/*th label{
+	padding-left:7px;
+}*/
+.tr1{
+	background-color:#eeeeee;
+}
+.tr2{
+	background-color:#cccccc;
+}
+
+a {
+	text-decoration:none;
+}
+
+#add th {
+        text-align:right;
+        line-height:45px;
+        width:120px;
+}
+.appadd th {
+	text-align:right;
+	line-height:45px;
+	width:120px;
+}
+.serveradd th {
+	text-align:right;
+	line-height:45px;
+}
+
+.virtadd th {
+	text-align:right;
+	line-height:45px;
+	width:120px;
+}
+.jobadd th {
+	text-align:right;
+	line-height:45px;
+	width:120px;
+}
+.virt_add_way th {
+        text-align:right;
+        line-height:45px;
+        width:120px;
+}
+
+.useradd th {
+	text-align:right;
+	line-height:45px;
+}
+.groupadd th {
+	text-align:right;
+	line-height:45px;
+	width:80px;
+}
+.imgadd th {
+	text-align:right;
+	line-height:45px;
+	width:80px;
+}
+.isoadd th {
+	text-align:right;
+	line-height:45px;
+	width:80px;
+}
+.osadd th {
+	text-align:right;
+	line-height:45px;
+	width:80px;
+}
+.run_typeadd th {
+        text-align:right;
+        line-height:45px;
+        width:80px;
+}
+
+.job_installadd th {
+	text-align:right;
+	line-height:45px;
+	width:80px;
+}
+.job_runadd th {
+        text-align:right;
+        line-height:45px;
+        width:80px;
+}
+.job_stopadd th {
+        text-align:right;
+        line-height:45px;
+        width:80px;
+}
+.workerjob_add th {
+        text-align:right;
+        line-height:45px;
+        width:80px;
+}
+.workertask_add th {
+        text-align:right;
+        line-height:45px;
+        width:80px;
+}
+.ghapp_add th {
+        text-align:right;
+        line-height:45px;
+        width:80px;
+}
+.ghjob_add th {
+        text-align:right;
+        line-height:45px;
+        width:80px;
+}
+.ghtask_add th {
+        text-align:right;
+        line-height:45px;
+        width:80px;
+}
+.changepwd th {
+	text-align:right;
+	line-height:45px;
+}
+.tdright {
+	padding-left:40px; 
+}
+.tdleft {
+	padding-right:5px; 
+}
+
+.formfield {
+	margin-top: 4px;
+	margin-bottom: 3px;
+}
+.addsubmit{
+	background: #118080;
+	color: white;
+}
+.in_submit{
+        color: blacki;
+	border:1px solid #aaa;
+        margin: 3px;
+}
+.submit{
+	color: black;
+	border:1px solid #aaa;
+	margin: 3px;
+}
+
+/* list */
+thead {
+	text-align: left;
+}
+
+.errorlist {
+	float:right;
+	margin:0px 0px 0px 0px;
+}
+#id_name {
+	float:left;
+	margin:0px 0px 0px 0px;
+}
+
+/* ACTION ICONS */
+
+.addlink {
+	padding-left: 12px;
+	background: url(../img/icon_addlink.gif) 0 .2em no-repeat;
+}
+
+.arrowright {
+	padding-left: 22px;
+	background: url(../img/tooltag-arrowright.gif) 0 .2em no-repeat;
+}
+
+.changelink {
+	padding-left: 12px;
+	background: url(../img/icon_changelink.gif) 0 .2em no-repeat;
+}
+
+.searchlink {
+        padding-left: 20px;
+	padding-top:2px;
+        background: url(../img/icon_searchbox.png) 0 .2em no-repeat;
+}
+
+.deletelink {
+	padding-left: 12px;
+	background: url(../img/icon_deletelink.gif) 0 .2em no-repeat;
+}
+
+
+
+/* charts */
+.charts {
+	border: 1px solid #ccc;
+	width:482px;
+	margin: 20px;
+	position:relative;
+	float:left;
+	top:75px;
+	background: #f6f6f6;
+	font-size: 15px;
+}
+.charts img {
+	margin-bottom:-4px;
+}
+.chartshead{   
+	height:30px;
+	overflow:hidden;
+	background:#118080;   
+}
+  .chartshead span {
+	font-size:15px;
+	color:#fff;
+	font-weight:normal;
+	position:relative;
+	left:10px;
+	top:5px;
+}
+.select_rrd {
+	margin: 3px 15px 3px 0px;
+	padding:0;
+	border:1px solid #aaa;
+	float: right;
+}
+.xml {
+	margin-left: 5px;
+}
+
+.xml_box {
+    width: 400px; 
+    min-height: 120px; 
+    max-height: 300px;
+    _height: 120px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    padding: 3px; 
+    outline: 0; 
+    border: 1px solid #a0b3d6; 
+    font-size: 12px; 
+    word-wrap: break-word;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+/* color */
+.white {
+        color:white;
+        line-height:25px;
+        margin:10px;
+}
+
+/*--------------over----------------*/
