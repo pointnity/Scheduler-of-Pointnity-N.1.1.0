@@ -14,3 +14,4 @@ body {
 /* Header */
 header {
 	height:45px;
+	overflow:hidden;
