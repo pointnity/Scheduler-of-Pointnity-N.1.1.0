@@ -51,3 +51,5 @@ header nav {
 	margin-left:-37px;
 }
 		header nav ul li {
+         list-style:none;
+			float:left;
