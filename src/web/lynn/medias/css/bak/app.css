@@ -122,3 +122,4 @@ header nav {
 
 /* module */
 .module, .appmodule, .appvirt,.appadd{
+    border: 1px solid #ccc;
