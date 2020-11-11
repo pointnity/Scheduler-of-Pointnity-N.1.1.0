@@ -197,3 +197,55 @@ th {
 	line-height:25px;
 	font-weight:normal; 
 }
+.tdright {
+	padding-left:90px; 
+}
+.errorlist {
+    float:right;
+    margin:0px 0px 0px 0px;
+}
+
+#apptable {
+    background: #fff;
+ 	 width:100%;
+}
+#virttable {
+    background: #fff;
+ 	 width:100%;
+}
+
+  .formfield {
+   margin-top: 4px;
+
+   margin-bottom: 3px;
+}
+.addsubmit{
+    background: #118080;
+    color: white;
+}
+/* ACTION ICONS */
+
+.addlink {
+    padding-left: 12px;
+    background: url(../img/icon_addlink.gif) 0 .2em no-repeat;
+}
+
+.changelink {
+    padding-left: 12px;
+    background: url(../img/icon_changelink.gif) 0 .2em no-repeat;
+}
+
+.deletelink {
+    padding-left: 12px;
+    background: url(../img/icon_deletelink.gif) 0 .2em no-repeat;
+}
+
+/* list */
+thead {
+    text-align: left;
+}
+
+
+
+
+/*--------------over----------------*/
