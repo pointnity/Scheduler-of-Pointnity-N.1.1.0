@@ -172,3 +172,4 @@ th {
 	font-weight:normal; 
 }
 th a, td a{
+	/*vertical-align:bottom;*/
