@@ -110,3 +110,4 @@ header nav {
 			background:#d00110;
 			background-image: gradient(top, #ccffff, #77dddd); /* FF3.6 */
 			background-image: -moz-linear-gradient(top, #ccffff, #77dddd); /* FF3.6 */
+			background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #017bc8),color-stop(1, #018ed3)); /* Saf4+, Chrome */
