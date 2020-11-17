@@ -14,3 +14,4 @@ body {
 header{   
 	height:61px;
    width:99.7%;
+	overflow:hidden;
