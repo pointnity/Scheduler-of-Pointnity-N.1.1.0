@@ -62,3 +62,4 @@ header nav {
 				text-align:center;
 				float:left;
 				background:#fff;
+				background-image: gradient(top, #ccffff, #77dddd); /* FF3.6 */
