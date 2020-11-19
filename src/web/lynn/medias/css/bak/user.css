@@ -69,3 +69,4 @@ header nav {
 			-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#017bc8', EndColorStr='#018ed3')"; /* IE8 */
 		}
 		header nav ul li a.current, header nav ul li a:hover {
+			padding-bottom:5px;
