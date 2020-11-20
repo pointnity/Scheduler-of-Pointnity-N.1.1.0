@@ -119,3 +119,4 @@ header nav {
     }
 .module, .usermodule, .add_module, .edit_module {
     border: 1px solid #ccc;
+	 position:relative;
