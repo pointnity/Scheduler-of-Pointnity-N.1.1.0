@@ -55,6 +55,7 @@ header nav {
 		}
 			header nav ul li a {
 				font-size:15px;
+				color:#242424;
 				height:28px;
 				line-height:28px;
 				text-decoration:none;
@@ -71,7 +72,7 @@ header nav {
 		header nav ul li a.current, header nav ul li a:hover {
 			padding-bottom:5px;
 		}
-
+		
 		header nav ul li:nth-of-type(2) a {
 			background:#0184cd;
 			background-image: gradient(top, #ccffff, #77dddd); /* FF3.6 */
@@ -117,6 +118,9 @@ header nav {
     color:#242424;
     text-decoration:none;
     }
+
+
+/* tables */
 .module, .usermodule, .add_module, .edit_module {
     border: 1px solid #ccc;
 	 position:relative;
