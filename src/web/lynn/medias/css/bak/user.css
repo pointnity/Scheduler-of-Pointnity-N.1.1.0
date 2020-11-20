@@ -118,3 +118,4 @@ header nav {
     text-decoration:none;
     }
 .module, .usermodule, .add_module, .edit_module {
+    border: 1px solid #ccc;
