@@ -200,3 +200,27 @@ header nav {
 /* ACTION ICONS */
 
 .addlink {
+    padding-left: 12px;
+    margin:20px;
+    background: url(../img/icon_addlink.gif) 0 .2em no-repeat;
+}
+
+.changelink {
+    padding-left: 12px;
+    background: url(../img/icon_changelink.gif) 0 .2em no-repeat;
+}
+
+.deletelink {
+    padding-left: 12px;
+    background: url(../img/icon_deletelink.gif) 0 .2em no-repeat;
+}
+
+/* list */
+thead {
+    text-align: left;
+}
+
+
+
+
+/*--------------over----------------*/
