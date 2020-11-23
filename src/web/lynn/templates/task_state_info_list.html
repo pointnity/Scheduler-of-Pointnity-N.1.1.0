@@ -58,3 +58,4 @@
                         <span class="current">
                                 Page {{ task_state_info_list.number }} / {{ task_state_info_list.paginator.num_pages }}
                         </span>
+                        {% if task_state_info_list.has_next %}
