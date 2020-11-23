@@ -59,3 +59,4 @@
                                 Page {{ task_state_info_list.number }} / {{ task_state_info_list.paginator.num_pages }}
                         </span>
                         {% if task_state_info_list.has_next %}
+                                <a href="?page={{ task_state_info_list.next_page_number }}">下一页</a>
