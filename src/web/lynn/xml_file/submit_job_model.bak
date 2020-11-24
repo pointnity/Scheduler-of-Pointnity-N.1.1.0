@@ -10,3 +10,5 @@
     <img_template>centos_10G</img_template>
     <size>10</size>
     <app_name>app_my</app_name>
+
+    <tasks>
