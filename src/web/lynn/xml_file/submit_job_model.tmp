@@ -27,3 +27,4 @@
 </task>
 <task>
 <exe_path>getURL -b</exe_path>
+<task_num>1</task_num>
