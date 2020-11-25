@@ -8,3 +8,4 @@
     <need_cpu>T_CPU</need_cpu>
     <need_memory>T_MEMORY</need_memory>
     <vm_type>KVM</vm_type>
+    <img_template>T_IMG</img_template>
