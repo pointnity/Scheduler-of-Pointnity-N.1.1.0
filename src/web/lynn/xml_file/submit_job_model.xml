@@ -4,3 +4,5 @@
     <priority>T_PRIORITY</priority>
     <job_type>batch</job_type>
     <sched_model>T_SCHED_MODEL</sched_model>
+
+    <need_cpu>T_CPU</need_cpu>
