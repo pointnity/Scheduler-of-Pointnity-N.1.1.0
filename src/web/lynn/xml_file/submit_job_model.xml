@@ -1,3 +1,4 @@
 <job>
     <xml_type>homogeneous</xml_type>
     <group>common</group>
+    <priority>T_PRIORITY</priority>
