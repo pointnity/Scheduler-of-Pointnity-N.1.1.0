@@ -6,3 +6,4 @@
     <sched_model>T_SCHED_MODEL</sched_model>
 
     <need_cpu>T_CPU</need_cpu>
+    <need_memory>T_MEMORY</need_memory>
