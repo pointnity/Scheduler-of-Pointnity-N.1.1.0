@@ -52,3 +52,4 @@ SET(SRC
     ${EXECUTOR_THRIFT_SOURCE}
     config.cpp
     task.cpp
+    batch_task.cpp
