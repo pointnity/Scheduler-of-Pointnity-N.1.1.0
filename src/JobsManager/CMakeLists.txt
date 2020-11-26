@@ -66,3 +66,4 @@ SET(SRC
     image_manager.cpp
     app_manager.cpp
     handler.cpp
+    event.cpp
