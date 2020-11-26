@@ -67,3 +67,4 @@ SET(SRC
     app_manager.cpp
     handler.cpp
     event.cpp
+    dispatcher.cpp
