@@ -46,3 +46,4 @@ ADD_CUSTOM_COMMAND (
 #    ../proxy/resource_scheduler_wrapper.cpp)
 
 SET(SRC 
+    # ${COMMON_SOURCE}
