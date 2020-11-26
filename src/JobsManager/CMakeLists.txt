@@ -53,3 +53,4 @@ SET(SRC
     config.cpp
     task.cpp
     batch_task.cpp
+    job.cpp
