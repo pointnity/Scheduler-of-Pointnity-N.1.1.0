@@ -62,3 +62,4 @@ SET(SRC
     job_scheduler.cpp
     default_scheduler.cpp
     wd_scheduler.cpp
+    job_master.cpp
