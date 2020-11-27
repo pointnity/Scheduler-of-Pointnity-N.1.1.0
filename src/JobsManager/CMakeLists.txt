@@ -74,3 +74,5 @@ SET(SRC
     jobs_manager_main.cpp)
 
 ADD_EXECUTABLE(JobsManager ${SRC})
+
+TARGET_LINK_LIBRARIES(JobsManager thrift)
