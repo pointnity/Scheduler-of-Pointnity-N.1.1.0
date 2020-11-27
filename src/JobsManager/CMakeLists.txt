@@ -76,3 +76,4 @@ SET(SRC
 ADD_EXECUTABLE(JobsManager ${SRC})
 
 TARGET_LINK_LIBRARIES(JobsManager thrift)
+TARGET_LINK_LIBRARIES(JobsManager pthread)
