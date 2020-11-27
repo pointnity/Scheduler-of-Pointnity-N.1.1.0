@@ -72,3 +72,5 @@ SET(SRC
     work_thread.cpp
     jobs_manager_service.cpp
     jobs_manager_main.cpp)
+
+ADD_EXECUTABLE(JobsManager ${SRC})
