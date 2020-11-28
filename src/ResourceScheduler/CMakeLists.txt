@@ -57,3 +57,4 @@ SET(SRC
     match_list.cpp
     event.cpp
     dispatcher.cpp
+    handler.cpp
