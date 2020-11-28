@@ -59,3 +59,5 @@ SET(SRC
     dispatcher.cpp
     handler.cpp
     resource_scheduler_main.cpp)
+
+ADD_EXECUTABLE(ResourceScheduler ${SRC})
