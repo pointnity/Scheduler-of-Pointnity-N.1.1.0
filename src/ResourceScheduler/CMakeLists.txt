@@ -6,8 +6,7 @@ SET(JOBS_MANAGER_THRIFT_SOURCE
     ${THRIFT_SOURCE_PREFIX}/JobsManager/gen-cpp/jobs_manager_types.h
     ${THRIFT_SOURCE_PREFIX}/JobsManager/gen-cpp/jobs_manager_types.cpp
     ${THRIFT_SOURCE_PREFIX}/JobsManager/gen-cpp/JobsManager.h
-ADD_CUSTOM_COMMAND (
-    OUTPUT ${JOBS_MANAGER_THRIFT_SOURCE}
+    ${THRIFT_SOURCE_PREFIX}/JobsManager/gen-cpp/JobsManager.cpp)
 
 ADD_CUSTOM_COMMAND (
     OUTPUT ${JOBS_MANAGER_THRIFT_SOURCE}
@@ -37,3 +36,4 @@ SET(EXECUTOR_THRIFT_SOURCE
     ${THRIFT_SOURCE_PREFIX}/executor/gen-cpp/Executor.h
     ${THRIFT_SOURCE_PREFIX}/executor/gen-cpp/Executor.cpp)
 ADD_CUSTOM_COMMAND (
+    OUTPUT ${EXECUTOR_THRIFT_SOURCE}
