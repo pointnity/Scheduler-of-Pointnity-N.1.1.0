@@ -51,3 +51,4 @@ SET(SRC
     #${VMWORKER_THRIFT_SOURCE}
     machine.cpp
     work_thread.cpp
+    match_maker.cpp
