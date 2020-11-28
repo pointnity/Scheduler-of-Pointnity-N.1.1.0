@@ -61,3 +61,5 @@ SET(SRC
     resource_scheduler_main.cpp)
 
 ADD_EXECUTABLE(ResourceScheduler ${SRC})
+
+TARGET_LINK_LIBRARIES(ResourceScheduler thrift)
