@@ -68,3 +68,5 @@ TARGET_LINK_LIBRARIES(ResourceScheduler log4cplus)
 TARGET_LINK_LIBRARIES(ResourceScheduler classad)
 TARGET_LINK_LIBRARIES(ResourceScheduler gflags)
 #TARGET_LINK_LIBRARIES(ResourceScheduler zookeeper_mt)
+
+INSTALL(TARGETS ResourceScheduler RUNTIME DESTINATION bin)
