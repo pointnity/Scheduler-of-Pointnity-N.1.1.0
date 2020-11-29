@@ -47,3 +47,4 @@ private:
 };
 
 typedef shared_ptr<Machine> MachinePtr;
+#endif
