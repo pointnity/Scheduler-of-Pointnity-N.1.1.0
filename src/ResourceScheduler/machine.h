@@ -24,3 +24,4 @@ class Machine {
 public:
     Machine(const ClassAdPtr& machine_ad);
     bool ParseMachineAd();
+    void Update(const ClassAdPtr& machine_ad);
