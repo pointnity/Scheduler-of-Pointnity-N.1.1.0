@@ -33,3 +33,4 @@ public:
     int GetId();
     //int GetTARMapSize();
     //bool CheckAndClearTARMap(const TaskID& task_id);
+    bool GetTemproryAllocResourceMap(map<TaskID, AllocResource>& TemproryAllocResourceMap);
