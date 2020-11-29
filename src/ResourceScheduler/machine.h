@@ -45,3 +45,5 @@ private:
     RWLock m_lock;
     map<TaskID, AllocResource> IdToTempAllocResource;
 };
+
+typedef shared_ptr<Machine> MachinePtr;
