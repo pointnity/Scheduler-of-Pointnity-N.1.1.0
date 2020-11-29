@@ -37,3 +37,4 @@ public:
     string GetIp();
     ClassAdPtr GetMachineAd();
 private:
+    int m_id;
