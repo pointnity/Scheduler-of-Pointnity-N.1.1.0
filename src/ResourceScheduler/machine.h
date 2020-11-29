@@ -32,3 +32,4 @@ public:
     void SetId(int id);
     int GetId();
     //int GetTARMapSize();
+    //bool CheckAndClearTARMap(const TaskID& task_id);
