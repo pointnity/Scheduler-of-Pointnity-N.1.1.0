@@ -23,3 +23,4 @@ using clynn::RWLock;
 class Machine {
 public:
     Machine(const ClassAdPtr& machine_ad);
+    bool ParseMachineAd();
