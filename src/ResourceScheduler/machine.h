@@ -15,3 +15,4 @@
 #include "include/type.h"
 
 using std::map;
+using std::string;
