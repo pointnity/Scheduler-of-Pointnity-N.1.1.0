@@ -26,3 +26,4 @@ public:
     bool ParseMachineAd();
     void Update(const ClassAdPtr& machine_ad);
     string GetMachineEndpoint();
+    bool GetMachineByImageInfo(const string& name, const string& user, const int32_t size);
