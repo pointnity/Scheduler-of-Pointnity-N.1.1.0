@@ -36,3 +36,4 @@ public:
     bool GetTemproryAllocResourceMap(map<TaskID, AllocResource>& TemproryAllocResourceMap);
     string GetIp();
     ClassAdPtr GetMachineAd();
+private:
