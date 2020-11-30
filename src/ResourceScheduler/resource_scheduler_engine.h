@@ -48,3 +48,4 @@ class ResourceSchedulerEngine {
         // get total resource including cpu, memory, disk. service for JobsManager
         MultiD_Resource GetTotalResource();
 	void MachineMonitor();
+        int InvokeHousekeeper();
