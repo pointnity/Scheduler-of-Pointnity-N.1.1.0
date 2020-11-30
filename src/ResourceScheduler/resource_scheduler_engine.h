@@ -59,3 +59,4 @@ class ResourceSchedulerEngine {
 
     private:
         bool GetIdByIp(int& id, const string& ip);
+        bool CheckAd(const ClassAd& ad);
