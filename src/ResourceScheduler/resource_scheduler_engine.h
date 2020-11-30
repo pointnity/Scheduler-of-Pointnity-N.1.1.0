@@ -39,3 +39,4 @@ class ResourceSchedulerEngine {
     public:
         ResourceSchedulerEngine();
         ~ResourceSchedulerEngine();
+        int Init();
