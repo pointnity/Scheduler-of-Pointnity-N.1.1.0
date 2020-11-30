@@ -56,3 +56,5 @@ class ResourceSchedulerEngine {
         bool FetchMachinesForNegotiatorTask(const ClassAdPtr task, string& machine);
 	bool FetchMachinesForNegTaskConst(const ClassAdPtr task, const vector<string>& soft_list, string& machine);
         void GetMachineListByImageInfo(vector<string>& machine_list, const string& user, const string& name, const int32_t size, bool is_update_all);
+
+    private:
