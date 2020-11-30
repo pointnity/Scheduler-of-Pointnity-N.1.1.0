@@ -58,3 +58,4 @@ class ResourceSchedulerEngine {
         void GetMachineListByImageInfo(vector<string>& machine_list, const string& user, const string& name, const int32_t size, bool is_update_all);
 
     private:
+        bool GetIdByIp(int& id, const string& ip);
