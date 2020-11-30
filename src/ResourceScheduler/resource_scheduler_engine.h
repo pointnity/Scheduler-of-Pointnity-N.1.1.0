@@ -50,3 +50,4 @@ class ResourceSchedulerEngine {
 	void MachineMonitor();
         int InvokeHousekeeper();
         void  HousekeeperTimer(int *count, uint64_t timer_id);
+        bool SetResourceSchedulerRequirements(string str, string& error_desc);
