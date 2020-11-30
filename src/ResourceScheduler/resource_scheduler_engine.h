@@ -23,3 +23,4 @@
 #include "common/clynn/singleton.h"
 #include "common/clynn/rwlock.h"
 #include "common/classad/classad_complement.h"
+#include "proxy/ResourceScheduler/gen-cpp/ResourceScheduler.h"
