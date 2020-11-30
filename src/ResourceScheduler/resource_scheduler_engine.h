@@ -33,3 +33,4 @@ using std::set;
 using std::vector;
 using clynn::RWLock;
 using std::tr1::function;
+using std::atomic_int;
