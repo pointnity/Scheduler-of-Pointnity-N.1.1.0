@@ -45,3 +45,4 @@ class ResourceSchedulerEngine {
         int UpdateMachine(const string& machine_ad);
 	int NewUpdateMachine(const string& machine_ad, const vector<string>& task_list);
         int DeleteMachine(const string& ip);
+        // get total resource including cpu, memory, disk. service for JobsManager
