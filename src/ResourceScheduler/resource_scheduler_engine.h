@@ -43,3 +43,4 @@ class ResourceSchedulerEngine {
 	void GetCurVersion(string& new_version);
 	int RegistMachine(const string& ip, const string& version);
         int UpdateMachine(const string& machine_ad);
+	int NewUpdateMachine(const string& machine_ad, const vector<string>& task_list);
