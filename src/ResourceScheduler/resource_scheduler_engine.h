@@ -16,3 +16,4 @@
 #include <stdint.h>
 #include <tr1/functional>
 #include <atomic>  // for ubuntu
+#else
