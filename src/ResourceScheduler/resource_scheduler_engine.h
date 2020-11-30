@@ -54,3 +54,4 @@ class ResourceSchedulerEngine {
         int CleanMachines(time_t);
         int FetchMachinesForNegotiator(const ClassAdPtr job, vector<ClassAd>& machine_ads); 
         bool FetchMachinesForNegotiatorTask(const ClassAdPtr task, string& machine);
+	bool FetchMachinesForNegTaskConst(const ClassAdPtr task, const vector<string>& soft_list, string& machine);
