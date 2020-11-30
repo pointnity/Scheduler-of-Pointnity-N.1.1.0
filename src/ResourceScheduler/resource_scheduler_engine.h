@@ -41,3 +41,4 @@ class ResourceSchedulerEngine {
         ~ResourceSchedulerEngine();
         int Init();
 	void GetCurVersion(string& new_version);
+	int RegistMachine(const string& ip, const string& version);
