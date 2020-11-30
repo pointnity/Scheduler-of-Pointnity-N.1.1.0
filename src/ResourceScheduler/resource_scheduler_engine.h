@@ -17,3 +17,4 @@
 #include <tr1/functional>
 #include <atomic>  // for ubuntu
 #else
+#include <cstdatomic> // for centos
