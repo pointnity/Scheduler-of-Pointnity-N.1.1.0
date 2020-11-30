@@ -49,3 +49,4 @@ class ResourceSchedulerEngine {
         MultiD_Resource GetTotalResource();
 	void MachineMonitor();
         int InvokeHousekeeper();
+        void  HousekeeperTimer(int *count, uint64_t timer_id);
