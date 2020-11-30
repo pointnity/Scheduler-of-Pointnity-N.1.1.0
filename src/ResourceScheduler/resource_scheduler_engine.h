@@ -7,3 +7,4 @@
 *********************************/
 
 #ifndef SRC_RESOURCE_SCHEDULER_ENGINE_H
+#define SRC_RESOURCE_SCHEDULER_ENGINE_H
