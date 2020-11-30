@@ -47,3 +47,4 @@ class ResourceSchedulerEngine {
         int DeleteMachine(const string& ip);
         // get total resource including cpu, memory, disk. service for JobsManager
         MultiD_Resource GetTotalResource();
+	void MachineMonitor();
