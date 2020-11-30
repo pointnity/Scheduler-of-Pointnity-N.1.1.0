@@ -25,3 +25,4 @@
 #include "common/classad/classad_complement.h"
 #include "proxy/ResourceScheduler/gen-cpp/ResourceScheduler.h"
 #include "ResourceScheduler/machine.h"
+#include "ResourceScheduler/machine_constances.h"
