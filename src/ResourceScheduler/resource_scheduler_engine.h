@@ -28,3 +28,4 @@
 #include "ResourceScheduler/machine_constances.h"
 
 using std::map;
+using std::string;
