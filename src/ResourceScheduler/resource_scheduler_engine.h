@@ -40,3 +40,4 @@ class ResourceSchedulerEngine {
         ResourceSchedulerEngine();
         ~ResourceSchedulerEngine();
         int Init();
+	void GetCurVersion(string& new_version);
