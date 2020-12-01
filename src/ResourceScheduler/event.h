@@ -23,3 +23,4 @@ using clynn::BlockQueue;
 
 class Event {
 public:
+    Event(RSEventType::type type) : m_type(type)  {}
