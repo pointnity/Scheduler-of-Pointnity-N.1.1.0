@@ -26,3 +26,4 @@ public:
     Event(RSEventType::type type) : m_type(type)  {}
     virtual ~Event() {}
     virtual bool Handle() = 0;
+    RSEventType::type GetType() const {
