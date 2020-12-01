@@ -65,3 +65,4 @@ class ResourceSchedulerEngine {
 	void UpdateMachineStamp(string ip);
         atomic_int m_cur_id;
 	void UpdateMachineStamp(string ip);
+        atomic_int m_cur_id;
