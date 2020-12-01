@@ -15,6 +15,8 @@
 #include <string>
 #include <stdint.h>
 #include <tr1/functional>
+
+#if __GNUC__ > 4 || (__GNUC__ == 4 && __GNUC_MINOR__ > 5) 
 #include <atomic>  // for ubuntu
 #else
 #include <cstdatomic> // for centos
@@ -62,8 +64,6 @@ class ResourceSchedulerEngine {
         bool MapIpToId(int& id, const string& ip);
         bool CheckAd(const ClassAd& ad);
 	bool TempAllocResource(const ClassAdPtr task, int match_machine_id, const string& machine);
-	void UpdateMachineStamp(string ip);
-        atomic_int m_cur_id;
 	void UpdateMachineStamp(string ip);
         atomic_int m_cur_id;
         RWLock m_ip_to_id_map_lock;
