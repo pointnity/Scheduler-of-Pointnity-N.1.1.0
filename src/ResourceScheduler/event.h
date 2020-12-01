@@ -30,3 +30,4 @@ public:
         return m_type;
     }
 private:
+    RSEventType::type m_type;
