@@ -64,3 +64,4 @@ class ResourceSchedulerEngine {
 	bool TempAllocResource(const ClassAdPtr task, int match_machine_id, const string& machine);
 	void UpdateMachineStamp(string ip);
         atomic_int m_cur_id;
+	void UpdateMachineStamp(string ip);
