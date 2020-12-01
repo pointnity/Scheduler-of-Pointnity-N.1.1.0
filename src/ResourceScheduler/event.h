@@ -13,3 +13,5 @@
 #include <boost/shared_ptr.hpp>
 
 #include "common/clynn/block_queue.h"
+
+#include "include/proxy.h"
