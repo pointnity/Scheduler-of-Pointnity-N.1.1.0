@@ -73,3 +73,5 @@ class ResourceSchedulerEngine {
         RWLock m_machine_locks[MACHINE_NUM];
         MachinePtr m_machine_pool[MACHINE_NUM];
 };
+
+typedef Singleton<ResourceSchedulerEngine> COLLECTOR_ENGINE;
