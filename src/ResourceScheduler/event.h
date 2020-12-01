@@ -31,3 +31,4 @@ public:
     }
 private:
     RSEventType::type m_type;
+};
