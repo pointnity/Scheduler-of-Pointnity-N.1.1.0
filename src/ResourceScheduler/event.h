@@ -46,3 +46,4 @@ public:
         return m_heartbeat_ad;
     }
     vector<string> GetTaskList() const {
+        return m_task_list;
