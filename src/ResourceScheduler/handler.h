@@ -32,3 +32,5 @@ private:
     EventQueue m_event_queue;
     clynn::Thread* m_work_thread;
 };
+
+#endif
