@@ -22,3 +22,4 @@ public:
     ~Handler();
 
     // @brief: begin to work
+    void Start();
