@@ -12,3 +12,5 @@
 #include <queue>
 #include "common/clynn/thread.h"
 #include "ResourceScheduler/event.h"
+
+using std::queue;
