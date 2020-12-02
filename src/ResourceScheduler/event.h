@@ -45,3 +45,4 @@ public:
     string GetHeartbeatAd() const {
         return m_heartbeat_ad;
     }
+    vector<string> GetTaskList() const {
