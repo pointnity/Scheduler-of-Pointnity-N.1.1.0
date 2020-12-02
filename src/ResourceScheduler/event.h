@@ -60,3 +60,4 @@ public:
              m_ip(ip) {}
 
     ~MachineDeleteEvent() {}
+    bool Handle();
