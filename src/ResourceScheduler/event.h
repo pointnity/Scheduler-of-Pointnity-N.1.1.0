@@ -41,3 +41,4 @@ public:
              m_heartbeat_ad(heartbeat_ad), m_task_list(task_list) {}
 
     ~MachineUpdateEvent() {}
+    bool Handle();
