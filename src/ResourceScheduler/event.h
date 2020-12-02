@@ -65,3 +65,4 @@ public:
         return m_ip;
     }
 private:
+    string m_ip;
