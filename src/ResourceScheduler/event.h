@@ -58,3 +58,5 @@ class MachineDeleteEvent : public Event {
 public:
     MachineDeleteEvent(const string& ip) : Event(RSEventType::MACHINE_DELETE_EVENT),
              m_ip(ip) {}
+
+    ~MachineDeleteEvent() {}
