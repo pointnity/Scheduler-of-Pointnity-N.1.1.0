@@ -23,3 +23,5 @@ public:
 
     // @brief: begin to work
     void Start();
+
+    void Handle();
