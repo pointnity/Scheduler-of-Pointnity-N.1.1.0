@@ -42,3 +42,4 @@ public:
 
     ~MachineUpdateEvent() {}
     bool Handle();
+    string GetHeartbeatAd() const {
