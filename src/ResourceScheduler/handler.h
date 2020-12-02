@@ -25,3 +25,4 @@ public:
     void Start();
 
     void Handle();
+    void PushBack(const EventPtr& ptr);
