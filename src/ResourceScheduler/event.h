@@ -52,3 +52,6 @@ private:
     string m_heartbeat_ad;
     vector<string>  m_task_list;
 };
+
+
+class MachineDeleteEvent : public Event {
