@@ -20,3 +20,5 @@ class Handler {
 public:
     Handler() : m_work_thread(0) {}
     ~Handler();
+
+    // @brief: begin to work
