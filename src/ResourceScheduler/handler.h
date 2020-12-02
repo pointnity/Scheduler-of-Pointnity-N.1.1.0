@@ -14,3 +14,4 @@
 #include "ResourceScheduler/event.h"
 
 using std::queue;
+using clynn::Thread;
