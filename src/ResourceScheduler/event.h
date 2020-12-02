@@ -64,3 +64,4 @@ public:
     string GetIp() const {
         return m_ip;
     }
+private:
