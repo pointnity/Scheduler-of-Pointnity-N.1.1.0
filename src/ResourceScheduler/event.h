@@ -39,3 +39,5 @@ class MachineUpdateEvent : public Event {
 public:
     MachineUpdateEvent(const string& heartbeat_ad, const vector<string>& task_list) : Event(RSEventType::MACHINE_UPDATE_EVENT),
              m_heartbeat_ad(heartbeat_ad), m_task_list(task_list) {}
+
+    ~MachineUpdateEvent() {}
