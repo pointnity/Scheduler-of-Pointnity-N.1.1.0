@@ -61,3 +61,4 @@ public:
 
     ~MachineDeleteEvent() {}
     bool Handle();
+    string GetIp() const {
