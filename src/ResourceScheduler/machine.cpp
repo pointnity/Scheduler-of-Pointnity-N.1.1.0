@@ -36,3 +36,4 @@ Machine::Machine(const ClassAdPtr& machine_ad) {
 
 string Machine::GetMachineEndpoint(){
     return m_endpoint;
+}
