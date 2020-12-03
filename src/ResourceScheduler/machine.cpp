@@ -25,3 +25,4 @@ using std::stringstream;
 using std::vector;
 
 using clynn::ReadLocker;
+using clynn::WriteLocker;
