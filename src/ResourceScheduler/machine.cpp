@@ -39,3 +39,4 @@ string Machine::GetMachineEndpoint(){
 }
 
 void Machine::Update(const ClassAdPtr& machine_ad){
+    m_machine_ad = machine_ad;   
