@@ -23,3 +23,5 @@
 using log4cplus::Logger;
 using std::stringstream;
 using std::vector;
+
+using clynn::ReadLocker;
