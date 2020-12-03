@@ -44,3 +44,4 @@ void Machine::Update(const ClassAdPtr& machine_ad){
 
 bool Machine::ParseMachineAd() {
     if(m_machine_ad->EvaluateAttrString(ATTR_Machine_IP, m_ip) == false){
+        return false;
