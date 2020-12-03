@@ -14,3 +14,6 @@
 #include <string>
 #include <boost/algorithm/string/classification.hpp>
 #include <boost/algorithm/string/split.hpp>
+
+
+#include "include/classad_attr.h"
