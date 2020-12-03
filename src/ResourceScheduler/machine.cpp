@@ -17,3 +17,4 @@
 
 
 #include "include/classad_attr.h"
+#include "ResourceScheduler/machine.h"
