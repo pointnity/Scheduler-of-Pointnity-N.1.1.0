@@ -85,3 +85,4 @@ bool Machine::GetMachineByImageInfo(const string& user, const string& name, cons
 		if(image_attr == *it) {
 	            return true;
         	} else {
+                    continue; 
