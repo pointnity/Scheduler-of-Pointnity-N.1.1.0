@@ -92,3 +92,4 @@ bool Machine::GetMachineByImageInfo(const string& user, const string& name, cons
 	return false;
     }
     return false;
+}
