@@ -63,3 +63,4 @@ bool Machine::GetMachineByImageInfo(const string& user, const string& name, cons
     if(m_machine_ad->EvaluateAttrString(ATTR_Image,image_info_str) == false){
         return false;
     }
+    if(image_info_str.empty()) {
