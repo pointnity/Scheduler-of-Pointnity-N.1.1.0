@@ -57,3 +57,4 @@ bool Machine::ParseMachineAd() {
 bool Machine::GetMachineByImageInfo(const string& user, const string& name, const int32_t size) {
     string image_info_str;
     stringstream size_ss;
+    size_ss << size;
