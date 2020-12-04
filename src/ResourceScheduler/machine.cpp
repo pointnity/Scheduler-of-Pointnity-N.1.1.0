@@ -76,3 +76,4 @@ bool Machine::GetMachineByImageInfo(const string& user, const string& name, cons
 
     } else if(image_info_str.find(":") != string::npos && image_info_str.find("&") != string::npos) {
 	    vector<string> image_info_list;
+	    boost::split(image_info_list, image_info_str, boost::is_any_of( ":" ), boost::token_compress_on);
