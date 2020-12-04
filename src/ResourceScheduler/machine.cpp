@@ -79,3 +79,4 @@ bool Machine::GetMachineByImageInfo(const string& user, const string& name, cons
 	    boost::split(image_info_list, image_info_str, boost::is_any_of( ":" ), boost::token_compress_on);
     	    if(image_info_list.size() == 0) {
                 return false;
+	    }
