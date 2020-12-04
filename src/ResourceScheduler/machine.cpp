@@ -64,3 +64,4 @@ bool Machine::GetMachineByImageInfo(const string& user, const string& name, cons
         return false;
     }
     if(image_info_str.empty()) {
+	return false;
