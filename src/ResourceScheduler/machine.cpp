@@ -69,3 +69,4 @@ bool Machine::GetMachineByImageInfo(const string& user, const string& name, cons
     //for one image_attr
     if(image_info_str.find(":") == string::npos && image_info_str.find("&") != string::npos) {
         if(image_attr == image_info_str) {
+            return true;
