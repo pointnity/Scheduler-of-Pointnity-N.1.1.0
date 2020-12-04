@@ -58,3 +58,4 @@ bool Machine::GetMachineByImageInfo(const string& user, const string& name, cons
     string image_info_str;
     stringstream size_ss;
     size_ss << size;
+    string image_attr = user + "&" + name + "&" + size_ss.str();
