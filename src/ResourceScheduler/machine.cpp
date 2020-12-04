@@ -84,3 +84,4 @@ bool Machine::GetMachineByImageInfo(const string& user, const string& name, cons
 	    for(vector<string>::iterator it = image_info_list.begin(); it != image_info_list.end(); ++it) {
 		if(image_attr == *it) {
 	            return true;
+        	} else {
