@@ -34,3 +34,4 @@ int MatchMaker::Negotiation(const string& job, vector<string>& candidates) {
     vector<ClassAd> machine_ads;
     if(COLLECTOR_ENGINE::Instance()->FetchMachinesForNegotiator(job_ad, machine_ads) == 0){  
          LOG4CPLUS_ERROR(logger, "no server info, aborting negotiation cycle");
+         return 1; 
