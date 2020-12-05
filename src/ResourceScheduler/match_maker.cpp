@@ -16,3 +16,4 @@
 #include "ResourceScheduler/match_list.h"
 
 using log4cplus::Logger;
+static Logger logger = Logger::getInstance("ResourceScheduler");
