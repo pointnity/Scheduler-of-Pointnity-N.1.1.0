@@ -36,3 +36,4 @@ int MatchMaker::Negotiation(const string& job, vector<string>& candidates) {
          LOG4CPLUS_ERROR(logger, "no server info, aborting negotiation cycle");
          return 1; 
     }
+    MatchList match_list;
