@@ -30,3 +30,4 @@ int MatchMaker::Negotiation(const string& job, vector<string>& candidates) {
     if(job_ad->EvaluateAttrInt(ATTR_TOTAL_TASKS, num_task) || num_task < 1) {
         LOG4CPLUS_ERROR(logger, "no num_task or num_task < 1");
         return 1;
+    }
