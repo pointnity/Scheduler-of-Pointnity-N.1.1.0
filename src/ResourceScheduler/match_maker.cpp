@@ -67,3 +67,4 @@ int MatchMaker::NegotiationTaskConstraint(const string& task, const vector<strin
          return 1;
     }
     return 0;
+}
