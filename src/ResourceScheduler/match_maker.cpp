@@ -47,3 +47,4 @@ int MatchMaker::NegotiationTask(const string& task, string& machine) {
     if(task_ad == NULL) {
         LOG4CPLUS_ERROR(logger, "invalid task ad");
         return 1;
+    }
