@@ -19,3 +19,4 @@ using log4cplus::Logger;
 static Logger logger = Logger::getInstance("ResourceScheduler");
 
 int MatchMaker::Negotiation(const string& job, vector<string>& candidates) {
+    LOG4CPLUS_INFO(logger, "receive a job:" << job);
