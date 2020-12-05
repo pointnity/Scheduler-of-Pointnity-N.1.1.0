@@ -27,3 +27,4 @@ int MatchMaker::Negotiation(const string& job, vector<string>& candidates) {
         return 1; 
     }
     int num_task = 0;
+    if(job_ad->EvaluateAttrInt(ATTR_TOTAL_TASKS, num_task) || num_task < 1) {
