@@ -54,3 +54,6 @@ int MatchMaker::NegotiationTask(const string& task, string& machine) {
     }
     return 0;
 }
+
+int MatchMaker::NegotiationTaskConstraint(const string& task, const vector<string>& soft_list, string& machine) {
+    //LOG4CPLUS_INFO(logger, "receive a task:" << task);
