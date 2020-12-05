@@ -65,3 +65,4 @@ int MatchMaker::NegotiationTaskConstraint(const string& task, const vector<strin
     if(COLLECTOR_ENGINE::Instance()->FetchMachinesForNegTaskConst(task_ad, soft_list, machine) == 0){
          LOG4CPLUS_ERROR(logger, "no server info, aborting negotiation cycle");
          return 1;
+    }
