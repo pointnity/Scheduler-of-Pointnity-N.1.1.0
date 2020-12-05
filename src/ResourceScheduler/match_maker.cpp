@@ -25,3 +25,4 @@ int MatchMaker::Negotiation(const string& job, vector<string>& candidates) {
     if(job_ad == NULL) {
         LOG4CPLUS_ERROR(logger, "invalid job ad");
         return 1; 
+    }
