@@ -33,3 +33,4 @@ void ResourceSchedulerService::GetCurVersion(string& new_version) {
 
 int ResourceSchedulerService::RegistMachine(const string& ip, const string& version) {
     LOG4CPLUS_INFO(logger, "regist machine ip:" << ip);
+    return COLLECTOR_ENGINE::Instance()->RegistMachine(ip, version);
