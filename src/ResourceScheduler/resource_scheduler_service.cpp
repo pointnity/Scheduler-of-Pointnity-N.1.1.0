@@ -24,3 +24,4 @@
 
 using std::string;
 using std::stringstream;
+using log4cplus::Logger;
