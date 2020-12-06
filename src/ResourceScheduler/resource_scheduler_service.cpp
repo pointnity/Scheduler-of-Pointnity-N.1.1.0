@@ -90,3 +90,6 @@ void ResourceSchedulerService::GetMachineListByImageInfo(vector<string>& machine
     LOG4CPLUS_INFO(logger, "GetMachineListByImageInfo");
     return COLLECTOR_ENGINE::Instance()->GetMachineListByImageInfo(machine_list, user, name, size, is_update_all);
 }
+
+
+#include <log4cplus/logger.h>
