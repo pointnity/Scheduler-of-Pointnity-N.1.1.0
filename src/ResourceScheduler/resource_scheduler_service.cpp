@@ -15,3 +15,4 @@
 
 #include "ResourceScheduler/resource_scheduler_service.h"
 #include "ResourceScheduler/resource_scheduler_engine.h"
+#include "ResourceScheduler/match_maker.h"
