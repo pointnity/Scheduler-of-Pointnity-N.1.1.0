@@ -53,3 +53,4 @@ int ResourceSchedulerService::NewUpdateMachine(const string& heartbeat_ad, const
 
 int ResourceSchedulerService::DeleteMachine(const string& ip){
      // new MachineUpdateEvent
+    EventPtr event(new MachineDeleteEvent(ip));
