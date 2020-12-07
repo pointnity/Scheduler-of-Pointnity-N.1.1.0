@@ -49,3 +49,6 @@ int ResourceSchedulerService::NewUpdateMachine(const string& heartbeat_ad, const
     EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
     return 0;
 }
+
+
+int ResourceSchedulerService::DeleteMachine(const string& ip){
