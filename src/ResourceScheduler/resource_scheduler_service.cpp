@@ -89,4 +89,4 @@ void ResourceSchedulerService::Negotiate(vector<string>& result, const string& r
 void ResourceSchedulerService::GetMachineListByImageInfo(vector<string>& machine_list, const string& user, const string& name, const int32_t size, bool is_update_all) {
     LOG4CPLUS_INFO(logger, "GetMachineListByImageInfo");
     return COLLECTOR_ENGINE::Instance()->GetMachineListByImageInfo(machine_list, user, name, size, is_update_all);
-    return COLLECTOR_ENGINE::Instance()->GetMachineListByImageInfo(machine_list, user, name, size, is_update_all);
+}
