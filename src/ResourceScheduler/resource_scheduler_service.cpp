@@ -67,3 +67,4 @@ void ResourceSchedulerService::GetTotalResource(MultiD_Resource& md_r) {
 void ResourceSchedulerService::MatchMachine(string& result, const string& task_ad){
     LOG4CPLUS_INFO(logger, "MatchMachine");
     MATCH_MAKER::Instance()->NegotiationTask(task_ad, result);
+}
