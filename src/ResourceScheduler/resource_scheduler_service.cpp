@@ -35,3 +35,6 @@ int ResourceSchedulerService::RegistMachine(const string& ip, const string& vers
     LOG4CPLUS_INFO(logger, "regist machine ip:" << ip);
     return COLLECTOR_ENGINE::Instance()->RegistMachine(ip, version);
 }
+
+
+int ResourceSchedulerService::UpdateMachine(const string& heartbeat_ad){
