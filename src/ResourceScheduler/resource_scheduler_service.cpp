@@ -57,3 +57,4 @@ int ResourceSchedulerService::DeleteMachine(const string& ip){
     // Push event into Queue
     EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
     return 0;
+}
