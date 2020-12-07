@@ -55,3 +55,4 @@ int ResourceSchedulerService::DeleteMachine(const string& ip){
      // new MachineUpdateEvent
     EventPtr event(new MachineDeleteEvent(ip));
     // Push event into Queue
+    EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
