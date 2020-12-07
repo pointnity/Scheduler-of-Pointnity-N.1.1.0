@@ -84,3 +84,4 @@ void ResourceSchedulerService::ListAllMachines(vector<string>& result){
 
 void ResourceSchedulerService::Negotiate(vector<string>& result, const string& request){
     MATCH_MAKER::Instance()->Negotiation(request, result);
+}
