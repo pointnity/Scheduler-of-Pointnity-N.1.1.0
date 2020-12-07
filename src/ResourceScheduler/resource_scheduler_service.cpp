@@ -44,3 +44,4 @@ int ResourceSchedulerService::UpdateMachine(const string& heartbeat_ad){
 
 int ResourceSchedulerService::NewUpdateMachine(const string& heartbeat_ad, const vector<string>& task_list){
     // new MachineUpdateEvent
+    EventPtr event(new MachineUpdateEvent(heartbeat_ad, task_list));
