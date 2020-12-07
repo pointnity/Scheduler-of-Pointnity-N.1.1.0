@@ -80,3 +80,4 @@ void ResourceSchedulerService::QueryMachine(string& result, const string& machin
 
 void ResourceSchedulerService::ListAllMachines(vector<string>& result){ 
     LOG4CPLUS_INFO(logger, "ListAllMachines");
+}
