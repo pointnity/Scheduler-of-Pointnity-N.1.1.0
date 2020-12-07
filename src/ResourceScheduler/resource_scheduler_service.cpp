@@ -62,3 +62,4 @@ int ResourceSchedulerService::DeleteMachine(const string& ip){
 void ResourceSchedulerService::GetTotalResource(MultiD_Resource& md_r) {
     md_r = COLLECTOR_ENGINE::Instance()->GetTotalResource();
     return;
+}
