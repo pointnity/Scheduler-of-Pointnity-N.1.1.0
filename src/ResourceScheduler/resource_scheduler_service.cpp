@@ -40,3 +40,4 @@ int ResourceSchedulerService::RegistMachine(const string& ip, const string& vers
 int ResourceSchedulerService::UpdateMachine(const string& heartbeat_ad){
     LOG4CPLUS_INFO(logger, "a new update:" << heartbeat_ad);
     return COLLECTOR_ENGINE::Instance()->UpdateMachine(heartbeat_ad);
+}
