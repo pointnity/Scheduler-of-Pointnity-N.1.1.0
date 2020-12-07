@@ -81,3 +81,6 @@ void ResourceSchedulerService::QueryMachine(string& result, const string& machin
 void ResourceSchedulerService::ListAllMachines(vector<string>& result){ 
     LOG4CPLUS_INFO(logger, "ListAllMachines");
 }
+
+void ResourceSchedulerService::Negotiate(vector<string>& result, const string& request){
+    MATCH_MAKER::Instance()->Negotiation(request, result);
