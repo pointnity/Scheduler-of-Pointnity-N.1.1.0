@@ -77,3 +77,5 @@ void ResourceSchedulerService::MatchMachineConstraint(string& result, const stri
 void ResourceSchedulerService::QueryMachine(string& result, const string& machine){
     LOG4CPLUS_INFO(logger, "QueryMachine");
 }
+
+void ResourceSchedulerService::ListAllMachines(vector<string>& result){ 
