@@ -53,3 +53,4 @@ int main(int argc, char **argv){
             LOG4CPLUS_ERROR(logger, "Error happens when parsing flags from command line");
             return EXIT_FAILURE;
         }
+    } else {
