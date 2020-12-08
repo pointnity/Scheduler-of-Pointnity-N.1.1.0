@@ -49,3 +49,4 @@ int main(int argc, char **argv){
     logger.setLogLevel(log4cplus::INFO_LOG_LEVEL);
 
     if(argc > 1) {
+        if(!(google::ParseCommandLineFlags(&argc, &argv, true))) {
