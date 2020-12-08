@@ -64,3 +64,5 @@ int main(int argc, char **argv){
 
     pthread_t machine_monitor_t;
     pthread_create(&machine_monitor_t, NULL, MachineMonitorProcessor, NULL);
+
+    /* event dispatcher */
