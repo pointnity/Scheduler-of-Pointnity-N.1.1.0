@@ -28,3 +28,4 @@ using std::auto_ptr;
 
 using log4cplus::Logger;
 using log4cplus::ConsoleAppender;
+using log4cplus::FileAppender;
