@@ -67,3 +67,4 @@ int main(int argc, char **argv){
 
     /* event dispatcher */
     //machine update  event
+    Handler* machine_update_event_handler = new Handler;
