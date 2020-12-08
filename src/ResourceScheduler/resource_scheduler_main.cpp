@@ -18,3 +18,4 @@
 #include "include/proxy.h"
 #include "common/clynn/rpc.h"
 #include "ResourceScheduler/resource_scheduler_service.h"
+#include "ResourceScheduler/dispatcher.h"
