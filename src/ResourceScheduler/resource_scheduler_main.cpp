@@ -50,3 +50,4 @@ int main(int argc, char **argv){
 
     if(argc > 1) {
         if(!(google::ParseCommandLineFlags(&argc, &argv, true))) {
+            LOG4CPLUS_ERROR(logger, "Error happens when parsing flags from command line");
