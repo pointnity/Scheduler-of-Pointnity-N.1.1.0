@@ -46,3 +46,4 @@ int main(int argc, char **argv){
     append->setLayout(layout);
     Logger logger = Logger::getInstance(LOG4CPLUS_TEXT("ResourceScheduler"));
     logger.addAppender(append);
+    logger.setLogLevel(log4cplus::INFO_LOG_LEVEL);
