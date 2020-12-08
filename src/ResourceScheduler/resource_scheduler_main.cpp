@@ -59,3 +59,5 @@ int main(int argc, char **argv){
             return EXIT_FAILURE;
         }
     }
+
+    LOG4CPLUS_INFO(logger, argv[0] << " daemon begin");
