@@ -61,3 +61,5 @@ int main(int argc, char **argv){
     }
 
     LOG4CPLUS_INFO(logger, argv[0] << " daemon begin");
+
+    pthread_t machine_monitor_t;
