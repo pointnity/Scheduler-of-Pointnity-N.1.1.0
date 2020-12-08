@@ -47,3 +47,5 @@ int main(int argc, char **argv){
     Logger logger = Logger::getInstance(LOG4CPLUS_TEXT("ResourceScheduler"));
     logger.addAppender(append);
     logger.setLogLevel(log4cplus::INFO_LOG_LEVEL);
+
+    if(argc > 1) {
