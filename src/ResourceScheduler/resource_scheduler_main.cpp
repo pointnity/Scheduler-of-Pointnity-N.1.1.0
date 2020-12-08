@@ -30,3 +30,4 @@ using log4cplus::Logger;
 using log4cplus::ConsoleAppender;
 using log4cplus::FileAppender;
 using log4cplus::Appender;
+using log4cplus::Layout;
