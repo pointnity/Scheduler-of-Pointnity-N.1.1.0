@@ -75,3 +75,7 @@ int main(int argc, char **argv){
     Handler* machine_delete_event_handler = new Handler;
     machine_delete_event_handler->Start();
     EventDispatcherI::Instance()->Register(RSEventType::MACHINE_DELETE_EVENT, machine_delete_event_handler);
+
+
+
+    RpcServer<ResourceSchedulerService, ResourceSchedulerProcessor>::Listen(FLAGS_resource_scheduler_port);
