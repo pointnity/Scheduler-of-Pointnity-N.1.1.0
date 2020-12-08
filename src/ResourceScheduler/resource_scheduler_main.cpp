@@ -54,3 +54,4 @@ int main(int argc, char **argv){
             return EXIT_FAILURE;
         }
     } else {
+        if(!(google::ReadFromFlagsFile("../conf/resource_scheduler.conf", argv[0], true))) {  
