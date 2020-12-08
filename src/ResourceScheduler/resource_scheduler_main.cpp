@@ -79,3 +79,4 @@ int main(int argc, char **argv){
 
 
     RpcServer<ResourceSchedulerService, ResourceSchedulerProcessor>::Listen(FLAGS_resource_scheduler_port);
+    return EXIT_SUCCESS;
