@@ -24,3 +24,4 @@
 
 #include "common/clynn/singleton.h"
 #include "common/clynn/rwlock.h"
+#include "common/classad/classad_complement.h"
