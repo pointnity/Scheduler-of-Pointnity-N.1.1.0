@@ -61,3 +61,4 @@ class ResourceSchedulerEngine {
 
     private:
         bool GetIdByIp(int& id, const string& ip);
+        bool MapIpToId(int& id, const string& ip);
