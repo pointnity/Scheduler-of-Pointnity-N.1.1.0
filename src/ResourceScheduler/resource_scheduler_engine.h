@@ -17,3 +17,4 @@
 #include <tr1/functional>
 
 #if __GNUC__ > 4 || (__GNUC__ == 4 && __GNUC_MINOR__ > 5) 
+#include <atomic>  // for ubuntu
