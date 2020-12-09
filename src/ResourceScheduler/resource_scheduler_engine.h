@@ -55,3 +55,4 @@ class ResourceSchedulerEngine {
         bool SetResourceSchedulerRequirements(string str, string& error_desc);
         int CleanMachines(time_t);
         int FetchMachinesForNegotiator(const ClassAdPtr job, vector<ClassAd>& machine_ads); 
+        bool FetchMachinesForNegotiatorTask(const ClassAdPtr task, string& machine);
