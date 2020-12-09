@@ -68,3 +68,4 @@ class ResourceSchedulerEngine {
         atomic_int m_cur_id;
         RWLock m_ip_to_id_map_lock;
         map<string, int> m_ip_to_id_map;
+	RWLock ip_to_stamp_map_lock;
