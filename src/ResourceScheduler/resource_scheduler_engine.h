@@ -63,3 +63,4 @@ class ResourceSchedulerEngine {
         bool GetIdByIp(int& id, const string& ip);
         bool MapIpToId(int& id, const string& ip);
         bool CheckAd(const ClassAd& ad);
+	bool TempAllocResource(const ClassAdPtr task, int match_machine_id, const string& machine);
