@@ -33,3 +33,4 @@ using std::map;
 using std::string;
 using std::set;
 using std::vector;
+using clynn::RWLock;
