@@ -75,3 +75,4 @@ class ResourceSchedulerEngine {
 };
 
 typedef Singleton<ResourceSchedulerEngine> COLLECTOR_ENGINE;
+#endif
