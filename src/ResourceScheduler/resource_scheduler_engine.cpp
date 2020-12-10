@@ -57,3 +57,4 @@ int ResourceSchedulerEngine::RegistMachine(const string& ip, const string& versi
     if(version != FLAGS_lynn_version) {
 	return -1;
     }
+    //regist ip to map
