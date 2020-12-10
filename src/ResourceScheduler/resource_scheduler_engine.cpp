@@ -58,3 +58,4 @@ int ResourceSchedulerEngine::RegistMachine(const string& ip, const string& versi
 	return -1;
     }
     //regist ip to map
+    int id;
