@@ -23,3 +23,6 @@
 #include "include/type.h"
 #include "proxy/ResourceScheduler/gen-cpp/ResourceScheduler.h"
 #include "ResourceScheduler/dispatcher.h"
+
+
+using log4cplus::Logger;
