@@ -88,3 +88,5 @@ int ResourceSchedulerEngine::UpdateMachine(const string& machine_ad) {
             return MachineError::MACHINE_ERROR_NUM_LIMIT;
         }
     }
+
+    WriteLocker lock(m_machine_locks[id]);
