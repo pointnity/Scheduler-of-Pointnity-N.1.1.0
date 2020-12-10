@@ -65,3 +65,4 @@ int ResourceSchedulerEngine::RegistMachine(const string& ip, const string& versi
             return MachineError::MACHINE_ERROR_NUM_LIMIT;
         }
     }
+    return id;
