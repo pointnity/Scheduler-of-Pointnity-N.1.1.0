@@ -38,3 +38,4 @@ using clynn::ReadLocker;
 using clynn::WriteLocker;
 
 ResourceSchedulerEngine::ResourceSchedulerEngine() {
+}
