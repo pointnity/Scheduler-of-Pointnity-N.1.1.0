@@ -66,3 +66,4 @@ int ResourceSchedulerEngine::RegistMachine(const string& ip, const string& versi
         }
     }
     return id;
+}
