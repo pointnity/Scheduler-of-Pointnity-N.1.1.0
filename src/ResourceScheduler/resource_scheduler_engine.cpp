@@ -22,3 +22,4 @@
 #include "include/classad_attr.h"
 #include "include/type.h"
 #include "proxy/ResourceScheduler/gen-cpp/ResourceScheduler.h"
+#include "ResourceScheduler/dispatcher.h"
