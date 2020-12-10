@@ -39,3 +39,5 @@ using clynn::WriteLocker;
 
 ResourceSchedulerEngine::ResourceSchedulerEngine() {
 }
+
+ResourceSchedulerEngine::~ResourceSchedulerEngine() {
