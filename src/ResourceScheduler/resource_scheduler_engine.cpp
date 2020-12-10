@@ -31,3 +31,5 @@ using std::tr1::placeholders::_1;
 
 DEFINE_int32(hb_interval, 5, "");
 DEFINE_string(lynn_version, "", "");
+
+static Logger logger = Logger::getInstance("ResourceScheduler");
