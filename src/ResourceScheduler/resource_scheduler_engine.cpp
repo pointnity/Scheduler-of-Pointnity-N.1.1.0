@@ -49,3 +49,4 @@ int ResourceSchedulerEngine::Init() {
 }
 
 void ResourceSchedulerEngine::GetCurVersion(string& new_version) {
+    new_version = FLAGS_lynn_version;
