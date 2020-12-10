@@ -28,3 +28,5 @@
 using log4cplus::Logger;
 using std::tr1::function;
 using std::tr1::placeholders::_1; 
+
+DEFINE_int32(hb_interval, 5, "");
