@@ -36,3 +36,5 @@ static Logger logger = Logger::getInstance("ResourceScheduler");
 
 using clynn::ReadLocker;
 using clynn::WriteLocker;
+
+ResourceSchedulerEngine::ResourceSchedulerEngine() {
