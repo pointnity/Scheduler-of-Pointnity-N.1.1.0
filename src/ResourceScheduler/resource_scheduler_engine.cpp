@@ -79,3 +79,5 @@ int ResourceSchedulerEngine::UpdateMachine(const string& machine_ad) {
     if(!machine_ptr->ParseMachineAd()) {
         return MachineError::MACHINE_ERROR_ATTR;
     }
+
+    int id;
