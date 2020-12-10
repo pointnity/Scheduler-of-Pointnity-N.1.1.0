@@ -61,3 +61,4 @@ int ResourceSchedulerEngine::RegistMachine(const string& ip, const string& versi
     int id;
     if(!GetIdByIp(id, ip)) {
         if(!MapIpToId(id, ip)){
+            LOG4CPLUS_ERROR(logger, "The number of Machine is full");
