@@ -93,3 +93,6 @@ int ResourceSchedulerEngine::UpdateMachine(const string& machine_ad) {
     m_machine_pool[id] = machine_ptr;
     return 0;
 }
+
+int ResourceSchedulerEngine::NewUpdateMachine(const string& machine_ad, const vector<string>& task_list) {
+    //string to classad ptr
