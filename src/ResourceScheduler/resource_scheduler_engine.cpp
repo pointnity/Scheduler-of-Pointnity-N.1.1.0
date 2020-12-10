@@ -47,3 +47,5 @@ int ResourceSchedulerEngine::Init() {
     m_cur_id = 0;
     return 0;
 }
+
+void ResourceSchedulerEngine::GetCurVersion(string& new_version) {
