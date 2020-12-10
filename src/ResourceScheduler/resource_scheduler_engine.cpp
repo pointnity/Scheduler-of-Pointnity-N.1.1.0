@@ -56,3 +56,4 @@ void ResourceSchedulerEngine::GetCurVersion(string& new_version) {
 int ResourceSchedulerEngine::RegistMachine(const string& ip, const string& version) {
     if(version != FLAGS_lynn_version) {
 	return -1;
+    }
