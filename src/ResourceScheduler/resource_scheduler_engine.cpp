@@ -73,3 +73,4 @@ int ResourceSchedulerEngine::UpdateMachine(const string& machine_ad) {
 
     if(machine_ad_ptr == NULL) {
         return MachineError::MACHINE_ERROR_CLASSAD_SYNTAX;
+    }
