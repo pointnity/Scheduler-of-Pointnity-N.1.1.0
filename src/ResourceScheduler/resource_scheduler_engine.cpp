@@ -42,3 +42,5 @@ ResourceSchedulerEngine::ResourceSchedulerEngine() {
 
 ResourceSchedulerEngine::~ResourceSchedulerEngine() {
 } 
+
+int ResourceSchedulerEngine::Init() {
