@@ -44,3 +44,4 @@ ResourceSchedulerEngine::~ResourceSchedulerEngine() {
 } 
 
 int ResourceSchedulerEngine::Init() {
+    m_cur_id = 0;
