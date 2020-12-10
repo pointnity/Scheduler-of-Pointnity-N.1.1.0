@@ -17,3 +17,4 @@
 #include <iostream>
 
 #include "common/clynn/rpc.h"
+#include "ResourceScheduler/resource_scheduler_engine.h"
