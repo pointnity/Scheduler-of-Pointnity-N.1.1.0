@@ -86,3 +86,4 @@ int ResourceSchedulerEngine::UpdateMachine(const string& machine_ad) {
     if(!GetIdByIp(id, ip)) {
         if(!MapIpToId(id, ip)){
             return MachineError::MACHINE_ERROR_NUM_LIMIT;
+        }
