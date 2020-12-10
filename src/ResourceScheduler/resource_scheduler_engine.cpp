@@ -59,3 +59,4 @@ int ResourceSchedulerEngine::RegistMachine(const string& ip, const string& versi
     }
     //regist ip to map
     int id;
+    if(!GetIdByIp(id, ip)) {
