@@ -13,3 +13,5 @@
 #include <log4cplus/loggingmacros.h>
 #include <algorithm>
 #include <gflags/gflags.h>
+
+#include <iostream>
