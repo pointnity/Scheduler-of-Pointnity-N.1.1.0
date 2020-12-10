@@ -69,3 +69,4 @@ int ResourceSchedulerEngine::RegistMachine(const string& ip, const string& versi
 }
 
 int ResourceSchedulerEngine::UpdateMachine(const string& machine_ad) {
+    ClassAdPtr machine_ad_ptr = ClassAdComplement::StringToAd(machine_ad); 
