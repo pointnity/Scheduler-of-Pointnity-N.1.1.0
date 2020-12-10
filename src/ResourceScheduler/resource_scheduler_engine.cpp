@@ -81,3 +81,5 @@ int ResourceSchedulerEngine::UpdateMachine(const string& machine_ad) {
     }
 
     int id;
+
+    string ip = machine_ptr->GetIp();
