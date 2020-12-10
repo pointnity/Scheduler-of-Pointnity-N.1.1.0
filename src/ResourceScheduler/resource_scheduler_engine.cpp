@@ -67,3 +67,5 @@ int ResourceSchedulerEngine::RegistMachine(const string& ip, const string& versi
     }
     return id;
 }
+
+int ResourceSchedulerEngine::UpdateMachine(const string& machine_ad) {
