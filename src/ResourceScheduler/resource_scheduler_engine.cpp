@@ -1,9 +1,10 @@
 /********************************
  FileName: ResourceScheduler/resource_scheduler_engine.cpp
-
-
+ 
+ 
  Version:  0.1
  Description: resource scheduler engine
+*********************************/
 
 #include <sys/time.h>
 
@@ -18,3 +19,4 @@
 
 #include "common/clynn/rpc.h"
 #include "ResourceScheduler/resource_scheduler_engine.h"
+#include "include/classad_attr.h"
