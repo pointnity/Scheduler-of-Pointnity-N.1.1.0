@@ -26,3 +26,4 @@
 
 
 using log4cplus::Logger;
+using std::tr1::function;
