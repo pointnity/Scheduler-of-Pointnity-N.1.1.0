@@ -135,3 +135,5 @@ int ResourceSchedulerEngine::NewUpdateMachine(const string& machine_ad, const ve
 	        if(task_ad_ptr == NULL) {
 		    continue;
 	        }
+		
+    	        TaskID task_id;
