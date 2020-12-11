@@ -164,3 +164,4 @@ int ResourceSchedulerEngine::NewUpdateMachine(const string& machine_ad, const ve
     m_machine_pool[id] = machine_ptr;    
     UpdateMachineStamp(ip);
     return 0;
+}
