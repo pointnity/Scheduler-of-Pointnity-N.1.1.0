@@ -149,3 +149,5 @@ int ResourceSchedulerEngine::NewUpdateMachine(const string& machine_ad, const ve
 		    TemproryAllocResourceMap.erase(it_1);
 		}
 	    }
+
+	    //update new machine_ad
