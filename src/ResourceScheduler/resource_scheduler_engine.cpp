@@ -153,3 +153,4 @@ int ResourceSchedulerEngine::NewUpdateMachine(const string& machine_ad, const ve
 	    //update new machine_ad
 	    for(map<TaskID, AllocResource>::iterator it = TemproryAllocResourceMap.begin(); 
 		it != TemproryAllocResourceMap.end(); ++it){
+                if(machine_ptr->TempAllocResource(it->first, it->second) == false) {
