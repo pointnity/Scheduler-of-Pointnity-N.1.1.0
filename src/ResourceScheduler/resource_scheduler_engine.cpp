@@ -106,3 +106,4 @@ int ResourceSchedulerEngine::NewUpdateMachine(const string& machine_ad, const ve
 
     //new a machine object and parse it
     MachinePtr machine_ptr(new Machine(machine_ad_ptr));
+    if(!machine_ptr->ParseMachineAd()) {
