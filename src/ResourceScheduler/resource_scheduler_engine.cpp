@@ -102,3 +102,4 @@ int ResourceSchedulerEngine::NewUpdateMachine(const string& machine_ad, const ve
     if(machine_ad_ptr == NULL) {
 	LOG4CPLUS_ERROR(logger, "A machine_ad is null:" << machine_ad);
         return MachineError::MACHINE_ERROR_CLASSAD_SYNTAX;
+    }
