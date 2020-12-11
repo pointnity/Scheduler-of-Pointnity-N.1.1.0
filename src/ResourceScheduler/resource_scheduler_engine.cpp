@@ -113,3 +113,5 @@ int ResourceSchedulerEngine::NewUpdateMachine(const string& machine_ad, const ve
 
     //create a map from ip to id 
     int id;
+
+    string ip = machine_ptr->GetIp();
