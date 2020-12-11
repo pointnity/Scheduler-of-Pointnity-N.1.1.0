@@ -146,3 +146,4 @@ int ResourceSchedulerEngine::NewUpdateMachine(const string& machine_ad, const ve
 
 		map<TaskID, AllocResource>::iterator it_1 = TemproryAllocResourceMap.find(task_id);
 		if(it_1 != TemproryAllocResourceMap.end()) {
+		    TemproryAllocResourceMap.erase(it_1);
