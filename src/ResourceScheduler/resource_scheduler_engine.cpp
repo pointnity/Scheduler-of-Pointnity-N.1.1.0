@@ -134,3 +134,4 @@ int ResourceSchedulerEngine::NewUpdateMachine(const string& machine_ad, const ve
 	    for(vector<string>::const_iterator it = task_list.begin(); it != task_list.end(); ++it) {
 	        if(task_ad_ptr == NULL) {
 		    continue;
+	        }
