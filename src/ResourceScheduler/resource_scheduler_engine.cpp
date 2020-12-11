@@ -161,3 +161,4 @@ int ResourceSchedulerEngine::NewUpdateMachine(const string& machine_ad, const ve
     } 
 
     WriteLocker lock(m_machine_locks[id]);
+    m_machine_pool[id] = machine_ptr;    
