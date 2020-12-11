@@ -120,3 +120,4 @@ int ResourceSchedulerEngine::NewUpdateMachine(const string& machine_ad, const ve
 	try {
            Proxy<ExecutorClient> proxy = RpcClient<ExecutorClient>::GetProxy(endpoint);
            proxy().Exit();
+           } catch (TException &tx) {
