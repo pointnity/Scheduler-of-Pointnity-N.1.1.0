@@ -125,7 +125,7 @@ int ResourceSchedulerEngine::NewUpdateMachine(const string& machine_ad, const ve
            }
 	return MachineError::MACHINE_ERROR_NOT_FOUND;     
     }
-
     
     //update temporary alloc resource by task state
     if(m_machine_pool[id] != NULL){
+	map<TaskID, AllocResource> TemproryAllocResourceMap;
