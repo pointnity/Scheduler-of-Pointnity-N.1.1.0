@@ -130,3 +130,4 @@ int ResourceSchedulerEngine::NewUpdateMachine(const string& machine_ad, const ve
     if(m_machine_pool[id] != NULL){
 	map<TaskID, AllocResource> TemproryAllocResourceMap;
         if(m_machine_pool[id]->GetTemproryAllocResourceMap(TemproryAllocResourceMap) == true) {
+	    for(vector<string>::const_iterator it = task_list.begin(); it != task_list.end(); ++it) {
