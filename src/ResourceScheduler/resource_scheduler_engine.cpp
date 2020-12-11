@@ -122,3 +122,4 @@ int ResourceSchedulerEngine::NewUpdateMachine(const string& machine_ad, const ve
            proxy().Exit();
            } catch (TException &tx) {
                 LOG4CPLUS_ERROR(logger, "executor exit error:" << endpoint);
+           }
