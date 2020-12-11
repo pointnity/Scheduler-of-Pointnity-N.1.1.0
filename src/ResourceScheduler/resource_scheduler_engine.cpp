@@ -155,3 +155,4 @@ int ResourceSchedulerEngine::NewUpdateMachine(const string& machine_ad, const ve
 		it != TemproryAllocResourceMap.end(); ++it){
                 if(machine_ptr->TempAllocResource(it->first, it->second) == false) {
                     continue;
+                }
