@@ -119,3 +119,4 @@ int ResourceSchedulerEngine::NewUpdateMachine(const string& machine_ad, const ve
         string endpoint = machine_ptr->GetMachineEndpoint();
 	try {
            Proxy<ExecutorClient> proxy = RpcClient<ExecutorClient>::GetProxy(endpoint);
+           proxy().Exit();
