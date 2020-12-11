@@ -148,3 +148,4 @@ int ResourceSchedulerEngine::NewUpdateMachine(const string& machine_ad, const ve
 		if(it_1 != TemproryAllocResourceMap.end()) {
 		    TemproryAllocResourceMap.erase(it_1);
 		}
+	    }
