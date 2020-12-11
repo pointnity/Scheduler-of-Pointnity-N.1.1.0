@@ -124,3 +124,4 @@ int ResourceSchedulerEngine::NewUpdateMachine(const string& machine_ad, const ve
                 LOG4CPLUS_ERROR(logger, "executor exit error:" << endpoint);
            }
 	return MachineError::MACHINE_ERROR_NOT_FOUND;     
+    }
