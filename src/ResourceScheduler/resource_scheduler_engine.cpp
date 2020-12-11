@@ -143,3 +143,6 @@ int ResourceSchedulerEngine::NewUpdateMachine(const string& machine_ad, const ve
 	        if(task_ad_ptr->EvaluateAttrInt(ATTR_TASK_ID_RS, task_id.task_id) == false) {
        		    continue;
     	        }
+
+		map<TaskID, AllocResource>::iterator it_1 = TemproryAllocResourceMap.find(task_id);
+		if(it_1 != TemproryAllocResourceMap.end()) {
