@@ -110,3 +110,5 @@ int ResourceSchedulerEngine::NewUpdateMachine(const string& machine_ad, const ve
         LOG4CPLUS_ERROR(logger, "Failed to parse a machine_ad");
         return MachineError::MACHINE_ERROR_ATTR;
     }
+
+    //create a map from ip to id 
