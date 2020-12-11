@@ -128,3 +128,4 @@ int ResourceSchedulerEngine::NewUpdateMachine(const string& machine_ad, const ve
 
     
     //update temporary alloc resource by task state
+    if(m_machine_pool[id] != NULL){
