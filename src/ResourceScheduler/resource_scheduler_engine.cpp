@@ -129,3 +129,4 @@ int ResourceSchedulerEngine::NewUpdateMachine(const string& machine_ad, const ve
     //update temporary alloc resource by task state
     if(m_machine_pool[id] != NULL){
 	map<TaskID, AllocResource> TemproryAllocResourceMap;
+        if(m_machine_pool[id]->GetTemproryAllocResourceMap(TemproryAllocResourceMap) == true) {
