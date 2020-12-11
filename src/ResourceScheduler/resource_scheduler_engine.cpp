@@ -116,3 +116,4 @@ int ResourceSchedulerEngine::NewUpdateMachine(const string& machine_ad, const ve
 
     string ip = machine_ptr->GetIp();
     if(!GetIdByIp(id, ip)) {
+        string endpoint = machine_ptr->GetMachineEndpoint();
