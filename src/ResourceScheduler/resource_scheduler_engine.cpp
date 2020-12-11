@@ -139,3 +139,4 @@ int ResourceSchedulerEngine::NewUpdateMachine(const string& machine_ad, const ve
     	        TaskID task_id;
 	        if(task_ad_ptr->EvaluateAttrInt(ATTR_JOB_ID_RS, task_id.job_id) == false){
 		    continue;
+                } 
