@@ -121,3 +121,4 @@ int ResourceSchedulerEngine::NewUpdateMachine(const string& machine_ad, const ve
            Proxy<ExecutorClient> proxy = RpcClient<ExecutorClient>::GetProxy(endpoint);
            proxy().Exit();
            } catch (TException &tx) {
+                LOG4CPLUS_ERROR(logger, "executor exit error:" << endpoint);
