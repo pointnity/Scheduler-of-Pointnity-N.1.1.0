@@ -97,3 +97,5 @@ int ResourceSchedulerEngine::UpdateMachine(const string& machine_ad) {
 int ResourceSchedulerEngine::NewUpdateMachine(const string& machine_ad, const vector<string>& task_list) {
     //string to classad ptr
     ClassAdPtr machine_ad_ptr = ClassAdComplement::StringToAd(machine_ad);
+    
+    //check classad 
