@@ -157,3 +157,4 @@ int ResourceSchedulerEngine::NewUpdateMachine(const string& machine_ad, const ve
                     continue;
                 }
             }
+        } 
