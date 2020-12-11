@@ -156,3 +156,4 @@ int ResourceSchedulerEngine::NewUpdateMachine(const string& machine_ad, const ve
                 if(machine_ptr->TempAllocResource(it->first, it->second) == false) {
                     continue;
                 }
+            }
