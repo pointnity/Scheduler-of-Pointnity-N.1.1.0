@@ -99,3 +99,4 @@ int ResourceSchedulerEngine::NewUpdateMachine(const string& machine_ad, const ve
     ClassAdPtr machine_ad_ptr = ClassAdComplement::StringToAd(machine_ad);
     
     //check classad 
+    if(machine_ad_ptr == NULL) {
