@@ -197,4 +197,5 @@ MultiD_Resource ResourceSchedulerEngine::GetTotalResource() {
          r.total_cpu += cpu; 
 
          int32_t memory = 0;
-   
+         m_machine_pool[id]->GetMachineAd()->EvaluateAttrNumber(ATTR_TotalMemory, memory);
+
