@@ -186,3 +186,4 @@ MultiD_Resource ResourceSchedulerEngine::GetTotalResource() {
      r.total_disk = 0;
 
      ReadLocker lock(m_ip_to_id_map_lock); 
+     for(map<string, int>::iterator it = m_ip_to_id_map.begin(); it != m_ip_to_id_map.end(); ++it) {
