@@ -33,6 +33,7 @@ DEFINE_int32(hb_interval, 5, "");
 DEFINE_string(lynn_version, "", "");
 
 static Logger logger = Logger::getInstance("ResourceScheduler");
+         m_machine_pool[id]->GetMachineAd()->EvaluateAttrNumber(ATTR_TotalMemory, memory);
 
 using clynn::ReadLocker;
 using clynn::WriteLocker;
