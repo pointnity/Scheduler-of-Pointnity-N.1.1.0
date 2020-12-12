@@ -33,7 +33,6 @@ DEFINE_int32(hb_interval, 5, "");
 DEFINE_string(lynn_version, "", "");
 
 static Logger logger = Logger::getInstance("ResourceScheduler");
-         m_machine_pool[id]->GetMachineAd()->EvaluateAttrNumber(ATTR_TotalMemory, memory);
 
 using clynn::ReadLocker;
 using clynn::WriteLocker;
@@ -126,13 +125,13 @@ int ResourceSchedulerEngine::NewUpdateMachine(const string& machine_ad, const ve
            }
 	return MachineError::MACHINE_ERROR_NOT_FOUND;     
     }
-    	        ClassAdPtr task_ad_ptr = ClassAdComplement::StringToAd(*it);
-
+    
     //update temporary alloc resource by task state
     if(m_machine_pool[id] != NULL){
 	map<TaskID, AllocResource> TemproryAllocResourceMap;
         if(m_machine_pool[id]->GetTemproryAllocResourceMap(TemproryAllocResourceMap) == true) {
 	    for(vector<string>::const_iterator it = task_list.begin(); it != task_list.end(); ++it) {
+	        ClassAdPtr task_ad_ptr = ClassAdComplement::StringToAd(*it);
 	        if(task_ad_ptr == NULL) {
 		    continue;
 	        }
@@ -160,7 +159,7 @@ int ResourceSchedulerEngine::NewUpdateMachine(const string& machine_ad, const ve
             }
         } 
     } 
-
+       
     WriteLocker lock(m_machine_locks[id]);
     m_machine_pool[id] = machine_ptr;    
     UpdateMachineStamp(ip);
@@ -185,7 +184,7 @@ MultiD_Resource ResourceSchedulerEngine::GetTotalResource() {
      r.total_cpu = 0;
      r.total_memory = 0;
      r.total_disk = 0;
-
+    
      ReadLocker lock(m_ip_to_id_map_lock); 
      for(map<string, int>::iterator it = m_ip_to_id_map.begin(); it != m_ip_to_id_map.end(); ++it) {
          int id = it->second;
@@ -198,3 +197,4 @@ MultiD_Resource ResourceSchedulerEngine::GetTotalResource() {
          r.total_cpu += cpu; 
 
          int32_t memory = 0;
+   
