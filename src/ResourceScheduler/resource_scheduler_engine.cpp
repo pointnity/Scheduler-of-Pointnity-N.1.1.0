@@ -165,3 +165,6 @@ int ResourceSchedulerEngine::NewUpdateMachine(const string& machine_ad, const ve
     UpdateMachineStamp(ip);
     return 0;
 }
+
+
+int ResourceSchedulerEngine::DeleteMachine(const string& ip) {
