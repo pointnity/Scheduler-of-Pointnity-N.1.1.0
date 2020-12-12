@@ -176,3 +176,4 @@ int ResourceSchedulerEngine::DeleteMachine(const string& ip) {
     //empty ptr
     m_machine_pool[id] = MachinePtr();
     return 0;
+}
