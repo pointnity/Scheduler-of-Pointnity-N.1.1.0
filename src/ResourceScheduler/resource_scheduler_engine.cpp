@@ -184,3 +184,5 @@ MultiD_Resource ResourceSchedulerEngine::GetTotalResource() {
      r.total_cpu = 0;
      r.total_memory = 0;
      r.total_disk = 0;
+
+     ReadLocker lock(m_ip_to_id_map_lock); 
