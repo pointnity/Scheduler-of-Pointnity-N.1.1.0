@@ -174,3 +174,4 @@ int ResourceSchedulerEngine::DeleteMachine(const string& ip) {
     }
     WriteLocker lock(m_machine_locks[id]);
     //empty ptr
+    m_machine_pool[id] = MachinePtr();
