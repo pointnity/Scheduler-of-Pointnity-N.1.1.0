@@ -192,3 +192,4 @@ MultiD_Resource ResourceSchedulerEngine::GetTotalResource() {
 	 if(m_machine_pool[id] == NULL) {
 	     continue;
 	 }
+         int32_t cpu = 0;
