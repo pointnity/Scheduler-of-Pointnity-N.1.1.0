@@ -168,3 +168,4 @@ int ResourceSchedulerEngine::NewUpdateMachine(const string& machine_ad, const ve
 
 
 int ResourceSchedulerEngine::DeleteMachine(const string& ip) {
+    int id;
