@@ -193,3 +193,4 @@ MultiD_Resource ResourceSchedulerEngine::GetTotalResource() {
 	     continue;
 	 }
          int32_t cpu = 0;
+         m_machine_pool[id]->GetMachineAd()->EvaluateAttrNumber(ATTR_TotalCPUNum, cpu);
