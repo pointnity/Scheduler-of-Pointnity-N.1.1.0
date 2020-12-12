@@ -172,3 +172,4 @@ int ResourceSchedulerEngine::DeleteMachine(const string& ip) {
     if(!GetIdByIp(id, ip)) {
         return MachineError::MACHINE_ERROR_NOT_FOUND;
     }
+    WriteLocker lock(m_machine_locks[id]);
