@@ -170,3 +170,4 @@ int ResourceSchedulerEngine::NewUpdateMachine(const string& machine_ad, const ve
 int ResourceSchedulerEngine::DeleteMachine(const string& ip) {
     int id;
     if(!GetIdByIp(id, ip)) {
+        return MachineError::MACHINE_ERROR_NOT_FOUND;
