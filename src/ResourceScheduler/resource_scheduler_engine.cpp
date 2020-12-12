@@ -183,3 +183,4 @@ MultiD_Resource ResourceSchedulerEngine::GetTotalResource() {
      MultiD_Resource r;
      r.total_cpu = 0;
      r.total_memory = 0;
+     r.total_disk = 0;
