@@ -173,3 +173,4 @@ int ResourceSchedulerEngine::DeleteMachine(const string& ip) {
         return MachineError::MACHINE_ERROR_NOT_FOUND;
     }
     WriteLocker lock(m_machine_locks[id]);
+    //empty ptr
