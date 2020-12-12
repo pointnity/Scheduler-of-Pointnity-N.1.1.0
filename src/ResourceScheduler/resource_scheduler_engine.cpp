@@ -181,3 +181,4 @@ int ResourceSchedulerEngine::DeleteMachine(const string& ip) {
 
 MultiD_Resource ResourceSchedulerEngine::GetTotalResource() {
      MultiD_Resource r;
+     r.total_cpu = 0;
