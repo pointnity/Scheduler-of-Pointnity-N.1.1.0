@@ -231,3 +231,4 @@ void ResourceSchedulerEngine::UpdateMachineStamp(string ip) {
     map<string, int32_t>::iterator it = ip_to_stamp_map.find(ip);
     if(it != ip_to_stamp_map.end()) {
 	it->second = time(NULL);
+    } else {
