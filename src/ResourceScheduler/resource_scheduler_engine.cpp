@@ -269,3 +269,5 @@ bool ResourceSchedulerEngine::GetIdByIp(int& id, const string& ip) {
     //LOG4CPLUS_INFO(logger, "GetIdByIp " << id << " " << ip);
     return true;
 }
+
+bool ResourceSchedulerEngine::MapIpToId(int& id, const string& ip) {
