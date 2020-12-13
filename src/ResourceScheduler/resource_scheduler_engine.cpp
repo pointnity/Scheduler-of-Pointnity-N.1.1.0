@@ -254,3 +254,6 @@ int ResourceSchedulerEngine::InvokeHousekeeper() {
 int ResourceSchedulerEngine::CleanMachines(time_t now) {
     return 0;
 }
+
+void ResourceSchedulerEngine::HousekeeperTimer(int* count, uint64_t timer_id) {
+    InvokeHousekeeper();
