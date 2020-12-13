@@ -217,3 +217,5 @@ void ResourceSchedulerEngine::MachineMonitor() {
                 EventPtr event(new MachineDeleteEvent(it->first));
                // Push event into Queue
                 EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
+		    
+                LOG4CPLUS_INFO(logger, "Delete machine ip:" << it->first);
