@@ -203,3 +203,4 @@ MultiD_Resource ResourceSchedulerEngine::GetTotalResource() {
          int32_t disk = 0;
          m_machine_pool[id]->GetMachineAd()->EvaluateAttrNumber(ATTR_TotalDisk, disk);
          r.total_disk += disk;
+     }
