@@ -220,3 +220,4 @@ void ResourceSchedulerEngine::MachineMonitor() {
 		    
                 LOG4CPLUS_INFO(logger, "Delete machine ip:" << it->first);
 		ip_to_stamp_map.erase(it);
+	    }
