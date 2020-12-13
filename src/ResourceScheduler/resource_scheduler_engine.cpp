@@ -205,3 +205,4 @@ MultiD_Resource ResourceSchedulerEngine::GetTotalResource() {
          r.total_disk += disk;
      }
      return r;
+}
