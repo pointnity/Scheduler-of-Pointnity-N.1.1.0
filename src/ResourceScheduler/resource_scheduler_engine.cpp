@@ -245,3 +245,4 @@ int ResourceSchedulerEngine::InvokeHousekeeper() {
     if (now == (time_t)-1) {
         LOG4CPLUS_ERROR(logger, "Error in reading system time --- aborting");
         return -1;
+    }
