@@ -253,3 +253,4 @@ int ResourceSchedulerEngine::InvokeHousekeeper() {
 
 int ResourceSchedulerEngine::CleanMachines(time_t now) {
     return 0;
+}
