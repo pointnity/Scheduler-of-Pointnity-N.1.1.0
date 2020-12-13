@@ -246,3 +246,5 @@ int ResourceSchedulerEngine::InvokeHousekeeper() {
         LOG4CPLUS_ERROR(logger, "Error in reading system time --- aborting");
         return -1;
     }
+
+    CleanMachines(now);
