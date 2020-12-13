@@ -258,3 +258,5 @@ int ResourceSchedulerEngine::CleanMachines(time_t now) {
 void ResourceSchedulerEngine::HousekeeperTimer(int* count, uint64_t timer_id) {
     InvokeHousekeeper();
 }
+
+bool ResourceSchedulerEngine::GetIdByIp(int& id, const string& ip) {
