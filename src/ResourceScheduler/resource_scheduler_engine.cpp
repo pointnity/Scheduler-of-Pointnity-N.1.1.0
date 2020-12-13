@@ -206,3 +206,5 @@ MultiD_Resource ResourceSchedulerEngine::GetTotalResource() {
      }
      return r;
 }
+
+void ResourceSchedulerEngine::MachineMonitor() {
