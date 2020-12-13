@@ -224,3 +224,6 @@ void ResourceSchedulerEngine::MachineMonitor() {
         }
     }
 }
+
+
+void ResourceSchedulerEngine::UpdateMachineStamp(string ip) {
