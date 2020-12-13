@@ -219,3 +219,4 @@ void ResourceSchedulerEngine::MachineMonitor() {
                 EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
 		    
                 LOG4CPLUS_INFO(logger, "Delete machine ip:" << it->first);
+		ip_to_stamp_map.erase(it);
