@@ -234,3 +234,4 @@ void ResourceSchedulerEngine::UpdateMachineStamp(string ip) {
     } else {
 	ip_to_stamp_map[ip] = time(NULL);
     }
+}
