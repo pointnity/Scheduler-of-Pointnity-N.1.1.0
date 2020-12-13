@@ -216,3 +216,4 @@ void ResourceSchedulerEngine::MachineMonitor() {
 	        // new MachineUpdateEvent
                 EventPtr event(new MachineDeleteEvent(it->first));
                // Push event into Queue
+                EventDispatcherI::Instance()->Dispatch(event->GetType())->PushBack(event);
