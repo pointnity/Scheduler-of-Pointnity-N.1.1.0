@@ -240,3 +240,5 @@ void ResourceSchedulerEngine::UpdateMachineStamp(string ip) {
 int ResourceSchedulerEngine::InvokeHousekeeper() {
     time_t now;
     LOG4CPLUS_INFO(logger, "Begine to invoke house keeper.");
+
+    time(&now);  /// get the cur_time
