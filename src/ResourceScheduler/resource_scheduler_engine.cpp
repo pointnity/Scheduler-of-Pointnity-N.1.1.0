@@ -227,3 +227,4 @@ void ResourceSchedulerEngine::MachineMonitor() {
 
 
 void ResourceSchedulerEngine::UpdateMachineStamp(string ip) {
+    WriteLocker lock(ip_to_stamp_map_lock);
