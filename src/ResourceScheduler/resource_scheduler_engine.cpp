@@ -238,3 +238,4 @@ void ResourceSchedulerEngine::UpdateMachineStamp(string ip) {
 
 
 int ResourceSchedulerEngine::InvokeHousekeeper() {
+    time_t now;
