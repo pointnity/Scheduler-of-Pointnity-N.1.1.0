@@ -222,3 +222,4 @@ void ResourceSchedulerEngine::MachineMonitor() {
 		ip_to_stamp_map.erase(it);
 	    }
         }
+    }
