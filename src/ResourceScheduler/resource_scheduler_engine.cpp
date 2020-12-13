@@ -264,3 +264,4 @@ bool ResourceSchedulerEngine::GetIdByIp(int& id, const string& ip) {
     map<string, int>::iterator it = m_ip_to_id_map.find(ip);
     if(it == m_ip_to_id_map.end()) {
         return false;
+    }
