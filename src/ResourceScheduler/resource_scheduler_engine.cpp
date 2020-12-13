@@ -243,3 +243,4 @@ int ResourceSchedulerEngine::InvokeHousekeeper() {
 
     time(&now);  /// get the cur_time
     if (now == (time_t)-1) {
+        LOG4CPLUS_ERROR(logger, "Error in reading system time --- aborting");
