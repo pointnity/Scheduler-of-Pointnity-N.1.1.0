@@ -242,3 +242,4 @@ int ResourceSchedulerEngine::InvokeHousekeeper() {
     LOG4CPLUS_INFO(logger, "Begine to invoke house keeper.");
 
     time(&now);  /// get the cur_time
+    if (now == (time_t)-1) {
