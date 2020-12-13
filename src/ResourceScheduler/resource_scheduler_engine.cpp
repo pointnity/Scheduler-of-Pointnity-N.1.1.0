@@ -265,3 +265,4 @@ bool ResourceSchedulerEngine::GetIdByIp(int& id, const string& ip) {
     if(it == m_ip_to_id_map.end()) {
         return false;
     }
+    id = it->second;
