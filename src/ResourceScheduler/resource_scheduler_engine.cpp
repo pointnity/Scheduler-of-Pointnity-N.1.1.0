@@ -209,3 +209,4 @@ MultiD_Resource ResourceSchedulerEngine::GetTotalResource() {
 
 void ResourceSchedulerEngine::MachineMonitor() {
     WriteLocker lock(ip_to_stamp_map_lock);
+    if(ip_to_stamp_map.size() != 0) {
