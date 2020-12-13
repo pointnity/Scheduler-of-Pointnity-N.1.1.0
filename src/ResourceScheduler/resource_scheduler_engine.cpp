@@ -250,3 +250,5 @@ int ResourceSchedulerEngine::InvokeHousekeeper() {
     CleanMachines(now);
     return 1;
 }
+
+int ResourceSchedulerEngine::CleanMachines(time_t now) {
