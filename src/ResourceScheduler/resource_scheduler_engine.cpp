@@ -228,3 +228,4 @@ void ResourceSchedulerEngine::MachineMonitor() {
 
 void ResourceSchedulerEngine::UpdateMachineStamp(string ip) {
     WriteLocker lock(ip_to_stamp_map_lock);
+    map<string, int32_t>::iterator it = ip_to_stamp_map.find(ip);
