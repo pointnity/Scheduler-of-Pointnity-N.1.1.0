@@ -211,3 +211,4 @@ void ResourceSchedulerEngine::MachineMonitor() {
     WriteLocker lock(ip_to_stamp_map_lock);
     if(ip_to_stamp_map.size() != 0) {
 	//std::cout<< "map size:" << ip_to_stamp_map.size()<<std::endl;
+        for(map<string, int32_t>::iterator it = ip_to_stamp_map.begin(); it!= ip_to_stamp_map.end(); ++it) {
