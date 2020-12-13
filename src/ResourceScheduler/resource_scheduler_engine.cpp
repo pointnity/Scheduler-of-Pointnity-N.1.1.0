@@ -215,3 +215,4 @@ void ResourceSchedulerEngine::MachineMonitor() {
 	    if(time(NULL) - it->second > 10*FLAGS_hb_interval) {
 	        // new MachineUpdateEvent
                 EventPtr event(new MachineDeleteEvent(it->first));
+               // Push event into Queue
