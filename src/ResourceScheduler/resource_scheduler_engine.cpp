@@ -212,3 +212,4 @@ void ResourceSchedulerEngine::MachineMonitor() {
     if(ip_to_stamp_map.size() != 0) {
 	//std::cout<< "map size:" << ip_to_stamp_map.size()<<std::endl;
         for(map<string, int32_t>::iterator it = ip_to_stamp_map.begin(); it!= ip_to_stamp_map.end(); ++it) {
+	    if(time(NULL) - it->second > 10*FLAGS_hb_interval) {
