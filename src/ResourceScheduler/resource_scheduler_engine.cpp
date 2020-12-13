@@ -235,3 +235,6 @@ void ResourceSchedulerEngine::UpdateMachineStamp(string ip) {
 	ip_to_stamp_map[ip] = time(NULL);
     }
 }
+
+
+int ResourceSchedulerEngine::InvokeHousekeeper() {
