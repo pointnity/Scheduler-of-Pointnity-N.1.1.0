@@ -325,3 +325,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegotiatorTask(const ClassAdPtr ta
 	ClassAdPtr one_machine_ptr = m_machine_pool[id]->GetMachineAd(); 
         if(CheckAd(*one_machine_ptr) == false) {
             continue;     
+        }
