@@ -285,3 +285,4 @@ bool ResourceSchedulerEngine::MapIpToId(int& id, const string& ip) {
     }
 
     id = m_cur_id++;
+    m_ip_to_id_map[ip] = id;
