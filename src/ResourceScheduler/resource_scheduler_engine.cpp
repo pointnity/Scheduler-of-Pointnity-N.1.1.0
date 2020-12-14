@@ -279,3 +279,5 @@ bool ResourceSchedulerEngine::MapIpToId(int& id, const string& ip) {
         id = it->second;
         return true;
     }
+
+    if(m_cur_id == MACHINE_NUM) {
