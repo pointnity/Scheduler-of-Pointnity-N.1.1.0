@@ -307,3 +307,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegotiatorTask(const ClassAdPtr ta
     std::cout<<"yes"<<"\n"<<std::endl;
     int id;
     int match_machine_id;
+    bool match_flag = false;
