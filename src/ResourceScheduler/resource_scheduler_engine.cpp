@@ -306,3 +306,4 @@ int ResourceSchedulerEngine::FetchMachinesForNegotiator(const ClassAdPtr job, ve
 bool ResourceSchedulerEngine::FetchMachinesForNegotiatorTask(const ClassAdPtr task, string& machine_endpoint){
     std::cout<<"yes"<<"\n"<<std::endl;
     int id;
+    int match_machine_id;
