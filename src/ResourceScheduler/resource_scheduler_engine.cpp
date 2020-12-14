@@ -312,3 +312,5 @@ bool ResourceSchedulerEngine::FetchMachinesForNegotiatorTask(const ClassAdPtr ta
     string user;
     string name;
     int32_t size;
+
+    //ClassAd match_machine_ad;
