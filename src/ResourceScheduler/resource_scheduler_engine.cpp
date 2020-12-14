@@ -344,3 +344,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegotiatorTask(const ClassAdPtr ta
         if(is_match == true) {
 	    match_flag = true;
 	    if(is_first == true) {
+		machine = ClassAdComplement::AdTostring(one_machine_ptr);
