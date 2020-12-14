@@ -353,3 +353,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegotiatorTask(const ClassAdPtr ta
                 task->EvaluateAttrNumber(ATTR_TASK_RANK, rank_value);	
 		if(rank_value > rank_value_max) {
 		    rank_value_max = rank_value;
+		    machine = ClassAdComplement::AdTostring(one_machine_ptr);
