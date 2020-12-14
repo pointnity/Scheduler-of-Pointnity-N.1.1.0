@@ -338,3 +338,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegotiatorTask(const ClassAdPtr ta
 	task->alternateScope = one_machine_ptr.get();
         bool is_match = false;
 	bool is_first = true;
+	double rank_value;
