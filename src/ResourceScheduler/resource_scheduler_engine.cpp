@@ -275,3 +275,4 @@ bool ResourceSchedulerEngine::MapIpToId(int& id, const string& ip) {
     map<string, int>::iterator it = m_ip_to_id_map.find(ip);
 
     //for some special cases
+    if(it != m_ip_to_id_map.end()) {
