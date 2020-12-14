@@ -328,3 +328,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegotiatorTask(const ClassAdPtr ta
         }
 
 	task->EvaluateAttrString(ATTR_GROUP, user);
+        task->EvaluateAttrString(ATTR_Image, name);
