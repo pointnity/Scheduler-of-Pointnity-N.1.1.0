@@ -308,3 +308,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegotiatorTask(const ClassAdPtr ta
     int id;
     int match_machine_id;
     bool match_flag = false;
+    string machine;
