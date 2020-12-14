@@ -333,3 +333,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegotiatorTask(const ClassAdPtr ta
 
         if (false  == m_machine_pool[id]->GetMachineByImageInfo(user, name, size)) {
             continue;
+        }
