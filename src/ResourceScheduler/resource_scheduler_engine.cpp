@@ -289,3 +289,4 @@ bool ResourceSchedulerEngine::MapIpToId(int& id, const string& ip) {
 
     LOG4CPLUS_INFO(logger, "MapIdByIp " << id << " " << ip);
     return true;
+}
