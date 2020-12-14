@@ -276,3 +276,4 @@ bool ResourceSchedulerEngine::MapIpToId(int& id, const string& ip) {
 
     //for some special cases
     if(it != m_ip_to_id_map.end()) {
+        id = it->second;
