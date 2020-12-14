@@ -341,3 +341,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegotiatorTask(const ClassAdPtr ta
 	double rank_value;
 	double rank_value_max;
         task->EvaluateAttrBool(ATTR_TASK_REQUIREMENT, is_match);
+        if(is_match == true) {
