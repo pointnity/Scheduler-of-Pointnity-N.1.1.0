@@ -318,3 +318,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegotiatorTask(const ClassAdPtr ta
     for(map<string, int>::iterator it = m_ip_to_id_map.begin(); it != m_ip_to_id_map.end(); ++it) {
 	id = it->second;
         ReadLocker lock(m_machine_locks[id]);
+        if(m_machine_pool[id] == NULL) {
