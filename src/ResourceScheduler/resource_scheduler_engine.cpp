@@ -358,3 +358,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegotiatorTask(const ClassAdPtr ta
 		    match_machine_id = id;
 		}
 	    }
+	} else {
