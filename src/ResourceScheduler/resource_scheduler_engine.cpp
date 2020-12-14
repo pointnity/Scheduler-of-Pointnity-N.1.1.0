@@ -302,3 +302,4 @@ int ResourceSchedulerEngine::FetchMachinesForNegotiator(const ClassAdPtr job, ve
 //	@task: Poninter of the task to be matched 
 //	@machine: classad of the machine to be matched
 //Return:
+//	bool  
