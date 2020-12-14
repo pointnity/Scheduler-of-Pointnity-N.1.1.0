@@ -361,3 +361,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegotiatorTask(const ClassAdPtr ta
 	} else {
               continue;
         }
+    }
