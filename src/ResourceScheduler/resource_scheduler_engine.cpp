@@ -299,3 +299,4 @@ int ResourceSchedulerEngine::FetchMachinesForNegotiator(const ClassAdPtr job, ve
 
 
 //Argument:
+//	@task: Poninter of the task to be matched 
