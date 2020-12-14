@@ -357,3 +357,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegotiatorTask(const ClassAdPtr ta
 		    machine_endpoint = m_machine_pool[id]->GetMachineEndpoint();
 		    match_machine_id = id;
 		}
+	    }
