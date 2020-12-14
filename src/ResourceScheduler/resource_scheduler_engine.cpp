@@ -335,3 +335,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegotiatorTask(const ClassAdPtr ta
             continue;
         }
 	//match machine by task
+	task->alternateScope = one_machine_ptr.get();
