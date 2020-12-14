@@ -350,3 +350,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegotiatorTask(const ClassAdPtr ta
 		match_machine_id = id;
 		is_first = false;
 	    } else{
+                task->EvaluateAttrNumber(ATTR_TASK_RANK, rank_value);	
