@@ -326,3 +326,5 @@ bool ResourceSchedulerEngine::FetchMachinesForNegotiatorTask(const ClassAdPtr ta
         if(CheckAd(*one_machine_ptr) == false) {
             continue;     
         }
+
+	task->EvaluateAttrString(ATTR_GROUP, user);
