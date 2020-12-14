@@ -295,3 +295,4 @@ bool ResourceSchedulerEngine::MapIpToId(int& id, const string& ip) {
 //Todo
 int ResourceSchedulerEngine::FetchMachinesForNegotiator(const ClassAdPtr job, vector<ClassAd>& results){
     return 0;
+}
