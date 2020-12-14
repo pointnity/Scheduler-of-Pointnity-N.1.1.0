@@ -343,3 +343,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegotiatorTask(const ClassAdPtr ta
         task->EvaluateAttrBool(ATTR_TASK_REQUIREMENT, is_match);
         if(is_match == true) {
 	    match_flag = true;
+	    if(is_first == true) {
