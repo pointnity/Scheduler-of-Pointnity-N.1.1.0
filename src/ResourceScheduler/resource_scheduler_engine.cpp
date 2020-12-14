@@ -314,3 +314,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegotiatorTask(const ClassAdPtr ta
     int32_t size;
 
     //ClassAd match_machine_ad;
+    ReadLocker lock(m_ip_to_id_map_lock);
