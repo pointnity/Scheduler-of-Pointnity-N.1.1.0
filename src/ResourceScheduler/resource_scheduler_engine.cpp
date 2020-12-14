@@ -351,3 +351,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegotiatorTask(const ClassAdPtr ta
 		is_first = false;
 	    } else{
                 task->EvaluateAttrNumber(ATTR_TASK_RANK, rank_value);	
+		if(rank_value > rank_value_max) {
