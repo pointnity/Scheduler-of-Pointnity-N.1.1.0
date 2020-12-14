@@ -311,3 +311,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegotiatorTask(const ClassAdPtr ta
     string machine;
     string user;
     string name;
+    int32_t size;
