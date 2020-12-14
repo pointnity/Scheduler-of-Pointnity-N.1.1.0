@@ -345,3 +345,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegotiatorTask(const ClassAdPtr ta
 	    match_flag = true;
 	    if(is_first == true) {
 		machine = ClassAdComplement::AdTostring(one_machine_ptr);
+		machine_endpoint = m_machine_pool[id]->GetMachineEndpoint();
