@@ -395,3 +395,5 @@ bool ResourceSchedulerEngine::FetchMachinesForNegTaskConst(const ClassAdPtr task
         if(CheckAd(*one_machine_ptr) == false) {
             continue;     
         }
+
+	task->EvaluateAttrString(ATTR_GROUP, user);
