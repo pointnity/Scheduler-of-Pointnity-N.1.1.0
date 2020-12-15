@@ -425,3 +425,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegTaskConst(const ClassAdPtr task
 		 soft_constraint_ad->EvaluateAttrBool(ATTR_SOFT_REQUIREMENT, is_match_constraint);
         	 if(is_match_constraint == true) {
 			soft_constraint_ad->EvaluateAttrNumber(ATTR_SOFT_VALUE, constraint_value);
+			constraint_value_all += constraint_value;	
