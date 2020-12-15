@@ -430,3 +430,5 @@ bool ResourceSchedulerEngine::FetchMachinesForNegTaskConst(const ClassAdPtr task
 			continue;
 		 }
 	    }
+
+	    // get job rank
