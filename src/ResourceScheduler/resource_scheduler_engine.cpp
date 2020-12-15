@@ -420,3 +420,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegTaskConst(const ClassAdPtr task
 	    match_flag = true;
 	    //for soft constraint
 	    for(vector<string>::const_iterator it = soft_list.begin(); it != soft_list.end(); ++it) {
+		 ClassAdPtr soft_constraint_ad = ClassAdComplement::StringToAd(*it);
