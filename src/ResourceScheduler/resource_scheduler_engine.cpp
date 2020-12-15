@@ -417,3 +417,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegTaskConst(const ClassAdPtr task
         task->EvaluateAttrBool(ATTR_HARD_REQUIREMENT, is_match);
         if(is_match == true) {
 	    //std::cout<<"match a machine"<<std::endl;
+	    match_flag = true;
