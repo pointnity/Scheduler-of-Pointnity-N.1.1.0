@@ -415,3 +415,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegTaskConst(const ClassAdPtr task
         double job_rank_max;
 	double job_rank;
         task->EvaluateAttrBool(ATTR_HARD_REQUIREMENT, is_match);
+        if(is_match == true) {
