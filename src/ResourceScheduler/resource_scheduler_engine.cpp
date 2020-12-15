@@ -366,3 +366,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegotiatorTask(const ClassAdPtr ta
     if(match_flag == true) {
 	if(TempAllocResource(task, match_machine_id, machine) == false) {
 	    return false;
+	}
