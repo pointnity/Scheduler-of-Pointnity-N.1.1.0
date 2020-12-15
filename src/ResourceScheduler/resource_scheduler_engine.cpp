@@ -407,3 +407,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegTaskConst(const ClassAdPtr task
 	task->alternateScope = one_machine_ptr.get();
 	//for match hard requirement
         bool is_match = false;
+	//for match soft requirement
