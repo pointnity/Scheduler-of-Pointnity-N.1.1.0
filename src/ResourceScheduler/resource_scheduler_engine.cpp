@@ -411,3 +411,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegTaskConst(const ClassAdPtr task
 	bool is_match_constraint = false;
 	double rank_value_max;
 	double constraint_value;
+	double constraint_value_all = 0.0;
