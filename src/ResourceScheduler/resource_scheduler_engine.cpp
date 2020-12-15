@@ -379,3 +379,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegTaskConst(const ClassAdPtr task
     bool match_flag = false;
     bool is_first = true;
     string machine;
+    string user;
