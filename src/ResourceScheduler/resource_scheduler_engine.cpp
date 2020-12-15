@@ -399,3 +399,5 @@ bool ResourceSchedulerEngine::FetchMachinesForNegTaskConst(const ClassAdPtr task
 	task->EvaluateAttrString(ATTR_GROUP, user);
         task->EvaluateAttrString(ATTR_Image, name);
         task->EvaluateAttrNumber(ATTR_SIZE, size);
+
+	if (false  == m_machine_pool[id]->GetMachineByImageInfo(user, name, size)) {
