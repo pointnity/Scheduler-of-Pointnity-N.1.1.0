@@ -408,3 +408,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegTaskConst(const ClassAdPtr task
 	//for match hard requirement
         bool is_match = false;
 	//for match soft requirement
+	bool is_match_constraint = false;
