@@ -372,3 +372,6 @@ bool ResourceSchedulerEngine::FetchMachinesForNegotiatorTask(const ClassAdPtr ta
 	return false;
     }
 }
+
+bool ResourceSchedulerEngine::FetchMachinesForNegTaskConst(const ClassAdPtr task, const vector<string>& soft_list, string& machine_endpoint) {
+    int id;
