@@ -382,3 +382,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegTaskConst(const ClassAdPtr task
     string user;
     string name;
     int32_t size;
+    //ClassAd match_machine_ad;
