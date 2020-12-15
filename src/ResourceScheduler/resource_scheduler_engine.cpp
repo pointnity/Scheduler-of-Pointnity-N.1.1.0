@@ -385,3 +385,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegTaskConst(const ClassAdPtr task
     //ClassAd match_machine_ad;
     ReadLocker lock(m_ip_to_id_map_lock);
     for(map<string, int>::iterator it = m_ip_to_id_map.begin(); it != m_ip_to_id_map.end(); ++it) {
+	id = it->second;
