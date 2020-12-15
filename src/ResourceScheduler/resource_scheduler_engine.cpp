@@ -428,3 +428,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegTaskConst(const ClassAdPtr task
 			constraint_value_all += constraint_value;	
 	         } else {
 			continue;
+		 }
