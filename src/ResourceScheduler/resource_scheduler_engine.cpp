@@ -404,3 +404,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegTaskConst(const ClassAdPtr task
       	    continue;
 	}
 	//match machine by task
+	task->alternateScope = one_machine_ptr.get();
