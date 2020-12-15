@@ -433,3 +433,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegTaskConst(const ClassAdPtr task
 
 	    // get job rank
 	    task->EvaluateAttrNumber(ATTR_JOB_RANK, job_rank);
+	    //match a machine by soft_constraint and job_rank
