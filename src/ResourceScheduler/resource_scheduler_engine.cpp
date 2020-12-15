@@ -418,3 +418,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegTaskConst(const ClassAdPtr task
         if(is_match == true) {
 	    //std::cout<<"match a machine"<<std::endl;
 	    match_flag = true;
+	    //for soft constraint
