@@ -375,3 +375,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegotiatorTask(const ClassAdPtr ta
 
 bool ResourceSchedulerEngine::FetchMachinesForNegTaskConst(const ClassAdPtr task, const vector<string>& soft_list, string& machine_endpoint) {
     int id;
+    int match_machine_id;
