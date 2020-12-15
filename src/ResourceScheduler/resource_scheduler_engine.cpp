@@ -423,3 +423,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegTaskConst(const ClassAdPtr task
 		 ClassAdPtr soft_constraint_ad = ClassAdComplement::StringToAd(*it);
 		 soft_constraint_ad->alternateScope = one_machine_ptr.get();
 		 soft_constraint_ad->EvaluateAttrBool(ATTR_SOFT_REQUIREMENT, is_match_constraint);
+        	 if(is_match_constraint == true) {
