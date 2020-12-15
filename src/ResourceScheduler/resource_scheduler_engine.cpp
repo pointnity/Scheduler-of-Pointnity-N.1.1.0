@@ -432,3 +432,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegTaskConst(const ClassAdPtr task
 	    }
 
 	    // get job rank
+	    task->EvaluateAttrNumber(ATTR_JOB_RANK, job_rank);
