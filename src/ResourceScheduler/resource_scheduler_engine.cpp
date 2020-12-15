@@ -390,3 +390,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegTaskConst(const ClassAdPtr task
         if(m_machine_pool[id] == NULL) {
             continue;
         }
+        //ClassAd one_machine = *m_machine_pool[id]->GetMachineAd();
