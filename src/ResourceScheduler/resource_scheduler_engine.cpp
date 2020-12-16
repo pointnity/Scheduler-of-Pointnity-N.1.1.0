@@ -488,3 +488,4 @@ bool ResourceSchedulerEngine::TempAllocResource(const ClassAdPtr task, int match
         return false;
     }
     if(task->EvaluateAttrNumber(ATTR_MEMORY,alloc_resource.memory) == false){
+        return false;
