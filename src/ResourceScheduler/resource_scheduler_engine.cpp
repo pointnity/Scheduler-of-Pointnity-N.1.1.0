@@ -435,3 +435,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegTaskConst(const ClassAdPtr task
 	    task->EvaluateAttrNumber(ATTR_JOB_RANK, job_rank);
 	    //match a machine by soft_constraint and job_rank
 	    if(is_first == true) {
+		machine = ClassAdComplement::AdTostring(one_machine_ptr);
