@@ -516,3 +516,4 @@ void ResourceSchedulerEngine::GetMachineListByImageInfo(vector<string>& machine_
     if(true == is_update_all) {
 	for(map<string, int>::iterator it = m_ip_to_id_map.begin(); it != m_ip_to_id_map.end(); ++it) {
 	    id = it->second;
+            ReadLocker lock(m_machine_locks[id]);
