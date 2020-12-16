@@ -520,3 +520,4 @@ void ResourceSchedulerEngine::GetMachineListByImageInfo(vector<string>& machine_
             if(m_machine_pool[id] == NULL) {
                 continue;
             }
+	    machine_endpoint = m_machine_pool[id]->GetMachineEndpoint();
