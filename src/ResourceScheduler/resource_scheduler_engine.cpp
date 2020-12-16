@@ -502,3 +502,5 @@ bool ResourceSchedulerEngine::TempAllocResource(const ClassAdPtr task, int match
     }
     return true;
 }
+
+bool ResourceSchedulerEngine::CheckAd(const ClassAd& machine_ad){
