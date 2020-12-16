@@ -461,3 +461,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegTaskConst(const ClassAdPtr task
 	} else {
               continue;
         }
+    }
