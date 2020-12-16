@@ -481,3 +481,4 @@ bool ResourceSchedulerEngine::TempAllocResource(const ClassAdPtr task, int match
     if(CheckAd(*machine_ad_ptr) == false) {
         return false;
     }
+    //temp alloc resource
