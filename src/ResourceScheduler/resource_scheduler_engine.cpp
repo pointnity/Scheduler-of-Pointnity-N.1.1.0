@@ -482,3 +482,4 @@ bool ResourceSchedulerEngine::TempAllocResource(const ClassAdPtr task, int match
         return false;
     }
     //temp alloc resource
+    TaskID job_task_id;
