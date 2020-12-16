@@ -511,3 +511,4 @@ bool ResourceSchedulerEngine::CheckAd(const ClassAd& machine_ad){
 void ResourceSchedulerEngine::GetMachineListByImageInfo(vector<string>& machine_list, const string& user, const string& name, const int32_t size, bool is_update_all) {
     int id;
     string machine_endpoint;
+    machine_list.clear();
