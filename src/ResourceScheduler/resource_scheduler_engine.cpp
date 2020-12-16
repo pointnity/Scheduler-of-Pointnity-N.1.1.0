@@ -496,3 +496,6 @@ bool ResourceSchedulerEngine::TempAllocResource(const ClassAdPtr task, int match
     if(task->EvaluateAttrNumber(ATTR_TASK_ID, job_task_id.task_id) == false){
         return false;
     }
+
+    if(false == m_machine_pool[match_machine_id]->TempAllocResource(job_task_id, alloc_resource)) {
+        return false;
