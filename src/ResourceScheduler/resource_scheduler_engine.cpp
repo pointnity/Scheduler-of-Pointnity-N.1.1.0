@@ -479,3 +479,4 @@ bool ResourceSchedulerEngine::TempAllocResource(const ClassAdPtr task, int match
     ClassAdPtr machine_ad_ptr = ClassAdComplement::StringToAd(machine);
     //check machine classad
     if(CheckAd(*machine_ad_ptr) == false) {
+        return false;
