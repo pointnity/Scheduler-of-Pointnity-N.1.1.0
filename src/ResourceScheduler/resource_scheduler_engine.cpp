@@ -467,3 +467,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegTaskConst(const ClassAdPtr task
 	if(TempAllocResource(task, match_machine_id, machine) == false) {
 	    return false;
 	}
+        return true;
