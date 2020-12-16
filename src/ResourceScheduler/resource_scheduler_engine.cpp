@@ -507,3 +507,6 @@ bool ResourceSchedulerEngine::CheckAd(const ClassAd& machine_ad){
     //TODO
     return true;
 }
+
+void ResourceSchedulerEngine::GetMachineListByImageInfo(vector<string>& machine_list, const string& user, const string& name, const int32_t size, bool is_update_all) {
+    int id;
