@@ -501,3 +501,4 @@ bool ResourceSchedulerEngine::TempAllocResource(const ClassAdPtr task, int match
         return false;
     }
     return true;
+}
