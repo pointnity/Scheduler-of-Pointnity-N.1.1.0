@@ -513,3 +513,4 @@ void ResourceSchedulerEngine::GetMachineListByImageInfo(vector<string>& machine_
     string machine_endpoint;
     machine_list.clear();
     ReadLocker locker(m_ip_to_id_map_lock);
+    if(true == is_update_all) {
