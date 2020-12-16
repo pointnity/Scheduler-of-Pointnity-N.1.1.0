@@ -487,3 +487,4 @@ bool ResourceSchedulerEngine::TempAllocResource(const ClassAdPtr task, int match
     if(task->EvaluateAttrNumber(ATTR_VCPU,alloc_resource.cpu) == false){
         return false;
     }
+    if(task->EvaluateAttrNumber(ATTR_MEMORY,alloc_resource.memory) == false){
