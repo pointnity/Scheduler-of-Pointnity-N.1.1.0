@@ -456,3 +456,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegTaskConst(const ClassAdPtr task
                     	    match_machine_id = id;
 		       }
 	    } else {
+		   continue;
