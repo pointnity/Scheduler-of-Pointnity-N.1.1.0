@@ -449,3 +449,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegTaskConst(const ClassAdPtr task
 		    match_machine_id = id;
 	    } else if(constraint_value_all == rank_value_max) {
 		       if(job_rank > job_rank_max) {
+			    rank_value_max = constraint_value_all;
