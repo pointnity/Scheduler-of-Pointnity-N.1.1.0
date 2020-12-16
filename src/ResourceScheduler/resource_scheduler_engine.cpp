@@ -500,3 +500,4 @@ bool ResourceSchedulerEngine::TempAllocResource(const ClassAdPtr task, int match
     if(false == m_machine_pool[match_machine_id]->TempAllocResource(job_task_id, alloc_resource)) {
         return false;
     }
+    return true;
