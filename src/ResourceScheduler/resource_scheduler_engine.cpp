@@ -445,3 +445,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegTaskConst(const ClassAdPtr task
 		    rank_value_max = constraint_value_all;
 		    job_rank_max = job_rank;
 		    machine = ClassAdComplement::AdTostring(one_machine_ptr);
+		    machine_endpoint = m_machine_pool[id]->GetMachineEndpoint();
