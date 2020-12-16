@@ -521,3 +521,4 @@ void ResourceSchedulerEngine::GetMachineListByImageInfo(vector<string>& machine_
                 continue;
             }
 	    machine_endpoint = m_machine_pool[id]->GetMachineEndpoint();
+            machine_list.push_back(machine_endpoint);
