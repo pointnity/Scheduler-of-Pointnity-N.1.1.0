@@ -478,3 +478,4 @@ bool ResourceSchedulerEngine::FetchMachinesForNegTaskConst(const ClassAdPtr task
 bool ResourceSchedulerEngine::TempAllocResource(const ClassAdPtr task, int match_machine_id, const string& machine) {
     ClassAdPtr machine_ad_ptr = ClassAdComplement::StringToAd(machine);
     //check machine classad
+    if(CheckAd(*machine_ad_ptr) == false) {
