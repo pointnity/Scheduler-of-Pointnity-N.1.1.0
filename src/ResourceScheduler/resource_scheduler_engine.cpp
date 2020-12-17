@@ -531,3 +531,4 @@ void ResourceSchedulerEngine::GetMachineListByImageInfo(vector<string>& machine_
             	continue;
             }
             if (false  == m_machine_pool[id]->GetMachineByImageInfo(user, name, size))
+	    {
