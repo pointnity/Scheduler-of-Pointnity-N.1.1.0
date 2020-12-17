@@ -528,3 +528,4 @@ void ResourceSchedulerEngine::GetMachineListByImageInfo(vector<string>& machine_
             id = it->second;
 	    ReadLocker lock(m_machine_locks[id]);
             if(m_machine_pool[id] == NULL) {
+            	continue;
