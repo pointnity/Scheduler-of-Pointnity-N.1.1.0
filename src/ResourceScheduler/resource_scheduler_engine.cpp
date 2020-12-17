@@ -536,3 +536,4 @@ void ResourceSchedulerEngine::GetMachineListByImageInfo(vector<string>& machine_
 	    	machine_list.push_back(machine_endpoint);
             }
     	}
+    }
