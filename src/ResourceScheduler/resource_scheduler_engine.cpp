@@ -524,3 +524,4 @@ void ResourceSchedulerEngine::GetMachineListByImageInfo(vector<string>& machine_
             machine_list.push_back(machine_endpoint);
         }
     } else {
+	for(map<string, int>::iterator it = m_ip_to_id_map.begin(); it != m_ip_to_id_map.end(); ++it) {
