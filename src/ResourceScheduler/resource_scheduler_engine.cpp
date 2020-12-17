@@ -532,3 +532,4 @@ void ResourceSchedulerEngine::GetMachineListByImageInfo(vector<string>& machine_
             }
             if (false  == m_machine_pool[id]->GetMachineByImageInfo(user, name, size))
 	    {
+	    	machine_endpoint = m_machine_pool[id]->GetMachineEndpoint();
