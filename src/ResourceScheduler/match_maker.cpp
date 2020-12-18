@@ -10,3 +10,4 @@
 #include <log4cplus/loggingmacros.h>
 
 #include "common/classad/classad_complement.h"
+#include "include/classad_attr.h"
