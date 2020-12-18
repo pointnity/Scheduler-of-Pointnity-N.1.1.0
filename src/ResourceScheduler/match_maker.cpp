@@ -37,3 +37,5 @@ int MatchMaker::Negotiation(const string& job, vector<string>& candidates) {
          return 1; 
     }
     MatchList match_list;
+
+    return 0;
