@@ -57,3 +57,4 @@ int MatchMaker::NegotiationTask(const string& task, string& machine) {
 
 int MatchMaker::NegotiationTaskConstraint(const string& task, const vector<string>& soft_list, string& machine) {
     //LOG4CPLUS_INFO(logger, "receive a task:" << task);
+    ClassAdPtr task_ad = ClassAdComplement::StringToAd(task);
