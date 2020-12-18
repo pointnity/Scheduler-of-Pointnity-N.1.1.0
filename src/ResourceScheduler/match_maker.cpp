@@ -42,3 +42,4 @@ int MatchMaker::Negotiation(const string& job, vector<string>& candidates) {
 }
 
 int MatchMaker::NegotiationTask(const string& task, string& machine) {
+    LOG4CPLUS_INFO(logger, "receive a task:" << task);
