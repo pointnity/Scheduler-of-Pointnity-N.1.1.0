@@ -24,3 +24,4 @@ int MatchMaker::Negotiation(const string& job, vector<string>& candidates) {
     ClassAdPtr job_ad = ClassAdComplement::StringToAd(job);
     if(job_ad == NULL) {
         LOG4CPLUS_ERROR(logger, "invalid job ad");
+        return 1; 
