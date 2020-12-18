@@ -31,3 +31,4 @@ int MatchMaker::Negotiation(const string& job, vector<string>& candidates) {
         LOG4CPLUS_ERROR(logger, "no num_task or num_task < 1");
         return 1;
     }
+    vector<ClassAd> machine_ads;
