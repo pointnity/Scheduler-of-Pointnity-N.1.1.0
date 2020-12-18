@@ -45,3 +45,4 @@ int MatchMaker::NegotiationTask(const string& task, string& machine) {
     LOG4CPLUS_INFO(logger, "receive a task:" << task);
     ClassAdPtr task_ad = ClassAdComplement::StringToAd(task);
     if(task_ad == NULL) {
+        LOG4CPLUS_ERROR(logger, "invalid task ad");
