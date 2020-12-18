@@ -32,3 +32,4 @@ int MatchMaker::Negotiation(const string& job, vector<string>& candidates) {
         return 1;
     }
     vector<ClassAd> machine_ads;
+    if(COLLECTOR_ENGINE::Instance()->FetchMachinesForNegotiator(job_ad, machine_ads) == 0){  
