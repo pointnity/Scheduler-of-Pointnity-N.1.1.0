@@ -11,3 +11,4 @@
 
 #include "common/classad/classad_complement.h"
 #include "include/classad_attr.h"
+#include "ResourceScheduler/match_maker.h"
