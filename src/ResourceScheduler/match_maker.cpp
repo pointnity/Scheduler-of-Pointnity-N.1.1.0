@@ -49,3 +49,4 @@ int MatchMaker::NegotiationTask(const string& task, string& machine) {
         return 1;
     }
     if(COLLECTOR_ENGINE::Instance()->FetchMachinesForNegotiatorTask(task_ad, machine) == 0){
+         LOG4CPLUS_ERROR(logger, "no server info, aborting negotiation cycle");
