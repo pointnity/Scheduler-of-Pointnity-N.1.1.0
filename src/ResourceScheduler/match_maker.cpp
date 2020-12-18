@@ -53,3 +53,4 @@ int MatchMaker::NegotiationTask(const string& task, string& machine) {
          return 1;
     }
     return 0;
+}
