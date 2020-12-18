@@ -48,3 +48,4 @@ int MatchMaker::NegotiationTask(const string& task, string& machine) {
         LOG4CPLUS_ERROR(logger, "invalid task ad");
         return 1;
     }
+    if(COLLECTOR_ENGINE::Instance()->FetchMachinesForNegotiatorTask(task_ad, machine) == 0){
