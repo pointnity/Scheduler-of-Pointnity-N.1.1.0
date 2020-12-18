@@ -52,3 +52,4 @@ int MatchMaker::NegotiationTask(const string& task, string& machine) {
          LOG4CPLUS_ERROR(logger, "no server info, aborting negotiation cycle");
          return 1;
     }
+    return 0;
