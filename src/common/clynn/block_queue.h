@@ -15,3 +15,4 @@
 #include "common/clynn/mutex.h"
 
 using std::list;
+using clynn::Mutex;
