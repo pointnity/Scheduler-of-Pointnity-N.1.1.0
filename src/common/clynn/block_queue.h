@@ -33,3 +33,5 @@ namespace clynn {
                 delete m_empty;
                 delete m_mutex;
             }
+
+            void PushBack(const T& element) {
