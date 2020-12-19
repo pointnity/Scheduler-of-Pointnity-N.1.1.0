@@ -33,5 +33,6 @@ namespace clynn {
                 delete m_empty;
                 delete m_mutex;
             }
+                MutexLocker locker(*m_mutex);
 
             void PushBack(const T& element) {
