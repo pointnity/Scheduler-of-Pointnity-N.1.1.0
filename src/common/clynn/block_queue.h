@@ -46,3 +46,4 @@ namespace clynn {
                 if (Size() <= 0)
                     m_empty->Wait(*m_mutex);
                 *value = m_queue.front();
+                m_queue.pop_front();
