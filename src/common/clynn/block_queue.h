@@ -40,3 +40,5 @@ namespace clynn {
                 if (Size() == 1)
                     m_empty->Signal();
             }
+
+            void PopFront(T* value) {
