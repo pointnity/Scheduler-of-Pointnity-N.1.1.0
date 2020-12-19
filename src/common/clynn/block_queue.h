@@ -24,3 +24,4 @@ namespace clynn {
     template <typename T>
     class BlockQueue {
         public:
+            BlockQueue() {
