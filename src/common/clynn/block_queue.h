@@ -39,3 +39,4 @@ namespace clynn {
                 m_queue.push_back(element);
                 if (Size() == 1)
                     m_empty->Signal();
+            }
