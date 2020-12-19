@@ -42,3 +42,4 @@ namespace clynn {
             }
 
             void PopFront(T* value) {
+                MutexLocker locker(*m_mutex);
