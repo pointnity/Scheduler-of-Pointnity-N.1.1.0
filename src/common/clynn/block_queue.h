@@ -8,3 +8,5 @@
 
 #ifndef COMMON_BLOCK_QUEUE_H
 #define COMMON_BLOCK_QUEUE_H
+
+#include <list>
