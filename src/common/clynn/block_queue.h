@@ -37,3 +37,4 @@ namespace clynn {
 
             void PushBack(const T& element) {
                 m_queue.push_back(element);
+                if (Size() == 1)
