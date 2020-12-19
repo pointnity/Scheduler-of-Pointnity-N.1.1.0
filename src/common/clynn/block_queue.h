@@ -30,3 +30,4 @@ namespace clynn {
             }
 
             ~BlockQueue() {
+                delete m_empty;
