@@ -78,3 +78,5 @@ namespace clynn {
                 if (Size() <= 0)
                     m_empty->Wait(*m_mutex);
             }
+
+        private:
