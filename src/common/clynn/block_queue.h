@@ -60,3 +60,4 @@ namespace clynn {
                         return false;
                     }
                 }
+                *value = m_queue.front();
