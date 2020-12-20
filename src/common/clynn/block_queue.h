@@ -77,3 +77,4 @@ namespace clynn {
                 MutexLocker locker(*m_mutex);
                 if (Size() <= 0)
                     m_empty->Wait(*m_mutex);
+            }
