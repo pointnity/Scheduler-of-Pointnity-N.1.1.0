@@ -71,3 +71,4 @@ namespace clynn {
 
             bool IsEmpty() {
                 return m_queue.empty();
+            }
