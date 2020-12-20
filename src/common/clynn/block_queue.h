@@ -52,3 +52,4 @@ namespace clynn {
             bool PopFront(T* value, size_t timeout) {
                 MutexLocker locker(*m_mutex);
                 if (Size() <= 0) {
+                    if (m_empty->Wait(*m_mutex, timeout) == 0) {
