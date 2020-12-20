@@ -83,3 +83,4 @@ namespace clynn {
             Cond* m_empty;
             Mutex* m_mutex;
             // block queue by a list
+            list<T> m_queue;
