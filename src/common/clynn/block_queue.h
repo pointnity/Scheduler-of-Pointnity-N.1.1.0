@@ -85,3 +85,5 @@ namespace clynn {
             // block queue by a list
             list<T> m_queue;
     };
+
+}
