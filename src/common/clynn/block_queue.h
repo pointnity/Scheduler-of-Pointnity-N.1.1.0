@@ -84,3 +84,4 @@ namespace clynn {
             Mutex* m_mutex;
             // block queue by a list
             list<T> m_queue;
+    };
