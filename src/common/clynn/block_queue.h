@@ -59,3 +59,4 @@ namespace clynn {
                     } else {
                         return false;
                     }
+                }
