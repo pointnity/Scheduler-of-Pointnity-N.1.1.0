@@ -81,3 +81,4 @@ namespace clynn {
 
         private:
             Cond* m_empty;
+            Mutex* m_mutex;
