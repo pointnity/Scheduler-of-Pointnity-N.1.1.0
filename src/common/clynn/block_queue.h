@@ -74,3 +74,4 @@ namespace clynn {
             }
 
             void Wait() {
+                MutexLocker locker(*m_mutex);
