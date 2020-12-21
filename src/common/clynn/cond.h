@@ -36,3 +36,4 @@ namespace clynn {
 
 
             /// block the thread, waitting to be woken up
+            void Wait(Mutex& mutex){
