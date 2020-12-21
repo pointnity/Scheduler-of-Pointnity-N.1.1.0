@@ -13,3 +13,5 @@
 
 #include <string>
 #include "common/clynn/mutex.h"
+
+using std::runtime_error;
