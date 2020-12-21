@@ -33,3 +33,6 @@ namespace clynn {
             void Signal(){
                 CheckError("Cond::Signal", pthread_cond_signal(&m_cond));
             }
+
+
+            /// block the thread, waitting to be woken up
