@@ -54,3 +54,4 @@ namespace clynn {
             void CheckError(const char* info, int code){
                 if (code != 0) {
                     string msg = info;
+                    msg += " error: ";
