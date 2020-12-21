@@ -59,3 +59,4 @@ namespace clynn {
                     throw runtime_error(msg);
                 }
             }
+            pthread_cond_t m_cond;
