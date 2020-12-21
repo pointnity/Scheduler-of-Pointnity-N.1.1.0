@@ -62,3 +62,5 @@ namespace clynn {
             pthread_cond_t m_cond;
     };
 }
+
+#endif
