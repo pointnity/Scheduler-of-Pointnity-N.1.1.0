@@ -30,3 +30,4 @@ namespace clynn {
             }
 
             /// send signal to wake up the thread
+            void Signal(){
