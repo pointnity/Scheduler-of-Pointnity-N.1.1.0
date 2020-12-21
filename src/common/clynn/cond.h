@@ -37,3 +37,4 @@ namespace clynn {
 
             /// block the thread, waitting to be woken up
             void Wait(Mutex& mutex){
+                CheckError("Cond::Wait", pthread_cond_wait(&m_cond, &(mutex.m_lock)));
