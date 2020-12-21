@@ -42,3 +42,4 @@ namespace clynn {
 
             /// block the thread with timeout
             int Wait(Mutex& mutex, size_t timeout){
+                struct timespec time;
