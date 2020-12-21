@@ -45,3 +45,4 @@ namespace clynn {
                 struct timespec time;
                 time.tv_sec = timeout;
                 time.tv_nsec = 0;
+                int ret = pthread_cond_timedwait(&m_cond, &(mutex.m_lock), &time);
