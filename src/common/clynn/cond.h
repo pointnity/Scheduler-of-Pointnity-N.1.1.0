@@ -32,3 +32,4 @@ namespace clynn {
             /// send signal to wake up the thread
             void Signal(){
                 CheckError("Cond::Signal", pthread_cond_signal(&m_cond));
+            }
