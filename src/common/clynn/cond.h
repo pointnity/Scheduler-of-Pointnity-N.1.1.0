@@ -24,3 +24,5 @@ namespace clynn {
             Cond() {
                 CheckError("Cond::Cond", pthread_cond_init(&m_cond, NULL));
             }
+
+            ~Cond() { 
