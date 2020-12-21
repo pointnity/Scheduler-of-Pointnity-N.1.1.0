@@ -49,3 +49,5 @@ namespace clynn {
                 CheckError("Cond::TimeWait", ret);
                 return ret;
             }
+
+        private:
