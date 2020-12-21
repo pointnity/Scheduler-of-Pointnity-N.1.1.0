@@ -44,3 +44,4 @@ namespace clynn {
             int Wait(Mutex& mutex, size_t timeout){
                 struct timespec time;
                 time.tv_sec = timeout;
+                time.tv_nsec = 0;
