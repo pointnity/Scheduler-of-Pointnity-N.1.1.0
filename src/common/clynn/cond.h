@@ -27,3 +27,4 @@ namespace clynn {
 
             ~Cond() { 
                 pthread_cond_destroy(&m_cond);
+            }
