@@ -58,3 +58,4 @@ namespace clynn {
                     msg += strerror(code);
                     throw runtime_error(msg);
                 }
+            }
