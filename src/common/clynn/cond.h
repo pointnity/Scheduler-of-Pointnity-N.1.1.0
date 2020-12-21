@@ -20,3 +20,4 @@ using std::string;
 namespace clynn {
 
     class Cond {
+        public:
