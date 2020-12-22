@@ -44,3 +44,4 @@ int get_ip(char* str) {
         return -1;
     }
 }
+#endif
