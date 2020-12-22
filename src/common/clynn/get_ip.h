@@ -18,3 +18,4 @@ using std::string;
 int get_ip(char* str) {
     addrinfo hint;
     memset(&hint, 0, sizeof(hint));
+    hint.ai_family = AF_INET;
