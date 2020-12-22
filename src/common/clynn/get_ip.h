@@ -33,3 +33,4 @@ int get_ip(char* str) {
     if (curr != NULL) {
         // get the fisrt address as ip
         char* ip = inet_ntoa(((sockaddr_in* )(res->ai_addr))->sin_addr);
+        strcpy(str, ip);
