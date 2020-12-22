@@ -37,3 +37,4 @@ int get_ip(char* str) {
         while (curr != NULL) {
             addrinfo* tmp = curr->ai_next;
             freeaddrinfo(curr);
+            curr = tmp;
