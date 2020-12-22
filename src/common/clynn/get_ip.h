@@ -54,3 +54,4 @@ int get_ip(const char* interface, char * ip)
     if (sock == -1) {
         perror("socket");
         return -1;      
+    }
