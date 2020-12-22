@@ -39,3 +39,4 @@ int get_ip(char* str) {
             freeaddrinfo(curr);
             curr = tmp;
         }
+        return 0;
