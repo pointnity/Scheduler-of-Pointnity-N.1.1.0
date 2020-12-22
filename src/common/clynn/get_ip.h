@@ -41,3 +41,4 @@ int get_ip(char* str) {
         }
         return 0;
     } else {
+        return -1;
