@@ -65,3 +65,4 @@ int get_ip(const char* interface, char * ip)
     char * tmp = inet_ntoa(sin.sin_addr);
     strncpy(ip, tmp, strlen(tmp));
     return 0;
+}
