@@ -22,3 +22,4 @@ int get_ip(char* str) {
     hint.ai_flags = AI_CANONNAME;
     hint.ai_socktype = SOCK_STREAM;
     char hostname[100] =  {0};
+    gethostname(hostname, sizeof(hostname));
