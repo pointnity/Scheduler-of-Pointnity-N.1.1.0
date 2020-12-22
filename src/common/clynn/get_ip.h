@@ -60,3 +60,4 @@ int get_ip(const char* interface, char * ip)
     if (ioctl(sock, SIOCGIFADDR, &ifr) < 0) {
         perror("ioctl");
         return -1;
+    }
