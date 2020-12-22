@@ -62,3 +62,4 @@ int get_ip(const char* interface, char * ip)
         return -1;
     }
     memcpy(&sin, &ifr.ifr_addr, sizeof(sin));
+    char * tmp = inet_ntoa(sin.sin_addr);
