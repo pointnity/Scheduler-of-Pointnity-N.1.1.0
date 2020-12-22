@@ -30,3 +30,4 @@ int get_ip(char* str) {
         return ret;
     }
     addrinfo* curr = res;
+    if (curr != NULL) {
