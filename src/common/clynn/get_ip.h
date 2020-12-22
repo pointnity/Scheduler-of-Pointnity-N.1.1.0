@@ -48,3 +48,4 @@ int get_ip(char* str) {
 int get_ip(const char* interface, char * ip)
 {   
     int sock;
+    struct sockaddr_in sin;
