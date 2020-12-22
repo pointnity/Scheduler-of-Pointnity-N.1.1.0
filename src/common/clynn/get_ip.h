@@ -55,3 +55,4 @@ int get_ip(const char* interface, char * ip)
         perror("socket");
         return -1;      
     }
+    strncpy(ifr.ifr_name, interface, IFNAMSIZ);
