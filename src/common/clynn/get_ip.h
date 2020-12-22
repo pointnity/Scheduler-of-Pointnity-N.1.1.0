@@ -40,3 +40,4 @@ int get_ip(char* str) {
             curr = tmp;
         }
         return 0;
+    } else {
