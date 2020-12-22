@@ -52,3 +52,4 @@ int get_ip(const char* interface, char * ip)
     struct ifreq ifr;
     sock = socket(AF_INET, SOCK_DGRAM, 0);
     if (sock == -1) {
+        perror("socket");
