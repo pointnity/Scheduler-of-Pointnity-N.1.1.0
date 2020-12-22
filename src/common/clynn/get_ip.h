@@ -28,3 +28,4 @@ int get_ip(char* str) {
     if ((ret = getaddrinfo(hostname, NULL, &hint, &res)) < 0) {
         LOG(ERROR) << "get ip error: " << gai_strerror(ret);
         return ret;
+    }
