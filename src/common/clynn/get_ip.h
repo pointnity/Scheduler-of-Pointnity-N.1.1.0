@@ -56,3 +56,4 @@ int get_ip(const char* interface, char * ip)
         return -1;      
     }
     strncpy(ifr.ifr_name, interface, IFNAMSIZ);
+    ifr.ifr_name[IFNAMSIZ - 1] = 0;
