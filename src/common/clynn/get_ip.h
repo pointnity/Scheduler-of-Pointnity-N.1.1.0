@@ -16,3 +16,4 @@
 using std::string;
 #if 0
 int get_ip(char* str) {
+    addrinfo hint;
