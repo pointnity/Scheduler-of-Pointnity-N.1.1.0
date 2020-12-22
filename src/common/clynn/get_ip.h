@@ -50,3 +50,4 @@ int get_ip(const char* interface, char * ip)
     int sock;
     struct sockaddr_in sin;
     struct ifreq ifr;
+    sock = socket(AF_INET, SOCK_DGRAM, 0);
