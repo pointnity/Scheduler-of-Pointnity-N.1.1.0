@@ -45,3 +45,4 @@ int get_ip(char* str) {
     }
 }
 #endif
+int get_ip(const char* interface, char * ip)
