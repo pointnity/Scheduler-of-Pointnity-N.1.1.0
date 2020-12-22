@@ -35,3 +35,4 @@ int get_ip(char* str) {
         char* ip = inet_ntoa(((sockaddr_in* )(res->ai_addr))->sin_addr);
         strcpy(str, ip);
         while (curr != NULL) {
+            addrinfo* tmp = curr->ai_next;
