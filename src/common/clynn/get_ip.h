@@ -59,3 +59,4 @@ int get_ip(const char* interface, char * ip)
     ifr.ifr_name[IFNAMSIZ - 1] = 0;
     if (ioctl(sock, SIOCGIFADDR, &ifr) < 0) {
         perror("ioctl");
+        return -1;
