@@ -10,3 +10,4 @@
 #include <netdb.h>
 #include <string>
 #include <string.h>
+#include <errno.h>
