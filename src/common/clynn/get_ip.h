@@ -24,3 +24,4 @@ int get_ip(char* str) {
     char hostname[100] =  {0};
     gethostname(hostname, sizeof(hostname));
     int ret;
+    addrinfo* res;
