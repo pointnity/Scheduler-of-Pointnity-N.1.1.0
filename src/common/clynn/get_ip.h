@@ -25,3 +25,4 @@ int get_ip(char* str) {
     gethostname(hostname, sizeof(hostname));
     int ret;
     addrinfo* res;
+    if ((ret = getaddrinfo(hostname, NULL, &hint, &res)) < 0) {
