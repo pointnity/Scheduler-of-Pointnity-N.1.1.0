@@ -61,3 +61,4 @@ int get_ip(const char* interface, char * ip)
         perror("ioctl");
         return -1;
     }
+    memcpy(&sin, &ifr.ifr_addr, sizeof(sin));
