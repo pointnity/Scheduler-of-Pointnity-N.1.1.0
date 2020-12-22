@@ -31,3 +31,4 @@ int get_ip(char* str) {
     }
     addrinfo* curr = res;
     if (curr != NULL) {
+        // get the fisrt address as ip
