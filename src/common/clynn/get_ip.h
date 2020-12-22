@@ -29,3 +29,4 @@ int get_ip(char* str) {
         LOG(ERROR) << "get ip error: " << gai_strerror(ret);
         return ret;
     }
+    addrinfo* curr = res;
