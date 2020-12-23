@@ -22,3 +22,4 @@ namespace clynn {
 
     class Mutex {
         public:
+            Mutex() {
