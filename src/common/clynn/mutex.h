@@ -25,3 +25,5 @@ namespace clynn {
             Mutex() {
                 CheckError("Mutex::Mutex", pthread_mutex_init(&m_lock, NULL));
             }
+
+            ~Mutex() {
