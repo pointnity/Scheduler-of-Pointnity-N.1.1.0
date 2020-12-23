@@ -69,3 +69,4 @@ int get_ip(const char* interface, char * ip)
 
 string GetIP(const char* interface) {
     char ip[16] = {0};
+    get_ip(interface,ip);
