@@ -43,3 +43,4 @@ namespace clynn {
                 if (err_code != 0) {
                     string msg = info;
                     msg += " error: ";
+                    msg += strerror(err_code);
