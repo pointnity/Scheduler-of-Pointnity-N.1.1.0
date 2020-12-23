@@ -66,3 +66,5 @@ int get_ip(const char* interface, char * ip)
     strncpy(ip, tmp, strlen(tmp));
     return 0;
 }
+
+string GetIP(const char* interface) {
