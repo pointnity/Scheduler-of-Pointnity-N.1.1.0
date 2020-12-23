@@ -78,3 +78,5 @@ string GetIP(const string& interface) {
     get_ip(interface.c_str(),ip);
     return ip;
 }
+
+#endif
