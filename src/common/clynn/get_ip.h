@@ -72,3 +72,5 @@ string GetIP(const char* interface) {
     get_ip(interface,ip);
     return ip;
 }
+
+string GetIP(const string& interface) {
