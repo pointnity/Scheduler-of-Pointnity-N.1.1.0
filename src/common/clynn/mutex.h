@@ -39,3 +39,4 @@ namespace clynn {
             }
 
         private:
+            void CheckError(const char* info, int err_code) {
