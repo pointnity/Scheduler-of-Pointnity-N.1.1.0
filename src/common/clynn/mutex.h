@@ -7,3 +7,4 @@
 *********************************/
 
 #ifndef COMMON_MUTEX_H
+#define COMMON_MUTEX_H
