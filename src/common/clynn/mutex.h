@@ -36,3 +36,4 @@ namespace clynn {
 
             void Unlock() {
                 CheckError("Mutex::Unlock", pthread_mutex_unlock(&m_lock));
+            }
