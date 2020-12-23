@@ -32,3 +32,4 @@ namespace clynn {
 
             void Lock() {
                 CheckError("Mutex::Lock", pthread_mutex_lock(&m_lock));
+            }
