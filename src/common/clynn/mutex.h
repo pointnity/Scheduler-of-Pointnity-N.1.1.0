@@ -16,3 +16,4 @@
 #include <stdexcept>
 
 using std::string;
+using std::runtime_error;
