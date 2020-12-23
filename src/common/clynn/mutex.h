@@ -29,3 +29,5 @@ namespace clynn {
             ~Mutex() {
                 pthread_mutex_destroy(&m_lock);
             }
+
+            void Lock() {
