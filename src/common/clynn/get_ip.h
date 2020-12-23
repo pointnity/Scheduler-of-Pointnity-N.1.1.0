@@ -74,3 +74,4 @@ string GetIP(const char* interface) {
 }
 
 string GetIP(const string& interface) {
+    char ip[16] = {0};
