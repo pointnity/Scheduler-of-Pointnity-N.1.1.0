@@ -55,3 +55,4 @@ namespace clynn {
 
 
     class MutexLocker {
+        public:
